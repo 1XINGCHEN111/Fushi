@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64651 (3803 per locale)
+/// Strings: 64685 (3805 per locale)
 ///
-/// Built on 2026-08-25 at 07:05 UTC
+/// Built on 2026-08-25 at 14:38 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4561,8 +4561,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_global_search_hint => 'Search every enabled source';
   String get manga_global_search_prompt =>
       'Type a title to search every enabled manga source at once.';
-  String get manga_global_search_no_sources =>
-      'No enabled manga sources. Install and enable an extension first.';
   String get anki_connect_addon_install => 'Install AnkiConnect';
   String get anki_connect_addon_install_hint =>
       'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
@@ -5174,6 +5172,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get book_file_location_open => 'Open file location';
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  String get manga_global_search_open_sources => 'Go to Import';
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -12943,9 +12946,6 @@ class _StringsAr extends _StringsEn {
   String get manga_global_search_prompt =>
       'اكتب عنواناً للبحث في جميع مصادر المانغا المُفعّلة دفعة واحدة.';
   @override
-  String get manga_global_search_no_sources =>
-      'لا توجد مصادر مانغا مُفعّلة. ثبّت وفعّل إضافة أولاً.';
-  @override
   String get anki_connect_addon_install => 'تثبيت AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -13985,6 +13985,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -21936,9 +21944,6 @@ class _StringsDe extends _StringsEn {
   String get manga_global_search_prompt =>
       'Geben Sie einen Titel ein, um alle aktivierten Manga-Quellen gleichzeitig zu durchsuchen.';
   @override
-  String get manga_global_search_no_sources =>
-      'Keine aktivierten Manga-Quellen. Installieren und aktivieren Sie zuerst eine Erweiterung.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect installieren';
   @override
   String get anki_connect_addon_install_hint =>
@@ -22999,6 +23004,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -30984,9 +30997,6 @@ class _StringsEs extends _StringsEn {
   String get manga_global_search_prompt =>
       'Escriba un título para buscar en todas las fuentes de manga activas a la vez.';
   @override
-  String get manga_global_search_no_sources =>
-      'Sin fuentes de manga activas. Instale y active una extensión primero.';
-  @override
   String get anki_connect_addon_install => 'Instalar AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -32056,6 +32066,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -40068,9 +40086,6 @@ class _StringsFr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Tapez un titre pour rechercher dans toutes les sources de manga activées à la fois.';
   @override
-  String get manga_global_search_no_sources =>
-      'Aucune source de manga activée. Installez et activez d\'abord une extension.';
-  @override
   String get anki_connect_addon_install => 'Installer AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -41142,6 +41157,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -49012,9 +49035,6 @@ class _StringsId extends _StringsEn {
   String get manga_global_search_prompt =>
       'Ketik judul untuk mencari setiap sumber manga yang aktif sekaligus.';
   @override
-  String get manga_global_search_no_sources =>
-      'Tidak ada sumber manga yang aktif. Instal dan aktifkan ekstensi terlebih dahulu.';
-  @override
   String get anki_connect_addon_install => 'Instal AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -50062,6 +50082,14 @@ class _StringsId extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -57994,9 +58022,6 @@ class _StringsIt extends _StringsEn {
   String get manga_global_search_prompt =>
       'Digita un titolo per cercare in ogni fonte manga abilitata contemporaneamente.';
   @override
-  String get manga_global_search_no_sources =>
-      'Nessuna fonte manga abilitata. Installa e abilita prima un\'estensione.';
-  @override
   String get anki_connect_addon_install => 'Installa AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -59054,6 +59079,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -66511,9 +66544,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_global_search_prompt => 'タイトルを入力して、すべての有効なマンガソースを一括検索します。';
   @override
-  String get manga_global_search_no_sources =>
-      '有効なマンガソースがありません。まず拡張機能をインストールして有効にしてください。';
-  @override
   String get anki_connect_addon_install => 'AnkiConnectをインストール';
   @override
   String get anki_connect_addon_install_hint =>
@@ -67503,6 +67533,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -74972,9 +75010,6 @@ class _StringsKo extends _StringsEn {
   String get manga_global_search_prompt =>
       '제목을 입력하면 활성화된 모든 만화 소스를 한 번에 검색합니다.';
   @override
-  String get manga_global_search_no_sources =>
-      '활성화된 만화 소스가 없습니다. 먼저 확장을 설치하고 활성화하세요.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect 설치';
   @override
   String get anki_connect_addon_install_hint =>
@@ -75968,6 +76003,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -83865,9 +83908,6 @@ class _StringsNl extends _StringsEn {
   String get manga_global_search_prompt =>
       'Typ een titel om elke ingeschakelde mangabron tegelijk te doorzoeken.';
   @override
-  String get manga_global_search_no_sources =>
-      'Geen ingeschakelde mangabronnen. Installeer en schakel eerst een extensie in.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect installeren';
   @override
   String get anki_connect_addon_install_hint =>
@@ -84920,6 +84960,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -92860,9 +92908,6 @@ class _StringsPtBr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Digite um título para buscar em todas as fontes de mangá ativadas de uma vez.';
   @override
-  String get manga_global_search_no_sources =>
-      'Nenhuma fonte de mangá ativada. Instale e ative uma extensão primeiro.';
-  @override
   String get anki_connect_addon_install => 'Instalar AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -93928,6 +93973,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -101843,9 +101896,6 @@ class _StringsRu extends _StringsEn {
   String get manga_global_search_prompt =>
       'Введите название для поиска по всем включённым источникам манги одновременно.';
   @override
-  String get manga_global_search_no_sources =>
-      'Нет включённых источников манги. Сначала установите и включите расширение.';
-  @override
   String get anki_connect_addon_install => 'Установить AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -102909,6 +102959,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -110667,9 +110725,6 @@ class _StringsTh extends _StringsEn {
   String get manga_global_search_prompt =>
       'พิมพ์ชื่อเรื่องเพื่อค้นหาทุกแหล่งมังงะที่เปิดใช้งานพร้อมกัน';
   @override
-  String get manga_global_search_no_sources =>
-      'ไม่มีแหล่งมังงะที่เปิดใช้งาน ติดตั้งและเปิดใช้งานส่วนขยายก่อน';
-  @override
   String get anki_connect_addon_install => 'ติดตั้ง AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -111713,6 +111768,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -119566,9 +119629,6 @@ class _StringsTr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Etkin tüm manga kaynaklarında aynı anda aramak için bir başlık yazın.';
   @override
-  String get manga_global_search_no_sources =>
-      'Etkin manga kaynağı yok. Önce bir eklenti yükleyip etkinleştirin.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect\'i yükle';
   @override
   String get anki_connect_addon_install_hint =>
@@ -120619,6 +120679,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -128450,9 +128518,6 @@ class _StringsVi extends _StringsEn {
   String get manga_global_search_prompt =>
       'Nhập tựa đề để tìm kiếm tất cả nguồn truyện tranh đã bật cùng lúc.';
   @override
-  String get manga_global_search_no_sources =>
-      'Không có nguồn truyện tranh nào được bật. Cài đặt và bật một tiện ích mở rộng trước.';
-  @override
   String get anki_connect_addon_install => 'Cài đặt AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -129507,6 +129572,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 // Path: <root>
@@ -136738,8 +136811,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_global_search_prompt => '输入书名，一次搜索所有已启用的漫画来源。';
   @override
-  String get manga_global_search_no_sources => '没有已启用的漫画来源，请先安装并启用扩展。';
-  @override
   String get anki_connect_addon_install => '安装 AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -137679,6 +137750,12 @@ class _StringsZhCn extends _StringsEn {
   String get book_file_location_open => '打开文件位置';
   @override
   String get book_file_location_failed => '无法打开这本书的文件位置。';
+  @override
+  String get manga_global_search_no_sources => '还没有已启用的漫画来源，去「导入」添加一个。';
+  @override
+  String get manga_global_search_open_sources => '去导入';
+  @override
+  String get settings_downloads_open_page_hint => '打开下载页（任务 / 资源 / 订阅）';
 }
 
 // Path: <root>
@@ -144917,8 +144994,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_global_search_prompt => '輸入書名，一次搜索所有已啟用的漫畫來源。';
   @override
-  String get manga_global_search_no_sources => '沒有已啟用的漫畫來源，請先安裝並啟用擴展。';
-  @override
   String get anki_connect_addon_install => '安裝 AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -145869,6 +145944,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
 }
 
 /// Flat map(s) containing all translations.
@@ -152793,8 +152876,6 @@ extension on _StringsEn {
         return 'Search every enabled source';
       case 'manga_global_search_prompt':
         return 'Type a title to search every enabled manga source at once.';
-      case 'manga_global_search_no_sources':
-        return 'No enabled manga sources. Install and enable an extension first.';
       case 'anki_connect_addon_install':
         return 'Install AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -153670,6 +153751,12 @@ extension on _StringsEn {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -160590,8 +160677,6 @@ extension on _StringsAr {
         return 'بحث في كل مصدر مُفعّل';
       case 'manga_global_search_prompt':
         return 'اكتب عنواناً للبحث في جميع مصادر المانغا المُفعّلة دفعة واحدة.';
-      case 'manga_global_search_no_sources':
-        return 'لا توجد مصادر مانغا مُفعّلة. ثبّت وفعّل إضافة أولاً.';
       case 'anki_connect_addon_install':
         return 'تثبيت AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -161468,6 +161553,12 @@ extension on _StringsAr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -168424,8 +168515,6 @@ extension on _StringsDe {
         return 'Jede aktivierte Quelle durchsuchen';
       case 'manga_global_search_prompt':
         return 'Geben Sie einen Titel ein, um alle aktivierten Manga-Quellen gleichzeitig zu durchsuchen.';
-      case 'manga_global_search_no_sources':
-        return 'Keine aktivierten Manga-Quellen. Installieren und aktivieren Sie zuerst eine Erweiterung.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect installieren';
       case 'anki_connect_addon_install_hint':
@@ -169306,6 +169395,12 @@ extension on _StringsDe {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -176256,8 +176351,6 @@ extension on _StringsEs {
         return 'Buscar en todas las fuentes activas';
       case 'manga_global_search_prompt':
         return 'Escriba un título para buscar en todas las fuentes de manga activas a la vez.';
-      case 'manga_global_search_no_sources':
-        return 'Sin fuentes de manga activas. Instale y active una extensión primero.';
       case 'anki_connect_addon_install':
         return 'Instalar AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -177136,6 +177229,12 @@ extension on _StringsEs {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -184094,8 +184193,6 @@ extension on _StringsFr {
         return 'Rechercher dans chaque source activée';
       case 'manga_global_search_prompt':
         return 'Tapez un titre pour rechercher dans toutes les sources de manga activées à la fois.';
-      case 'manga_global_search_no_sources':
-        return 'Aucune source de manga activée. Installez et activez d\'abord une extension.';
       case 'anki_connect_addon_install':
         return 'Installer AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -184974,6 +185071,12 @@ extension on _StringsFr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -191909,8 +192012,6 @@ extension on _StringsId {
         return 'Cari setiap sumber yang aktif';
       case 'manga_global_search_prompt':
         return 'Ketik judul untuk mencari setiap sumber manga yang aktif sekaligus.';
-      case 'manga_global_search_no_sources':
-        return 'Tidak ada sumber manga yang aktif. Instal dan aktifkan ekstensi terlebih dahulu.';
       case 'anki_connect_addon_install':
         return 'Instal AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -192786,6 +192887,12 @@ extension on _StringsId {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -199739,8 +199846,6 @@ extension on _StringsIt {
         return 'Cerca in ogni fonte abilitata';
       case 'manga_global_search_prompt':
         return 'Digita un titolo per cercare in ogni fonte manga abilitata contemporaneamente.';
-      case 'manga_global_search_no_sources':
-        return 'Nessuna fonte manga abilitata. Installa e abilita prima un\'estensione.';
       case 'anki_connect_addon_install':
         return 'Installa AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -200618,6 +200723,12 @@ extension on _StringsIt {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -207510,8 +207621,6 @@ extension on _StringsJa {
         return 'すべてのソースを検索';
       case 'manga_global_search_prompt':
         return 'タイトルを入力して、すべての有効なマンガソースを一括検索します。';
-      case 'manga_global_search_no_sources':
-        return '有効なマンガソースがありません。まず拡張機能をインストールして有効にしてください。';
       case 'anki_connect_addon_install':
         return 'AnkiConnectをインストール';
       case 'anki_connect_addon_install_hint':
@@ -208386,6 +208495,12 @@ extension on _StringsJa {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -215280,8 +215395,6 @@ extension on _StringsKo {
         return '활성화된 모든 소스 검색';
       case 'manga_global_search_prompt':
         return '제목을 입력하면 활성화된 모든 만화 소스를 한 번에 검색합니다.';
-      case 'manga_global_search_no_sources':
-        return '활성화된 만화 소스가 없습니다. 먼저 확장을 설치하고 활성화하세요.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect 설치';
       case 'anki_connect_addon_install_hint':
@@ -216156,6 +216269,12 @@ extension on _StringsKo {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -223102,8 +223221,6 @@ extension on _StringsNl {
         return 'Doorzoek elke ingeschakelde bron';
       case 'manga_global_search_prompt':
         return 'Typ een titel om elke ingeschakelde mangabron tegelijk te doorzoeken.';
-      case 'manga_global_search_no_sources':
-        return 'Geen ingeschakelde mangabronnen. Installeer en schakel eerst een extensie in.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect installeren';
       case 'anki_connect_addon_install_hint':
@@ -223981,6 +224098,12 @@ extension on _StringsNl {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -230923,8 +231046,6 @@ extension on _StringsPtBr {
         return 'Buscar em todas as fontes ativadas';
       case 'manga_global_search_prompt':
         return 'Digite um título para buscar em todas as fontes de mangá ativadas de uma vez.';
-      case 'manga_global_search_no_sources':
-        return 'Nenhuma fonte de mangá ativada. Instale e ative uma extensão primeiro.';
       case 'anki_connect_addon_install':
         return 'Instalar AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -231802,6 +231923,12 @@ extension on _StringsPtBr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -238751,8 +238878,6 @@ extension on _StringsRu {
         return 'Поиск по всем включённым источникам';
       case 'manga_global_search_prompt':
         return 'Введите название для поиска по всем включённым источникам манги одновременно.';
-      case 'manga_global_search_no_sources':
-        return 'Нет включённых источников манги. Сначала установите и включите расширение.';
       case 'anki_connect_addon_install':
         return 'Установить AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -239630,6 +239755,12 @@ extension on _StringsRu {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -246555,8 +246686,6 @@ extension on _StringsTh {
         return 'ค้นหาทุกแหล่งที่เปิดใช้งาน';
       case 'manga_global_search_prompt':
         return 'พิมพ์ชื่อเรื่องเพื่อค้นหาทุกแหล่งมังงะที่เปิดใช้งานพร้อมกัน';
-      case 'manga_global_search_no_sources':
-        return 'ไม่มีแหล่งมังงะที่เปิดใช้งาน ติดตั้งและเปิดใช้งานส่วนขยายก่อน';
       case 'anki_connect_addon_install':
         return 'ติดตั้ง AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -247432,6 +247561,12 @@ extension on _StringsTh {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -254371,8 +254506,6 @@ extension on _StringsTr {
         return 'Etkin tüm kaynaklarda ara';
       case 'manga_global_search_prompt':
         return 'Etkin tüm manga kaynaklarında aynı anda aramak için bir başlık yazın.';
-      case 'manga_global_search_no_sources':
-        return 'Etkin manga kaynağı yok. Önce bir eklenti yükleyip etkinleştirin.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect\'i yükle';
       case 'anki_connect_addon_install_hint':
@@ -255249,6 +255382,12 @@ extension on _StringsTr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -262182,8 +262321,6 @@ extension on _StringsVi {
         return 'Tìm kiếm mọi nguồn đã bật';
       case 'manga_global_search_prompt':
         return 'Nhập tựa đề để tìm kiếm tất cả nguồn truyện tranh đã bật cùng lúc.';
-      case 'manga_global_search_no_sources':
-        return 'Không có nguồn truyện tranh nào được bật. Cài đặt và bật một tiện ích mở rộng trước.';
       case 'anki_connect_addon_install':
         return 'Cài đặt AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -263060,6 +263197,12 @@ extension on _StringsVi {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
@@ -269933,8 +270076,6 @@ extension on _StringsZhCn {
         return '搜索所有已启用来源';
       case 'manga_global_search_prompt':
         return '输入书名，一次搜索所有已启用的漫画来源。';
-      case 'manga_global_search_no_sources':
-        return '没有已启用的漫画来源，请先安装并启用扩展。';
       case 'anki_connect_addon_install':
         return '安装 AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -270809,6 +270950,12 @@ extension on _StringsZhCn {
         return '打开文件位置';
       case 'book_file_location_failed':
         return '无法打开这本书的文件位置。';
+      case 'manga_global_search_no_sources':
+        return '还没有已启用的漫画来源，去「导入」添加一个。';
+      case 'manga_global_search_open_sources':
+        return '去导入';
+      case 'settings_downloads_open_page_hint':
+        return '打开下载页（任务 / 资源 / 订阅）';
       default:
         return null;
     }
@@ -277683,8 +277830,6 @@ extension on _StringsZhHk {
         return '搜索所有已啟用來源';
       case 'manga_global_search_prompt':
         return '輸入書名，一次搜索所有已啟用的漫畫來源。';
-      case 'manga_global_search_no_sources':
-        return '沒有已啟用的漫畫來源，請先安裝並啟用擴展。';
       case 'anki_connect_addon_install':
         return '安裝 AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -278559,6 +278704,12 @@ extension on _StringsZhHk {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
       default:
         return null;
     }
