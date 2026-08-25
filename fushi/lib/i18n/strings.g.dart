@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64719 (3807 per locale)
+/// Strings: 64736 (3808 per locale)
 ///
-/// Built on 2026-08-25 at 15:54 UTC
+/// Built on 2026-08-25 at 16:21 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5181,6 +5181,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_global_search_open_sources => 'Go to Import';
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -14003,6 +14004,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -23028,6 +23031,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -32096,6 +32101,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -41193,6 +41200,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -50124,6 +50133,8 @@ class _StringsId extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -59127,6 +59138,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -67587,6 +67600,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -76063,6 +76078,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -85026,6 +85043,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -94045,6 +94064,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -103037,6 +103058,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -111852,6 +111875,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -120769,6 +120794,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -129668,6 +129695,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 // Path: <root>
@@ -137850,6 +137879,8 @@ class _StringsZhCn extends _StringsEn {
   String get manga_global_search_open_sources => '去导入';
   @override
   String get settings_downloads_open_page_hint => '打开下载页（任务 / 资源 / 订阅）';
+  @override
+  String get download_video_source_required => '需要视频来源';
 }
 
 // Path: <root>
@@ -146052,6 +146083,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
 }
 
 /// Flat map(s) containing all translations.
@@ -153862,6 +153895,8 @@ extension on _StringsEn {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -161669,6 +161704,8 @@ extension on _StringsAr {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -169516,6 +169553,8 @@ extension on _StringsDe {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -177355,6 +177394,8 @@ extension on _StringsEs {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -185202,6 +185243,8 @@ extension on _StringsFr {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -193023,6 +193066,8 @@ extension on _StringsId {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -200864,6 +200909,8 @@ extension on _StringsIt {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -208641,6 +208688,8 @@ extension on _StringsJa {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -216420,6 +216469,8 @@ extension on _StringsKo {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -224254,6 +224305,8 @@ extension on _StringsNl {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -232084,6 +232137,8 @@ extension on _StringsPtBr {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -239921,6 +239976,8 @@ extension on _StringsRu {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -247732,6 +247789,8 @@ extension on _StringsTh {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -255558,6 +255617,8 @@ extension on _StringsTr {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -263378,6 +263439,8 @@ extension on _StringsVi {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
@@ -271135,6 +271198,8 @@ extension on _StringsZhCn {
         return '去导入';
       case 'settings_downloads_open_page_hint':
         return '打开下载页（任务 / 资源 / 订阅）';
+      case 'download_video_source_required':
+        return '需要视频来源';
       default:
         return null;
     }
@@ -278894,6 +278959,8 @@ extension on _StringsZhHk {
         return 'Go to Import';
       case 'settings_downloads_open_page_hint':
         return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
       default:
         return null;
     }
