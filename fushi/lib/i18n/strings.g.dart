@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64753 (3809 per locale)
+/// Strings: 64821 (3813 per locale)
 ///
-/// Built on 2026-08-26 at 01:41 UTC
+/// Built on 2026-08-26 at 01:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5184,6 +5184,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_video_source_required => 'Video source required';
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  String get video_subtitle_delete => 'Delete subtitle file';
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -14011,6 +14018,17 @@ class _StringsAr extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -23041,6 +23059,17 @@ class _StringsDe extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -32114,6 +32143,17 @@ class _StringsEs extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -41216,6 +41256,17 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -50152,6 +50203,17 @@ class _StringsId extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -59160,6 +59222,17 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -67625,6 +67698,17 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -76106,6 +76190,17 @@ class _StringsKo extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -85074,6 +85169,17 @@ class _StringsNl extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -94098,6 +94204,17 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -103095,6 +103212,17 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -111915,6 +112043,17 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -120837,6 +120976,17 @@ class _StringsTr extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -129741,6 +129891,17 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -137929,6 +138090,16 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       '上一次捕获会话还没释放干净，Fushi 正在自动重试，不用做任何操作。';
+  @override
+  String get video_subtitle_delete => '删除字幕文件';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      '确定从磁盘删除这个字幕文件？此操作不可撤销。\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) => '已删除字幕文件：${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      '删除字幕文件失败：${label}';
 }
 
 // Path: <root>
@@ -146137,6 +146308,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_stale_session =>
       '上一次捕獲會話還沒釋放乾淨，Fushi 正在自動重試，不用做任何操作。';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 /// Flat map(s) containing all translations.
@@ -153951,6 +154133,16 @@ extension on _StringsEn {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -161762,6 +161954,16 @@ extension on _StringsAr {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -169613,6 +169815,16 @@ extension on _StringsDe {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -177456,6 +177668,16 @@ extension on _StringsEs {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -185307,6 +185529,16 @@ extension on _StringsFr {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -193132,6 +193364,16 @@ extension on _StringsId {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -200977,6 +201219,16 @@ extension on _StringsIt {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -208758,6 +209010,16 @@ extension on _StringsJa {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -216541,6 +216803,16 @@ extension on _StringsKo {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -224379,6 +224651,16 @@ extension on _StringsNl {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -232213,6 +232495,16 @@ extension on _StringsPtBr {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -240054,6 +240346,16 @@ extension on _StringsRu {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -247869,6 +248171,16 @@ extension on _StringsTh {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -255699,6 +256011,16 @@ extension on _StringsTr {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -263523,6 +263845,16 @@ extension on _StringsVi {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -271284,6 +271616,14 @@ extension on _StringsZhCn {
         return '需要视频来源';
       case 'game_hook_reason_stale_session':
         return '上一次捕获会话还没释放干净，Fushi 正在自动重试，不用做任何操作。';
+      case 'video_subtitle_delete':
+        return '删除字幕文件';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) => '确定从磁盘删除这个字幕文件？此操作不可撤销。\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => '已删除字幕文件：${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => '删除字幕文件失败：${label}';
       default:
         return null;
     }
@@ -279047,6 +279387,16 @@ extension on _StringsZhHk {
         return 'Video source required';
       case 'game_hook_reason_stale_session':
         return '上一次捕獲會話還沒釋放乾淨，Fushi 正在自動重試，不用做任何操作。';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
