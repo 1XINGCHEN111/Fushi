@@ -5174,6 +5174,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get book_file_location_open => 'Open file location';
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  String get delete_local_files => 'Also delete local files';
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -13985,6 +13990,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -22999,6 +23012,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -32056,6 +32077,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -41142,6 +41171,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -50062,6 +50099,14 @@ class _StringsId extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -59054,6 +59099,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -67503,6 +67556,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -75968,6 +76029,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -84920,6 +84989,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -93928,6 +94005,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -102909,6 +102994,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -111713,6 +111806,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -120619,6 +120720,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -129507,6 +129616,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 // Path: <root>
@@ -137679,6 +137796,12 @@ class _StringsZhCn extends _StringsEn {
   String get book_file_location_open => '打开文件位置';
   @override
   String get book_file_location_failed => '无法打开这本书的文件位置。';
+  @override
+  String get delete_local_files => '同时删除本地文件';
+  @override
+  String get delete_local_files_desc => '原始文件将从本设备删除，无法恢复';
+  @override
+  String get delete_local_files_video_desc => '视频文件将从本设备删除，对应的下载任务一并清除，无法恢复';
 }
 
 // Path: <root>
@@ -145869,6 +145992,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get delete_local_files => 'Also delete local files';
+  @override
+  String get delete_local_files_desc =>
+      'The original files are removed from this device. This cannot be undone.';
+  @override
+  String get delete_local_files_video_desc =>
+      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
 }
 
 /// Flat map(s) containing all translations.
@@ -153670,6 +153801,12 @@ extension on _StringsEn {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -161468,6 +161605,12 @@ extension on _StringsAr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -169306,6 +169449,12 @@ extension on _StringsDe {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -177136,6 +177285,12 @@ extension on _StringsEs {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -184974,6 +185129,12 @@ extension on _StringsFr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -192786,6 +192947,12 @@ extension on _StringsId {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -200618,6 +200785,12 @@ extension on _StringsIt {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -208386,6 +208559,12 @@ extension on _StringsJa {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -216156,6 +216335,12 @@ extension on _StringsKo {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -223981,6 +224166,12 @@ extension on _StringsNl {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -231802,6 +231993,12 @@ extension on _StringsPtBr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -239630,6 +239827,12 @@ extension on _StringsRu {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -247432,6 +247635,12 @@ extension on _StringsTh {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -255249,6 +255458,12 @@ extension on _StringsTr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -263060,6 +263275,12 @@ extension on _StringsVi {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
@@ -270809,6 +271030,12 @@ extension on _StringsZhCn {
         return '打开文件位置';
       case 'book_file_location_failed':
         return '无法打开这本书的文件位置。';
+      case 'delete_local_files':
+        return '同时删除本地文件';
+      case 'delete_local_files_desc':
+        return '原始文件将从本设备删除，无法恢复';
+      case 'delete_local_files_video_desc':
+        return '视频文件将从本设备删除，对应的下载任务一并清除，无法恢复';
       default:
         return null;
     }
@@ -278559,6 +278786,12 @@ extension on _StringsZhHk {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'delete_local_files':
+        return 'Also delete local files';
+      case 'delete_local_files_desc':
+        return 'The original files are removed from this device. This cannot be undone.';
+      case 'delete_local_files_video_desc':
+        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
       default:
         return null;
     }
