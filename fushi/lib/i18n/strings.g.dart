@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64736 (3808 per locale)
+/// Strings: 64753 (3809 per locale)
 ///
-/// Built on 2026-08-25 at 16:21 UTC
+/// Built on 2026-08-26 at 01:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1364,7 +1364,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The capture channel could not be opened; restart Fushi.';
   String get game_hook_reason_spawn_failed =>
       'The helper could not be started; check that antivirus has not removed or blocked it.';
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'A previous capture session is still loaded in the game; restart the game once.';
   String get game_hook_reason_steam_timeout =>
       'Steam accepted the launch request but the game process never appeared.';
@@ -5182,6 +5182,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_downloads_open_page_hint =>
       'Open the Downloads page (tasks, resources, subscriptions)';
   String get download_video_source_required => 'Video source required';
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -7282,7 +7284,7 @@ class _StringsAr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'لم يتمكن من تشغيل المساعد؛ تحقق من أن مضاد الفيروسات لم يحذفه أو يحظره.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'جلسة التقاط سابقة لا تزال محملة في اللعبة؛ أعد تشغيل اللعبة مرة واحدة.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -14006,6 +14008,9 @@ class _StringsAr extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -16164,7 +16169,7 @@ class _StringsDe extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Der Helper konnte nicht gestartet werden; überprüfen Sie, ob das Antivirusprogramm ihn entfernt oder blockiert hat.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Eine vorherige Aufnahmesitzung ist noch im Spiel geladen; starten Sie das Spiel einmal neu.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -23033,6 +23038,9 @@ class _StringsDe extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -25193,7 +25201,7 @@ class _StringsEs extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'El helper no pudo iniciarse; verifique que el antivirus no lo haya eliminado o bloqueado.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Una sesión de captura anterior aún está cargada en el juego; reinicie el juego una vez.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -32103,6 +32111,9 @@ class _StringsEs extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -34272,7 +34283,7 @@ class _StringsFr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'L\'assistant n\'a pas pu être démarré ; vérifiez que l\'antivirus ne l\'a pas supprimé ou bloqué.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Une session de capture précédente est encore chargée dans le jeu ; redémarrez le jeu une fois.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -41202,6 +41213,9 @@ class _StringsFr extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -43321,7 +43335,7 @@ class _StringsId extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Helper tidak bisa dimulai; periksa apakah antivirus telah menghapus atau memblokirnya.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Sesi tangkapan sebelumnya masih dimuat di game; mulai ulang game sekali.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -50135,6 +50149,9 @@ class _StringsId extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -52277,7 +52294,7 @@ class _StringsIt extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'L\'helper non può essere avviato; controlla che l\'antivirus non l\'abbia rimosso o bloccato.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Una sessione di cattura precedente è ancora caricata nel gioco; riavvia il gioco.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -59140,6 +59157,9 @@ class _StringsIt extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -61164,7 +61184,7 @@ class _StringsJa extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'ヘルパーを起動できませんでした。ウイルス対策ソフトがヘルパーを削除またはブロックしていないか確認してください。';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       '前回のキャプチャセッションがまだゲームに残っています。ゲームを一度再起動してください。';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -67602,6 +67622,9 @@ class _StringsJa extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -69626,7 +69649,7 @@ class _StringsKo extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       '헬퍼를 시작할 수 없습니다. 바이러스 백신이 헬퍼를 삭제하거나 차단하지 않았는지 확인하세요.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       '이전 캡처 세션이 아직 게임에 로드되어 있습니다. 게임을 한 번 다시 시작하세요.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -76080,6 +76103,9 @@ class _StringsKo extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -78213,7 +78239,7 @@ class _StringsNl extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'De helper kon niet worden gestart; controleer of antivirus deze niet heeft verwijderd of geblokkeerd.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Een vorige opnamesessie is nog geladen in het spel; herstart het spel.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -85045,6 +85071,9 @@ class _StringsNl extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -87194,7 +87223,7 @@ class _StringsPtBr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'O helper não pôde ser iniciado; verifique se o antivírus não o removeu ou bloqueou.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Uma sessão de captura anterior ainda está carregada no jogo; reinicie o jogo uma vez.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -94066,6 +94095,9 @@ class _StringsPtBr extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -96201,7 +96233,7 @@ class _StringsRu extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Не удалось запустить хелпер; проверьте, не удалил ли и не заблокировал ли его антивирус.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Предыдущая сессия захвата всё ещё загружена в игре; перезапустите игру.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -103060,6 +103092,9 @@ class _StringsRu extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -105158,7 +105193,7 @@ class _StringsTh extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'ไม่สามารถเริ่มตัวช่วยได้; ตรวจสอบว่าโปรแกรมป้องกันไวรัสไม่ได้ลบหรือบล็อกมัน';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'เซสชันจับข้อมูลก่อนหน้ายังถูกโหลดอยู่ในเกม; รีสตาร์ทเกมหนึ่งครั้ง';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -111877,6 +111912,9 @@ class _StringsTh extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -114003,7 +114041,7 @@ class _StringsTr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Yardımcı başlatılamadı; antivirüsün kaldırmadığından veya engellemediğinden emin olun.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Önceki bir yakalama oturumu hâlâ oyunda yüklü; oyunu bir kez yeniden başlatın.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -120796,6 +120834,9 @@ class _StringsTr extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -122916,7 +122957,7 @@ class _StringsVi extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Không thể khởi chạy helper; kiểm tra xem phần mềm diệt virus có xóa hoặc chặn nó không.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Phiên thu thập trước vẫn được tải trong trò chơi; khởi động lại trò chơi.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -129697,6 +129738,9 @@ class _StringsVi extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
 }
 
 // Path: <root>
@@ -131654,7 +131698,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_spawn_failed => '语音钩子组件无法启动，请检查是否被杀毒软件删除或拦截。';
   @override
-  String get game_hook_reason_stale_session => '游戏里还残留上一次的捕获会话，请重启一次游戏。';
+  String get game_hook_reason_resident_hook_mismatch =>
+      '游戏里还残留上一次的捕获会话，请重启一次游戏。';
   @override
   String get game_hook_reason_steam_timeout => 'Steam 已接受启动请求，但始终没有出现游戏进程。';
   @override
@@ -137881,6 +137926,9 @@ class _StringsZhCn extends _StringsEn {
   String get settings_downloads_open_page_hint => '打开下载页（任务 / 资源 / 订阅）';
   @override
   String get download_video_source_required => '需要视频来源';
+  @override
+  String get game_hook_reason_stale_session =>
+      '上一次捕获会话还没释放干净，Fushi 正在自动重试，不用做任何操作。';
 }
 
 // Path: <root>
@@ -139838,7 +139886,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_spawn_failed => '語音鉤子組件無法啟動，請檢查是否被殺毒軟體刪除或攔截。';
   @override
-  String get game_hook_reason_stale_session => '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
+  String get game_hook_reason_resident_hook_mismatch =>
+      '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
   @override
   String get game_hook_reason_steam_timeout => 'Steam 已接受啟動請求，但始終沒有出現遊戲進程。';
   @override
@@ -146085,6 +146134,9 @@ class _StringsZhHk extends _StringsEn {
       'Open the Downloads page (tasks, resources, subscriptions)';
   @override
   String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      '上一次捕獲會話還沒釋放乾淨，Fushi 正在自動重試，不用做任何操作。';
 }
 
 /// Flat map(s) containing all translations.
@@ -147931,7 +147983,7 @@ extension on _StringsEn {
         return 'The capture channel could not be opened; restart Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'The helper could not be started; check that antivirus has not removed or blocked it.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'A previous capture session is still loaded in the game; restart the game once.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam accepted the launch request but the game process never appeared.';
@@ -153897,6 +153949,8 @@ extension on _StringsEn {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -155741,7 +155795,7 @@ extension on _StringsAr {
         return 'لم يتمكن من فتح قناة الالتقاط؛ أعد تشغيل Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'لم يتمكن من تشغيل المساعد؛ تحقق من أن مضاد الفيروسات لم يحذفه أو يحظره.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'جلسة التقاط سابقة لا تزال محملة في اللعبة؛ أعد تشغيل اللعبة مرة واحدة.';
       case 'game_hook_reason_steam_timeout':
         return 'قبلت Steam طلب التشغيل لكن عملية اللعبة لم تظهر.';
@@ -161706,6 +161760,8 @@ extension on _StringsAr {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -163560,7 +163616,7 @@ extension on _StringsDe {
         return 'Der Aufnahmekanal konnte nicht geöffnet werden; starten Sie Fushi neu.';
       case 'game_hook_reason_spawn_failed':
         return 'Der Helper konnte nicht gestartet werden; überprüfen Sie, ob das Antivirusprogramm ihn entfernt oder blockiert hat.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Eine vorherige Aufnahmesitzung ist noch im Spiel geladen; starten Sie das Spiel einmal neu.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam hat die Startanfrage akzeptiert, aber der Spielprozess ist nie erschienen.';
@@ -169555,6 +169611,8 @@ extension on _StringsDe {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -171409,7 +171467,7 @@ extension on _StringsEs {
         return 'El canal de captura no pudo abrirse; reinicie Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'El helper no pudo iniciarse; verifique que el antivirus no lo haya eliminado o bloqueado.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Una sesión de captura anterior aún está cargada en el juego; reinicie el juego una vez.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam aceptó la solicitud de inicio pero el proceso del juego nunca apareció.';
@@ -177396,6 +177454,8 @@ extension on _StringsEs {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -179254,7 +179314,7 @@ extension on _StringsFr {
         return 'Le canal de capture n\'a pas pu être ouvert ; redémarrez Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'L\'assistant n\'a pas pu être démarré ; vérifiez que l\'antivirus ne l\'a pas supprimé ou bloqué.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Une session de capture précédente est encore chargée dans le jeu ; redémarrez le jeu une fois.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam a accepté la demande de lancement mais le processus du jeu n\'est jamais apparu.';
@@ -185245,6 +185305,8 @@ extension on _StringsFr {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -187096,7 +187158,7 @@ extension on _StringsId {
         return 'Saluran tangkapan tidak bisa dibuka; mulai ulang Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Helper tidak bisa dimulai; periksa apakah antivirus telah menghapus atau memblokirnya.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Sesi tangkapan sebelumnya masih dimuat di game; mulai ulang game sekali.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam menerima permintaan peluncuran tetapi proses game tidak pernah muncul.';
@@ -193068,6 +193130,8 @@ extension on _StringsId {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -194922,7 +194986,7 @@ extension on _StringsIt {
         return 'Il canale di cattura non può essere aperto; riavvia Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'L\'helper non può essere avviato; controlla che l\'antivirus non l\'abbia rimosso o bloccato.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Una sessione di cattura precedente è ancora caricata nel gioco; riavvia il gioco.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam ha accettato la richiesta di avvio ma il processo del gioco non è mai apparso.';
@@ -200911,6 +200975,8 @@ extension on _StringsIt {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -202748,7 +202814,7 @@ extension on _StringsJa {
         return 'キャプチャチャネルを開けませんでした。Fushi を再起動してください。';
       case 'game_hook_reason_spawn_failed':
         return 'ヘルパーを起動できませんでした。ウイルス対策ソフトがヘルパーを削除またはブロックしていないか確認してください。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '前回のキャプチャセッションがまだゲームに残っています。ゲームを一度再起動してください。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam が起動リクエストを受け付けましたが、ゲームプロセスが表示されませんでした。';
@@ -208690,6 +208756,8 @@ extension on _StringsJa {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -210527,7 +210595,7 @@ extension on _StringsKo {
         return '캡처 채널을 열 수 없습니다. Fushi를 다시 시작하세요.';
       case 'game_hook_reason_spawn_failed':
         return '헬퍼를 시작할 수 없습니다. 바이러스 백신이 헬퍼를 삭제하거나 차단하지 않았는지 확인하세요.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '이전 캡처 세션이 아직 게임에 로드되어 있습니다. 게임을 한 번 다시 시작하세요.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam이 실행 요청을 수락했지만 게임 프로세스가 나타나지 않았습니다.';
@@ -216471,6 +216539,8 @@ extension on _StringsKo {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -218324,7 +218394,7 @@ extension on _StringsNl {
         return 'Het opnamekanaal kon niet worden geopend; herstart Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'De helper kon niet worden gestart; controleer of antivirus deze niet heeft verwijderd of geblokkeerd.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Een vorige opnamesessie is nog geladen in het spel; herstart het spel.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam heeft het startverzoek geaccepteerd maar het spelproces is nooit verschenen.';
@@ -224307,6 +224377,8 @@ extension on _StringsNl {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -226159,7 +226231,7 @@ extension on _StringsPtBr {
         return 'O canal de captura não pôde ser aberto; reinicie o Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'O helper não pôde ser iniciado; verifique se o antivírus não o removeu ou bloqueou.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Uma sessão de captura anterior ainda está carregada no jogo; reinicie o jogo uma vez.';
       case 'game_hook_reason_steam_timeout':
         return 'O Steam aceitou a solicitação de início mas o processo do jogo nunca apareceu.';
@@ -232139,6 +232211,8 @@ extension on _StringsPtBr {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -233995,7 +234069,7 @@ extension on _StringsRu {
         return 'Не удалось открыть канал захвата; перезапустите Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Не удалось запустить хелпер; проверьте, не удалил ли и не заблокировал ли его антивирус.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Предыдущая сессия захвата всё ещё загружена в игре; перезапустите игру.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam принял запрос на запуск, но процесс игры так и не появился.';
@@ -239978,6 +240052,8 @@ extension on _StringsRu {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -241823,7 +241899,7 @@ extension on _StringsTh {
         return 'ไม่สามารถเปิดช่องทางจับข้อมูลได้; รีสตาร์ท Fushi';
       case 'game_hook_reason_spawn_failed':
         return 'ไม่สามารถเริ่มตัวช่วยได้; ตรวจสอบว่าโปรแกรมป้องกันไวรัสไม่ได้ลบหรือบล็อกมัน';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'เซสชันจับข้อมูลก่อนหน้ายังถูกโหลดอยู่ในเกม; รีสตาร์ทเกมหนึ่งครั้ง';
       case 'game_hook_reason_steam_timeout':
         return 'Steam รับคำขอเปิดแล้วแต่กระบวนการเกมไม่ปรากฏ';
@@ -247791,6 +247867,8 @@ extension on _StringsTh {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -249641,7 +249719,7 @@ extension on _StringsTr {
         return 'Yakalama kanalı açılamadı; Fushi\'yi yeniden başlatın.';
       case 'game_hook_reason_spawn_failed':
         return 'Yardımcı başlatılamadı; antivirüsün kaldırmadığından veya engellemediğinden emin olun.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Önceki bir yakalama oturumu hâlâ oyunda yüklü; oyunu bir kez yeniden başlatın.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam başlatma isteğini kabul etti ancak oyun işlemi hiç görünmedi.';
@@ -255619,6 +255697,8 @@ extension on _StringsTr {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -257470,7 +257550,7 @@ extension on _StringsVi {
         return 'Không thể mở kênh thu thập; khởi động lại Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Không thể khởi chạy helper; kiểm tra xem phần mềm diệt virus có xóa hoặc chặn nó không.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Phiên thu thập trước vẫn được tải trong trò chơi; khởi động lại trò chơi.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam đã chấp nhận yêu cầu khởi chạy nhưng tiến trình trò chơi không xuất hiện.';
@@ -263441,6 +263521,8 @@ extension on _StringsVi {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
       default:
         return null;
     }
@@ -265271,7 +265353,7 @@ extension on _StringsZhCn {
         return '捕获通道无法打开，请重启 Fushi。';
       case 'game_hook_reason_spawn_failed':
         return '语音钩子组件无法启动，请检查是否被杀毒软件删除或拦截。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '游戏里还残留上一次的捕获会话，请重启一次游戏。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam 已接受启动请求，但始终没有出现游戏进程。';
@@ -271200,6 +271282,8 @@ extension on _StringsZhCn {
         return '打开下载页（任务 / 资源 / 订阅）';
       case 'download_video_source_required':
         return '需要视频来源';
+      case 'game_hook_reason_stale_session':
+        return '上一次捕获会话还没释放干净，Fushi 正在自动重试，不用做任何操作。';
       default:
         return null;
     }
@@ -273030,7 +273114,7 @@ extension on _StringsZhHk {
         return '捕獲通道無法打開，請重啟 Fushi。';
       case 'game_hook_reason_spawn_failed':
         return '語音鉤子組件無法啟動，請檢查是否被殺毒軟體刪除或攔截。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam 已接受啟動請求，但始終沒有出現遊戲進程。';
@@ -278961,6 +279045,8 @@ extension on _StringsZhHk {
         return 'Open the Downloads page (tasks, resources, subscriptions)';
       case 'download_video_source_required':
         return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return '上一次捕獲會話還沒釋放乾淨，Fushi 正在自動重試，不用做任何操作。';
       default:
         return null;
     }
