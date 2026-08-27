@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64651 (3803 per locale)
+/// Strings: 64821 (3813 per locale)
 ///
-/// Built on 2026-08-25 at 07:05 UTC
+/// Built on 2026-08-26 at 01:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1364,7 +1364,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The capture channel could not be opened; restart Fushi.';
   String get game_hook_reason_spawn_failed =>
       'The helper could not be started; check that antivirus has not removed or blocked it.';
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'A previous capture session is still loaded in the game; restart the game once.';
   String get game_hook_reason_steam_timeout =>
       'Steam accepted the launch request but the game process never appeared.';
@@ -4561,8 +4561,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_global_search_hint => 'Search every enabled source';
   String get manga_global_search_prompt =>
       'Type a title to search every enabled manga source at once.';
-  String get manga_global_search_no_sources =>
-      'No enabled manga sources. Install and enable an extension first.';
   String get anki_connect_addon_install => 'Install AnkiConnect';
   String get anki_connect_addon_install_hint =>
       'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
@@ -5174,6 +5172,25 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get book_file_location_open => 'Open file location';
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  String get manga_global_search_open_sources => 'Go to Import';
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  String get download_video_source_required => 'Video source required';
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  String get video_subtitle_delete => 'Delete subtitle file';
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -7274,7 +7291,7 @@ class _StringsAr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'لم يتمكن من تشغيل المساعد؛ تحقق من أن مضاد الفيروسات لم يحذفه أو يحظره.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'جلسة التقاط سابقة لا تزال محملة في اللعبة؛ أعد تشغيل اللعبة مرة واحدة.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -12943,9 +12960,6 @@ class _StringsAr extends _StringsEn {
   String get manga_global_search_prompt =>
       'اكتب عنواناً للبحث في جميع مصادر المانغا المُفعّلة دفعة واحدة.';
   @override
-  String get manga_global_search_no_sources =>
-      'لا توجد مصادر مانغا مُفعّلة. ثبّت وفعّل إضافة أولاً.';
-  @override
   String get anki_connect_addon_install => 'تثبيت AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -13985,6 +13999,36 @@ class _StringsAr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -16143,7 +16187,7 @@ class _StringsDe extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Der Helper konnte nicht gestartet werden; überprüfen Sie, ob das Antivirusprogramm ihn entfernt oder blockiert hat.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Eine vorherige Aufnahmesitzung ist noch im Spiel geladen; starten Sie das Spiel einmal neu.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -21936,9 +21980,6 @@ class _StringsDe extends _StringsEn {
   String get manga_global_search_prompt =>
       'Geben Sie einen Titel ein, um alle aktivierten Manga-Quellen gleichzeitig zu durchsuchen.';
   @override
-  String get manga_global_search_no_sources =>
-      'Keine aktivierten Manga-Quellen. Installieren und aktivieren Sie zuerst eine Erweiterung.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect installieren';
   @override
   String get anki_connect_addon_install_hint =>
@@ -22999,6 +23040,36 @@ class _StringsDe extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -25159,7 +25230,7 @@ class _StringsEs extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'El helper no pudo iniciarse; verifique que el antivirus no lo haya eliminado o bloqueado.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Una sesión de captura anterior aún está cargada en el juego; reinicie el juego una vez.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -30984,9 +31055,6 @@ class _StringsEs extends _StringsEn {
   String get manga_global_search_prompt =>
       'Escriba un título para buscar en todas las fuentes de manga activas a la vez.';
   @override
-  String get manga_global_search_no_sources =>
-      'Sin fuentes de manga activas. Instale y active una extensión primero.';
-  @override
   String get anki_connect_addon_install => 'Instalar AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -32056,6 +32124,36 @@ class _StringsEs extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -34225,7 +34323,7 @@ class _StringsFr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'L\'assistant n\'a pas pu être démarré ; vérifiez que l\'antivirus ne l\'a pas supprimé ou bloqué.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Une session de capture précédente est encore chargée dans le jeu ; redémarrez le jeu une fois.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -40068,9 +40166,6 @@ class _StringsFr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Tapez un titre pour rechercher dans toutes les sources de manga activées à la fois.';
   @override
-  String get manga_global_search_no_sources =>
-      'Aucune source de manga activée. Installez et activez d\'abord une extension.';
-  @override
   String get anki_connect_addon_install => 'Installer AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -41142,6 +41237,36 @@ class _StringsFr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -43261,7 +43386,7 @@ class _StringsId extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Helper tidak bisa dimulai; periksa apakah antivirus telah menghapus atau memblokirnya.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Sesi tangkapan sebelumnya masih dimuat di game; mulai ulang game sekali.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -49012,9 +49137,6 @@ class _StringsId extends _StringsEn {
   String get manga_global_search_prompt =>
       'Ketik judul untuk mencari setiap sumber manga yang aktif sekaligus.';
   @override
-  String get manga_global_search_no_sources =>
-      'Tidak ada sumber manga yang aktif. Instal dan aktifkan ekstensi terlebih dahulu.';
-  @override
   String get anki_connect_addon_install => 'Instal AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -50062,6 +50184,36 @@ class _StringsId extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -52204,7 +52356,7 @@ class _StringsIt extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'L\'helper non può essere avviato; controlla che l\'antivirus non l\'abbia rimosso o bloccato.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Una sessione di cattura precedente è ancora caricata nel gioco; riavvia il gioco.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -57994,9 +58146,6 @@ class _StringsIt extends _StringsEn {
   String get manga_global_search_prompt =>
       'Digita un titolo per cercare in ogni fonte manga abilitata contemporaneamente.';
   @override
-  String get manga_global_search_no_sources =>
-      'Nessuna fonte manga abilitata. Installa e abilita prima un\'estensione.';
-  @override
   String get anki_connect_addon_install => 'Installa AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -59054,6 +59203,36 @@ class _StringsIt extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -61078,7 +61257,7 @@ class _StringsJa extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'ヘルパーを起動できませんでした。ウイルス対策ソフトがヘルパーを削除またはブロックしていないか確認してください。';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       '前回のキャプチャセッションがまだゲームに残っています。ゲームを一度再起動してください。';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -66511,9 +66690,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_global_search_prompt => 'タイトルを入力して、すべての有効なマンガソースを一括検索します。';
   @override
-  String get manga_global_search_no_sources =>
-      '有効なマンガソースがありません。まず拡張機能をインストールして有効にしてください。';
-  @override
   String get anki_connect_addon_install => 'AnkiConnectをインストール';
   @override
   String get anki_connect_addon_install_hint =>
@@ -67503,6 +67679,36 @@ class _StringsJa extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -69527,7 +69733,7 @@ class _StringsKo extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       '헬퍼를 시작할 수 없습니다. 바이러스 백신이 헬퍼를 삭제하거나 차단하지 않았는지 확인하세요.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       '이전 캡처 세션이 아직 게임에 로드되어 있습니다. 게임을 한 번 다시 시작하세요.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -74972,9 +75178,6 @@ class _StringsKo extends _StringsEn {
   String get manga_global_search_prompt =>
       '제목을 입력하면 활성화된 모든 만화 소스를 한 번에 검색합니다.';
   @override
-  String get manga_global_search_no_sources =>
-      '활성화된 만화 소스가 없습니다. 먼저 확장을 설치하고 활성화하세요.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect 설치';
   @override
   String get anki_connect_addon_install_hint =>
@@ -75968,6 +76171,36 @@ class _StringsKo extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -78101,7 +78334,7 @@ class _StringsNl extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'De helper kon niet worden gestart; controleer of antivirus deze niet heeft verwijderd of geblokkeerd.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Een vorige opnamesessie is nog geladen in het spel; herstart het spel.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -83865,9 +84098,6 @@ class _StringsNl extends _StringsEn {
   String get manga_global_search_prompt =>
       'Typ een titel om elke ingeschakelde mangabron tegelijk te doorzoeken.';
   @override
-  String get manga_global_search_no_sources =>
-      'Geen ingeschakelde mangabronnen. Installeer en schakel eerst een extensie in.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect installeren';
   @override
   String get anki_connect_addon_install_hint =>
@@ -84920,6 +85150,36 @@ class _StringsNl extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -87069,7 +87329,7 @@ class _StringsPtBr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'O helper não pôde ser iniciado; verifique se o antivírus não o removeu ou bloqueou.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Uma sessão de captura anterior ainda está carregada no jogo; reinicie o jogo uma vez.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -92860,9 +93120,6 @@ class _StringsPtBr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Digite um título para buscar em todas as fontes de mangá ativadas de uma vez.';
   @override
-  String get manga_global_search_no_sources =>
-      'Nenhuma fonte de mangá ativada. Instale e ative uma extensão primeiro.';
-  @override
   String get anki_connect_addon_install => 'Instalar AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -93928,6 +94185,36 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -96063,7 +96350,7 @@ class _StringsRu extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Не удалось запустить хелпер; проверьте, не удалил ли и не заблокировал ли его антивирус.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Предыдущая сессия захвата всё ещё загружена в игре; перезапустите игру.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -101843,9 +102130,6 @@ class _StringsRu extends _StringsEn {
   String get manga_global_search_prompt =>
       'Введите название для поиска по всем включённым источникам манги одновременно.';
   @override
-  String get manga_global_search_no_sources =>
-      'Нет включённых источников манги. Сначала установите и включите расширение.';
-  @override
   String get anki_connect_addon_install => 'Установить AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -102909,6 +103193,36 @@ class _StringsRu extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -105007,7 +105321,7 @@ class _StringsTh extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'ไม่สามารถเริ่มตัวช่วยได้; ตรวจสอบว่าโปรแกรมป้องกันไวรัสไม่ได้ลบหรือบล็อกมัน';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'เซสชันจับข้อมูลก่อนหน้ายังถูกโหลดอยู่ในเกม; รีสตาร์ทเกมหนึ่งครั้ง';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -110667,9 +110981,6 @@ class _StringsTh extends _StringsEn {
   String get manga_global_search_prompt =>
       'พิมพ์ชื่อเรื่องเพื่อค้นหาทุกแหล่งมังงะที่เปิดใช้งานพร้อมกัน';
   @override
-  String get manga_global_search_no_sources =>
-      'ไม่มีแหล่งมังงะที่เปิดใช้งาน ติดตั้งและเปิดใช้งานส่วนขยายก่อน';
-  @override
   String get anki_connect_addon_install => 'ติดตั้ง AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -111713,6 +112024,36 @@ class _StringsTh extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -113839,7 +114180,7 @@ class _StringsTr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Yardımcı başlatılamadı; antivirüsün kaldırmadığından veya engellemediğinden emin olun.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Önceki bir yakalama oturumu hâlâ oyunda yüklü; oyunu bir kez yeniden başlatın.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -119566,9 +119907,6 @@ class _StringsTr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Etkin tüm manga kaynaklarında aynı anda aramak için bir başlık yazın.';
   @override
-  String get manga_global_search_no_sources =>
-      'Etkin manga kaynağı yok. Önce bir eklenti yükleyip etkinleştirin.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect\'i yükle';
   @override
   String get anki_connect_addon_install_hint =>
@@ -120619,6 +120957,36 @@ class _StringsTr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -122739,7 +123107,7 @@ class _StringsVi extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Không thể khởi chạy helper; kiểm tra xem phần mềm diệt virus có xóa hoặc chặn nó không.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Phiên thu thập trước vẫn được tải trong trò chơi; khởi động lại trò chơi.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -128450,9 +128818,6 @@ class _StringsVi extends _StringsEn {
   String get manga_global_search_prompt =>
       'Nhập tựa đề để tìm kiếm tất cả nguồn truyện tranh đã bật cùng lúc.';
   @override
-  String get manga_global_search_no_sources =>
-      'Không có nguồn truyện tranh nào được bật. Cài đặt và bật một tiện ích mở rộng trước.';
-  @override
   String get anki_connect_addon_install => 'Cài đặt AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -129507,6 +129872,36 @@ class _StringsVi extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -131464,7 +131859,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_spawn_failed => '语音钩子组件无法启动，请检查是否被杀毒软件删除或拦截。';
   @override
-  String get game_hook_reason_stale_session => '游戏里还残留上一次的捕获会话，请重启一次游戏。';
+  String get game_hook_reason_resident_hook_mismatch =>
+      '游戏里还残留上一次的捕获会话，请重启一次游戏。';
   @override
   String get game_hook_reason_steam_timeout => 'Steam 已接受启动请求，但始终没有出现游戏进程。';
   @override
@@ -136738,8 +137134,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_global_search_prompt => '输入书名，一次搜索所有已启用的漫画来源。';
   @override
-  String get manga_global_search_no_sources => '没有已启用的漫画来源，请先安装并启用扩展。';
-  @override
   String get anki_connect_addon_install => '安装 AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -137679,6 +138073,33 @@ class _StringsZhCn extends _StringsEn {
   String get book_file_location_open => '打开文件位置';
   @override
   String get book_file_location_failed => '无法打开这本书的文件位置。';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      '数据库备份快照（${n} 个文件）';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      '将删除全部数据库备份快照残留（corrupt-bak / pre-restore / 旧版本迁移副本）。正在使用的数据库及其 -wal/-shm 侧车不受影响。';
+  @override
+  String get manga_global_search_no_sources => '还没有已启用的漫画来源，去「导入」添加一个。';
+  @override
+  String get manga_global_search_open_sources => '去导入';
+  @override
+  String get settings_downloads_open_page_hint => '打开下载页（任务 / 资源 / 订阅）';
+  @override
+  String get download_video_source_required => '需要视频来源';
+  @override
+  String get game_hook_reason_stale_session =>
+      '上一次捕获会话还没释放干净，Fushi 正在自动重试，不用做任何操作。';
+  @override
+  String get video_subtitle_delete => '删除字幕文件';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      '确定从磁盘删除这个字幕文件？此操作不可撤销。\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) => '已删除字幕文件：${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      '删除字幕文件失败：${label}';
 }
 
 // Path: <root>
@@ -139636,7 +140057,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_spawn_failed => '語音鉤子組件無法啟動，請檢查是否被殺毒軟體刪除或攔截。';
   @override
-  String get game_hook_reason_stale_session => '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
+  String get game_hook_reason_resident_hook_mismatch =>
+      '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
   @override
   String get game_hook_reason_steam_timeout => 'Steam 已接受啟動請求，但始終沒有出現遊戲進程。';
   @override
@@ -144917,8 +145339,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_global_search_prompt => '輸入書名，一次搜索所有已啟用的漫畫來源。';
   @override
-  String get manga_global_search_no_sources => '沒有已啟用的漫畫來源，請先安裝並啟用擴展。';
-  @override
   String get anki_connect_addon_install => '安裝 AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -145869,6 +146289,36 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  @override
+  String get manga_global_search_open_sources => 'Go to Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  @override
+  String get download_video_source_required => 'Video source required';
+  @override
+  String get game_hook_reason_stale_session =>
+      '上一次捕獲會話還沒釋放乾淨，Fushi 正在自動重試，不用做任何操作。';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 /// Flat map(s) containing all translations.
@@ -147715,7 +148165,7 @@ extension on _StringsEn {
         return 'The capture channel could not be opened; restart Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'The helper could not be started; check that antivirus has not removed or blocked it.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'A previous capture session is still loaded in the game; restart the game once.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam accepted the launch request but the game process never appeared.';
@@ -152793,8 +153243,6 @@ extension on _StringsEn {
         return 'Search every enabled source';
       case 'manga_global_search_prompt':
         return 'Type a title to search every enabled manga source at once.';
-      case 'manga_global_search_no_sources':
-        return 'No enabled manga sources. Install and enable an extension first.';
       case 'anki_connect_addon_install':
         return 'Install AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -153670,6 +154118,31 @@ extension on _StringsEn {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -155514,7 +155987,7 @@ extension on _StringsAr {
         return 'لم يتمكن من فتح قناة الالتقاط؛ أعد تشغيل Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'لم يتمكن من تشغيل المساعد؛ تحقق من أن مضاد الفيروسات لم يحذفه أو يحظره.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'جلسة التقاط سابقة لا تزال محملة في اللعبة؛ أعد تشغيل اللعبة مرة واحدة.';
       case 'game_hook_reason_steam_timeout':
         return 'قبلت Steam طلب التشغيل لكن عملية اللعبة لم تظهر.';
@@ -160590,8 +161063,6 @@ extension on _StringsAr {
         return 'بحث في كل مصدر مُفعّل';
       case 'manga_global_search_prompt':
         return 'اكتب عنواناً للبحث في جميع مصادر المانغا المُفعّلة دفعة واحدة.';
-      case 'manga_global_search_no_sources':
-        return 'لا توجد مصادر مانغا مُفعّلة. ثبّت وفعّل إضافة أولاً.';
       case 'anki_connect_addon_install':
         return 'تثبيت AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -161468,6 +161939,31 @@ extension on _StringsAr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -163322,7 +163818,7 @@ extension on _StringsDe {
         return 'Der Aufnahmekanal konnte nicht geöffnet werden; starten Sie Fushi neu.';
       case 'game_hook_reason_spawn_failed':
         return 'Der Helper konnte nicht gestartet werden; überprüfen Sie, ob das Antivirusprogramm ihn entfernt oder blockiert hat.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Eine vorherige Aufnahmesitzung ist noch im Spiel geladen; starten Sie das Spiel einmal neu.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam hat die Startanfrage akzeptiert, aber der Spielprozess ist nie erschienen.';
@@ -168424,8 +168920,6 @@ extension on _StringsDe {
         return 'Jede aktivierte Quelle durchsuchen';
       case 'manga_global_search_prompt':
         return 'Geben Sie einen Titel ein, um alle aktivierten Manga-Quellen gleichzeitig zu durchsuchen.';
-      case 'manga_global_search_no_sources':
-        return 'Keine aktivierten Manga-Quellen. Installieren und aktivieren Sie zuerst eine Erweiterung.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect installieren';
       case 'anki_connect_addon_install_hint':
@@ -169306,6 +169800,31 @@ extension on _StringsDe {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -171160,7 +171679,7 @@ extension on _StringsEs {
         return 'El canal de captura no pudo abrirse; reinicie Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'El helper no pudo iniciarse; verifique que el antivirus no lo haya eliminado o bloqueado.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Una sesión de captura anterior aún está cargada en el juego; reinicie el juego una vez.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam aceptó la solicitud de inicio pero el proceso del juego nunca apareció.';
@@ -176256,8 +176775,6 @@ extension on _StringsEs {
         return 'Buscar en todas las fuentes activas';
       case 'manga_global_search_prompt':
         return 'Escriba un título para buscar en todas las fuentes de manga activas a la vez.';
-      case 'manga_global_search_no_sources':
-        return 'Sin fuentes de manga activas. Instale y active una extensión primero.';
       case 'anki_connect_addon_install':
         return 'Instalar AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -177136,6 +177653,31 @@ extension on _StringsEs {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -178994,7 +179536,7 @@ extension on _StringsFr {
         return 'Le canal de capture n\'a pas pu être ouvert ; redémarrez Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'L\'assistant n\'a pas pu être démarré ; vérifiez que l\'antivirus ne l\'a pas supprimé ou bloqué.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Une session de capture précédente est encore chargée dans le jeu ; redémarrez le jeu une fois.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam a accepté la demande de lancement mais le processus du jeu n\'est jamais apparu.';
@@ -184094,8 +184636,6 @@ extension on _StringsFr {
         return 'Rechercher dans chaque source activée';
       case 'manga_global_search_prompt':
         return 'Tapez un titre pour rechercher dans toutes les sources de manga activées à la fois.';
-      case 'manga_global_search_no_sources':
-        return 'Aucune source de manga activée. Installez et activez d\'abord une extension.';
       case 'anki_connect_addon_install':
         return 'Installer AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -184974,6 +185514,31 @@ extension on _StringsFr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -186825,7 +187390,7 @@ extension on _StringsId {
         return 'Saluran tangkapan tidak bisa dibuka; mulai ulang Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Helper tidak bisa dimulai; periksa apakah antivirus telah menghapus atau memblokirnya.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Sesi tangkapan sebelumnya masih dimuat di game; mulai ulang game sekali.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam menerima permintaan peluncuran tetapi proses game tidak pernah muncul.';
@@ -191909,8 +192474,6 @@ extension on _StringsId {
         return 'Cari setiap sumber yang aktif';
       case 'manga_global_search_prompt':
         return 'Ketik judul untuk mencari setiap sumber manga yang aktif sekaligus.';
-      case 'manga_global_search_no_sources':
-        return 'Tidak ada sumber manga yang aktif. Instal dan aktifkan ekstensi terlebih dahulu.';
       case 'anki_connect_addon_install':
         return 'Instal AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -192786,6 +193349,31 @@ extension on _StringsId {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -194640,7 +195228,7 @@ extension on _StringsIt {
         return 'Il canale di cattura non può essere aperto; riavvia Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'L\'helper non può essere avviato; controlla che l\'antivirus non l\'abbia rimosso o bloccato.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Una sessione di cattura precedente è ancora caricata nel gioco; riavvia il gioco.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam ha accettato la richiesta di avvio ma il processo del gioco non è mai apparso.';
@@ -199739,8 +200327,6 @@ extension on _StringsIt {
         return 'Cerca in ogni fonte abilitata';
       case 'manga_global_search_prompt':
         return 'Digita un titolo per cercare in ogni fonte manga abilitata contemporaneamente.';
-      case 'manga_global_search_no_sources':
-        return 'Nessuna fonte manga abilitata. Installa e abilita prima un\'estensione.';
       case 'anki_connect_addon_install':
         return 'Installa AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -200618,6 +201204,31 @@ extension on _StringsIt {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -202455,7 +203066,7 @@ extension on _StringsJa {
         return 'キャプチャチャネルを開けませんでした。Fushi を再起動してください。';
       case 'game_hook_reason_spawn_failed':
         return 'ヘルパーを起動できませんでした。ウイルス対策ソフトがヘルパーを削除またはブロックしていないか確認してください。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '前回のキャプチャセッションがまだゲームに残っています。ゲームを一度再起動してください。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam が起動リクエストを受け付けましたが、ゲームプロセスが表示されませんでした。';
@@ -207510,8 +208121,6 @@ extension on _StringsJa {
         return 'すべてのソースを検索';
       case 'manga_global_search_prompt':
         return 'タイトルを入力して、すべての有効なマンガソースを一括検索します。';
-      case 'manga_global_search_no_sources':
-        return '有効なマンガソースがありません。まず拡張機能をインストールして有効にしてください。';
       case 'anki_connect_addon_install':
         return 'AnkiConnectをインストール';
       case 'anki_connect_addon_install_hint':
@@ -208386,6 +208995,31 @@ extension on _StringsJa {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -210223,7 +210857,7 @@ extension on _StringsKo {
         return '캡처 채널을 열 수 없습니다. Fushi를 다시 시작하세요.';
       case 'game_hook_reason_spawn_failed':
         return '헬퍼를 시작할 수 없습니다. 바이러스 백신이 헬퍼를 삭제하거나 차단하지 않았는지 확인하세요.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '이전 캡처 세션이 아직 게임에 로드되어 있습니다. 게임을 한 번 다시 시작하세요.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam이 실행 요청을 수락했지만 게임 프로세스가 나타나지 않았습니다.';
@@ -215280,8 +215914,6 @@ extension on _StringsKo {
         return '활성화된 모든 소스 검색';
       case 'manga_global_search_prompt':
         return '제목을 입력하면 활성화된 모든 만화 소스를 한 번에 검색합니다.';
-      case 'manga_global_search_no_sources':
-        return '활성화된 만화 소스가 없습니다. 먼저 확장을 설치하고 활성화하세요.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect 설치';
       case 'anki_connect_addon_install_hint':
@@ -216156,6 +216788,31 @@ extension on _StringsKo {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -218009,7 +218666,7 @@ extension on _StringsNl {
         return 'Het opnamekanaal kon niet worden geopend; herstart Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'De helper kon niet worden gestart; controleer of antivirus deze niet heeft verwijderd of geblokkeerd.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Een vorige opnamesessie is nog geladen in het spel; herstart het spel.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam heeft het startverzoek geaccepteerd maar het spelproces is nooit verschenen.';
@@ -223102,8 +223759,6 @@ extension on _StringsNl {
         return 'Doorzoek elke ingeschakelde bron';
       case 'manga_global_search_prompt':
         return 'Typ een titel om elke ingeschakelde mangabron tegelijk te doorzoeken.';
-      case 'manga_global_search_no_sources':
-        return 'Geen ingeschakelde mangabronnen. Installeer en schakel eerst een extensie in.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect installeren';
       case 'anki_connect_addon_install_hint':
@@ -223981,6 +224636,31 @@ extension on _StringsNl {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -225833,7 +226513,7 @@ extension on _StringsPtBr {
         return 'O canal de captura não pôde ser aberto; reinicie o Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'O helper não pôde ser iniciado; verifique se o antivírus não o removeu ou bloqueou.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Uma sessão de captura anterior ainda está carregada no jogo; reinicie o jogo uma vez.';
       case 'game_hook_reason_steam_timeout':
         return 'O Steam aceitou a solicitação de início mas o processo do jogo nunca apareceu.';
@@ -230923,8 +231603,6 @@ extension on _StringsPtBr {
         return 'Buscar em todas as fontes ativadas';
       case 'manga_global_search_prompt':
         return 'Digite um título para buscar em todas as fontes de mangá ativadas de uma vez.';
-      case 'manga_global_search_no_sources':
-        return 'Nenhuma fonte de mangá ativada. Instale e ative uma extensão primeiro.';
       case 'anki_connect_addon_install':
         return 'Instalar AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -231802,6 +232480,31 @@ extension on _StringsPtBr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -233658,7 +234361,7 @@ extension on _StringsRu {
         return 'Не удалось открыть канал захвата; перезапустите Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Не удалось запустить хелпер; проверьте, не удалил ли и не заблокировал ли его антивирус.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Предыдущая сессия захвата всё ещё загружена в игре; перезапустите игру.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam принял запрос на запуск, но процесс игры так и не появился.';
@@ -238751,8 +239454,6 @@ extension on _StringsRu {
         return 'Поиск по всем включённым источникам';
       case 'manga_global_search_prompt':
         return 'Введите название для поиска по всем включённым источникам манги одновременно.';
-      case 'manga_global_search_no_sources':
-        return 'Нет включённых источников манги. Сначала установите и включите расширение.';
       case 'anki_connect_addon_install':
         return 'Установить AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -239630,6 +240331,31 @@ extension on _StringsRu {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -241475,7 +242201,7 @@ extension on _StringsTh {
         return 'ไม่สามารถเปิดช่องทางจับข้อมูลได้; รีสตาร์ท Fushi';
       case 'game_hook_reason_spawn_failed':
         return 'ไม่สามารถเริ่มตัวช่วยได้; ตรวจสอบว่าโปรแกรมป้องกันไวรัสไม่ได้ลบหรือบล็อกมัน';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'เซสชันจับข้อมูลก่อนหน้ายังถูกโหลดอยู่ในเกม; รีสตาร์ทเกมหนึ่งครั้ง';
       case 'game_hook_reason_steam_timeout':
         return 'Steam รับคำขอเปิดแล้วแต่กระบวนการเกมไม่ปรากฏ';
@@ -246555,8 +247281,6 @@ extension on _StringsTh {
         return 'ค้นหาทุกแหล่งที่เปิดใช้งาน';
       case 'manga_global_search_prompt':
         return 'พิมพ์ชื่อเรื่องเพื่อค้นหาทุกแหล่งมังงะที่เปิดใช้งานพร้อมกัน';
-      case 'manga_global_search_no_sources':
-        return 'ไม่มีแหล่งมังงะที่เปิดใช้งาน ติดตั้งและเปิดใช้งานส่วนขยายก่อน';
       case 'anki_connect_addon_install':
         return 'ติดตั้ง AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -247432,6 +248156,31 @@ extension on _StringsTh {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -249282,7 +250031,7 @@ extension on _StringsTr {
         return 'Yakalama kanalı açılamadı; Fushi\'yi yeniden başlatın.';
       case 'game_hook_reason_spawn_failed':
         return 'Yardımcı başlatılamadı; antivirüsün kaldırmadığından veya engellemediğinden emin olun.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Önceki bir yakalama oturumu hâlâ oyunda yüklü; oyunu bir kez yeniden başlatın.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam başlatma isteğini kabul etti ancak oyun işlemi hiç görünmedi.';
@@ -254371,8 +255120,6 @@ extension on _StringsTr {
         return 'Etkin tüm kaynaklarda ara';
       case 'manga_global_search_prompt':
         return 'Etkin tüm manga kaynaklarında aynı anda aramak için bir başlık yazın.';
-      case 'manga_global_search_no_sources':
-        return 'Etkin manga kaynağı yok. Önce bir eklenti yükleyip etkinleştirin.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect\'i yükle';
       case 'anki_connect_addon_install_hint':
@@ -255249,6 +255996,31 @@ extension on _StringsTr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -257100,7 +257872,7 @@ extension on _StringsVi {
         return 'Không thể mở kênh thu thập; khởi động lại Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Không thể khởi chạy helper; kiểm tra xem phần mềm diệt virus có xóa hoặc chặn nó không.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Phiên thu thập trước vẫn được tải trong trò chơi; khởi động lại trò chơi.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam đã chấp nhận yêu cầu khởi chạy nhưng tiến trình trò chơi không xuất hiện.';
@@ -262182,8 +262954,6 @@ extension on _StringsVi {
         return 'Tìm kiếm mọi nguồn đã bật';
       case 'manga_global_search_prompt':
         return 'Nhập tựa đề để tìm kiếm tất cả nguồn truyện tranh đã bật cùng lúc.';
-      case 'manga_global_search_no_sources':
-        return 'Không có nguồn truyện tranh nào được bật. Cài đặt và bật một tiện ích mở rộng trước.';
       case 'anki_connect_addon_install':
         return 'Cài đặt AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -263060,6 +263830,31 @@ extension on _StringsVi {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -264890,7 +265685,7 @@ extension on _StringsZhCn {
         return '捕获通道无法打开，请重启 Fushi。';
       case 'game_hook_reason_spawn_failed':
         return '语音钩子组件无法启动，请检查是否被杀毒软件删除或拦截。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '游戏里还残留上一次的捕获会话，请重启一次游戏。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam 已接受启动请求，但始终没有出现游戏进程。';
@@ -269933,8 +270728,6 @@ extension on _StringsZhCn {
         return '搜索所有已启用来源';
       case 'manga_global_search_prompt':
         return '输入书名，一次搜索所有已启用的漫画来源。';
-      case 'manga_global_search_no_sources':
-        return '没有已启用的漫画来源，请先安装并启用扩展。';
       case 'anki_connect_addon_install':
         return '安装 AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -270809,6 +271602,28 @@ extension on _StringsZhCn {
         return '打开文件位置';
       case 'book_file_location_failed':
         return '无法打开这本书的文件位置。';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) => '数据库备份快照（${n} 个文件）';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return '将删除全部数据库备份快照残留（corrupt-bak / pre-restore / 旧版本迁移副本）。正在使用的数据库及其 -wal/-shm 侧车不受影响。';
+      case 'manga_global_search_no_sources':
+        return '还没有已启用的漫画来源，去「导入」添加一个。';
+      case 'manga_global_search_open_sources':
+        return '去导入';
+      case 'settings_downloads_open_page_hint':
+        return '打开下载页（任务 / 资源 / 订阅）';
+      case 'download_video_source_required':
+        return '需要视频来源';
+      case 'game_hook_reason_stale_session':
+        return '上一次捕获会话还没释放干净，Fushi 正在自动重试，不用做任何操作。';
+      case 'video_subtitle_delete':
+        return '删除字幕文件';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) => '确定从磁盘删除这个字幕文件？此操作不可撤销。\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => '已删除字幕文件：${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => '删除字幕文件失败：${label}';
       default:
         return null;
     }
@@ -272639,7 +273454,7 @@ extension on _StringsZhHk {
         return '捕獲通道無法打開，請重啟 Fushi。';
       case 'game_hook_reason_spawn_failed':
         return '語音鉤子組件無法啟動，請檢查是否被殺毒軟體刪除或攔截。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam 已接受啟動請求，但始終沒有出現遊戲進程。';
@@ -277683,8 +278498,6 @@ extension on _StringsZhHk {
         return '搜索所有已啟用來源';
       case 'manga_global_search_prompt':
         return '輸入書名，一次搜索所有已啟用的漫畫來源。';
-      case 'manga_global_search_no_sources':
-        return '沒有已啟用的漫畫來源，請先安裝並啟用擴展。';
       case 'anki_connect_addon_install':
         return '安裝 AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -278559,6 +279372,31 @@ extension on _StringsZhHk {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return '上一次捕獲會話還沒釋放乾淨，Fushi 正在自動重試，不用做任何操作。';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
