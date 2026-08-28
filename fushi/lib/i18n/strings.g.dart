@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65076 (3828 per locale)
+/// Strings: 65093 (3829 per locale)
 ///
-/// Built on 2026-08-28 at 07:57 UTC
+/// Built on 2026-08-28 at 09:22 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5210,6 +5210,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_filter_series => 'Series';
   String get video_filter_series_in => 'In a series';
   String get video_filter_series_standalone => 'Not in a series';
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Another ${n} selected item(s) are hidden by the current filter and will not be affected.';
 }
 
 // Path: <root>
@@ -14079,6 +14081,9 @@ class _StringsAr extends _StringsEn {
   String get video_filter_series_in => 'ضمن مسلسل';
   @override
   String get video_filter_series_standalone => 'غير ضمن مسلسل';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'هناك ${n} عنصر محدد مخفي بواسطة عامل التصفية الحالي ولن تتم معالجته.';
 }
 
 // Path: <root>
@@ -23157,6 +23162,9 @@ class _StringsDe extends _StringsEn {
   String get video_filter_series_in => 'In einer Serie';
   @override
   String get video_filter_series_standalone => 'Nicht in einer Serie';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Weitere ${n} ausgewählte Elemente sind durch den aktuellen Filter ausgeblendet und werden nicht bearbeitet.';
 }
 
 // Path: <root>
@@ -32279,6 +32287,9 @@ class _StringsEs extends _StringsEn {
   String get video_filter_series_in => 'En una serie';
   @override
   String get video_filter_series_standalone => 'Sin serie';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Otros ${n} elementos seleccionados están ocultos por el filtro actual y no se procesarán.';
 }
 
 // Path: <root>
@@ -41432,6 +41443,9 @@ class _StringsFr extends _StringsEn {
   String get video_filter_series_in => 'Dans une série';
   @override
   String get video_filter_series_standalone => 'Sans série';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '${n} autres éléments sélectionnés sont masqués par le filtre actuel et ne seront pas traités.';
 }
 
 // Path: <root>
@@ -50414,6 +50428,9 @@ class _StringsId extends _StringsEn {
   String get video_filter_series_in => 'Dalam seri';
   @override
   String get video_filter_series_standalone => 'Tanpa seri';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '${n} item terpilih lainnya disembunyikan oleh filter saat ini dan tidak akan diproses.';
 }
 
 // Path: <root>
@@ -59470,6 +59487,9 @@ class _StringsIt extends _StringsEn {
   String get video_filter_series_in => 'In una serie';
   @override
   String get video_filter_series_standalone => 'Senza serie';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Altri ${n} elementi selezionati sono nascosti dal filtro corrente e non verranno elaborati.';
 }
 
 // Path: <root>
@@ -67972,6 +67992,9 @@ class _StringsJa extends _StringsEn {
   String get video_filter_series_in => 'シリーズ内';
   @override
   String get video_filter_series_standalone => 'シリーズ外';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '選択済みの ${n} 件は現在のフィルターで非表示のため、今回は処理されません。';
 }
 
 // Path: <root>
@@ -76489,6 +76512,9 @@ class _StringsKo extends _StringsEn {
   String get video_filter_series_in => '시리즈에 포함';
   @override
   String get video_filter_series_standalone => '시리즈 없음';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '선택한 항목 중 ${n}개는 현재 필터로 숨겨져 있어 처리되지 않습니다.';
 }
 
 // Path: <root>
@@ -85503,6 +85529,9 @@ class _StringsNl extends _StringsEn {
   String get video_filter_series_in => 'In een serie';
   @override
   String get video_filter_series_standalone => 'Zonder serie';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Nog ${n} geselecteerde items zijn verborgen door het huidige filter en worden niet verwerkt.';
 }
 
 // Path: <root>
@@ -94576,6 +94605,9 @@ class _StringsPtBr extends _StringsEn {
   String get video_filter_series_in => 'Em uma série';
   @override
   String get video_filter_series_standalone => 'Sem série';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Outros ${n} itens selecionados estão ocultos pelo filtro atual e não serão processados.';
 }
 
 // Path: <root>
@@ -103621,6 +103653,9 @@ class _StringsRu extends _StringsEn {
   String get video_filter_series_in => 'В сериале';
   @override
   String get video_filter_series_standalone => 'Вне сериала';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Ещё ${n} выбранных элементов скрыты текущим фильтром и не будут обработаны.';
 }
 
 // Path: <root>
@@ -112483,6 +112518,9 @@ class _StringsTh extends _StringsEn {
   String get video_filter_series_in => 'อยู่ในซีรีส์';
   @override
   String get video_filter_series_standalone => 'ไม่อยู่ในซีรีส์';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'รายการที่เลือกอีก ${n} รายการถูกซ่อนด้วยตัวกรองปัจจุบันและจะไม่ถูกดำเนินการ';
 }
 
 // Path: <root>
@@ -121449,6 +121487,9 @@ class _StringsTr extends _StringsEn {
   String get video_filter_series_in => 'Bir dizide';
   @override
   String get video_filter_series_standalone => 'Dizide değil';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Seçili ${n} öğe daha geçerli filtre tarafından gizlendi ve işlenmeyecek.';
 }
 
 // Path: <root>
@@ -130399,6 +130440,9 @@ class _StringsVi extends _StringsEn {
   String get video_filter_series_in => 'Thuộc sê-ri';
   @override
   String get video_filter_series_standalone => 'Không thuộc sê-ri';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Còn ${n} mục đã chọn bị ẩn bởi bộ lọc hiện tại và sẽ không được xử lý.';
 }
 
 // Path: <root>
@@ -138629,6 +138673,9 @@ class _StringsZhCn extends _StringsEn {
   String get video_filter_series_in => '系列内';
   @override
   String get video_filter_series_standalone => '非系列';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '另有 ${n} 项被当前筛选隐藏，本次不会处理。';
 }
 
 // Path: <root>
@@ -146866,6 +146913,9 @@ class _StringsZhHk extends _StringsEn {
   String get video_filter_series_in => '系列內';
   @override
   String get video_filter_series_standalone => '非系列';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '另有 ${n} 項被目前篩選隱藏，今次不會處理。';
 }
 
 /// Flat map(s) containing all translations.
@@ -154720,6 +154770,9 @@ extension on _StringsEn {
         return 'In a series';
       case 'video_filter_series_standalone':
         return 'Not in a series';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Another ${n} selected item(s) are hidden by the current filter and will not be affected.';
       default:
         return null;
     }
@@ -162570,6 +162623,9 @@ extension on _StringsAr {
         return 'ضمن مسلسل';
       case 'video_filter_series_standalone':
         return 'غير ضمن مسلسل';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'هناك ${n} عنصر محدد مخفي بواسطة عامل التصفية الحالي ولن تتم معالجته.';
       default:
         return null;
     }
@@ -170463,6 +170519,9 @@ extension on _StringsDe {
         return 'In einer Serie';
       case 'video_filter_series_standalone':
         return 'Nicht in einer Serie';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Weitere ${n} ausgewählte Elemente sind durch den aktuellen Filter ausgeblendet und werden nicht bearbeitet.';
       default:
         return null;
     }
@@ -178348,6 +178407,9 @@ extension on _StringsEs {
         return 'En una serie';
       case 'video_filter_series_standalone':
         return 'Sin serie';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Otros ${n} elementos seleccionados están ocultos por el filtro actual y no se procesarán.';
       default:
         return null;
     }
@@ -186241,6 +186303,9 @@ extension on _StringsFr {
         return 'Dans une série';
       case 'video_filter_series_standalone':
         return 'Sans série';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            '${n} autres éléments sélectionnés sont masqués par le filtre actuel et ne seront pas traités.';
       default:
         return null;
     }
@@ -194106,6 +194171,9 @@ extension on _StringsId {
         return 'Dalam seri';
       case 'video_filter_series_standalone':
         return 'Tanpa seri';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            '${n} item terpilih lainnya disembunyikan oleh filter saat ini dan tidak akan diproses.';
       default:
         return null;
     }
@@ -201992,6 +202060,9 @@ extension on _StringsIt {
         return 'In una serie';
       case 'video_filter_series_standalone':
         return 'Senza serie';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Altri ${n} elementi selezionati sono nascosti dal filtro corrente e non verranno elaborati.';
       default:
         return null;
     }
@@ -209811,6 +209882,9 @@ extension on _StringsJa {
         return 'シリーズ内';
       case 'video_filter_series_standalone':
         return 'シリーズ外';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            '選択済みの ${n} 件は現在のフィルターで非表示のため、今回は処理されません。';
       default:
         return null;
     }
@@ -217632,6 +217706,9 @@ extension on _StringsKo {
         return '시리즈에 포함';
       case 'video_filter_series_standalone':
         return '시리즈 없음';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            '선택한 항목 중 ${n}개는 현재 필터로 숨겨져 있어 처리되지 않습니다.';
       default:
         return null;
     }
@@ -225512,6 +225589,9 @@ extension on _StringsNl {
         return 'In een serie';
       case 'video_filter_series_standalone':
         return 'Zonder serie';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Nog ${n} geselecteerde items zijn verborgen door het huidige filter en worden niet verwerkt.';
       default:
         return null;
     }
@@ -233387,6 +233467,9 @@ extension on _StringsPtBr {
         return 'Em uma série';
       case 'video_filter_series_standalone':
         return 'Sem série';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Outros ${n} itens selecionados estão ocultos pelo filtro atual e não serão processados.';
       default:
         return null;
     }
@@ -241268,6 +241351,9 @@ extension on _StringsRu {
         return 'В сериале';
       case 'video_filter_series_standalone':
         return 'Вне сериала';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Ещё ${n} выбранных элементов скрыты текущим фильтром и не будут обработаны.';
       default:
         return null;
     }
@@ -249121,6 +249207,9 @@ extension on _StringsTh {
         return 'อยู่ในซีรีส์';
       case 'video_filter_series_standalone':
         return 'ไม่อยู่ในซีรีส์';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'รายการที่เลือกอีก ${n} รายการถูกซ่อนด้วยตัวกรองปัจจุบันและจะไม่ถูกดำเนินการ';
       default:
         return null;
     }
@@ -256991,6 +257080,9 @@ extension on _StringsTr {
         return 'Bir dizide';
       case 'video_filter_series_standalone':
         return 'Dizide değil';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Seçili ${n} öğe daha geçerli filtre tarafından gizlendi ve işlenmeyecek.';
       default:
         return null;
     }
@@ -264854,6 +264946,9 @@ extension on _StringsVi {
         return 'Thuộc sê-ri';
       case 'video_filter_series_standalone':
         return 'Không thuộc sê-ri';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Còn ${n} mục đã chọn bị ẩn bởi bộ lọc hiện tại và sẽ không được xử lý.';
       default:
         return null;
     }
@@ -272653,6 +272748,8 @@ extension on _StringsZhCn {
         return '系列内';
       case 'video_filter_series_standalone':
         return '非系列';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) => '另有 ${n} 项被当前筛选隐藏，本次不会处理。';
       default:
         return null;
     }
@@ -280453,6 +280550,8 @@ extension on _StringsZhHk {
         return '系列內';
       case 'video_filter_series_standalone':
         return '非系列';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) => '另有 ${n} 項被目前篩選隱藏，今次不會處理。';
       default:
         return null;
     }
