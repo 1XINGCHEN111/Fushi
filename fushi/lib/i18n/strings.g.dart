@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64923 (3819 per locale)
+/// Strings: 65008 (3824 per locale)
 ///
-/// Built on 2026-08-28 at 06:06 UTC
+/// Built on 2026-08-28 at 06:21 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5200,6 +5200,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get storage_category_other => 'Other uncategorised';
   String get collection_export_pick_source => 'Select a source';
   String get collection_export_all_sources => 'All sources';
+  String get video_subtitle_list_search => 'Search subtitles';
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  String get video_subtitle_list_search_empty => 'No line matches';
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -14053,6 +14059,17 @@ class _StringsAr extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -23109,6 +23126,17 @@ class _StringsDe extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -32208,6 +32236,17 @@ class _StringsEs extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -41336,6 +41375,17 @@ class _StringsFr extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -50298,6 +50348,17 @@ class _StringsId extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -59332,6 +59393,17 @@ class _StringsIt extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -67823,6 +67895,17 @@ class _StringsJa extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -76330,6 +76413,17 @@ class _StringsKo extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -85324,6 +85418,17 @@ class _StringsNl extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -94374,6 +94479,17 @@ class _StringsPtBr extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -103397,6 +103513,17 @@ class _StringsRu extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -112243,6 +112370,17 @@ class _StringsTh extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -121191,6 +121329,17 @@ class _StringsTr extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -130121,6 +130270,17 @@ class _StringsVi extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 // Path: <root>
@@ -138334,6 +138494,16 @@ class _StringsZhCn extends _StringsEn {
   String get collection_export_pick_source => '选择来源';
   @override
   String get collection_export_all_sources => '全部来源';
+  @override
+  String get video_subtitle_list_search => '搜索字幕';
+  @override
+  String get video_subtitle_list_search_hint => '输入以筛选台词';
+  @override
+  String get video_subtitle_list_search_empty => '没有匹配的台词';
+  @override
+  String get video_subtitle_list_export_favorites => '导出收藏语句';
+  @override
+  String get shortcut_action_video_search_subtitle_list => '搜索字幕列表';
 }
 
 // Path: <root>
@@ -146568,6 +146738,17 @@ class _StringsZhHk extends _StringsEn {
   String get collection_export_pick_source => 'Select a source';
   @override
   String get collection_export_all_sources => 'All sources';
+  @override
+  String get video_subtitle_list_search => 'Search subtitles';
+  @override
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  @override
+  String get video_subtitle_list_search_empty => 'No line matches';
+  @override
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
 }
 
 /// Flat map(s) containing all translations.
@@ -154404,6 +154585,16 @@ extension on _StringsEn {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -162237,6 +162428,16 @@ extension on _StringsAr {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -170110,6 +170311,16 @@ extension on _StringsDe {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -177975,6 +178186,16 @@ extension on _StringsEs {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -185848,6 +186069,16 @@ extension on _StringsFr {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -193695,6 +193926,16 @@ extension on _StringsId {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -201562,6 +201803,16 @@ extension on _StringsIt {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -209365,6 +209616,16 @@ extension on _StringsJa {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -217170,6 +217431,16 @@ extension on _StringsKo {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -225030,6 +225301,16 @@ extension on _StringsNl {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -232886,6 +233167,16 @@ extension on _StringsPtBr {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -240749,6 +241040,16 @@ extension on _StringsRu {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -248586,6 +248887,16 @@ extension on _StringsTh {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -256438,6 +256749,16 @@ extension on _StringsTr {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -264284,6 +264605,16 @@ extension on _StringsVi {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
@@ -272065,6 +272396,16 @@ extension on _StringsZhCn {
         return '选择来源';
       case 'collection_export_all_sources':
         return '全部来源';
+      case 'video_subtitle_list_search':
+        return '搜索字幕';
+      case 'video_subtitle_list_search_hint':
+        return '输入以筛选台词';
+      case 'video_subtitle_list_search_empty':
+        return '没有匹配的台词';
+      case 'video_subtitle_list_export_favorites':
+        return '导出收藏语句';
+      case 'shortcut_action_video_search_subtitle_list':
+        return '搜索字幕列表';
       default:
         return null;
     }
@@ -279850,6 +280191,16 @@ extension on _StringsZhHk {
         return 'Select a source';
       case 'collection_export_all_sources':
         return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
       default:
         return null;
     }
