@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65195 (3835 per locale)
+/// Strings: 65246 (3838 per locale)
 ///
-/// Built on 2026-08-28 at 06:48 UTC
+/// Built on 2026-08-28 at 07:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5220,6 +5220,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_game_type_translated => 'Translated';
   String get discovery_game_type_mobile => 'Mobile';
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  String get game_library_downloading => 'Downloading';
+  String get game_library_download_queued => 'Queued';
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -14109,6 +14112,12 @@ class _StringsAr extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -23201,6 +23210,12 @@ class _StringsDe extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -32336,6 +32351,12 @@ class _StringsEs extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -41500,6 +41521,12 @@ class _StringsFr extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -50498,6 +50525,12 @@ class _StringsId extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -59568,6 +59601,12 @@ class _StringsIt extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -68095,6 +68134,12 @@ class _StringsJa extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -76638,6 +76683,12 @@ class _StringsKo extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -85668,6 +85719,12 @@ class _StringsNl extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -94754,6 +94811,12 @@ class _StringsPtBr extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -103813,6 +103876,12 @@ class _StringsRu extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -112695,6 +112764,12 @@ class _StringsTh extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -121679,6 +121754,12 @@ class _StringsTr extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -130645,6 +130726,12 @@ class _StringsVi extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -138890,6 +138977,12 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_game_type_mobile => '手机';
   @override
   String get discovery_game_type_unlabelled => '未标注';
+  @override
+  String get game_library_downloading => '下载中';
+  @override
+  String get game_library_download_queued => '排队中';
+  @override
+  String get game_library_download_retrying => '重试中';
 }
 
 // Path: <root>
@@ -147160,6 +147253,12 @@ class _StringsZhHk extends _StringsEn {
   String get discovery_game_type_mobile => 'Mobile';
   @override
   String get discovery_game_type_unlabelled => 'Unlabelled';
+  @override
+  String get game_library_downloading => 'Downloading';
+  @override
+  String get game_library_download_queued => 'Queued';
+  @override
+  String get game_library_download_retrying => 'Retrying';
 }
 
 /// Flat map(s) containing all translations.
@@ -155028,6 +155127,12 @@ extension on _StringsEn {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -162893,6 +162998,12 @@ extension on _StringsAr {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -170798,6 +170909,12 @@ extension on _StringsDe {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -178695,6 +178812,12 @@ extension on _StringsEs {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -186600,6 +186723,12 @@ extension on _StringsFr {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -194479,6 +194608,12 @@ extension on _StringsId {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -202378,6 +202513,12 @@ extension on _StringsIt {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -210213,6 +210354,12 @@ extension on _StringsJa {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -218050,6 +218197,12 @@ extension on _StringsKo {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -225942,6 +226095,12 @@ extension on _StringsNl {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -233830,6 +233989,12 @@ extension on _StringsPtBr {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -241725,6 +241890,12 @@ extension on _StringsRu {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -249594,6 +249765,12 @@ extension on _StringsTh {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -257478,6 +257655,12 @@ extension on _StringsTr {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -265356,6 +265539,12 @@ extension on _StringsVi {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -273169,6 +273358,12 @@ extension on _StringsZhCn {
         return '手机';
       case 'discovery_game_type_unlabelled':
         return '未标注';
+      case 'game_library_downloading':
+        return '下载中';
+      case 'game_library_download_queued':
+        return '排队中';
+      case 'game_library_download_retrying':
+        return '重试中';
       default:
         return null;
     }
@@ -280986,6 +281181,12 @@ extension on _StringsZhHk {
         return 'Mobile';
       case 'discovery_game_type_unlabelled':
         return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
