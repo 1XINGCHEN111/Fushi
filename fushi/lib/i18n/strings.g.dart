@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65654 (3862 per locale)
+/// Strings: 65671 (3863 per locale)
 ///
-/// Built on 2026-08-28 at 10:47 UTC
+/// Built on 2026-08-28 at 12:00 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5257,6 +5257,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The downloaded data could not be deleted; the download backend did not confirm it';
   String delete_local_files_failed({required Object n}) =>
       'Could not delete ${n} local file(s); they may still be in use';
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Another ${n} selected item(s) are hidden by the current filter and will not be affected.';
 }
 
 // Path: <root>
@@ -14205,6 +14207,9 @@ class _StringsAr extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'تعذّر حذف ${n} من الملفات المحلية؛ قد تكون قيد الاستخدام';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'هناك ${n} عنصر محدد مخفي بواسطة عامل التصفية الحالي ولن تتم معالجته.';
 }
 
 // Path: <root>
@@ -23364,6 +23369,9 @@ class _StringsDe extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       '${n} lokale Datei(en) konnten nicht gelöscht werden; sie sind möglicherweise noch in Benutzung';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Weitere ${n} ausgewählte Elemente sind durch den aktuellen Filter ausgeblendet und werden nicht bearbeitet.';
 }
 
 // Path: <root>
@@ -32567,6 +32575,9 @@ class _StringsEs extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'No se pudieron eliminar ${n} archivo(s) local(es); puede que sigan en uso';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Otros ${n} elementos seleccionados están ocultos por el filtro actual y no se procesarán.';
 }
 
 // Path: <root>
@@ -41802,6 +41813,9 @@ class _StringsFr extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'Impossible de supprimer ${n} fichier(s) local(aux) ; ils sont peut-être encore utilisés';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '${n} autres éléments sélectionnés sont masqués par le filtre actuel et ne seront pas traités.';
 }
 
 // Path: <root>
@@ -50862,6 +50876,9 @@ class _StringsId extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'Gagal menghapus ${n} berkas lokal; mungkin masih digunakan';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '${n} item terpilih lainnya disembunyikan oleh filter saat ini dan tidak akan diproses.';
 }
 
 // Path: <root>
@@ -59997,6 +60014,9 @@ class _StringsIt extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'Impossibile eliminare ${n} file locali; potrebbero essere ancora in uso';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Altri ${n} elementi selezionati sono nascosti dal filtro corrente e non verranno elaborati.';
 }
 
 // Path: <root>
@@ -68576,6 +68596,9 @@ class _StringsJa extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       '${n} 件のローカルファイルを削除できませんでした。使用中の可能性があります';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '選択済みの ${n} 件は現在のフィルターで非表示のため、今回は処理されません。';
 }
 
 // Path: <root>
@@ -77170,6 +77193,9 @@ class _StringsKo extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       '로컬 파일 ${n} 개를 삭제하지 못했습니다. 아직 사용 중일 수 있습니다';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '선택한 항목 중 ${n}개는 현재 필터로 숨겨져 있어 처리되지 않습니다.';
 }
 
 // Path: <root>
@@ -86263,6 +86289,9 @@ class _StringsNl extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       '${n} lokale bestand(en) konden niet worden verwijderd; ze zijn mogelijk nog in gebruik';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Nog ${n} geselecteerde items zijn verborgen door het huidige filter en worden niet verwerkt.';
 }
 
 // Path: <root>
@@ -95415,6 +95444,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'Não foi possível excluir ${n} arquivo(s) local(is); eles podem estar em uso';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Outros ${n} itens selecionados estão ocultos pelo filtro atual e não serão processados.';
 }
 
 // Path: <root>
@@ -104541,6 +104573,9 @@ class _StringsRu extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'Не удалось удалить локальные файлы (${n}); возможно, они ещё используются';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Ещё ${n} выбранных элементов скрыты текущим фильтром и не будут обработаны.';
 }
 
 // Path: <root>
@@ -113483,6 +113518,9 @@ class _StringsTh extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'ลบไฟล์ในเครื่องไม่สำเร็จ ${n} ไฟล์ อาจกำลังถูกใช้งานอยู่';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'รายการที่เลือกอีก ${n} รายการถูกซ่อนด้วยตัวกรองปัจจุบันและจะไม่ถูกดำเนินการ';
 }
 
 // Path: <root>
@@ -122529,6 +122567,9 @@ class _StringsTr extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       '${n} yerel dosya silinemedi; hâlâ kullanımda olabilir';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Seçili ${n} öğe daha geçerli filtre tarafından gizlendi ve işlenmeyecek.';
 }
 
 // Path: <root>
@@ -131557,6 +131598,9 @@ class _StringsVi extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       'Không thể xoá ${n} tệp trên máy; có thể chúng vẫn đang được sử dụng';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      'Còn ${n} mục đã chọn bị ẩn bởi bộ lọc hiện tại và sẽ không được xử lý.';
 }
 
 // Path: <root>
@@ -139860,6 +139904,9 @@ class _StringsZhCn extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       '有 ${n} 个本地文件删除失败，可能正在被使用';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '另有 ${n} 项被当前筛选隐藏，本次不会处理。';
 }
 
 // Path: <root>
@@ -148169,6 +148216,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String delete_local_files_failed({required Object n}) =>
       '有 ${n} 個本機檔案刪除失敗，可能正在被使用';
+  @override
+  String batch_hidden_by_filter_note({required Object n}) =>
+      '另有 ${n} 項被目前篩選隱藏，今次不會處理。';
 }
 
 /// Flat map(s) containing all translations.
@@ -156092,6 +156142,9 @@ extension on _StringsEn {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'Could not delete ${n} local file(s); they may still be in use';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Another ${n} selected item(s) are hidden by the current filter and will not be affected.';
       default:
         return null;
     }
@@ -164011,6 +164064,9 @@ extension on _StringsAr {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'تعذّر حذف ${n} من الملفات المحلية؛ قد تكون قيد الاستخدام';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'هناك ${n} عنصر محدد مخفي بواسطة عامل التصفية الحالي ولن تتم معالجته.';
       default:
         return null;
     }
@@ -171973,6 +172029,9 @@ extension on _StringsDe {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             '${n} lokale Datei(en) konnten nicht gelöscht werden; sie sind möglicherweise noch in Benutzung';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Weitere ${n} ausgewählte Elemente sind durch den aktuellen Filter ausgeblendet und werden nicht bearbeitet.';
       default:
         return null;
     }
@@ -179927,6 +179986,9 @@ extension on _StringsEs {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'No se pudieron eliminar ${n} archivo(s) local(es); puede que sigan en uso';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Otros ${n} elementos seleccionados están ocultos por el filtro actual y no se procesarán.';
       default:
         return null;
     }
@@ -187889,6 +187951,9 @@ extension on _StringsFr {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'Impossible de supprimer ${n} fichier(s) local(aux) ; ils sont peut-être encore utilisés';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            '${n} autres éléments sélectionnés sont masqués par le filtre actuel et ne seront pas traités.';
       default:
         return null;
     }
@@ -195823,6 +195888,9 @@ extension on _StringsId {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'Gagal menghapus ${n} berkas lokal; mungkin masih digunakan';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            '${n} item terpilih lainnya disembunyikan oleh filter saat ini dan tidak akan diproses.';
       default:
         return null;
     }
@@ -203778,6 +203846,9 @@ extension on _StringsIt {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'Impossibile eliminare ${n} file locali; potrebbero essere ancora in uso';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Altri ${n} elementi selezionati sono nascosti dal filtro corrente e non verranno elaborati.';
       default:
         return null;
     }
@@ -211666,6 +211737,9 @@ extension on _StringsJa {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             '${n} 件のローカルファイルを削除できませんでした。使用中の可能性があります';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            '選択済みの ${n} 件は現在のフィルターで非表示のため、今回は処理されません。';
       default:
         return null;
     }
@@ -219556,6 +219630,9 @@ extension on _StringsKo {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             '로컬 파일 ${n} 개를 삭제하지 못했습니다. 아직 사용 중일 수 있습니다';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            '선택한 항목 중 ${n}개는 현재 필터로 숨겨져 있어 처리되지 않습니다.';
       default:
         return null;
     }
@@ -227505,6 +227582,9 @@ extension on _StringsNl {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             '${n} lokale bestand(en) konden niet worden verwijderd; ze zijn mogelijk nog in gebruik';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Nog ${n} geselecteerde items zijn verborgen door het huidige filter en worden niet verwerkt.';
       default:
         return null;
     }
@@ -235449,6 +235529,9 @@ extension on _StringsPtBr {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'Não foi possível excluir ${n} arquivo(s) local(is); eles podem estar em uso';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Outros ${n} itens selecionados estão ocultos pelo filtro atual e não serão processados.';
       default:
         return null;
     }
@@ -243399,6 +243482,9 @@ extension on _StringsRu {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'Не удалось удалить локальные файлы (${n}); возможно, они ещё используются';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Ещё ${n} выбранных элементов скрыты текущим фильтром и не будут обработаны.';
       default:
         return null;
     }
@@ -251321,6 +251407,9 @@ extension on _StringsTh {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'ลบไฟล์ในเครื่องไม่สำเร็จ ${n} ไฟล์ อาจกำลังถูกใช้งานอยู่';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'รายการที่เลือกอีก ${n} รายการถูกซ่อนด้วยตัวกรองปัจจุบันและจะไม่ถูกดำเนินการ';
       default:
         return null;
     }
@@ -259260,6 +259349,9 @@ extension on _StringsTr {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             '${n} yerel dosya silinemedi; hâlâ kullanımda olabilir';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Seçili ${n} öğe daha geçerli filtre tarafından gizlendi ve işlenmeyecek.';
       default:
         return null;
     }
@@ -267192,6 +267284,9 @@ extension on _StringsVi {
       case 'delete_local_files_failed':
         return ({required Object n}) =>
             'Không thể xoá ${n} tệp trên máy; có thể chúng vẫn đang được sử dụng';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) =>
+            'Còn ${n} mục đã chọn bị ẩn bởi bộ lọc hiện tại và sẽ không được xử lý.';
       default:
         return null;
     }
@@ -275059,6 +275154,8 @@ extension on _StringsZhCn {
         return '已下载的数据未能删除：下载后端没有确认';
       case 'delete_local_files_failed':
         return ({required Object n}) => '有 ${n} 个本地文件删除失败，可能正在被使用';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) => '另有 ${n} 项被当前筛选隐藏，本次不会处理。';
       default:
         return null;
     }
@@ -282927,6 +283024,8 @@ extension on _StringsZhHk {
         return '已下載的資料未能刪除：下載引擎沒有確認';
       case 'delete_local_files_failed':
         return ({required Object n}) => '有 ${n} 個本機檔案刪除失敗，可能正在被使用';
+      case 'batch_hidden_by_filter_note':
+        return ({required Object n}) => '另有 ${n} 項被目前篩選隱藏，今次不會處理。';
       default:
         return null;
     }
