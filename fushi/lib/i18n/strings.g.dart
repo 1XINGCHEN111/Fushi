@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65076 (3828 per locale)
+/// Strings: 65127 (3831 per locale)
 ///
-/// Built on 2026-08-28 at 09:11 UTC
+/// Built on 2026-08-28 at 09:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3796,7 +3796,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The audio and aligned subtitles Fushi copied into its own storage';
   String get delete_disclosure_audiobook_book_kept =>
       'The book itself and its reading progress';
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'The original audio files you imported';
   String get audiobook_delete => 'Delete audiobook';
   String get audiobook_delete_confirm =>
@@ -5208,10 +5208,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get jellyfin_libraries_load_failed =>
       'Could not load the library list';
   String get delete_local_files => 'Also delete local files';
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
   String get delete_local_files_video_desc =>
       'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+  String get delete_local_files_audio_desc =>
+      'The original audio files are removed from this device; book and subtitle originals are kept. This cannot be undone.';
+  String get delete_disclosure_book_source_kept =>
+      'The original book and subtitle files you imported';
+  String get download_task_delete_files_failed =>
+      'The downloaded data could not be deleted; the download backend did not confirm it';
+  String delete_local_files_failed({required Object n}) =>
+      'Could not delete ${n} local file(s); they may still be in use';
 }
 
 // Path: <root>
@@ -11662,7 +11668,7 @@ class _StringsAr extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'الكتاب نفسه وتقدم القراءة فيه';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'ملفات الصوت الأصلية التي استوردتها';
   @override
   String get audiobook_delete => 'حذف الكتاب الصوتي';
@@ -14076,13 +14082,22 @@ class _StringsAr extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed => 'تعذّر تحميل قائمة المكتبات';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'حذف الملفات المحلية أيضًا';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'سيُحذف ملف الفيديو من هذا الجهاز، وستُزال مهمة التنزيل المقابلة أيضًا. لا يمكن التراجع عن ذلك.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'ستُحذف ملفات الصوت الأصلية من هذا الجهاز، بينما تبقى ملفات الكتاب والترجمة الأصلية. لا يمكن التراجع عن ذلك.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'ملفات الكتاب والترجمة الأصلية التي استوردتها';
+  @override
+  String get download_task_delete_files_failed =>
+      'تعذّر حذف البيانات المنزّلة؛ لم يؤكّد محرّك التنزيل ذلك';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'تعذّر حذف ${n} من الملفات المحلية؛ قد تكون قيد الاستخدام';
 }
 
 // Path: <root>
@@ -20679,7 +20694,7 @@ class _StringsDe extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'Das Buch selbst und sein Lesefortschritt';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'Die Original-Audiodateien, die Sie importiert haben';
   @override
   String get audiobook_delete => 'Hörbuch löschen';
@@ -23156,13 +23171,22 @@ class _StringsDe extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'Bibliotheksliste konnte nicht geladen werden';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Lokale Dateien ebenfalls löschen';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'Die Videodatei wird von diesem Gerät entfernt und der zugehörige Download-Auftrag ebenfalls gelöscht. Das lässt sich nicht rückgängig machen.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'Die ursprünglichen Audiodateien werden von diesem Gerät entfernt; die Original-Buch- und Untertiteldateien bleiben erhalten. Das lässt sich nicht rückgängig machen.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'Die von dir importierten Original-Buch- und Untertiteldateien';
+  @override
+  String get download_task_delete_files_failed =>
+      'Die heruntergeladenen Daten konnten nicht gelöscht werden; der Download-Dienst hat es nicht bestätigt';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      '${n} lokale Datei(en) konnten nicht gelöscht werden; sie sind möglicherweise noch in Benutzung';
 }
 
 // Path: <root>
@@ -29789,7 +29813,7 @@ class _StringsEs extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'El libro mismo y su progreso de lectura';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'Los archivos de audio originales que importó';
   @override
   String get audiobook_delete => 'Eliminar audiolibro';
@@ -32280,13 +32304,22 @@ class _StringsEs extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'No se pudo cargar la lista de bibliotecas';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Eliminar también los archivos locales';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'El archivo de vídeo se elimina de este dispositivo y su tarea de descarga también. Esto no se puede deshacer.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'Los archivos de audio originales se eliminan de este dispositivo; los archivos originales del libro y los subtítulos se conservan. Esto no se puede deshacer.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'Los archivos originales del libro y los subtítulos que importaste';
+  @override
+  String get download_task_delete_files_failed =>
+      'No se pudieron eliminar los datos descargados; el motor de descargas no lo confirmó';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'No se pudieron eliminar ${n} archivo(s) local(es); puede que sigan en uso';
 }
 
 // Path: <root>
@@ -38929,7 +38962,7 @@ class _StringsFr extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'Le livre lui-même et sa progression de lecture';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'Les fichiers audio originaux que vous avez importés';
   @override
   String get audiobook_delete => 'Supprimer le livre audio';
@@ -41435,13 +41468,22 @@ class _StringsFr extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'Impossible de charger la liste des bibliothèques';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Supprimer aussi les fichiers locaux';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'Le fichier vidéo est supprimé de cet appareil, ainsi que sa tâche de téléchargement. Cette action est irréversible.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'Les fichiers audio d\'origine sont supprimés de cet appareil ; les fichiers du livre et des sous-titres d\'origine sont conservés. Cette action est irréversible.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'Les fichiers d\'origine du livre et des sous-titres que vous avez importés';
+  @override
+  String get download_task_delete_files_failed =>
+      'Impossible de supprimer les données téléchargées ; le moteur de téléchargement ne l\'a pas confirmé';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'Impossible de supprimer ${n} fichier(s) local(aux) ; ils sont peut-être encore utilisés';
 }
 
 // Path: <root>
@@ -47975,7 +48017,7 @@ class _StringsId extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'Buku itu sendiri dan progres bacaannya';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'File audio asli yang Anda impor';
   @override
   String get audiobook_delete => 'Hapus buku audio';
@@ -50419,13 +50461,22 @@ class _StringsId extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'Tidak dapat memuat daftar pustaka';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Hapus juga berkas lokal';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'Berkas video dihapus dari perangkat ini beserta tugas unduhannya. Tindakan ini tidak dapat dibatalkan.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'Berkas audio asli dihapus dari perangkat ini; berkas buku dan takarir asli tetap disimpan. Tindakan ini tidak dapat dibatalkan.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'Berkas buku dan takarir asli yang kamu impor';
+  @override
+  String get download_task_delete_files_failed =>
+      'Data unduhan tidak dapat dihapus; mesin unduhan tidak mengonfirmasinya';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'Gagal menghapus ${n} berkas lokal; mungkin masih digunakan';
 }
 
 // Path: <root>
@@ -57013,7 +57064,7 @@ class _StringsIt extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'Il libro stesso e il suo progresso di lettura';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'I file audio originali importati';
   @override
   String get audiobook_delete => 'Elimina audiolibro';
@@ -59477,13 +59528,22 @@ class _StringsIt extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'Impossibile caricare l\'elenco delle librerie';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Elimina anche i file locali';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'Il file video viene rimosso da questo dispositivo, insieme al relativo processo di download. L\'operazione non è reversibile.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'I file audio originali vengono rimossi da questo dispositivo; i file originali del libro e dei sottotitoli restano. L\'operazione non è reversibile.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'I file originali del libro e dei sottotitoli che hai importato';
+  @override
+  String get download_task_delete_files_failed =>
+      'Non è stato possibile eliminare i dati scaricati; il motore di download non lo ha confermato';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'Impossibile eliminare ${n} file locali; potrebbero essere ancora in uso';
 }
 
 // Path: <root>
@@ -65675,7 +65735,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get delete_disclosure_audiobook_book_kept => '書籍本体とその読書進捗';
   @override
-  String get delete_disclosure_audiobook_source_kept => 'インポートした元の音声ファイル';
+  String get delete_disclosure_audio_source_files => 'インポートした元の音声ファイル';
   @override
   String get audiobook_delete => 'オーディオブックを削除';
   @override
@@ -67981,13 +68041,21 @@ class _StringsJa extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed => 'ライブラリ一覧を読み込めませんでした';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'ローカルファイルも削除する';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      '動画ファイルをこの端末から削除し、対応するダウンロードタスクも消去します。元に戻せません。';
+  @override
+  String get delete_local_files_audio_desc =>
+      '元の音声ファイルをこの端末から削除します。書籍と字幕の元ファイルは残ります。元に戻せません。';
+  @override
+  String get delete_disclosure_book_source_kept => 'インポートした元の書籍・字幕ファイル';
+  @override
+  String get download_task_delete_files_failed =>
+      'ダウンロード済みデータを削除できませんでした。ダウンロードエンジンが確認を返していません';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      '${n} 件のローカルファイルを削除できませんでした。使用中の可能性があります';
 }
 
 // Path: <root>
@@ -74193,7 +74261,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get delete_disclosure_audiobook_book_kept => '도서 자체 및 읽기 진행률';
   @override
-  String get delete_disclosure_audiobook_source_kept => '가져온 원본 오디오 파일';
+  String get delete_disclosure_audio_source_files => '가져온 원본 오디오 파일';
   @override
   String get audiobook_delete => '오디오북 삭제';
   @override
@@ -76500,13 +76568,21 @@ class _StringsKo extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed => '라이브러리 목록을 불러오지 못했어요';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => '로컬 파일도 삭제';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      '이 기기에서 동영상 파일을 삭제하고 해당 다운로드 작업도 함께 지웁니다. 되돌릴 수 없습니다.';
+  @override
+  String get delete_local_files_audio_desc =>
+      '이 기기에서 원본 오디오 파일을 삭제합니다. 책과 자막 원본 파일은 그대로 둡니다. 되돌릴 수 없습니다.';
+  @override
+  String get delete_disclosure_book_source_kept => '가져온 원본 책 및 자막 파일';
+  @override
+  String get download_task_delete_files_failed =>
+      '다운로드된 데이터를 삭제하지 못했습니다. 다운로드 엔진이 확인하지 않았습니다';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      '로컬 파일 ${n} 개를 삭제하지 못했습니다. 아직 사용 중일 수 있습니다';
 }
 
 // Path: <root>
@@ -83060,7 +83136,7 @@ class _StringsNl extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'Het boek zelf en de leesvoortgang';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'De originele audiobestanden die je importeerde';
   @override
   String get audiobook_delete => 'Luisterboek verwijderen';
@@ -85516,13 +85592,22 @@ class _StringsNl extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'Kon de bibliotheeklijst niet laden';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Ook lokale bestanden verwijderen';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'Het videobestand wordt van dit apparaat verwijderd en de bijbehorende downloadtaak ook. Dit kan niet ongedaan worden gemaakt.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'De oorspronkelijke audiobestanden worden van dit apparaat verwijderd; de originele boek- en ondertitelbestanden blijven staan. Dit kan niet ongedaan worden gemaakt.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'De originele boek- en ondertitelbestanden die je hebt geïmporteerd';
+  @override
+  String get download_task_delete_files_failed =>
+      'De gedownloade gegevens konden niet worden verwijderd; de downloadengine bevestigde dit niet';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      '${n} lokale bestand(en) konden niet worden verwijderd; ze zijn mogelijk nog in gebruik';
 }
 
 // Path: <root>
@@ -92112,7 +92197,7 @@ class _StringsPtBr extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'O livro em si e seu progresso de leitura';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'Os arquivos de áudio originais que você importou';
   @override
   String get audiobook_delete => 'Excluir audiobook';
@@ -94591,13 +94676,22 @@ class _StringsPtBr extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'Não foi possível carregar a lista de bibliotecas';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Excluir também os arquivos locais';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'O arquivo de vídeo é removido deste dispositivo e a tarefa de download correspondente também. Isso não pode ser desfeito.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'Os arquivos de áudio originais são removidos deste dispositivo; os arquivos originais do livro e das legendas são mantidos. Isso não pode ser desfeito.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'Os arquivos originais do livro e das legendas que você importou';
+  @override
+  String get download_task_delete_files_failed =>
+      'Não foi possível excluir os dados baixados; o mecanismo de download não confirmou';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'Não foi possível excluir ${n} arquivo(s) local(is); eles podem estar em uso';
 }
 
 // Path: <root>
@@ -101169,7 +101263,7 @@ class _StringsRu extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'Сама книга и прогресс чтения';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'Оригинальные аудиофайлы, которые вы импортировали';
   @override
   String get audiobook_delete => 'Удалить аудиокнигу';
@@ -103638,13 +103732,22 @@ class _StringsRu extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'Не удалось загрузить список библиотек';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Также удалить локальные файлы';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'Видеофайл будет удалён с этого устройства, а связанная задача загрузки — очищена. Отменить это нельзя.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'Исходные аудиофайлы будут удалены с этого устройства; исходные файлы книги и субтитров останутся. Отменить это нельзя.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'Импортированные вами исходные файлы книги и субтитров';
+  @override
+  String get download_task_delete_files_failed =>
+      'Не удалось удалить загруженные данные: движок загрузок не подтвердил операцию';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'Не удалось удалить локальные файлы (${n}); возможно, они ещё используются';
 }
 
 // Path: <root>
@@ -110087,7 +110190,7 @@ class _StringsTh extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'ตัวหนังสือและความคืบหน้าการอ่าน';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'ไฟล์เสียงต้นฉบับที่คุณนำเข้า';
   @override
   String get audiobook_delete => 'ลบหนังสือเสียง';
@@ -112502,13 +112605,22 @@ class _StringsTh extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed => 'โหลดรายการคลังไม่สำเร็จ';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'ลบไฟล์ในเครื่องด้วย';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'ไฟล์วิดีโอจะถูกลบออกจากอุปกรณ์นี้ พร้อมกับงานดาวน์โหลดที่เกี่ยวข้อง และไม่สามารถกู้คืนได้';
+  @override
+  String get delete_local_files_audio_desc =>
+      'ไฟล์เสียงต้นฉบับจะถูกลบออกจากอุปกรณ์นี้ ส่วนไฟล์หนังสือและคำบรรยายต้นฉบับจะยังอยู่ และไม่สามารถกู้คืนได้';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'ไฟล์หนังสือและคำบรรยายต้นฉบับที่คุณนำเข้า';
+  @override
+  String get download_task_delete_files_failed =>
+      'ลบข้อมูลที่ดาวน์โหลดไว้ไม่สำเร็จ เพราะตัวจัดการดาวน์โหลดไม่ยืนยัน';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'ลบไฟล์ในเครื่องไม่สำเร็จ ${n} ไฟล์ อาจกำลังถูกใช้งานอยู่';
 }
 
 // Path: <root>
@@ -119023,7 +119135,7 @@ class _StringsTr extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'Kitabın kendisi ve okuma ilerlemesi';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'İçe aktardığınız orijinal ses dosyaları';
   @override
   String get audiobook_delete => 'Sesli kitabı sil';
@@ -121470,13 +121582,22 @@ class _StringsTr extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed => 'Kitaplık listesi yüklenemedi';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Yerel dosyaları da sil';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'Video dosyası bu cihazdan silinir ve ilgili indirme görevi de temizlenir. Bu geri alınamaz.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'Özgün ses dosyaları bu cihazdan silinir; kitap ve altyazı asılları korunur. Bu geri alınamaz.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'İçe aktardığın özgün kitap ve altyazı dosyaları';
+  @override
+  String get download_task_delete_files_failed =>
+      'İndirilen veriler silinemedi; indirme motoru bunu onaylamadı';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      '${n} yerel dosya silinemedi; hâlâ kullanımda olabilir';
 }
 
 // Path: <root>
@@ -127984,7 +128105,7 @@ class _StringsVi extends _StringsEn {
   String get delete_disclosure_audiobook_book_kept =>
       'Cuốn sách và tiến trình đọc của nó';
   @override
-  String get delete_disclosure_audiobook_source_kept =>
+  String get delete_disclosure_audio_source_files =>
       'Các tệp âm thanh gốc bạn đã nhập';
   @override
   String get audiobook_delete => 'Xóa sách nói';
@@ -130422,13 +130543,22 @@ class _StringsVi extends _StringsEn {
   String get jellyfin_libraries_load_failed =>
       'Không tải được danh sách thư viện';
   @override
-  String get delete_local_files => 'Also delete local files';
-  @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files => 'Xoá cả tệp trên máy';
   @override
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'Tệp video sẽ bị xoá khỏi thiết bị này, đồng thời xoá cả tác vụ tải xuống tương ứng. Không thể hoàn tác.';
+  @override
+  String get delete_local_files_audio_desc =>
+      'Các tệp âm thanh gốc sẽ bị xoá khỏi thiết bị này; tệp sách và phụ đề gốc vẫn được giữ. Không thể hoàn tác.';
+  @override
+  String get delete_disclosure_book_source_kept =>
+      'Tệp sách và phụ đề gốc bạn đã nhập';
+  @override
+  String get download_task_delete_files_failed =>
+      'Không thể xoá dữ liệu đã tải; công cụ tải xuống không xác nhận';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      'Không thể xoá ${n} tệp trên máy; có thể chúng vẫn đang được sử dụng';
 }
 
 // Path: <root>
@@ -136442,7 +136572,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get delete_disclosure_audiobook_book_kept => '书籍本身和它的阅读进度';
   @override
-  String get delete_disclosure_audiobook_source_kept => '你导入时选择的原始音频文件';
+  String get delete_disclosure_audio_source_files => '你导入时选择的原始音频文件';
   @override
   String get audiobook_delete => '删除有声书';
   @override
@@ -138656,9 +138786,16 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get delete_local_files => '同时删除本地文件';
   @override
-  String get delete_local_files_desc => '原始文件将从本设备删除，无法恢复';
-  @override
   String get delete_local_files_video_desc => '视频文件将从本设备删除，对应的下载任务一并清除，无法恢复';
+  @override
+  String get delete_local_files_audio_desc => '原始音频文件将从本设备删除；书籍与字幕原件保留，无法恢复';
+  @override
+  String get delete_disclosure_book_source_kept => '你导入时选择的原始书籍与字幕文件';
+  @override
+  String get download_task_delete_files_failed => '已下载的数据未能删除：下载后端没有确认';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      '有 ${n} 个本地文件删除失败，可能正在被使用';
 }
 
 // Path: <root>
@@ -144678,7 +144815,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get delete_disclosure_audiobook_book_kept => '書籍本身和它的閱讀進度';
   @override
-  String get delete_disclosure_audiobook_source_kept => '你導入時選擇的原始音頻檔案';
+  String get delete_disclosure_audio_source_files => '你導入時選擇的原始音頻檔案';
   @override
   String get audiobook_delete => '刪除有聲書';
   @override
@@ -146891,13 +147028,18 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed => '讀取媒體庫清單失敗';
   @override
-  String get delete_local_files => 'Also delete local files';
+  String get delete_local_files => '同時刪除本機檔案';
   @override
-  String get delete_local_files_desc =>
-      'The original files are removed from this device. This cannot be undone.';
+  String get delete_local_files_video_desc => '影片檔案將從本機刪除，對應的下載工作一併清除，無法復原';
   @override
-  String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+  String get delete_local_files_audio_desc => '原始音訊檔案將從本機刪除；書籍與字幕原檔保留，無法復原';
+  @override
+  String get delete_disclosure_book_source_kept => '你匯入時選擇的原始書籍與字幕檔案';
+  @override
+  String get download_task_delete_files_failed => '已下載的資料未能刪除：下載引擎沒有確認';
+  @override
+  String delete_local_files_failed({required Object n}) =>
+      '有 ${n} 個本機檔案刪除失敗，可能正在被使用';
 }
 
 /// Flat map(s) containing all translations.
@@ -152664,7 +152806,7 @@ extension on _StringsEn {
         return 'The audio and aligned subtitles Fushi copied into its own storage';
       case 'delete_disclosure_audiobook_book_kept':
         return 'The book itself and its reading progress';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'The original audio files you imported';
       case 'audiobook_delete':
         return 'Delete audiobook';
@@ -154748,10 +154890,17 @@ extension on _StringsEn {
         return 'Could not load the library list';
       case 'delete_local_files':
         return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
       case 'delete_local_files_video_desc':
         return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      case 'delete_local_files_audio_desc':
+        return 'The original audio files are removed from this device; book and subtitle originals are kept. This cannot be undone.';
+      case 'delete_disclosure_book_source_kept':
+        return 'The original book and subtitle files you imported';
+      case 'download_task_delete_files_failed':
+        return 'The downloaded data could not be deleted; the download backend did not confirm it';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'Could not delete ${n} local file(s); they may still be in use';
       default:
         return null;
     }
@@ -160513,7 +160662,7 @@ extension on _StringsAr {
         return 'ملفات الصوت والترجمات المحاذاة التي نسخها Fushi إلى مخزنه الخاص';
       case 'delete_disclosure_audiobook_book_kept':
         return 'الكتاب نفسه وتقدم القراءة فيه';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'ملفات الصوت الأصلية التي استوردتها';
       case 'audiobook_delete':
         return 'حذف الكتاب الصوتي';
@@ -162597,11 +162746,18 @@ extension on _StringsAr {
       case 'jellyfin_libraries_load_failed':
         return 'تعذّر تحميل قائمة المكتبات';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'حذف الملفات المحلية أيضًا';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'سيُحذف ملف الفيديو من هذا الجهاز، وستُزال مهمة التنزيل المقابلة أيضًا. لا يمكن التراجع عن ذلك.';
+      case 'delete_local_files_audio_desc':
+        return 'ستُحذف ملفات الصوت الأصلية من هذا الجهاز، بينما تبقى ملفات الكتاب والترجمة الأصلية. لا يمكن التراجع عن ذلك.';
+      case 'delete_disclosure_book_source_kept':
+        return 'ملفات الكتاب والترجمة الأصلية التي استوردتها';
+      case 'download_task_delete_files_failed':
+        return 'تعذّر حذف البيانات المنزّلة؛ لم يؤكّد محرّك التنزيل ذلك';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'تعذّر حذف ${n} من الملفات المحلية؛ قد تكون قيد الاستخدام';
       default:
         return null;
     }
@@ -168398,7 +168554,7 @@ extension on _StringsDe {
         return 'Das Audio und die zugeordneten Untertitel, die Fushi in seinen eigenen Speicher kopiert hat';
       case 'delete_disclosure_audiobook_book_kept':
         return 'Das Buch selbst und sein Lesefortschritt';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'Die Original-Audiodateien, die Sie importiert haben';
       case 'audiobook_delete':
         return 'Hörbuch löschen';
@@ -170490,11 +170646,18 @@ extension on _StringsDe {
       case 'jellyfin_libraries_load_failed':
         return 'Bibliotheksliste konnte nicht geladen werden';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Lokale Dateien ebenfalls löschen';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'Die Videodatei wird von diesem Gerät entfernt und der zugehörige Download-Auftrag ebenfalls gelöscht. Das lässt sich nicht rückgängig machen.';
+      case 'delete_local_files_audio_desc':
+        return 'Die ursprünglichen Audiodateien werden von diesem Gerät entfernt; die Original-Buch- und Untertiteldateien bleiben erhalten. Das lässt sich nicht rückgängig machen.';
+      case 'delete_disclosure_book_source_kept':
+        return 'Die von dir importierten Original-Buch- und Untertiteldateien';
+      case 'download_task_delete_files_failed':
+        return 'Die heruntergeladenen Daten konnten nicht gelöscht werden; der Download-Dienst hat es nicht bestätigt';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            '${n} lokale Datei(en) konnten nicht gelöscht werden; sie sind möglicherweise noch in Benutzung';
       default:
         return null;
     }
@@ -176286,7 +176449,7 @@ extension on _StringsEs {
         return 'El audio y subtítulos alineados que Fushi copió en su almacenamiento';
       case 'delete_disclosure_audiobook_book_kept':
         return 'El libro mismo y su progreso de lectura';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'Los archivos de audio originales que importó';
       case 'audiobook_delete':
         return 'Eliminar audiolibro';
@@ -178375,11 +178538,18 @@ extension on _StringsEs {
       case 'jellyfin_libraries_load_failed':
         return 'No se pudo cargar la lista de bibliotecas';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Eliminar también los archivos locales';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'El archivo de vídeo se elimina de este dispositivo y su tarea de descarga también. Esto no se puede deshacer.';
+      case 'delete_local_files_audio_desc':
+        return 'Los archivos de audio originales se eliminan de este dispositivo; los archivos originales del libro y los subtítulos se conservan. Esto no se puede deshacer.';
+      case 'delete_disclosure_book_source_kept':
+        return 'Los archivos originales del libro y los subtítulos que importaste';
+      case 'download_task_delete_files_failed':
+        return 'No se pudieron eliminar los datos descargados; el motor de descargas no lo confirmó';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'No se pudieron eliminar ${n} archivo(s) local(es); puede que sigan en uso';
       default:
         return null;
     }
@@ -184179,7 +184349,7 @@ extension on _StringsFr {
         return 'L\'audio et les sous-titres alignés que Fushi a copiés dans son propre stockage';
       case 'delete_disclosure_audiobook_book_kept':
         return 'Le livre lui-même et sa progression de lecture';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'Les fichiers audio originaux que vous avez importés';
       case 'audiobook_delete':
         return 'Supprimer le livre audio';
@@ -186268,11 +186438,18 @@ extension on _StringsFr {
       case 'jellyfin_libraries_load_failed':
         return 'Impossible de charger la liste des bibliothèques';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Supprimer aussi les fichiers locaux';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'Le fichier vidéo est supprimé de cet appareil, ainsi que sa tâche de téléchargement. Cette action est irréversible.';
+      case 'delete_local_files_audio_desc':
+        return 'Les fichiers audio d\'origine sont supprimés de cet appareil ; les fichiers du livre et des sous-titres d\'origine sont conservés. Cette action est irréversible.';
+      case 'delete_disclosure_book_source_kept':
+        return 'Les fichiers d\'origine du livre et des sous-titres que vous avez importés';
+      case 'download_task_delete_files_failed':
+        return 'Impossible de supprimer les données téléchargées ; le moteur de téléchargement ne l\'a pas confirmé';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'Impossible de supprimer ${n} fichier(s) local(aux) ; ils sont peut-être encore utilisés';
       default:
         return null;
     }
@@ -192049,7 +192226,7 @@ extension on _StringsId {
         return 'Audio dan subtitle yang diselaraskan yang disalin Fushi ke penyimpanan sendiri';
       case 'delete_disclosure_audiobook_book_kept':
         return 'Buku itu sendiri dan progres bacaannya';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'File audio asli yang Anda impor';
       case 'audiobook_delete':
         return 'Hapus buku audio';
@@ -194133,11 +194310,18 @@ extension on _StringsId {
       case 'jellyfin_libraries_load_failed':
         return 'Tidak dapat memuat daftar pustaka';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Hapus juga berkas lokal';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'Berkas video dihapus dari perangkat ini beserta tugas unduhannya. Tindakan ini tidak dapat dibatalkan.';
+      case 'delete_local_files_audio_desc':
+        return 'Berkas audio asli dihapus dari perangkat ini; berkas buku dan takarir asli tetap disimpan. Tindakan ini tidak dapat dibatalkan.';
+      case 'delete_disclosure_book_source_kept':
+        return 'Berkas buku dan takarir asli yang kamu impor';
+      case 'download_task_delete_files_failed':
+        return 'Data unduhan tidak dapat dihapus; mesin unduhan tidak mengonfirmasinya';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'Gagal menghapus ${n} berkas lokal; mungkin masih digunakan';
       default:
         return null;
     }
@@ -199932,7 +200116,7 @@ extension on _StringsIt {
         return 'L\'audio e i sottotitoli allineati che Fushi ha copiato nel suo archivio';
       case 'delete_disclosure_audiobook_book_kept':
         return 'Il libro stesso e il suo progresso di lettura';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'I file audio originali importati';
       case 'audiobook_delete':
         return 'Elimina audiolibro';
@@ -202019,11 +202203,18 @@ extension on _StringsIt {
       case 'jellyfin_libraries_load_failed':
         return 'Impossibile caricare l\'elenco delle librerie';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Elimina anche i file locali';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'Il file video viene rimosso da questo dispositivo, insieme al relativo processo di download. L\'operazione non è reversibile.';
+      case 'delete_local_files_audio_desc':
+        return 'I file audio originali vengono rimossi da questo dispositivo; i file originali del libro e dei sottotitoli restano. L\'operazione non è reversibile.';
+      case 'delete_disclosure_book_source_kept':
+        return 'I file originali del libro e dei sottotitoli che hai importato';
+      case 'download_task_delete_files_failed':
+        return 'Non è stato possibile eliminare i dati scaricati; il motore di download non lo ha confermato';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'Impossibile eliminare ${n} file locali; potrebbero essere ancora in uso';
       default:
         return null;
     }
@@ -207759,7 +207950,7 @@ extension on _StringsJa {
         return 'Fushiが内部ストレージにコピーした音声と同期字幕';
       case 'delete_disclosure_audiobook_book_kept':
         return '書籍本体とその読書進捗';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'インポートした元の音声ファイル';
       case 'audiobook_delete':
         return 'オーディオブックを削除';
@@ -209838,11 +210029,18 @@ extension on _StringsJa {
       case 'jellyfin_libraries_load_failed':
         return 'ライブラリ一覧を読み込めませんでした';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'ローカルファイルも削除する';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return '動画ファイルをこの端末から削除し、対応するダウンロードタスクも消去します。元に戻せません。';
+      case 'delete_local_files_audio_desc':
+        return '元の音声ファイルをこの端末から削除します。書籍と字幕の元ファイルは残ります。元に戻せません。';
+      case 'delete_disclosure_book_source_kept':
+        return 'インポートした元の書籍・字幕ファイル';
+      case 'download_task_delete_files_failed':
+        return 'ダウンロード済みデータを削除できませんでした。ダウンロードエンジンが確認を返していません';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            '${n} 件のローカルファイルを削除できませんでした。使用中の可能性があります';
       default:
         return null;
     }
@@ -215581,7 +215779,7 @@ extension on _StringsKo {
         return 'Fushi가 자체 저장소에 복사한 오디오 및 정렬된 자막';
       case 'delete_disclosure_audiobook_book_kept':
         return '도서 자체 및 읽기 진행률';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return '가져온 원본 오디오 파일';
       case 'audiobook_delete':
         return '오디오북 삭제';
@@ -217659,11 +217857,18 @@ extension on _StringsKo {
       case 'jellyfin_libraries_load_failed':
         return '라이브러리 목록을 불러오지 못했어요';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return '로컬 파일도 삭제';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return '이 기기에서 동영상 파일을 삭제하고 해당 다운로드 작업도 함께 지웁니다. 되돌릴 수 없습니다.';
+      case 'delete_local_files_audio_desc':
+        return '이 기기에서 원본 오디오 파일을 삭제합니다. 책과 자막 원본 파일은 그대로 둡니다. 되돌릴 수 없습니다.';
+      case 'delete_disclosure_book_source_kept':
+        return '가져온 원본 책 및 자막 파일';
+      case 'download_task_delete_files_failed':
+        return '다운로드된 데이터를 삭제하지 못했습니다. 다운로드 엔진이 확인하지 않았습니다';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            '로컬 파일 ${n} 개를 삭제하지 못했습니다. 아직 사용 중일 수 있습니다';
       default:
         return null;
     }
@@ -223451,7 +223656,7 @@ extension on _StringsNl {
         return 'De audio en uitgelijnde ondertitels die Fushi in zijn eigen opslag heeft gekopieerd';
       case 'delete_disclosure_audiobook_book_kept':
         return 'Het boek zelf en de leesvoortgang';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'De originele audiobestanden die je importeerde';
       case 'audiobook_delete':
         return 'Luisterboek verwijderen';
@@ -225539,11 +225744,18 @@ extension on _StringsNl {
       case 'jellyfin_libraries_load_failed':
         return 'Kon de bibliotheeklijst niet laden';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Ook lokale bestanden verwijderen';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'Het videobestand wordt van dit apparaat verwijderd en de bijbehorende downloadtaak ook. Dit kan niet ongedaan worden gemaakt.';
+      case 'delete_local_files_audio_desc':
+        return 'De oorspronkelijke audiobestanden worden van dit apparaat verwijderd; de originele boek- en ondertitelbestanden blijven staan. Dit kan niet ongedaan worden gemaakt.';
+      case 'delete_disclosure_book_source_kept':
+        return 'De originele boek- en ondertitelbestanden die je hebt geïmporteerd';
+      case 'download_task_delete_files_failed':
+        return 'De gedownloade gegevens konden niet worden verwijderd; de downloadengine bevestigde dit niet';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            '${n} lokale bestand(en) konden niet worden verwijderd; ze zijn mogelijk nog in gebruik';
       default:
         return null;
     }
@@ -231326,7 +231538,7 @@ extension on _StringsPtBr {
         return 'O áudio e legendas alinhadas que o Fushi copiou para seu próprio armazenamento';
       case 'delete_disclosure_audiobook_book_kept':
         return 'O livro em si e seu progresso de leitura';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'Os arquivos de áudio originais que você importou';
       case 'audiobook_delete':
         return 'Excluir audiobook';
@@ -233414,11 +233626,18 @@ extension on _StringsPtBr {
       case 'jellyfin_libraries_load_failed':
         return 'Não foi possível carregar a lista de bibliotecas';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Excluir também os arquivos locais';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'O arquivo de vídeo é removido deste dispositivo e a tarefa de download correspondente também. Isso não pode ser desfeito.';
+      case 'delete_local_files_audio_desc':
+        return 'Os arquivos de áudio originais são removidos deste dispositivo; os arquivos originais do livro e das legendas são mantidos. Isso não pode ser desfeito.';
+      case 'delete_disclosure_book_source_kept':
+        return 'Os arquivos originais do livro e das legendas que você importou';
+      case 'download_task_delete_files_failed':
+        return 'Não foi possível excluir os dados baixados; o mecanismo de download não confirmou';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'Não foi possível excluir ${n} arquivo(s) local(is); eles podem estar em uso';
       default:
         return null;
     }
@@ -239209,7 +239428,7 @@ extension on _StringsRu {
         return 'Аудио и синхронизированные субтитры, скопированные Fushi в собственное хранилище';
       case 'delete_disclosure_audiobook_book_kept':
         return 'Сама книга и прогресс чтения';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'Оригинальные аудиофайлы, которые вы импортировали';
       case 'audiobook_delete':
         return 'Удалить аудиокнигу';
@@ -241295,11 +241514,18 @@ extension on _StringsRu {
       case 'jellyfin_libraries_load_failed':
         return 'Не удалось загрузить список библиотек';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Также удалить локальные файлы';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'Видеофайл будет удалён с этого устройства, а связанная задача загрузки — очищена. Отменить это нельзя.';
+      case 'delete_local_files_audio_desc':
+        return 'Исходные аудиофайлы будут удалены с этого устройства; исходные файлы книги и субтитров останутся. Отменить это нельзя.';
+      case 'delete_disclosure_book_source_kept':
+        return 'Импортированные вами исходные файлы книги и субтитров';
+      case 'download_task_delete_files_failed':
+        return 'Не удалось удалить загруженные данные: движок загрузок не подтвердил операцию';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'Не удалось удалить локальные файлы (${n}); возможно, они ещё используются';
       default:
         return null;
     }
@@ -247067,7 +247293,7 @@ extension on _StringsTh {
         return 'ไฟล์เสียงและคำบรรยายที่จับคู่ที่ Fushi คัดลอกไว้ในที่จัดเก็บของตัวเอง';
       case 'delete_disclosure_audiobook_book_kept':
         return 'ตัวหนังสือและความคืบหน้าการอ่าน';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'ไฟล์เสียงต้นฉบับที่คุณนำเข้า';
       case 'audiobook_delete':
         return 'ลบหนังสือเสียง';
@@ -249148,11 +249374,18 @@ extension on _StringsTh {
       case 'jellyfin_libraries_load_failed':
         return 'โหลดรายการคลังไม่สำเร็จ';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'ลบไฟล์ในเครื่องด้วย';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'ไฟล์วิดีโอจะถูกลบออกจากอุปกรณ์นี้ พร้อมกับงานดาวน์โหลดที่เกี่ยวข้อง และไม่สามารถกู้คืนได้';
+      case 'delete_local_files_audio_desc':
+        return 'ไฟล์เสียงต้นฉบับจะถูกลบออกจากอุปกรณ์นี้ ส่วนไฟล์หนังสือและคำบรรยายต้นฉบับจะยังอยู่ และไม่สามารถกู้คืนได้';
+      case 'delete_disclosure_book_source_kept':
+        return 'ไฟล์หนังสือและคำบรรยายต้นฉบับที่คุณนำเข้า';
+      case 'download_task_delete_files_failed':
+        return 'ลบข้อมูลที่ดาวน์โหลดไว้ไม่สำเร็จ เพราะตัวจัดการดาวน์โหลดไม่ยืนยัน';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'ลบไฟล์ในเครื่องไม่สำเร็จ ${n} ไฟล์ อาจกำลังถูกใช้งานอยู่';
       default:
         return null;
     }
@@ -254932,7 +255165,7 @@ extension on _StringsTr {
         return 'Fushi\'nin kendi depolama alanına kopyaladığı ses ve hizalanmış altyazılar';
       case 'delete_disclosure_audiobook_book_kept':
         return 'Kitabın kendisi ve okuma ilerlemesi';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'İçe aktardığınız orijinal ses dosyaları';
       case 'audiobook_delete':
         return 'Sesli kitabı sil';
@@ -257018,11 +257251,18 @@ extension on _StringsTr {
       case 'jellyfin_libraries_load_failed':
         return 'Kitaplık listesi yüklenemedi';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Yerel dosyaları da sil';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'Video dosyası bu cihazdan silinir ve ilgili indirme görevi de temizlenir. Bu geri alınamaz.';
+      case 'delete_local_files_audio_desc':
+        return 'Özgün ses dosyaları bu cihazdan silinir; kitap ve altyazı asılları korunur. Bu geri alınamaz.';
+      case 'delete_disclosure_book_source_kept':
+        return 'İçe aktardığın özgün kitap ve altyazı dosyaları';
+      case 'download_task_delete_files_failed':
+        return 'İndirilen veriler silinemedi; indirme motoru bunu onaylamadı';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            '${n} yerel dosya silinemedi; hâlâ kullanımda olabilir';
       default:
         return null;
     }
@@ -262798,7 +263038,7 @@ extension on _StringsVi {
         return 'Âm thanh và phụ đề đã đồng bộ mà Fushi sao chép vào bộ nhớ riêng';
       case 'delete_disclosure_audiobook_book_kept':
         return 'Cuốn sách và tiến trình đọc của nó';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return 'Các tệp âm thanh gốc bạn đã nhập';
       case 'audiobook_delete':
         return 'Xóa sách nói';
@@ -264881,11 +265121,18 @@ extension on _StringsVi {
       case 'jellyfin_libraries_load_failed':
         return 'Không tải được danh sách thư viện';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return 'Xoá cả tệp trên máy';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'Tệp video sẽ bị xoá khỏi thiết bị này, đồng thời xoá cả tác vụ tải xuống tương ứng. Không thể hoàn tác.';
+      case 'delete_local_files_audio_desc':
+        return 'Các tệp âm thanh gốc sẽ bị xoá khỏi thiết bị này; tệp sách và phụ đề gốc vẫn được giữ. Không thể hoàn tác.';
+      case 'delete_disclosure_book_source_kept':
+        return 'Tệp sách và phụ đề gốc bạn đã nhập';
+      case 'download_task_delete_files_failed':
+        return 'Không thể xoá dữ liệu đã tải; công cụ tải xuống không xác nhận';
+      case 'delete_local_files_failed':
+        return ({required Object n}) =>
+            'Không thể xoá ${n} tệp trên máy; có thể chúng vẫn đang được sử dụng';
       default:
         return null;
     }
@@ -270605,7 +270852,7 @@ extension on _StringsZhCn {
         return 'Fushi 复制到自己存储目录里的音频和对齐字幕';
       case 'delete_disclosure_audiobook_book_kept':
         return '书籍本身和它的阅读进度';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return '你导入时选择的原始音频文件';
       case 'audiobook_delete':
         return '删除有声书';
@@ -272681,10 +272928,16 @@ extension on _StringsZhCn {
         return '读取媒体库清单失败';
       case 'delete_local_files':
         return '同时删除本地文件';
-      case 'delete_local_files_desc':
-        return '原始文件将从本设备删除，无法恢复';
       case 'delete_local_files_video_desc':
         return '视频文件将从本设备删除，对应的下载任务一并清除，无法恢复';
+      case 'delete_local_files_audio_desc':
+        return '原始音频文件将从本设备删除；书籍与字幕原件保留，无法恢复';
+      case 'delete_disclosure_book_source_kept':
+        return '你导入时选择的原始书籍与字幕文件';
+      case 'download_task_delete_files_failed':
+        return '已下载的数据未能删除：下载后端没有确认';
+      case 'delete_local_files_failed':
+        return ({required Object n}) => '有 ${n} 个本地文件删除失败，可能正在被使用';
       default:
         return null;
     }
@@ -278405,7 +278658,7 @@ extension on _StringsZhHk {
         return 'Fushi 復製到自己存儲目錄裡的音頻和對齊字幕';
       case 'delete_disclosure_audiobook_book_kept':
         return '書籍本身和它的閱讀進度';
-      case 'delete_disclosure_audiobook_source_kept':
+      case 'delete_disclosure_audio_source_files':
         return '你導入時選擇的原始音頻檔案';
       case 'audiobook_delete':
         return '刪除有聲書';
@@ -280480,11 +280733,17 @@ extension on _StringsZhHk {
       case 'jellyfin_libraries_load_failed':
         return '讀取媒體庫清單失敗';
       case 'delete_local_files':
-        return 'Also delete local files';
-      case 'delete_local_files_desc':
-        return 'The original files are removed from this device. This cannot be undone.';
+        return '同時刪除本機檔案';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return '影片檔案將從本機刪除，對應的下載工作一併清除，無法復原';
+      case 'delete_local_files_audio_desc':
+        return '原始音訊檔案將從本機刪除；書籍與字幕原檔保留，無法復原';
+      case 'delete_disclosure_book_source_kept':
+        return '你匯入時選擇的原始書籍與字幕檔案';
+      case 'download_task_delete_files_failed':
+        return '已下載的資料未能刪除：下載引擎沒有確認';
+      case 'delete_local_files_failed':
+        return ({required Object n}) => '有 ${n} 個本機檔案刪除失敗，可能正在被使用';
       default:
         return null;
     }
