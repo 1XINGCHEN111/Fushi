@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65688 (3864 per locale)
+/// Strings: 65671 (3863 per locale)
 ///
-/// Built on 2026-08-28 at 10:03 UTC
+/// Built on 2026-08-28 at 10:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2670,8 +2670,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get texthooker_enabled => 'Texthooker (receive text)';
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
-  String get texthooker_experimental_banner =>
-      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
   String get theme_black => 'Pure black';
   String get theme_code_copied => 'Theme code copied to clipboard';
   String get theme_dark => 'Deep dark';
@@ -9750,9 +9748,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'الاتصال بـ Textractor/mpv/agent والبحث عن النص الوارد';
-  @override
-  String get texthooker_experimental_banner =>
-      'Texthooker ميزة تجريبية — قد يكون النص المباشر والبحث وإنشاء البطاقات غير مستقر.';
   @override
   String get theme_black => 'أسود صرف';
   @override
@@ -18808,9 +18803,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Mit Textractor/mpv/Agent verbinden und eingehenden Text nachschlagen';
-  @override
-  String get texthooker_experimental_banner =>
-      'Texthooker ist experimentell – Live-Text, Nachschlagen und Kartenerstellung können instabil sein.';
   @override
   String get theme_black => 'Reinschwarz';
   @override
@@ -27995,9 +27987,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Conéctate a Textractor/mpv/agente y consulta el texto entrante';
-  @override
-  String get texthooker_experimental_banner =>
-      'Texthooker es experimental: el texto en vivo, la consulta y la creación de tarjetas pueden ser inestables.';
   @override
   String get theme_black => 'Negro puro';
   @override
@@ -37217,9 +37206,6 @@ class _StringsFr extends _StringsEn {
   String get texthooker_enabled_hint =>
       'Se connecter à Textractor/mpv/agent et rechercher le texte reçu';
   @override
-  String get texthooker_experimental_banner =>
-      'Texthooker est expérimental — le texte en direct, la recherche et la création de cartes peuvent être instables.';
-  @override
   String get theme_black => 'Noir pur';
   @override
   String get theme_code_copied => 'Code du thème copié dans le presse-papiers';
@@ -46372,9 +46358,6 @@ class _StringsId extends _StringsEn {
   String get texthooker_enabled_hint =>
       'Hubungkan ke Textractor/mpv/agent dan cari teks yang masuk';
   @override
-  String get texthooker_experimental_banner =>
-      'Texthooker bersifat eksperimental — teks langsung, pencarian kata, dan pembuatan kartu mungkin belum stabil.';
-  @override
   String get theme_black => 'Hitam murni';
   @override
   String get theme_code_copied => 'Kode tema disalin ke papan klip';
@@ -55484,9 +55467,6 @@ class _StringsIt extends _StringsEn {
   String get texthooker_enabled_hint =>
       'Connettiti a Textractor/mpv/agent e cerca il testo in arrivo';
   @override
-  String get texthooker_experimental_banner =>
-      'Texthooker è sperimentale — testo in tempo reale, ricerca e creazione di carte potrebbero essere instabili.';
-  @override
   String get theme_black => 'Nero puro';
   @override
   String get theme_code_copied => 'Codice tema copiato negli appunti';
@@ -64363,9 +64343,6 @@ class _StringsJa extends _StringsEn {
   String get texthooker_enabled_hint =>
       'Textractor/mpv/agent に接続し、受信したテキストを辞書で引きます';
   @override
-  String get texthooker_experimental_banner =>
-      'テキストフッカーは実験的機能です。リアルタイムテキスト、辞書引き、カード作成が不安定な場合があります。';
-  @override
   String get theme_black => 'ブラック';
   @override
   String get theme_code_copied => 'テーマコードをクリップボードにコピーしました';
@@ -72949,9 +72926,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Textractor/mpv/agent에 연결해 수신한 텍스트를 검색합니다';
-  @override
-  String get texthooker_experimental_banner =>
-      'Texthooker는 실험적 기능입니다 — 실시간 텍스트, 단어 찾기, 카드 만들기가 불안정할 수 있습니다.';
   @override
   String get theme_black => '퓨어 블랙';
   @override
@@ -81788,9 +81762,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Verbind met Textractor/mpv/agent en zoek binnenkomende tekst op';
-  @override
-  String get texthooker_experimental_banner =>
-      'Texthooker is experimenteel — live tekst, opzoeken en kaarten maken kunnen instabiel zijn.';
   @override
   String get theme_black => 'Puur zwart';
   @override
@@ -90905,9 +90876,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Conecte ao Textractor/mpv/agente e consulte o texto recebido';
-  @override
-  String get texthooker_experimental_banner =>
-      'O Texthooker é experimental — texto ao vivo, consulta e criação de cartões podem ser instáveis.';
   @override
   String get theme_black => 'Preto puro';
   @override
@@ -100056,9 +100024,6 @@ class _StringsRu extends _StringsEn {
   String get texthooker_enabled_hint =>
       'Подключиться к Textractor/mpv/агенту и искать поступающий текст';
   @override
-  String get texthooker_experimental_banner =>
-      'Texthooker — экспериментальная функция: живой текст, поиск и создание карточек могут работать нестабильно.';
-  @override
   String get theme_black => 'Чёрная';
   @override
   String get theme_code_copied => 'Код темы скопирован в буфер обмена';
@@ -109104,9 +109069,6 @@ class _StringsTh extends _StringsEn {
   String get texthooker_enabled_hint =>
       'เชื่อมต่อกับ Textractor/mpv/agent แล้วค้นคำจากข้อความที่ได้รับ';
   @override
-  String get texthooker_experimental_banner =>
-      'Texthooker เป็นฟีเจอร์ทดลอง — ข้อความสด การค้นคำ และการสร้างการ์ดอาจยังไม่เสถียร';
-  @override
   String get theme_black => 'ดำสนิท';
   @override
   String get theme_code_copied => 'คัดลอกรหัสธีมไปยังคลิปบอร์ดแล้ว';
@@ -118098,9 +118060,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Textractor/mpv/agent\'a bağlanın ve gelen metni arayın';
-  @override
-  String get texthooker_experimental_banner =>
-      'Texthooker deneysel bir özelliktir — canlı metin, arama ve kart oluşturma kararsız olabilir.';
   @override
   String get theme_black => 'Saf siyah';
   @override
@@ -127146,9 +127105,6 @@ class _StringsVi extends _StringsEn {
   String get texthooker_enabled_hint =>
       'Kết nối Textractor/mpv/agent và tra văn bản nhận được';
   @override
-  String get texthooker_experimental_banner =>
-      'Texthooker là tính năng thử nghiệm — văn bản trực tiếp, tra từ và tạo thẻ có thể chưa ổn định.';
-  @override
   String get theme_black => 'Đen tuyền';
   @override
   String get theme_code_copied => 'Đã sao chép mã giao diện vào bộ nhớ tạm';
@@ -135853,8 +135809,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get texthooker_enabled_hint => '连接 Textractor/mpv/agent 并查询收到的文本';
   @override
-  String get texthooker_experimental_banner => '文本钩子为实验性功能：实时文本、查词与制卡可能尚不稳定。';
-  @override
   String get theme_black => '纯黑';
   @override
   String get theme_code_copied => '主题代码已复制到剪贴板';
@@ -144164,9 +144118,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get texthooker_enabled_hint => '連接 Textractor/mpv/agent 並查詢收到的文字';
   @override
-  String get texthooker_experimental_banner =>
-      'Texthooker 為實驗性功能：即時文字、查詞與製卡可能尚未穩定。';
-  @override
   String get theme_black => '純黑';
   @override
   String get theme_code_copied => '主題代碼已複製到剪貼簿';
@@ -152323,8 +152274,6 @@ extension on _StringsEn {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
       case 'theme_black':
         return 'Pure black';
       case 'theme_code_copied':
@@ -160245,8 +160194,6 @@ extension on _StringsAr {
         return 'Texthooker (استقبال النص)';
       case 'texthooker_enabled_hint':
         return 'الاتصال بـ Textractor/mpv/agent والبحث عن النص الوارد';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker ميزة تجريبية — قد يكون النص المباشر والبحث وإنشاء البطاقات غير مستقر.';
       case 'theme_black':
         return 'أسود صرف';
       case 'theme_code_copied':
@@ -168193,8 +168140,6 @@ extension on _StringsDe {
         return 'Texthooker (Text empfangen)';
       case 'texthooker_enabled_hint':
         return 'Mit Textractor/mpv/Agent verbinden und eingehenden Text nachschlagen';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker ist experimentell – Live-Text, Nachschlagen und Kartenerstellung können instabil sein.';
       case 'theme_black':
         return 'Reinschwarz';
       case 'theme_code_copied':
@@ -176157,8 +176102,6 @@ extension on _StringsEs {
         return 'Texthooker (recibir texto)';
       case 'texthooker_enabled_hint':
         return 'Conéctate a Textractor/mpv/agente y consulta el texto entrante';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker es experimental: el texto en vivo, la consulta y la creación de tarjetas pueden ser inestables.';
       case 'theme_black':
         return 'Negro puro';
       case 'theme_code_copied':
@@ -184120,8 +184063,6 @@ extension on _StringsFr {
         return 'Texthooker (réception de texte)';
       case 'texthooker_enabled_hint':
         return 'Se connecter à Textractor/mpv/agent et rechercher le texte reçu';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker est expérimental — le texte en direct, la recherche et la création de cartes peuvent être instables.';
       case 'theme_black':
         return 'Noir pur';
       case 'theme_code_copied':
@@ -192071,8 +192012,6 @@ extension on _StringsId {
         return 'Texthooker (terima teks)';
       case 'texthooker_enabled_hint':
         return 'Hubungkan ke Textractor/mpv/agent dan cari teks yang masuk';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker bersifat eksperimental — teks langsung, pencarian kata, dan pembuatan kartu mungkin belum stabil.';
       case 'theme_black':
         return 'Hitam murni';
       case 'theme_code_copied':
@@ -200019,8 +199958,6 @@ extension on _StringsIt {
         return 'Texthooker (ricevi testo)';
       case 'texthooker_enabled_hint':
         return 'Connettiti a Textractor/mpv/agent e cerca il testo in arrivo';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker è sperimentale — testo in tempo reale, ricerca e creazione di carte potrebbero essere instabili.';
       case 'theme_black':
         return 'Nero puro';
       case 'theme_code_copied':
@@ -207940,8 +207877,6 @@ extension on _StringsJa {
         return 'テキストフッカー（テキスト受信）';
       case 'texthooker_enabled_hint':
         return 'Textractor/mpv/agent に接続し、受信したテキストを辞書で引きます';
-      case 'texthooker_experimental_banner':
-        return 'テキストフッカーは実験的機能です。リアルタイムテキスト、辞書引き、カード作成が不安定な場合があります。';
       case 'theme_black':
         return 'ブラック';
       case 'theme_code_copied':
@@ -215834,8 +215769,6 @@ extension on _StringsKo {
         return 'Texthooker(텍스트 수신)';
       case 'texthooker_enabled_hint':
         return 'Textractor/mpv/agent에 연결해 수신한 텍스트를 검색합니다';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker는 실험적 기능입니다 — 실시간 텍스트, 단어 찾기, 카드 만들기가 불안정할 수 있습니다.';
       case 'theme_black':
         return '퓨어 블랙';
       case 'theme_code_copied':
@@ -223759,8 +223692,6 @@ extension on _StringsNl {
         return 'Texthooker (tekst ontvangen)';
       case 'texthooker_enabled_hint':
         return 'Verbind met Textractor/mpv/agent en zoek binnenkomende tekst op';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker is experimenteel — live tekst, opzoeken en kaarten maken kunnen instabiel zijn.';
       case 'theme_black':
         return 'Puur zwart';
       case 'theme_code_copied':
@@ -231709,8 +231640,6 @@ extension on _StringsPtBr {
         return 'Texthooker (receber texto)';
       case 'texthooker_enabled_hint':
         return 'Conecte ao Textractor/mpv/agente e consulte o texto recebido';
-      case 'texthooker_experimental_banner':
-        return 'O Texthooker é experimental — texto ao vivo, consulta e criação de cartões podem ser instáveis.';
       case 'theme_black':
         return 'Preto puro';
       case 'theme_code_copied':
@@ -239662,8 +239591,6 @@ extension on _StringsRu {
         return 'Texthooker (приём текста)';
       case 'texthooker_enabled_hint':
         return 'Подключиться к Textractor/mpv/агенту и искать поступающий текст';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker — экспериментальная функция: живой текст, поиск и создание карточек могут работать нестабильно.';
       case 'theme_black':
         return 'Чёрная';
       case 'theme_code_copied':
@@ -247601,8 +247528,6 @@ extension on _StringsTh {
         return 'Texthooker (รับข้อความ)';
       case 'texthooker_enabled_hint':
         return 'เชื่อมต่อกับ Textractor/mpv/agent แล้วค้นคำจากข้อความที่ได้รับ';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker เป็นฟีเจอร์ทดลอง — ข้อความสด การค้นคำ และการสร้างการ์ดอาจยังไม่เสถียร';
       case 'theme_black':
         return 'ดำสนิท';
       case 'theme_code_copied':
@@ -255533,8 +255458,6 @@ extension on _StringsTr {
         return 'Texthooker (metin al)';
       case 'texthooker_enabled_hint':
         return 'Textractor/mpv/agent\'a bağlanın ve gelen metni arayın';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker deneysel bir özelliktir — canlı metin, arama ve kart oluşturma kararsız olabilir.';
       case 'theme_black':
         return 'Saf siyah';
       case 'theme_code_copied':
@@ -263477,8 +263400,6 @@ extension on _StringsVi {
         return 'Texthooker (nhận văn bản)';
       case 'texthooker_enabled_hint':
         return 'Kết nối Textractor/mpv/agent và tra văn bản nhận được';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker là tính năng thử nghiệm — văn bản trực tiếp, tra từ và tạo thẻ có thể chưa ổn định.';
       case 'theme_black':
         return 'Đen tuyền';
       case 'theme_code_copied':
@@ -271376,8 +271297,6 @@ extension on _StringsZhCn {
         return '文本钩子（接收文本）';
       case 'texthooker_enabled_hint':
         return '连接 Textractor/mpv/agent 并查询收到的文本';
-      case 'texthooker_experimental_banner':
-        return '文本钩子为实验性功能：实时文本、查词与制卡可能尚不稳定。';
       case 'theme_black':
         return '纯黑';
       case 'theme_code_copied':
@@ -279248,8 +279167,6 @@ extension on _StringsZhHk {
         return 'Texthooker（接收文字）';
       case 'texthooker_enabled_hint':
         return '連接 Textractor/mpv/agent 並查詢收到的文字';
-      case 'texthooker_experimental_banner':
-        return 'Texthooker 為實驗性功能：即時文字、查詞與製卡可能尚未穩定。';
       case 'theme_black':
         return '純黑';
       case 'theme_code_copied':
