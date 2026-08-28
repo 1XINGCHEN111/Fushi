@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 64685 (3805 per locale)
 ///
-/// Built on 2026-08-25 at 15:21 UTC
+/// Built on 2026-08-28 at 09:39 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -13989,10 +13989,10 @@ class _StringsAr extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'التحقق من الموقع';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'أكمل فحص Cloudflare أدناه. سيستأنف التحميل تلقائيًا بعد اجتيازه.';
 }
 
 // Path: <root>
@@ -23008,10 +23008,10 @@ class _StringsDe extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Website-Überprüfung';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Schließe die Cloudflare-Prüfung unten ab. Der Ladevorgang wird nach dem Bestehen automatisch fortgesetzt.';
 }
 
 // Path: <root>
@@ -32070,10 +32070,10 @@ class _StringsEs extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Verificación del sitio';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Completa la verificación de Cloudflare a continuación. La carga se reanudará automáticamente al superarla.';
 }
 
 // Path: <root>
@@ -41161,10 +41161,10 @@ class _StringsFr extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Vérification du site';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Effectuez la vérification Cloudflare ci-dessous. Le chargement reprend automatiquement une fois validée.';
 }
 
 // Path: <root>
@@ -50086,10 +50086,10 @@ class _StringsId extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Verifikasi situs';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Selesaikan pemeriksaan Cloudflare di bawah ini. Pemuatan akan dilanjutkan otomatis setelah lolos.';
 }
 
 // Path: <root>
@@ -59083,10 +59083,10 @@ class _StringsIt extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Verifica del sito';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Completa il controllo Cloudflare qui sotto. Il caricamento riprenderà automaticamente al superamento.';
 }
 
 // Path: <root>
@@ -67537,10 +67537,10 @@ class _StringsJa extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'サイト認証';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      '下の Cloudflare 認証を完了してください。通過すると自動で読み込みを再開します。';
 }
 
 // Path: <root>
@@ -76007,10 +76007,10 @@ class _StringsKo extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => '사이트 확인';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      '아래 Cloudflare 확인을 완료하세요. 통과하면 자동으로 불러오기를 계속합니다.';
 }
 
 // Path: <root>
@@ -84964,10 +84964,10 @@ class _StringsNl extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Siteverificatie';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Voltooi de Cloudflare-controle hieronder. Het laden gaat automatisch verder zodra deze is geslaagd.';
 }
 
 // Path: <root>
@@ -93977,10 +93977,10 @@ class _StringsPtBr extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Verificação do site';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Conclua a verificação do Cloudflare abaixo. O carregamento continua automaticamente após a aprovação.';
 }
 
 // Path: <root>
@@ -102963,10 +102963,10 @@ class _StringsRu extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Проверка сайта';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Пройдите проверку Cloudflare ниже. После её прохождения загрузка продолжится автоматически.';
 }
 
 // Path: <root>
@@ -111772,10 +111772,10 @@ class _StringsTh extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'การยืนยันเว็บไซต์';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'ทำการยืนยัน Cloudflare ด้านล่างให้เสร็จ เมื่อผ่านแล้วระบบจะโหลดต่อโดยอัตโนมัติ';
 }
 
 // Path: <root>
@@ -120683,10 +120683,10 @@ class _StringsTr extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Site doğrulaması';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Aşağıdaki Cloudflare doğrulamasını tamamlayın. Doğrulama geçilince yükleme otomatik olarak sürer.';
 }
 
 // Path: <root>
@@ -129576,10 +129576,10 @@ class _StringsVi extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => 'Xác minh trang web';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      'Hoàn tất kiểm tra Cloudflare bên dưới. Quá trình tải sẽ tự động tiếp tục sau khi vượt qua.';
 }
 
 // Path: <root>
@@ -145948,10 +145948,10 @@ class _StringsZhHk extends _StringsEn {
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
   @override
-  String get manga_source_cloudflare_verify_title => 'Site verification';
+  String get manga_source_cloudflare_verify_title => '網站驗證';
   @override
   String get manga_source_cloudflare_verify_hint =>
-      'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      '請在下方完成 Cloudflare 驗證，通過後會自動繼續載入。';
 }
 
 /// Flat map(s) containing all translations.
@@ -161556,9 +161556,9 @@ extension on _StringsAr {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'التحقق من الموقع';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'أكمل فحص Cloudflare أدناه. سيستأنف التحميل تلقائيًا بعد اجتيازه.';
       default:
         return null;
     }
@@ -169398,9 +169398,9 @@ extension on _StringsDe {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Website-Überprüfung';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Schließe die Cloudflare-Prüfung unten ab. Der Ladevorgang wird nach dem Bestehen automatisch fortgesetzt.';
       default:
         return null;
     }
@@ -177232,9 +177232,9 @@ extension on _StringsEs {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Verificación del sitio';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Completa la verificación de Cloudflare a continuación. La carga se reanudará automáticamente al superarla.';
       default:
         return null;
     }
@@ -185074,9 +185074,9 @@ extension on _StringsFr {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Vérification du site';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Effectuez la vérification Cloudflare ci-dessous. Le chargement reprend automatiquement une fois validée.';
       default:
         return null;
     }
@@ -192890,9 +192890,9 @@ extension on _StringsId {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Verifikasi situs';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Selesaikan pemeriksaan Cloudflare di bawah ini. Pemuatan akan dilanjutkan otomatis setelah lolos.';
       default:
         return null;
     }
@@ -200726,9 +200726,9 @@ extension on _StringsIt {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Verifica del sito';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Completa il controllo Cloudflare qui sotto. Il caricamento riprenderà automaticamente al superamento.';
       default:
         return null;
     }
@@ -208498,9 +208498,9 @@ extension on _StringsJa {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'サイト認証';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return '下の Cloudflare 認証を完了してください。通過すると自動で読み込みを再開します。';
       default:
         return null;
     }
@@ -216272,9 +216272,9 @@ extension on _StringsKo {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return '사이트 확인';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return '아래 Cloudflare 확인을 완료하세요. 통과하면 자동으로 불러오기를 계속합니다.';
       default:
         return null;
     }
@@ -224101,9 +224101,9 @@ extension on _StringsNl {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Siteverificatie';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Voltooi de Cloudflare-controle hieronder. Het laden gaat automatisch verder zodra deze is geslaagd.';
       default:
         return null;
     }
@@ -231926,9 +231926,9 @@ extension on _StringsPtBr {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Verificação do site';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Conclua a verificação do Cloudflare abaixo. O carregamento continua automaticamente após a aprovação.';
       default:
         return null;
     }
@@ -239758,9 +239758,9 @@ extension on _StringsRu {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Проверка сайта';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Пройдите проверку Cloudflare ниже. После её прохождения загрузка продолжится автоматически.';
       default:
         return null;
     }
@@ -247564,9 +247564,9 @@ extension on _StringsTh {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'การยืนยันเว็บไซต์';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'ทำการยืนยัน Cloudflare ด้านล่างให้เสร็จ เมื่อผ่านแล้วระบบจะโหลดต่อโดยอัตโนมัติ';
       default:
         return null;
     }
@@ -255385,9 +255385,9 @@ extension on _StringsTr {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Site doğrulaması';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Aşağıdaki Cloudflare doğrulamasını tamamlayın. Doğrulama geçilince yükleme otomatik olarak sürer.';
       default:
         return null;
     }
@@ -263200,9 +263200,9 @@ extension on _StringsVi {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return 'Xác minh trang web';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return 'Hoàn tất kiểm tra Cloudflare bên dưới. Quá trình tải sẽ tự động tiếp tục sau khi vượt qua.';
       default:
         return null;
     }
@@ -278707,9 +278707,9 @@ extension on _StringsZhHk {
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
       case 'manga_source_cloudflare_verify_title':
-        return 'Site verification';
+        return '網站驗證';
       case 'manga_source_cloudflare_verify_hint':
-        return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+        return '請在下方完成 Cloudflare 驗證，通過後會自動繼續載入。';
       default:
         return null;
     }
