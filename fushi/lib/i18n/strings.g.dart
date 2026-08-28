@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64821 (3813 per locale)
+/// Strings: 64855 (3815 per locale)
 ///
-/// Built on 2026-08-26 at 01:56 UTC
+/// Built on 2026-08-28 at 04:55 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5191,6 +5191,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Subtitle file deleted: ${label}';
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  String get db_cannot_open_title => 'Data location unavailable';
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -14029,6 +14032,11 @@ class _StringsAr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -23070,6 +23078,11 @@ class _StringsDe extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -32154,6 +32167,11 @@ class _StringsEs extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -41267,6 +41285,11 @@ class _StringsFr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -50214,6 +50237,11 @@ class _StringsId extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -59233,6 +59261,11 @@ class _StringsIt extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -67709,6 +67742,11 @@ class _StringsJa extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -76201,6 +76239,11 @@ class _StringsKo extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -85180,6 +85223,11 @@ class _StringsNl extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -94215,6 +94263,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -103223,6 +103276,11 @@ class _StringsRu extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -112054,6 +112112,11 @@ class _StringsTh extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -120987,6 +121050,11 @@ class _StringsTr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -129902,6 +129970,11 @@ class _StringsVi extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 // Path: <root>
@@ -138100,6 +138173,11 @@ class _StringsZhCn extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       '删除字幕文件失败：${label}';
+  @override
+  String get db_cannot_open_title => '数据位置不可用';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi 无法在配置的数据位置打开或创建数据库。数据没有损坏——该文件夹可能不存在、只读，或位于已断开的磁盘上。请在设置中检查数据位置，或重启以使用默认位置。';
 }
 
 // Path: <root>
@@ -146319,6 +146397,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get db_cannot_open_title => 'Data location unavailable';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
 }
 
 /// Flat map(s) containing all translations.
@@ -154143,6 +154226,10 @@ extension on _StringsEn {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -161964,6 +162051,10 @@ extension on _StringsAr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -169825,6 +169916,10 @@ extension on _StringsDe {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -177678,6 +177773,10 @@ extension on _StringsEs {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -185539,6 +185638,10 @@ extension on _StringsFr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -193374,6 +193477,10 @@ extension on _StringsId {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -201229,6 +201336,10 @@ extension on _StringsIt {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -209020,6 +209131,10 @@ extension on _StringsJa {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -216813,6 +216928,10 @@ extension on _StringsKo {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -224661,6 +224780,10 @@ extension on _StringsNl {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -232505,6 +232628,10 @@ extension on _StringsPtBr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -240356,6 +240483,10 @@ extension on _StringsRu {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -248181,6 +248312,10 @@ extension on _StringsTh {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -256021,6 +256156,10 @@ extension on _StringsTr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -263855,6 +263994,10 @@ extension on _StringsVi {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
@@ -271624,6 +271767,10 @@ extension on _StringsZhCn {
         return ({required Object label}) => '已删除字幕文件：${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => '删除字幕文件失败：${label}';
+      case 'db_cannot_open_title':
+        return '数据位置不可用';
+      case 'db_cannot_open_message':
+        return 'Fushi 无法在配置的数据位置打开或创建数据库。数据没有损坏——该文件夹可能不存在、只读，或位于已断开的磁盘上。请在设置中检查数据位置，或重启以使用默认位置。';
       default:
         return null;
     }
@@ -279397,6 +279544,10 @@ extension on _StringsZhHk {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
       default:
         return null;
     }
