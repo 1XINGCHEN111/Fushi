@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65025 (3825 per locale)
+/// Strings: 65076 (3828 per locale)
 ///
-/// Built on 2026-08-28 at 06:32 UTC
+/// Built on 2026-08-28 at 07:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5207,6 +5207,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Select nothing to list every video library. Narrowing to the libraries you actually watch keeps huge servers from being enumerated in full.';
   String get jellyfin_libraries_load_failed =>
       'Could not load the library list';
+  String get video_filter_series => 'Series';
+  String get video_filter_series_in => 'In a series';
+  String get video_filter_series_standalone => 'Not in a series';
 }
 
 // Path: <root>
@@ -14070,6 +14073,12 @@ class _StringsAr extends _StringsEn {
       'عدم اختيار أي شيء يسرد كل مكتبات الفيديو. حصر الأمر في المكتبات التي تشاهدها فعلًا يمنع سرد الخوادم الضخمة بالكامل.';
   @override
   String get jellyfin_libraries_load_failed => 'تعذّر تحميل قائمة المكتبات';
+  @override
+  String get video_filter_series => 'المسلسلات';
+  @override
+  String get video_filter_series_in => 'ضمن مسلسل';
+  @override
+  String get video_filter_series_standalone => 'غير ضمن مسلسل';
 }
 
 // Path: <root>
@@ -23142,6 +23151,12 @@ class _StringsDe extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'Bibliotheksliste konnte nicht geladen werden';
+  @override
+  String get video_filter_series => 'Serie';
+  @override
+  String get video_filter_series_in => 'In einer Serie';
+  @override
+  String get video_filter_series_standalone => 'Nicht in einer Serie';
 }
 
 // Path: <root>
@@ -32258,6 +32273,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'No se pudo cargar la lista de bibliotecas';
+  @override
+  String get video_filter_series => 'Series';
+  @override
+  String get video_filter_series_in => 'En una serie';
+  @override
+  String get video_filter_series_standalone => 'Sin serie';
 }
 
 // Path: <root>
@@ -41405,6 +41426,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'Impossible de charger la liste des bibliothèques';
+  @override
+  String get video_filter_series => 'Séries';
+  @override
+  String get video_filter_series_in => 'Dans une série';
+  @override
+  String get video_filter_series_standalone => 'Sans série';
 }
 
 // Path: <root>
@@ -50381,6 +50408,12 @@ class _StringsId extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'Tidak dapat memuat daftar pustaka';
+  @override
+  String get video_filter_series => 'Seri';
+  @override
+  String get video_filter_series_in => 'Dalam seri';
+  @override
+  String get video_filter_series_standalone => 'Tanpa seri';
 }
 
 // Path: <root>
@@ -59431,6 +59464,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'Impossibile caricare l\'elenco delle librerie';
+  @override
+  String get video_filter_series => 'Serie';
+  @override
+  String get video_filter_series_in => 'In una serie';
+  @override
+  String get video_filter_series_standalone => 'Senza serie';
 }
 
 // Path: <root>
@@ -67927,6 +67966,12 @@ class _StringsJa extends _StringsEn {
       '何も選ばないとすべての動画ライブラリを一覧表示します。実際に見るライブラリだけに絞ると、巨大なサーバーが丸ごと列挙されるのを防げます。';
   @override
   String get jellyfin_libraries_load_failed => 'ライブラリ一覧を読み込めませんでした';
+  @override
+  String get video_filter_series => 'シリーズ';
+  @override
+  String get video_filter_series_in => 'シリーズ内';
+  @override
+  String get video_filter_series_standalone => 'シリーズ外';
 }
 
 // Path: <root>
@@ -76438,6 +76483,12 @@ class _StringsKo extends _StringsEn {
       '아무것도 선택하지 않으면 모든 비디오 라이브러리를 나열해요. 실제로 보는 라이브러리로 좁히면 거대한 서버가 통째로 열거되는 것을 막을 수 있어요.';
   @override
   String get jellyfin_libraries_load_failed => '라이브러리 목록을 불러오지 못했어요';
+  @override
+  String get video_filter_series => '시리즈';
+  @override
+  String get video_filter_series_in => '시리즈에 포함';
+  @override
+  String get video_filter_series_standalone => '시리즈 없음';
 }
 
 // Path: <root>
@@ -85446,6 +85497,12 @@ class _StringsNl extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'Kon de bibliotheeklijst niet laden';
+  @override
+  String get video_filter_series => 'Serie';
+  @override
+  String get video_filter_series_in => 'In een serie';
+  @override
+  String get video_filter_series_standalone => 'Zonder serie';
 }
 
 // Path: <root>
@@ -94513,6 +94570,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'Não foi possível carregar a lista de bibliotecas';
+  @override
+  String get video_filter_series => 'Séries';
+  @override
+  String get video_filter_series_in => 'Em uma série';
+  @override
+  String get video_filter_series_standalone => 'Sem série';
 }
 
 // Path: <root>
@@ -103552,6 +103615,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'Не удалось загрузить список библиотек';
+  @override
+  String get video_filter_series => 'Сериалы';
+  @override
+  String get video_filter_series_in => 'В сериале';
+  @override
+  String get video_filter_series_standalone => 'Вне сериала';
 }
 
 // Path: <root>
@@ -112408,6 +112477,12 @@ class _StringsTh extends _StringsEn {
       'ไม่เลือกอะไรเลยจะแสดงคลังวิดีโอทั้งหมด การจำกัดเฉพาะคลังที่ดูจริงช่วยไม่ให้เซิร์ฟเวอร์ขนาดใหญ่ถูกไล่รายการทั้งหมด';
   @override
   String get jellyfin_libraries_load_failed => 'โหลดรายการคลังไม่สำเร็จ';
+  @override
+  String get video_filter_series => 'ซีรีส์';
+  @override
+  String get video_filter_series_in => 'อยู่ในซีรีส์';
+  @override
+  String get video_filter_series_standalone => 'ไม่อยู่ในซีรีส์';
 }
 
 // Path: <root>
@@ -121368,6 +121443,12 @@ class _StringsTr extends _StringsEn {
       'Hiçbir şey seçmezseniz tüm video kitaplıkları listelenir. Gerçekten izlediğiniz kitaplıklarla sınırlamak, devasa sunucuların baştan sona sayılmasını önler.';
   @override
   String get jellyfin_libraries_load_failed => 'Kitaplık listesi yüklenemedi';
+  @override
+  String get video_filter_series => 'Diziler';
+  @override
+  String get video_filter_series_in => 'Bir dizide';
+  @override
+  String get video_filter_series_standalone => 'Dizide değil';
 }
 
 // Path: <root>
@@ -130312,6 +130393,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get jellyfin_libraries_load_failed =>
       'Không tải được danh sách thư viện';
+  @override
+  String get video_filter_series => 'Sê-ri';
+  @override
+  String get video_filter_series_in => 'Thuộc sê-ri';
+  @override
+  String get video_filter_series_standalone => 'Không thuộc sê-ri';
 }
 
 // Path: <root>
@@ -138536,6 +138623,12 @@ class _StringsZhCn extends _StringsEn {
       '不选 = 列出全部视频媒体库。只勾你真正会看的库，超大服务器就不会被整台枚举。';
   @override
   String get jellyfin_libraries_load_failed => '读取媒体库清单失败';
+  @override
+  String get video_filter_series => '系列';
+  @override
+  String get video_filter_series_in => '系列内';
+  @override
+  String get video_filter_series_standalone => '非系列';
 }
 
 // Path: <root>
@@ -146767,6 +146860,12 @@ class _StringsZhHk extends _StringsEn {
       '不選 = 列出全部影片媒體庫。只勾你真正會看的庫，超大伺服器就不會被整台列舉。';
   @override
   String get jellyfin_libraries_load_failed => '讀取媒體庫清單失敗';
+  @override
+  String get video_filter_series => '系列';
+  @override
+  String get video_filter_series_in => '系列內';
+  @override
+  String get video_filter_series_standalone => '非系列';
 }
 
 /// Flat map(s) containing all translations.
@@ -154615,6 +154714,12 @@ extension on _StringsEn {
         return 'Select nothing to list every video library. Narrowing to the libraries you actually watch keeps huge servers from being enumerated in full.';
       case 'jellyfin_libraries_load_failed':
         return 'Could not load the library list';
+      case 'video_filter_series':
+        return 'Series';
+      case 'video_filter_series_in':
+        return 'In a series';
+      case 'video_filter_series_standalone':
+        return 'Not in a series';
       default:
         return null;
     }
@@ -162459,6 +162564,12 @@ extension on _StringsAr {
         return 'عدم اختيار أي شيء يسرد كل مكتبات الفيديو. حصر الأمر في المكتبات التي تشاهدها فعلًا يمنع سرد الخوادم الضخمة بالكامل.';
       case 'jellyfin_libraries_load_failed':
         return 'تعذّر تحميل قائمة المكتبات';
+      case 'video_filter_series':
+        return 'المسلسلات';
+      case 'video_filter_series_in':
+        return 'ضمن مسلسل';
+      case 'video_filter_series_standalone':
+        return 'غير ضمن مسلسل';
       default:
         return null;
     }
@@ -170346,6 +170457,12 @@ extension on _StringsDe {
         return 'Nichts auswählen listet jede Videobibliothek auf. Auf die Bibliotheken zu beschränken, die du wirklich schaust, verhindert, dass riesige Server komplett durchlaufen werden.';
       case 'jellyfin_libraries_load_failed':
         return 'Bibliotheksliste konnte nicht geladen werden';
+      case 'video_filter_series':
+        return 'Serie';
+      case 'video_filter_series_in':
+        return 'In einer Serie';
+      case 'video_filter_series_standalone':
+        return 'Nicht in einer Serie';
       default:
         return null;
     }
@@ -178225,6 +178342,12 @@ extension on _StringsEs {
         return 'No seleccionar nada lista todas las bibliotecas de vídeo. Limitarlo a las bibliotecas que realmente ves evita que los servidores enormes se enumeren por completo.';
       case 'jellyfin_libraries_load_failed':
         return 'No se pudo cargar la lista de bibliotecas';
+      case 'video_filter_series':
+        return 'Series';
+      case 'video_filter_series_in':
+        return 'En una serie';
+      case 'video_filter_series_standalone':
+        return 'Sin serie';
       default:
         return null;
     }
@@ -186112,6 +186235,12 @@ extension on _StringsFr {
         return 'Ne rien sélectionner liste toutes les bibliothèques vidéo. Se limiter aux bibliothèques que vous regardez vraiment évite que d\'énormes serveurs soient énumérés en entier.';
       case 'jellyfin_libraries_load_failed':
         return 'Impossible de charger la liste des bibliothèques';
+      case 'video_filter_series':
+        return 'Séries';
+      case 'video_filter_series_in':
+        return 'Dans une série';
+      case 'video_filter_series_standalone':
+        return 'Sans série';
       default:
         return null;
     }
@@ -193971,6 +194100,12 @@ extension on _StringsId {
         return 'Tidak memilih apa pun akan mendaftarkan semua pustaka video. Membatasi ke pustaka yang benar-benar Anda tonton mencegah server raksasa didaftar seluruhnya.';
       case 'jellyfin_libraries_load_failed':
         return 'Tidak dapat memuat daftar pustaka';
+      case 'video_filter_series':
+        return 'Seri';
+      case 'video_filter_series_in':
+        return 'Dalam seri';
+      case 'video_filter_series_standalone':
+        return 'Tanpa seri';
       default:
         return null;
     }
@@ -201851,6 +201986,12 @@ extension on _StringsIt {
         return 'Non selezionare nulla elenca tutte le librerie video. Limitarsi alle librerie che guardi davvero evita che server enormi vengano enumerati per intero.';
       case 'jellyfin_libraries_load_failed':
         return 'Impossibile caricare l\'elenco delle librerie';
+      case 'video_filter_series':
+        return 'Serie';
+      case 'video_filter_series_in':
+        return 'In una serie';
+      case 'video_filter_series_standalone':
+        return 'Senza serie';
       default:
         return null;
     }
@@ -209664,6 +209805,12 @@ extension on _StringsJa {
         return '何も選ばないとすべての動画ライブラリを一覧表示します。実際に見るライブラリだけに絞ると、巨大なサーバーが丸ごと列挙されるのを防げます。';
       case 'jellyfin_libraries_load_failed':
         return 'ライブラリ一覧を読み込めませんでした';
+      case 'video_filter_series':
+        return 'シリーズ';
+      case 'video_filter_series_in':
+        return 'シリーズ内';
+      case 'video_filter_series_standalone':
+        return 'シリーズ外';
       default:
         return null;
     }
@@ -217479,6 +217626,12 @@ extension on _StringsKo {
         return '아무것도 선택하지 않으면 모든 비디오 라이브러리를 나열해요. 실제로 보는 라이브러리로 좁히면 거대한 서버가 통째로 열거되는 것을 막을 수 있어요.';
       case 'jellyfin_libraries_load_failed':
         return '라이브러리 목록을 불러오지 못했어요';
+      case 'video_filter_series':
+        return '시리즈';
+      case 'video_filter_series_in':
+        return '시리즈에 포함';
+      case 'video_filter_series_standalone':
+        return '시리즈 없음';
       default:
         return null;
     }
@@ -225353,6 +225506,12 @@ extension on _StringsNl {
         return 'Niets selecteren toont elke videobibliotheek. Beperken tot de bibliotheken die je echt kijkt voorkomt dat enorme servers volledig worden opgesomd.';
       case 'jellyfin_libraries_load_failed':
         return 'Kon de bibliotheeklijst niet laden';
+      case 'video_filter_series':
+        return 'Serie';
+      case 'video_filter_series_in':
+        return 'In een serie';
+      case 'video_filter_series_standalone':
+        return 'Zonder serie';
       default:
         return null;
     }
@@ -233222,6 +233381,12 @@ extension on _StringsPtBr {
         return 'Não selecionar nada lista todas as bibliotecas de vídeo. Restringir às bibliotecas que você realmente assiste evita que servidores enormes sejam enumerados por completo.';
       case 'jellyfin_libraries_load_failed':
         return 'Não foi possível carregar a lista de bibliotecas';
+      case 'video_filter_series':
+        return 'Séries';
+      case 'video_filter_series_in':
+        return 'Em uma série';
+      case 'video_filter_series_standalone':
+        return 'Sem série';
       default:
         return null;
     }
@@ -241097,6 +241262,12 @@ extension on _StringsRu {
         return 'Если ничего не выбрано, выводятся все видеотеки. Ограничение теми библиотеками, которые вы действительно смотрите, избавит огромные серверы от полного перебора.';
       case 'jellyfin_libraries_load_failed':
         return 'Не удалось загрузить список библиотек';
+      case 'video_filter_series':
+        return 'Сериалы';
+      case 'video_filter_series_in':
+        return 'В сериале';
+      case 'video_filter_series_standalone':
+        return 'Вне сериала';
       default:
         return null;
     }
@@ -248944,6 +249115,12 @@ extension on _StringsTh {
         return 'ไม่เลือกอะไรเลยจะแสดงคลังวิดีโอทั้งหมด การจำกัดเฉพาะคลังที่ดูจริงช่วยไม่ให้เซิร์ฟเวอร์ขนาดใหญ่ถูกไล่รายการทั้งหมด';
       case 'jellyfin_libraries_load_failed':
         return 'โหลดรายการคลังไม่สำเร็จ';
+      case 'video_filter_series':
+        return 'ซีรีส์';
+      case 'video_filter_series_in':
+        return 'อยู่ในซีรีส์';
+      case 'video_filter_series_standalone':
+        return 'ไม่อยู่ในซีรีส์';
       default:
         return null;
     }
@@ -256808,6 +256985,12 @@ extension on _StringsTr {
         return 'Hiçbir şey seçmezseniz tüm video kitaplıkları listelenir. Gerçekten izlediğiniz kitaplıklarla sınırlamak, devasa sunucuların baştan sona sayılmasını önler.';
       case 'jellyfin_libraries_load_failed':
         return 'Kitaplık listesi yüklenemedi';
+      case 'video_filter_series':
+        return 'Diziler';
+      case 'video_filter_series_in':
+        return 'Bir dizide';
+      case 'video_filter_series_standalone':
+        return 'Dizide değil';
       default:
         return null;
     }
@@ -264665,6 +264848,12 @@ extension on _StringsVi {
         return 'Không chọn gì sẽ liệt kê mọi thư viện video. Thu hẹp về những thư viện bạn thực sự xem giúp máy chủ khổng lồ không bị liệt kê toàn bộ.';
       case 'jellyfin_libraries_load_failed':
         return 'Không tải được danh sách thư viện';
+      case 'video_filter_series':
+        return 'Sê-ri';
+      case 'video_filter_series_in':
+        return 'Thuộc sê-ri';
+      case 'video_filter_series_standalone':
+        return 'Không thuộc sê-ri';
       default:
         return null;
     }
@@ -272458,6 +272647,12 @@ extension on _StringsZhCn {
         return '不选 = 列出全部视频媒体库。只勾你真正会看的库，超大服务器就不会被整台枚举。';
       case 'jellyfin_libraries_load_failed':
         return '读取媒体库清单失败';
+      case 'video_filter_series':
+        return '系列';
+      case 'video_filter_series_in':
+        return '系列内';
+      case 'video_filter_series_standalone':
+        return '非系列';
       default:
         return null;
     }
@@ -280252,6 +280447,12 @@ extension on _StringsZhHk {
         return '不選 = 列出全部影片媒體庫。只勾你真正會看的庫，超大伺服器就不會被整台列舉。';
       case 'jellyfin_libraries_load_failed':
         return '讀取媒體庫清單失敗';
+      case 'video_filter_series':
+        return '系列';
+      case 'video_filter_series_in':
+        return '系列內';
+      case 'video_filter_series_standalone':
+        return '非系列';
       default:
         return null;
     }
