@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64889 (3817 per locale)
+/// Strings: 64923 (3819 per locale)
 ///
-/// Built on 2026-08-28 at 05:06 UTC
+/// Built on 2026-08-28 at 05:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5198,6 +5198,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  String get storage_category_cache => 'Caches and temporary files';
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -14047,6 +14049,10 @@ class _StringsAr extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -23099,6 +23105,10 @@ class _StringsDe extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -32194,6 +32204,10 @@ class _StringsEs extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -41318,6 +41332,10 @@ class _StringsFr extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -50276,6 +50294,10 @@ class _StringsId extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -59306,6 +59328,10 @@ class _StringsIt extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -67793,6 +67819,10 @@ class _StringsJa extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -76296,6 +76326,10 @@ class _StringsKo extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -85286,6 +85320,10 @@ class _StringsNl extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -94332,6 +94370,10 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -103351,6 +103393,10 @@ class _StringsRu extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -112193,6 +112239,10 @@ class _StringsTh extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -121137,6 +121187,10 @@ class _StringsTr extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -130063,6 +130117,10 @@ class _StringsVi extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 // Path: <root>
@@ -138272,6 +138330,10 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       '所选笔记类型的第一个字段为空，Anki 不接受这样的卡片。请在 Anki 设置里给它映射一个字段。';
+  @override
+  String get storage_category_cache => '缓存与临时文件';
+  @override
+  String get storage_category_other => '其他未归类';
 }
 
 // Path: <root>
@@ -146502,6 +146564,10 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anki_error_first_field_empty =>
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  @override
+  String get storage_category_cache => 'Caches and temporary files';
+  @override
+  String get storage_category_other => 'Other uncategorised';
 }
 
 /// Flat map(s) containing all translations.
@@ -154334,6 +154400,10 @@ extension on _StringsEn {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -162163,6 +162233,10 @@ extension on _StringsAr {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -170032,6 +170106,10 @@ extension on _StringsDe {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -177893,6 +177971,10 @@ extension on _StringsEs {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -185762,6 +185844,10 @@ extension on _StringsFr {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -193605,6 +193691,10 @@ extension on _StringsId {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -201468,6 +201558,10 @@ extension on _StringsIt {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -209267,6 +209361,10 @@ extension on _StringsJa {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -217068,6 +217166,10 @@ extension on _StringsKo {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -224924,6 +225026,10 @@ extension on _StringsNl {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -232776,6 +232882,10 @@ extension on _StringsPtBr {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -240635,6 +240745,10 @@ extension on _StringsRu {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -248468,6 +248582,10 @@ extension on _StringsTh {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -256316,6 +256434,10 @@ extension on _StringsTr {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -264158,6 +264280,10 @@ extension on _StringsVi {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
@@ -271935,6 +272061,10 @@ extension on _StringsZhCn {
         return '当前的字段映射没有一个属于所选的笔记类型，Anki 因此拒收了这张卡。请在 Anki 设置里重新映射字段，或使用「一键创建 Lapis 卡组」。';
       case 'anki_error_first_field_empty':
         return '所选笔记类型的第一个字段为空，Anki 不接受这样的卡片。请在 Anki 设置里给它映射一个字段。';
+      case 'storage_category_cache':
+        return '缓存与临时文件';
+      case 'storage_category_other':
+        return '其他未归类';
       default:
         return null;
     }
@@ -279716,6 +279846,10 @@ extension on _StringsZhHk {
         return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
       case 'anki_error_first_field_empty':
         return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
       default:
         return null;
     }
