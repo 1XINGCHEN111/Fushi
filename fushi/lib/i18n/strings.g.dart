@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64651 (3803 per locale)
+/// Strings: 65076 (3828 per locale)
 ///
-/// Built on 2026-08-25 at 07:05 UTC
+/// Built on 2026-08-28 at 09:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1364,7 +1364,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The capture channel could not be opened; restart Fushi.';
   String get game_hook_reason_spawn_failed =>
       'The helper could not be started; check that antivirus has not removed or blocked it.';
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'A previous capture session is still loaded in the game; restart the game once.';
   String get game_hook_reason_steam_timeout =>
       'Steam accepted the launch request but the game process never appeared.';
@@ -4561,8 +4561,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_global_search_hint => 'Search every enabled source';
   String get manga_global_search_prompt =>
       'Type a title to search every enabled manga source at once.';
-  String get manga_global_search_no_sources =>
-      'No enabled manga sources. Install and enable an extension first.';
   String get anki_connect_addon_install => 'Install AnkiConnect';
   String get anki_connect_addon_install_hint =>
       'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
@@ -5174,6 +5172,41 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get book_file_location_open => 'Open file location';
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Database backup snapshots (${n} files)';
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources yet. Add one in the Import tab.';
+  String get manga_global_search_open_sources => 'Go to Import';
+  String get settings_downloads_open_page_hint =>
+      'Open the Downloads page (tasks, resources, subscriptions)';
+  String get download_video_source_required => 'Video source required';
+  String get game_hook_reason_stale_session =>
+      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+  String get video_subtitle_delete => 'Delete subtitle file';
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  String get manga_interface_hide => 'Hide interface';
+  String get manga_interface_show => 'Show interface';
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
+  String get jellyfin_auto_list_title => 'Auto-list items on entering Video';
+  String get jellyfin_auto_list_hint =>
+      'Off: entering the video page sends no request to the media server; pull to refresh in the video library to list items manually. Recommended for very large servers, where automatic enumeration looks like scraping and can trip abuse detection.';
+  String get jellyfin_libraries_title => 'Libraries to list';
+  String get jellyfin_libraries_hint =>
+      'Select nothing to list every video library. Narrowing to the libraries you actually watch keeps huge servers from being enumerated in full.';
+  String get jellyfin_libraries_load_failed =>
+      'Could not load the library list';
   String get delete_local_files => 'Also delete local files';
   String get delete_local_files_desc =>
       'The original files are removed from this device. This cannot be undone.';
@@ -7279,7 +7312,7 @@ class _StringsAr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'لم يتمكن من تشغيل المساعد؛ تحقق من أن مضاد الفيروسات لم يحذفه أو يحظره.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'جلسة التقاط سابقة لا تزال محملة في اللعبة؛ أعد تشغيل اللعبة مرة واحدة.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -12948,9 +12981,6 @@ class _StringsAr extends _StringsEn {
   String get manga_global_search_prompt =>
       'اكتب عنواناً للبحث في جميع مصادر المانغا المُفعّلة دفعة واحدة.';
   @override
-  String get manga_global_search_no_sources =>
-      'لا توجد مصادر مانغا مُفعّلة. ثبّت وفعّل إضافة أولاً.';
-  @override
   String get anki_connect_addon_install => 'تثبيت AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -13838,158 +13868,213 @@ class _StringsAr extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'لم يستجب مكوّن الالتقاط لفحص القدرات. تم العثور عليه على القرص لكنه لم يتمكن من التشغيل أو لم يستجب في الوقت المحدد - قد يكون مضاد الفيروسات يحظره، أو قد يفتقر Fushi إلى إذن تشغيله، أو قد تكون عملية مساعدة قديمة عالقة. أغلق جميع الألعاب، وتحقق من عزل مضاد الفيروسات، ثم حاول مجدداً.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'إعداد خلفية التحميل';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'اختر المحرك الذي ينفّذ تحميلاتك. يمكنك تغييره في أي وقت من إعدادات التحميل.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'موصى به. تجري التحميلات داخل Fushi — لا حاجة لتثبيت أي شيء آخر.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'اربط Fushi بواجهة qBittorrent WebUI التي تشغّلها بالفعل.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'إعداد الآن';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'بيئة تشغيل المحرك المدمج غير موجودة في هذا التثبيت. أعد تثبيت الحزمة الكاملة، أو استخدم qBittorrent خارجيًا بدلًا منها.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'أدخل عنوانًا كاملًا، مثل http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'أعاد هذا المستودع 0 امتداد. قد يشير عنوانه إلى فهرس قديم.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'تعديل عنوان المستودع';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'استئناف التحميل';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'استيراد نموذج محلي';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'استيراد نموذج مُنزَّل';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'إذا لم ينجح التحميل داخل التطبيق، حمّل هذه الملفات بنفسك واستوردها هنا. يصلح أيضًا ملف zip يحتويها.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'نسخ روابط التحميل';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'تم نسخ روابط التحميل';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'اختيار مجلد';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'اختيار ملفات';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'جارٍ الاستيراد…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      'تم استيراد ${count} ملف';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'لم يتم التعرف على أي ملفات نموذج صالحة';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      'حجم ${file} غير صحيح: المتوقع ${expected}، والفعلي ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'لا يزال ينقص ${count} ملف';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'فشل استيراد النموذج';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'انقر للتعرف';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'لا تحتوي هذه الصفحة على بيانات نصية بعد. سيتعرف عليها Fushi بمحرك OCR الذي اخترته في الإعدادات، ثم يمكنك النقر على الكلمات للبحث عنها. يمكنك تغيير المحرك أو إيقاف هذا من الإعدادات › OCR المانغا.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'تعرّف الآن';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'جارٍ التعرف على هذه الصفحة…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'انقر للتعرف';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'انقر على فقاعة حوار لم يتم التعرف عليها لتتعرف على الصفحة وتبحث عن الكلمات فورًا.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR الجهاز';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'يستخدم التعرف على النص المدمج في جهازك. بلا تنزيل، ويعمل دون اتصال تمامًا، ولا يُرفع أي شيء — لكنه أضعف بوضوح من النموذج المحلي مع الفقاعات الرأسية والخط اليدوي.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'لا يتوفر في هذا الجهاز تعرف مدمج على النص';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'الفصول عبر الإنترنت غير مخزّنة محليًا، لذا لا يمكن قراءتها إلا بواسطة Google Lens — تُرفع صورة الصفحة إلى Google.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'الخدمات عبر الإنترنت';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'واجهات API خارجية ومفهرسات وخوادم وسائط';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'مصادر الترجمة';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'مفهرسات الموارد';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'جمع البيانات الوصفية';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'تُضبط Jimaku وOpenSubtitles وTorznab وJellyfin وAniDB وTMDB معًا هنا';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'إعادة تشغيل صوت هذه الجملة';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'إعادة التقاط الصوت';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'متابعة الجمل الجديدة';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'تمرير النقر إلى اللعبة';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'تبديل الخلفية';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'تثبيت الموضع';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'فتح طاولة عمل الالتقاط';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'إبقاء في المقدمة';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'إغلاق النافذة العائمة';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'فشل البحث عن الترجمة';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'إعادة التعرف على المنطقة المحددة';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'فشلت إعادة التعرف على المنطقة المحددة';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'تم التعرف على المنطقة المحددة من جديد وحُفظت في الصفحة';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'على الأجهزة المحمولة، تشغّل هذه النماذج المحرك المحلي للتعرف على المجلد كاملًا وبالنقر وعلى المنطقة المحددة في قارئ المانغا.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'اسحب مربعًا فوق النص الذي تريد إعادة التعرف عليه. تحل النتيجة محل طبقة النص الموجودة داخل المربع.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'تمت استعادة طبقة النص التي كانت قبل إعادة المسح';
   @override
-  String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+  String get manga_rescan_undo_failed => 'تعذّرت استعادة طبقة النص السابقة';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'إظهار هذا التبويب في شريط التنقل؛ أوقفه لإخفائه';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'تبويب التحميلات مخفي في الإعدادات → النظام → وحدات الميزات؛ أعد تشغيله لإدارة الاشتراكات.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'فتح موقع الملف';
   @override
-  String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+  String get book_file_location_failed => 'تعذّر فتح موقع ملف هذا الكتاب.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'لقطات النسخ الاحتياطي لقاعدة البيانات (${n} ملف)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'يؤدي هذا إلى حذف كل لقطات النسخ الاحتياطي المتبقية لقاعدة البيانات (corrupt-bak / pre-restore / نسخ الترحيل القديمة). لا تُمس قاعدة البيانات العاملة ولا ملفا -wal/-shm التابعان لها.';
+  @override
+  String get manga_global_search_no_sources =>
+      'لا توجد مصادر مانغا مفعّلة بعد. أضف واحدًا من تبويب الاستيراد.';
+  @override
+  String get manga_global_search_open_sources => 'الذهاب إلى الاستيراد';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'فتح صفحة التحميلات (المهام، الموارد، الاشتراكات)';
+  @override
+  String get download_video_source_required => 'مطلوب مصدر فيديو';
+  @override
+  String get game_hook_reason_stale_session =>
+      'لم تُحرَّر جلسة الالتقاط السابقة بعد؛ يعيد Fushi المحاولة تلقائيًا، ولا حاجة لأي إجراء.';
+  @override
+  String get video_subtitle_delete => 'حذف ملف الترجمة';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'هل تريد حذف ملف الترجمة هذا من القرص؟ لا يمكن التراجع عن ذلك.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'تم حذف ملف الترجمة: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'فشل حذف ملف الترجمة: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'تبديل واجهة المانغا';
+  @override
+  String get manga_interface_hide => 'إخفاء الواجهة';
+  @override
+  String get manga_interface_show => 'إظهار الواجهة';
+  @override
+  String get gal_hook_text_vertical_alignment => 'المحاذاة الرأسية';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'توسيط';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'أعلى';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'يشير الصوت إلى الملفات الأصلية ولا يستهلك مساحة التطبيق';
+  @override
+  String get jellyfin_auto_list_title => 'سرد العناصر تلقائيًا عند فتح الفيديو';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'عند الإيقاف: لا يُرسل فتح صفحة الفيديو أي طلب إلى خادم الوسائط؛ اسحب للتحديث في مكتبة الفيديو لسرد العناصر يدويًا. يُنصح به للخوادم الكبيرة جدًا، حيث يبدو السرد التلقائي كأنه كشط وقد يُفعّل كشف إساءة الاستخدام.';
+  @override
+  String get jellyfin_libraries_title => 'المكتبات المراد سردها';
+  @override
+  String get jellyfin_libraries_hint =>
+      'عدم اختيار أي شيء يسرد كل مكتبات الفيديو. حصر الأمر في المكتبات التي تشاهدها فعلًا يمنع سرد الخوادم الضخمة بالكامل.';
+  @override
+  String get jellyfin_libraries_load_failed => 'تعذّر تحميل قائمة المكتبات';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -16156,7 +16241,7 @@ class _StringsDe extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Der Helper konnte nicht gestartet werden; überprüfen Sie, ob das Antivirusprogramm ihn entfernt oder blockiert hat.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Eine vorherige Aufnahmesitzung ist noch im Spiel geladen; starten Sie das Spiel einmal neu.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -21949,9 +22034,6 @@ class _StringsDe extends _StringsEn {
   String get manga_global_search_prompt =>
       'Geben Sie einen Titel ein, um alle aktivierten Manga-Quellen gleichzeitig zu durchsuchen.';
   @override
-  String get manga_global_search_no_sources =>
-      'Keine aktivierten Manga-Quellen. Installieren und aktivieren Sie zuerst eine Erweiterung.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect installieren';
   @override
   String get anki_connect_addon_install_hint =>
@@ -22860,158 +22942,219 @@ class _StringsDe extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'Die Erfassungskomponente hat die Fähigkeitsprüfung nicht beantwortet. Sie wurde auf dem Datenträger gefunden, konnte aber nicht ausgeführt werden oder hat nicht rechtzeitig geantwortet – möglicherweise blockiert ein Antivirenprogramm sie, Fushi fehlt die Berechtigung zum Starten, oder ein verbleibender Helper-Prozess hängt. Schließen Sie alle Spiele, prüfen Sie die Quarantäne Ihres Antivirenprogramms und versuchen Sie es erneut.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'Download-Backend einrichten';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Wähle, welche Engine deine Downloads ausführt. Du kannst das jederzeit in den Download-Einstellungen ändern.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Empfohlen. Downloads laufen direkt in Fushi - nichts weiter zu installieren.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Fushi mit einer qBittorrent WebUI verbinden, die du bereits betreibst.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Jetzt einrichten';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'In dieser Installation fehlt die Laufzeit der integrierten Engine. Installiere das vollständige Paket neu oder nutze stattdessen ein externes qBittorrent.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Gib eine vollständige Adresse ein, z. B. http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Dieses Repository hat 0 Erweiterungen zurückgegeben. Seine Adresse verweist möglicherweise auf einen veralteten Index.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Repository-URL bearbeiten';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Download fortsetzen';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Lokales Modell importieren';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Heruntergeladenes Modell importieren';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Wenn der Download in der App nicht durchgeht, lade diese Dateien selbst herunter und importiere sie hier. Ein zip mit diesen Dateien funktioniert ebenfalls.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Download-Links kopieren';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Download-Links kopiert';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Ordner wählen';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Dateien wählen';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Wird importiert…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '${count} Datei(en) importiert';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Keine brauchbaren Modelldateien erkannt';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} hat die falsche Größe: erwartet ${expected}, tatsächlich ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Es fehlen weiterhin ${count} Datei(en)';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Modellimport fehlgeschlagen';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Zum Erkennen tippen';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Diese Seite hat noch keine Textdaten. Fushi erkennt sie mit der OCR-Engine, die du in den Einstellungen gewählt hast; danach kannst du Wörter antippen, um sie nachzuschlagen. Unter Einstellungen › Manga-OCR kannst du die Engine wechseln oder dieses Verhalten abschalten.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Jetzt erkennen';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Seite wird erkannt…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Zum Erkennen tippen';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Tippe auf eine noch nicht erkannte Sprechblase, um die Seite zu erkennen und Wörter direkt nachzuschlagen.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'Geräte-OCR';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Nutzt die Texterkennung deines Geräts. Kein Download, vollständig offline, nichts wird hochgeladen — bei senkrechten Sprechblasen und Handschrift aber deutlich schwächer als das lokale Modell.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Auf diesem Gerät ist keine integrierte Texterkennung verfügbar';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Online-Kapitel liegen nicht lokal vor, daher kann sie nur Google Lens lesen — das Seitenbild wird zu Google hochgeladen.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Onlinedienste';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'Drittanbieter-APIs, Indexer und Medienserver';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Untertitelquellen';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Ressourcen-Indexer';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Metadaten-Scraping';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB und TMDB werden hier gemeinsam konfiguriert';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Stimme dieser Zeile erneut abspielen';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Stimme neu aufnehmen';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Neuen Zeilen folgen';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Klicks zum Spiel durchreichen';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Hintergrund umschalten';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Position sperren';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Aufnahme-Werkbank öffnen';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Immer im Vordergrund';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Overlay schließen';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'Untertitelsuche fehlgeschlagen';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Ausgewählten Bereich neu erkennen';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Neuerkennung des ausgewählten Bereichs fehlgeschlagen';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Ausgewählter Bereich neu erkannt und in die Seite übernommen';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Auf Mobilgeräten versorgen diese Modelle die lokale Engine für Ganzband-, Tipp- und Bereichs-OCR im Manga-Reader.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Ziehe einen Rahmen über den Text, der neu erkannt werden soll. Das Ergebnis ersetzt die vorhandene Textebene innerhalb des Rahmens.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Textebene von vor der Neuerkennung wiederhergestellt';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Die vorherige Textebene konnte nicht wiederhergestellt werden';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Diesen Tab in der Navigationsleiste anzeigen; ausschalten, um ihn auszublenden';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'Der Tab „Downloads“ ist unter Einstellungen → System → Funktionsmodule ausgeblendet; schalte ihn wieder ein, um Abos zu verwalten.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Speicherort öffnen';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'Der Speicherort dieses Buchs konnte nicht geöffnet werden.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Datenbank-Backup-Snapshots (${n} Dateien)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Damit werden alle übrig gebliebenen Datenbank-Backup-Snapshots entfernt (corrupt-bak / pre-restore / alte Migrationskopien). Die aktive Datenbank und ihre -wal/-shm-Begleitdateien bleiben unangetastet.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Noch keine aktivierten Manga-Quellen. Füge eine im Tab „Importieren“ hinzu.';
+  @override
+  String get manga_global_search_open_sources => 'Zum Import';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Download-Seite öffnen (Aufgaben, Ressourcen, Abos)';
+  @override
+  String get download_video_source_required => 'Videoquelle erforderlich';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Eine frühere Aufnahmesitzung wurde noch nicht freigegeben; Fushi versucht es von selbst erneut, du musst nichts tun.';
+  @override
+  String get video_subtitle_delete => 'Untertiteldatei löschen';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Diese Untertiteldatei von der Festplatte löschen? Das kann nicht rückgängig gemacht werden.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Untertiteldatei gelöscht: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Untertiteldatei konnte nicht gelöscht werden: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Manga-Oberfläche umschalten';
+  @override
+  String get manga_interface_hide => 'Oberfläche ausblenden';
+  @override
+  String get manga_interface_show => 'Oberfläche einblenden';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertikale Ausrichtung';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Mittig';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Oben';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio verweist auf die Originaldateien und belegt keinen App-Speicher';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Beim Öffnen von Video automatisch auflisten';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Aus: Beim Öffnen der Videoseite geht keine Anfrage an den Medienserver; ziehe in der Videobibliothek zum Aktualisieren, um manuell aufzulisten. Empfohlen für sehr große Server, wo automatisches Auflisten wie Scraping aussieht und die Missbrauchserkennung auslösen kann.';
+  @override
+  String get jellyfin_libraries_title => 'Aufzulistende Bibliotheken';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Nichts auswählen listet jede Videobibliothek auf. Auf die Bibliotheken zu beschränken, die du wirklich schaust, verhindert, dass riesige Server komplett durchlaufen werden.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Bibliotheksliste konnte nicht geladen werden';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -25180,7 +25323,7 @@ class _StringsEs extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'El helper no pudo iniciarse; verifique que el antivirus no lo haya eliminado o bloqueado.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Una sesión de captura anterior aún está cargada en el juego; reinicie el juego una vez.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -31005,9 +31148,6 @@ class _StringsEs extends _StringsEn {
   String get manga_global_search_prompt =>
       'Escriba un título para buscar en todas las fuentes de manga activas a la vez.';
   @override
-  String get manga_global_search_no_sources =>
-      'Sin fuentes de manga activas. Instale y active una extensión primero.';
-  @override
   String get anki_connect_addon_install => 'Instalar AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -31925,158 +32065,220 @@ class _StringsEs extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'El componente de captura no respondió a la verificación de capacidades. Se encontró en disco pero no pudo ejecutarse o no respondió a tiempo — el antivirus puede estar bloqueándolo, Fushi puede no tener permisos para lanzarlo, o un proceso helper residual puede estar atascado. Cierre todos los juegos, revise la cuarentena del antivirus, luego inténtelo de nuevo.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title =>
+      'Configurar el backend de descargas';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Elige qué motor ejecuta tus descargas. Puedes cambiarlo en cualquier momento en los ajustes de descargas.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Recomendado. Las descargas se ejecutan dentro de Fushi: no hay que instalar nada más.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Conecta Fushi a una WebUI de qBittorrent que ya tengas en marcha.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Configurar ahora';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'A esta instalación le falta el entorno de ejecución del motor integrado. Reinstala el paquete completo o usa qBittorrent externo.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Introduce una dirección completa, p. ej. http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Este repositorio devolvió 0 extensiones. Puede que su dirección apunte a un índice obsoleto.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Editar URL del repositorio';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Reanudar descarga';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Importar modelo local';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Importar un modelo descargado';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Si la descarga desde la app no funciona, descarga tú mismo estos archivos e impórtalos aquí. También sirve un zip que los contenga.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Copiar enlaces de descarga';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Enlaces de descarga copiados';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Elegir carpeta';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Elegir archivos';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Importando…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '${count} archivo(s) importado(s)';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'No se reconoció ningún archivo de modelo utilizable';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} tiene un tamaño incorrecto: se esperaba ${expected}, se obtuvo ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Todavía faltan ${count} archivo(s)';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Error al importar el modelo';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Toca para reconocer';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Esta página aún no tiene datos de texto. Fushi la reconocerá con el motor de OCR que elegiste en los ajustes y luego podrás tocar las palabras para buscarlas. Puedes cambiar el motor o desactivar esto en Configuración › OCR de manga.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Reconocer ahora';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Reconociendo esta página…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Toca para reconocer';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Toca un globo de diálogo sin reconocer para reconocer la página y buscar palabras al instante.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR del dispositivo';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Usa el reconocimiento de texto integrado en tu dispositivo. Sin descargas, totalmente sin conexión y sin subir nada — pero con los globos de diálogo verticales y la escritura a mano es claramente peor que el modelo local.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Este dispositivo no tiene reconocimiento de texto integrado disponible';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Los capítulos en línea no se guardan localmente, así que solo Google Lens puede leerlos — la imagen de la página se sube a Google.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Servicios en línea';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'API de terceros, indexadores y servidores multimedia';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Fuentes de subtítulos';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Indexadores de recursos';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Extracción de metadatos';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB y TMDB se configuran todos aquí';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Reproducir de nuevo la voz de esta línea';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Volver a capturar la voz';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Seguir las líneas nuevas';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Dejar pasar los clics al juego';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Alternar el fondo';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Bloquear la posición';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Abrir el banco de trabajo de captura';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Mantener encima';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Cerrar la ventana flotante';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'Error al buscar subtítulos';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Volver a reconocer el área seleccionada';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Falló el reconocimiento del área seleccionada';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Área seleccionada reconocida de nuevo y guardada en la página';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'En móvil, estos modelos alimentan el motor local para el OCR de volumen completo, por toque y de área seleccionada en el lector de manga.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Arrastra un recuadro sobre el texto que quieras volver a reconocer. El resultado reemplaza la capa de texto existente dentro del recuadro.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Se restauró la capa de texto anterior al nuevo reconocimiento';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'No se pudo restaurar la capa de texto anterior';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Mostrar esta pestaña en la barra de navegación; desactívalo para ocultarla';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'La pestaña Descargas está oculta en Configuración → Sistema → Módulos de funciones; vuelve a activarla para gestionar las suscripciones.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Abrir ubicación del archivo';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'No se pudo abrir la ubicación del archivo de este libro.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Instantáneas de copia de seguridad de la base de datos (${n} archivos)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Esto elimina todas las instantáneas de copia de seguridad de la base de datos que hayan quedado (corrupt-bak / pre-restore / copias de migraciones antiguas). La base de datos en uso y sus archivos -wal/-shm no se tocan.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Aún no hay fuentes de manga habilitadas. Añade una en la pestaña Importar.';
+  @override
+  String get manga_global_search_open_sources => 'Ir a Importar';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Abrir la página de descargas (tareas, recursos, suscripciones)';
+  @override
+  String get download_video_source_required =>
+      'Se requiere una fuente de vídeo';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Una sesión de captura anterior aún no se ha liberado; Fushi lo está reintentando solo, no hace falta que hagas nada.';
+  @override
+  String get video_subtitle_delete => 'Eliminar archivo de subtítulos';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      '¿Eliminar este archivo de subtítulos del disco? Esta acción no se puede deshacer.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Archivo de subtítulos eliminado: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Error al eliminar el archivo de subtítulos: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Alternar interfaz de manga';
+  @override
+  String get manga_interface_hide => 'Ocultar interfaz';
+  @override
+  String get manga_interface_show => 'Mostrar interfaz';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Alineación vertical';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Centro';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Arriba';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'El audio hace referencia a los archivos originales y no ocupa espacio de la app';
+  @override
+  String get jellyfin_auto_list_title => 'Listar elementos al entrar en Vídeo';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Desactivado: entrar en la página de vídeo no envía ninguna petición al servidor de medios; desliza para actualizar en la videoteca para listar manualmente. Recomendado en servidores muy grandes, donde la enumeración automática parece scraping y puede activar la detección de abuso.';
+  @override
+  String get jellyfin_libraries_title => 'Bibliotecas a listar';
+  @override
+  String get jellyfin_libraries_hint =>
+      'No seleccionar nada lista todas las bibliotecas de vídeo. Limitarlo a las bibliotecas que realmente ves evita que los servidores enormes se enumeren por completo.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'No se pudo cargar la lista de bibliotecas';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -34254,7 +34456,7 @@ class _StringsFr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'L\'assistant n\'a pas pu être démarré ; vérifiez que l\'antivirus ne l\'a pas supprimé ou bloqué.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Une session de capture précédente est encore chargée dans le jeu ; redémarrez le jeu une fois.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -40097,9 +40299,6 @@ class _StringsFr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Tapez un titre pour rechercher dans toutes les sources de manga activées à la fois.';
   @override
-  String get manga_global_search_no_sources =>
-      'Aucune source de manga activée. Installez et activez d\'abord une extension.';
-  @override
   String get anki_connect_addon_install => 'Installer AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -41019,158 +41218,222 @@ class _StringsFr extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'Le composant de capture n\'a pas répondu à la vérification de capacité. Il a été trouvé sur le disque mais n\'a pas pu s\'exécuter ou n\'a pas répondu à temps — l\'antivirus peut le bloquer, Fushi peut manquer de permission pour le lancer, ou un processus assistant résiduel peut être bloqué. Fermez tous les jeux, vérifiez la quarantaine de votre antivirus, puis réessayez.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title =>
+      'Configurer le backend de téléchargement';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Choisissez le moteur qui exécute vos téléchargements. Vous pourrez le changer à tout moment dans les paramètres de téléchargement.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Recommandé. Les téléchargements s\'exécutent dans Fushi - rien d\'autre à installer.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Connecter Fushi à une WebUI qBittorrent que vous utilisez déjà.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Configurer';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'Le runtime du moteur intégré est absent de cette installation. Réinstallez le paquet complet, ou utilisez plutôt un qBittorrent externe.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Saisissez une adresse complète, par ex. http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Ce dépôt a renvoyé 0 extension. Son adresse pointe peut-être vers un index obsolète.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Modifier l\'URL du dépôt';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Reprendre le téléchargement';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Importer un modèle local';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Importer un modèle téléchargé';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Si le téléchargement dans l\'application n\'aboutit pas, téléchargez ces fichiers vous-même et importez-les ici. Un zip qui les contient fonctionne aussi.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Copier les liens de téléchargement';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Liens de téléchargement copiés';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Choisir un dossier';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Choisir des fichiers';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Importation…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '${count} fichier(s) importé(s)';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Aucun fichier de modèle utilisable reconnu';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} n\'a pas la bonne taille : attendu ${expected}, obtenu ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Il manque encore ${count} fichier(s)';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Échec de l\'import du modèle';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Toucher pour reconnaître';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Cette page n\'a pas encore de données textuelles. Fushi va la reconnaître avec le moteur OCR choisi dans les paramètres, puis vous pourrez toucher les mots pour les rechercher. Vous pouvez changer de moteur ou désactiver ce comportement dans Paramètres › OCR de manga.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Reconnaître';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Reconnaissance de la page…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Toucher pour reconnaître';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Touchez une bulle de dialogue non reconnue pour reconnaître la page et rechercher les mots aussitôt.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR de l\'appareil';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Utilise la reconnaissance de texte intégrée à votre appareil. Aucun téléchargement, entièrement hors ligne, rien n\'est envoyé — mais nettement moins efficace que le modèle local sur les bulles de dialogue verticales et l\'écriture manuscrite.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Aucune reconnaissance de texte intégrée n\'est disponible sur cet appareil';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Les chapitres en ligne ne sont pas stockés localement, seul Google Lens peut donc les lire — l\'image de la page est envoyée à Google.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Services en ligne';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'API tierces, indexeurs et serveurs multimédias';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Sources de sous-titres';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Indexeurs de ressources';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Récupération des métadonnées';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB et TMDB se configurent tous ici';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Rejouer la voix de cette ligne';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Réenregistrer la voix';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Suivre les nouvelles lignes';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough =>
+      'Laisser passer les clics vers le jeu';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Basculer l\'arrière-plan';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Verrouiller la position';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Ouvrir l\'atelier de capture';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Garder au premier plan';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Fermer la superposition';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed =>
+      'Échec de la recherche de sous-titres';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Réanalyser la zone sélectionnée';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Échec de la réanalyse de la zone sélectionnée';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Zone sélectionnée re-reconnue et enregistrée dans la page';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Sur mobile, ces modèles alimentent le moteur local pour l\'OCR du volume entier, au toucher et de la zone sélectionnée dans le lecteur de manga.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Tracez un cadre sur le texte à réanalyser. Le résultat remplace la couche de texte existante à l\'intérieur du cadre.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Couche de texte d\'avant la nouvelle reconnaissance restaurée';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Impossible de restaurer la couche de texte précédente';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Afficher cet onglet dans la barre de navigation ; désactiver pour le masquer';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'L\'onglet Téléchargements est masqué dans Paramètres → Système → Modules de fonctionnalités ; réactivez-le pour gérer les abonnements.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Ouvrir l\'emplacement du fichier';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'Impossible d\'ouvrir l\'emplacement du fichier de ce livre.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Instantanés de sauvegarde de la base de données (${n} fichiers)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Cela supprime tous les instantanés de sauvegarde de la base de données restants (corrupt-bak / pre-restore / copies de migration héritées). La base de données active et ses fichiers annexes -wal/-shm ne sont pas touchés.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Aucune source de manga activée pour l\'instant. Ajoutez-en une dans l\'onglet Importer.';
+  @override
+  String get manga_global_search_open_sources => 'Aller à Importer';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Ouvrir la page Téléchargements (tâches, ressources, abonnements)';
+  @override
+  String get download_video_source_required => 'Source vidéo requise';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Une session de capture précédente n\'a pas encore été libérée ; Fushi réessaie tout seul, aucune action n\'est nécessaire.';
+  @override
+  String get video_subtitle_delete => 'Supprimer le fichier de sous-titres';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Supprimer ce fichier de sous-titres du disque ? Cette action est irréversible.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Fichier de sous-titres supprimé : ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Échec de la suppression du fichier de sous-titres : ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Basculer l\'interface manga';
+  @override
+  String get manga_interface_hide => 'Masquer l\'interface';
+  @override
+  String get manga_interface_show => 'Afficher l\'interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Alignement vertical';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Centre';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Haut';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'L\'audio référence les fichiers d\'origine et n\'occupe aucun espace de l\'application';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Lister les éléments à l\'ouverture de Vidéo';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Désactivé : ouvrir la page vidéo n\'envoie aucune requête au serveur média ; tirez pour actualiser dans la vidéothèque afin de lister manuellement. Recommandé pour les très gros serveurs, où l\'énumération automatique ressemble à du scraping et peut déclencher la détection d\'abus.';
+  @override
+  String get jellyfin_libraries_title => 'Bibliothèques à lister';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Ne rien sélectionner liste toutes les bibliothèques vidéo. Se limiter aux bibliothèques que vous regardez vraiment évite que d\'énormes serveurs soient énumérés en entier.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Impossible de charger la liste des bibliothèques';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -43298,7 +43561,7 @@ class _StringsId extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Helper tidak bisa dimulai; periksa apakah antivirus telah menghapus atau memblokirnya.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Sesi tangkapan sebelumnya masih dimuat di game; mulai ulang game sekali.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -49049,9 +49312,6 @@ class _StringsId extends _StringsEn {
   String get manga_global_search_prompt =>
       'Ketik judul untuk mencari setiap sumber manga yang aktif sekaligus.';
   @override
-  String get manga_global_search_no_sources =>
-      'Tidak ada sumber manga yang aktif. Instal dan aktifkan ekstensi terlebih dahulu.';
-  @override
   String get anki_connect_addon_install => 'Instal AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -49947,158 +50207,217 @@ class _StringsId extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'Komponen tangkapan tidak menjawab pemeriksaan kapabilitas. Ditemukan di disk tetapi tidak bisa dijalankan atau tidak merespons tepat waktu - antivirus mungkin memblokirnya, Fushi mungkin tidak memiliki izin untuk meluncurkannya, atau proses helper yang tersisa mungkin macet. Tutup semua game, periksa karantina antivirus Anda, lalu coba lagi.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'Siapkan backend unduhan';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Pilih mesin mana yang menjalankan unduhan Anda. Anda bisa mengubahnya kapan saja di pengaturan unduhan.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Disarankan. Unduhan berjalan di dalam Fushi — tidak perlu memasang apa pun lagi.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Hubungkan Fushi ke qBittorrent WebUI yang sudah Anda jalankan.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Siapkan sekarang';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'Pemasangan ini tidak memiliki runtime mesin bawaan. Pasang ulang paket lengkap, atau gunakan qBittorrent eksternal.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Masukkan alamat lengkap, mis. http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Repositori ini mengembalikan 0 ekstensi. Alamatnya mungkin menunjuk ke indeks lama.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Ubah alamat repositori';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Lanjutkan unduhan';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Impor model lokal';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Impor model yang sudah diunduh';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Jika unduhan di dalam aplikasi tidak berhasil, unduh sendiri berkas-berkas ini lalu impor di sini. Berkas zip yang memuatnya juga bisa.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Salin tautan unduhan';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Tautan unduhan disalin';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Pilih folder';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Pilih berkas';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Mengimpor…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '${count} berkas diimpor';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Tidak ada berkas model yang dapat dipakai dikenali';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      'Ukuran ${file} salah: diharapkan ${expected}, diperoleh ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Masih kurang ${count} berkas';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Impor model gagal';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Ketuk untuk mengenali';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Halaman ini belum punya data teks. Fushi akan mengenalinya dengan mesin OCR yang Anda pilih di pengaturan, lalu Anda bisa mengetuk kata untuk mencarinya. Mesin bisa diganti atau fitur ini dimatikan di Pengaturan › OCR Manga.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Kenali sekarang';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Mengenali halaman ini…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Ketuk untuk mengenali';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Ketuk balon percakapan yang belum dikenali untuk mengenali halaman dan langsung mencari kata.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR perangkat';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Memakai pengenalan teks bawaan perangkat Anda. Tanpa unduhan, sepenuhnya luring, tidak ada yang diunggah — tetapi jelas lebih lemah pada balon percakapan vertikal dan tulisan tangan dibanding model lokal.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Perangkat ini tidak punya pengenalan teks bawaan yang tersedia';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Bab daring tidak disimpan di perangkat, jadi hanya Google Lens yang bisa membacanya — gambar halaman diunggah ke Google.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Layanan daring';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'API pihak ketiga, pengindeks, dan server media';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Sumber subtitle';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Pengindeks sumber daya';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Pengambilan metadata';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB, dan TMDB dikonfigurasi bersama di sini';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Putar ulang suara baris ini';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Rekam ulang suaranya';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Ikuti baris baru';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Teruskan klik ke game';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Ganti latar';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Kunci posisi';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Buka meja kerja penangkapan';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Selalu di atas';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Tutup overlay';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'Pencarian subtitle gagal';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Kenali ulang area terpilih';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'Gagal mengenali ulang area terpilih';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Area terpilih dikenali ulang dan disimpan ke halaman';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Di ponsel, model-model ini menjalankan mesin lokal untuk OCR satu volume penuh, ketukan, dan area terpilih di pembaca manga.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Seret kotak di atas teks yang ingin dikenali ulang. Hasilnya menggantikan lapisan teks yang sudah ada di dalam kotak itu.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Lapisan teks sebelum pemindaian ulang telah dipulihkan';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Tidak dapat memulihkan lapisan teks sebelumnya';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Tampilkan tab ini di bilah navigasi; matikan untuk menyembunyikannya';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'Tab Unduhan disembunyikan di Pengaturan → Sistem → Modul fitur; nyalakan lagi untuk mengelola langganan.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Buka lokasi berkas';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'Tidak dapat membuka lokasi berkas buku ini.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Snapshot cadangan basis data (${n} berkas)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Ini menghapus semua sisa snapshot cadangan basis data (corrupt-bak / pre-restore / salinan migrasi lama). Basis data yang aktif beserta berkas -wal/-shm miliknya tidak disentuh.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Belum ada sumber manga yang aktif. Tambahkan satu di tab Impor.';
+  @override
+  String get manga_global_search_open_sources => 'Ke Impor';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Buka halaman Unduhan (tugas, sumber daya, langganan)';
+  @override
+  String get download_video_source_required => 'Perlu sumber video';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Sesi penangkapan sebelumnya belum dilepaskan; Fushi sedang mencoba lagi sendiri, tidak perlu melakukan apa pun.';
+  @override
+  String get video_subtitle_delete => 'Hapus berkas subtitle';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Hapus berkas subtitle ini dari disk? Tindakan ini tidak bisa dibatalkan.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Berkas subtitle dihapus: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Gagal menghapus berkas subtitle: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Alihkan antarmuka manga';
+  @override
+  String get manga_interface_hide => 'Sembunyikan antarmuka';
+  @override
+  String get manga_interface_show => 'Tampilkan antarmuka';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Perataan vertikal';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Tengah';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Atas';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio merujuk ke berkas aslinya, tidak memakai penyimpanan aplikasi';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Daftarkan item otomatis saat masuk Video';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Mati: masuk ke halaman video tidak mengirim permintaan apa pun ke server media; tarik untuk menyegarkan di pustaka video agar item didaftar manual. Disarankan untuk server yang sangat besar, karena pendaftaran otomatis terlihat seperti scraping dan bisa memicu deteksi penyalahgunaan.';
+  @override
+  String get jellyfin_libraries_title => 'Pustaka yang didaftarkan';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Tidak memilih apa pun akan mendaftarkan semua pustaka video. Membatasi ke pustaka yang benar-benar Anda tonton mencegah server raksasa didaftar seluruhnya.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Tidak dapat memuat daftar pustaka';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -52249,7 +52568,7 @@ class _StringsIt extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'L\'helper non può essere avviato; controlla che l\'antivirus non l\'abbia rimosso o bloccato.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Una sessione di cattura precedente è ancora caricata nel gioco; riavvia il gioco.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -58039,9 +58358,6 @@ class _StringsIt extends _StringsEn {
   String get manga_global_search_prompt =>
       'Digita un titolo per cercare in ogni fonte manga abilitata contemporaneamente.';
   @override
-  String get manga_global_search_no_sources =>
-      'Nessuna fonte manga abilitata. Installa e abilita prima un\'estensione.';
-  @override
   String get anki_connect_addon_install => 'Installa AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -58520,7 +58836,7 @@ class _StringsIt extends _StringsEn {
   String get media_source_network_subtitle_video =>
       'Libreria remota WebDAV (streaming diretto)';
   @override
-  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  String get jellyfin_settings_title => 'Server multimediale (Jellyfin / Emby)';
   @override
   String get jellyfin_server_url => 'URL server';
   @override
@@ -58947,158 +59263,219 @@ class _StringsIt extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'Il componente di cattura non ha risposto al controllo delle capacità. È stato trovato su disco ma non è riuscito a eseguire o non ha risposto in tempo — l\'antivirus potrebbe bloccarlo, Fushi potrebbe non avere il permesso di avviarlo, o un processo helper residuo potrebbe essere bloccato. Chiudi tutti i giochi, controlla la quarantena dell\'antivirus, poi riprova.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'Configura il backend di download';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Scegli quale motore esegue i tuoi download. Puoi cambiarlo in qualsiasi momento nelle impostazioni di download.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Consigliato. I download avvengono dentro Fushi: non serve installare altro.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Collega Fushi a una WebUI di qBittorrent che già usi.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Configura ora';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'In questa installazione manca il runtime del motore integrato. Reinstalla il pacchetto completo oppure usa qBittorrent esterno.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Inserisci un indirizzo completo, es. http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Questo repository ha restituito 0 estensioni. Il suo indirizzo potrebbe puntare a un indice obsoleto.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Modifica URL del repository';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Riprendi download';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Importa modello locale';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Importa un modello scaricato';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Se il download nell\'app non riesce, scarica tu stesso questi file e importali qui. Va bene anche uno zip che li contenga.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Copia link di download';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Link di download copiati';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Scegli cartella';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Scegli file';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Importazione…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      'Importati ${count} file';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Nessun file di modello utilizzabile riconosciuto';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} ha la dimensione sbagliata: attesi ${expected}, ricevuti ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Mancano ancora ${count} file';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Importazione del modello non riuscita';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Tocca per riconoscere';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Questa pagina non ha ancora dati di testo. Fushi la riconoscerà con il motore OCR che hai scelto nelle impostazioni, poi potrai toccare le parole per cercarle. Puoi cambiare motore o disattivare questo comportamento in Impostazioni › OCR manga.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Riconosci ora';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Riconoscimento della pagina…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Tocca per riconoscere';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Tocca un fumetto non ancora riconosciuto per riconoscere la pagina e cercare subito le parole.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR del dispositivo';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Usa il riconoscimento del testo integrato nel dispositivo. Nessun download, completamente offline, nessun invio di dati — ma con i fumetti verticali e la scrittura a mano è nettamente inferiore al modello locale.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Questo dispositivo non ha un riconoscimento del testo integrato disponibile';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'I capitoli online non sono salvati in locale, quindi può leggerli solo Google Lens — l\'immagine della pagina viene inviata a Google.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Servizi online';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'API di terze parti, indicizzatori e server multimediali';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Fonti dei sottotitoli';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Indicizzatori di risorse';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Scraping dei metadati';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB e TMDB si configurano tutti qui';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Riascolta la voce di questa battuta';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Ricattura la voce';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Segui le nuove battute';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Fai passare i clic al gioco';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Attiva/disattiva lo sfondo';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Blocca la posizione';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Apri il banco di lavoro di cattura';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Mantieni in primo piano';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Chiudi la finestra mobile';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed =>
+      'Ricerca dei sottotitoli non riuscita';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Ripeti l\'OCR sull\'area selezionata';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'OCR dell\'area selezionata non riuscito';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Area selezionata riconosciuta di nuovo e salvata nella pagina';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Su mobile questi modelli alimentano il motore locale per l\'OCR dell\'intero volume, al tocco e dell\'area selezionata nel lettore manga.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Trascina un riquadro sul testo da rianalizzare. Il risultato sostituisce il livello di testo già presente nel riquadro.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Ripristinato il livello di testo precedente al nuovo riconoscimento';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Impossibile ripristinare il livello di testo precedente';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Mostra questa scheda nella barra di navigazione; disattiva per nasconderla';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'La scheda Download è nascosta in Impostazioni → Sistema → Moduli funzionalità; riattivala per gestire le sottoscrizioni.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Apri posizione del file';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'Impossibile aprire la posizione del file di questo libro.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Snapshot di backup del database (${n} file)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Rimuove tutti gli snapshot di backup del database rimasti (corrupt-bak / pre-restore / copie di migrazioni precedenti). Il database in uso e i suoi file -wal/-shm non vengono toccati.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Nessuna fonte manga attiva. Aggiungine una nella scheda Importa.';
+  @override
+  String get manga_global_search_open_sources => 'Vai a Importa';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Apri la pagina Download (attività, risorse, sottoscrizioni)';
+  @override
+  String get download_video_source_required => 'Serve una fonte video';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Una sessione di cattura precedente non è ancora stata rilasciata; Fushi sta riprovando da solo, non serve fare nulla.';
+  @override
+  String get video_subtitle_delete => 'Elimina file dei sottotitoli';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Eliminare questo file dei sottotitoli dal disco? L\'operazione non può essere annullata.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'File dei sottotitoli eliminato: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Impossibile eliminare il file dei sottotitoli: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Attiva/disattiva interfaccia manga';
+  @override
+  String get manga_interface_hide => 'Nascondi interfaccia';
+  @override
+  String get manga_interface_show => 'Mostra interfaccia';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Allineamento verticale';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Centro';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Alto';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'L\'audio fa riferimento ai file originali e non occupa spazio dell\'app';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Elenca gli elementi all\'apertura di Video';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Disattivato: aprire la pagina video non invia alcuna richiesta al server multimediale; tira per aggiornare nella videoteca per elencare manualmente. Consigliato per server molto grandi, dove l\'enumerazione automatica sembra scraping e può far scattare il rilevamento abusi.';
+  @override
+  String get jellyfin_libraries_title => 'Librerie da elencare';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Non selezionare nulla elenca tutte le librerie video. Limitarsi alle librerie che guardi davvero evita che server enormi vengano enumerati per intero.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Impossibile caricare l\'elenco delle librerie';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -61131,7 +61508,7 @@ class _StringsJa extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'ヘルパーを起動できませんでした。ウイルス対策ソフトがヘルパーを削除またはブロックしていないか確認してください。';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       '前回のキャプチャセッションがまだゲームに残っています。ゲームを一度再起動してください。';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -66564,9 +66941,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_global_search_prompt => 'タイトルを入力して、すべての有効なマンガソースを一括検索します。';
   @override
-  String get manga_global_search_no_sources =>
-      '有効なマンガソースがありません。まず拡張機能をインストールして有効にしてください。';
-  @override
   String get anki_connect_addon_install => 'AnkiConnectをインストール';
   @override
   String get anki_connect_addon_install_hint =>
@@ -67404,158 +67778,208 @@ class _StringsJa extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'キャプチャコンポーネントが機能チェックに応答しませんでした。ディスク上に見つかりましたが、実行できないか時間内に応答しませんでした。ウイルス対策ソフトがブロックしている、Fushiに起動権限がない、または古いヘルパープロセスが残っている可能性があります。すべてのゲームを閉じ、ウイルス対策の隔離を確認してから再試行してください。';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'ダウンロードバックエンドを設定';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'ダウンロードを実行するエンジンを選びます。あとからダウンロード設定でいつでも変更できます。';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'おすすめ。ダウンロードは Fushi の内部で完結し、追加のインストールは不要です。';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'すでに動かしている qBittorrent WebUI に Fushi を接続します。';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => '今すぐ設定';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'このインストールには内蔵エンジンのランタイムが含まれていません。完全版のパッケージを再インストールするか、外部の qBittorrent をご利用ください。';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      '完全なアドレスを入力してください。例: http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'このリポジトリから返された拡張機能は 0 件です。アドレスが古いインデックスを指している可能性があります。';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'リポジトリのアドレスを編集';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'ダウンロードを再開';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'ローカルモデルをインポート';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'ダウンロード済みのモデルをインポート';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'アプリ内のダウンロードがうまくいかない場合は、下記のファイルを自分でダウンロードしてここからインポートしてください。それらを含む zip でもかまいません。';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'ダウンロードリンクをコピー';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'ダウンロードリンクをコピーしました';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'フォルダーを選択';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'ファイルを選択';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'インポート中…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '${count} 個のファイルをインポートしました';
   @override
-  String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+  String get manga_ocr_import_matched_nothing => '使用できるモデルファイルを認識できませんでした';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} のサイズが違います: 期待値 ${expected}、実際 ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'まだ ${count} 個のファイルが足りません';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'モデルのインポートに失敗しました';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'タップで認識';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'このページにはまだテキストデータがありません。Fushi は設定で選んだ OCR エンジンでその場で認識し、認識が終われば単語をタップして調べられます。エンジンの変更やこの動作の無効化は「設定 › マンガOCR」で行えます。';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => '今すぐ認識';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'このページを認識しています…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'タップで認識';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'まだ認識していない吹き出しをタップすると、そのページを認識してすぐに単語を調べられます。';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => '端末の OCR';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      '端末に内蔵された文字認識を使います。ダウンロード不要、完全にオフラインで、何もアップロードしません。ただし縦書きの吹き出しや手書き文字ではローカルモデルよりはっきり弱くなります。';
   @override
-  String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+  String get manga_ocr_engine_system_unavailable => 'この端末では内蔵の文字認識を利用できません';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'オンラインの章はローカルに保存されないため、読み取れるのは Google Lens だけです。ページ画像は Google にアップロードされます。';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'オンラインサービス';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'サードパーティ API、インデクサー、メディアサーバー';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => '字幕のソース';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'リソースインデクサー';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'メタデータのスクレイピング';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku、OpenSubtitles、Torznab、Jellyfin、AniDB、TMDB はここでまとめて設定します';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'この台詞の音声を再生';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => '音声を録り直す';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => '新しい台詞に追従';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'クリックをゲームに通す';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => '背景を切り替え';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => '位置を固定';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => '取り込みワークベンチを開く';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => '常に最前面に表示';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'オーバーレイを閉じる';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => '字幕の検索に失敗しました';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
-      '${msg} (HTTP ${code})';
+      '${msg}（HTTP ${code}）';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => '選択範囲を再認識';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => '選択範囲の再認識に失敗しました';
   @override
-  String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+  String get manga_rescan_region_updated => '選択範囲を再認識してページに保存しました';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'モバイルでは、これらのモデルがマンガリーダーの巻全体・タップ・選択範囲の OCR を担うローカルエンジンに使われます。';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      '再認識したいテキストを枠で囲んでドラッグします。結果は枠内の既存のテキストレイヤーを置き換えます。';
   @override
-  String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+  String get manga_rescan_undone => '再認識する前のテキストレイヤーに戻しました';
   @override
-  String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+  String get manga_rescan_undo_failed => '前のテキストレイヤーに戻せませんでした';
   @override
-  String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+  String get module_tool_toggle_hint => 'このタブをナビゲーションバーに表示します。オフにすると非表示になります';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      '「ダウンロード」タブは 設定 → システム → 機能モジュール で非表示になっています。購読を管理するには再度オンにしてください。';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'ファイルの場所を開く';
   @override
-  String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+  String get book_file_location_failed => 'この本のファイルの場所を開けませんでした。';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'データベースのバックアップスナップショット（${n} 個のファイル）';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      '残っているデータベースのバックアップスナップショット（corrupt-bak / pre-restore / 旧バージョンの移行コピー）をすべて削除します。使用中のデータベースとその -wal/-shm サイドカーには影響しません。';
+  @override
+  String get manga_global_search_no_sources =>
+      '有効なマンガソースがまだありません。「インポート」タブで追加してください。';
+  @override
+  String get manga_global_search_open_sources => 'インポートへ';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'ダウンロードページを開く（タスク / リソース / 購読）';
+  @override
+  String get download_video_source_required => '動画のソースが必要です';
+  @override
+  String get game_hook_reason_stale_session =>
+      '前回のキャプチャセッションがまだ解放されていません。Fushi が自動で再試行するので、操作は不要です。';
+  @override
+  String get video_subtitle_delete => '字幕ファイルを削除';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'この字幕ファイルをディスクから削除しますか？この操作は元に戻せません。\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      '字幕ファイルを削除しました: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      '字幕ファイルの削除に失敗しました: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'マンガUIの表示切り替え';
+  @override
+  String get manga_interface_hide => 'UIを隠す';
+  @override
+  String get manga_interface_show => 'UIを表示';
+  @override
+  String get gal_hook_text_vertical_alignment => '垂直方向の配置';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '中央';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '上';
+  @override
+  String get storage_entry_external_audio_hint =>
+      '音声は元のファイルを参照するため、アプリの容量を使いません';
+  @override
+  String get jellyfin_auto_list_title => '動画を開いたときに自動で一覧表示';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'オフ: 動画ページを開いてもメディアサーバーにリクエストを送りません。動画ライブラリで引っ張って更新すると手動で一覧表示できます。非常に大きなサーバーでは、自動列挙がスクレイピングのように見えて不正利用検知に引っかかることがあるため、オフを推奨します。';
+  @override
+  String get jellyfin_libraries_title => '一覧表示するライブラリ';
+  @override
+  String get jellyfin_libraries_hint =>
+      '何も選ばないとすべての動画ライブラリを一覧表示します。実際に見るライブラリだけに絞ると、巨大なサーバーが丸ごと列挙されるのを防げます。';
+  @override
+  String get jellyfin_libraries_load_failed => 'ライブラリ一覧を読み込めませんでした';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -69588,7 +70012,7 @@ class _StringsKo extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       '헬퍼를 시작할 수 없습니다. 바이러스 백신이 헬퍼를 삭제하거나 차단하지 않았는지 확인하세요.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       '이전 캡처 세션이 아직 게임에 로드되어 있습니다. 게임을 한 번 다시 시작하세요.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -75033,9 +75457,6 @@ class _StringsKo extends _StringsEn {
   String get manga_global_search_prompt =>
       '제목을 입력하면 활성화된 모든 만화 소스를 한 번에 검색합니다.';
   @override
-  String get manga_global_search_no_sources =>
-      '활성화된 만화 소스가 없습니다. 먼저 확장을 설치하고 활성화하세요.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect 설치';
   @override
   String get anki_connect_addon_install_hint =>
@@ -75877,158 +76298,207 @@ class _StringsKo extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       '캡처 구성 요소가 기능 확인에 응답하지 않았습니다. 디스크에서 발견되었지만 실행할 수 없거나 시간 내에 응답하지 않았습니다 - 바이러스 백신이 차단하고 있거나, Fushi에 실행 권한이 없거나, 남아 있는 헬퍼 프로세스가 멈춰 있을 수 있습니다. 모든 게임을 닫고, 바이러스 백신 격리 목록을 확인한 다음 다시 시도하세요.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => '다운로드 백엔드 설정';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      '다운로드를 실행할 엔진을 선택하세요. 나중에 다운로드 설정에서 언제든지 바꿀 수 있어요.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      '권장. 다운로드가 Fushi 안에서 처리되어 따로 설치할 것이 없어요.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      '이미 실행 중인 qBittorrent WebUI에 Fushi를 연결해요.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => '지금 설정';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      '이번 설치본에는 내장 엔진 런타임이 없어요. 전체 패키지를 다시 설치하거나 외부 qBittorrent을 사용하세요.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      '전체 주소를 입력하세요. 예: http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      '이 저장소가 확장 기능을 0개 반환했어요. 주소가 오래된 인덱스를 가리키고 있을 수 있어요.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => '저장소 주소 편집';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => '다운로드 이어받기';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => '로컬 모델 가져오기';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => '내려받은 모델 가져오기';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      '앱 안에서 다운로드가 되지 않으면 아래 파일을 직접 내려받아 여기에서 가져오세요. 그 파일들이 들어 있는 zip도 괜찮아요.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => '다운로드 링크 복사';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => '다운로드 링크를 복사했어요';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => '폴더 선택';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => '파일 선택';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => '가져오는 중…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '파일 ${count}개를 가져왔어요';
   @override
-  String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+  String get manga_ocr_import_matched_nothing => '사용할 수 있는 모델 파일을 인식하지 못했어요';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} 크기가 맞지 않아요: 예상 ${expected}, 실제 ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      '아직 파일 ${count}개가 부족해요';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => '모델 가져오기에 실패했어요';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => '탭해서 인식';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      '이 페이지에는 아직 텍스트 데이터가 없어요. Fushi가 설정에서 고른 OCR 엔진으로 바로 인식하고, 인식이 끝나면 단어를 탭해서 찾아볼 수 있어요. 엔진을 바꾸거나 이 동작을 끄려면 설정 › 만화 OCR에서 하면 돼요.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => '지금 인식';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => '이 페이지를 인식하는 중…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => '탭해서 인식';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      '아직 인식하지 않은 말풍선을 탭하면 페이지를 인식하고 바로 단어를 찾아볼 수 있어요.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => '기기 OCR';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      '기기에 내장된 문자 인식을 사용해요. 다운로드가 필요 없고 완전히 오프라인이며 아무것도 업로드하지 않아요. 다만 세로쓰기 말풍선과 손글씨에서는 로컬 모델보다 눈에 띄게 약해요.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      '이 기기에는 사용할 수 있는 내장 문자 인식이 없어요';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      '온라인 챕터는 기기에 저장되지 않아 Google Lens로만 읽을 수 있어요. 페이지 이미지는 Google로 업로드돼요.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => '온라인 서비스';
   @override
-  String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+  String get settings_destination_services_summary => '서드파티 API, 인덱서, 미디어 서버';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => '자막 소스';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => '리소스 인덱서';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => '메타데이터 스크래핑';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB, TMDB를 여기에서 함께 설정해요';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => '이 대사 음성 다시 재생';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => '음성 다시 녹음';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => '새 대사 따라가기';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => '클릭을 게임으로 통과';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => '배경 전환';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => '위치 고정';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => '수집 작업대 열기';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => '항상 위에 표시';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => '오버레이 닫기';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => '자막 검색에 실패했어요';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => '선택 영역 다시 인식';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => '선택 영역을 다시 인식하지 못했어요';
   @override
-  String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+  String get manga_rescan_region_updated => '선택 영역을 다시 인식해 페이지에 저장했어요';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      '모바일에서는 이 모델들이 만화 뷰어의 전권·탭·선택 영역 OCR을 담당하는 로컬 엔진에 쓰여요.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      '다시 인식할 텍스트를 드래그해 상자로 감싸세요. 결과는 상자 안의 기존 텍스트 레이어를 대체해요.';
   @override
-  String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+  String get manga_rescan_undone => '다시 인식하기 전의 텍스트 레이어로 되돌렸어요';
   @override
-  String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+  String get manga_rescan_undo_failed => '이전 텍스트 레이어로 되돌리지 못했어요';
   @override
-  String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+  String get module_tool_toggle_hint => '이 탭을 내비게이션 바에 표시해요. 끄면 숨겨져요';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      '‘다운로드’ 탭이 설정 → 시스템 → 기능 모듈에서 숨겨져 있어요. 구독을 관리하려면 다시 켜세요.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => '파일 위치 열기';
   @override
-  String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+  String get book_file_location_failed => '이 책의 파일 위치를 열 수 없어요.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      '데이터베이스 백업 스냅샷(${n}개 파일)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      '남아 있는 데이터베이스 백업 스냅샷(corrupt-bak / pre-restore / 이전 버전 마이그레이션 사본)을 모두 삭제해요. 사용 중인 데이터베이스와 그 -wal/-shm 사이드카는 건드리지 않아요.';
+  @override
+  String get manga_global_search_no_sources =>
+      '활성화된 만화 소스가 아직 없어요. ‘가져오기’ 탭에서 하나 추가하세요.';
+  @override
+  String get manga_global_search_open_sources => '가져오기로 이동';
+  @override
+  String get settings_downloads_open_page_hint => '다운로드 페이지 열기 (작업 / 리소스 / 구독)';
+  @override
+  String get download_video_source_required => '동영상 소스가 필요해요';
+  @override
+  String get game_hook_reason_stale_session =>
+      '이전 캡처 세션이 아직 해제되지 않았어요. Fushi가 알아서 다시 시도하니 따로 할 일은 없어요.';
+  @override
+  String get video_subtitle_delete => '자막 파일 삭제';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      '이 자막 파일을 디스크에서 삭제할까요? 되돌릴 수 없어요.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      '자막 파일을 삭제했어요: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      '자막 파일 삭제에 실패했어요: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => '만화 인터페이스 전환';
+  @override
+  String get manga_interface_hide => '인터페이스 숨기기';
+  @override
+  String get manga_interface_show => '인터페이스 표시';
+  @override
+  String get gal_hook_text_vertical_alignment => '세로 정렬';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '가운데';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '위';
+  @override
+  String get storage_entry_external_audio_hint =>
+      '오디오는 원본 파일을 참조하므로 앱 저장 공간을 쓰지 않아요';
+  @override
+  String get jellyfin_auto_list_title => '비디오에 들어갈 때 항목 자동 나열';
+  @override
+  String get jellyfin_auto_list_hint =>
+      '끄면: 비디오 페이지에 들어가도 미디어 서버로 요청을 보내지 않아요. 비디오 라이브러리에서 당겨서 새로고침하면 수동으로 나열할 수 있어요. 아주 큰 서버에서는 자동 열거가 스크래핑처럼 보여 남용 감지에 걸릴 수 있으니 끄는 것을 권장해요.';
+  @override
+  String get jellyfin_libraries_title => '나열할 라이브러리';
+  @override
+  String get jellyfin_libraries_hint =>
+      '아무것도 선택하지 않으면 모든 비디오 라이브러리를 나열해요. 실제로 보는 라이브러리로 좁히면 거대한 서버가 통째로 열거되는 것을 막을 수 있어요.';
+  @override
+  String get jellyfin_libraries_load_failed => '라이브러리 목록을 불러오지 못했어요';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -78170,7 +78640,7 @@ class _StringsNl extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'De helper kon niet worden gestart; controleer of antivirus deze niet heeft verwijderd of geblokkeerd.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Een vorige opnamesessie is nog geladen in het spel; herstart het spel.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -83934,9 +84404,6 @@ class _StringsNl extends _StringsEn {
   String get manga_global_search_prompt =>
       'Typ een titel om elke ingeschakelde mangabron tegelijk te doorzoeken.';
   @override
-  String get manga_global_search_no_sources =>
-      'Geen ingeschakelde mangabronnen. Installeer en schakel eerst een extensie in.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect installeren';
   @override
   String get anki_connect_addon_install_hint =>
@@ -84837,158 +85304,217 @@ class _StringsNl extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'De opnamecomponent heeft de mogelijkheidscontrole niet beantwoord. Het is gevonden op de schijf maar kon niet worden uitgevoerd of reageerde niet op tijd — antivirus kan het blokkeren, Fushi heeft mogelijk geen toestemming om het te starten, of een achtergebleven helperproces zit vast. Sluit elk spel, controleer je antivirusquarantaine en probeer dan opnieuw.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'Downloadbackend instellen';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Kies welke engine je downloads uitvoert. Je kunt dit later altijd wijzigen in de downloadinstellingen.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Aanbevolen. Downloads draaien in Fushi zelf - je hoeft niets extra\'s te installeren.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Verbind Fushi met een qBittorrent WebUI die je al draait.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Nu instellen';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'De runtime van de ingebouwde engine ontbreekt in deze installatie. Installeer het volledige pakket opnieuw of gebruik in plaats daarvan een externe qBittorrent.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Voer een volledig adres in, bijv. http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Deze repository leverde 0 extensies op. Het adres verwijst mogelijk naar een verouderde index.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Repository-URL bewerken';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Download hervatten';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Lokaal model importeren';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Een gedownload model importeren';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Als de download in de app niet lukt, download deze bestanden dan zelf en importeer ze hier. Een zip met die bestanden werkt ook.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Downloadlinks kopiëren';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Downloadlinks gekopieerd';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Map kiezen';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Bestanden kiezen';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Bezig met importeren…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '${count} bestand(en) geïmporteerd';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Geen bruikbare modelbestanden herkend';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} heeft de verkeerde grootte: verwacht ${expected}, gekregen ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Er ontbreken nog ${count} bestand(en)';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Modelimport mislukt';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Tik om te herkennen';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Deze pagina heeft nog geen tekstgegevens. Fushi herkent hem met de OCR-engine die je in de instellingen hebt gekozen; daarna kun je op woorden tikken om ze op te zoeken. Je kunt de engine wijzigen of dit uitschakelen bij Instellingen › Manga OCR.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Nu herkennen';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Deze pagina wordt herkend…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Tik om te herkennen';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Tik op een nog niet herkende tekstballon om de pagina te herkennen en woorden meteen op te zoeken.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR van apparaat';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Gebruikt de tekstherkenning die in je apparaat is ingebouwd. Geen download, volledig offline, er wordt niets geüpload — maar bij verticale tekstballonnen en handschrift merkbaar zwakker dan het lokale model.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Dit apparaat heeft geen ingebouwde tekstherkenning beschikbaar';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Online hoofdstukken staan niet lokaal opgeslagen, dus alleen Google Lens kan ze lezen — de pagina-afbeelding wordt naar Google geüpload.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Onlinediensten';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'API\'s van derden, indexers en mediaservers';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Ondertitelbronnen';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Resource-indexers';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Metadata-scraping';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB en TMDB worden hier samen ingesteld';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Stem van deze regel opnieuw afspelen';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Stem opnieuw opnemen';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Nieuwe regels volgen';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Klikken doorlaten naar het spel';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Achtergrond wisselen';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Positie vergrendelen';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Opnamewerkbank openen';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Altijd op voorgrond';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Overlay sluiten';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'Zoeken naar ondertitels mislukt';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Geselecteerd gebied opnieuw herkennen';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Opnieuw herkennen van het geselecteerde gebied is mislukt';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Geselecteerd gebied opnieuw herkend en in de pagina opgeslagen';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Op mobiel voeden deze modellen de lokale engine voor OCR van een heel deel, per tik en van een geselecteerd gebied in de mangalezer.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Sleep een kader over de tekst die je opnieuw wilt laten herkennen. Het resultaat vervangt de bestaande tekstlaag binnen dat kader.';
   @override
-  String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+  String get manga_rescan_undone => 'Tekstlaag van vóór de herscan hersteld';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Kan de vorige tekstlaag niet herstellen';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Dit tabblad in de navigatiebalk tonen; uitschakelen om het te verbergen';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'Het tabblad Downloads is verborgen via Instellingen → Systeem → Functiemodules; zet het weer aan om abonnementen te beheren.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Bestandslocatie openen';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'Kan de bestandslocatie van dit boek niet openen.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Snapshots van databaseback-ups (${n} bestanden)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Hiermee worden alle achtergebleven snapshots van databaseback-ups verwijderd (corrupt-bak / pre-restore / oude migratiekopieën). De actieve database en de bijbehorende -wal/-shm-bestanden blijven ongemoeid.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Nog geen ingeschakelde mangabronnen. Voeg er een toe op het tabblad Importeren.';
+  @override
+  String get manga_global_search_open_sources => 'Naar Importeren';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'De downloadpagina openen (taken, resources, abonnementen)';
+  @override
+  String get download_video_source_required => 'Videobron vereist';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Een eerdere opnamesessie is nog niet vrijgegeven; Fushi probeert het vanzelf opnieuw, je hoeft niets te doen.';
+  @override
+  String get video_subtitle_delete => 'Ondertitelbestand verwijderen';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Dit ondertitelbestand van de schijf verwijderen? Dit kan niet ongedaan worden gemaakt.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Ondertitelbestand verwijderd: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Verwijderen van ondertitelbestand mislukt: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Manga-interface schakelen';
+  @override
+  String get manga_interface_hide => 'Interface verbergen';
+  @override
+  String get manga_interface_show => 'Interface tonen';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Verticale uitlijning';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Midden';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Boven';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio verwijst naar de originele bestanden en gebruikt geen app-opslag';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Items automatisch tonen bij openen van Video';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Uit: bij het openen van de videopagina wordt geen verzoek naar de mediaserver gestuurd; trek in de videobibliotheek omlaag om te vernieuwen en items handmatig te tonen. Aanbevolen voor zeer grote servers, waar automatisch opsommen op scraping lijkt en misbruikdetectie kan activeren.';
+  @override
+  String get jellyfin_libraries_title => 'Bibliotheken om te tonen';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Niets selecteren toont elke videobibliotheek. Beperken tot de bibliotheken die je echt kijkt voorkomt dat enorme servers volledig worden opgesomd.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Kon de bibliotheeklijst niet laden';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -87146,7 +87672,7 @@ class _StringsPtBr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'O helper não pôde ser iniciado; verifique se o antivírus não o removeu ou bloqueou.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Uma sessão de captura anterior ainda está carregada no jogo; reinicie o jogo uma vez.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -92937,9 +93463,6 @@ class _StringsPtBr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Digite um título para buscar em todas as fontes de mangá ativadas de uma vez.';
   @override
-  String get manga_global_search_no_sources =>
-      'Nenhuma fonte de mangá ativada. Instale e ative uma extensão primeiro.';
-  @override
   String get anki_connect_addon_install => 'Instalar AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -93853,158 +94376,220 @@ class _StringsPtBr extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'O componente de captura não respondeu à verificação de capacidade. Foi encontrado no disco mas não pôde ser executado ou não respondeu a tempo — o antivírus pode estar bloqueando, o Fushi pode não ter permissão para iniciá-lo, ou um processo helper antigo pode estar preso. Feche todos os jogos, verifique a quarentena do antivírus e tente novamente.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title =>
+      'Configurar o backend de downloads';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Escolha qual mecanismo executa seus downloads. Você pode mudar isso a qualquer momento nas configurações de download.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Recomendado. Os downloads acontecem dentro do Fushi: não é preciso instalar mais nada.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Conecte o Fushi a uma WebUI do qBittorrent que você já usa.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Configurar agora';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'Esta instalação está sem o runtime do mecanismo integrado. Reinstale o pacote completo ou use o qBittorrent externo.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Digite um endereço completo, ex.: http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Este repositório retornou 0 extensões. O endereço dele pode apontar para um índice desatualizado.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Editar URL do repositório';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Retomar download';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Importar modelo local';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Importar um modelo baixado';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Se o download pelo app não funcionar, baixe estes arquivos por conta própria e importe-os aqui. Um zip com eles também serve.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Copiar links de download';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Links de download copiados';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Escolher pasta';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Escolher arquivos';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Importando…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '${count} arquivo(s) importado(s)';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Nenhum arquivo de modelo utilizável foi reconhecido';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} está com o tamanho errado: esperado ${expected}, obtido ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Ainda faltam ${count} arquivo(s)';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Falha ao importar o modelo';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Toque para reconhecer';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Esta página ainda não tem dados de texto. O Fushi vai reconhecê-la com o mecanismo de OCR que você escolheu nas configurações e depois você poderá tocar nas palavras para consultá-las. Você pode trocar o mecanismo ou desativar isso em Configurações › OCR de mangá.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Reconhecer agora';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Reconhecendo esta página…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Toque para reconhecer';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Toque em um balão de fala ainda não reconhecido para reconhecer a página e consultar as palavras na hora.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR do dispositivo';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Usa o reconhecimento de texto integrado ao seu dispositivo. Sem download, totalmente offline e sem enviar nada — mas é bem mais fraco que o modelo local em balões de fala verticais e escrita à mão.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Este dispositivo não tem reconhecimento de texto integrado disponível';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Os capítulos online não ficam salvos localmente, então só o Google Lens consegue lê-los — a imagem da página é enviada ao Google.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Serviços online';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'APIs de terceiros, indexadores e servidores de mídia';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Fontes de legendas';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Indexadores de recursos';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Coleta de metadados';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB e TMDB são configurados todos aqui';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Reproduzir novamente a voz desta fala';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Capturar a voz novamente';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Acompanhar novas falas';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Repassar os cliques ao jogo';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Alternar o fundo';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Travar a posição';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Abrir a bancada de captura';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Manter no topo';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Fechar a janela flutuante';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'Falha na busca de legendas';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Reconhecer novamente a área selecionada';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Falha ao reconhecer novamente a área selecionada';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Área selecionada reconhecida novamente e salva na página';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'No celular, esses modelos alimentam o mecanismo local para o OCR de volume inteiro, por toque e de área selecionada no leitor de mangá.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Arraste um retângulo sobre o texto que deseja reconhecer de novo. O resultado substitui a camada de texto existente dentro do retângulo.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Camada de texto anterior ao novo reconhecimento restaurada';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Não foi possível restaurar a camada de texto anterior';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Mostrar esta aba na barra de navegação; desative para ocultá-la';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'A aba Downloads está oculta em Configurações → Sistema → Módulos de funcionalidades; reative-a para gerenciar as assinaturas.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Abrir local do arquivo';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'Não foi possível abrir o local do arquivo deste livro.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Snapshots de backup do banco de dados (${n} arquivos)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Isso remove todos os snapshots de backup do banco de dados que sobraram (corrupt-bak / pre-restore / cópias de migrações antigas). O banco de dados em uso e seus arquivos -wal/-shm não são afetados.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Ainda não há fontes de mangá ativadas. Adicione uma na aba Importar.';
+  @override
+  String get manga_global_search_open_sources => 'Ir para Importar';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Abrir a página de downloads (tarefas, recursos, assinaturas)';
+  @override
+  String get download_video_source_required =>
+      'É necessária uma fonte de vídeo';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Uma sessão de captura anterior ainda não foi liberada; o Fushi está tentando de novo sozinho, não é preciso fazer nada.';
+  @override
+  String get video_subtitle_delete => 'Excluir arquivo de legenda';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Excluir este arquivo de legenda do disco? Isso não pode ser desfeito.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Arquivo de legenda excluído: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Falha ao excluir o arquivo de legenda: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Alternar interface de mangá';
+  @override
+  String get manga_interface_hide => 'Ocultar interface';
+  @override
+  String get manga_interface_show => 'Mostrar interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Alinhamento vertical';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Centro';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Topo';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'O áudio referencia os arquivos originais e não ocupa espaço do app';
+  @override
+  String get jellyfin_auto_list_title => 'Listar itens ao entrar em Vídeo';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Desativado: entrar na página de vídeo não envia nenhuma requisição ao servidor de mídia; puxe para atualizar na videoteca para listar manualmente. Recomendado para servidores muito grandes, onde a enumeração automática parece scraping e pode acionar a detecção de abuso.';
+  @override
+  String get jellyfin_libraries_title => 'Bibliotecas a listar';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Não selecionar nada lista todas as bibliotecas de vídeo. Restringir às bibliotecas que você realmente assiste evita que servidores enormes sejam enumerados por completo.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Não foi possível carregar a lista de bibliotecas';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -96148,7 +96733,7 @@ class _StringsRu extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Не удалось запустить хелпер; проверьте, не удалил ли и не заблокировал ли его антивирус.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Предыдущая сессия захвата всё ещё загружена в игре; перезапустите игру.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -101928,9 +102513,6 @@ class _StringsRu extends _StringsEn {
   String get manga_global_search_prompt =>
       'Введите название для поиска по всем включённым источникам манги одновременно.';
   @override
-  String get manga_global_search_no_sources =>
-      'Нет включённых источников манги. Сначала установите и включите расширение.';
-  @override
   String get anki_connect_addon_install => 'Установить AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -102842,158 +103424,219 @@ class _StringsRu extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'Компонент захвата не ответил на проверку возможностей. Он найден на диске, но не смог запуститься или не ответил вовремя — возможно, антивирус блокирует его, Fushi не хватает прав на запуск или завис старый вспомогательный процесс. Закройте все игры, проверьте карантин антивируса и попробуйте снова.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'Настройка бэкенда загрузок';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Выберите, какой движок будет выполнять загрузки. Это можно изменить в любой момент в настройках загрузок.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Рекомендуется. Загрузки выполняются внутри Fushi — ничего дополнительно устанавливать не нужно.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Подключите Fushi к уже запущенному qBittorrent WebUI.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Настроить';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'В этой установке отсутствует среда выполнения встроенного движка. Переустановите полный пакет или используйте внешний qBittorrent.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Введите полный адрес, например http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Этот репозиторий вернул 0 расширений. Возможно, его адрес указывает на устаревший индекс.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Изменить адрес репозитория';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Продолжить загрузку';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Импорт локальной модели';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Импорт скачанной модели';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Если загрузка внутри приложения не проходит, скачайте эти файлы самостоятельно и импортируйте их здесь. Подойдёт и zip-архив с ними.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Копировать ссылки';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Ссылки скопированы';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Выбрать папку';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Выбрать файлы';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Импорт…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      'Импортировано файлов: ${count}';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Пригодные файлы модели не распознаны';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      'Неверный размер ${file}: ожидался ${expected}, получен ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Не хватает ещё файлов: ${count}';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Не удалось импортировать модель';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Распознать по нажатию';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'На этой странице ещё нет текстовых данных. Fushi распознает её движком OCR, выбранным в настройках, после чего можно нажимать на слова и искать их. Сменить движок или отключить это поведение можно в «Настройки › OCR манги».';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Распознать';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Распознавание страницы…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Распознавание по нажатию';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Нажмите на нераспознанное текстовое облачко, чтобы распознать страницу и сразу искать слова.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR устройства';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Использует распознавание текста, встроенное в ваше устройство. Ничего не нужно скачивать, работает полностью офлайн, ничего не отправляется — но с вертикальными облачками и рукописным текстом справляется заметно хуже локальной модели.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'На этом устройстве нет доступного встроенного распознавания текста';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Онлайн-главы не хранятся локально, поэтому прочитать их может только Google Lens — изображение страницы отправляется в Google.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Онлайн-сервисы';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'Сторонние API, индексаторы и медиасерверы';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Источники субтитров';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Индексаторы ресурсов';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Сбор метаданных';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB и TMDB настраиваются здесь вместе';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Воспроизвести озвучку этой реплики';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Перезаписать озвучку';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Следовать за новыми репликами';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Пропускать клики в игру';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Переключить фон';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Закрепить позицию';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Открыть рабочую панель захвата';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Поверх всех окон';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Закрыть оверлей';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed =>
+      'Не удалось выполнить поиск субтитров';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Распознать выделенную область заново';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Не удалось заново распознать выделенную область';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Выделенная область распознана заново и сохранена на странице';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'На мобильных устройствах эти модели питают локальный движок для распознавания всего тома, по нажатию и по выделенной области в читалке манги.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Обведите рамкой текст, который нужно распознать заново. Результат заменит существующий текстовый слой внутри рамки.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Текстовый слой до повторного распознавания восстановлен';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Не удалось восстановить предыдущий текстовый слой';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Показывать эту вкладку в панели навигации; выключите, чтобы скрыть';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'Вкладка «Загрузки» скрыта в разделе Настройки → Система → Функциональные модули; включите её снова, чтобы управлять подписками.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Открыть расположение файла';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'Не удалось открыть расположение файла этой книги.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Снимки резервных копий базы данных (${n} файлов)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Будут удалены все оставшиеся снимки резервных копий базы данных (corrupt-bak / pre-restore / копии старых миграций). Действующая база данных и её файлы -wal/-shm не затрагиваются.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Включённых источников манги пока нет. Добавьте один на вкладке «Импорт».';
+  @override
+  String get manga_global_search_open_sources => 'К импорту';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Открыть страницу загрузок (задачи, ресурсы, подписки)';
+  @override
+  String get download_video_source_required => 'Требуется источник видео';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Предыдущий сеанс захвата ещё не освобождён; Fushi повторяет попытку сам, ничего делать не нужно.';
+  @override
+  String get video_subtitle_delete => 'Удалить файл субтитров';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Удалить этот файл субтитров с диска? Это действие нельзя отменить.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Файл субтитров удалён: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Не удалось удалить файл субтитров: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Переключить интерфейс манги';
+  @override
+  String get manga_interface_hide => 'Скрыть интерфейс';
+  @override
+  String get manga_interface_show => 'Показать интерфейс';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Вертикальное выравнивание';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'По центру';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Сверху';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Аудио ссылается на исходные файлы и не занимает место приложения';
+  @override
+  String get jellyfin_auto_list_title => 'Выводить список при входе в «Видео»';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Выключено: при открытии страницы видео запрос на медиасервер не отправляется; потяните для обновления в видеотеке, чтобы вывести список вручную. Рекомендуется для очень больших серверов, где автоматический перебор выглядит как скрапинг и может сработать защита от злоупотреблений.';
+  @override
+  String get jellyfin_libraries_title => 'Библиотеки для вывода';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Если ничего не выбрано, выводятся все видеотеки. Ограничение теми библиотеками, которые вы действительно смотрите, избавит огромные серверы от полного перебора.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Не удалось загрузить список библиотек';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -105100,7 +105743,7 @@ class _StringsTh extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'ไม่สามารถเริ่มตัวช่วยได้; ตรวจสอบว่าโปรแกรมป้องกันไวรัสไม่ได้ลบหรือบล็อกมัน';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'เซสชันจับข้อมูลก่อนหน้ายังถูกโหลดอยู่ในเกม; รีสตาร์ทเกมหนึ่งครั้ง';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -108480,7 +109123,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_torrent_memory_limit => 'จำกัดหน่วยความจำ (MB)';
   @override
-  String get video_setting_torrent_natpmp => 'NAT-PMP port mapping';
+  String get video_setting_torrent_natpmp => 'การแมปพอร์ต NAT-PMP';
   @override
   String get video_setting_torrent_section_antileech => 'ป้องกัน Anti-leech';
   @override
@@ -108505,7 +109148,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_torrent_upload_slots => 'ช่องอัปโหลดสูงสุด';
   @override
-  String get video_setting_torrent_upnp => 'UPnP port mapping';
+  String get video_setting_torrent_upnp => 'การแมปพอร์ต UPnP';
   @override
   String get video_setting_torrent_zero_default => '0 = ค่าเริ่มต้น';
   @override
@@ -110760,9 +111403,6 @@ class _StringsTh extends _StringsEn {
   String get manga_global_search_prompt =>
       'พิมพ์ชื่อเรื่องเพื่อค้นหาทุกแหล่งมังงะที่เปิดใช้งานพร้อมกัน';
   @override
-  String get manga_global_search_no_sources =>
-      'ไม่มีแหล่งมังงะที่เปิดใช้งาน ติดตั้งและเปิดใช้งานส่วนขยายก่อน';
-  @override
   String get anki_connect_addon_install => 'ติดตั้ง AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -111654,158 +112294,213 @@ class _StringsTh extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'ส่วนประกอบจับภาพไม่ตอบสนองการตรวจสอบความสามารถ พบบนดิสก์แต่ไม่สามารถทำงานหรือไม่ตอบสนองทันเวลา แอนตี้ไวรัสอาจบล็อกอยู่ Fushi อาจไม่มีสิทธิ์เปิดใช้ หรืออาจมีกระบวนการ helper ค้างอยู่ ปิดเกมทั้งหมด ตรวจสอบกักกันแอนตี้ไวรัส แล้วลองอีกครั้ง';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'ตั้งค่าแบ็กเอนด์ดาวน์โหลด';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'เลือกเอนจินที่จะใช้ทำงานดาวน์โหลด เปลี่ยนได้ทุกเมื่อในการตั้งค่าดาวน์โหลด';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'แนะนำ ดาวน์โหลดทำงานภายใน Fushi ไม่ต้องติดตั้งอะไรเพิ่ม';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'เชื่อม Fushi เข้ากับ qBittorrent WebUI ที่คุณใช้งานอยู่แล้ว';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'ตั้งค่าเลย';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'การติดตั้งครั้งนี้ไม่มีไลบรารีรันไทม์ของเอนจินในตัว โปรดติดตั้งแพ็กเกจฉบับเต็มใหม่ หรือใช้ qBittorrent ภายนอกแทน';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'กรอกที่อยู่แบบเต็ม เช่น http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'คลังส่วนขยายนี้ส่งกลับส่วนขยาย 0 รายการ ที่อยู่อาจชี้ไปยังดัชนีรุ่นเก่า';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'แก้ไข URL คลังส่วนขยาย';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'ดาวน์โหลดต่อ';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'นำเข้าโมเดลในเครื่อง';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'นำเข้าโมเดลที่ดาวน์โหลดไว้';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'ถ้าดาวน์โหลดในแอปไม่สำเร็จ ให้ดาวน์โหลดไฟล์เหล่านี้เองแล้วนำเข้าที่นี่ ไฟล์ zip ที่มีไฟล์เหล่านี้อยู่ก็ใช้ได้';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'คัดลอกลิงก์ดาวน์โหลด';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'คัดลอกลิงก์ดาวน์โหลดแล้ว';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'เลือกโฟลเดอร์';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'เลือกไฟล์';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'กำลังนำเข้า…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      'นำเข้าแล้ว ${count} ไฟล์';
   @override
-  String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+  String get manga_ocr_import_matched_nothing => 'ไม่พบไฟล์โมเดลที่ใช้งานได้';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} มีขนาดไม่ถูกต้อง: ควรเป็น ${expected} แต่ได้ ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'ยังขาดอีก ${count} ไฟล์';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'นำเข้าโมเดลไม่สำเร็จ';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'แตะเพื่อรู้จำข้อความ';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'หน้านี้ยังไม่มีข้อมูลข้อความ Fushi จะรู้จำข้อความด้วยเอนจิน OCR ที่คุณเลือกไว้ในการตั้งค่า จากนั้นคุณจะแตะคำเพื่อค้นความหมายได้ เปลี่ยนเอนจินหรือปิดพฤติกรรมนี้ได้ที่ การตั้งค่า › OCR มังงะ';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'เริ่มรู้จำ';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'กำลังรู้จำหน้านี้…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'แตะเพื่อรู้จำข้อความ';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'แตะช่องคำพูดที่ยังไม่ได้รู้จำ เพื่อรู้จำข้อความทั้งหน้าแล้วค้นคำได้ทันที';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR ของอุปกรณ์';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'ใช้การรู้จำข้อความที่มีมาในอุปกรณ์ ไม่ต้องดาวน์โหลด ทำงานออฟไลน์เต็มรูปแบบ ไม่อัปโหลดข้อมูลใด ๆ — แต่จัดการช่องคำพูดแนวตั้งและลายมือได้ด้อยกว่าโมเดลในเครื่องอย่างเห็นได้ชัด';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'อุปกรณ์นี้ไม่มีการรู้จำข้อความในตัวที่ใช้งานได้';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'หน้าของตอนแบบออนไลน์ไม่ได้เก็บไว้ในเครื่อง จึงอ่านได้ด้วย Google Lens เท่านั้น — ภาพหน้านั้นจะถูกอัปโหลดไปยัง Google';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'บริการออนไลน์';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'API ของบุคคลที่สาม ตัวจัดทำดัชนี และมีเดียเซิร์ฟเวอร์';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'แหล่งคำบรรยาย';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'ตัวจัดทำดัชนีทรัพยากร';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'การดึงเมทาดาทา';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB และ TMDB ตั้งค่ารวมกันที่นี่';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'เล่นเสียงประโยคนี้ซ้ำ';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'บันทึกเสียงใหม่';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'ตามประโยคใหม่';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'คลิกทะลุไปยังเกม';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'สลับพื้นหลัง';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'ล็อกตำแหน่ง';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'เปิดโต๊ะทำงานเก็บข้อมูล';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'ปักไว้บนสุด';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'ปิดหน้าต่างลอย';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'ค้นหาคำบรรยายไม่สำเร็จ';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'รู้จำพื้นที่ที่เลือกใหม่';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'รู้จำพื้นที่ที่เลือกใหม่ไม่สำเร็จ';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'รู้จำพื้นที่ที่เลือกใหม่แล้วและบันทึกลงหน้านี้';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'บนมือถือ โมเดลเหล่านี้ใช้กับเอนจินในเครื่องสำหรับการรู้จำทั้งเล่ม แตะ และพื้นที่ที่เลือกในหน้าอ่านมังงะ';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'ลากกรอบครอบข้อความที่ต้องการรู้จำใหม่ ผลลัพธ์จะแทนที่ชั้นข้อความเดิมภายในกรอบนั้น';
   @override
-  String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+  String get manga_rescan_undone => 'คืนค่าชั้นข้อความก่อนการรู้จำใหม่แล้ว';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'คืนค่าชั้นข้อความเวอร์ชันก่อนหน้าไม่สำเร็จ';
   @override
-  String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+  String get module_tool_toggle_hint => 'แสดงแท็บนี้ในแถบนำทาง ปิดเพื่อซ่อน';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'แท็บดาวน์โหลดถูกซ่อนไว้ใน การตั้งค่า → ระบบ → โมดูลฟีเจอร์ ต้องเปิดกลับมาจึงจะจัดการรายการติดตามได้';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'เปิดตำแหน่งไฟล์';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'ไม่สามารถเปิดตำแหน่งไฟล์ของหนังสือเล่มนี้ได้';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'สแนปช็อตสำรองฐานข้อมูล (${n} ไฟล์)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'จะลบสแนปช็อตสำรองฐานข้อมูลที่ตกค้างทั้งหมด (corrupt-bak / pre-restore / สำเนาการย้ายข้อมูลรุ่นเก่า) ฐานข้อมูลที่ใช้งานอยู่และไฟล์ -wal/-shm ที่มากับมันจะไม่ถูกแตะต้อง';
+  @override
+  String get manga_global_search_no_sources =>
+      'ยังไม่มีแหล่งมังงะที่เปิดใช้งาน เพิ่มได้ที่แท็บนำเข้า';
+  @override
+  String get manga_global_search_open_sources => 'ไปที่นำเข้า';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'เปิดหน้าดาวน์โหลด (งาน / ทรัพยากร / รายการติดตาม)';
+  @override
+  String get download_video_source_required => 'ต้องระบุแหล่งวิดีโอ';
+  @override
+  String get game_hook_reason_stale_session =>
+      'เซสชันการจับก่อนหน้ายังไม่ถูกปล่อย Fushi กำลังลองใหม่ให้เอง ไม่ต้องทำอะไร';
+  @override
+  String get video_subtitle_delete => 'ลบไฟล์คำบรรยาย';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'ลบไฟล์คำบรรยายนี้ออกจากดิสก์ใช่ไหม การกระทำนี้ย้อนกลับไม่ได้\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'ลบไฟล์คำบรรยายแล้ว: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'ลบไฟล์คำบรรยายไม่สำเร็จ: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'สลับอินเทอร์เฟซมังงะ';
+  @override
+  String get manga_interface_hide => 'ซ่อนอินเทอร์เฟซ';
+  @override
+  String get manga_interface_show => 'แสดงอินเทอร์เฟซ';
+  @override
+  String get gal_hook_text_vertical_alignment => 'การจัดแนวแนวตั้ง';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'กึ่งกลาง';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'บน';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'เสียงอ้างอิงไฟล์ต้นฉบับ ไม่ใช้พื้นที่ของแอป';
+  @override
+  String get jellyfin_auto_list_title =>
+      'แสดงรายการอัตโนมัติเมื่อเข้าหน้าวิดีโอ';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'ปิด: การเข้าหน้าวิดีโอจะไม่ส่งคำขอไปยังมีเดียเซิร์ฟเวอร์ ให้ดึงเพื่อรีเฟรชในคลังวิดีโอเพื่อแสดงรายการเอง แนะนำสำหรับเซิร์ฟเวอร์ขนาดใหญ่มาก เพราะการไล่รายการอัตโนมัติดูเหมือนการขูดข้อมูลและอาจไปกระตุ้นระบบตรวจจับการใช้งานผิดปกติ';
+  @override
+  String get jellyfin_libraries_title => 'คลังที่จะแสดงรายการ';
+  @override
+  String get jellyfin_libraries_hint =>
+      'ไม่เลือกอะไรเลยจะแสดงคลังวิดีโอทั้งหมด การจำกัดเฉพาะคลังที่ดูจริงช่วยไม่ให้เซิร์ฟเวอร์ขนาดใหญ่ถูกไล่รายการทั้งหมด';
+  @override
+  String get jellyfin_libraries_load_failed => 'โหลดรายการคลังไม่สำเร็จ';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -113940,7 +114635,7 @@ class _StringsTr extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Yardımcı başlatılamadı; antivirüsün kaldırmadığından veya engellemediğinden emin olun.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Önceki bir yakalama oturumu hâlâ oyunda yüklü; oyunu bir kez yeniden başlatın.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -119667,9 +120362,6 @@ class _StringsTr extends _StringsEn {
   String get manga_global_search_prompt =>
       'Etkin tüm manga kaynaklarında aynı anda aramak için bir başlık yazın.';
   @override
-  String get manga_global_search_no_sources =>
-      'Etkin manga kaynağı yok. Önce bir eklenti yükleyip etkinleştirin.';
-  @override
   String get anki_connect_addon_install => 'AnkiConnect\'i yükle';
   @override
   String get anki_connect_addon_install_hint =>
@@ -120568,158 +121260,215 @@ class _StringsTr extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'Yakalama bileşeni yetenek kontrolüne yanıt vermedi. Diskte bulundu ancak çalışamadı veya zamanında yanıt vermedi - antivirüs engelliyor olabilir, Fushi\'nin başlatma izni olmayabilir veya artık bir yardımcı işlem takılmış olabilir. Tüm oyunları kapatın, antivirüs karantinasını kontrol edin ve tekrar deneyin.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'İndirme arka ucunu ayarla';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'İndirmelerinizi hangi motorun yürüteceğini seçin. Bunu istediğiniz zaman indirme ayarlarından değiştirebilirsiniz.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Önerilen. İndirmeler Fushi içinde çalışır — ayrıca bir şey kurmanız gerekmez.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Fushi\'yi hâlihazırda çalıştırdığınız bir qBittorrent WebUI\'ye bağlayın.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Şimdi ayarla';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'Bu kurulumda yerleşik motorun çalışma zamanı eksik. Tam paketi yeniden kurun ya da bunun yerine harici qBittorrent kullanın.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Tam bir adres girin, örn. http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Bu depo 0 eklenti döndürdü. Adresi eski bir dizine işaret ediyor olabilir.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Depo adresini düzenle';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'İndirmeyi sürdür';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Yerel model içe aktar';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'İndirilmiş bir modeli içe aktar';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Uygulama içi indirme çalışmıyorsa bu dosyaları kendiniz indirip buradan içe aktarın. Bunları içeren bir zip de olur.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'İndirme bağlantılarını kopyala';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'İndirme bağlantıları kopyalandı';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Klasör seç';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Dosya seç';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'İçe aktarılıyor…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      '${count} dosya içe aktarıldı';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Kullanılabilir model dosyası tanınmadı';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} boyutu yanlış: beklenen ${expected}, gelen ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Hâlâ ${count} dosya eksik';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Model içe aktarılamadı';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Dokunarak tanıma';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Bu sayfanın henüz metin verisi yok. Fushi, ayarlarda seçtiğiniz OCR motoruyla sayfayı tanıyacak; ardından kelimelere dokunup arayabilirsiniz. Motoru değiştirmeyi ya da bunu kapatmayı Ayarlar › Manga OCR bölümünden yapabilirsiniz.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Şimdi tanı';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Bu sayfa tanınıyor…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Dokunarak tanıma';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Tanınmamış bir konuşma balonuna dokunun; sayfa tanınsın, kelimeleri hemen aratın.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'Cihaz OCR\'ı';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Cihazınızdaki yerleşik metin tanımayı kullanır. İndirme yok, tamamen çevrimdışı, hiçbir şey yüklenmez — ancak dikey konuşma balonlarında ve el yazısında yerel modele göre belirgin biçimde zayıftır.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Bu cihazda kullanılabilir yerleşik metin tanıma yok';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Çevrimiçi bölümler yerelde saklanmaz, bu yüzden onları yalnızca Google Lens okuyabilir — sayfa görüntüsü Google\'a yüklenir.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Çevrimiçi hizmetler';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'Üçüncü taraf API\'leri, dizinleyiciler ve medya sunucuları';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Altyazı kaynakları';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Kaynak dizinleyicileri';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Üst veri toplama';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB ve TMDB burada birlikte yapılandırılır';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Bu satırın sesini yeniden oynat';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Sesi yeniden yakala';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Yeni satırları takip et';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Tıklamaları oyuna geçir';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Arka planı değiştir';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Konumu kilitle';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Yakalama tezgâhını aç';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Üstte tut';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Yer paylaşımını kapat';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'Altyazı araması başarısız';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Seçili alanı yeniden tanı';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'Seçili alanın yeniden tanınması başarısız';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Seçilen alan yeniden tanındı ve sayfaya kaydedildi';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Mobilde bu modeller, manga okuyucudaki tüm cilt, dokunma ve seçili alan OCR\'ı için yerel motoru besler.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Yeniden tanıtmak istediğiniz metnin üzerine bir kutu sürükleyin. Sonuç, kutunun içindeki mevcut metin katmanının yerini alır.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Yeniden taramadan önceki metin katmanı geri yüklendi';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Önceki metin katmanı geri yüklenemedi';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Bu sekmeyi gezinme çubuğunda göster; gizlemek için kapatın';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'İndirmeler sekmesi Ayarlar → Sistem → Özellik modülleri altında gizli; abonelikleri yönetmek için yeniden açın.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Dosya konumunu aç';
   @override
-  String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+  String get book_file_location_failed => 'Bu kitabın dosya konumu açılamadı.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Veritabanı yedek anlık görüntüleri (${n} dosya)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Bu işlem, kalan tüm veritabanı yedek anlık görüntülerini (corrupt-bak / pre-restore / eski geçiş kopyaları) siler. Çalışan veritabanına ve -wal/-shm yan dosyalarına dokunulmaz.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Henüz etkin manga kaynağı yok. İçe aktar sekmesinden bir tane ekleyin.';
+  @override
+  String get manga_global_search_open_sources => 'İçe aktarmaya git';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'İndirmeler sayfasını aç (görevler, kaynaklar, abonelikler)';
+  @override
+  String get download_video_source_required => 'Video kaynağı gerekli';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Önceki yakalama oturumu henüz serbest bırakılmadı; Fushi kendi kendine yeniden deniyor, bir şey yapmanız gerekmez.';
+  @override
+  String get video_subtitle_delete => 'Altyazı dosyasını sil';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Bu altyazı dosyası diskten silinsin mi? Bu işlem geri alınamaz.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Altyazı dosyası silindi: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Altyazı dosyası silinemedi: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Manga arayüzünü aç/kapat';
+  @override
+  String get manga_interface_hide => 'Arayüzü gizle';
+  @override
+  String get manga_interface_show => 'Arayüzü göster';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Dikey hizalama';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Orta';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Üst';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Ses özgün dosyaları kullanır, uygulama depolamasında yer kaplamaz';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Video\'ya girerken öğeleri otomatik listele';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Kapalı: video sayfasına girmek medya sunucusuna hiçbir istek göndermez; öğeleri elle listelemek için video kitaplığında çekerek yenileyin. Otomatik sayımın kazıma gibi görünüp kötüye kullanım tespitini tetikleyebildiği çok büyük sunucular için önerilir.';
+  @override
+  String get jellyfin_libraries_title => 'Listelenecek kitaplıklar';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Hiçbir şey seçmezseniz tüm video kitaplıkları listelenir. Gerçekten izlediğiniz kitaplıklarla sınırlamak, devasa sunucuların baştan sona sayılmasını önler.';
+  @override
+  String get jellyfin_libraries_load_failed => 'Kitaplık listesi yüklenemedi';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -122848,7 +123597,7 @@ class _StringsVi extends _StringsEn {
   String get game_hook_reason_spawn_failed =>
       'Không thể khởi chạy helper; kiểm tra xem phần mềm diệt virus có xóa hoặc chặn nó không.';
   @override
-  String get game_hook_reason_stale_session =>
+  String get game_hook_reason_resident_hook_mismatch =>
       'Phiên thu thập trước vẫn được tải trong trò chơi; khởi động lại trò chơi.';
   @override
   String get game_hook_reason_steam_timeout =>
@@ -128559,9 +129308,6 @@ class _StringsVi extends _StringsEn {
   String get manga_global_search_prompt =>
       'Nhập tựa đề để tìm kiếm tất cả nguồn truyện tranh đã bật cùng lúc.';
   @override
-  String get manga_global_search_no_sources =>
-      'Không có nguồn truyện tranh nào được bật. Cài đặt và bật một tiện ích mở rộng trước.';
-  @override
   String get anki_connect_addon_install => 'Cài đặt AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -129464,158 +130210,217 @@ class _StringsVi extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       'Thành phần chụp không phản hồi kiểm tra khả năng. Nó được tìm thấy trên đĩa nhưng không thể chạy hoặc không phản hồi kịp thời - phần mềm diệt virus có thể đang chặn, Fushi có thể thiếu quyền để khởi chạy, hoặc tiến trình trợ giúp cũ có thể bị treo. Đóng tất cả trò chơi, kiểm tra vùng cách ly của phần mềm diệt virus, sau đó thử lại.';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => 'Thiết lập backend tải xuống';
   @override
   String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+      'Chọn công cụ sẽ thực hiện việc tải xuống. Bạn có thể đổi bất cứ lúc nào trong cài đặt tải xuống.';
   @override
   String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+      'Khuyên dùng. Việc tải xuống chạy ngay trong Fushi — không cần cài thêm gì.';
   @override
   String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+      'Kết nối Fushi tới một qBittorrent WebUI mà bạn đang chạy.';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => 'Thiết lập ngay';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      'Bản cài đặt này thiếu thư viện chạy của công cụ tích hợp. Hãy cài lại gói đầy đủ, hoặc dùng qBittorrent bên ngoài.';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      'Nhập địa chỉ đầy đủ, ví dụ http://127.0.0.1:8080';
   @override
   String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+      'Kho này trả về 0 tiện ích mở rộng. Địa chỉ của nó có thể đang trỏ tới chỉ mục cũ.';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => 'Sửa địa chỉ kho';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => 'Tiếp tục tải';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => 'Nhập mô hình cục bộ';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => 'Nhập mô hình đã tải về';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      'Nếu tải trong ứng dụng không được, hãy tự tải các tệp này rồi nhập vào đây. Một tệp zip chứa chúng cũng được.';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => 'Sao chép liên kết tải';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => 'Đã sao chép liên kết tải';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => 'Chọn thư mục';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => 'Chọn tệp';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => 'Đang nhập…';
   @override
   String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+      'Đã nhập ${count} tệp';
   @override
   String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+      'Không nhận ra tệp mô hình nào dùng được';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} sai kích thước: cần ${expected}, nhận ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      'Vẫn thiếu ${count} tệp';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => 'Nhập mô hình thất bại';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => 'Chạm để nhận dạng';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      'Trang này chưa có dữ liệu văn bản. Fushi sẽ nhận dạng bằng công cụ OCR bạn chọn trong cài đặt, sau đó bạn có thể chạm vào từ để tra cứu. Bạn có thể đổi công cụ hoặc tắt tính năng này trong Cài đặt › OCR truyện tranh.';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => 'Nhận dạng ngay';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => 'Đang nhận dạng trang này…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => 'Chạm để nhận dạng';
   @override
   String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      'Chạm vào bong bóng thoại chưa nhận dạng để nhận dạng cả trang và tra từ ngay.';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => 'OCR của thiết bị';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      'Dùng khả năng nhận dạng văn bản có sẵn trên thiết bị. Không cần tải về, hoàn toàn ngoại tuyến, không gửi gì đi — nhưng kém hơn hẳn mô hình cục bộ với bong bóng thoại dọc và chữ viết tay.';
   @override
   String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+      'Thiết bị này không có sẵn khả năng nhận dạng văn bản';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      'Chương trực tuyến không lưu trên máy, nên chỉ Google Lens đọc được — ảnh trang sẽ được tải lên Google.';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => 'Dịch vụ trực tuyến';
   @override
   String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+      'API bên thứ ba, trình lập chỉ mục và máy chủ media';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => 'Nguồn phụ đề';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => 'Trình lập chỉ mục tài nguyên';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => 'Thu thập siêu dữ liệu';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB và TMDB được cấu hình chung tại đây';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => 'Phát lại giọng của câu này';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => 'Thu lại giọng nói';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => 'Bám theo câu thoại mới';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => 'Cho chuột xuyên xuống game';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => 'Đổi nền';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => 'Khoá vị trí';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => 'Mở bàn làm việc thu thập';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => 'Luôn nổi trên cùng';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => 'Đóng cửa sổ nổi';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => 'Tìm phụ đề thất bại';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Nhận dạng lại vùng đã chọn';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'Nhận dạng lại vùng đã chọn thất bại';
   @override
   String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+      'Đã nhận dạng lại vùng đã chọn và lưu vào trang';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Trên di động, các mô hình này chạy engine cục bộ cho việc nhận dạng cả tập, chạm và vùng đã chọn trong trình đọc truyện tranh.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Kéo một khung quanh phần chữ cần nhận dạng lại. Kết quả sẽ thay thế lớp văn bản đang có bên trong khung đó.';
   @override
   String get manga_rescan_undone =>
-      'Restored the text layer from before the re-scan';
+      'Đã khôi phục lớp văn bản trước khi quét lại';
   @override
   String get manga_rescan_undo_failed =>
-      'Could not restore the previous text layer';
+      'Không khôi phục được lớp văn bản trước đó';
   @override
   String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+      'Hiện tab này trên thanh điều hướng; tắt để ẩn';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      'Tab Tải xuống đang bị ẩn trong Cài đặt → Hệ thống → Mô-đun tính năng; bật lại để quản lý đăng ký.';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => 'Mở vị trí tệp';
   @override
   String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+      'Không mở được vị trí tệp của sách này.';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      'Ảnh chụp sao lưu cơ sở dữ liệu (${n} tệp)';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      'Thao tác này xoá toàn bộ ảnh chụp sao lưu cơ sở dữ liệu còn sót lại (corrupt-bak / pre-restore / bản sao di trú cũ). Cơ sở dữ liệu đang dùng và các tệp -wal/-shm đi kèm không bị đụng tới.';
+  @override
+  String get manga_global_search_no_sources =>
+      'Chưa có nguồn truyện tranh nào được bật. Thêm một nguồn ở tab Nhập.';
+  @override
+  String get manga_global_search_open_sources => 'Tới phần nhập';
+  @override
+  String get settings_downloads_open_page_hint =>
+      'Mở trang Tải xuống (tác vụ, tài nguyên, đăng ký)';
+  @override
+  String get download_video_source_required => 'Cần nguồn video';
+  @override
+  String get game_hook_reason_stale_session =>
+      'Phiên thu trước chưa được giải phóng; Fushi đang tự thử lại, bạn không cần làm gì.';
+  @override
+  String get video_subtitle_delete => 'Xoá tệp phụ đề';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Xoá tệp phụ đề này khỏi ổ đĩa? Không thể hoàn tác.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Đã xoá tệp phụ đề: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Xoá tệp phụ đề thất bại: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Bật/tắt giao diện truyện tranh';
+  @override
+  String get manga_interface_hide => 'Ẩn giao diện';
+  @override
+  String get manga_interface_show => 'Hiện giao diện';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Căn dọc';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Giữa';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Trên';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Âm thanh tham chiếu tệp gốc, không chiếm dung lượng của ứng dụng';
+  @override
+  String get jellyfin_auto_list_title => 'Tự động liệt kê mục khi vào Video';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Tắt: vào trang video sẽ không gửi yêu cầu nào tới máy chủ phương tiện; kéo để làm mới trong thư viện video để liệt kê thủ công. Nên tắt với máy chủ rất lớn, vì việc liệt kê tự động trông giống thu thập dữ liệu và có thể kích hoạt cơ chế phát hiện lạm dụng.';
+  @override
+  String get jellyfin_libraries_title => 'Thư viện cần liệt kê';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Không chọn gì sẽ liệt kê mọi thư viện video. Thu hẹp về những thư viện bạn thực sự xem giúp máy chủ khổng lồ không bị liệt kê toàn bộ.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Không tải được danh sách thư viện';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -131581,7 +132386,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_spawn_failed => '语音钩子组件无法启动，请检查是否被杀毒软件删除或拦截。';
   @override
-  String get game_hook_reason_stale_session => '游戏里还残留上一次的捕获会话，请重启一次游戏。';
+  String get game_hook_reason_resident_hook_mismatch =>
+      '游戏里还残留上一次的捕获会话，请重启一次游戏。';
   @override
   String get game_hook_reason_steam_timeout => 'Steam 已接受启动请求，但始终没有出现游戏进程。';
   @override
@@ -136855,8 +137661,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_global_search_prompt => '输入书名，一次搜索所有已启用的漫画来源。';
   @override
-  String get manga_global_search_no_sources => '没有已启用的漫画来源，请先安装并启用扩展。';
-  @override
   String get anki_connect_addon_install => '安装 AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -137796,6 +138600,59 @@ class _StringsZhCn extends _StringsEn {
   String get book_file_location_open => '打开文件位置';
   @override
   String get book_file_location_failed => '无法打开这本书的文件位置。';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      '数据库备份快照（${n} 个文件）';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      '将删除全部数据库备份快照残留（corrupt-bak / pre-restore / 旧版本迁移副本）。正在使用的数据库及其 -wal/-shm 侧车不受影响。';
+  @override
+  String get manga_global_search_no_sources => '还没有已启用的漫画来源，去「导入」添加一个。';
+  @override
+  String get manga_global_search_open_sources => '去导入';
+  @override
+  String get settings_downloads_open_page_hint => '打开下载页（任务 / 资源 / 订阅）';
+  @override
+  String get download_video_source_required => '需要视频来源';
+  @override
+  String get game_hook_reason_stale_session =>
+      '上一次捕获会话还没释放干净，Fushi 正在自动重试，不用做任何操作。';
+  @override
+  String get video_subtitle_delete => '删除字幕文件';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      '确定从磁盘删除这个字幕文件？此操作不可撤销。\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) => '已删除字幕文件：${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      '删除字幕文件失败：${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => '切换漫画界面';
+  @override
+  String get manga_interface_hide => '隐藏界面';
+  @override
+  String get manga_interface_show => '显示界面';
+  @override
+  String get gal_hook_text_vertical_alignment => '垂直对齐';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '居中';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '顶部';
+  @override
+  String get storage_entry_external_audio_hint => '音频引用原文件，不占用应用空间';
+  @override
+  String get jellyfin_auto_list_title => '进入视频页时自动列出条目';
+  @override
+  String get jellyfin_auto_list_hint =>
+      '关闭后：进入视频页不向媒体服务器发任何请求，需在视频库下拉刷新手动列出。超大服务器建议关闭——自动枚举看起来像刮削，可能触发服务器的滥用检测。';
+  @override
+  String get jellyfin_libraries_title => '要列出的媒体库';
+  @override
+  String get jellyfin_libraries_hint =>
+      '不选 = 列出全部视频媒体库。只勾你真正会看的库，超大服务器就不会被整台枚举。';
+  @override
+  String get jellyfin_libraries_load_failed => '读取媒体库清单失败';
   @override
   String get delete_local_files => '同时删除本地文件';
   @override
@@ -139759,7 +140616,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_spawn_failed => '語音鉤子組件無法啟動，請檢查是否被殺毒軟體刪除或攔截。';
   @override
-  String get game_hook_reason_stale_session => '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
+  String get game_hook_reason_resident_hook_mismatch =>
+      '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
   @override
   String get game_hook_reason_steam_timeout => 'Steam 已接受啟動請求，但始終沒有出現遊戲進程。';
   @override
@@ -145040,8 +145898,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_global_search_prompt => '輸入書名，一次搜索所有已啟用的漫畫來源。';
   @override
-  String get manga_global_search_no_sources => '沒有已啟用的漫畫來源，請先安裝並啟用擴展。';
-  @override
   String get anki_connect_addon_install => '安裝 AnkiConnect';
   @override
   String get anki_connect_addon_install_hint =>
@@ -145845,128 +146701,119 @@ class _StringsZhHk extends _StringsEn {
   String get game_hook_reason_capability_probe_failed =>
       '捕獲組件沒有回應能力探測：檔案在，但跑不起來或沒在時限內回應。多為殺毒軟體攔截、權限不足，或上一局殘留的 helper 進程掛住了。請關閉所有遊戲、檢查殺軟隔離區後重試。';
   @override
-  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_title => '設定下載後端';
   @override
-  String get download_backend_setup_intro =>
-      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  String get download_backend_setup_intro => '選擇由哪個引擎執行下載工作，之後可隨時在下載設定裡更改。';
   @override
-  String get download_backend_embedded_hint =>
-      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  String get download_backend_embedded_hint => '建議使用。下載在 Fushi 內部完成，毋須另外安裝軟件。';
   @override
-  String get download_backend_qb_hint =>
-      'Connect Fushi to a qBittorrent WebUI you already run.';
+  String get download_backend_qb_hint => '連接到你已經在運行的 qBittorrent WebUI。';
   @override
-  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_setup_start => '立即設定';
   @override
   String get download_backend_embedded_unavailable =>
-      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      '今次安裝欠缺內置引擎執行庫。請重新安裝完整安裝包，或改用外接 qBittorrent。';
   @override
   String get download_backend_qb_url_invalid =>
-      'Enter a full address, e.g. http://127.0.0.1:8080';
+      '請填寫完整位址，例如 http://127.0.0.1:8080';
   @override
-  String get mihon_store_zero_extensions =>
-      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_zero_extensions => '此存放庫傳回 0 個擴充功能，位址可能指向了舊版索引。';
   @override
-  String get mihon_store_edit => 'Edit repository URL';
+  String get mihon_store_edit => '編輯存放庫位址';
   @override
-  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_download_resume => '繼續下載';
   @override
-  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import => '匯入本機模型';
   @override
-  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_title => '匯入已下載的模型';
   @override
   String get manga_ocr_import_intro =>
-      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      '如果應用程式內下載不通，可自行下載下列檔案再從這裡匯入；亦支援包含這些檔案的 zip。';
   @override
-  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_copy_urls => '複製下載連結';
   @override
-  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_urls_copied => '已複製下載連結';
   @override
-  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_folder => '選擇資料夾';
   @override
-  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_pick_files => '選擇檔案';
   @override
-  String get manga_ocr_import_running => 'Importing…';
+  String get manga_ocr_import_running => '正在匯入…';
   @override
-  String manga_ocr_import_done({required Object count}) =>
-      'Imported ${count} file(s)';
+  String manga_ocr_import_done({required Object count}) => '已匯入 ${count} 個檔案';
   @override
-  String get manga_ocr_import_matched_nothing =>
-      'No usable model files were recognised';
+  String get manga_ocr_import_matched_nothing => '認不出可用的模型檔案';
   @override
   String manga_ocr_import_size_mismatch(
           {required Object file,
           required Object expected,
           required Object actual}) =>
-      '${file} has the wrong size: expected ${expected}, got ${actual}';
+      '${file} 大小不符：應為 ${expected}，實為 ${actual}';
   @override
   String manga_ocr_import_still_missing({required Object count}) =>
-      'Still missing ${count} file(s)';
+      '仍欠 ${count} 個檔案';
   @override
-  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_ocr_import_failed => '模型匯入失敗';
   @override
-  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_title => '點一下即識別';
   @override
   String get manga_tap_ocr_notice_body =>
-      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      '這一頁還未有文字資料。Fushi 會用你在設定中選擇的 OCR 引擎就地識別，識別完成後即可點字查詢。可在「設定 › 漫畫 OCR」中更換引擎或關閉這個行為。';
   @override
-  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_notice_confirm => '開始識別';
   @override
-  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_ocr_running => '正在識別本頁…';
   @override
-  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr => '點擊即識別';
   @override
-  String get manga_tap_to_ocr_desc =>
-      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  String get manga_tap_to_ocr_desc => '點一下尚未識別的對話框，即可就地識別本頁並直接查詞。';
   @override
-  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system => '裝置內置';
   @override
   String get manga_ocr_engine_system_desc =>
-      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      '使用裝置內置的文字識別。毋須下載、完全離線、不會上傳任何內容；但對直排對話框和手寫字明顯不及本機模型。';
   @override
-  String get manga_ocr_engine_system_unavailable =>
-      'This device has no built-in text recognition available';
+  String get manga_ocr_engine_system_unavailable => '此裝置沒有可用的系統文字識別';
   @override
   String get manga_tap_ocr_online_lens_only =>
-      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      '網上章節的頁面不在本機，只能用 Google Lens 識別——頁面圖片會上傳至 Google。';
   @override
-  String get settings_destination_services => 'Online services';
+  String get settings_destination_services => '網上服務';
   @override
-  String get settings_destination_services_summary =>
-      'Third-party APIs, indexers and media servers';
+  String get settings_destination_services_summary => '第三方 API、索引器與媒體伺服器';
   @override
-  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_subtitles => '字幕來源';
   @override
-  String get section_services_resources => 'Resource indexers';
+  String get section_services_resources => '資源索引器';
   @override
-  String get section_services_metadata => 'Metadata scraping';
+  String get section_services_metadata => '元數據刮削';
   @override
   String get settings_services_link_subtitle =>
-      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      'Jimaku、OpenSubtitles、Torznab、Jellyfin、AniDB、TMDB 統一在此設定';
   @override
-  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_replay => '重播本句語音';
   @override
-  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_recapture => '重新錄製語音';
   @override
-  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_follow => '跟隨新台詞';
   @override
-  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_passthrough => '滑鼠穿透到遊戲';
   @override
-  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_transparency => '切換底板';
   @override
-  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_lock => '鎖定位置';
   @override
-  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_workbench => '開啟取材工作台';
   @override
-  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_topmost => '保持置頂';
   @override
-  String get game_hook_btn_close => 'Close the overlay';
+  String get game_hook_btn_close => '關閉浮窗';
   @override
-  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String get video_jimaku_search_failed => '字幕搜尋失敗';
   @override
   String video_subtitle_error_with_code(
           {required Object msg, required Object code}) =>
-      '${msg} (HTTP ${code})';
+      '${msg}（HTTP ${code}）';
   @override
   String get manga_rescan_run => '重新識別框選區域';
   @override
@@ -145982,16 +146829,67 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_rescan_undo_failed => '還原上一版文字層失敗';
   @override
-  String get module_tool_toggle_hint =>
-      'Show this tab in the navigation bar; turn off to hide it';
+  String get module_tool_toggle_hint => '在導覽列顯示此頁；關閉即隱藏';
   @override
   String get module_downloads_hidden_hint =>
-      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+      '「下載」頁已在 設定 → 系統 → 功能模塊 中隱藏；重新開啟才能管理訂閱。';
   @override
-  String get book_file_location_open => 'Open file location';
+  String get book_file_location_open => '開啟檔案位置';
   @override
-  String get book_file_location_failed =>
-      'Could not open this book\'s file location.';
+  String get book_file_location_failed => '無法開啟這本書的檔案位置。';
+  @override
+  String storage_entry_database_snapshots_label({required Object n}) =>
+      '資料庫備份快照（${n} 個檔案）';
+  @override
+  String get storage_entry_delete_database_snapshots_confirm_body =>
+      '將刪除全部殘留的資料庫備份快照（corrupt-bak / pre-restore / 舊版本遷移副本）。使用中的資料庫及其 -wal/-shm 附屬檔案不受影響。';
+  @override
+  String get manga_global_search_no_sources => '尚未啟用任何漫畫來源，去「導入」加一個。';
+  @override
+  String get manga_global_search_open_sources => '去匯入';
+  @override
+  String get settings_downloads_open_page_hint => '開啟下載頁（工作 / 資源 / 訂閱）';
+  @override
+  String get download_video_source_required => '需要影片來源';
+  @override
+  String get game_hook_reason_stale_session =>
+      '上一次捕獲會話還沒釋放乾淨，Fushi 正在自動重試，不用做任何操作。';
+  @override
+  String get video_subtitle_delete => '刪除字幕檔案';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      '確定從磁碟刪除這個字幕檔案？此操作無法復原。\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) => '已刪除字幕檔案：${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      '刪除字幕檔案失敗：${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => '切換漫畫介面';
+  @override
+  String get manga_interface_hide => '隱藏介面';
+  @override
+  String get manga_interface_show => '顯示介面';
+  @override
+  String get gal_hook_text_vertical_alignment => '垂直對齊';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '置中';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '頂部';
+  @override
+  String get storage_entry_external_audio_hint => '音訊引用原檔案，不佔用應用空間';
+  @override
+  String get jellyfin_auto_list_title => '進入影片頁時自動列出項目';
+  @override
+  String get jellyfin_auto_list_hint =>
+      '關閉後：進入影片頁不向媒體伺服器發任何請求，需在影片庫下拉重新整理手動列出。超大伺服器建議關閉——自動列舉看起來像刮削，可能觸發伺服器的濫用偵測。';
+  @override
+  String get jellyfin_libraries_title => '要列出的媒體庫';
+  @override
+  String get jellyfin_libraries_hint =>
+      '不選 = 列出全部影片媒體庫。只勾你真正會看的庫，超大伺服器就不會被整台列舉。';
+  @override
+  String get jellyfin_libraries_load_failed => '讀取媒體庫清單失敗';
   @override
   String get delete_local_files => 'Also delete local files';
   @override
@@ -147846,7 +148744,7 @@ extension on _StringsEn {
         return 'The capture channel could not be opened; restart Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'The helper could not be started; check that antivirus has not removed or blocked it.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'A previous capture session is still loaded in the game; restart the game once.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam accepted the launch request but the game process never appeared.';
@@ -152924,8 +153822,6 @@ extension on _StringsEn {
         return 'Search every enabled source';
       case 'manga_global_search_prompt':
         return 'Type a title to search every enabled manga source at once.';
-      case 'manga_global_search_no_sources':
-        return 'No enabled manga sources. Install and enable an extension first.';
       case 'anki_connect_addon_install':
         return 'Install AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -153801,6 +154697,55 @@ extension on _StringsEn {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Database backup snapshots (${n} files)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'This removes all leftover database backup snapshots (corrupt-bak / pre-restore / legacy migration copies). The live database and its -wal/-shm sidecars are not touched.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources yet. Add one in the Import tab.';
+      case 'manga_global_search_open_sources':
+        return 'Go to Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Open the Downloads page (tasks, resources, subscriptions)';
+      case 'download_video_source_required':
+        return 'Video source required';
+      case 'game_hook_reason_stale_session':
+        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
+      case 'jellyfin_auto_list_title':
+        return 'Auto-list items on entering Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Off: entering the video page sends no request to the media server; pull to refresh in the video library to list items manually. Recommended for very large servers, where automatic enumeration looks like scraping and can trip abuse detection.';
+      case 'jellyfin_libraries_title':
+        return 'Libraries to list';
+      case 'jellyfin_libraries_hint':
+        return 'Select nothing to list every video library. Narrowing to the libraries you actually watch keeps huge servers from being enumerated in full.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Could not load the library list';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -155651,7 +156596,7 @@ extension on _StringsAr {
         return 'لم يتمكن من فتح قناة الالتقاط؛ أعد تشغيل Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'لم يتمكن من تشغيل المساعد؛ تحقق من أن مضاد الفيروسات لم يحذفه أو يحظره.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'جلسة التقاط سابقة لا تزال محملة في اللعبة؛ أعد تشغيل اللعبة مرة واحدة.';
       case 'game_hook_reason_steam_timeout':
         return 'قبلت Steam طلب التشغيل لكن عملية اللعبة لم تظهر.';
@@ -160727,8 +161672,6 @@ extension on _StringsAr {
         return 'بحث في كل مصدر مُفعّل';
       case 'manga_global_search_prompt':
         return 'اكتب عنواناً للبحث في جميع مصادر المانغا المُفعّلة دفعة واحدة.';
-      case 'manga_global_search_no_sources':
-        return 'لا توجد مصادر مانغا مُفعّلة. ثبّت وفعّل إضافة أولاً.';
       case 'anki_connect_addon_install':
         return 'تثبيت AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -161479,132 +162422,180 @@ extension on _StringsAr {
       case 'game_hook_reason_capability_probe_failed':
         return 'لم يستجب مكوّن الالتقاط لفحص القدرات. تم العثور عليه على القرص لكنه لم يتمكن من التشغيل أو لم يستجب في الوقت المحدد - قد يكون مضاد الفيروسات يحظره، أو قد يفتقر Fushi إلى إذن تشغيله، أو قد تكون عملية مساعدة قديمة عالقة. أغلق جميع الألعاب، وتحقق من عزل مضاد الفيروسات، ثم حاول مجدداً.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'إعداد خلفية التحميل';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'اختر المحرك الذي ينفّذ تحميلاتك. يمكنك تغييره في أي وقت من إعدادات التحميل.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'موصى به. تجري التحميلات داخل Fushi — لا حاجة لتثبيت أي شيء آخر.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'اربط Fushi بواجهة qBittorrent WebUI التي تشغّلها بالفعل.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'إعداد الآن';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'بيئة تشغيل المحرك المدمج غير موجودة في هذا التثبيت. أعد تثبيت الحزمة الكاملة، أو استخدم qBittorrent خارجيًا بدلًا منها.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'أدخل عنوانًا كاملًا، مثل http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'أعاد هذا المستودع 0 امتداد. قد يشير عنوانه إلى فهرس قديم.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'تعديل عنوان المستودع';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'استئناف التحميل';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'استيراد نموذج محلي';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'استيراد نموذج مُنزَّل';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'إذا لم ينجح التحميل داخل التطبيق، حمّل هذه الملفات بنفسك واستوردها هنا. يصلح أيضًا ملف zip يحتويها.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'نسخ روابط التحميل';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'تم نسخ روابط التحميل';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'اختيار مجلد';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'اختيار ملفات';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'جارٍ الاستيراد…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => 'تم استيراد ${count} ملف';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'لم يتم التعرف على أي ملفات نموذج صالحة';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            'حجم ${file} غير صحيح: المتوقع ${expected}، والفعلي ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'لا يزال ينقص ${count} ملف';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'فشل استيراد النموذج';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'انقر للتعرف';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'لا تحتوي هذه الصفحة على بيانات نصية بعد. سيتعرف عليها Fushi بمحرك OCR الذي اخترته في الإعدادات، ثم يمكنك النقر على الكلمات للبحث عنها. يمكنك تغيير المحرك أو إيقاف هذا من الإعدادات › OCR المانغا.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'تعرّف الآن';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'جارٍ التعرف على هذه الصفحة…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'انقر للتعرف';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'انقر على فقاعة حوار لم يتم التعرف عليها لتتعرف على الصفحة وتبحث عن الكلمات فورًا.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR الجهاز';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'يستخدم التعرف على النص المدمج في جهازك. بلا تنزيل، ويعمل دون اتصال تمامًا، ولا يُرفع أي شيء — لكنه أضعف بوضوح من النموذج المحلي مع الفقاعات الرأسية والخط اليدوي.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'لا يتوفر في هذا الجهاز تعرف مدمج على النص';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'الفصول عبر الإنترنت غير مخزّنة محليًا، لذا لا يمكن قراءتها إلا بواسطة Google Lens — تُرفع صورة الصفحة إلى Google.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'الخدمات عبر الإنترنت';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'واجهات API خارجية ومفهرسات وخوادم وسائط';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'مصادر الترجمة';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'مفهرسات الموارد';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'جمع البيانات الوصفية';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'تُضبط Jimaku وOpenSubtitles وTorznab وJellyfin وAniDB وTMDB معًا هنا';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'إعادة تشغيل صوت هذه الجملة';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'إعادة التقاط الصوت';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'متابعة الجمل الجديدة';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'تمرير النقر إلى اللعبة';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'تبديل الخلفية';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'تثبيت الموضع';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'فتح طاولة عمل الالتقاط';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'إبقاء في المقدمة';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'إغلاق النافذة العائمة';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'فشل البحث عن الترجمة';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'إعادة التعرف على المنطقة المحددة';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'فشلت إعادة التعرف على المنطقة المحددة';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'تم التعرف على المنطقة المحددة من جديد وحُفظت في الصفحة';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'على الأجهزة المحمولة، تشغّل هذه النماذج المحرك المحلي للتعرف على المجلد كاملًا وبالنقر وعلى المنطقة المحددة في قارئ المانغا.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'اسحب مربعًا فوق النص الذي تريد إعادة التعرف عليه. تحل النتيجة محل طبقة النص الموجودة داخل المربع.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'تمت استعادة طبقة النص التي كانت قبل إعادة المسح';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'تعذّرت استعادة طبقة النص السابقة';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'إظهار هذا التبويب في شريط التنقل؛ أوقفه لإخفائه';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'تبويب التحميلات مخفي في الإعدادات → النظام → وحدات الميزات؛ أعد تشغيله لإدارة الاشتراكات.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'فتح موقع الملف';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'تعذّر فتح موقع ملف هذا الكتاب.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'لقطات النسخ الاحتياطي لقاعدة البيانات (${n} ملف)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'يؤدي هذا إلى حذف كل لقطات النسخ الاحتياطي المتبقية لقاعدة البيانات (corrupt-bak / pre-restore / نسخ الترحيل القديمة). لا تُمس قاعدة البيانات العاملة ولا ملفا -wal/-shm التابعان لها.';
+      case 'manga_global_search_no_sources':
+        return 'لا توجد مصادر مانغا مفعّلة بعد. أضف واحدًا من تبويب الاستيراد.';
+      case 'manga_global_search_open_sources':
+        return 'الذهاب إلى الاستيراد';
+      case 'settings_downloads_open_page_hint':
+        return 'فتح صفحة التحميلات (المهام، الموارد، الاشتراكات)';
+      case 'download_video_source_required':
+        return 'مطلوب مصدر فيديو';
+      case 'game_hook_reason_stale_session':
+        return 'لم تُحرَّر جلسة الالتقاط السابقة بعد؛ يعيد Fushi المحاولة تلقائيًا، ولا حاجة لأي إجراء.';
+      case 'video_subtitle_delete':
+        return 'حذف ملف الترجمة';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'هل تريد حذف ملف الترجمة هذا من القرص؟ لا يمكن التراجع عن ذلك.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'تم حذف ملف الترجمة: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => 'فشل حذف ملف الترجمة: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'تبديل واجهة المانغا';
+      case 'manga_interface_hide':
+        return 'إخفاء الواجهة';
+      case 'manga_interface_show':
+        return 'إظهار الواجهة';
+      case 'gal_hook_text_vertical_alignment':
+        return 'المحاذاة الرأسية';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'توسيط';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'أعلى';
+      case 'storage_entry_external_audio_hint':
+        return 'يشير الصوت إلى الملفات الأصلية ولا يستهلك مساحة التطبيق';
+      case 'jellyfin_auto_list_title':
+        return 'سرد العناصر تلقائيًا عند فتح الفيديو';
+      case 'jellyfin_auto_list_hint':
+        return 'عند الإيقاف: لا يُرسل فتح صفحة الفيديو أي طلب إلى خادم الوسائط؛ اسحب للتحديث في مكتبة الفيديو لسرد العناصر يدويًا. يُنصح به للخوادم الكبيرة جدًا، حيث يبدو السرد التلقائي كأنه كشط وقد يُفعّل كشف إساءة الاستخدام.';
+      case 'jellyfin_libraries_title':
+        return 'المكتبات المراد سردها';
+      case 'jellyfin_libraries_hint':
+        return 'عدم اختيار أي شيء يسرد كل مكتبات الفيديو. حصر الأمر في المكتبات التي تشاهدها فعلًا يمنع سرد الخوادم الضخمة بالكامل.';
+      case 'jellyfin_libraries_load_failed':
+        return 'تعذّر تحميل قائمة المكتبات';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -163465,7 +164456,7 @@ extension on _StringsDe {
         return 'Der Aufnahmekanal konnte nicht geöffnet werden; starten Sie Fushi neu.';
       case 'game_hook_reason_spawn_failed':
         return 'Der Helper konnte nicht gestartet werden; überprüfen Sie, ob das Antivirusprogramm ihn entfernt oder blockiert hat.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Eine vorherige Aufnahmesitzung ist noch im Spiel geladen; starten Sie das Spiel einmal neu.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam hat die Startanfrage akzeptiert, aber der Spielprozess ist nie erschienen.';
@@ -168567,8 +169558,6 @@ extension on _StringsDe {
         return 'Jede aktivierte Quelle durchsuchen';
       case 'manga_global_search_prompt':
         return 'Geben Sie einen Titel ein, um alle aktivierten Manga-Quellen gleichzeitig zu durchsuchen.';
-      case 'manga_global_search_no_sources':
-        return 'Keine aktivierten Manga-Quellen. Installieren und aktivieren Sie zuerst eine Erweiterung.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect installieren';
       case 'anki_connect_addon_install_hint':
@@ -169323,132 +170312,183 @@ extension on _StringsDe {
       case 'game_hook_reason_capability_probe_failed':
         return 'Die Erfassungskomponente hat die Fähigkeitsprüfung nicht beantwortet. Sie wurde auf dem Datenträger gefunden, konnte aber nicht ausgeführt werden oder hat nicht rechtzeitig geantwortet – möglicherweise blockiert ein Antivirenprogramm sie, Fushi fehlt die Berechtigung zum Starten, oder ein verbleibender Helper-Prozess hängt. Schließen Sie alle Spiele, prüfen Sie die Quarantäne Ihres Antivirenprogramms und versuchen Sie es erneut.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Download-Backend einrichten';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Wähle, welche Engine deine Downloads ausführt. Du kannst das jederzeit in den Download-Einstellungen ändern.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Empfohlen. Downloads laufen direkt in Fushi - nichts weiter zu installieren.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Fushi mit einer qBittorrent WebUI verbinden, die du bereits betreibst.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Jetzt einrichten';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'In dieser Installation fehlt die Laufzeit der integrierten Engine. Installiere das vollständige Paket neu oder nutze stattdessen ein externes qBittorrent.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Gib eine vollständige Adresse ein, z. B. http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Dieses Repository hat 0 Erweiterungen zurückgegeben. Seine Adresse verweist möglicherweise auf einen veralteten Index.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Repository-URL bearbeiten';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Download fortsetzen';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Lokales Modell importieren';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Heruntergeladenes Modell importieren';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Wenn der Download in der App nicht durchgeht, lade diese Dateien selbst herunter und importiere sie hier. Ein zip mit diesen Dateien funktioniert ebenfalls.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Download-Links kopieren';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Download-Links kopiert';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Ordner wählen';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Dateien wählen';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Wird importiert…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '${count} Datei(en) importiert';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Keine brauchbaren Modelldateien erkannt';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} hat die falsche Größe: erwartet ${expected}, tatsächlich ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) =>
+            'Es fehlen weiterhin ${count} Datei(en)';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Modellimport fehlgeschlagen';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Zum Erkennen tippen';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Diese Seite hat noch keine Textdaten. Fushi erkennt sie mit der OCR-Engine, die du in den Einstellungen gewählt hast; danach kannst du Wörter antippen, um sie nachzuschlagen. Unter Einstellungen › Manga-OCR kannst du die Engine wechseln oder dieses Verhalten abschalten.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Jetzt erkennen';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Seite wird erkannt…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Zum Erkennen tippen';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Tippe auf eine noch nicht erkannte Sprechblase, um die Seite zu erkennen und Wörter direkt nachzuschlagen.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'Geräte-OCR';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Nutzt die Texterkennung deines Geräts. Kein Download, vollständig offline, nichts wird hochgeladen — bei senkrechten Sprechblasen und Handschrift aber deutlich schwächer als das lokale Modell.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Auf diesem Gerät ist keine integrierte Texterkennung verfügbar';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Online-Kapitel liegen nicht lokal vor, daher kann sie nur Google Lens lesen — das Seitenbild wird zu Google hochgeladen.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Onlinedienste';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'Drittanbieter-APIs, Indexer und Medienserver';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Untertitelquellen';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Ressourcen-Indexer';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Metadaten-Scraping';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB und TMDB werden hier gemeinsam konfiguriert';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Stimme dieser Zeile erneut abspielen';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Stimme neu aufnehmen';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Neuen Zeilen folgen';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Klicks zum Spiel durchreichen';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Hintergrund umschalten';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Position sperren';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Aufnahme-Werkbank öffnen';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Immer im Vordergrund';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Overlay schließen';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Untertitelsuche fehlgeschlagen';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Ausgewählten Bereich neu erkennen';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Neuerkennung des ausgewählten Bereichs fehlgeschlagen';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Ausgewählter Bereich neu erkannt und in die Seite übernommen';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Auf Mobilgeräten versorgen diese Modelle die lokale Engine für Ganzband-, Tipp- und Bereichs-OCR im Manga-Reader.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Ziehe einen Rahmen über den Text, der neu erkannt werden soll. Das Ergebnis ersetzt die vorhandene Textebene innerhalb des Rahmens.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Textebene von vor der Neuerkennung wiederhergestellt';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Die vorherige Textebene konnte nicht wiederhergestellt werden';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Diesen Tab in der Navigationsleiste anzeigen; ausschalten, um ihn auszublenden';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'Der Tab „Downloads“ ist unter Einstellungen → System → Funktionsmodule ausgeblendet; schalte ihn wieder ein, um Abos zu verwalten.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Speicherort öffnen';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Der Speicherort dieses Buchs konnte nicht geöffnet werden.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Datenbank-Backup-Snapshots (${n} Dateien)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Damit werden alle übrig gebliebenen Datenbank-Backup-Snapshots entfernt (corrupt-bak / pre-restore / alte Migrationskopien). Die aktive Datenbank und ihre -wal/-shm-Begleitdateien bleiben unangetastet.';
+      case 'manga_global_search_no_sources':
+        return 'Noch keine aktivierten Manga-Quellen. Füge eine im Tab „Importieren“ hinzu.';
+      case 'manga_global_search_open_sources':
+        return 'Zum Import';
+      case 'settings_downloads_open_page_hint':
+        return 'Download-Seite öffnen (Aufgaben, Ressourcen, Abos)';
+      case 'download_video_source_required':
+        return 'Videoquelle erforderlich';
+      case 'game_hook_reason_stale_session':
+        return 'Eine frühere Aufnahmesitzung wurde noch nicht freigegeben; Fushi versucht es von selbst erneut, du musst nichts tun.';
+      case 'video_subtitle_delete':
+        return 'Untertiteldatei löschen';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Diese Untertiteldatei von der Festplatte löschen? Das kann nicht rückgängig gemacht werden.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) =>
+            'Untertiteldatei gelöscht: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Untertiteldatei konnte nicht gelöscht werden: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Manga-Oberfläche umschalten';
+      case 'manga_interface_hide':
+        return 'Oberfläche ausblenden';
+      case 'manga_interface_show':
+        return 'Oberfläche einblenden';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertikale Ausrichtung';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Mittig';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Oben';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio verweist auf die Originaldateien und belegt keinen App-Speicher';
+      case 'jellyfin_auto_list_title':
+        return 'Beim Öffnen von Video automatisch auflisten';
+      case 'jellyfin_auto_list_hint':
+        return 'Aus: Beim Öffnen der Videoseite geht keine Anfrage an den Medienserver; ziehe in der Videobibliothek zum Aktualisieren, um manuell aufzulisten. Empfohlen für sehr große Server, wo automatisches Auflisten wie Scraping aussieht und die Missbrauchserkennung auslösen kann.';
+      case 'jellyfin_libraries_title':
+        return 'Aufzulistende Bibliotheken';
+      case 'jellyfin_libraries_hint':
+        return 'Nichts auswählen listet jede Videobibliothek auf. Auf die Bibliotheken zu beschränken, die du wirklich schaust, verhindert, dass riesige Server komplett durchlaufen werden.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Bibliotheksliste konnte nicht geladen werden';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -171309,7 +172349,7 @@ extension on _StringsEs {
         return 'El canal de captura no pudo abrirse; reinicie Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'El helper no pudo iniciarse; verifique que el antivirus no lo haya eliminado o bloqueado.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Una sesión de captura anterior aún está cargada en el juego; reinicie el juego una vez.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam aceptó la solicitud de inicio pero el proceso del juego nunca apareció.';
@@ -176405,8 +177445,6 @@ extension on _StringsEs {
         return 'Buscar en todas las fuentes activas';
       case 'manga_global_search_prompt':
         return 'Escriba un título para buscar en todas las fuentes de manga activas a la vez.';
-      case 'manga_global_search_no_sources':
-        return 'Sin fuentes de manga activas. Instale y active una extensión primero.';
       case 'anki_connect_addon_install':
         return 'Instalar AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -177159,132 +178197,183 @@ extension on _StringsEs {
       case 'game_hook_reason_capability_probe_failed':
         return 'El componente de captura no respondió a la verificación de capacidades. Se encontró en disco pero no pudo ejecutarse o no respondió a tiempo — el antivirus puede estar bloqueándolo, Fushi puede no tener permisos para lanzarlo, o un proceso helper residual puede estar atascado. Cierre todos los juegos, revise la cuarentena del antivirus, luego inténtelo de nuevo.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Configurar el backend de descargas';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Elige qué motor ejecuta tus descargas. Puedes cambiarlo en cualquier momento en los ajustes de descargas.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Recomendado. Las descargas se ejecutan dentro de Fushi: no hay que instalar nada más.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Conecta Fushi a una WebUI de qBittorrent que ya tengas en marcha.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Configurar ahora';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'A esta instalación le falta el entorno de ejecución del motor integrado. Reinstala el paquete completo o usa qBittorrent externo.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Introduce una dirección completa, p. ej. http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Este repositorio devolvió 0 extensiones. Puede que su dirección apunte a un índice obsoleto.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Editar URL del repositorio';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Reanudar descarga';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Importar modelo local';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Importar un modelo descargado';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Si la descarga desde la app no funciona, descarga tú mismo estos archivos e impórtalos aquí. También sirve un zip que los contenga.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Copiar enlaces de descarga';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Enlaces de descarga copiados';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Elegir carpeta';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Elegir archivos';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Importando…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '${count} archivo(s) importado(s)';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'No se reconoció ningún archivo de modelo utilizable';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} tiene un tamaño incorrecto: se esperaba ${expected}, se obtuvo ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) =>
+            'Todavía faltan ${count} archivo(s)';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Error al importar el modelo';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Toca para reconocer';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Esta página aún no tiene datos de texto. Fushi la reconocerá con el motor de OCR que elegiste en los ajustes y luego podrás tocar las palabras para buscarlas. Puedes cambiar el motor o desactivar esto en Configuración › OCR de manga.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Reconocer ahora';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Reconociendo esta página…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Toca para reconocer';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Toca un globo de diálogo sin reconocer para reconocer la página y buscar palabras al instante.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR del dispositivo';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Usa el reconocimiento de texto integrado en tu dispositivo. Sin descargas, totalmente sin conexión y sin subir nada — pero con los globos de diálogo verticales y la escritura a mano es claramente peor que el modelo local.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Este dispositivo no tiene reconocimiento de texto integrado disponible';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Los capítulos en línea no se guardan localmente, así que solo Google Lens puede leerlos — la imagen de la página se sube a Google.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Servicios en línea';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'API de terceros, indexadores y servidores multimedia';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Fuentes de subtítulos';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Indexadores de recursos';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Extracción de metadatos';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB y TMDB se configuran todos aquí';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Reproducir de nuevo la voz de esta línea';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Volver a capturar la voz';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Seguir las líneas nuevas';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Dejar pasar los clics al juego';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Alternar el fondo';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Bloquear la posición';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Abrir el banco de trabajo de captura';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Mantener encima';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Cerrar la ventana flotante';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Error al buscar subtítulos';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Volver a reconocer el área seleccionada';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Falló el reconocimiento del área seleccionada';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Área seleccionada reconocida de nuevo y guardada en la página';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'En móvil, estos modelos alimentan el motor local para el OCR de volumen completo, por toque y de área seleccionada en el lector de manga.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Arrastra un recuadro sobre el texto que quieras volver a reconocer. El resultado reemplaza la capa de texto existente dentro del recuadro.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Se restauró la capa de texto anterior al nuevo reconocimiento';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'No se pudo restaurar la capa de texto anterior';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Mostrar esta pestaña en la barra de navegación; desactívalo para ocultarla';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'La pestaña Descargas está oculta en Configuración → Sistema → Módulos de funciones; vuelve a activarla para gestionar las suscripciones.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Abrir ubicación del archivo';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'No se pudo abrir la ubicación del archivo de este libro.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Instantáneas de copia de seguridad de la base de datos (${n} archivos)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Esto elimina todas las instantáneas de copia de seguridad de la base de datos que hayan quedado (corrupt-bak / pre-restore / copias de migraciones antiguas). La base de datos en uso y sus archivos -wal/-shm no se tocan.';
+      case 'manga_global_search_no_sources':
+        return 'Aún no hay fuentes de manga habilitadas. Añade una en la pestaña Importar.';
+      case 'manga_global_search_open_sources':
+        return 'Ir a Importar';
+      case 'settings_downloads_open_page_hint':
+        return 'Abrir la página de descargas (tareas, recursos, suscripciones)';
+      case 'download_video_source_required':
+        return 'Se requiere una fuente de vídeo';
+      case 'game_hook_reason_stale_session':
+        return 'Una sesión de captura anterior aún no se ha liberado; Fushi lo está reintentando solo, no hace falta que hagas nada.';
+      case 'video_subtitle_delete':
+        return 'Eliminar archivo de subtítulos';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            '¿Eliminar este archivo de subtítulos del disco? Esta acción no se puede deshacer.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) =>
+            'Archivo de subtítulos eliminado: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Error al eliminar el archivo de subtítulos: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Alternar interfaz de manga';
+      case 'manga_interface_hide':
+        return 'Ocultar interfaz';
+      case 'manga_interface_show':
+        return 'Mostrar interfaz';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Alineación vertical';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Centro';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Arriba';
+      case 'storage_entry_external_audio_hint':
+        return 'El audio hace referencia a los archivos originales y no ocupa espacio de la app';
+      case 'jellyfin_auto_list_title':
+        return 'Listar elementos al entrar en Vídeo';
+      case 'jellyfin_auto_list_hint':
+        return 'Desactivado: entrar en la página de vídeo no envía ninguna petición al servidor de medios; desliza para actualizar en la videoteca para listar manualmente. Recomendado en servidores muy grandes, donde la enumeración automática parece scraping y puede activar la detección de abuso.';
+      case 'jellyfin_libraries_title':
+        return 'Bibliotecas a listar';
+      case 'jellyfin_libraries_hint':
+        return 'No seleccionar nada lista todas las bibliotecas de vídeo. Limitarlo a las bibliotecas que realmente ves evita que los servidores enormes se enumeren por completo.';
+      case 'jellyfin_libraries_load_failed':
+        return 'No se pudo cargar la lista de bibliotecas';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -179149,7 +180238,7 @@ extension on _StringsFr {
         return 'Le canal de capture n\'a pas pu être ouvert ; redémarrez Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'L\'assistant n\'a pas pu être démarré ; vérifiez que l\'antivirus ne l\'a pas supprimé ou bloqué.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Une session de capture précédente est encore chargée dans le jeu ; redémarrez le jeu une fois.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam a accepté la demande de lancement mais le processus du jeu n\'est jamais apparu.';
@@ -184249,8 +185338,6 @@ extension on _StringsFr {
         return 'Rechercher dans chaque source activée';
       case 'manga_global_search_prompt':
         return 'Tapez un titre pour rechercher dans toutes les sources de manga activées à la fois.';
-      case 'manga_global_search_no_sources':
-        return 'Aucune source de manga activée. Installez et activez d\'abord une extension.';
       case 'anki_connect_addon_install':
         return 'Installer AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -185003,132 +186090,183 @@ extension on _StringsFr {
       case 'game_hook_reason_capability_probe_failed':
         return 'Le composant de capture n\'a pas répondu à la vérification de capacité. Il a été trouvé sur le disque mais n\'a pas pu s\'exécuter ou n\'a pas répondu à temps — l\'antivirus peut le bloquer, Fushi peut manquer de permission pour le lancer, ou un processus assistant résiduel peut être bloqué. Fermez tous les jeux, vérifiez la quarantaine de votre antivirus, puis réessayez.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Configurer le backend de téléchargement';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Choisissez le moteur qui exécute vos téléchargements. Vous pourrez le changer à tout moment dans les paramètres de téléchargement.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Recommandé. Les téléchargements s\'exécutent dans Fushi - rien d\'autre à installer.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Connecter Fushi à une WebUI qBittorrent que vous utilisez déjà.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Configurer';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'Le runtime du moteur intégré est absent de cette installation. Réinstallez le paquet complet, ou utilisez plutôt un qBittorrent externe.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Saisissez une adresse complète, par ex. http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Ce dépôt a renvoyé 0 extension. Son adresse pointe peut-être vers un index obsolète.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Modifier l\'URL du dépôt';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Reprendre le téléchargement';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Importer un modèle local';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Importer un modèle téléchargé';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Si le téléchargement dans l\'application n\'aboutit pas, téléchargez ces fichiers vous-même et importez-les ici. Un zip qui les contient fonctionne aussi.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Copier les liens de téléchargement';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Liens de téléchargement copiés';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Choisir un dossier';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Choisir des fichiers';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Importation…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '${count} fichier(s) importé(s)';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Aucun fichier de modèle utilisable reconnu';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} n\'a pas la bonne taille : attendu ${expected}, obtenu ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) =>
+            'Il manque encore ${count} fichier(s)';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Échec de l\'import du modèle';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Toucher pour reconnaître';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Cette page n\'a pas encore de données textuelles. Fushi va la reconnaître avec le moteur OCR choisi dans les paramètres, puis vous pourrez toucher les mots pour les rechercher. Vous pouvez changer de moteur ou désactiver ce comportement dans Paramètres › OCR de manga.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Reconnaître';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Reconnaissance de la page…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Toucher pour reconnaître';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Touchez une bulle de dialogue non reconnue pour reconnaître la page et rechercher les mots aussitôt.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR de l\'appareil';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Utilise la reconnaissance de texte intégrée à votre appareil. Aucun téléchargement, entièrement hors ligne, rien n\'est envoyé — mais nettement moins efficace que le modèle local sur les bulles de dialogue verticales et l\'écriture manuscrite.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Aucune reconnaissance de texte intégrée n\'est disponible sur cet appareil';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Les chapitres en ligne ne sont pas stockés localement, seul Google Lens peut donc les lire — l\'image de la page est envoyée à Google.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Services en ligne';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'API tierces, indexeurs et serveurs multimédias';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Sources de sous-titres';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Indexeurs de ressources';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Récupération des métadonnées';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB et TMDB se configurent tous ici';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Rejouer la voix de cette ligne';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Réenregistrer la voix';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Suivre les nouvelles lignes';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Laisser passer les clics vers le jeu';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Basculer l\'arrière-plan';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Verrouiller la position';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Ouvrir l\'atelier de capture';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Garder au premier plan';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Fermer la superposition';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Échec de la recherche de sous-titres';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Réanalyser la zone sélectionnée';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Échec de la réanalyse de la zone sélectionnée';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Zone sélectionnée re-reconnue et enregistrée dans la page';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Sur mobile, ces modèles alimentent le moteur local pour l\'OCR du volume entier, au toucher et de la zone sélectionnée dans le lecteur de manga.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Tracez un cadre sur le texte à réanalyser. Le résultat remplace la couche de texte existante à l\'intérieur du cadre.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Couche de texte d\'avant la nouvelle reconnaissance restaurée';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Impossible de restaurer la couche de texte précédente';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Afficher cet onglet dans la barre de navigation ; désactiver pour le masquer';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'L\'onglet Téléchargements est masqué dans Paramètres → Système → Modules de fonctionnalités ; réactivez-le pour gérer les abonnements.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Ouvrir l\'emplacement du fichier';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Impossible d\'ouvrir l\'emplacement du fichier de ce livre.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Instantanés de sauvegarde de la base de données (${n} fichiers)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Cela supprime tous les instantanés de sauvegarde de la base de données restants (corrupt-bak / pre-restore / copies de migration héritées). La base de données active et ses fichiers annexes -wal/-shm ne sont pas touchés.';
+      case 'manga_global_search_no_sources':
+        return 'Aucune source de manga activée pour l\'instant. Ajoutez-en une dans l\'onglet Importer.';
+      case 'manga_global_search_open_sources':
+        return 'Aller à Importer';
+      case 'settings_downloads_open_page_hint':
+        return 'Ouvrir la page Téléchargements (tâches, ressources, abonnements)';
+      case 'download_video_source_required':
+        return 'Source vidéo requise';
+      case 'game_hook_reason_stale_session':
+        return 'Une session de capture précédente n\'a pas encore été libérée ; Fushi réessaie tout seul, aucune action n\'est nécessaire.';
+      case 'video_subtitle_delete':
+        return 'Supprimer le fichier de sous-titres';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Supprimer ce fichier de sous-titres du disque ? Cette action est irréversible.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) =>
+            'Fichier de sous-titres supprimé : ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Échec de la suppression du fichier de sous-titres : ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Basculer l\'interface manga';
+      case 'manga_interface_hide':
+        return 'Masquer l\'interface';
+      case 'manga_interface_show':
+        return 'Afficher l\'interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Alignement vertical';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Centre';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Haut';
+      case 'storage_entry_external_audio_hint':
+        return 'L\'audio référence les fichiers d\'origine et n\'occupe aucun espace de l\'application';
+      case 'jellyfin_auto_list_title':
+        return 'Lister les éléments à l\'ouverture de Vidéo';
+      case 'jellyfin_auto_list_hint':
+        return 'Désactivé : ouvrir la page vidéo n\'envoie aucune requête au serveur média ; tirez pour actualiser dans la vidéothèque afin de lister manuellement. Recommandé pour les très gros serveurs, où l\'énumération automatique ressemble à du scraping et peut déclencher la détection d\'abus.';
+      case 'jellyfin_libraries_title':
+        return 'Bibliothèques à lister';
+      case 'jellyfin_libraries_hint':
+        return 'Ne rien sélectionner liste toutes les bibliothèques vidéo. Se limiter aux bibliothèques que vous regardez vraiment évite que d\'énormes serveurs soient énumérés en entier.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Impossible de charger la liste des bibliothèques';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -186986,7 +188124,7 @@ extension on _StringsId {
         return 'Saluran tangkapan tidak bisa dibuka; mulai ulang Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Helper tidak bisa dimulai; periksa apakah antivirus telah menghapus atau memblokirnya.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Sesi tangkapan sebelumnya masih dimuat di game; mulai ulang game sekali.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam menerima permintaan peluncuran tetapi proses game tidak pernah muncul.';
@@ -192070,8 +193208,6 @@ extension on _StringsId {
         return 'Cari setiap sumber yang aktif';
       case 'manga_global_search_prompt':
         return 'Ketik judul untuk mencari setiap sumber manga yang aktif sekaligus.';
-      case 'manga_global_search_no_sources':
-        return 'Tidak ada sumber manga yang aktif. Instal dan aktifkan ekstensi terlebih dahulu.';
       case 'anki_connect_addon_install':
         return 'Instal AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -192821,132 +193957,181 @@ extension on _StringsId {
       case 'game_hook_reason_capability_probe_failed':
         return 'Komponen tangkapan tidak menjawab pemeriksaan kapabilitas. Ditemukan di disk tetapi tidak bisa dijalankan atau tidak merespons tepat waktu - antivirus mungkin memblokirnya, Fushi mungkin tidak memiliki izin untuk meluncurkannya, atau proses helper yang tersisa mungkin macet. Tutup semua game, periksa karantina antivirus Anda, lalu coba lagi.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Siapkan backend unduhan';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Pilih mesin mana yang menjalankan unduhan Anda. Anda bisa mengubahnya kapan saja di pengaturan unduhan.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Disarankan. Unduhan berjalan di dalam Fushi — tidak perlu memasang apa pun lagi.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Hubungkan Fushi ke qBittorrent WebUI yang sudah Anda jalankan.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Siapkan sekarang';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'Pemasangan ini tidak memiliki runtime mesin bawaan. Pasang ulang paket lengkap, atau gunakan qBittorrent eksternal.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Masukkan alamat lengkap, mis. http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Repositori ini mengembalikan 0 ekstensi. Alamatnya mungkin menunjuk ke indeks lama.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Ubah alamat repositori';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Lanjutkan unduhan';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Impor model lokal';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Impor model yang sudah diunduh';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Jika unduhan di dalam aplikasi tidak berhasil, unduh sendiri berkas-berkas ini lalu impor di sini. Berkas zip yang memuatnya juga bisa.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Salin tautan unduhan';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Tautan unduhan disalin';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Pilih folder';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Pilih berkas';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Mengimpor…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '${count} berkas diimpor';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Tidak ada berkas model yang dapat dipakai dikenali';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            'Ukuran ${file} salah: diharapkan ${expected}, diperoleh ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'Masih kurang ${count} berkas';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Impor model gagal';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Ketuk untuk mengenali';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Halaman ini belum punya data teks. Fushi akan mengenalinya dengan mesin OCR yang Anda pilih di pengaturan, lalu Anda bisa mengetuk kata untuk mencarinya. Mesin bisa diganti atau fitur ini dimatikan di Pengaturan › OCR Manga.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Kenali sekarang';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Mengenali halaman ini…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Ketuk untuk mengenali';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Ketuk balon percakapan yang belum dikenali untuk mengenali halaman dan langsung mencari kata.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR perangkat';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Memakai pengenalan teks bawaan perangkat Anda. Tanpa unduhan, sepenuhnya luring, tidak ada yang diunggah — tetapi jelas lebih lemah pada balon percakapan vertikal dan tulisan tangan dibanding model lokal.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Perangkat ini tidak punya pengenalan teks bawaan yang tersedia';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Bab daring tidak disimpan di perangkat, jadi hanya Google Lens yang bisa membacanya — gambar halaman diunggah ke Google.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Layanan daring';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'API pihak ketiga, pengindeks, dan server media';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Sumber subtitle';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Pengindeks sumber daya';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Pengambilan metadata';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB, dan TMDB dikonfigurasi bersama di sini';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Putar ulang suara baris ini';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Rekam ulang suaranya';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Ikuti baris baru';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Teruskan klik ke game';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Ganti latar';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Kunci posisi';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Buka meja kerja penangkapan';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Selalu di atas';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Tutup overlay';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Pencarian subtitle gagal';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Kenali ulang area terpilih';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Gagal mengenali ulang area terpilih';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Area terpilih dikenali ulang dan disimpan ke halaman';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Di ponsel, model-model ini menjalankan mesin lokal untuk OCR satu volume penuh, ketukan, dan area terpilih di pembaca manga.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Seret kotak di atas teks yang ingin dikenali ulang. Hasilnya menggantikan lapisan teks yang sudah ada di dalam kotak itu.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Lapisan teks sebelum pemindaian ulang telah dipulihkan';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Tidak dapat memulihkan lapisan teks sebelumnya';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Tampilkan tab ini di bilah navigasi; matikan untuk menyembunyikannya';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'Tab Unduhan disembunyikan di Pengaturan → Sistem → Modul fitur; nyalakan lagi untuk mengelola langganan.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Buka lokasi berkas';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Tidak dapat membuka lokasi berkas buku ini.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Snapshot cadangan basis data (${n} berkas)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Ini menghapus semua sisa snapshot cadangan basis data (corrupt-bak / pre-restore / salinan migrasi lama). Basis data yang aktif beserta berkas -wal/-shm miliknya tidak disentuh.';
+      case 'manga_global_search_no_sources':
+        return 'Belum ada sumber manga yang aktif. Tambahkan satu di tab Impor.';
+      case 'manga_global_search_open_sources':
+        return 'Ke Impor';
+      case 'settings_downloads_open_page_hint':
+        return 'Buka halaman Unduhan (tugas, sumber daya, langganan)';
+      case 'download_video_source_required':
+        return 'Perlu sumber video';
+      case 'game_hook_reason_stale_session':
+        return 'Sesi penangkapan sebelumnya belum dilepaskan; Fushi sedang mencoba lagi sendiri, tidak perlu melakukan apa pun.';
+      case 'video_subtitle_delete':
+        return 'Hapus berkas subtitle';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Hapus berkas subtitle ini dari disk? Tindakan ini tidak bisa dibatalkan.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Berkas subtitle dihapus: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Gagal menghapus berkas subtitle: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Alihkan antarmuka manga';
+      case 'manga_interface_hide':
+        return 'Sembunyikan antarmuka';
+      case 'manga_interface_show':
+        return 'Tampilkan antarmuka';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Perataan vertikal';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Tengah';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Atas';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio merujuk ke berkas aslinya, tidak memakai penyimpanan aplikasi';
+      case 'jellyfin_auto_list_title':
+        return 'Daftarkan item otomatis saat masuk Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Mati: masuk ke halaman video tidak mengirim permintaan apa pun ke server media; tarik untuk menyegarkan di pustaka video agar item didaftar manual. Disarankan untuk server yang sangat besar, karena pendaftaran otomatis terlihat seperti scraping dan bisa memicu deteksi penyalahgunaan.';
+      case 'jellyfin_libraries_title':
+        return 'Pustaka yang didaftarkan';
+      case 'jellyfin_libraries_hint':
+        return 'Tidak memilih apa pun akan mendaftarkan semua pustaka video. Membatasi ke pustaka yang benar-benar Anda tonton mencegah server raksasa didaftar seluruhnya.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Tidak dapat memuat daftar pustaka';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -194807,7 +195992,7 @@ extension on _StringsIt {
         return 'Il canale di cattura non può essere aperto; riavvia Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'L\'helper non può essere avviato; controlla che l\'antivirus non l\'abbia rimosso o bloccato.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Una sessione di cattura precedente è ancora caricata nel gioco; riavvia il gioco.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam ha accettato la richiesta di avvio ma il processo del gioco non è mai apparso.';
@@ -199906,8 +201091,6 @@ extension on _StringsIt {
         return 'Cerca in ogni fonte abilitata';
       case 'manga_global_search_prompt':
         return 'Digita un titolo per cercare in ogni fonte manga abilitata contemporaneamente.';
-      case 'manga_global_search_no_sources':
-        return 'Nessuna fonte manga abilitata. Installa e abilita prima un\'estensione.';
       case 'anki_connect_addon_install':
         return 'Installa AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -200296,7 +201479,7 @@ extension on _StringsIt {
       case 'media_source_network_subtitle_video':
         return 'Libreria remota WebDAV (streaming diretto)';
       case 'jellyfin_settings_title':
-        return 'Media server (Jellyfin / Emby)';
+        return 'Server multimediale (Jellyfin / Emby)';
       case 'jellyfin_server_url':
         return 'URL server';
       case 'jellyfin_sign_in':
@@ -200659,132 +201842,182 @@ extension on _StringsIt {
       case 'game_hook_reason_capability_probe_failed':
         return 'Il componente di cattura non ha risposto al controllo delle capacità. È stato trovato su disco ma non è riuscito a eseguire o non ha risposto in tempo — l\'antivirus potrebbe bloccarlo, Fushi potrebbe non avere il permesso di avviarlo, o un processo helper residuo potrebbe essere bloccato. Chiudi tutti i giochi, controlla la quarantena dell\'antivirus, poi riprova.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Configura il backend di download';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Scegli quale motore esegue i tuoi download. Puoi cambiarlo in qualsiasi momento nelle impostazioni di download.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Consigliato. I download avvengono dentro Fushi: non serve installare altro.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Collega Fushi a una WebUI di qBittorrent che già usi.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Configura ora';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'In questa installazione manca il runtime del motore integrato. Reinstalla il pacchetto completo oppure usa qBittorrent esterno.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Inserisci un indirizzo completo, es. http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Questo repository ha restituito 0 estensioni. Il suo indirizzo potrebbe puntare a un indice obsoleto.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Modifica URL del repository';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Riprendi download';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Importa modello locale';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Importa un modello scaricato';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Se il download nell\'app non riesce, scarica tu stesso questi file e importali qui. Va bene anche uno zip che li contenga.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Copia link di download';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Link di download copiati';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Scegli cartella';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Scegli file';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Importazione…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => 'Importati ${count} file';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Nessun file di modello utilizzabile riconosciuto';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} ha la dimensione sbagliata: attesi ${expected}, ricevuti ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'Mancano ancora ${count} file';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Importazione del modello non riuscita';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Tocca per riconoscere';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Questa pagina non ha ancora dati di testo. Fushi la riconoscerà con il motore OCR che hai scelto nelle impostazioni, poi potrai toccare le parole per cercarle. Puoi cambiare motore o disattivare questo comportamento in Impostazioni › OCR manga.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Riconosci ora';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Riconoscimento della pagina…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Tocca per riconoscere';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Tocca un fumetto non ancora riconosciuto per riconoscere la pagina e cercare subito le parole.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR del dispositivo';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Usa il riconoscimento del testo integrato nel dispositivo. Nessun download, completamente offline, nessun invio di dati — ma con i fumetti verticali e la scrittura a mano è nettamente inferiore al modello locale.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Questo dispositivo non ha un riconoscimento del testo integrato disponibile';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'I capitoli online non sono salvati in locale, quindi può leggerli solo Google Lens — l\'immagine della pagina viene inviata a Google.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Servizi online';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'API di terze parti, indicizzatori e server multimediali';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Fonti dei sottotitoli';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Indicizzatori di risorse';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Scraping dei metadati';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB e TMDB si configurano tutti qui';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Riascolta la voce di questa battuta';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Ricattura la voce';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Segui le nuove battute';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Fai passare i clic al gioco';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Attiva/disattiva lo sfondo';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Blocca la posizione';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Apri il banco di lavoro di cattura';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Mantieni in primo piano';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Chiudi la finestra mobile';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Ricerca dei sottotitoli non riuscita';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Ripeti l\'OCR sull\'area selezionata';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'OCR dell\'area selezionata non riuscito';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Area selezionata riconosciuta di nuovo e salvata nella pagina';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Su mobile questi modelli alimentano il motore locale per l\'OCR dell\'intero volume, al tocco e dell\'area selezionata nel lettore manga.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Trascina un riquadro sul testo da rianalizzare. Il risultato sostituisce il livello di testo già presente nel riquadro.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Ripristinato il livello di testo precedente al nuovo riconoscimento';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Impossibile ripristinare il livello di testo precedente';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Mostra questa scheda nella barra di navigazione; disattiva per nasconderla';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'La scheda Download è nascosta in Impostazioni → Sistema → Moduli funzionalità; riattivala per gestire le sottoscrizioni.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Apri posizione del file';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Impossibile aprire la posizione del file di questo libro.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Snapshot di backup del database (${n} file)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Rimuove tutti gli snapshot di backup del database rimasti (corrupt-bak / pre-restore / copie di migrazioni precedenti). Il database in uso e i suoi file -wal/-shm non vengono toccati.';
+      case 'manga_global_search_no_sources':
+        return 'Nessuna fonte manga attiva. Aggiungine una nella scheda Importa.';
+      case 'manga_global_search_open_sources':
+        return 'Vai a Importa';
+      case 'settings_downloads_open_page_hint':
+        return 'Apri la pagina Download (attività, risorse, sottoscrizioni)';
+      case 'download_video_source_required':
+        return 'Serve una fonte video';
+      case 'game_hook_reason_stale_session':
+        return 'Una sessione di cattura precedente non è ancora stata rilasciata; Fushi sta riprovando da solo, non serve fare nulla.';
+      case 'video_subtitle_delete':
+        return 'Elimina file dei sottotitoli';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Eliminare questo file dei sottotitoli dal disco? L\'operazione non può essere annullata.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) =>
+            'File dei sottotitoli eliminato: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Impossibile eliminare il file dei sottotitoli: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Attiva/disattiva interfaccia manga';
+      case 'manga_interface_hide':
+        return 'Nascondi interfaccia';
+      case 'manga_interface_show':
+        return 'Mostra interfaccia';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Allineamento verticale';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Centro';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Alto';
+      case 'storage_entry_external_audio_hint':
+        return 'L\'audio fa riferimento ai file originali e non occupa spazio dell\'app';
+      case 'jellyfin_auto_list_title':
+        return 'Elenca gli elementi all\'apertura di Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Disattivato: aprire la pagina video non invia alcuna richiesta al server multimediale; tira per aggiornare nella videoteca per elencare manualmente. Consigliato per server molto grandi, dove l\'enumerazione automatica sembra scraping e può far scattare il rilevamento abusi.';
+      case 'jellyfin_libraries_title':
+        return 'Librerie da elencare';
+      case 'jellyfin_libraries_hint':
+        return 'Non selezionare nulla elenca tutte le librerie video. Limitarsi alle librerie che guardi davvero evita che server enormi vengano enumerati per intero.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Impossibile caricare l\'elenco delle librerie';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -202628,7 +203861,7 @@ extension on _StringsJa {
         return 'キャプチャチャネルを開けませんでした。Fushi を再起動してください。';
       case 'game_hook_reason_spawn_failed':
         return 'ヘルパーを起動できませんでした。ウイルス対策ソフトがヘルパーを削除またはブロックしていないか確認してください。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '前回のキャプチャセッションがまだゲームに残っています。ゲームを一度再起動してください。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam が起動リクエストを受け付けましたが、ゲームプロセスが表示されませんでした。';
@@ -207683,8 +208916,6 @@ extension on _StringsJa {
         return 'すべてのソースを検索';
       case 'manga_global_search_prompt':
         return 'タイトルを入力して、すべての有効なマンガソースを一括検索します。';
-      case 'manga_global_search_no_sources':
-        return '有効なマンガソースがありません。まず拡張機能をインストールして有効にしてください。';
       case 'anki_connect_addon_install':
         return 'AnkiConnectをインストール';
       case 'anki_connect_addon_install_hint':
@@ -208433,132 +209664,179 @@ extension on _StringsJa {
       case 'game_hook_reason_capability_probe_failed':
         return 'キャプチャコンポーネントが機能チェックに応答しませんでした。ディスク上に見つかりましたが、実行できないか時間内に応答しませんでした。ウイルス対策ソフトがブロックしている、Fushiに起動権限がない、または古いヘルパープロセスが残っている可能性があります。すべてのゲームを閉じ、ウイルス対策の隔離を確認してから再試行してください。';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'ダウンロードバックエンドを設定';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'ダウンロードを実行するエンジンを選びます。あとからダウンロード設定でいつでも変更できます。';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'おすすめ。ダウンロードは Fushi の内部で完結し、追加のインストールは不要です。';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'すでに動かしている qBittorrent WebUI に Fushi を接続します。';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return '今すぐ設定';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'このインストールには内蔵エンジンのランタイムが含まれていません。完全版のパッケージを再インストールするか、外部の qBittorrent をご利用ください。';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return '完全なアドレスを入力してください。例: http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'このリポジトリから返された拡張機能は 0 件です。アドレスが古いインデックスを指している可能性があります。';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'リポジトリのアドレスを編集';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'ダウンロードを再開';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'ローカルモデルをインポート';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'ダウンロード済みのモデルをインポート';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'アプリ内のダウンロードがうまくいかない場合は、下記のファイルを自分でダウンロードしてここからインポートしてください。それらを含む zip でもかまいません。';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'ダウンロードリンクをコピー';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'ダウンロードリンクをコピーしました';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'フォルダーを選択';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'ファイルを選択';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'インポート中…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '${count} 個のファイルをインポートしました';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return '使用できるモデルファイルを認識できませんでした';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} のサイズが違います: 期待値 ${expected}、実際 ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'まだ ${count} 個のファイルが足りません';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'モデルのインポートに失敗しました';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'タップで認識';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'このページにはまだテキストデータがありません。Fushi は設定で選んだ OCR エンジンでその場で認識し、認識が終われば単語をタップして調べられます。エンジンの変更やこの動作の無効化は「設定 › マンガOCR」で行えます。';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return '今すぐ認識';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'このページを認識しています…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'タップで認識';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'まだ認識していない吹き出しをタップすると、そのページを認識してすぐに単語を調べられます。';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return '端末の OCR';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return '端末に内蔵された文字認識を使います。ダウンロード不要、完全にオフラインで、何もアップロードしません。ただし縦書きの吹き出しや手書き文字ではローカルモデルよりはっきり弱くなります。';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'この端末では内蔵の文字認識を利用できません';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'オンラインの章はローカルに保存されないため、読み取れるのは Google Lens だけです。ページ画像は Google にアップロードされます。';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'オンラインサービス';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'サードパーティ API、インデクサー、メディアサーバー';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return '字幕のソース';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'リソースインデクサー';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'メタデータのスクレイピング';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku、OpenSubtitles、Torznab、Jellyfin、AniDB、TMDB はここでまとめて設定します';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'この台詞の音声を再生';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return '音声を録り直す';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return '新しい台詞に追従';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'クリックをゲームに通す';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return '背景を切り替え';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return '位置を固定';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return '取り込みワークベンチを開く';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return '常に最前面に表示';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'オーバーレイを閉じる';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return '字幕の検索に失敗しました';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
-            '${msg} (HTTP ${code})';
+            '${msg}（HTTP ${code}）';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return '選択範囲を再認識';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return '選択範囲の再認識に失敗しました';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return '選択範囲を再認識してページに保存しました';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'モバイルでは、これらのモデルがマンガリーダーの巻全体・タップ・選択範囲の OCR を担うローカルエンジンに使われます。';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return '再認識したいテキストを枠で囲んでドラッグします。結果は枠内の既存のテキストレイヤーを置き換えます。';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return '再認識する前のテキストレイヤーに戻しました';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return '前のテキストレイヤーに戻せませんでした';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'このタブをナビゲーションバーに表示します。オフにすると非表示になります';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return '「ダウンロード」タブは 設定 → システム → 機能モジュール で非表示になっています。購読を管理するには再度オンにしてください。';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'ファイルの場所を開く';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'この本のファイルの場所を開けませんでした。';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) => 'データベースのバックアップスナップショット（${n} 個のファイル）';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return '残っているデータベースのバックアップスナップショット（corrupt-bak / pre-restore / 旧バージョンの移行コピー）をすべて削除します。使用中のデータベースとその -wal/-shm サイドカーには影響しません。';
+      case 'manga_global_search_no_sources':
+        return '有効なマンガソースがまだありません。「インポート」タブで追加してください。';
+      case 'manga_global_search_open_sources':
+        return 'インポートへ';
+      case 'settings_downloads_open_page_hint':
+        return 'ダウンロードページを開く（タスク / リソース / 購読）';
+      case 'download_video_source_required':
+        return '動画のソースが必要です';
+      case 'game_hook_reason_stale_session':
+        return '前回のキャプチャセッションがまだ解放されていません。Fushi が自動で再試行するので、操作は不要です。';
+      case 'video_subtitle_delete':
+        return '字幕ファイルを削除';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'この字幕ファイルをディスクから削除しますか？この操作は元に戻せません。\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => '字幕ファイルを削除しました: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => '字幕ファイルの削除に失敗しました: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'マンガUIの表示切り替え';
+      case 'manga_interface_hide':
+        return 'UIを隠す';
+      case 'manga_interface_show':
+        return 'UIを表示';
+      case 'gal_hook_text_vertical_alignment':
+        return '垂直方向の配置';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '中央';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '上';
+      case 'storage_entry_external_audio_hint':
+        return '音声は元のファイルを参照するため、アプリの容量を使いません';
+      case 'jellyfin_auto_list_title':
+        return '動画を開いたときに自動で一覧表示';
+      case 'jellyfin_auto_list_hint':
+        return 'オフ: 動画ページを開いてもメディアサーバーにリクエストを送りません。動画ライブラリで引っ張って更新すると手動で一覧表示できます。非常に大きなサーバーでは、自動列挙がスクレイピングのように見えて不正利用検知に引っかかることがあるため、オフを推奨します。';
+      case 'jellyfin_libraries_title':
+        return '一覧表示するライブラリ';
+      case 'jellyfin_libraries_hint':
+        return '何も選ばないとすべての動画ライブラリを一覧表示します。実際に見るライブラリだけに絞ると、巨大なサーバーが丸ごと列挙されるのを防げます。';
+      case 'jellyfin_libraries_load_failed':
+        return 'ライブラリ一覧を読み込めませんでした';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -210402,7 +211680,7 @@ extension on _StringsKo {
         return '캡처 채널을 열 수 없습니다. Fushi를 다시 시작하세요.';
       case 'game_hook_reason_spawn_failed':
         return '헬퍼를 시작할 수 없습니다. 바이러스 백신이 헬퍼를 삭제하거나 차단하지 않았는지 확인하세요.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '이전 캡처 세션이 아직 게임에 로드되어 있습니다. 게임을 한 번 다시 시작하세요.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam이 실행 요청을 수락했지만 게임 프로세스가 나타나지 않았습니다.';
@@ -215459,8 +216737,6 @@ extension on _StringsKo {
         return '활성화된 모든 소스 검색';
       case 'manga_global_search_prompt':
         return '제목을 입력하면 활성화된 모든 만화 소스를 한 번에 검색합니다.';
-      case 'manga_global_search_no_sources':
-        return '활성화된 만화 소스가 없습니다. 먼저 확장을 설치하고 활성화하세요.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect 설치';
       case 'anki_connect_addon_install_hint':
@@ -216209,132 +217485,179 @@ extension on _StringsKo {
       case 'game_hook_reason_capability_probe_failed':
         return '캡처 구성 요소가 기능 확인에 응답하지 않았습니다. 디스크에서 발견되었지만 실행할 수 없거나 시간 내에 응답하지 않았습니다 - 바이러스 백신이 차단하고 있거나, Fushi에 실행 권한이 없거나, 남아 있는 헬퍼 프로세스가 멈춰 있을 수 있습니다. 모든 게임을 닫고, 바이러스 백신 격리 목록을 확인한 다음 다시 시도하세요.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return '다운로드 백엔드 설정';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return '다운로드를 실행할 엔진을 선택하세요. 나중에 다운로드 설정에서 언제든지 바꿀 수 있어요.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return '권장. 다운로드가 Fushi 안에서 처리되어 따로 설치할 것이 없어요.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return '이미 실행 중인 qBittorrent WebUI에 Fushi를 연결해요.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return '지금 설정';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return '이번 설치본에는 내장 엔진 런타임이 없어요. 전체 패키지를 다시 설치하거나 외부 qBittorrent을 사용하세요.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return '전체 주소를 입력하세요. 예: http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return '이 저장소가 확장 기능을 0개 반환했어요. 주소가 오래된 인덱스를 가리키고 있을 수 있어요.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return '저장소 주소 편집';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return '다운로드 이어받기';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return '로컬 모델 가져오기';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return '내려받은 모델 가져오기';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return '앱 안에서 다운로드가 되지 않으면 아래 파일을 직접 내려받아 여기에서 가져오세요. 그 파일들이 들어 있는 zip도 괜찮아요.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return '다운로드 링크 복사';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return '다운로드 링크를 복사했어요';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return '폴더 선택';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return '파일 선택';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return '가져오는 중…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '파일 ${count}개를 가져왔어요';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return '사용할 수 있는 모델 파일을 인식하지 못했어요';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} 크기가 맞지 않아요: 예상 ${expected}, 실제 ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => '아직 파일 ${count}개가 부족해요';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return '모델 가져오기에 실패했어요';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return '탭해서 인식';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return '이 페이지에는 아직 텍스트 데이터가 없어요. Fushi가 설정에서 고른 OCR 엔진으로 바로 인식하고, 인식이 끝나면 단어를 탭해서 찾아볼 수 있어요. 엔진을 바꾸거나 이 동작을 끄려면 설정 › 만화 OCR에서 하면 돼요.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return '지금 인식';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return '이 페이지를 인식하는 중…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return '탭해서 인식';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return '아직 인식하지 않은 말풍선을 탭하면 페이지를 인식하고 바로 단어를 찾아볼 수 있어요.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return '기기 OCR';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return '기기에 내장된 문자 인식을 사용해요. 다운로드가 필요 없고 완전히 오프라인이며 아무것도 업로드하지 않아요. 다만 세로쓰기 말풍선과 손글씨에서는 로컬 모델보다 눈에 띄게 약해요.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return '이 기기에는 사용할 수 있는 내장 문자 인식이 없어요';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return '온라인 챕터는 기기에 저장되지 않아 Google Lens로만 읽을 수 있어요. 페이지 이미지는 Google로 업로드돼요.';
       case 'settings_destination_services':
-        return 'Online services';
+        return '온라인 서비스';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return '서드파티 API, 인덱서, 미디어 서버';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return '자막 소스';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return '리소스 인덱서';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return '메타데이터 스크래핑';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB, TMDB를 여기에서 함께 설정해요';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return '이 대사 음성 다시 재생';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return '음성 다시 녹음';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return '새 대사 따라가기';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return '클릭을 게임으로 통과';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return '배경 전환';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return '위치 고정';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return '수집 작업대 열기';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return '항상 위에 표시';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return '오버레이 닫기';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return '자막 검색에 실패했어요';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return '선택 영역 다시 인식';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return '선택 영역을 다시 인식하지 못했어요';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return '선택 영역을 다시 인식해 페이지에 저장했어요';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return '모바일에서는 이 모델들이 만화 뷰어의 전권·탭·선택 영역 OCR을 담당하는 로컬 엔진에 쓰여요.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return '다시 인식할 텍스트를 드래그해 상자로 감싸세요. 결과는 상자 안의 기존 텍스트 레이어를 대체해요.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return '다시 인식하기 전의 텍스트 레이어로 되돌렸어요';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return '이전 텍스트 레이어로 되돌리지 못했어요';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return '이 탭을 내비게이션 바에 표시해요. 끄면 숨겨져요';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return '‘다운로드’ 탭이 설정 → 시스템 → 기능 모듈에서 숨겨져 있어요. 구독을 관리하려면 다시 켜세요.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return '파일 위치 열기';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return '이 책의 파일 위치를 열 수 없어요.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) => '데이터베이스 백업 스냅샷(${n}개 파일)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return '남아 있는 데이터베이스 백업 스냅샷(corrupt-bak / pre-restore / 이전 버전 마이그레이션 사본)을 모두 삭제해요. 사용 중인 데이터베이스와 그 -wal/-shm 사이드카는 건드리지 않아요.';
+      case 'manga_global_search_no_sources':
+        return '활성화된 만화 소스가 아직 없어요. ‘가져오기’ 탭에서 하나 추가하세요.';
+      case 'manga_global_search_open_sources':
+        return '가져오기로 이동';
+      case 'settings_downloads_open_page_hint':
+        return '다운로드 페이지 열기 (작업 / 리소스 / 구독)';
+      case 'download_video_source_required':
+        return '동영상 소스가 필요해요';
+      case 'game_hook_reason_stale_session':
+        return '이전 캡처 세션이 아직 해제되지 않았어요. Fushi가 알아서 다시 시도하니 따로 할 일은 없어요.';
+      case 'video_subtitle_delete':
+        return '자막 파일 삭제';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            '이 자막 파일을 디스크에서 삭제할까요? 되돌릴 수 없어요.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => '자막 파일을 삭제했어요: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => '자막 파일 삭제에 실패했어요: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return '만화 인터페이스 전환';
+      case 'manga_interface_hide':
+        return '인터페이스 숨기기';
+      case 'manga_interface_show':
+        return '인터페이스 표시';
+      case 'gal_hook_text_vertical_alignment':
+        return '세로 정렬';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '가운데';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '위';
+      case 'storage_entry_external_audio_hint':
+        return '오디오는 원본 파일을 참조하므로 앱 저장 공간을 쓰지 않아요';
+      case 'jellyfin_auto_list_title':
+        return '비디오에 들어갈 때 항목 자동 나열';
+      case 'jellyfin_auto_list_hint':
+        return '끄면: 비디오 페이지에 들어가도 미디어 서버로 요청을 보내지 않아요. 비디오 라이브러리에서 당겨서 새로고침하면 수동으로 나열할 수 있어요. 아주 큰 서버에서는 자동 열거가 스크래핑처럼 보여 남용 감지에 걸릴 수 있으니 끄는 것을 권장해요.';
+      case 'jellyfin_libraries_title':
+        return '나열할 라이브러리';
+      case 'jellyfin_libraries_hint':
+        return '아무것도 선택하지 않으면 모든 비디오 라이브러리를 나열해요. 실제로 보는 라이브러리로 좁히면 거대한 서버가 통째로 열거되는 것을 막을 수 있어요.';
+      case 'jellyfin_libraries_load_failed':
+        return '라이브러리 목록을 불러오지 못했어요';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -218194,7 +219517,7 @@ extension on _StringsNl {
         return 'Het opnamekanaal kon niet worden geopend; herstart Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'De helper kon niet worden gestart; controleer of antivirus deze niet heeft verwijderd of geblokkeerd.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Een vorige opnamesessie is nog geladen in het spel; herstart het spel.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam heeft het startverzoek geaccepteerd maar het spelproces is nooit verschenen.';
@@ -223287,8 +224610,6 @@ extension on _StringsNl {
         return 'Doorzoek elke ingeschakelde bron';
       case 'manga_global_search_prompt':
         return 'Typ een titel om elke ingeschakelde mangabron tegelijk te doorzoeken.';
-      case 'manga_global_search_no_sources':
-        return 'Geen ingeschakelde mangabronnen. Installeer en schakel eerst een extensie in.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect installeren';
       case 'anki_connect_addon_install_hint':
@@ -224040,132 +225361,183 @@ extension on _StringsNl {
       case 'game_hook_reason_capability_probe_failed':
         return 'De opnamecomponent heeft de mogelijkheidscontrole niet beantwoord. Het is gevonden op de schijf maar kon niet worden uitgevoerd of reageerde niet op tijd — antivirus kan het blokkeren, Fushi heeft mogelijk geen toestemming om het te starten, of een achtergebleven helperproces zit vast. Sluit elk spel, controleer je antivirusquarantaine en probeer dan opnieuw.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Downloadbackend instellen';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Kies welke engine je downloads uitvoert. Je kunt dit later altijd wijzigen in de downloadinstellingen.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Aanbevolen. Downloads draaien in Fushi zelf - je hoeft niets extra\'s te installeren.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Verbind Fushi met een qBittorrent WebUI die je al draait.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Nu instellen';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'De runtime van de ingebouwde engine ontbreekt in deze installatie. Installeer het volledige pakket opnieuw of gebruik in plaats daarvan een externe qBittorrent.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Voer een volledig adres in, bijv. http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Deze repository leverde 0 extensies op. Het adres verwijst mogelijk naar een verouderde index.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Repository-URL bewerken';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Download hervatten';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Lokaal model importeren';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Een gedownload model importeren';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Als de download in de app niet lukt, download deze bestanden dan zelf en importeer ze hier. Een zip met die bestanden werkt ook.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Downloadlinks kopiëren';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Downloadlinks gekopieerd';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Map kiezen';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Bestanden kiezen';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Bezig met importeren…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '${count} bestand(en) geïmporteerd';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Geen bruikbare modelbestanden herkend';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} heeft de verkeerde grootte: verwacht ${expected}, gekregen ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) =>
+            'Er ontbreken nog ${count} bestand(en)';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Modelimport mislukt';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Tik om te herkennen';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Deze pagina heeft nog geen tekstgegevens. Fushi herkent hem met de OCR-engine die je in de instellingen hebt gekozen; daarna kun je op woorden tikken om ze op te zoeken. Je kunt de engine wijzigen of dit uitschakelen bij Instellingen › Manga OCR.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Nu herkennen';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Deze pagina wordt herkend…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Tik om te herkennen';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Tik op een nog niet herkende tekstballon om de pagina te herkennen en woorden meteen op te zoeken.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR van apparaat';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Gebruikt de tekstherkenning die in je apparaat is ingebouwd. Geen download, volledig offline, er wordt niets geüpload — maar bij verticale tekstballonnen en handschrift merkbaar zwakker dan het lokale model.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Dit apparaat heeft geen ingebouwde tekstherkenning beschikbaar';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Online hoofdstukken staan niet lokaal opgeslagen, dus alleen Google Lens kan ze lezen — de pagina-afbeelding wordt naar Google geüpload.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Onlinediensten';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'API\'s van derden, indexers en mediaservers';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Ondertitelbronnen';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Resource-indexers';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Metadata-scraping';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB en TMDB worden hier samen ingesteld';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Stem van deze regel opnieuw afspelen';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Stem opnieuw opnemen';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Nieuwe regels volgen';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Klikken doorlaten naar het spel';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Achtergrond wisselen';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Positie vergrendelen';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Opnamewerkbank openen';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Altijd op voorgrond';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Overlay sluiten';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Zoeken naar ondertitels mislukt';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Geselecteerd gebied opnieuw herkennen';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Opnieuw herkennen van het geselecteerde gebied is mislukt';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Geselecteerd gebied opnieuw herkend en in de pagina opgeslagen';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Op mobiel voeden deze modellen de lokale engine voor OCR van een heel deel, per tik en van een geselecteerd gebied in de mangalezer.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Sleep een kader over de tekst die je opnieuw wilt laten herkennen. Het resultaat vervangt de bestaande tekstlaag binnen dat kader.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Tekstlaag van vóór de herscan hersteld';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Kan de vorige tekstlaag niet herstellen';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Dit tabblad in de navigatiebalk tonen; uitschakelen om het te verbergen';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'Het tabblad Downloads is verborgen via Instellingen → Systeem → Functiemodules; zet het weer aan om abonnementen te beheren.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Bestandslocatie openen';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Kan de bestandslocatie van dit boek niet openen.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Snapshots van databaseback-ups (${n} bestanden)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Hiermee worden alle achtergebleven snapshots van databaseback-ups verwijderd (corrupt-bak / pre-restore / oude migratiekopieën). De actieve database en de bijbehorende -wal/-shm-bestanden blijven ongemoeid.';
+      case 'manga_global_search_no_sources':
+        return 'Nog geen ingeschakelde mangabronnen. Voeg er een toe op het tabblad Importeren.';
+      case 'manga_global_search_open_sources':
+        return 'Naar Importeren';
+      case 'settings_downloads_open_page_hint':
+        return 'De downloadpagina openen (taken, resources, abonnementen)';
+      case 'download_video_source_required':
+        return 'Videobron vereist';
+      case 'game_hook_reason_stale_session':
+        return 'Een eerdere opnamesessie is nog niet vrijgegeven; Fushi probeert het vanzelf opnieuw, je hoeft niets te doen.';
+      case 'video_subtitle_delete':
+        return 'Ondertitelbestand verwijderen';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Dit ondertitelbestand van de schijf verwijderen? Dit kan niet ongedaan worden gemaakt.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) =>
+            'Ondertitelbestand verwijderd: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Verwijderen van ondertitelbestand mislukt: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Manga-interface schakelen';
+      case 'manga_interface_hide':
+        return 'Interface verbergen';
+      case 'manga_interface_show':
+        return 'Interface tonen';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Verticale uitlijning';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Midden';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Boven';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio verwijst naar de originele bestanden en gebruikt geen app-opslag';
+      case 'jellyfin_auto_list_title':
+        return 'Items automatisch tonen bij openen van Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Uit: bij het openen van de videopagina wordt geen verzoek naar de mediaserver gestuurd; trek in de videobibliotheek omlaag om te vernieuwen en items handmatig te tonen. Aanbevolen voor zeer grote servers, waar automatisch opsommen op scraping lijkt en misbruikdetectie kan activeren.';
+      case 'jellyfin_libraries_title':
+        return 'Bibliotheken om te tonen';
+      case 'jellyfin_libraries_hint':
+        return 'Niets selecteren toont elke videobibliotheek. Beperken tot de bibliotheken die je echt kijkt voorkomt dat enorme servers volledig worden opgesomd.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Kon de bibliotheeklijst niet laden';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -226024,7 +227396,7 @@ extension on _StringsPtBr {
         return 'O canal de captura não pôde ser aberto; reinicie o Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'O helper não pôde ser iniciado; verifique se o antivírus não o removeu ou bloqueou.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Uma sessão de captura anterior ainda está carregada no jogo; reinicie o jogo uma vez.';
       case 'game_hook_reason_steam_timeout':
         return 'O Steam aceitou a solicitação de início mas o processo do jogo nunca apareceu.';
@@ -231114,8 +232486,6 @@ extension on _StringsPtBr {
         return 'Buscar em todas as fontes ativadas';
       case 'manga_global_search_prompt':
         return 'Digite um título para buscar em todas as fontes de mangá ativadas de uma vez.';
-      case 'manga_global_search_no_sources':
-        return 'Nenhuma fonte de mangá ativada. Instale e ative uma extensão primeiro.';
       case 'anki_connect_addon_install':
         return 'Instalar AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -231867,132 +233237,182 @@ extension on _StringsPtBr {
       case 'game_hook_reason_capability_probe_failed':
         return 'O componente de captura não respondeu à verificação de capacidade. Foi encontrado no disco mas não pôde ser executado ou não respondeu a tempo — o antivírus pode estar bloqueando, o Fushi pode não ter permissão para iniciá-lo, ou um processo helper antigo pode estar preso. Feche todos os jogos, verifique a quarentena do antivírus e tente novamente.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Configurar o backend de downloads';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Escolha qual mecanismo executa seus downloads. Você pode mudar isso a qualquer momento nas configurações de download.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Recomendado. Os downloads acontecem dentro do Fushi: não é preciso instalar mais nada.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Conecte o Fushi a uma WebUI do qBittorrent que você já usa.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Configurar agora';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'Esta instalação está sem o runtime do mecanismo integrado. Reinstale o pacote completo ou use o qBittorrent externo.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Digite um endereço completo, ex.: http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Este repositório retornou 0 extensões. O endereço dele pode apontar para um índice desatualizado.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Editar URL do repositório';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Retomar download';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Importar modelo local';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Importar um modelo baixado';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Se o download pelo app não funcionar, baixe estes arquivos por conta própria e importe-os aqui. Um zip com eles também serve.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Copiar links de download';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Links de download copiados';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Escolher pasta';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Escolher arquivos';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Importando…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '${count} arquivo(s) importado(s)';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Nenhum arquivo de modelo utilizável foi reconhecido';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} está com o tamanho errado: esperado ${expected}, obtido ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'Ainda faltam ${count} arquivo(s)';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Falha ao importar o modelo';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Toque para reconhecer';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Esta página ainda não tem dados de texto. O Fushi vai reconhecê-la com o mecanismo de OCR que você escolheu nas configurações e depois você poderá tocar nas palavras para consultá-las. Você pode trocar o mecanismo ou desativar isso em Configurações › OCR de mangá.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Reconhecer agora';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Reconhecendo esta página…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Toque para reconhecer';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Toque em um balão de fala ainda não reconhecido para reconhecer a página e consultar as palavras na hora.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR do dispositivo';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Usa o reconhecimento de texto integrado ao seu dispositivo. Sem download, totalmente offline e sem enviar nada — mas é bem mais fraco que o modelo local em balões de fala verticais e escrita à mão.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Este dispositivo não tem reconhecimento de texto integrado disponível';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Os capítulos online não ficam salvos localmente, então só o Google Lens consegue lê-los — a imagem da página é enviada ao Google.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Serviços online';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'APIs de terceiros, indexadores e servidores de mídia';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Fontes de legendas';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Indexadores de recursos';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Coleta de metadados';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB e TMDB são configurados todos aqui';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Reproduzir novamente a voz desta fala';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Capturar a voz novamente';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Acompanhar novas falas';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Repassar os cliques ao jogo';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Alternar o fundo';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Travar a posição';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Abrir a bancada de captura';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Manter no topo';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Fechar a janela flutuante';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Falha na busca de legendas';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Reconhecer novamente a área selecionada';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Falha ao reconhecer novamente a área selecionada';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Área selecionada reconhecida novamente e salva na página';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'No celular, esses modelos alimentam o mecanismo local para o OCR de volume inteiro, por toque e de área selecionada no leitor de mangá.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Arraste um retângulo sobre o texto que deseja reconhecer de novo. O resultado substitui a camada de texto existente dentro do retângulo.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Camada de texto anterior ao novo reconhecimento restaurada';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Não foi possível restaurar a camada de texto anterior';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Mostrar esta aba na barra de navegação; desative para ocultá-la';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'A aba Downloads está oculta em Configurações → Sistema → Módulos de funcionalidades; reative-a para gerenciar as assinaturas.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Abrir local do arquivo';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Não foi possível abrir o local do arquivo deste livro.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Snapshots de backup do banco de dados (${n} arquivos)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Isso remove todos os snapshots de backup do banco de dados que sobraram (corrupt-bak / pre-restore / cópias de migrações antigas). O banco de dados em uso e seus arquivos -wal/-shm não são afetados.';
+      case 'manga_global_search_no_sources':
+        return 'Ainda não há fontes de mangá ativadas. Adicione uma na aba Importar.';
+      case 'manga_global_search_open_sources':
+        return 'Ir para Importar';
+      case 'settings_downloads_open_page_hint':
+        return 'Abrir a página de downloads (tarefas, recursos, assinaturas)';
+      case 'download_video_source_required':
+        return 'É necessária uma fonte de vídeo';
+      case 'game_hook_reason_stale_session':
+        return 'Uma sessão de captura anterior ainda não foi liberada; o Fushi está tentando de novo sozinho, não é preciso fazer nada.';
+      case 'video_subtitle_delete':
+        return 'Excluir arquivo de legenda';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Excluir este arquivo de legenda do disco? Isso não pode ser desfeito.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) =>
+            'Arquivo de legenda excluído: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Falha ao excluir o arquivo de legenda: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Alternar interface de mangá';
+      case 'manga_interface_hide':
+        return 'Ocultar interface';
+      case 'manga_interface_show':
+        return 'Mostrar interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Alinhamento vertical';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Centro';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Topo';
+      case 'storage_entry_external_audio_hint':
+        return 'O áudio referencia os arquivos originais e não ocupa espaço do app';
+      case 'jellyfin_auto_list_title':
+        return 'Listar itens ao entrar em Vídeo';
+      case 'jellyfin_auto_list_hint':
+        return 'Desativado: entrar na página de vídeo não envia nenhuma requisição ao servidor de mídia; puxe para atualizar na videoteca para listar manualmente. Recomendado para servidores muito grandes, onde a enumeração automática parece scraping e pode acionar a detecção de abuso.';
+      case 'jellyfin_libraries_title':
+        return 'Bibliotecas a listar';
+      case 'jellyfin_libraries_hint':
+        return 'Não selecionar nada lista todas as bibliotecas de vídeo. Restringir às bibliotecas que você realmente assiste evita que servidores enormes sejam enumerados por completo.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Não foi possível carregar a lista de bibliotecas';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -233855,7 +235275,7 @@ extension on _StringsRu {
         return 'Не удалось открыть канал захвата; перезапустите Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Не удалось запустить хелпер; проверьте, не удалил ли и не заблокировал ли его антивирус.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Предыдущая сессия захвата всё ещё загружена в игре; перезапустите игру.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam принял запрос на запуск, но процесс игры так и не появился.';
@@ -238948,8 +240368,6 @@ extension on _StringsRu {
         return 'Поиск по всем включённым источникам';
       case 'manga_global_search_prompt':
         return 'Введите название для поиска по всем включённым источникам манги одновременно.';
-      case 'manga_global_search_no_sources':
-        return 'Нет включённых источников манги. Сначала установите и включите расширение.';
       case 'anki_connect_addon_install':
         return 'Установить AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -239701,132 +241119,181 @@ extension on _StringsRu {
       case 'game_hook_reason_capability_probe_failed':
         return 'Компонент захвата не ответил на проверку возможностей. Он найден на диске, но не смог запуститься или не ответил вовремя — возможно, антивирус блокирует его, Fushi не хватает прав на запуск или завис старый вспомогательный процесс. Закройте все игры, проверьте карантин антивируса и попробуйте снова.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Настройка бэкенда загрузок';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Выберите, какой движок будет выполнять загрузки. Это можно изменить в любой момент в настройках загрузок.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Рекомендуется. Загрузки выполняются внутри Fushi — ничего дополнительно устанавливать не нужно.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Подключите Fushi к уже запущенному qBittorrent WebUI.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Настроить';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'В этой установке отсутствует среда выполнения встроенного движка. Переустановите полный пакет или используйте внешний qBittorrent.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Введите полный адрес, например http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Этот репозиторий вернул 0 расширений. Возможно, его адрес указывает на устаревший индекс.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Изменить адрес репозитория';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Продолжить загрузку';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Импорт локальной модели';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Импорт скачанной модели';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Если загрузка внутри приложения не проходит, скачайте эти файлы самостоятельно и импортируйте их здесь. Подойдёт и zip-архив с ними.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Копировать ссылки';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Ссылки скопированы';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Выбрать папку';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Выбрать файлы';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Импорт…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => 'Импортировано файлов: ${count}';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Пригодные файлы модели не распознаны';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            'Неверный размер ${file}: ожидался ${expected}, получен ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'Не хватает ещё файлов: ${count}';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Не удалось импортировать модель';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Распознать по нажатию';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'На этой странице ещё нет текстовых данных. Fushi распознает её движком OCR, выбранным в настройках, после чего можно нажимать на слова и искать их. Сменить движок или отключить это поведение можно в «Настройки › OCR манги».';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Распознать';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Распознавание страницы…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Распознавание по нажатию';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Нажмите на нераспознанное текстовое облачко, чтобы распознать страницу и сразу искать слова.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR устройства';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Использует распознавание текста, встроенное в ваше устройство. Ничего не нужно скачивать, работает полностью офлайн, ничего не отправляется — но с вертикальными облачками и рукописным текстом справляется заметно хуже локальной модели.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'На этом устройстве нет доступного встроенного распознавания текста';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Онлайн-главы не хранятся локально, поэтому прочитать их может только Google Lens — изображение страницы отправляется в Google.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Онлайн-сервисы';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'Сторонние API, индексаторы и медиасерверы';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Источники субтитров';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Индексаторы ресурсов';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Сбор метаданных';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB и TMDB настраиваются здесь вместе';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Воспроизвести озвучку этой реплики';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Перезаписать озвучку';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Следовать за новыми репликами';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Пропускать клики в игру';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Переключить фон';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Закрепить позицию';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Открыть рабочую панель захвата';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Поверх всех окон';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Закрыть оверлей';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Не удалось выполнить поиск субтитров';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Распознать выделенную область заново';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Не удалось заново распознать выделенную область';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Выделенная область распознана заново и сохранена на странице';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'На мобильных устройствах эти модели питают локальный движок для распознавания всего тома, по нажатию и по выделенной области в читалке манги.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Обведите рамкой текст, который нужно распознать заново. Результат заменит существующий текстовый слой внутри рамки.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Текстовый слой до повторного распознавания восстановлен';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Не удалось восстановить предыдущий текстовый слой';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Показывать эту вкладку в панели навигации; выключите, чтобы скрыть';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'Вкладка «Загрузки» скрыта в разделе Настройки → Система → Функциональные модули; включите её снова, чтобы управлять подписками.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Открыть расположение файла';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Не удалось открыть расположение файла этой книги.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Снимки резервных копий базы данных (${n} файлов)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Будут удалены все оставшиеся снимки резервных копий базы данных (corrupt-bak / pre-restore / копии старых миграций). Действующая база данных и её файлы -wal/-shm не затрагиваются.';
+      case 'manga_global_search_no_sources':
+        return 'Включённых источников манги пока нет. Добавьте один на вкладке «Импорт».';
+      case 'manga_global_search_open_sources':
+        return 'К импорту';
+      case 'settings_downloads_open_page_hint':
+        return 'Открыть страницу загрузок (задачи, ресурсы, подписки)';
+      case 'download_video_source_required':
+        return 'Требуется источник видео';
+      case 'game_hook_reason_stale_session':
+        return 'Предыдущий сеанс захвата ещё не освобождён; Fushi повторяет попытку сам, ничего делать не нужно.';
+      case 'video_subtitle_delete':
+        return 'Удалить файл субтитров';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Удалить этот файл субтитров с диска? Это действие нельзя отменить.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Файл субтитров удалён: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Не удалось удалить файл субтитров: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Переключить интерфейс манги';
+      case 'manga_interface_hide':
+        return 'Скрыть интерфейс';
+      case 'manga_interface_show':
+        return 'Показать интерфейс';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Вертикальное выравнивание';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'По центру';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Сверху';
+      case 'storage_entry_external_audio_hint':
+        return 'Аудио ссылается на исходные файлы и не занимает место приложения';
+      case 'jellyfin_auto_list_title':
+        return 'Выводить список при входе в «Видео»';
+      case 'jellyfin_auto_list_hint':
+        return 'Выключено: при открытии страницы видео запрос на медиасервер не отправляется; потяните для обновления в видеотеке, чтобы вывести список вручную. Рекомендуется для очень больших серверов, где автоматический перебор выглядит как скрапинг и может сработать защита от злоупотреблений.';
+      case 'jellyfin_libraries_title':
+        return 'Библиотеки для вывода';
+      case 'jellyfin_libraries_hint':
+        return 'Если ничего не выбрано, выводятся все видеотеки. Ограничение теми библиотеками, которые вы действительно смотрите, избавит огромные серверы от полного перебора.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Не удалось загрузить список библиотек';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -241678,7 +243145,7 @@ extension on _StringsTh {
         return 'ไม่สามารถเปิดช่องทางจับข้อมูลได้; รีสตาร์ท Fushi';
       case 'game_hook_reason_spawn_failed':
         return 'ไม่สามารถเริ่มตัวช่วยได้; ตรวจสอบว่าโปรแกรมป้องกันไวรัสไม่ได้ลบหรือบล็อกมัน';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'เซสชันจับข้อมูลก่อนหน้ายังถูกโหลดอยู่ในเกม; รีสตาร์ทเกมหนึ่งครั้ง';
       case 'game_hook_reason_steam_timeout':
         return 'Steam รับคำขอเปิดแล้วแต่กระบวนการเกมไม่ปรากฏ';
@@ -244772,7 +246239,7 @@ extension on _StringsTh {
       case 'video_setting_torrent_memory_limit':
         return 'จำกัดหน่วยความจำ (MB)';
       case 'video_setting_torrent_natpmp':
-        return 'NAT-PMP port mapping';
+        return 'การแมปพอร์ต NAT-PMP';
       case 'video_setting_torrent_section_antileech':
         return 'ป้องกัน Anti-leech';
       case 'video_setting_torrent_section_session':
@@ -244794,7 +246261,7 @@ extension on _StringsTh {
       case 'video_setting_torrent_upload_slots':
         return 'ช่องอัปโหลดสูงสุด';
       case 'video_setting_torrent_upnp':
-        return 'UPnP port mapping';
+        return 'การแมปพอร์ต UPnP';
       case 'video_setting_torrent_zero_default':
         return '0 = ค่าเริ่มต้น';
       case 'video_setting_torrent_zero_off':
@@ -246758,8 +248225,6 @@ extension on _StringsTh {
         return 'ค้นหาทุกแหล่งที่เปิดใช้งาน';
       case 'manga_global_search_prompt':
         return 'พิมพ์ชื่อเรื่องเพื่อค้นหาทุกแหล่งมังงะที่เปิดใช้งานพร้อมกัน';
-      case 'manga_global_search_no_sources':
-        return 'ไม่มีแหล่งมังงะที่เปิดใช้งาน ติดตั้งและเปิดใช้งานส่วนขยายก่อน';
       case 'anki_connect_addon_install':
         return 'ติดตั้ง AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -247509,132 +248974,179 @@ extension on _StringsTh {
       case 'game_hook_reason_capability_probe_failed':
         return 'ส่วนประกอบจับภาพไม่ตอบสนองการตรวจสอบความสามารถ พบบนดิสก์แต่ไม่สามารถทำงานหรือไม่ตอบสนองทันเวลา แอนตี้ไวรัสอาจบล็อกอยู่ Fushi อาจไม่มีสิทธิ์เปิดใช้ หรืออาจมีกระบวนการ helper ค้างอยู่ ปิดเกมทั้งหมด ตรวจสอบกักกันแอนตี้ไวรัส แล้วลองอีกครั้ง';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'ตั้งค่าแบ็กเอนด์ดาวน์โหลด';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'เลือกเอนจินที่จะใช้ทำงานดาวน์โหลด เปลี่ยนได้ทุกเมื่อในการตั้งค่าดาวน์โหลด';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'แนะนำ ดาวน์โหลดทำงานภายใน Fushi ไม่ต้องติดตั้งอะไรเพิ่ม';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'เชื่อม Fushi เข้ากับ qBittorrent WebUI ที่คุณใช้งานอยู่แล้ว';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'ตั้งค่าเลย';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'การติดตั้งครั้งนี้ไม่มีไลบรารีรันไทม์ของเอนจินในตัว โปรดติดตั้งแพ็กเกจฉบับเต็มใหม่ หรือใช้ qBittorrent ภายนอกแทน';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'กรอกที่อยู่แบบเต็ม เช่น http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'คลังส่วนขยายนี้ส่งกลับส่วนขยาย 0 รายการ ที่อยู่อาจชี้ไปยังดัชนีรุ่นเก่า';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'แก้ไข URL คลังส่วนขยาย';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'ดาวน์โหลดต่อ';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'นำเข้าโมเดลในเครื่อง';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'นำเข้าโมเดลที่ดาวน์โหลดไว้';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'ถ้าดาวน์โหลดในแอปไม่สำเร็จ ให้ดาวน์โหลดไฟล์เหล่านี้เองแล้วนำเข้าที่นี่ ไฟล์ zip ที่มีไฟล์เหล่านี้อยู่ก็ใช้ได้';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'คัดลอกลิงก์ดาวน์โหลด';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'คัดลอกลิงก์ดาวน์โหลดแล้ว';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'เลือกโฟลเดอร์';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'เลือกไฟล์';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'กำลังนำเข้า…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => 'นำเข้าแล้ว ${count} ไฟล์';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'ไม่พบไฟล์โมเดลที่ใช้งานได้';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} มีขนาดไม่ถูกต้อง: ควรเป็น ${expected} แต่ได้ ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'ยังขาดอีก ${count} ไฟล์';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'นำเข้าโมเดลไม่สำเร็จ';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'แตะเพื่อรู้จำข้อความ';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'หน้านี้ยังไม่มีข้อมูลข้อความ Fushi จะรู้จำข้อความด้วยเอนจิน OCR ที่คุณเลือกไว้ในการตั้งค่า จากนั้นคุณจะแตะคำเพื่อค้นความหมายได้ เปลี่ยนเอนจินหรือปิดพฤติกรรมนี้ได้ที่ การตั้งค่า › OCR มังงะ';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'เริ่มรู้จำ';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'กำลังรู้จำหน้านี้…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'แตะเพื่อรู้จำข้อความ';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'แตะช่องคำพูดที่ยังไม่ได้รู้จำ เพื่อรู้จำข้อความทั้งหน้าแล้วค้นคำได้ทันที';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR ของอุปกรณ์';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'ใช้การรู้จำข้อความที่มีมาในอุปกรณ์ ไม่ต้องดาวน์โหลด ทำงานออฟไลน์เต็มรูปแบบ ไม่อัปโหลดข้อมูลใด ๆ — แต่จัดการช่องคำพูดแนวตั้งและลายมือได้ด้อยกว่าโมเดลในเครื่องอย่างเห็นได้ชัด';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'อุปกรณ์นี้ไม่มีการรู้จำข้อความในตัวที่ใช้งานได้';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'หน้าของตอนแบบออนไลน์ไม่ได้เก็บไว้ในเครื่อง จึงอ่านได้ด้วย Google Lens เท่านั้น — ภาพหน้านั้นจะถูกอัปโหลดไปยัง Google';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'บริการออนไลน์';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'API ของบุคคลที่สาม ตัวจัดทำดัชนี และมีเดียเซิร์ฟเวอร์';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'แหล่งคำบรรยาย';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'ตัวจัดทำดัชนีทรัพยากร';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'การดึงเมทาดาทา';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB และ TMDB ตั้งค่ารวมกันที่นี่';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'เล่นเสียงประโยคนี้ซ้ำ';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'บันทึกเสียงใหม่';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'ตามประโยคใหม่';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'คลิกทะลุไปยังเกม';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'สลับพื้นหลัง';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'ล็อกตำแหน่ง';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'เปิดโต๊ะทำงานเก็บข้อมูล';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'ปักไว้บนสุด';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'ปิดหน้าต่างลอย';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'ค้นหาคำบรรยายไม่สำเร็จ';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'รู้จำพื้นที่ที่เลือกใหม่';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'รู้จำพื้นที่ที่เลือกใหม่ไม่สำเร็จ';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'รู้จำพื้นที่ที่เลือกใหม่แล้วและบันทึกลงหน้านี้';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'บนมือถือ โมเดลเหล่านี้ใช้กับเอนจินในเครื่องสำหรับการรู้จำทั้งเล่ม แตะ และพื้นที่ที่เลือกในหน้าอ่านมังงะ';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'ลากกรอบครอบข้อความที่ต้องการรู้จำใหม่ ผลลัพธ์จะแทนที่ชั้นข้อความเดิมภายในกรอบนั้น';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'คืนค่าชั้นข้อความก่อนการรู้จำใหม่แล้ว';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'คืนค่าชั้นข้อความเวอร์ชันก่อนหน้าไม่สำเร็จ';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'แสดงแท็บนี้ในแถบนำทาง ปิดเพื่อซ่อน';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'แท็บดาวน์โหลดถูกซ่อนไว้ใน การตั้งค่า → ระบบ → โมดูลฟีเจอร์ ต้องเปิดกลับมาจึงจะจัดการรายการติดตามได้';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'เปิดตำแหน่งไฟล์';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'ไม่สามารถเปิดตำแหน่งไฟล์ของหนังสือเล่มนี้ได้';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) => 'สแนปช็อตสำรองฐานข้อมูล (${n} ไฟล์)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'จะลบสแนปช็อตสำรองฐานข้อมูลที่ตกค้างทั้งหมด (corrupt-bak / pre-restore / สำเนาการย้ายข้อมูลรุ่นเก่า) ฐานข้อมูลที่ใช้งานอยู่และไฟล์ -wal/-shm ที่มากับมันจะไม่ถูกแตะต้อง';
+      case 'manga_global_search_no_sources':
+        return 'ยังไม่มีแหล่งมังงะที่เปิดใช้งาน เพิ่มได้ที่แท็บนำเข้า';
+      case 'manga_global_search_open_sources':
+        return 'ไปที่นำเข้า';
+      case 'settings_downloads_open_page_hint':
+        return 'เปิดหน้าดาวน์โหลด (งาน / ทรัพยากร / รายการติดตาม)';
+      case 'download_video_source_required':
+        return 'ต้องระบุแหล่งวิดีโอ';
+      case 'game_hook_reason_stale_session':
+        return 'เซสชันการจับก่อนหน้ายังไม่ถูกปล่อย Fushi กำลังลองใหม่ให้เอง ไม่ต้องทำอะไร';
+      case 'video_subtitle_delete':
+        return 'ลบไฟล์คำบรรยาย';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'ลบไฟล์คำบรรยายนี้ออกจากดิสก์ใช่ไหม การกระทำนี้ย้อนกลับไม่ได้\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'ลบไฟล์คำบรรยายแล้ว: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => 'ลบไฟล์คำบรรยายไม่สำเร็จ: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'สลับอินเทอร์เฟซมังงะ';
+      case 'manga_interface_hide':
+        return 'ซ่อนอินเทอร์เฟซ';
+      case 'manga_interface_show':
+        return 'แสดงอินเทอร์เฟซ';
+      case 'gal_hook_text_vertical_alignment':
+        return 'การจัดแนวแนวตั้ง';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'กึ่งกลาง';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'บน';
+      case 'storage_entry_external_audio_hint':
+        return 'เสียงอ้างอิงไฟล์ต้นฉบับ ไม่ใช้พื้นที่ของแอป';
+      case 'jellyfin_auto_list_title':
+        return 'แสดงรายการอัตโนมัติเมื่อเข้าหน้าวิดีโอ';
+      case 'jellyfin_auto_list_hint':
+        return 'ปิด: การเข้าหน้าวิดีโอจะไม่ส่งคำขอไปยังมีเดียเซิร์ฟเวอร์ ให้ดึงเพื่อรีเฟรชในคลังวิดีโอเพื่อแสดงรายการเอง แนะนำสำหรับเซิร์ฟเวอร์ขนาดใหญ่มาก เพราะการไล่รายการอัตโนมัติดูเหมือนการขูดข้อมูลและอาจไปกระตุ้นระบบตรวจจับการใช้งานผิดปกติ';
+      case 'jellyfin_libraries_title':
+        return 'คลังที่จะแสดงรายการ';
+      case 'jellyfin_libraries_hint':
+        return 'ไม่เลือกอะไรเลยจะแสดงคลังวิดีโอทั้งหมด การจำกัดเฉพาะคลังที่ดูจริงช่วยไม่ให้เซิร์ฟเวอร์ขนาดใหญ่ถูกไล่รายการทั้งหมด';
+      case 'jellyfin_libraries_load_failed':
+        return 'โหลดรายการคลังไม่สำเร็จ';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -249491,7 +251003,7 @@ extension on _StringsTr {
         return 'Yakalama kanalı açılamadı; Fushi\'yi yeniden başlatın.';
       case 'game_hook_reason_spawn_failed':
         return 'Yardımcı başlatılamadı; antivirüsün kaldırmadığından veya engellemediğinden emin olun.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Önceki bir yakalama oturumu hâlâ oyunda yüklü; oyunu bir kez yeniden başlatın.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam başlatma isteğini kabul etti ancak oyun işlemi hiç görünmedi.';
@@ -254580,8 +256092,6 @@ extension on _StringsTr {
         return 'Etkin tüm kaynaklarda ara';
       case 'manga_global_search_prompt':
         return 'Etkin tüm manga kaynaklarında aynı anda aramak için bir başlık yazın.';
-      case 'manga_global_search_no_sources':
-        return 'Etkin manga kaynağı yok. Önce bir eklenti yükleyip etkinleştirin.';
       case 'anki_connect_addon_install':
         return 'AnkiConnect\'i yükle';
       case 'anki_connect_addon_install_hint':
@@ -255332,132 +256842,181 @@ extension on _StringsTr {
       case 'game_hook_reason_capability_probe_failed':
         return 'Yakalama bileşeni yetenek kontrolüne yanıt vermedi. Diskte bulundu ancak çalışamadı veya zamanında yanıt vermedi - antivirüs engelliyor olabilir, Fushi\'nin başlatma izni olmayabilir veya artık bir yardımcı işlem takılmış olabilir. Tüm oyunları kapatın, antivirüs karantinasını kontrol edin ve tekrar deneyin.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'İndirme arka ucunu ayarla';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'İndirmelerinizi hangi motorun yürüteceğini seçin. Bunu istediğiniz zaman indirme ayarlarından değiştirebilirsiniz.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Önerilen. İndirmeler Fushi içinde çalışır — ayrıca bir şey kurmanız gerekmez.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Fushi\'yi hâlihazırda çalıştırdığınız bir qBittorrent WebUI\'ye bağlayın.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Şimdi ayarla';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'Bu kurulumda yerleşik motorun çalışma zamanı eksik. Tam paketi yeniden kurun ya da bunun yerine harici qBittorrent kullanın.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Tam bir adres girin, örn. http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Bu depo 0 eklenti döndürdü. Adresi eski bir dizine işaret ediyor olabilir.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Depo adresini düzenle';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'İndirmeyi sürdür';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Yerel model içe aktar';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'İndirilmiş bir modeli içe aktar';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Uygulama içi indirme çalışmıyorsa bu dosyaları kendiniz indirip buradan içe aktarın. Bunları içeren bir zip de olur.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'İndirme bağlantılarını kopyala';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'İndirme bağlantıları kopyalandı';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Klasör seç';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Dosya seç';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'İçe aktarılıyor…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '${count} dosya içe aktarıldı';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Kullanılabilir model dosyası tanınmadı';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} boyutu yanlış: beklenen ${expected}, gelen ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'Hâlâ ${count} dosya eksik';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Model içe aktarılamadı';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Dokunarak tanıma';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Bu sayfanın henüz metin verisi yok. Fushi, ayarlarda seçtiğiniz OCR motoruyla sayfayı tanıyacak; ardından kelimelere dokunup arayabilirsiniz. Motoru değiştirmeyi ya da bunu kapatmayı Ayarlar › Manga OCR bölümünden yapabilirsiniz.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Şimdi tanı';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Bu sayfa tanınıyor…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Dokunarak tanıma';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Tanınmamış bir konuşma balonuna dokunun; sayfa tanınsın, kelimeleri hemen aratın.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'Cihaz OCR\'ı';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Cihazınızdaki yerleşik metin tanımayı kullanır. İndirme yok, tamamen çevrimdışı, hiçbir şey yüklenmez — ancak dikey konuşma balonlarında ve el yazısında yerel modele göre belirgin biçimde zayıftır.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Bu cihazda kullanılabilir yerleşik metin tanıma yok';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Çevrimiçi bölümler yerelde saklanmaz, bu yüzden onları yalnızca Google Lens okuyabilir — sayfa görüntüsü Google\'a yüklenir.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Çevrimiçi hizmetler';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'Üçüncü taraf API\'leri, dizinleyiciler ve medya sunucuları';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Altyazı kaynakları';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Kaynak dizinleyicileri';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Üst veri toplama';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB ve TMDB burada birlikte yapılandırılır';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Bu satırın sesini yeniden oynat';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Sesi yeniden yakala';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Yeni satırları takip et';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Tıklamaları oyuna geçir';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Arka planı değiştir';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Konumu kilitle';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Yakalama tezgâhını aç';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Üstte tut';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Yer paylaşımını kapat';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Altyazı araması başarısız';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Seçili alanı yeniden tanı';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Seçili alanın yeniden tanınması başarısız';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Seçilen alan yeniden tanındı ve sayfaya kaydedildi';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Mobilde bu modeller, manga okuyucudaki tüm cilt, dokunma ve seçili alan OCR\'ı için yerel motoru besler.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Yeniden tanıtmak istediğiniz metnin üzerine bir kutu sürükleyin. Sonuç, kutunun içindeki mevcut metin katmanının yerini alır.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Yeniden taramadan önceki metin katmanı geri yüklendi';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Önceki metin katmanı geri yüklenemedi';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Bu sekmeyi gezinme çubuğunda göster; gizlemek için kapatın';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'İndirmeler sekmesi Ayarlar → Sistem → Özellik modülleri altında gizli; abonelikleri yönetmek için yeniden açın.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Dosya konumunu aç';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Bu kitabın dosya konumu açılamadı.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Veritabanı yedek anlık görüntüleri (${n} dosya)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Bu işlem, kalan tüm veritabanı yedek anlık görüntülerini (corrupt-bak / pre-restore / eski geçiş kopyaları) siler. Çalışan veritabanına ve -wal/-shm yan dosyalarına dokunulmaz.';
+      case 'manga_global_search_no_sources':
+        return 'Henüz etkin manga kaynağı yok. İçe aktar sekmesinden bir tane ekleyin.';
+      case 'manga_global_search_open_sources':
+        return 'İçe aktarmaya git';
+      case 'settings_downloads_open_page_hint':
+        return 'İndirmeler sayfasını aç (görevler, kaynaklar, abonelikler)';
+      case 'download_video_source_required':
+        return 'Video kaynağı gerekli';
+      case 'game_hook_reason_stale_session':
+        return 'Önceki yakalama oturumu henüz serbest bırakılmadı; Fushi kendi kendine yeniden deniyor, bir şey yapmanız gerekmez.';
+      case 'video_subtitle_delete':
+        return 'Altyazı dosyasını sil';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Bu altyazı dosyası diskten silinsin mi? Bu işlem geri alınamaz.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Altyazı dosyası silindi: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Altyazı dosyası silinemedi: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Manga arayüzünü aç/kapat';
+      case 'manga_interface_hide':
+        return 'Arayüzü gizle';
+      case 'manga_interface_show':
+        return 'Arayüzü göster';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Dikey hizalama';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Orta';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Üst';
+      case 'storage_entry_external_audio_hint':
+        return 'Ses özgün dosyaları kullanır, uygulama depolamasında yer kaplamaz';
+      case 'jellyfin_auto_list_title':
+        return 'Video\'ya girerken öğeleri otomatik listele';
+      case 'jellyfin_auto_list_hint':
+        return 'Kapalı: video sayfasına girmek medya sunucusuna hiçbir istek göndermez; öğeleri elle listelemek için video kitaplığında çekerek yenileyin. Otomatik sayımın kazıma gibi görünüp kötüye kullanım tespitini tetikleyebildiği çok büyük sunucular için önerilir.';
+      case 'jellyfin_libraries_title':
+        return 'Listelenecek kitaplıklar';
+      case 'jellyfin_libraries_hint':
+        return 'Hiçbir şey seçmezseniz tüm video kitaplıkları listelenir. Gerçekten izlediğiniz kitaplıklarla sınırlamak, devasa sunucuların baştan sona sayılmasını önler.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Kitaplık listesi yüklenemedi';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -257315,7 +258874,7 @@ extension on _StringsVi {
         return 'Không thể mở kênh thu thập; khởi động lại Fushi.';
       case 'game_hook_reason_spawn_failed':
         return 'Không thể khởi chạy helper; kiểm tra xem phần mềm diệt virus có xóa hoặc chặn nó không.';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return 'Phiên thu thập trước vẫn được tải trong trò chơi; khởi động lại trò chơi.';
       case 'game_hook_reason_steam_timeout':
         return 'Steam đã chấp nhận yêu cầu khởi chạy nhưng tiến trình trò chơi không xuất hiện.';
@@ -262397,8 +263956,6 @@ extension on _StringsVi {
         return 'Tìm kiếm mọi nguồn đã bật';
       case 'manga_global_search_prompt':
         return 'Nhập tựa đề để tìm kiếm tất cả nguồn truyện tranh đã bật cùng lúc.';
-      case 'manga_global_search_no_sources':
-        return 'Không có nguồn truyện tranh nào được bật. Cài đặt và bật một tiện ích mở rộng trước.';
       case 'anki_connect_addon_install':
         return 'Cài đặt AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -263149,132 +264706,180 @@ extension on _StringsVi {
       case 'game_hook_reason_capability_probe_failed':
         return 'Thành phần chụp không phản hồi kiểm tra khả năng. Nó được tìm thấy trên đĩa nhưng không thể chạy hoặc không phản hồi kịp thời - phần mềm diệt virus có thể đang chặn, Fushi có thể thiếu quyền để khởi chạy, hoặc tiến trình trợ giúp cũ có thể bị treo. Đóng tất cả trò chơi, kiểm tra vùng cách ly của phần mềm diệt virus, sau đó thử lại.';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return 'Thiết lập backend tải xuống';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return 'Chọn công cụ sẽ thực hiện việc tải xuống. Bạn có thể đổi bất cứ lúc nào trong cài đặt tải xuống.';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return 'Khuyên dùng. Việc tải xuống chạy ngay trong Fushi — không cần cài thêm gì.';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return 'Kết nối Fushi tới một qBittorrent WebUI mà bạn đang chạy.';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return 'Thiết lập ngay';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return 'Bản cài đặt này thiếu thư viện chạy của công cụ tích hợp. Hãy cài lại gói đầy đủ, hoặc dùng qBittorrent bên ngoài.';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return 'Nhập địa chỉ đầy đủ, ví dụ http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return 'Kho này trả về 0 tiện ích mở rộng. Địa chỉ của nó có thể đang trỏ tới chỉ mục cũ.';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return 'Sửa địa chỉ kho';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return 'Tiếp tục tải';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return 'Nhập mô hình cục bộ';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return 'Nhập mô hình đã tải về';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return 'Nếu tải trong ứng dụng không được, hãy tự tải các tệp này rồi nhập vào đây. Một tệp zip chứa chúng cũng được.';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return 'Sao chép liên kết tải';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return 'Đã sao chép liên kết tải';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return 'Chọn thư mục';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return 'Chọn tệp';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return 'Đang nhập…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => 'Đã nhập ${count} tệp';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return 'Không nhận ra tệp mô hình nào dùng được';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} sai kích thước: cần ${expected}, nhận ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => 'Vẫn thiếu ${count} tệp';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return 'Nhập mô hình thất bại';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return 'Chạm để nhận dạng';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return 'Trang này chưa có dữ liệu văn bản. Fushi sẽ nhận dạng bằng công cụ OCR bạn chọn trong cài đặt, sau đó bạn có thể chạm vào từ để tra cứu. Bạn có thể đổi công cụ hoặc tắt tính năng này trong Cài đặt › OCR truyện tranh.';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return 'Nhận dạng ngay';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return 'Đang nhận dạng trang này…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return 'Chạm để nhận dạng';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return 'Chạm vào bong bóng thoại chưa nhận dạng để nhận dạng cả trang và tra từ ngay.';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return 'OCR của thiết bị';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return 'Dùng khả năng nhận dạng văn bản có sẵn trên thiết bị. Không cần tải về, hoàn toàn ngoại tuyến, không gửi gì đi — nhưng kém hơn hẳn mô hình cục bộ với bong bóng thoại dọc và chữ viết tay.';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return 'Thiết bị này không có sẵn khả năng nhận dạng văn bản';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return 'Chương trực tuyến không lưu trên máy, nên chỉ Google Lens đọc được — ảnh trang sẽ được tải lên Google.';
       case 'settings_destination_services':
-        return 'Online services';
+        return 'Dịch vụ trực tuyến';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return 'API bên thứ ba, trình lập chỉ mục và máy chủ media';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return 'Nguồn phụ đề';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return 'Trình lập chỉ mục tài nguyên';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return 'Thu thập siêu dữ liệu';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB và TMDB được cấu hình chung tại đây';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return 'Phát lại giọng của câu này';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return 'Thu lại giọng nói';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return 'Bám theo câu thoại mới';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return 'Cho chuột xuyên xuống game';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return 'Đổi nền';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return 'Khoá vị trí';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return 'Mở bàn làm việc thu thập';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return 'Luôn nổi trên cùng';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return 'Đóng cửa sổ nổi';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return 'Tìm phụ đề thất bại';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Nhận dạng lại vùng đã chọn';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Nhận dạng lại vùng đã chọn thất bại';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return 'Đã nhận dạng lại vùng đã chọn và lưu vào trang';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Trên di động, các mô hình này chạy engine cục bộ cho việc nhận dạng cả tập, chạm và vùng đã chọn trong trình đọc truyện tranh.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Kéo một khung quanh phần chữ cần nhận dạng lại. Kết quả sẽ thay thế lớp văn bản đang có bên trong khung đó.';
       case 'manga_rescan_undone':
-        return 'Restored the text layer from before the re-scan';
+        return 'Đã khôi phục lớp văn bản trước khi quét lại';
       case 'manga_rescan_undo_failed':
-        return 'Could not restore the previous text layer';
+        return 'Không khôi phục được lớp văn bản trước đó';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return 'Hiện tab này trên thanh điều hướng; tắt để ẩn';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return 'Tab Tải xuống đang bị ẩn trong Cài đặt → Hệ thống → Mô-đun tính năng; bật lại để quản lý đăng ký.';
       case 'book_file_location_open':
-        return 'Open file location';
+        return 'Mở vị trí tệp';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return 'Không mở được vị trí tệp của sách này.';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) =>
+            'Ảnh chụp sao lưu cơ sở dữ liệu (${n} tệp)';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return 'Thao tác này xoá toàn bộ ảnh chụp sao lưu cơ sở dữ liệu còn sót lại (corrupt-bak / pre-restore / bản sao di trú cũ). Cơ sở dữ liệu đang dùng và các tệp -wal/-shm đi kèm không bị đụng tới.';
+      case 'manga_global_search_no_sources':
+        return 'Chưa có nguồn truyện tranh nào được bật. Thêm một nguồn ở tab Nhập.';
+      case 'manga_global_search_open_sources':
+        return 'Tới phần nhập';
+      case 'settings_downloads_open_page_hint':
+        return 'Mở trang Tải xuống (tác vụ, tài nguyên, đăng ký)';
+      case 'download_video_source_required':
+        return 'Cần nguồn video';
+      case 'game_hook_reason_stale_session':
+        return 'Phiên thu trước chưa được giải phóng; Fushi đang tự thử lại, bạn không cần làm gì.';
+      case 'video_subtitle_delete':
+        return 'Xoá tệp phụ đề';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Xoá tệp phụ đề này khỏi ổ đĩa? Không thể hoàn tác.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Đã xoá tệp phụ đề: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => 'Xoá tệp phụ đề thất bại: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Bật/tắt giao diện truyện tranh';
+      case 'manga_interface_hide':
+        return 'Ẩn giao diện';
+      case 'manga_interface_show':
+        return 'Hiện giao diện';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Căn dọc';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Giữa';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Trên';
+      case 'storage_entry_external_audio_hint':
+        return 'Âm thanh tham chiếu tệp gốc, không chiếm dung lượng của ứng dụng';
+      case 'jellyfin_auto_list_title':
+        return 'Tự động liệt kê mục khi vào Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Tắt: vào trang video sẽ không gửi yêu cầu nào tới máy chủ phương tiện; kéo để làm mới trong thư viện video để liệt kê thủ công. Nên tắt với máy chủ rất lớn, vì việc liệt kê tự động trông giống thu thập dữ liệu và có thể kích hoạt cơ chế phát hiện lạm dụng.';
+      case 'jellyfin_libraries_title':
+        return 'Thư viện cần liệt kê';
+      case 'jellyfin_libraries_hint':
+        return 'Không chọn gì sẽ liệt kê mọi thư viện video. Thu hẹp về những thư viện bạn thực sự xem giúp máy chủ khổng lồ không bị liệt kê toàn bộ.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Không tải được danh sách thư viện';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
@@ -265111,7 +266716,7 @@ extension on _StringsZhCn {
         return '捕获通道无法打开，请重启 Fushi。';
       case 'game_hook_reason_spawn_failed':
         return '语音钩子组件无法启动，请检查是否被杀毒软件删除或拦截。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '游戏里还残留上一次的捕获会话，请重启一次游戏。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam 已接受启动请求，但始终没有出现游戏进程。';
@@ -270154,8 +271759,6 @@ extension on _StringsZhCn {
         return '搜索所有已启用来源';
       case 'manga_global_search_prompt':
         return '输入书名，一次搜索所有已启用的漫画来源。';
-      case 'manga_global_search_no_sources':
-        return '没有已启用的漫画来源，请先安装并启用扩展。';
       case 'anki_connect_addon_install':
         return '安装 AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -271030,6 +272633,52 @@ extension on _StringsZhCn {
         return '打开文件位置';
       case 'book_file_location_failed':
         return '无法打开这本书的文件位置。';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) => '数据库备份快照（${n} 个文件）';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return '将删除全部数据库备份快照残留（corrupt-bak / pre-restore / 旧版本迁移副本）。正在使用的数据库及其 -wal/-shm 侧车不受影响。';
+      case 'manga_global_search_no_sources':
+        return '还没有已启用的漫画来源，去「导入」添加一个。';
+      case 'manga_global_search_open_sources':
+        return '去导入';
+      case 'settings_downloads_open_page_hint':
+        return '打开下载页（任务 / 资源 / 订阅）';
+      case 'download_video_source_required':
+        return '需要视频来源';
+      case 'game_hook_reason_stale_session':
+        return '上一次捕获会话还没释放干净，Fushi 正在自动重试，不用做任何操作。';
+      case 'video_subtitle_delete':
+        return '删除字幕文件';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) => '确定从磁盘删除这个字幕文件？此操作不可撤销。\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => '已删除字幕文件：${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => '删除字幕文件失败：${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return '切换漫画界面';
+      case 'manga_interface_hide':
+        return '隐藏界面';
+      case 'manga_interface_show':
+        return '显示界面';
+      case 'gal_hook_text_vertical_alignment':
+        return '垂直对齐';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '居中';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '顶部';
+      case 'storage_entry_external_audio_hint':
+        return '音频引用原文件，不占用应用空间';
+      case 'jellyfin_auto_list_title':
+        return '进入视频页时自动列出条目';
+      case 'jellyfin_auto_list_hint':
+        return '关闭后：进入视频页不向媒体服务器发任何请求，需在视频库下拉刷新手动列出。超大服务器建议关闭——自动枚举看起来像刮削，可能触发服务器的滥用检测。';
+      case 'jellyfin_libraries_title':
+        return '要列出的媒体库';
+      case 'jellyfin_libraries_hint':
+        return '不选 = 列出全部视频媒体库。只勾你真正会看的库，超大服务器就不会被整台枚举。';
+      case 'jellyfin_libraries_load_failed':
+        return '读取媒体库清单失败';
       case 'delete_local_files':
         return '同时删除本地文件';
       case 'delete_local_files_desc':
@@ -272866,7 +274515,7 @@ extension on _StringsZhHk {
         return '捕獲通道無法打開，請重啟 Fushi。';
       case 'game_hook_reason_spawn_failed':
         return '語音鉤子組件無法啟動，請檢查是否被殺毒軟體刪除或攔截。';
-      case 'game_hook_reason_stale_session':
+      case 'game_hook_reason_resident_hook_mismatch':
         return '遊戲裡還殘留上一次的捕獲會話，請重啟一次遊戲。';
       case 'game_hook_reason_steam_timeout':
         return 'Steam 已接受啟動請求，但始終沒有出現遊戲進程。';
@@ -277910,8 +279559,6 @@ extension on _StringsZhHk {
         return '搜索所有已啟用來源';
       case 'manga_global_search_prompt':
         return '輸入書名，一次搜索所有已啟用的漫畫來源。';
-      case 'manga_global_search_no_sources':
-        return '沒有已啟用的漫畫來源，請先安裝並啟用擴展。';
       case 'anki_connect_addon_install':
         return '安裝 AnkiConnect';
       case 'anki_connect_addon_install_hint':
@@ -278660,110 +280307,110 @@ extension on _StringsZhHk {
       case 'game_hook_reason_capability_probe_failed':
         return '捕獲組件沒有回應能力探測：檔案在，但跑不起來或沒在時限內回應。多為殺毒軟體攔截、權限不足，或上一局殘留的 helper 進程掛住了。請關閉所有遊戲、檢查殺軟隔離區後重試。';
       case 'download_backend_setup_title':
-        return 'Set up download backend';
+        return '設定下載後端';
       case 'download_backend_setup_intro':
-        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+        return '選擇由哪個引擎執行下載工作，之後可隨時在下載設定裡更改。';
       case 'download_backend_embedded_hint':
-        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+        return '建議使用。下載在 Fushi 內部完成，毋須另外安裝軟件。';
       case 'download_backend_qb_hint':
-        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+        return '連接到你已經在運行的 qBittorrent WebUI。';
       case 'download_backend_setup_start':
-        return 'Set up now';
+        return '立即設定';
       case 'download_backend_embedded_unavailable':
-        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+        return '今次安裝欠缺內置引擎執行庫。請重新安裝完整安裝包，或改用外接 qBittorrent。';
       case 'download_backend_qb_url_invalid':
-        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+        return '請填寫完整位址，例如 http://127.0.0.1:8080';
       case 'mihon_store_zero_extensions':
-        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+        return '此存放庫傳回 0 個擴充功能，位址可能指向了舊版索引。';
       case 'mihon_store_edit':
-        return 'Edit repository URL';
+        return '編輯存放庫位址';
       case 'manga_ocr_download_resume':
-        return 'Resume download';
+        return '繼續下載';
       case 'manga_ocr_import':
-        return 'Import local model';
+        return '匯入本機模型';
       case 'manga_ocr_import_title':
-        return 'Import a downloaded model';
+        return '匯入已下載的模型';
       case 'manga_ocr_import_intro':
-        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+        return '如果應用程式內下載不通，可自行下載下列檔案再從這裡匯入；亦支援包含這些檔案的 zip。';
       case 'manga_ocr_import_copy_urls':
-        return 'Copy download links';
+        return '複製下載連結';
       case 'manga_ocr_import_urls_copied':
-        return 'Download links copied';
+        return '已複製下載連結';
       case 'manga_ocr_import_pick_folder':
-        return 'Pick folder';
+        return '選擇資料夾';
       case 'manga_ocr_import_pick_files':
-        return 'Pick files';
+        return '選擇檔案';
       case 'manga_ocr_import_running':
-        return 'Importing…';
+        return '正在匯入…';
       case 'manga_ocr_import_done':
-        return ({required Object count}) => 'Imported ${count} file(s)';
+        return ({required Object count}) => '已匯入 ${count} 個檔案';
       case 'manga_ocr_import_matched_nothing':
-        return 'No usable model files were recognised';
+        return '認不出可用的模型檔案';
       case 'manga_ocr_import_size_mismatch':
         return (
                 {required Object file,
                 required Object expected,
                 required Object actual}) =>
-            '${file} has the wrong size: expected ${expected}, got ${actual}';
+            '${file} 大小不符：應為 ${expected}，實為 ${actual}';
       case 'manga_ocr_import_still_missing':
-        return ({required Object count}) => 'Still missing ${count} file(s)';
+        return ({required Object count}) => '仍欠 ${count} 個檔案';
       case 'manga_ocr_import_failed':
-        return 'Model import failed';
+        return '模型匯入失敗';
       case 'manga_tap_ocr_notice_title':
-        return 'Tap to recognise';
+        return '點一下即識別';
       case 'manga_tap_ocr_notice_body':
-        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+        return '這一頁還未有文字資料。Fushi 會用你在設定中選擇的 OCR 引擎就地識別，識別完成後即可點字查詢。可在「設定 › 漫畫 OCR」中更換引擎或關閉這個行為。';
       case 'manga_tap_ocr_notice_confirm':
-        return 'Recognise now';
+        return '開始識別';
       case 'manga_tap_ocr_running':
-        return 'Recognising this page…';
+        return '正在識別本頁…';
       case 'manga_tap_to_ocr':
-        return 'Tap to recognise';
+        return '點擊即識別';
       case 'manga_tap_to_ocr_desc':
-        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+        return '點一下尚未識別的對話框，即可就地識別本頁並直接查詞。';
       case 'manga_ocr_engine_system':
-        return 'Device OCR';
+        return '裝置內置';
       case 'manga_ocr_engine_system_desc':
-        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+        return '使用裝置內置的文字識別。毋須下載、完全離線、不會上傳任何內容；但對直排對話框和手寫字明顯不及本機模型。';
       case 'manga_ocr_engine_system_unavailable':
-        return 'This device has no built-in text recognition available';
+        return '此裝置沒有可用的系統文字識別';
       case 'manga_tap_ocr_online_lens_only':
-        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+        return '網上章節的頁面不在本機，只能用 Google Lens 識別——頁面圖片會上傳至 Google。';
       case 'settings_destination_services':
-        return 'Online services';
+        return '網上服務';
       case 'settings_destination_services_summary':
-        return 'Third-party APIs, indexers and media servers';
+        return '第三方 API、索引器與媒體伺服器';
       case 'section_services_subtitles':
-        return 'Subtitle sources';
+        return '字幕來源';
       case 'section_services_resources':
-        return 'Resource indexers';
+        return '資源索引器';
       case 'section_services_metadata':
-        return 'Metadata scraping';
+        return '元數據刮削';
       case 'settings_services_link_subtitle':
-        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+        return 'Jimaku、OpenSubtitles、Torznab、Jellyfin、AniDB、TMDB 統一在此設定';
       case 'game_hook_btn_replay':
-        return 'Replay this line\'s voice';
+        return '重播本句語音';
       case 'game_hook_btn_recapture':
-        return 'Recapture the voice';
+        return '重新錄製語音';
       case 'game_hook_btn_follow':
-        return 'Follow new lines';
+        return '跟隨新台詞';
       case 'game_hook_btn_passthrough':
-        return 'Click through to the game';
+        return '滑鼠穿透到遊戲';
       case 'game_hook_btn_transparency':
-        return 'Toggle the background';
+        return '切換底板';
       case 'game_hook_btn_lock':
-        return 'Lock the position';
+        return '鎖定位置';
       case 'game_hook_btn_workbench':
-        return 'Open the capture workbench';
+        return '開啟取材工作台';
       case 'game_hook_btn_topmost':
-        return 'Keep on top';
+        return '保持置頂';
       case 'game_hook_btn_close':
-        return 'Close the overlay';
+        return '關閉浮窗';
       case 'video_jimaku_search_failed':
-        return 'Subtitle search failed';
+        return '字幕搜尋失敗';
       case 'video_subtitle_error_with_code':
         return ({required Object msg, required Object code}) =>
-            '${msg} (HTTP ${code})';
+            '${msg}（HTTP ${code}）';
       case 'manga_rescan_run':
         return '重新識別框選區域';
       case 'manga_rescan_failed':
@@ -278779,13 +280426,59 @@ extension on _StringsZhHk {
       case 'manga_rescan_undo_failed':
         return '還原上一版文字層失敗';
       case 'module_tool_toggle_hint':
-        return 'Show this tab in the navigation bar; turn off to hide it';
+        return '在導覽列顯示此頁；關閉即隱藏';
       case 'module_downloads_hidden_hint':
-        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
+        return '「下載」頁已在 設定 → 系統 → 功能模塊 中隱藏；重新開啟才能管理訂閱。';
       case 'book_file_location_open':
-        return 'Open file location';
+        return '開啟檔案位置';
       case 'book_file_location_failed':
-        return 'Could not open this book\'s file location.';
+        return '無法開啟這本書的檔案位置。';
+      case 'storage_entry_database_snapshots_label':
+        return ({required Object n}) => '資料庫備份快照（${n} 個檔案）';
+      case 'storage_entry_delete_database_snapshots_confirm_body':
+        return '將刪除全部殘留的資料庫備份快照（corrupt-bak / pre-restore / 舊版本遷移副本）。使用中的資料庫及其 -wal/-shm 附屬檔案不受影響。';
+      case 'manga_global_search_no_sources':
+        return '尚未啟用任何漫畫來源，去「導入」加一個。';
+      case 'manga_global_search_open_sources':
+        return '去匯入';
+      case 'settings_downloads_open_page_hint':
+        return '開啟下載頁（工作 / 資源 / 訂閱）';
+      case 'download_video_source_required':
+        return '需要影片來源';
+      case 'game_hook_reason_stale_session':
+        return '上一次捕獲會話還沒釋放乾淨，Fushi 正在自動重試，不用做任何操作。';
+      case 'video_subtitle_delete':
+        return '刪除字幕檔案';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) => '確定從磁碟刪除這個字幕檔案？此操作無法復原。\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => '已刪除字幕檔案：${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => '刪除字幕檔案失敗：${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return '切換漫畫介面';
+      case 'manga_interface_hide':
+        return '隱藏介面';
+      case 'manga_interface_show':
+        return '顯示介面';
+      case 'gal_hook_text_vertical_alignment':
+        return '垂直對齊';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '置中';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '頂部';
+      case 'storage_entry_external_audio_hint':
+        return '音訊引用原檔案，不佔用應用空間';
+      case 'jellyfin_auto_list_title':
+        return '進入影片頁時自動列出項目';
+      case 'jellyfin_auto_list_hint':
+        return '關閉後：進入影片頁不向媒體伺服器發任何請求，需在影片庫下拉重新整理手動列出。超大伺服器建議關閉——自動列舉看起來像刮削，可能觸發伺服器的濫用偵測。';
+      case 'jellyfin_libraries_title':
+        return '要列出的媒體庫';
+      case 'jellyfin_libraries_hint':
+        return '不選 = 列出全部影片媒體庫。只勾你真正會看的庫，超大伺服器就不會被整台列舉。';
+      case 'jellyfin_libraries_load_failed':
+        return '讀取媒體庫清單失敗';
       case 'delete_local_files':
         return 'Also delete local files';
       case 'delete_local_files_desc':
