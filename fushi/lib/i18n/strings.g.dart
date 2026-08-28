@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 64821 (3813 per locale)
 ///
-/// Built on 2026-08-27 at 08:01 UTC
+/// Built on 2026-08-28 at 04:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -13970,18 +13970,18 @@ class _StringsAr extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'إعادة التعرف على المنطقة المحددة';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'فشلت إعادة التعرف على المنطقة المحددة';
   @override
   String get manga_rescan_region_updated =>
       'تم التعرف على المنطقة المحددة من جديد وحُفظت في الصفحة';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'على الأجهزة المحمولة، تشغّل هذه النماذج المحرك المحلي للتعرف على المجلد كاملًا وبالنقر وعلى المنطقة المحددة في قارئ المانغا.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'اسحب مربعًا فوق النص الذي تريد إعادة التعرف عليه. تحل النتيجة محل طبقة النص الموجودة داخل المربع.';
   @override
   String get manga_rescan_undone =>
       'تمت استعادة طبقة النص التي كانت قبل إعادة المسح';
@@ -14005,7 +14005,7 @@ class _StringsAr extends _StringsEn {
       'يؤدي هذا إلى حذف كل لقطات النسخ الاحتياطي المتبقية لقاعدة البيانات (corrupt-bak / pre-restore / نسخ الترحيل القديمة). لا تُمس قاعدة البيانات العاملة ولا ملفا -wal/-shm التابعان لها.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'لا توجد مصادر مانغا مفعّلة بعد. أضف واحدًا من تبويب الاستيراد.';
   @override
   String get manga_global_search_open_sources => 'الذهاب إلى الاستيراد';
   @override
@@ -14015,7 +14015,7 @@ class _StringsAr extends _StringsEn {
   String get download_video_source_required => 'مطلوب مصدر فيديو';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'لم تُحرَّر جلسة الالتقاط السابقة بعد؛ يعيد Fushi المحاولة تلقائيًا، ولا حاجة لأي إجراء.';
   @override
   String get video_subtitle_delete => 'حذف ملف الترجمة';
   @override
@@ -23009,18 +23009,19 @@ class _StringsDe extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Ausgewählten Bereich neu erkennen';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Neuerkennung des ausgewählten Bereichs fehlgeschlagen';
   @override
   String get manga_rescan_region_updated =>
       'Ausgewählter Bereich neu erkannt und in die Seite übernommen';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Auf Mobilgeräten versorgen diese Modelle die lokale Engine für Ganzband-, Tipp- und Bereichs-OCR im Manga-Reader.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Ziehe einen Rahmen über den Text, der neu erkannt werden soll. Das Ergebnis ersetzt die vorhandene Textebene innerhalb des Rahmens.';
   @override
   String get manga_rescan_undone =>
       'Textebene von vor der Neuerkennung wiederhergestellt';
@@ -23046,7 +23047,7 @@ class _StringsDe extends _StringsEn {
       'Damit werden alle übrig gebliebenen Datenbank-Backup-Snapshots entfernt (corrupt-bak / pre-restore / alte Migrationskopien). Die aktive Datenbank und ihre -wal/-shm-Begleitdateien bleiben unangetastet.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Noch keine aktivierten Manga-Quellen. Füge eine im Tab „Importieren“ hinzu.';
   @override
   String get manga_global_search_open_sources => 'Zum Import';
   @override
@@ -23056,7 +23057,7 @@ class _StringsDe extends _StringsEn {
   String get download_video_source_required => 'Videoquelle erforderlich';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Eine frühere Aufnahmesitzung wurde noch nicht freigegeben; Fushi versucht es von selbst erneut, du musst nichts tun.';
   @override
   String get video_subtitle_delete => 'Untertiteldatei löschen';
   @override
@@ -32094,18 +32095,19 @@ class _StringsEs extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Volver a reconocer el área seleccionada';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Falló el reconocimiento del área seleccionada';
   @override
   String get manga_rescan_region_updated =>
       'Área seleccionada reconocida de nuevo y guardada en la página';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'En móvil, estos modelos alimentan el motor local para el OCR de volumen completo, por toque y de área seleccionada en el lector de manga.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Arrastra un recuadro sobre el texto que quieras volver a reconocer. El resultado reemplaza la capa de texto existente dentro del recuadro.';
   @override
   String get manga_rescan_undone =>
       'Se restauró la capa de texto anterior al nuevo reconocimiento';
@@ -32131,7 +32133,7 @@ class _StringsEs extends _StringsEn {
       'Esto elimina todas las instantáneas de copia de seguridad de la base de datos que hayan quedado (corrupt-bak / pre-restore / copias de migraciones antiguas). La base de datos en uso y sus archivos -wal/-shm no se tocan.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Aún no hay fuentes de manga habilitadas. Añade una en la pestaña Importar.';
   @override
   String get manga_global_search_open_sources => 'Ir a Importar';
   @override
@@ -32142,7 +32144,7 @@ class _StringsEs extends _StringsEn {
       'Se requiere una fuente de vídeo';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Una sesión de captura anterior aún no se ha liberado; Fushi lo está reintentando solo, no hace falta que hagas nada.';
   @override
   String get video_subtitle_delete => 'Eliminar archivo de subtítulos';
   @override
@@ -41211,18 +41213,19 @@ class _StringsFr extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Réanalyser la zone sélectionnée';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Échec de la réanalyse de la zone sélectionnée';
   @override
   String get manga_rescan_region_updated =>
       'Zone sélectionnée re-reconnue et enregistrée dans la page';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Sur mobile, ces modèles alimentent le moteur local pour l\'OCR du volume entier, au toucher et de la zone sélectionnée dans le lecteur de manga.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Tracez un cadre sur le texte à réanalyser. Le résultat remplace la couche de texte existante à l\'intérieur du cadre.';
   @override
   String get manga_rescan_undone =>
       'Couche de texte d\'avant la nouvelle reconnaissance restaurée';
@@ -41248,7 +41251,7 @@ class _StringsFr extends _StringsEn {
       'Cela supprime tous les instantanés de sauvegarde de la base de données restants (corrupt-bak / pre-restore / copies de migration héritées). La base de données active et ses fichiers annexes -wal/-shm ne sont pas touchés.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Aucune source de manga activée pour l\'instant. Ajoutez-en une dans l\'onglet Importer.';
   @override
   String get manga_global_search_open_sources => 'Aller à Importer';
   @override
@@ -41258,7 +41261,7 @@ class _StringsFr extends _StringsEn {
   String get download_video_source_required => 'Source vidéo requise';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Une session de capture précédente n\'a pas encore été libérée ; Fushi réessaie tout seul, aucune action n\'est nécessaire.';
   @override
   String get video_subtitle_delete => 'Supprimer le fichier de sous-titres';
   @override
@@ -50158,18 +50161,18 @@ class _StringsId extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Kenali ulang area terpilih';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'Gagal mengenali ulang area terpilih';
   @override
   String get manga_rescan_region_updated =>
       'Area terpilih dikenali ulang dan disimpan ke halaman';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Di ponsel, model-model ini menjalankan mesin lokal untuk OCR satu volume penuh, ketukan, dan area terpilih di pembaca manga.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Seret kotak di atas teks yang ingin dikenali ulang. Hasilnya menggantikan lapisan teks yang sudah ada di dalam kotak itu.';
   @override
   String get manga_rescan_undone =>
       'Lapisan teks sebelum pemindaian ulang telah dipulihkan';
@@ -50195,7 +50198,7 @@ class _StringsId extends _StringsEn {
       'Ini menghapus semua sisa snapshot cadangan basis data (corrupt-bak / pre-restore / salinan migrasi lama). Basis data yang aktif beserta berkas -wal/-shm miliknya tidak disentuh.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Belum ada sumber manga yang aktif. Tambahkan satu di tab Impor.';
   @override
   String get manga_global_search_open_sources => 'Ke Impor';
   @override
@@ -50205,7 +50208,7 @@ class _StringsId extends _StringsEn {
   String get download_video_source_required => 'Perlu sumber video';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Sesi penangkapan sebelumnya belum dilepaskan; Fushi sedang mencoba lagi sendiri, tidak perlu melakukan apa pun.';
   @override
   String get video_subtitle_delete => 'Hapus berkas subtitle';
   @override
@@ -58627,7 +58630,7 @@ class _StringsIt extends _StringsEn {
   String get media_source_network_subtitle_video =>
       'Libreria remota WebDAV (streaming diretto)';
   @override
-  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  String get jellyfin_settings_title => 'Server multimediale (Jellyfin / Emby)';
   @override
   String get jellyfin_server_url => 'URL server';
   @override
@@ -59178,18 +59181,18 @@ class _StringsIt extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Ripeti l\'OCR sull\'area selezionata';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'OCR dell\'area selezionata non riuscito';
   @override
   String get manga_rescan_region_updated =>
       'Area selezionata riconosciuta di nuovo e salvata nella pagina';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Su mobile questi modelli alimentano il motore locale per l\'OCR dell\'intero volume, al tocco e dell\'area selezionata nel lettore manga.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Trascina un riquadro sul testo da rianalizzare. Il risultato sostituisce il livello di testo già presente nel riquadro.';
   @override
   String get manga_rescan_undone =>
       'Ripristinato il livello di testo precedente al nuovo riconoscimento';
@@ -59215,7 +59218,7 @@ class _StringsIt extends _StringsEn {
       'Rimuove tutti gli snapshot di backup del database rimasti (corrupt-bak / pre-restore / copie di migrazioni precedenti). Il database in uso e i suoi file -wal/-shm non vengono toccati.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Nessuna fonte manga attiva. Aggiungine una nella scheda Importa.';
   @override
   String get manga_global_search_open_sources => 'Vai a Importa';
   @override
@@ -59225,7 +59228,7 @@ class _StringsIt extends _StringsEn {
   String get download_video_source_required => 'Serve una fonte video';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Una sessione di cattura precedente non è ancora stata rilasciata; Fushi sta riprovando da solo, non serve fare nulla.';
   @override
   String get video_subtitle_delete => 'Elimina file dei sottotitoli';
   @override
@@ -67652,17 +67655,17 @@ class _StringsJa extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg}（HTTP ${code}）';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => '選択範囲を再認識';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => '選択範囲の再認識に失敗しました';
   @override
   String get manga_rescan_region_updated => '選択範囲を再認識してページに保存しました';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'モバイルでは、これらのモデルがマンガリーダーの巻全体・タップ・選択範囲の OCR を担うローカルエンジンに使われます。';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      '再認識したいテキストを枠で囲んでドラッグします。結果は枠内の既存のテキストレイヤーを置き換えます。';
   @override
   String get manga_rescan_undone => '再認識する前のテキストレイヤーに戻しました';
   @override
@@ -67684,7 +67687,7 @@ class _StringsJa extends _StringsEn {
       '残っているデータベースのバックアップスナップショット（corrupt-bak / pre-restore / 旧バージョンの移行コピー）をすべて削除します。使用中のデータベースとその -wal/-shm サイドカーには影響しません。';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      '有効なマンガソースがまだありません。「インポート」タブで追加してください。';
   @override
   String get manga_global_search_open_sources => 'インポートへ';
   @override
@@ -67694,7 +67697,7 @@ class _StringsJa extends _StringsEn {
   String get download_video_source_required => '動画のソースが必要です';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      '前回のキャプチャセッションがまだ解放されていません。Fushi が自動で再試行するので、操作は不要です。';
   @override
   String get video_subtitle_delete => '字幕ファイルを削除';
   @override
@@ -76137,17 +76140,17 @@ class _StringsKo extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => '선택 영역 다시 인식';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => '선택 영역을 다시 인식하지 못했어요';
   @override
   String get manga_rescan_region_updated => '선택 영역을 다시 인식해 페이지에 저장했어요';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      '모바일에서는 이 모델들이 만화 뷰어의 전권·탭·선택 영역 OCR을 담당하는 로컬 엔진에 쓰여요.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      '다시 인식할 텍스트를 드래그해 상자로 감싸세요. 결과는 상자 안의 기존 텍스트 레이어를 대체해요.';
   @override
   String get manga_rescan_undone => '다시 인식하기 전의 텍스트 레이어로 되돌렸어요';
   @override
@@ -76169,7 +76172,7 @@ class _StringsKo extends _StringsEn {
       '남아 있는 데이터베이스 백업 스냅샷(corrupt-bak / pre-restore / 이전 버전 마이그레이션 사본)을 모두 삭제해요. 사용 중인 데이터베이스와 그 -wal/-shm 사이드카는 건드리지 않아요.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      '활성화된 만화 소스가 아직 없어요. ‘가져오기’ 탭에서 하나 추가하세요.';
   @override
   String get manga_global_search_open_sources => '가져오기로 이동';
   @override
@@ -76178,7 +76181,7 @@ class _StringsKo extends _StringsEn {
   String get download_video_source_required => '동영상 소스가 필요해요';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      '이전 캡처 세션이 아직 해제되지 않았어요. Fushi가 알아서 다시 시도하니 따로 할 일은 없어요.';
   @override
   String get video_subtitle_delete => '자막 파일 삭제';
   @override
@@ -85110,18 +85113,19 @@ class _StringsNl extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Geselecteerd gebied opnieuw herkennen';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Opnieuw herkennen van het geselecteerde gebied is mislukt';
   @override
   String get manga_rescan_region_updated =>
       'Geselecteerd gebied opnieuw herkend en in de pagina opgeslagen';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Op mobiel voeden deze modellen de lokale engine voor OCR van een heel deel, per tik en van een geselecteerd gebied in de mangalezer.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Sleep een kader over de tekst die je opnieuw wilt laten herkennen. Het resultaat vervangt de bestaande tekstlaag binnen dat kader.';
   @override
   String get manga_rescan_undone => 'Tekstlaag van vóór de herscan hersteld';
   @override
@@ -85146,7 +85150,7 @@ class _StringsNl extends _StringsEn {
       'Hiermee worden alle achtergebleven snapshots van databaseback-ups verwijderd (corrupt-bak / pre-restore / oude migratiekopieën). De actieve database en de bijbehorende -wal/-shm-bestanden blijven ongemoeid.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Nog geen ingeschakelde mangabronnen. Voeg er een toe op het tabblad Importeren.';
   @override
   String get manga_global_search_open_sources => 'Naar Importeren';
   @override
@@ -85156,7 +85160,7 @@ class _StringsNl extends _StringsEn {
   String get download_video_source_required => 'Videobron vereist';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Een eerdere opnamesessie is nog niet vrijgegeven; Fushi probeert het vanzelf opnieuw, je hoeft niets te doen.';
   @override
   String get video_subtitle_delete => 'Ondertitelbestand verwijderen';
   @override
@@ -94145,18 +94149,19 @@ class _StringsPtBr extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Reconhecer novamente a área selecionada';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Falha ao reconhecer novamente a área selecionada';
   @override
   String get manga_rescan_region_updated =>
       'Área selecionada reconhecida novamente e salva na página';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'No celular, esses modelos alimentam o mecanismo local para o OCR de volume inteiro, por toque e de área selecionada no leitor de mangá.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Arraste um retângulo sobre o texto que deseja reconhecer de novo. O resultado substitui a camada de texto existente dentro do retângulo.';
   @override
   String get manga_rescan_undone =>
       'Camada de texto anterior ao novo reconhecimento restaurada';
@@ -94182,7 +94187,7 @@ class _StringsPtBr extends _StringsEn {
       'Isso remove todos os snapshots de backup do banco de dados que sobraram (corrupt-bak / pre-restore / cópias de migrações antigas). O banco de dados em uso e seus arquivos -wal/-shm não são afetados.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Ainda não há fontes de mangá ativadas. Adicione uma na aba Importar.';
   @override
   String get manga_global_search_open_sources => 'Ir para Importar';
   @override
@@ -94193,7 +94198,7 @@ class _StringsPtBr extends _StringsEn {
       'É necessária uma fonte de vídeo';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Uma sessão de captura anterior ainda não foi liberada; o Fushi está tentando de novo sozinho, não é preciso fazer nada.';
   @override
   String get video_subtitle_delete => 'Excluir arquivo de legenda';
   @override
@@ -103155,18 +103160,19 @@ class _StringsRu extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Распознать выделенную область заново';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed =>
+      'Не удалось заново распознать выделенную область';
   @override
   String get manga_rescan_region_updated =>
       'Выделенная область распознана заново и сохранена на странице';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'На мобильных устройствах эти модели питают локальный движок для распознавания всего тома, по нажатию и по выделенной области в читалке манги.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Обведите рамкой текст, который нужно распознать заново. Результат заменит существующий текстовый слой внутри рамки.';
   @override
   String get manga_rescan_undone =>
       'Текстовый слой до повторного распознавания восстановлен';
@@ -103192,7 +103198,7 @@ class _StringsRu extends _StringsEn {
       'Будут удалены все оставшиеся снимки резервных копий базы данных (corrupt-bak / pre-restore / копии старых миграций). Действующая база данных и её файлы -wal/-shm не затрагиваются.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Включённых источников манги пока нет. Добавьте один на вкладке «Импорт».';
   @override
   String get manga_global_search_open_sources => 'К импорту';
   @override
@@ -103202,7 +103208,7 @@ class _StringsRu extends _StringsEn {
   String get download_video_source_required => 'Требуется источник видео';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Предыдущий сеанс захвата ещё не освобождён; Fushi повторяет попытку сам, ничего делать не нужно.';
   @override
   String get video_subtitle_delete => 'Удалить файл субтитров';
   @override
@@ -108692,7 +108698,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_torrent_memory_limit => 'จำกัดหน่วยความจำ (MB)';
   @override
-  String get video_setting_torrent_natpmp => 'NAT-PMP port mapping';
+  String get video_setting_torrent_natpmp => 'การแมปพอร์ต NAT-PMP';
   @override
   String get video_setting_torrent_section_antileech => 'ป้องกัน Anti-leech';
   @override
@@ -108717,7 +108723,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_torrent_upload_slots => 'ช่องอัปโหลดสูงสุด';
   @override
-  String get video_setting_torrent_upnp => 'UPnP port mapping';
+  String get video_setting_torrent_upnp => 'การแมปพอร์ต UPnP';
   @override
   String get video_setting_torrent_zero_default => '0 = ค่าเริ่มต้น';
   @override
@@ -111985,18 +111991,18 @@ class _StringsTh extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'รู้จำพื้นที่ที่เลือกใหม่';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'รู้จำพื้นที่ที่เลือกใหม่ไม่สำเร็จ';
   @override
   String get manga_rescan_region_updated =>
       'รู้จำพื้นที่ที่เลือกใหม่แล้วและบันทึกลงหน้านี้';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'บนมือถือ โมเดลเหล่านี้ใช้กับเอนจินในเครื่องสำหรับการรู้จำทั้งเล่ม แตะ และพื้นที่ที่เลือกในหน้าอ่านมังงะ';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'ลากกรอบครอบข้อความที่ต้องการรู้จำใหม่ ผลลัพธ์จะแทนที่ชั้นข้อความเดิมภายในกรอบนั้น';
   @override
   String get manga_rescan_undone => 'คืนค่าชั้นข้อความก่อนการรู้จำใหม่แล้ว';
   @override
@@ -112020,7 +112026,7 @@ class _StringsTh extends _StringsEn {
       'จะลบสแนปช็อตสำรองฐานข้อมูลที่ตกค้างทั้งหมด (corrupt-bak / pre-restore / สำเนาการย้ายข้อมูลรุ่นเก่า) ฐานข้อมูลที่ใช้งานอยู่และไฟล์ -wal/-shm ที่มากับมันจะไม่ถูกแตะต้อง';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'ยังไม่มีแหล่งมังงะที่เปิดใช้งาน เพิ่มได้ที่แท็บนำเข้า';
   @override
   String get manga_global_search_open_sources => 'ไปที่นำเข้า';
   @override
@@ -112030,7 +112036,7 @@ class _StringsTh extends _StringsEn {
   String get download_video_source_required => 'ต้องระบุแหล่งวิดีโอ';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'เซสชันการจับก่อนหน้ายังไม่ถูกปล่อย Fushi กำลังลองใหม่ให้เอง ไม่ต้องทำอะไร';
   @override
   String get video_subtitle_delete => 'ลบไฟล์คำบรรยาย';
   @override
@@ -120916,18 +120922,18 @@ class _StringsTr extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Seçili alanı yeniden tanı';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'Seçili alanın yeniden tanınması başarısız';
   @override
   String get manga_rescan_region_updated =>
       'Seçilen alan yeniden tanındı ve sayfaya kaydedildi';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Mobilde bu modeller, manga okuyucudaki tüm cilt, dokunma ve seçili alan OCR\'ı için yerel motoru besler.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Yeniden tanıtmak istediğiniz metnin üzerine bir kutu sürükleyin. Sonuç, kutunun içindeki mevcut metin katmanının yerini alır.';
   @override
   String get manga_rescan_undone =>
       'Yeniden taramadan önceki metin katmanı geri yüklendi';
@@ -120952,7 +120958,7 @@ class _StringsTr extends _StringsEn {
       'Bu işlem, kalan tüm veritabanı yedek anlık görüntülerini (corrupt-bak / pre-restore / eski geçiş kopyaları) siler. Çalışan veritabanına ve -wal/-shm yan dosyalarına dokunulmaz.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Henüz etkin manga kaynağı yok. İçe aktar sekmesinden bir tane ekleyin.';
   @override
   String get manga_global_search_open_sources => 'İçe aktarmaya git';
   @override
@@ -120962,7 +120968,7 @@ class _StringsTr extends _StringsEn {
   String get download_video_source_required => 'Video kaynağı gerekli';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Önceki yakalama oturumu henüz serbest bırakılmadı; Fushi kendi kendine yeniden deniyor, bir şey yapmanız gerekmez.';
   @override
   String get video_subtitle_delete => 'Altyazı dosyasını sil';
   @override
@@ -129830,18 +129836,18 @@ class _StringsVi extends _StringsEn {
           {required Object msg, required Object code}) =>
       '${msg} (HTTP ${code})';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => 'Nhận dạng lại vùng đã chọn';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => 'Nhận dạng lại vùng đã chọn thất bại';
   @override
   String get manga_rescan_region_updated =>
       'Đã nhận dạng lại vùng đã chọn và lưu vào trang';
   @override
   String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      'Trên di động, các mô hình này chạy engine cục bộ cho việc nhận dạng cả tập, chạm và vùng đã chọn trong trình đọc truyện tranh.';
   @override
   String get manga_rescan_hint =>
-      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      'Kéo một khung quanh phần chữ cần nhận dạng lại. Kết quả sẽ thay thế lớp văn bản đang có bên trong khung đó.';
   @override
   String get manga_rescan_undone =>
       'Đã khôi phục lớp văn bản trước khi quét lại';
@@ -129867,7 +129873,7 @@ class _StringsVi extends _StringsEn {
       'Thao tác này xoá toàn bộ ảnh chụp sao lưu cơ sở dữ liệu còn sót lại (corrupt-bak / pre-restore / bản sao di trú cũ). Cơ sở dữ liệu đang dùng và các tệp -wal/-shm đi kèm không bị đụng tới.';
   @override
   String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+      'Chưa có nguồn truyện tranh nào được bật. Thêm một nguồn ở tab Nhập.';
   @override
   String get manga_global_search_open_sources => 'Tới phần nhập';
   @override
@@ -129877,7 +129883,7 @@ class _StringsVi extends _StringsEn {
   String get download_video_source_required => 'Cần nguồn video';
   @override
   String get game_hook_reason_stale_session =>
-      'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+      'Phiên thu trước chưa được giải phóng; Fushi đang tự thử lại, bạn không cần làm gì.';
   @override
   String get video_subtitle_delete => 'Xoá tệp phụ đề';
   @override
@@ -146272,8 +146278,7 @@ class _StringsZhHk extends _StringsEn {
   String get storage_entry_delete_database_snapshots_confirm_body =>
       '將刪除全部殘留的資料庫備份快照（corrupt-bak / pre-restore / 舊版本遷移副本）。使用中的資料庫及其 -wal/-shm 附屬檔案不受影響。';
   @override
-  String get manga_global_search_no_sources =>
-      'No enabled manga sources yet. Add one in the Import tab.';
+  String get manga_global_search_no_sources => '尚未啟用任何漫畫來源，去「導入」加一個。';
   @override
   String get manga_global_search_open_sources => '去匯入';
   @override
@@ -161892,15 +161897,15 @@ extension on _StringsAr {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'إعادة التعرف على المنطقة المحددة';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'فشلت إعادة التعرف على المنطقة المحددة';
       case 'manga_rescan_region_updated':
         return 'تم التعرف على المنطقة المحددة من جديد وحُفظت في الصفحة';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'على الأجهزة المحمولة، تشغّل هذه النماذج المحرك المحلي للتعرف على المجلد كاملًا وبالنقر وعلى المنطقة المحددة في قارئ المانغا.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'اسحب مربعًا فوق النص الذي تريد إعادة التعرف عليه. تحل النتيجة محل طبقة النص الموجودة داخل المربع.';
       case 'manga_rescan_undone':
         return 'تمت استعادة طبقة النص التي كانت قبل إعادة المسح';
       case 'manga_rescan_undo_failed':
@@ -161919,7 +161924,7 @@ extension on _StringsAr {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'يؤدي هذا إلى حذف كل لقطات النسخ الاحتياطي المتبقية لقاعدة البيانات (corrupt-bak / pre-restore / نسخ الترحيل القديمة). لا تُمس قاعدة البيانات العاملة ولا ملفا -wal/-shm التابعان لها.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'لا توجد مصادر مانغا مفعّلة بعد. أضف واحدًا من تبويب الاستيراد.';
       case 'manga_global_search_open_sources':
         return 'الذهاب إلى الاستيراد';
       case 'settings_downloads_open_page_hint':
@@ -161927,7 +161932,7 @@ extension on _StringsAr {
       case 'download_video_source_required':
         return 'مطلوب مصدر فيديو';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'لم تُحرَّر جلسة الالتقاط السابقة بعد؛ يعيد Fushi المحاولة تلقائيًا، ولا حاجة لأي إجراء.';
       case 'video_subtitle_delete':
         return 'حذف ملف الترجمة';
       case 'video_subtitle_delete_confirm':
@@ -169753,15 +169758,15 @@ extension on _StringsDe {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Ausgewählten Bereich neu erkennen';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Neuerkennung des ausgewählten Bereichs fehlgeschlagen';
       case 'manga_rescan_region_updated':
         return 'Ausgewählter Bereich neu erkannt und in die Seite übernommen';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Auf Mobilgeräten versorgen diese Modelle die lokale Engine für Ganzband-, Tipp- und Bereichs-OCR im Manga-Reader.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Ziehe einen Rahmen über den Text, der neu erkannt werden soll. Das Ergebnis ersetzt die vorhandene Textebene innerhalb des Rahmens.';
       case 'manga_rescan_undone':
         return 'Textebene von vor der Neuerkennung wiederhergestellt';
       case 'manga_rescan_undo_failed':
@@ -169780,7 +169785,7 @@ extension on _StringsDe {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Damit werden alle übrig gebliebenen Datenbank-Backup-Snapshots entfernt (corrupt-bak / pre-restore / alte Migrationskopien). Die aktive Datenbank und ihre -wal/-shm-Begleitdateien bleiben unangetastet.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Noch keine aktivierten Manga-Quellen. Füge eine im Tab „Importieren“ hinzu.';
       case 'manga_global_search_open_sources':
         return 'Zum Import';
       case 'settings_downloads_open_page_hint':
@@ -169788,7 +169793,7 @@ extension on _StringsDe {
       case 'download_video_source_required':
         return 'Videoquelle erforderlich';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Eine frühere Aufnahmesitzung wurde noch nicht freigegeben; Fushi versucht es von selbst erneut, du musst nichts tun.';
       case 'video_subtitle_delete':
         return 'Untertiteldatei löschen';
       case 'video_subtitle_delete_confirm':
@@ -177608,15 +177613,15 @@ extension on _StringsEs {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Volver a reconocer el área seleccionada';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Falló el reconocimiento del área seleccionada';
       case 'manga_rescan_region_updated':
         return 'Área seleccionada reconocida de nuevo y guardada en la página';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'En móvil, estos modelos alimentan el motor local para el OCR de volumen completo, por toque y de área seleccionada en el lector de manga.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Arrastra un recuadro sobre el texto que quieras volver a reconocer. El resultado reemplaza la capa de texto existente dentro del recuadro.';
       case 'manga_rescan_undone':
         return 'Se restauró la capa de texto anterior al nuevo reconocimiento';
       case 'manga_rescan_undo_failed':
@@ -177635,7 +177640,7 @@ extension on _StringsEs {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Esto elimina todas las instantáneas de copia de seguridad de la base de datos que hayan quedado (corrupt-bak / pre-restore / copias de migraciones antiguas). La base de datos en uso y sus archivos -wal/-shm no se tocan.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Aún no hay fuentes de manga habilitadas. Añade una en la pestaña Importar.';
       case 'manga_global_search_open_sources':
         return 'Ir a Importar';
       case 'settings_downloads_open_page_hint':
@@ -177643,7 +177648,7 @@ extension on _StringsEs {
       case 'download_video_source_required':
         return 'Se requiere una fuente de vídeo';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Una sesión de captura anterior aún no se ha liberado; Fushi lo está reintentando solo, no hace falta que hagas nada.';
       case 'video_subtitle_delete':
         return 'Eliminar archivo de subtítulos';
       case 'video_subtitle_delete_confirm':
@@ -185471,15 +185476,15 @@ extension on _StringsFr {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Réanalyser la zone sélectionnée';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Échec de la réanalyse de la zone sélectionnée';
       case 'manga_rescan_region_updated':
         return 'Zone sélectionnée re-reconnue et enregistrée dans la page';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Sur mobile, ces modèles alimentent le moteur local pour l\'OCR du volume entier, au toucher et de la zone sélectionnée dans le lecteur de manga.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Tracez un cadre sur le texte à réanalyser. Le résultat remplace la couche de texte existante à l\'intérieur du cadre.';
       case 'manga_rescan_undone':
         return 'Couche de texte d\'avant la nouvelle reconnaissance restaurée';
       case 'manga_rescan_undo_failed':
@@ -185498,7 +185503,7 @@ extension on _StringsFr {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Cela supprime tous les instantanés de sauvegarde de la base de données restants (corrupt-bak / pre-restore / copies de migration héritées). La base de données active et ses fichiers annexes -wal/-shm ne sont pas touchés.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Aucune source de manga activée pour l\'instant. Ajoutez-en une dans l\'onglet Importer.';
       case 'manga_global_search_open_sources':
         return 'Aller à Importer';
       case 'settings_downloads_open_page_hint':
@@ -185506,7 +185511,7 @@ extension on _StringsFr {
       case 'download_video_source_required':
         return 'Source vidéo requise';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Une session de capture précédente n\'a pas encore été libérée ; Fushi réessaie tout seul, aucune action n\'est nécessaire.';
       case 'video_subtitle_delete':
         return 'Supprimer le fichier de sous-titres';
       case 'video_subtitle_delete_confirm':
@@ -193307,15 +193312,15 @@ extension on _StringsId {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Kenali ulang area terpilih';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Gagal mengenali ulang area terpilih';
       case 'manga_rescan_region_updated':
         return 'Area terpilih dikenali ulang dan disimpan ke halaman';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Di ponsel, model-model ini menjalankan mesin lokal untuk OCR satu volume penuh, ketukan, dan area terpilih di pembaca manga.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Seret kotak di atas teks yang ingin dikenali ulang. Hasilnya menggantikan lapisan teks yang sudah ada di dalam kotak itu.';
       case 'manga_rescan_undone':
         return 'Lapisan teks sebelum pemindaian ulang telah dipulihkan';
       case 'manga_rescan_undo_failed':
@@ -193334,7 +193339,7 @@ extension on _StringsId {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Ini menghapus semua sisa snapshot cadangan basis data (corrupt-bak / pre-restore / salinan migrasi lama). Basis data yang aktif beserta berkas -wal/-shm miliknya tidak disentuh.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Belum ada sumber manga yang aktif. Tambahkan satu di tab Impor.';
       case 'manga_global_search_open_sources':
         return 'Ke Impor';
       case 'settings_downloads_open_page_hint':
@@ -193342,7 +193347,7 @@ extension on _StringsId {
       case 'download_video_source_required':
         return 'Perlu sumber video';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Sesi penangkapan sebelumnya belum dilepaskan; Fushi sedang mencoba lagi sendiri, tidak perlu melakukan apa pun.';
       case 'video_subtitle_delete':
         return 'Hapus berkas subtitle';
       case 'video_subtitle_delete_confirm':
@@ -200694,7 +200699,7 @@ extension on _StringsIt {
       case 'media_source_network_subtitle_video':
         return 'Libreria remota WebDAV (streaming diretto)';
       case 'jellyfin_settings_title':
-        return 'Media server (Jellyfin / Emby)';
+        return 'Server multimediale (Jellyfin / Emby)';
       case 'jellyfin_server_url':
         return 'URL server';
       case 'jellyfin_sign_in':
@@ -201162,15 +201167,15 @@ extension on _StringsIt {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Ripeti l\'OCR sull\'area selezionata';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'OCR dell\'area selezionata non riuscito';
       case 'manga_rescan_region_updated':
         return 'Area selezionata riconosciuta di nuovo e salvata nella pagina';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Su mobile questi modelli alimentano il motore locale per l\'OCR dell\'intero volume, al tocco e dell\'area selezionata nel lettore manga.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Trascina un riquadro sul testo da rianalizzare. Il risultato sostituisce il livello di testo già presente nel riquadro.';
       case 'manga_rescan_undone':
         return 'Ripristinato il livello di testo precedente al nuovo riconoscimento';
       case 'manga_rescan_undo_failed':
@@ -201189,7 +201194,7 @@ extension on _StringsIt {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Rimuove tutti gli snapshot di backup del database rimasti (corrupt-bak / pre-restore / copie di migrazioni precedenti). Il database in uso e i suoi file -wal/-shm non vengono toccati.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Nessuna fonte manga attiva. Aggiungine una nella scheda Importa.';
       case 'manga_global_search_open_sources':
         return 'Vai a Importa';
       case 'settings_downloads_open_page_hint':
@@ -201197,7 +201202,7 @@ extension on _StringsIt {
       case 'download_video_source_required':
         return 'Serve una fonte video';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Una sessione di cattura precedente non è ancora stata rilasciata; Fushi sta riprovando da solo, non serve fare nulla.';
       case 'video_subtitle_delete':
         return 'Elimina file dei sottotitoli';
       case 'video_subtitle_delete_confirm':
@@ -208954,15 +208959,15 @@ extension on _StringsJa {
         return ({required Object msg, required Object code}) =>
             '${msg}（HTTP ${code}）';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return '選択範囲を再認識';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return '選択範囲の再認識に失敗しました';
       case 'manga_rescan_region_updated':
         return '選択範囲を再認識してページに保存しました';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'モバイルでは、これらのモデルがマンガリーダーの巻全体・タップ・選択範囲の OCR を担うローカルエンジンに使われます。';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return '再認識したいテキストを枠で囲んでドラッグします。結果は枠内の既存のテキストレイヤーを置き換えます。';
       case 'manga_rescan_undone':
         return '再認識する前のテキストレイヤーに戻しました';
       case 'manga_rescan_undo_failed':
@@ -208980,7 +208985,7 @@ extension on _StringsJa {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return '残っているデータベースのバックアップスナップショット（corrupt-bak / pre-restore / 旧バージョンの移行コピー）をすべて削除します。使用中のデータベースとその -wal/-shm サイドカーには影響しません。';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return '有効なマンガソースがまだありません。「インポート」タブで追加してください。';
       case 'manga_global_search_open_sources':
         return 'インポートへ';
       case 'settings_downloads_open_page_hint':
@@ -208988,7 +208993,7 @@ extension on _StringsJa {
       case 'download_video_source_required':
         return '動画のソースが必要です';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return '前回のキャプチャセッションがまだ解放されていません。Fushi が自動で再試行するので、操作は不要です。';
       case 'video_subtitle_delete':
         return '字幕ファイルを削除';
       case 'video_subtitle_delete_confirm':
@@ -216745,15 +216750,15 @@ extension on _StringsKo {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return '선택 영역 다시 인식';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return '선택 영역을 다시 인식하지 못했어요';
       case 'manga_rescan_region_updated':
         return '선택 영역을 다시 인식해 페이지에 저장했어요';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return '모바일에서는 이 모델들이 만화 뷰어의 전권·탭·선택 영역 OCR을 담당하는 로컬 엔진에 쓰여요.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return '다시 인식할 텍스트를 드래그해 상자로 감싸세요. 결과는 상자 안의 기존 텍스트 레이어를 대체해요.';
       case 'manga_rescan_undone':
         return '다시 인식하기 전의 텍스트 레이어로 되돌렸어요';
       case 'manga_rescan_undo_failed':
@@ -216771,7 +216776,7 @@ extension on _StringsKo {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return '남아 있는 데이터베이스 백업 스냅샷(corrupt-bak / pre-restore / 이전 버전 마이그레이션 사본)을 모두 삭제해요. 사용 중인 데이터베이스와 그 -wal/-shm 사이드카는 건드리지 않아요.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return '활성화된 만화 소스가 아직 없어요. ‘가져오기’ 탭에서 하나 추가하세요.';
       case 'manga_global_search_open_sources':
         return '가져오기로 이동';
       case 'settings_downloads_open_page_hint':
@@ -216779,7 +216784,7 @@ extension on _StringsKo {
       case 'download_video_source_required':
         return '동영상 소스가 필요해요';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return '이전 캡처 세션이 아직 해제되지 않았어요. Fushi가 알아서 다시 시도하니 따로 할 일은 없어요.';
       case 'video_subtitle_delete':
         return '자막 파일 삭제';
       case 'video_subtitle_delete_confirm':
@@ -224592,15 +224597,15 @@ extension on _StringsNl {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Geselecteerd gebied opnieuw herkennen';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Opnieuw herkennen van het geselecteerde gebied is mislukt';
       case 'manga_rescan_region_updated':
         return 'Geselecteerd gebied opnieuw herkend en in de pagina opgeslagen';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Op mobiel voeden deze modellen de lokale engine voor OCR van een heel deel, per tik en van een geselecteerd gebied in de mangalezer.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Sleep een kader over de tekst die je opnieuw wilt laten herkennen. Het resultaat vervangt de bestaande tekstlaag binnen dat kader.';
       case 'manga_rescan_undone':
         return 'Tekstlaag van vóór de herscan hersteld';
       case 'manga_rescan_undo_failed':
@@ -224619,7 +224624,7 @@ extension on _StringsNl {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Hiermee worden alle achtergebleven snapshots van databaseback-ups verwijderd (corrupt-bak / pre-restore / oude migratiekopieën). De actieve database en de bijbehorende -wal/-shm-bestanden blijven ongemoeid.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Nog geen ingeschakelde mangabronnen. Voeg er een toe op het tabblad Importeren.';
       case 'manga_global_search_open_sources':
         return 'Naar Importeren';
       case 'settings_downloads_open_page_hint':
@@ -224627,7 +224632,7 @@ extension on _StringsNl {
       case 'download_video_source_required':
         return 'Videobron vereist';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Een eerdere opnamesessie is nog niet vrijgegeven; Fushi probeert het vanzelf opnieuw, je hoeft niets te doen.';
       case 'video_subtitle_delete':
         return 'Ondertitelbestand verwijderen';
       case 'video_subtitle_delete_confirm':
@@ -232437,15 +232442,15 @@ extension on _StringsPtBr {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Reconhecer novamente a área selecionada';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Falha ao reconhecer novamente a área selecionada';
       case 'manga_rescan_region_updated':
         return 'Área selecionada reconhecida novamente e salva na página';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'No celular, esses modelos alimentam o mecanismo local para o OCR de volume inteiro, por toque e de área selecionada no leitor de mangá.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Arraste um retângulo sobre o texto que deseja reconhecer de novo. O resultado substitui a camada de texto existente dentro do retângulo.';
       case 'manga_rescan_undone':
         return 'Camada de texto anterior ao novo reconhecimento restaurada';
       case 'manga_rescan_undo_failed':
@@ -232464,7 +232469,7 @@ extension on _StringsPtBr {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Isso remove todos os snapshots de backup do banco de dados que sobraram (corrupt-bak / pre-restore / cópias de migrações antigas). O banco de dados em uso e seus arquivos -wal/-shm não são afetados.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Ainda não há fontes de mangá ativadas. Adicione uma na aba Importar.';
       case 'manga_global_search_open_sources':
         return 'Ir para Importar';
       case 'settings_downloads_open_page_hint':
@@ -232472,7 +232477,7 @@ extension on _StringsPtBr {
       case 'download_video_source_required':
         return 'É necessária uma fonte de vídeo';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Uma sessão de captura anterior ainda não foi liberada; o Fushi está tentando de novo sozinho, não é preciso fazer nada.';
       case 'video_subtitle_delete':
         return 'Excluir arquivo de legenda';
       case 'video_subtitle_delete_confirm':
@@ -240289,15 +240294,15 @@ extension on _StringsRu {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Распознать выделенную область заново';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Не удалось заново распознать выделенную область';
       case 'manga_rescan_region_updated':
         return 'Выделенная область распознана заново и сохранена на странице';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'На мобильных устройствах эти модели питают локальный движок для распознавания всего тома, по нажатию и по выделенной области в читалке манги.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Обведите рамкой текст, который нужно распознать заново. Результат заменит существующий текстовый слой внутри рамки.';
       case 'manga_rescan_undone':
         return 'Текстовый слой до повторного распознавания восстановлен';
       case 'manga_rescan_undo_failed':
@@ -240316,7 +240321,7 @@ extension on _StringsRu {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Будут удалены все оставшиеся снимки резервных копий базы данных (corrupt-bak / pre-restore / копии старых миграций). Действующая база данных и её файлы -wal/-shm не затрагиваются.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Включённых источников манги пока нет. Добавьте один на вкладке «Импорт».';
       case 'manga_global_search_open_sources':
         return 'К импорту';
       case 'settings_downloads_open_page_hint':
@@ -240324,7 +240329,7 @@ extension on _StringsRu {
       case 'download_video_source_required':
         return 'Требуется источник видео';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Предыдущий сеанс захвата ещё не освобождён; Fushi повторяет попытку сам, ничего делать не нужно.';
       case 'video_subtitle_delete':
         return 'Удалить файл субтитров';
       case 'video_subtitle_delete_confirm':
@@ -245274,7 +245279,7 @@ extension on _StringsTh {
       case 'video_setting_torrent_memory_limit':
         return 'จำกัดหน่วยความจำ (MB)';
       case 'video_setting_torrent_natpmp':
-        return 'NAT-PMP port mapping';
+        return 'การแมปพอร์ต NAT-PMP';
       case 'video_setting_torrent_section_antileech':
         return 'ป้องกัน Anti-leech';
       case 'video_setting_torrent_section_session':
@@ -245296,7 +245301,7 @@ extension on _StringsTh {
       case 'video_setting_torrent_upload_slots':
         return 'ช่องอัปโหลดสูงสุด';
       case 'video_setting_torrent_upnp':
-        return 'UPnP port mapping';
+        return 'การแมปพอร์ต UPnP';
       case 'video_setting_torrent_zero_default':
         return '0 = ค่าเริ่มต้น';
       case 'video_setting_torrent_zero_off':
@@ -248114,15 +248119,15 @@ extension on _StringsTh {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'รู้จำพื้นที่ที่เลือกใหม่';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'รู้จำพื้นที่ที่เลือกใหม่ไม่สำเร็จ';
       case 'manga_rescan_region_updated':
         return 'รู้จำพื้นที่ที่เลือกใหม่แล้วและบันทึกลงหน้านี้';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'บนมือถือ โมเดลเหล่านี้ใช้กับเอนจินในเครื่องสำหรับการรู้จำทั้งเล่ม แตะ และพื้นที่ที่เลือกในหน้าอ่านมังงะ';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'ลากกรอบครอบข้อความที่ต้องการรู้จำใหม่ ผลลัพธ์จะแทนที่ชั้นข้อความเดิมภายในกรอบนั้น';
       case 'manga_rescan_undone':
         return 'คืนค่าชั้นข้อความก่อนการรู้จำใหม่แล้ว';
       case 'manga_rescan_undo_failed':
@@ -248140,7 +248145,7 @@ extension on _StringsTh {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'จะลบสแนปช็อตสำรองฐานข้อมูลที่ตกค้างทั้งหมด (corrupt-bak / pre-restore / สำเนาการย้ายข้อมูลรุ่นเก่า) ฐานข้อมูลที่ใช้งานอยู่และไฟล์ -wal/-shm ที่มากับมันจะไม่ถูกแตะต้อง';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'ยังไม่มีแหล่งมังงะที่เปิดใช้งาน เพิ่มได้ที่แท็บนำเข้า';
       case 'manga_global_search_open_sources':
         return 'ไปที่นำเข้า';
       case 'settings_downloads_open_page_hint':
@@ -248148,7 +248153,7 @@ extension on _StringsTh {
       case 'download_video_source_required':
         return 'ต้องระบุแหล่งวิดีโอ';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'เซสชันการจับก่อนหน้ายังไม่ถูกปล่อย Fushi กำลังลองใหม่ให้เอง ไม่ต้องทำอะไร';
       case 'video_subtitle_delete':
         return 'ลบไฟล์คำบรรยาย';
       case 'video_subtitle_delete_confirm':
@@ -255952,15 +255957,15 @@ extension on _StringsTr {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Seçili alanı yeniden tanı';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Seçili alanın yeniden tanınması başarısız';
       case 'manga_rescan_region_updated':
         return 'Seçilen alan yeniden tanındı ve sayfaya kaydedildi';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Mobilde bu modeller, manga okuyucudaki tüm cilt, dokunma ve seçili alan OCR\'ı için yerel motoru besler.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Yeniden tanıtmak istediğiniz metnin üzerine bir kutu sürükleyin. Sonuç, kutunun içindeki mevcut metin katmanının yerini alır.';
       case 'manga_rescan_undone':
         return 'Yeniden taramadan önceki metin katmanı geri yüklendi';
       case 'manga_rescan_undo_failed':
@@ -255979,7 +255984,7 @@ extension on _StringsTr {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Bu işlem, kalan tüm veritabanı yedek anlık görüntülerini (corrupt-bak / pre-restore / eski geçiş kopyaları) siler. Çalışan veritabanına ve -wal/-shm yan dosyalarına dokunulmaz.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Henüz etkin manga kaynağı yok. İçe aktar sekmesinden bir tane ekleyin.';
       case 'manga_global_search_open_sources':
         return 'İçe aktarmaya git';
       case 'settings_downloads_open_page_hint':
@@ -255987,7 +255992,7 @@ extension on _StringsTr {
       case 'download_video_source_required':
         return 'Video kaynağı gerekli';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Önceki yakalama oturumu henüz serbest bırakılmadı; Fushi kendi kendine yeniden deniyor, bir şey yapmanız gerekmez.';
       case 'video_subtitle_delete':
         return 'Altyazı dosyasını sil';
       case 'video_subtitle_delete_confirm':
@@ -263786,15 +263791,15 @@ extension on _StringsVi {
         return ({required Object msg, required Object code}) =>
             '${msg} (HTTP ${code})';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return 'Nhận dạng lại vùng đã chọn';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return 'Nhận dạng lại vùng đã chọn thất bại';
       case 'manga_rescan_region_updated':
         return 'Đã nhận dạng lại vùng đã chọn và lưu vào trang';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return 'Trên di động, các mô hình này chạy engine cục bộ cho việc nhận dạng cả tập, chạm và vùng đã chọn trong trình đọc truyện tranh.';
       case 'manga_rescan_hint':
-        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+        return 'Kéo một khung quanh phần chữ cần nhận dạng lại. Kết quả sẽ thay thế lớp văn bản đang có bên trong khung đó.';
       case 'manga_rescan_undone':
         return 'Đã khôi phục lớp văn bản trước khi quét lại';
       case 'manga_rescan_undo_failed':
@@ -263813,7 +263818,7 @@ extension on _StringsVi {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return 'Thao tác này xoá toàn bộ ảnh chụp sao lưu cơ sở dữ liệu còn sót lại (corrupt-bak / pre-restore / bản sao di trú cũ). Cơ sở dữ liệu đang dùng và các tệp -wal/-shm đi kèm không bị đụng tới.';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return 'Chưa có nguồn truyện tranh nào được bật. Thêm một nguồn ở tab Nhập.';
       case 'manga_global_search_open_sources':
         return 'Tới phần nhập';
       case 'settings_downloads_open_page_hint':
@@ -263821,7 +263826,7 @@ extension on _StringsVi {
       case 'download_video_source_required':
         return 'Cần nguồn video';
       case 'game_hook_reason_stale_session':
-        return 'A previous capture session has not been released yet; Fushi is retrying on its own, no action needed.';
+        return 'Phiên thu trước chưa được giải phóng; Fushi đang tự thử lại, bạn không cần làm gì.';
       case 'video_subtitle_delete':
         return 'Xoá tệp phụ đề';
       case 'video_subtitle_delete_confirm':
@@ -279353,7 +279358,7 @@ extension on _StringsZhHk {
       case 'storage_entry_delete_database_snapshots_confirm_body':
         return '將刪除全部殘留的資料庫備份快照（corrupt-bak / pre-restore / 舊版本遷移副本）。使用中的資料庫及其 -wal/-shm 附屬檔案不受影響。';
       case 'manga_global_search_no_sources':
-        return 'No enabled manga sources yet. Add one in the Import tab.';
+        return '尚未啟用任何漫畫來源，去「導入」加一個。';
       case 'manga_global_search_open_sources':
         return '去匯入';
       case 'settings_downloads_open_page_hint':
