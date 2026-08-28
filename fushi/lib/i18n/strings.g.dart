@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64821 (3813 per locale)
+/// Strings: 65025 (3825 per locale)
 ///
-/// Built on 2026-08-28 at 04:03 UTC
+/// Built on 2026-08-28 at 06:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5191,6 +5191,22 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Subtitle file deleted: ${label}';
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  String get manga_interface_hide => 'Hide interface';
+  String get manga_interface_show => 'Show interface';
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
+  String get jellyfin_auto_list_title => 'Auto-list items on entering Video';
+  String get jellyfin_auto_list_hint =>
+      'Off: entering the video page sends no request to the media server; pull to refresh in the video library to list items manually. Recommended for very large servers, where automatic enumeration looks like scraping and can trip abuse detection.';
+  String get jellyfin_libraries_title => 'Libraries to list';
+  String get jellyfin_libraries_hint =>
+      'Select nothing to list every video library. Narrowing to the libraries you actually watch keeps huge servers from being enumerated in full.';
+  String get jellyfin_libraries_load_failed =>
+      'Could not load the library list';
 }
 
 // Path: <root>
@@ -14027,6 +14043,33 @@ class _StringsAr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'فشل حذف ملف الترجمة: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'تبديل واجهة المانغا';
+  @override
+  String get manga_interface_hide => 'إخفاء الواجهة';
+  @override
+  String get manga_interface_show => 'إظهار الواجهة';
+  @override
+  String get gal_hook_text_vertical_alignment => 'المحاذاة الرأسية';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'توسيط';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'أعلى';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'يشير الصوت إلى الملفات الأصلية ولا يستهلك مساحة التطبيق';
+  @override
+  String get jellyfin_auto_list_title => 'سرد العناصر تلقائيًا عند فتح الفيديو';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'عند الإيقاف: لا يُرسل فتح صفحة الفيديو أي طلب إلى خادم الوسائط؛ اسحب للتحديث في مكتبة الفيديو لسرد العناصر يدويًا. يُنصح به للخوادم الكبيرة جدًا، حيث يبدو السرد التلقائي كأنه كشط وقد يُفعّل كشف إساءة الاستخدام.';
+  @override
+  String get jellyfin_libraries_title => 'المكتبات المراد سردها';
+  @override
+  String get jellyfin_libraries_hint =>
+      'عدم اختيار أي شيء يسرد كل مكتبات الفيديو. حصر الأمر في المكتبات التي تشاهدها فعلًا يمنع سرد الخوادم الضخمة بالكامل.';
+  @override
+  String get jellyfin_libraries_load_failed => 'تعذّر تحميل قائمة المكتبات';
 }
 
 // Path: <root>
@@ -23069,6 +23112,36 @@ class _StringsDe extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Untertiteldatei konnte nicht gelöscht werden: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Manga-Oberfläche umschalten';
+  @override
+  String get manga_interface_hide => 'Oberfläche ausblenden';
+  @override
+  String get manga_interface_show => 'Oberfläche einblenden';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertikale Ausrichtung';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Mittig';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Oben';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio verweist auf die Originaldateien und belegt keinen App-Speicher';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Beim Öffnen von Video automatisch auflisten';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Aus: Beim Öffnen der Videoseite geht keine Anfrage an den Medienserver; ziehe in der Videobibliothek zum Aktualisieren, um manuell aufzulisten. Empfohlen für sehr große Server, wo automatisches Auflisten wie Scraping aussieht und die Missbrauchserkennung auslösen kann.';
+  @override
+  String get jellyfin_libraries_title => 'Aufzulistende Bibliotheken';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Nichts auswählen listet jede Videobibliothek auf. Auf die Bibliotheken zu beschränken, die du wirklich schaust, verhindert, dass riesige Server komplett durchlaufen werden.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Bibliotheksliste konnte nicht geladen werden';
 }
 
 // Path: <root>
@@ -32156,6 +32229,35 @@ class _StringsEs extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Error al eliminar el archivo de subtítulos: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Alternar interfaz de manga';
+  @override
+  String get manga_interface_hide => 'Ocultar interfaz';
+  @override
+  String get manga_interface_show => 'Mostrar interfaz';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Alineación vertical';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Centro';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Arriba';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'El audio hace referencia a los archivos originales y no ocupa espacio de la app';
+  @override
+  String get jellyfin_auto_list_title => 'Listar elementos al entrar en Vídeo';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Desactivado: entrar en la página de vídeo no envía ninguna petición al servidor de medios; desliza para actualizar en la videoteca para listar manualmente. Recomendado en servidores muy grandes, donde la enumeración automática parece scraping y puede activar la detección de abuso.';
+  @override
+  String get jellyfin_libraries_title => 'Bibliotecas a listar';
+  @override
+  String get jellyfin_libraries_hint =>
+      'No seleccionar nada lista todas las bibliotecas de vídeo. Limitarlo a las bibliotecas que realmente ves evita que los servidores enormes se enumeren por completo.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'No se pudo cargar la lista de bibliotecas';
 }
 
 // Path: <root>
@@ -41273,6 +41375,36 @@ class _StringsFr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Échec de la suppression du fichier de sous-titres : ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Basculer l\'interface manga';
+  @override
+  String get manga_interface_hide => 'Masquer l\'interface';
+  @override
+  String get manga_interface_show => 'Afficher l\'interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Alignement vertical';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Centre';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Haut';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'L\'audio référence les fichiers d\'origine et n\'occupe aucun espace de l\'application';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Lister les éléments à l\'ouverture de Vidéo';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Désactivé : ouvrir la page vidéo n\'envoie aucune requête au serveur média ; tirez pour actualiser dans la vidéothèque afin de lister manuellement. Recommandé pour les très gros serveurs, où l\'énumération automatique ressemble à du scraping et peut déclencher la détection d\'abus.';
+  @override
+  String get jellyfin_libraries_title => 'Bibliothèques à lister';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Ne rien sélectionner liste toutes les bibliothèques vidéo. Se limiter aux bibliothèques que vous regardez vraiment évite que d\'énormes serveurs soient énumérés en entier.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Impossible de charger la liste des bibliothèques';
 }
 
 // Path: <root>
@@ -50220,6 +50352,35 @@ class _StringsId extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Gagal menghapus berkas subtitle: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Alihkan antarmuka manga';
+  @override
+  String get manga_interface_hide => 'Sembunyikan antarmuka';
+  @override
+  String get manga_interface_show => 'Tampilkan antarmuka';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Perataan vertikal';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Tengah';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Atas';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio merujuk ke berkas aslinya, tidak memakai penyimpanan aplikasi';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Daftarkan item otomatis saat masuk Video';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Mati: masuk ke halaman video tidak mengirim permintaan apa pun ke server media; tarik untuk menyegarkan di pustaka video agar item didaftar manual. Disarankan untuk server yang sangat besar, karena pendaftaran otomatis terlihat seperti scraping dan bisa memicu deteksi penyalahgunaan.';
+  @override
+  String get jellyfin_libraries_title => 'Pustaka yang didaftarkan';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Tidak memilih apa pun akan mendaftarkan semua pustaka video. Membatasi ke pustaka yang benar-benar Anda tonton mencegah server raksasa didaftar seluruhnya.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Tidak dapat memuat daftar pustaka';
 }
 
 // Path: <root>
@@ -59240,6 +59401,36 @@ class _StringsIt extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Impossibile eliminare il file dei sottotitoli: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Attiva/disattiva interfaccia manga';
+  @override
+  String get manga_interface_hide => 'Nascondi interfaccia';
+  @override
+  String get manga_interface_show => 'Mostra interfaccia';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Allineamento verticale';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Centro';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Alto';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'L\'audio fa riferimento ai file originali e non occupa spazio dell\'app';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Elenca gli elementi all\'apertura di Video';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Disattivato: aprire la pagina video non invia alcuna richiesta al server multimediale; tira per aggiornare nella videoteca per elencare manualmente. Consigliato per server molto grandi, dove l\'enumerazione automatica sembra scraping e può far scattare il rilevamento abusi.';
+  @override
+  String get jellyfin_libraries_title => 'Librerie da elencare';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Non selezionare nulla elenca tutte le librerie video. Limitarsi alle librerie che guardi davvero evita che server enormi vengano enumerati per intero.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Impossibile caricare l\'elenco delle librerie';
 }
 
 // Path: <root>
@@ -67709,6 +67900,33 @@ class _StringsJa extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       '字幕ファイルの削除に失敗しました: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'マンガUIの表示切り替え';
+  @override
+  String get manga_interface_hide => 'UIを隠す';
+  @override
+  String get manga_interface_show => 'UIを表示';
+  @override
+  String get gal_hook_text_vertical_alignment => '垂直方向の配置';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '中央';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '上';
+  @override
+  String get storage_entry_external_audio_hint =>
+      '音声は元のファイルを参照するため、アプリの容量を使いません';
+  @override
+  String get jellyfin_auto_list_title => '動画を開いたときに自動で一覧表示';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'オフ: 動画ページを開いてもメディアサーバーにリクエストを送りません。動画ライブラリで引っ張って更新すると手動で一覧表示できます。非常に大きなサーバーでは、自動列挙がスクレイピングのように見えて不正利用検知に引っかかることがあるため、オフを推奨します。';
+  @override
+  String get jellyfin_libraries_title => '一覧表示するライブラリ';
+  @override
+  String get jellyfin_libraries_hint =>
+      '何も選ばないとすべての動画ライブラリを一覧表示します。実際に見るライブラリだけに絞ると、巨大なサーバーが丸ごと列挙されるのを防げます。';
+  @override
+  String get jellyfin_libraries_load_failed => 'ライブラリ一覧を読み込めませんでした';
 }
 
 // Path: <root>
@@ -76193,6 +76411,33 @@ class _StringsKo extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       '자막 파일 삭제에 실패했어요: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => '만화 인터페이스 전환';
+  @override
+  String get manga_interface_hide => '인터페이스 숨기기';
+  @override
+  String get manga_interface_show => '인터페이스 표시';
+  @override
+  String get gal_hook_text_vertical_alignment => '세로 정렬';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '가운데';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '위';
+  @override
+  String get storage_entry_external_audio_hint =>
+      '오디오는 원본 파일을 참조하므로 앱 저장 공간을 쓰지 않아요';
+  @override
+  String get jellyfin_auto_list_title => '비디오에 들어갈 때 항목 자동 나열';
+  @override
+  String get jellyfin_auto_list_hint =>
+      '끄면: 비디오 페이지에 들어가도 미디어 서버로 요청을 보내지 않아요. 비디오 라이브러리에서 당겨서 새로고침하면 수동으로 나열할 수 있어요. 아주 큰 서버에서는 자동 열거가 스크래핑처럼 보여 남용 감지에 걸릴 수 있으니 끄는 것을 권장해요.';
+  @override
+  String get jellyfin_libraries_title => '나열할 라이브러리';
+  @override
+  String get jellyfin_libraries_hint =>
+      '아무것도 선택하지 않으면 모든 비디오 라이브러리를 나열해요. 실제로 보는 라이브러리로 좁히면 거대한 서버가 통째로 열거되는 것을 막을 수 있어요.';
+  @override
+  String get jellyfin_libraries_load_failed => '라이브러리 목록을 불러오지 못했어요';
 }
 
 // Path: <root>
@@ -85172,6 +85417,35 @@ class _StringsNl extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Verwijderen van ondertitelbestand mislukt: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Manga-interface schakelen';
+  @override
+  String get manga_interface_hide => 'Interface verbergen';
+  @override
+  String get manga_interface_show => 'Interface tonen';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Verticale uitlijning';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Midden';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Boven';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio verwijst naar de originele bestanden en gebruikt geen app-opslag';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Items automatisch tonen bij openen van Video';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Uit: bij het openen van de videopagina wordt geen verzoek naar de mediaserver gestuurd; trek in de videobibliotheek omlaag om te vernieuwen en items handmatig te tonen. Aanbevolen voor zeer grote servers, waar automatisch opsommen op scraping lijkt en misbruikdetectie kan activeren.';
+  @override
+  String get jellyfin_libraries_title => 'Bibliotheken om te tonen';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Niets selecteren toont elke videobibliotheek. Beperken tot de bibliotheken die je echt kijkt voorkomt dat enorme servers volledig worden opgesomd.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Kon de bibliotheeklijst niet laden';
 }
 
 // Path: <root>
@@ -94210,6 +94484,35 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Falha ao excluir o arquivo de legenda: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Alternar interface de mangá';
+  @override
+  String get manga_interface_hide => 'Ocultar interface';
+  @override
+  String get manga_interface_show => 'Mostrar interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Alinhamento vertical';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Centro';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Topo';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'O áudio referencia os arquivos originais e não ocupa espaço do app';
+  @override
+  String get jellyfin_auto_list_title => 'Listar itens ao entrar em Vídeo';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Desativado: entrar na página de vídeo não envia nenhuma requisição ao servidor de mídia; puxe para atualizar na videoteca para listar manualmente. Recomendado para servidores muito grandes, onde a enumeração automática parece scraping e pode acionar a detecção de abuso.';
+  @override
+  String get jellyfin_libraries_title => 'Bibliotecas a listar';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Não selecionar nada lista todas as bibliotecas de vídeo. Restringir às bibliotecas que você realmente assiste evita que servidores enormes sejam enumerados por completo.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Não foi possível carregar a lista de bibliotecas';
 }
 
 // Path: <root>
@@ -103220,6 +103523,35 @@ class _StringsRu extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Не удалось удалить файл субтитров: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Переключить интерфейс манги';
+  @override
+  String get manga_interface_hide => 'Скрыть интерфейс';
+  @override
+  String get manga_interface_show => 'Показать интерфейс';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Вертикальное выравнивание';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'По центру';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Сверху';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Аудио ссылается на исходные файлы и не занимает место приложения';
+  @override
+  String get jellyfin_auto_list_title => 'Выводить список при входе в «Видео»';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Выключено: при открытии страницы видео запрос на медиасервер не отправляется; потяните для обновления в видеотеке, чтобы вывести список вручную. Рекомендуется для очень больших серверов, где автоматический перебор выглядит как скрапинг и может сработать защита от злоупотреблений.';
+  @override
+  String get jellyfin_libraries_title => 'Библиотеки для вывода';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Если ничего не выбрано, выводятся все видеотеки. Ограничение теми библиотеками, которые вы действительно смотрите, избавит огромные серверы от полного перебора.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Не удалось загрузить список библиотек';
 }
 
 // Path: <root>
@@ -112048,6 +112380,34 @@ class _StringsTh extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'ลบไฟล์คำบรรยายไม่สำเร็จ: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'สลับอินเทอร์เฟซมังงะ';
+  @override
+  String get manga_interface_hide => 'ซ่อนอินเทอร์เฟซ';
+  @override
+  String get manga_interface_show => 'แสดงอินเทอร์เฟซ';
+  @override
+  String get gal_hook_text_vertical_alignment => 'การจัดแนวแนวตั้ง';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'กึ่งกลาง';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'บน';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'เสียงอ้างอิงไฟล์ต้นฉบับ ไม่ใช้พื้นที่ของแอป';
+  @override
+  String get jellyfin_auto_list_title =>
+      'แสดงรายการอัตโนมัติเมื่อเข้าหน้าวิดีโอ';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'ปิด: การเข้าหน้าวิดีโอจะไม่ส่งคำขอไปยังมีเดียเซิร์ฟเวอร์ ให้ดึงเพื่อรีเฟรชในคลังวิดีโอเพื่อแสดงรายการเอง แนะนำสำหรับเซิร์ฟเวอร์ขนาดใหญ่มาก เพราะการไล่รายการอัตโนมัติดูเหมือนการขูดข้อมูลและอาจไปกระตุ้นระบบตรวจจับการใช้งานผิดปกติ';
+  @override
+  String get jellyfin_libraries_title => 'คลังที่จะแสดงรายการ';
+  @override
+  String get jellyfin_libraries_hint =>
+      'ไม่เลือกอะไรเลยจะแสดงคลังวิดีโอทั้งหมด การจำกัดเฉพาะคลังที่ดูจริงช่วยไม่ให้เซิร์ฟเวอร์ขนาดใหญ่ถูกไล่รายการทั้งหมด';
+  @override
+  String get jellyfin_libraries_load_failed => 'โหลดรายการคลังไม่สำเร็จ';
 }
 
 // Path: <root>
@@ -120980,6 +121340,34 @@ class _StringsTr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Altyazı dosyası silinemedi: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Manga arayüzünü aç/kapat';
+  @override
+  String get manga_interface_hide => 'Arayüzü gizle';
+  @override
+  String get manga_interface_show => 'Arayüzü göster';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Dikey hizalama';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Orta';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Üst';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Ses özgün dosyaları kullanır, uygulama depolamasında yer kaplamaz';
+  @override
+  String get jellyfin_auto_list_title =>
+      'Video\'ya girerken öğeleri otomatik listele';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Kapalı: video sayfasına girmek medya sunucusuna hiçbir istek göndermez; öğeleri elle listelemek için video kitaplığında çekerek yenileyin. Otomatik sayımın kazıma gibi görünüp kötüye kullanım tespitini tetikleyebildiği çok büyük sunucular için önerilir.';
+  @override
+  String get jellyfin_libraries_title => 'Listelenecek kitaplıklar';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Hiçbir şey seçmezseniz tüm video kitaplıkları listelenir. Gerçekten izlediğiniz kitaplıklarla sınırlamak, devasa sunucuların baştan sona sayılmasını önler.';
+  @override
+  String get jellyfin_libraries_load_failed => 'Kitaplık listesi yüklenemedi';
 }
 
 // Path: <root>
@@ -129895,6 +130283,35 @@ class _StringsVi extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Xoá tệp phụ đề thất bại: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome =>
+      'Bật/tắt giao diện truyện tranh';
+  @override
+  String get manga_interface_hide => 'Ẩn giao diện';
+  @override
+  String get manga_interface_show => 'Hiện giao diện';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Căn dọc';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Giữa';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Trên';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Âm thanh tham chiếu tệp gốc, không chiếm dung lượng của ứng dụng';
+  @override
+  String get jellyfin_auto_list_title => 'Tự động liệt kê mục khi vào Video';
+  @override
+  String get jellyfin_auto_list_hint =>
+      'Tắt: vào trang video sẽ không gửi yêu cầu nào tới máy chủ phương tiện; kéo để làm mới trong thư viện video để liệt kê thủ công. Nên tắt với máy chủ rất lớn, vì việc liệt kê tự động trông giống thu thập dữ liệu và có thể kích hoạt cơ chế phát hiện lạm dụng.';
+  @override
+  String get jellyfin_libraries_title => 'Thư viện cần liệt kê';
+  @override
+  String get jellyfin_libraries_hint =>
+      'Không chọn gì sẽ liệt kê mọi thư viện video. Thu hẹp về những thư viện bạn thực sự xem giúp máy chủ khổng lồ không bị liệt kê toàn bộ.';
+  @override
+  String get jellyfin_libraries_load_failed =>
+      'Không tải được danh sách thư viện';
 }
 
 // Path: <root>
@@ -138093,6 +138510,32 @@ class _StringsZhCn extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       '删除字幕文件失败：${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => '切换漫画界面';
+  @override
+  String get manga_interface_hide => '隐藏界面';
+  @override
+  String get manga_interface_show => '显示界面';
+  @override
+  String get gal_hook_text_vertical_alignment => '垂直对齐';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '居中';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '顶部';
+  @override
+  String get storage_entry_external_audio_hint => '音频引用原文件，不占用应用空间';
+  @override
+  String get jellyfin_auto_list_title => '进入视频页时自动列出条目';
+  @override
+  String get jellyfin_auto_list_hint =>
+      '关闭后：进入视频页不向媒体服务器发任何请求，需在视频库下拉刷新手动列出。超大服务器建议关闭——自动枚举看起来像刮削，可能触发服务器的滥用检测。';
+  @override
+  String get jellyfin_libraries_title => '要列出的媒体库';
+  @override
+  String get jellyfin_libraries_hint =>
+      '不选 = 列出全部视频媒体库。只勾你真正会看的库，超大服务器就不会被整台枚举。';
+  @override
+  String get jellyfin_libraries_load_failed => '读取媒体库清单失败';
 }
 
 // Path: <root>
@@ -146298,6 +146741,32 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       '刪除字幕檔案失敗：${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => '切換漫畫介面';
+  @override
+  String get manga_interface_hide => '隱藏介面';
+  @override
+  String get manga_interface_show => '顯示介面';
+  @override
+  String get gal_hook_text_vertical_alignment => '垂直對齊';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '置中';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '頂部';
+  @override
+  String get storage_entry_external_audio_hint => '音訊引用原檔案，不佔用應用空間';
+  @override
+  String get jellyfin_auto_list_title => '進入影片頁時自動列出項目';
+  @override
+  String get jellyfin_auto_list_hint =>
+      '關閉後：進入影片頁不向媒體伺服器發任何請求，需在影片庫下拉重新整理手動列出。超大伺服器建議關閉——自動列舉看起來像刮削，可能觸發伺服器的濫用偵測。';
+  @override
+  String get jellyfin_libraries_title => '要列出的媒體庫';
+  @override
+  String get jellyfin_libraries_hint =>
+      '不選 = 列出全部影片媒體庫。只勾你真正會看的庫，超大伺服器就不會被整台列舉。';
+  @override
+  String get jellyfin_libraries_load_failed => '讀取媒體庫清單失敗';
 }
 
 /// Flat map(s) containing all translations.
@@ -154122,6 +154591,30 @@ extension on _StringsEn {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
+      case 'jellyfin_auto_list_title':
+        return 'Auto-list items on entering Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Off: entering the video page sends no request to the media server; pull to refresh in the video library to list items manually. Recommended for very large servers, where automatic enumeration looks like scraping and can trip abuse detection.';
+      case 'jellyfin_libraries_title':
+        return 'Libraries to list';
+      case 'jellyfin_libraries_hint':
+        return 'Select nothing to list every video library. Narrowing to the libraries you actually watch keeps huge servers from being enumerated in full.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Could not load the library list';
       default:
         return null;
     }
@@ -161942,6 +162435,30 @@ extension on _StringsAr {
         return ({required Object label}) => 'تم حذف ملف الترجمة: ${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => 'فشل حذف ملف الترجمة: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'تبديل واجهة المانغا';
+      case 'manga_interface_hide':
+        return 'إخفاء الواجهة';
+      case 'manga_interface_show':
+        return 'إظهار الواجهة';
+      case 'gal_hook_text_vertical_alignment':
+        return 'المحاذاة الرأسية';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'توسيط';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'أعلى';
+      case 'storage_entry_external_audio_hint':
+        return 'يشير الصوت إلى الملفات الأصلية ولا يستهلك مساحة التطبيق';
+      case 'jellyfin_auto_list_title':
+        return 'سرد العناصر تلقائيًا عند فتح الفيديو';
+      case 'jellyfin_auto_list_hint':
+        return 'عند الإيقاف: لا يُرسل فتح صفحة الفيديو أي طلب إلى خادم الوسائط؛ اسحب للتحديث في مكتبة الفيديو لسرد العناصر يدويًا. يُنصح به للخوادم الكبيرة جدًا، حيث يبدو السرد التلقائي كأنه كشط وقد يُفعّل كشف إساءة الاستخدام.';
+      case 'jellyfin_libraries_title':
+        return 'المكتبات المراد سردها';
+      case 'jellyfin_libraries_hint':
+        return 'عدم اختيار أي شيء يسرد كل مكتبات الفيديو. حصر الأمر في المكتبات التي تشاهدها فعلًا يمنع سرد الخوادم الضخمة بالكامل.';
+      case 'jellyfin_libraries_load_failed':
+        return 'تعذّر تحميل قائمة المكتبات';
       default:
         return null;
     }
@@ -169805,6 +170322,30 @@ extension on _StringsDe {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Untertiteldatei konnte nicht gelöscht werden: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Manga-Oberfläche umschalten';
+      case 'manga_interface_hide':
+        return 'Oberfläche ausblenden';
+      case 'manga_interface_show':
+        return 'Oberfläche einblenden';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertikale Ausrichtung';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Mittig';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Oben';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio verweist auf die Originaldateien und belegt keinen App-Speicher';
+      case 'jellyfin_auto_list_title':
+        return 'Beim Öffnen von Video automatisch auflisten';
+      case 'jellyfin_auto_list_hint':
+        return 'Aus: Beim Öffnen der Videoseite geht keine Anfrage an den Medienserver; ziehe in der Videobibliothek zum Aktualisieren, um manuell aufzulisten. Empfohlen für sehr große Server, wo automatisches Auflisten wie Scraping aussieht und die Missbrauchserkennung auslösen kann.';
+      case 'jellyfin_libraries_title':
+        return 'Aufzulistende Bibliotheken';
+      case 'jellyfin_libraries_hint':
+        return 'Nichts auswählen listet jede Videobibliothek auf. Auf die Bibliotheken zu beschränken, die du wirklich schaust, verhindert, dass riesige Server komplett durchlaufen werden.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Bibliotheksliste konnte nicht geladen werden';
       default:
         return null;
     }
@@ -177660,6 +178201,30 @@ extension on _StringsEs {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Error al eliminar el archivo de subtítulos: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Alternar interfaz de manga';
+      case 'manga_interface_hide':
+        return 'Ocultar interfaz';
+      case 'manga_interface_show':
+        return 'Mostrar interfaz';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Alineación vertical';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Centro';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Arriba';
+      case 'storage_entry_external_audio_hint':
+        return 'El audio hace referencia a los archivos originales y no ocupa espacio de la app';
+      case 'jellyfin_auto_list_title':
+        return 'Listar elementos al entrar en Vídeo';
+      case 'jellyfin_auto_list_hint':
+        return 'Desactivado: entrar en la página de vídeo no envía ninguna petición al servidor de medios; desliza para actualizar en la videoteca para listar manualmente. Recomendado en servidores muy grandes, donde la enumeración automática parece scraping y puede activar la detección de abuso.';
+      case 'jellyfin_libraries_title':
+        return 'Bibliotecas a listar';
+      case 'jellyfin_libraries_hint':
+        return 'No seleccionar nada lista todas las bibliotecas de vídeo. Limitarlo a las bibliotecas que realmente ves evita que los servidores enormes se enumeren por completo.';
+      case 'jellyfin_libraries_load_failed':
+        return 'No se pudo cargar la lista de bibliotecas';
       default:
         return null;
     }
@@ -185523,6 +186088,30 @@ extension on _StringsFr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Échec de la suppression du fichier de sous-titres : ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Basculer l\'interface manga';
+      case 'manga_interface_hide':
+        return 'Masquer l\'interface';
+      case 'manga_interface_show':
+        return 'Afficher l\'interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Alignement vertical';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Centre';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Haut';
+      case 'storage_entry_external_audio_hint':
+        return 'L\'audio référence les fichiers d\'origine et n\'occupe aucun espace de l\'application';
+      case 'jellyfin_auto_list_title':
+        return 'Lister les éléments à l\'ouverture de Vidéo';
+      case 'jellyfin_auto_list_hint':
+        return 'Désactivé : ouvrir la page vidéo n\'envoie aucune requête au serveur média ; tirez pour actualiser dans la vidéothèque afin de lister manuellement. Recommandé pour les très gros serveurs, où l\'énumération automatique ressemble à du scraping et peut déclencher la détection d\'abus.';
+      case 'jellyfin_libraries_title':
+        return 'Bibliothèques à lister';
+      case 'jellyfin_libraries_hint':
+        return 'Ne rien sélectionner liste toutes les bibliothèques vidéo. Se limiter aux bibliothèques que vous regardez vraiment évite que d\'énormes serveurs soient énumérés en entier.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Impossible de charger la liste des bibliothèques';
       default:
         return null;
     }
@@ -193358,6 +193947,30 @@ extension on _StringsId {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Gagal menghapus berkas subtitle: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Alihkan antarmuka manga';
+      case 'manga_interface_hide':
+        return 'Sembunyikan antarmuka';
+      case 'manga_interface_show':
+        return 'Tampilkan antarmuka';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Perataan vertikal';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Tengah';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Atas';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio merujuk ke berkas aslinya, tidak memakai penyimpanan aplikasi';
+      case 'jellyfin_auto_list_title':
+        return 'Daftarkan item otomatis saat masuk Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Mati: masuk ke halaman video tidak mengirim permintaan apa pun ke server media; tarik untuk menyegarkan di pustaka video agar item didaftar manual. Disarankan untuk server yang sangat besar, karena pendaftaran otomatis terlihat seperti scraping dan bisa memicu deteksi penyalahgunaan.';
+      case 'jellyfin_libraries_title':
+        return 'Pustaka yang didaftarkan';
+      case 'jellyfin_libraries_hint':
+        return 'Tidak memilih apa pun akan mendaftarkan semua pustaka video. Membatasi ke pustaka yang benar-benar Anda tonton mencegah server raksasa didaftar seluruhnya.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Tidak dapat memuat daftar pustaka';
       default:
         return null;
     }
@@ -201214,6 +201827,30 @@ extension on _StringsIt {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Impossibile eliminare il file dei sottotitoli: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Attiva/disattiva interfaccia manga';
+      case 'manga_interface_hide':
+        return 'Nascondi interfaccia';
+      case 'manga_interface_show':
+        return 'Mostra interfaccia';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Allineamento verticale';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Centro';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Alto';
+      case 'storage_entry_external_audio_hint':
+        return 'L\'audio fa riferimento ai file originali e non occupa spazio dell\'app';
+      case 'jellyfin_auto_list_title':
+        return 'Elenca gli elementi all\'apertura di Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Disattivato: aprire la pagina video non invia alcuna richiesta al server multimediale; tira per aggiornare nella videoteca per elencare manualmente. Consigliato per server molto grandi, dove l\'enumerazione automatica sembra scraping e può far scattare il rilevamento abusi.';
+      case 'jellyfin_libraries_title':
+        return 'Librerie da elencare';
+      case 'jellyfin_libraries_hint':
+        return 'Non selezionare nulla elenca tutte le librerie video. Limitarsi alle librerie che guardi davvero evita che server enormi vengano enumerati per intero.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Impossibile caricare l\'elenco delle librerie';
       default:
         return null;
     }
@@ -209003,6 +209640,30 @@ extension on _StringsJa {
         return ({required Object label}) => '字幕ファイルを削除しました: ${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => '字幕ファイルの削除に失敗しました: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'マンガUIの表示切り替え';
+      case 'manga_interface_hide':
+        return 'UIを隠す';
+      case 'manga_interface_show':
+        return 'UIを表示';
+      case 'gal_hook_text_vertical_alignment':
+        return '垂直方向の配置';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '中央';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '上';
+      case 'storage_entry_external_audio_hint':
+        return '音声は元のファイルを参照するため、アプリの容量を使いません';
+      case 'jellyfin_auto_list_title':
+        return '動画を開いたときに自動で一覧表示';
+      case 'jellyfin_auto_list_hint':
+        return 'オフ: 動画ページを開いてもメディアサーバーにリクエストを送りません。動画ライブラリで引っ張って更新すると手動で一覧表示できます。非常に大きなサーバーでは、自動列挙がスクレイピングのように見えて不正利用検知に引っかかることがあるため、オフを推奨します。';
+      case 'jellyfin_libraries_title':
+        return '一覧表示するライブラリ';
+      case 'jellyfin_libraries_hint':
+        return '何も選ばないとすべての動画ライブラリを一覧表示します。実際に見るライブラリだけに絞ると、巨大なサーバーが丸ごと列挙されるのを防げます。';
+      case 'jellyfin_libraries_load_failed':
+        return 'ライブラリ一覧を読み込めませんでした';
       default:
         return null;
     }
@@ -216794,6 +217455,30 @@ extension on _StringsKo {
         return ({required Object label}) => '자막 파일을 삭제했어요: ${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => '자막 파일 삭제에 실패했어요: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return '만화 인터페이스 전환';
+      case 'manga_interface_hide':
+        return '인터페이스 숨기기';
+      case 'manga_interface_show':
+        return '인터페이스 표시';
+      case 'gal_hook_text_vertical_alignment':
+        return '세로 정렬';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '가운데';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '위';
+      case 'storage_entry_external_audio_hint':
+        return '오디오는 원본 파일을 참조하므로 앱 저장 공간을 쓰지 않아요';
+      case 'jellyfin_auto_list_title':
+        return '비디오에 들어갈 때 항목 자동 나열';
+      case 'jellyfin_auto_list_hint':
+        return '끄면: 비디오 페이지에 들어가도 미디어 서버로 요청을 보내지 않아요. 비디오 라이브러리에서 당겨서 새로고침하면 수동으로 나열할 수 있어요. 아주 큰 서버에서는 자동 열거가 스크래핑처럼 보여 남용 감지에 걸릴 수 있으니 끄는 것을 권장해요.';
+      case 'jellyfin_libraries_title':
+        return '나열할 라이브러리';
+      case 'jellyfin_libraries_hint':
+        return '아무것도 선택하지 않으면 모든 비디오 라이브러리를 나열해요. 실제로 보는 라이브러리로 좁히면 거대한 서버가 통째로 열거되는 것을 막을 수 있어요.';
+      case 'jellyfin_libraries_load_failed':
+        return '라이브러리 목록을 불러오지 못했어요';
       default:
         return null;
     }
@@ -224644,6 +225329,30 @@ extension on _StringsNl {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Verwijderen van ondertitelbestand mislukt: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Manga-interface schakelen';
+      case 'manga_interface_hide':
+        return 'Interface verbergen';
+      case 'manga_interface_show':
+        return 'Interface tonen';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Verticale uitlijning';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Midden';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Boven';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio verwijst naar de originele bestanden en gebruikt geen app-opslag';
+      case 'jellyfin_auto_list_title':
+        return 'Items automatisch tonen bij openen van Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Uit: bij het openen van de videopagina wordt geen verzoek naar de mediaserver gestuurd; trek in de videobibliotheek omlaag om te vernieuwen en items handmatig te tonen. Aanbevolen voor zeer grote servers, waar automatisch opsommen op scraping lijkt en misbruikdetectie kan activeren.';
+      case 'jellyfin_libraries_title':
+        return 'Bibliotheken om te tonen';
+      case 'jellyfin_libraries_hint':
+        return 'Niets selecteren toont elke videobibliotheek. Beperken tot de bibliotheken die je echt kijkt voorkomt dat enorme servers volledig worden opgesomd.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Kon de bibliotheeklijst niet laden';
       default:
         return null;
     }
@@ -232489,6 +233198,30 @@ extension on _StringsPtBr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Falha ao excluir o arquivo de legenda: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Alternar interface de mangá';
+      case 'manga_interface_hide':
+        return 'Ocultar interface';
+      case 'manga_interface_show':
+        return 'Mostrar interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Alinhamento vertical';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Centro';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Topo';
+      case 'storage_entry_external_audio_hint':
+        return 'O áudio referencia os arquivos originais e não ocupa espaço do app';
+      case 'jellyfin_auto_list_title':
+        return 'Listar itens ao entrar em Vídeo';
+      case 'jellyfin_auto_list_hint':
+        return 'Desativado: entrar na página de vídeo não envia nenhuma requisição ao servidor de mídia; puxe para atualizar na videoteca para listar manualmente. Recomendado para servidores muito grandes, onde a enumeração automática parece scraping e pode acionar a detecção de abuso.';
+      case 'jellyfin_libraries_title':
+        return 'Bibliotecas a listar';
+      case 'jellyfin_libraries_hint':
+        return 'Não selecionar nada lista todas as bibliotecas de vídeo. Restringir às bibliotecas que você realmente assiste evita que servidores enormes sejam enumerados por completo.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Não foi possível carregar a lista de bibliotecas';
       default:
         return null;
     }
@@ -240340,6 +241073,30 @@ extension on _StringsRu {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Не удалось удалить файл субтитров: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Переключить интерфейс манги';
+      case 'manga_interface_hide':
+        return 'Скрыть интерфейс';
+      case 'manga_interface_show':
+        return 'Показать интерфейс';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Вертикальное выравнивание';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'По центру';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Сверху';
+      case 'storage_entry_external_audio_hint':
+        return 'Аудио ссылается на исходные файлы и не занимает место приложения';
+      case 'jellyfin_auto_list_title':
+        return 'Выводить список при входе в «Видео»';
+      case 'jellyfin_auto_list_hint':
+        return 'Выключено: при открытии страницы видео запрос на медиасервер не отправляется; потяните для обновления в видеотеке, чтобы вывести список вручную. Рекомендуется для очень больших серверов, где автоматический перебор выглядит как скрапинг и может сработать защита от злоупотреблений.';
+      case 'jellyfin_libraries_title':
+        return 'Библиотеки для вывода';
+      case 'jellyfin_libraries_hint':
+        return 'Если ничего не выбрано, выводятся все видеотеки. Ограничение теми библиотеками, которые вы действительно смотрите, избавит огромные серверы от полного перебора.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Не удалось загрузить список библиотек';
       default:
         return null;
     }
@@ -248163,6 +248920,30 @@ extension on _StringsTh {
         return ({required Object label}) => 'ลบไฟล์คำบรรยายแล้ว: ${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => 'ลบไฟล์คำบรรยายไม่สำเร็จ: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'สลับอินเทอร์เฟซมังงะ';
+      case 'manga_interface_hide':
+        return 'ซ่อนอินเทอร์เฟซ';
+      case 'manga_interface_show':
+        return 'แสดงอินเทอร์เฟซ';
+      case 'gal_hook_text_vertical_alignment':
+        return 'การจัดแนวแนวตั้ง';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'กึ่งกลาง';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'บน';
+      case 'storage_entry_external_audio_hint':
+        return 'เสียงอ้างอิงไฟล์ต้นฉบับ ไม่ใช้พื้นที่ของแอป';
+      case 'jellyfin_auto_list_title':
+        return 'แสดงรายการอัตโนมัติเมื่อเข้าหน้าวิดีโอ';
+      case 'jellyfin_auto_list_hint':
+        return 'ปิด: การเข้าหน้าวิดีโอจะไม่ส่งคำขอไปยังมีเดียเซิร์ฟเวอร์ ให้ดึงเพื่อรีเฟรชในคลังวิดีโอเพื่อแสดงรายการเอง แนะนำสำหรับเซิร์ฟเวอร์ขนาดใหญ่มาก เพราะการไล่รายการอัตโนมัติดูเหมือนการขูดข้อมูลและอาจไปกระตุ้นระบบตรวจจับการใช้งานผิดปกติ';
+      case 'jellyfin_libraries_title':
+        return 'คลังที่จะแสดงรายการ';
+      case 'jellyfin_libraries_hint':
+        return 'ไม่เลือกอะไรเลยจะแสดงคลังวิดีโอทั้งหมด การจำกัดเฉพาะคลังที่ดูจริงช่วยไม่ให้เซิร์ฟเวอร์ขนาดใหญ่ถูกไล่รายการทั้งหมด';
+      case 'jellyfin_libraries_load_failed':
+        return 'โหลดรายการคลังไม่สำเร็จ';
       default:
         return null;
     }
@@ -256003,6 +256784,30 @@ extension on _StringsTr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Altyazı dosyası silinemedi: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Manga arayüzünü aç/kapat';
+      case 'manga_interface_hide':
+        return 'Arayüzü gizle';
+      case 'manga_interface_show':
+        return 'Arayüzü göster';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Dikey hizalama';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Orta';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Üst';
+      case 'storage_entry_external_audio_hint':
+        return 'Ses özgün dosyaları kullanır, uygulama depolamasında yer kaplamaz';
+      case 'jellyfin_auto_list_title':
+        return 'Video\'ya girerken öğeleri otomatik listele';
+      case 'jellyfin_auto_list_hint':
+        return 'Kapalı: video sayfasına girmek medya sunucusuna hiçbir istek göndermez; öğeleri elle listelemek için video kitaplığında çekerek yenileyin. Otomatik sayımın kazıma gibi görünüp kötüye kullanım tespitini tetikleyebildiği çok büyük sunucular için önerilir.';
+      case 'jellyfin_libraries_title':
+        return 'Listelenecek kitaplıklar';
+      case 'jellyfin_libraries_hint':
+        return 'Hiçbir şey seçmezseniz tüm video kitaplıkları listelenir. Gerçekten izlediğiniz kitaplıklarla sınırlamak, devasa sunucuların baştan sona sayılmasını önler.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Kitaplık listesi yüklenemedi';
       default:
         return null;
     }
@@ -263836,6 +264641,30 @@ extension on _StringsVi {
         return ({required Object label}) => 'Đã xoá tệp phụ đề: ${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => 'Xoá tệp phụ đề thất bại: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Bật/tắt giao diện truyện tranh';
+      case 'manga_interface_hide':
+        return 'Ẩn giao diện';
+      case 'manga_interface_show':
+        return 'Hiện giao diện';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Căn dọc';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Giữa';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Trên';
+      case 'storage_entry_external_audio_hint':
+        return 'Âm thanh tham chiếu tệp gốc, không chiếm dung lượng của ứng dụng';
+      case 'jellyfin_auto_list_title':
+        return 'Tự động liệt kê mục khi vào Video';
+      case 'jellyfin_auto_list_hint':
+        return 'Tắt: vào trang video sẽ không gửi yêu cầu nào tới máy chủ phương tiện; kéo để làm mới trong thư viện video để liệt kê thủ công. Nên tắt với máy chủ rất lớn, vì việc liệt kê tự động trông giống thu thập dữ liệu và có thể kích hoạt cơ chế phát hiện lạm dụng.';
+      case 'jellyfin_libraries_title':
+        return 'Thư viện cần liệt kê';
+      case 'jellyfin_libraries_hint':
+        return 'Không chọn gì sẽ liệt kê mọi thư viện video. Thu hẹp về những thư viện bạn thực sự xem giúp máy chủ khổng lồ không bị liệt kê toàn bộ.';
+      case 'jellyfin_libraries_load_failed':
+        return 'Không tải được danh sách thư viện';
       default:
         return null;
     }
@@ -271605,6 +272434,30 @@ extension on _StringsZhCn {
         return ({required Object label}) => '已删除字幕文件：${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => '删除字幕文件失败：${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return '切换漫画界面';
+      case 'manga_interface_hide':
+        return '隐藏界面';
+      case 'manga_interface_show':
+        return '显示界面';
+      case 'gal_hook_text_vertical_alignment':
+        return '垂直对齐';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '居中';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '顶部';
+      case 'storage_entry_external_audio_hint':
+        return '音频引用原文件，不占用应用空间';
+      case 'jellyfin_auto_list_title':
+        return '进入视频页时自动列出条目';
+      case 'jellyfin_auto_list_hint':
+        return '关闭后：进入视频页不向媒体服务器发任何请求，需在视频库下拉刷新手动列出。超大服务器建议关闭——自动枚举看起来像刮削，可能触发服务器的滥用检测。';
+      case 'jellyfin_libraries_title':
+        return '要列出的媒体库';
+      case 'jellyfin_libraries_hint':
+        return '不选 = 列出全部视频媒体库。只勾你真正会看的库，超大服务器就不会被整台枚举。';
+      case 'jellyfin_libraries_load_failed':
+        return '读取媒体库清单失败';
       default:
         return null;
     }
@@ -279375,6 +280228,30 @@ extension on _StringsZhHk {
         return ({required Object label}) => '已刪除字幕檔案：${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => '刪除字幕檔案失敗：${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return '切換漫畫介面';
+      case 'manga_interface_hide':
+        return '隱藏介面';
+      case 'manga_interface_show':
+        return '顯示介面';
+      case 'gal_hook_text_vertical_alignment':
+        return '垂直對齊';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '置中';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '頂部';
+      case 'storage_entry_external_audio_hint':
+        return '音訊引用原檔案，不佔用應用空間';
+      case 'jellyfin_auto_list_title':
+        return '進入影片頁時自動列出項目';
+      case 'jellyfin_auto_list_hint':
+        return '關閉後：進入影片頁不向媒體伺服器發任何請求，需在影片庫下拉重新整理手動列出。超大伺服器建議關閉——自動列舉看起來像刮削，可能觸發伺服器的濫用偵測。';
+      case 'jellyfin_libraries_title':
+        return '要列出的媒體庫';
+      case 'jellyfin_libraries_hint':
+        return '不選 = 列出全部影片媒體庫。只勾你真正會看的庫，超大伺服器就不會被整台列舉。';
+      case 'jellyfin_libraries_load_failed':
+        return '讀取媒體庫清單失敗';
       default:
         return null;
     }
