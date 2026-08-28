@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65671 (3863 per locale)
+/// Strings: 65263 (3839 per locale)
 ///
-/// Built on 2026-08-28 at 12:03 UTC
+/// Built on 2026-08-28 at 13:18 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -666,20 +666,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get clear_dictionary_description =>
       'This will clear all dictionary results from history. Are you sure?';
   String get clear_dictionary_title => 'Clear dictionary result history';
-  String get clipboard_history_clear => 'Clear';
-  String get clipboard_history_empty => 'No copy history yet';
-  String get clipboard_history_title => 'Clipboard history';
-  String get clipboard_panel_block_capture => 'Block screen capture';
-  String get clipboard_panel_block_capture_hint =>
-      'Excludes the lookup and clipboard popup windows from screenshots, screen recording, and live streaming (Windows). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
-  String get clipboard_panel_opacity => 'Panel opacity';
-  String get clipboard_panel_opacity_hint =>
-      'Whole-panel opacity — see through to the game or page beneath';
-  String get clipboard_panel_window_title => 'Fushi clipboard lookup';
-  String get clipboard_text_window_bg_opacity => 'Text window background';
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Background opacity of the transparent clipboard text window — 0% shows only the text over the game beneath';
-  String get clipboard_text_window_title => 'Clipboard text';
+  String get lookup_block_capture => 'Block screen capture';
+  String get lookup_block_capture_hint =>
+      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
   String get collapse_dictionaries => 'Collapse dictionaries';
   String get collection_bookmark => 'Bookmark';
   String get collection_clear_confirm =>
@@ -883,24 +872,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get design_system_auto => 'Auto';
   String get design_system_hint => 'Controls the visual style of the app';
   String get design_system_label => 'Design system';
-  String get desktop_clipboard_auto_lookup => 'Auto-look-up on copy';
-  String get desktop_clipboard_auto_lookup_hint =>
-      'When off, the panel shows only the copied text; tap a word to look it up.';
-  String get desktop_clipboard_destination => 'Lookup popup position';
-  String get desktop_clipboard_destination_main => 'Main window';
-  String get desktop_clipboard_destination_panel => 'Floating panel';
-  String get desktop_clipboard_destination_text_window =>
-      'Transparent text window';
-  String get desktop_clipboard_destination_transient => 'Popup at cursor';
-  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
-  String get desktop_clipboard_enabled_hint =>
-      'Watch clipboard + global shortcut to pop a lookup window';
-  String get desktop_clipboard_window_mode => 'Window pinning';
-  String get desktop_clipboard_window_mode_always => 'Always';
-  String get desktop_clipboard_window_mode_hint =>
-      'Controls whether Fushi stays above other windows';
-  String get desktop_clipboard_window_mode_lookup => 'Lookup only';
-  String get desktop_clipboard_window_mode_normal => 'Not on top';
   String get dialog_add => 'ADD';
   String get dialog_append => 'APPEND';
   String get dialog_cancel => 'CANCEL';
@@ -2178,7 +2149,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_section_gal_hook_overlay => 'Galgame caption overlay';
   String get settings_section_general => 'General';
   String get settings_section_lookup_audio => 'Pronunciation & feedback';
-  String get settings_section_lookup_clipboard => 'Clipboard & global lookup';
   String get settings_section_lookup_content => 'Entry content';
   String get settings_section_lookup_integrations => 'External integrations';
   String get settings_section_lookup_popup_window => 'Popup window';
@@ -6121,30 +6091,10 @@ class _StringsAr extends _StringsEn {
   @override
   String get clear_dictionary_title => 'مسح سجل بحث القاموس';
   @override
-  String get clipboard_history_clear => 'مسح';
+  String get lookup_block_capture => 'حظر التقاط الشاشة';
   @override
-  String get clipboard_history_empty => 'لا يوجد سجل نسخ بعد';
-  @override
-  String get clipboard_history_title => 'سجل الحافظة';
-  @override
-  String get clipboard_panel_block_capture => 'حظر التقاط الشاشة';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
-  @override
-  String get clipboard_panel_opacity => 'شفافية اللوحة';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'شفافية اللوحة بالكامل — انظر من خلالها إلى اللعبة أو الصفحة أسفلها';
-  @override
-  String get clipboard_panel_window_title => 'بحث حافظة Fushi';
-  @override
-  String get clipboard_text_window_bg_opacity => 'خلفية نافذة النص';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'شفافية خلفية نافذة نص الحافظة الشفافة — 0% يعرض النص فقط فوق اللعبة أسفلها';
-  @override
-  String get clipboard_text_window_title => 'نص الحافظة';
   @override
   String get collapse_dictionaries => 'طي القواميس';
   @override
@@ -6522,38 +6472,6 @@ class _StringsAr extends _StringsEn {
   String get design_system_hint => 'يتحكم في النمط المرئي للتطبيق';
   @override
   String get design_system_label => 'نظام التصميم';
-  @override
-  String get desktop_clipboard_auto_lookup => 'بحث تلقائي عند النسخ';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'عند الإيقاف، تعرض اللوحة النص المنسوخ فقط؛ اضغط على كلمة للبحث عنها.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'النافذة الرئيسية';
-  @override
-  String get desktop_clipboard_destination_panel => 'لوحة عائمة';
-  @override
-  String get desktop_clipboard_destination_text_window => 'نافذة نص شفافة';
-  @override
-  String get desktop_clipboard_destination_transient =>
-      'نافذة منبثقة عند المؤشر';
-  @override
-  String get desktop_clipboard_enabled => 'البحث من حافظة سطح المكتب';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'مراقبة الحافظة + مفتاح اختصار عام لإظهار نافذة بحث (سطح المكتب)';
-  @override
-  String get desktop_clipboard_window_mode => 'تثبيت النافذة';
-  @override
-  String get desktop_clipboard_window_mode_always => 'دائمًا';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'يتحكم في بقاء Fushi فوق النوافذ الأخرى';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'أثناء البحث فقط';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'إيقاف';
   @override
   String get dialog_add => 'إضافة';
   @override
@@ -8847,8 +8765,6 @@ class _StringsAr extends _StringsEn {
   String get settings_section_general => 'عام';
   @override
   String get settings_section_lookup_audio => 'النطق والاستجابة';
-  @override
-  String get settings_section_lookup_clipboard => 'الحافظة والبحث الشامل';
   @override
   String get settings_section_lookup_content => 'محتوى المدخل';
   @override
@@ -15089,31 +15005,10 @@ class _StringsDe extends _StringsEn {
   @override
   String get clear_dictionary_title => 'Wörterbuch-Ergebnisverlauf löschen';
   @override
-  String get clipboard_history_clear => 'Leeren';
+  String get lookup_block_capture => 'Bildschirmaufnahme blockieren';
   @override
-  String get clipboard_history_empty => 'Noch kein Kopierverlauf';
-  @override
-  String get clipboard_history_title => 'Zwischenablageverlauf';
-  @override
-  String get clipboard_panel_block_capture => 'Bildschirmaufnahme blockieren';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
-  @override
-  String get clipboard_panel_opacity => 'Panel-Deckkraft';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Gesamte Panel-Deckkraft – durch das Spiel oder die Seite darunter hindurchsehen';
-  @override
-  String get clipboard_panel_window_title =>
-      'Fushi Zwischenablage-Nachschlagen';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Textfenster-Hintergrund';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Hintergrund-Deckkraft des transparenten Zwischenablage-Textfensters – 0 % zeigt nur den Text über dem Spiel darunter';
-  @override
-  String get clipboard_text_window_title => 'Zwischenablagetext';
   @override
   String get collapse_dictionaries => 'Wörterbücher einklappen';
   @override
@@ -15500,40 +15395,6 @@ class _StringsDe extends _StringsEn {
   String get design_system_hint => 'Steuert den visuellen Stil der App';
   @override
   String get design_system_label => 'Designsystem';
-  @override
-  String get desktop_clipboard_auto_lookup =>
-      'Automatisch beim Kopieren nachschlagen';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Wenn deaktiviert, zeigt das Panel nur den kopierten Text; tippe auf ein Wort, um es nachzuschlagen.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Hauptfenster';
-  @override
-  String get desktop_clipboard_destination_panel => 'Schwebendes Panel';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Transparentes Textfenster';
-  @override
-  String get desktop_clipboard_destination_transient => 'Popup am Cursor';
-  @override
-  String get desktop_clipboard_enabled =>
-      'Zwischenablage-Nachschlagen (Desktop)';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Zwischenablage + globales Tastenkürzel überwachen, um ein Nachschlagefenster zu öffnen (Desktop)';
-  @override
-  String get desktop_clipboard_window_mode => 'Fenster anheften';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Immer';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Steuert, ob Fushi über anderen Fenstern bleibt';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Nur beim Nachschlagen';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Aus';
   @override
   String get dialog_add => 'HINZUFÜGEN';
   @override
@@ -17878,9 +17739,6 @@ class _StringsDe extends _StringsEn {
   String get settings_section_general => 'Allgemein';
   @override
   String get settings_section_lookup_audio => 'Aussprache & Feedback';
-  @override
-  String get settings_section_lookup_clipboard =>
-      'Zwischenablage & globale Suche';
   @override
   String get settings_section_lookup_content => 'Eintragsinhalt';
   @override
@@ -24250,31 +24108,10 @@ class _StringsEs extends _StringsEn {
   String get clear_dictionary_title =>
       'Borrar historial de resultados del diccionario';
   @override
-  String get clipboard_history_clear => 'Limpiar';
+  String get lookup_block_capture => 'Bloquear captura de pantalla';
   @override
-  String get clipboard_history_empty => 'Sin historial de copias aún';
-  @override
-  String get clipboard_history_title => 'Historial del portapapeles';
-  @override
-  String get clipboard_panel_block_capture => 'Bloquear captura de pantalla';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
-  @override
-  String get clipboard_panel_opacity => 'Opacidad del panel';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Opacidad del panel completo — vea a través del juego o página debajo';
-  @override
-  String get clipboard_panel_window_title =>
-      'Búsqueda del portapapeles de Fushi';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Fondo de ventana de texto';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Opacidad del fondo de la ventana de texto transparente del portapapeles — 0% muestra solo el texto sobre el juego debajo';
-  @override
-  String get clipboard_text_window_title => 'Texto del portapapeles';
   @override
   String get collapse_dictionaries => 'Contraer diccionarios';
   @override
@@ -24660,41 +24497,6 @@ class _StringsEs extends _StringsEn {
   String get design_system_hint => 'Controla el estilo visual de la app';
   @override
   String get design_system_label => 'Sistema de diseño';
-  @override
-  String get desktop_clipboard_auto_lookup =>
-      'Buscar automáticamente al copiar';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Cuando está desactivado, el panel solo muestra el texto copiado; toque una palabra para buscarla.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Ventana principal';
-  @override
-  String get desktop_clipboard_destination_panel => 'Panel flotante';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Ventana de texto transparente';
-  @override
-  String get desktop_clipboard_destination_transient =>
-      'Emergente en el cursor';
-  @override
-  String get desktop_clipboard_enabled =>
-      'Consulta desde el portapapeles (escritorio)';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Vigila el portapapeles + atajo global para abrir una ventana de consulta (escritorio)';
-  @override
-  String get desktop_clipboard_window_mode => 'Fijar ventana';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Siempre';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Controla si Fushi se mantiene sobre otras ventanas';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Solo al consultar';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Desactivado';
   @override
   String get dialog_add => 'AÑADIR';
   @override
@@ -27055,9 +26857,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get settings_section_lookup_audio =>
       'Pronunciación y retroalimentación';
-  @override
-  String get settings_section_lookup_clipboard =>
-      'Portapapeles y búsqueda global';
   @override
   String get settings_section_lookup_content => 'Contenido de la entrada';
   @override
@@ -33464,31 +33263,10 @@ class _StringsFr extends _StringsEn {
   String get clear_dictionary_title =>
       'Effacer l\'historique des résultats du dictionnaire';
   @override
-  String get clipboard_history_clear => 'Effacer';
+  String get lookup_block_capture => 'Bloquer la capture d\'écran';
   @override
-  String get clipboard_history_empty => 'Aucun historique de copie';
-  @override
-  String get clipboard_history_title => 'Historique du presse-papiers';
-  @override
-  String get clipboard_panel_block_capture => 'Bloquer la capture d\'écran';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows). Désactivez pour permettre la capture de la fenêtre de recherche.';
-  @override
-  String get clipboard_panel_opacity => 'Opacité du panneau';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Opacité globale du panneau — voir à travers vers le jeu ou la page en dessous';
-  @override
-  String get clipboard_panel_window_title => 'Recherche presse-papiers Fushi';
-  @override
-  String get clipboard_text_window_bg_opacity =>
-      'Arrière-plan de la fenêtre de texte';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Opacité de l\'arrière-plan de la fenêtre de texte transparente du presse-papiers — 0 % n\'affiche que le texte sur le jeu en dessous';
-  @override
-  String get clipboard_text_window_title => 'Texte du presse-papiers';
   @override
   String get collapse_dictionaries => 'Réduire les dictionnaires';
   @override
@@ -33879,39 +33657,6 @@ class _StringsFr extends _StringsEn {
   String get design_system_hint => 'Contrôle le style visuel de l\'application';
   @override
   String get design_system_label => 'Système de design';
-  @override
-  String get desktop_clipboard_auto_lookup => 'Recherche automatique au copier';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Désactivé, le panneau affiche uniquement le texte copié ; appuyez sur un mot pour le rechercher.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Fenêtre principale';
-  @override
-  String get desktop_clipboard_destination_panel => 'Panneau flottant';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Fenêtre de texte transparente';
-  @override
-  String get desktop_clipboard_destination_transient => 'Pop-up au curseur';
-  @override
-  String get desktop_clipboard_enabled =>
-      'Recherche depuis le presse-papiers (bureau)';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Surveiller le presse-papiers + raccourci global pour ouvrir une fenêtre de recherche (bureau)';
-  @override
-  String get desktop_clipboard_window_mode => 'Épinglage de la fenêtre';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Toujours';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Contrôle si Fushi reste au-dessus des autres fenêtres';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Recherche uniquement';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Désactivé';
   @override
   String get dialog_add => 'AJOUTER';
   @override
@@ -36270,9 +36015,6 @@ class _StringsFr extends _StringsEn {
   String get settings_section_general => 'Général';
   @override
   String get settings_section_lookup_audio => 'Prononciation et retour';
-  @override
-  String get settings_section_lookup_clipboard =>
-      'Presse-papiers et recherche globale';
   @override
   String get settings_section_lookup_content => 'Contenu des entrées';
   @override
@@ -42684,30 +42426,10 @@ class _StringsId extends _StringsEn {
   @override
   String get clear_dictionary_title => 'Hapus Riwayat Hasil Kamus';
   @override
-  String get clipboard_history_clear => 'Bersihkan';
+  String get lookup_block_capture => 'Blokir tangkapan layar';
   @override
-  String get clipboard_history_empty => 'Belum ada riwayat salin';
-  @override
-  String get clipboard_history_title => 'Riwayat clipboard';
-  @override
-  String get clipboard_panel_block_capture => 'Blokir tangkapan layar';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
-  @override
-  String get clipboard_panel_opacity => 'Opasitas panel';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Opasitas seluruh panel — lihat tembus ke game atau halaman di bawahnya';
-  @override
-  String get clipboard_panel_window_title => 'Pencarian clipboard Fushi';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Latar belakang jendela teks';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Opasitas latar belakang jendela teks clipboard transparan — 0% hanya menampilkan teks di atas game di bawahnya';
-  @override
-  String get clipboard_text_window_title => 'Teks clipboard';
   @override
   String get collapse_dictionaries => 'Ciutkan kamus';
   @override
@@ -43087,38 +42809,6 @@ class _StringsId extends _StringsEn {
   String get design_system_hint => 'Mengontrol gaya visual aplikasi';
   @override
   String get design_system_label => 'Sistem Desain';
-  @override
-  String get desktop_clipboard_auto_lookup => 'Cari otomatis saat menyalin';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Saat mati, panel hanya menampilkan teks yang disalin; ketuk kata untuk mencarinya.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Jendela utama';
-  @override
-  String get desktop_clipboard_destination_panel => 'Panel mengambang';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Jendela teks transparan';
-  @override
-  String get desktop_clipboard_destination_transient => 'Popup di kursor';
-  @override
-  String get desktop_clipboard_enabled => 'Pencarian kata papan klip desktop';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Pantau papan klip + hotkey global untuk memunculkan jendela pencarian (desktop)';
-  @override
-  String get desktop_clipboard_window_mode => 'Penyematan jendela';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Selalu';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Mengatur apakah Fushi tetap di atas jendela lain';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Hanya saat mencari';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Mati';
   @override
   String get dialog_add => 'TAMBAH';
   @override
@@ -45442,9 +45132,6 @@ class _StringsId extends _StringsEn {
   String get settings_section_general => 'Umum';
   @override
   String get settings_section_lookup_audio => 'Pengucapan & umpan balik';
-  @override
-  String get settings_section_lookup_clipboard =>
-      'Clipboard & pencarian global';
   @override
   String get settings_section_lookup_content => 'Konten entri';
   @override
@@ -51755,30 +51442,10 @@ class _StringsIt extends _StringsEn {
   String get clear_dictionary_title =>
       'Cancella cronologia risultati del dizionario';
   @override
-  String get clipboard_history_clear => 'Cancella';
+  String get lookup_block_capture => 'Blocca cattura schermo';
   @override
-  String get clipboard_history_empty => 'Nessuna cronologia di copia';
-  @override
-  String get clipboard_history_title => 'Cronologia appunti';
-  @override
-  String get clipboard_panel_block_capture => 'Blocca cattura schermo';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
-  @override
-  String get clipboard_panel_opacity => 'Opacità pannello';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Opacità dell\'intero pannello — vedi attraverso il gioco o la pagina sottostante';
-  @override
-  String get clipboard_panel_window_title => 'Ricerca appunti Fushi';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Sfondo finestra testo';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Opacità dello sfondo della finestra testo trasparente degli appunti — 0% mostra solo il testo sopra il gioco sottostante';
-  @override
-  String get clipboard_text_window_title => 'Testo appunti';
   @override
   String get collapse_dictionaries => 'Comprimi dizionari';
   @override
@@ -52162,38 +51829,6 @@ class _StringsIt extends _StringsEn {
   String get design_system_hint => 'Controlla lo stile visivo dell\'app';
   @override
   String get design_system_label => 'Sistema di design';
-  @override
-  String get desktop_clipboard_auto_lookup => 'Ricerca automatica alla copia';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Se disattivato, il pannello mostra solo il testo copiato; tocca una parola per cercarla.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Finestra principale';
-  @override
-  String get desktop_clipboard_destination_panel => 'Pannello flottante';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Finestra testo trasparente';
-  @override
-  String get desktop_clipboard_destination_transient => 'Popup al cursore';
-  @override
-  String get desktop_clipboard_enabled => 'Ricerca dagli appunti su desktop';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Monitora gli appunti + tasto di scelta rapida globale per aprire una finestra di ricerca (desktop)';
-  @override
-  String get desktop_clipboard_window_mode => 'Fissaggio finestra';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Sempre';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Controlla se Fushi rimane sopra le altre finestre';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Solo durante la ricerca';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Disattivato';
   @override
   String get dialog_add => 'AGGIUNGI';
   @override
@@ -54538,8 +54173,6 @@ class _StringsIt extends _StringsEn {
   String get settings_section_general => 'Generali';
   @override
   String get settings_section_lookup_audio => 'Pronuncia e feedback';
-  @override
-  String get settings_section_lookup_clipboard => 'Appunti e ricerca globale';
   @override
   String get settings_section_lookup_content => 'Contenuto voci';
   @override
@@ -60845,29 +60478,10 @@ class _StringsJa extends _StringsEn {
   @override
   String get clear_dictionary_title => '辞書の検索履歴を消去';
   @override
-  String get clipboard_history_clear => 'クリア';
+  String get lookup_block_capture => '画面キャプチャをブロック';
   @override
-  String get clipboard_history_empty => 'コピー履歴はまだありません';
-  @override
-  String get clipboard_history_title => 'クリップボード履歴';
-  @override
-  String get clipboard_panel_block_capture => '画面キャプチャをブロック';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
-  @override
-  String get clipboard_panel_opacity => 'パネル透明度';
-  @override
-  String get clipboard_panel_opacity_hint => 'パネル全体の透明度 — ゲームやページが透けて見えます';
-  @override
-  String get clipboard_panel_window_title => 'Fushi クリップボード検索';
-  @override
-  String get clipboard_text_window_bg_opacity => 'テキストウィンドウ背景';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      '透明クリップボードテキストウィンドウの背景透明度 — 0% にするとゲームの上にテキストのみが表示されます';
-  @override
-  String get clipboard_text_window_title => 'クリップボードテキスト';
   @override
   String get collapse_dictionaries => '辞書を折りたたむ';
   @override
@@ -61234,37 +60848,6 @@ class _StringsJa extends _StringsEn {
   String get design_system_hint => 'アプリの外観スタイルを切り替えます';
   @override
   String get design_system_label => 'デザインシステム';
-  @override
-  String get desktop_clipboard_auto_lookup => 'コピー時に自動検索';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'オフにすると、パネルにはコピーしたテキストのみが表示されます。単語をタップして検索できます。';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'メインウィンドウ';
-  @override
-  String get desktop_clipboard_destination_panel => 'フローティングパネル';
-  @override
-  String get desktop_clipboard_destination_text_window => '透明テキストウィンドウ';
-  @override
-  String get desktop_clipboard_destination_transient => 'カーソル位置のポップアップ';
-  @override
-  String get desktop_clipboard_enabled => 'デスクトップのクリップボード辞書引き';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'クリップボードとグローバルホットキーを監視し、辞書ウィンドウを表示します（デスクトップ）';
-  @override
-  String get desktop_clipboard_window_mode => 'ウィンドウの最前面固定';
-  @override
-  String get desktop_clipboard_window_mode_always => '常に固定';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Fushi が他のウィンドウの上に留まるかどうかを制御します';
-  @override
-  String get desktop_clipboard_window_mode_lookup => '辞書引き中のみ';
-  @override
-  String get desktop_clipboard_window_mode_normal => '固定しない';
   @override
   String get dialog_add => '追加';
   @override
@@ -63478,8 +63061,6 @@ class _StringsJa extends _StringsEn {
   String get settings_section_general => '一般';
   @override
   String get settings_section_lookup_audio => '発音とフィードバック';
-  @override
-  String get settings_section_lookup_clipboard => 'クリップボードとグローバル辞書引き';
   @override
   String get settings_section_lookup_content => 'エントリ内容';
   @override
@@ -69427,30 +69008,10 @@ class _StringsKo extends _StringsEn {
   @override
   String get clear_dictionary_title => '사전 검색 기록 삭제';
   @override
-  String get clipboard_history_clear => '지우기';
+  String get lookup_block_capture => '화면 캡처 차단';
   @override
-  String get clipboard_history_empty => '복사 기록이 없습니다';
-  @override
-  String get clipboard_history_title => '클립보드 기록';
-  @override
-  String get clipboard_panel_block_capture => '화면 캡처 차단';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
-  @override
-  String get clipboard_panel_opacity => '패널 불투명도';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      '패널 전체 불투명도 — 아래의 게임이나 페이지를 투과해서 봅니다';
-  @override
-  String get clipboard_panel_window_title => 'Fushi 클립보드 검색';
-  @override
-  String get clipboard_text_window_bg_opacity => '텍스트 창 배경';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      '투명 클립보드 텍스트 창의 배경 불투명도 — 0%는 아래 게임 위에 텍스트만 표시합니다';
-  @override
-  String get clipboard_text_window_title => '클립보드 텍스트';
   @override
   String get collapse_dictionaries => '사전 접기';
   @override
@@ -69818,37 +69379,6 @@ class _StringsKo extends _StringsEn {
   String get design_system_hint => '앱의 시각적 스타일을 전환합니다';
   @override
   String get design_system_label => '디자인 시스템';
-  @override
-  String get desktop_clipboard_auto_lookup => '복사 시 자동 검색';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      '끄면 패널에 복사한 텍스트만 표시됩니다; 단어를 탭하여 검색하세요.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => '메인 창';
-  @override
-  String get desktop_clipboard_destination_panel => '플로팅 패널';
-  @override
-  String get desktop_clipboard_destination_text_window => '투명 텍스트 창';
-  @override
-  String get desktop_clipboard_destination_transient => '커서 위치 팝업';
-  @override
-  String get desktop_clipboard_enabled => '데스크톱 클립보드 단어 찾기';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      '클립보드와 전역 단축키를 감시해 단어 찾기 창을 띄웁니다(데스크톱)';
-  @override
-  String get desktop_clipboard_window_mode => '창 고정';
-  @override
-  String get desktop_clipboard_window_mode_always => '항상';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Fushi가 다른 창 위에 유지되는지 여부를 제어합니다';
-  @override
-  String get desktop_clipboard_window_mode_lookup => '단어 찾기 중에만';
-  @override
-  String get desktop_clipboard_window_mode_normal => '끄기';
   @override
   String get dialog_add => '추가';
   @override
@@ -72059,8 +71589,6 @@ class _StringsKo extends _StringsEn {
   String get settings_section_general => '일반';
   @override
   String get settings_section_lookup_audio => '발음 및 피드백';
-  @override
-  String get settings_section_lookup_clipboard => '클립보드 및 글로벌 검색';
   @override
   String get settings_section_lookup_content => '항목 내용';
   @override
@@ -78072,30 +77600,10 @@ class _StringsNl extends _StringsEn {
   @override
   String get clear_dictionary_title => 'Woordenboekresultaten wissen';
   @override
-  String get clipboard_history_clear => 'Wissen';
+  String get lookup_block_capture => 'Schermopname blokkeren';
   @override
-  String get clipboard_history_empty => 'Nog geen kopieergeschiedenis';
-  @override
-  String get clipboard_history_title => 'Klembordgeschiedenis';
-  @override
-  String get clipboard_panel_block_capture => 'Schermopname blokkeren';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
-  @override
-  String get clipboard_panel_opacity => 'Paneel-dekking';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Gehele paneel-dekking — kijk door het paneel naar het spel of de pagina eronder';
-  @override
-  String get clipboard_panel_window_title => 'Fushi klembordopzoeker';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Tekstvensterachtergrond';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Achtergronddekking van het transparante klembordtekstvenster — 0% toont alleen de tekst over het spel eronder';
-  @override
-  String get clipboard_text_window_title => 'Klembordtekst';
   @override
   String get collapse_dictionaries => 'Woordenboeken inklappen';
   @override
@@ -78475,39 +77983,6 @@ class _StringsNl extends _StringsEn {
   String get design_system_hint => 'Bepaalt de visuele stijl van de app';
   @override
   String get design_system_label => 'Ontwerpsysteem';
-  @override
-  String get desktop_clipboard_auto_lookup =>
-      'Automatisch opzoeken bij kopiëren';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Als dit uit staat, toont het paneel alleen de gekopieerde tekst; tik op een woord om het op te zoeken.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Hoofdvenster';
-  @override
-  String get desktop_clipboard_destination_panel => 'Zwevend paneel';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Transparant tekstvenster';
-  @override
-  String get desktop_clipboard_destination_transient => 'Popup bij cursor';
-  @override
-  String get desktop_clipboard_enabled => 'Opzoeken via klembord (desktop)';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Bewaak het klembord + een globale sneltoets om een opzoekvenster te openen (desktop)';
-  @override
-  String get desktop_clipboard_window_mode => 'Venster vastzetten';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Altijd';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Bepaalt of Fushi boven andere vensters blijft';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Alleen tijdens opzoeken';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Uit';
   @override
   String get dialog_add => 'TOEVOEGEN';
   @override
@@ -80836,8 +80311,6 @@ class _StringsNl extends _StringsEn {
   String get settings_section_general => 'Algemeen';
   @override
   String get settings_section_lookup_audio => 'Uitspraak & feedback';
-  @override
-  String get settings_section_lookup_clipboard => 'Klembord & globaal opzoeken';
   @override
   String get settings_section_lookup_content => 'Lemma-inhoud';
   @override
@@ -87173,31 +86646,10 @@ class _StringsPtBr extends _StringsEn {
   String get clear_dictionary_title =>
       'Limpar Histórico de Resultados do Dicionário';
   @override
-  String get clipboard_history_clear => 'Limpar';
+  String get lookup_block_capture => 'Bloquear captura de tela';
   @override
-  String get clipboard_history_empty => 'Nenhum histórico de cópia ainda';
-  @override
-  String get clipboard_history_title => 'Histórico da área de transferência';
-  @override
-  String get clipboard_panel_block_capture => 'Bloquear captura de tela';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows). Desative para permitir que capturas e gravações capturem o popup de consulta.';
-  @override
-  String get clipboard_panel_opacity => 'Opacidade do painel';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Opacidade geral do painel — veja através para o jogo ou página abaixo';
-  @override
-  String get clipboard_panel_window_title =>
-      'Consulta de área de transferência do Fushi';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Fundo da janela de texto';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Opacidade do fundo da janela de texto transparente — 0% mostra apenas o texto sobre o jogo';
-  @override
-  String get clipboard_text_window_title => 'Texto da área de transferência';
   @override
   String get collapse_dictionaries => 'Recolher dicionários';
   @override
@@ -87581,40 +87033,6 @@ class _StringsPtBr extends _StringsEn {
   String get design_system_hint => 'Controla o estilo visual do app';
   @override
   String get design_system_label => 'Sistema de design';
-  @override
-  String get desktop_clipboard_auto_lookup => 'Consulta automática ao copiar';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Quando desligado, o painel mostra apenas o texto copiado; toque em uma palavra para consultá-la.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Janela principal';
-  @override
-  String get desktop_clipboard_destination_panel => 'Painel flutuante';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Janela de texto transparente';
-  @override
-  String get desktop_clipboard_destination_transient => 'Popup no cursor';
-  @override
-  String get desktop_clipboard_enabled =>
-      'Consulta pela área de transferência (desktop)';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Monitora a área de transferência + atalho global para abrir uma janela de consulta (desktop)';
-  @override
-  String get desktop_clipboard_window_mode => 'Fixação da janela';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Sempre';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Controla se o Fushi fica acima de outras janelas';
-  @override
-  String get desktop_clipboard_window_mode_lookup =>
-      'Apenas durante a consulta';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Desativado';
   @override
   String get dialog_add => 'ADICIONAR';
   @override
@@ -89952,9 +89370,6 @@ class _StringsPtBr extends _StringsEn {
   String get settings_section_general => 'Geral';
   @override
   String get settings_section_lookup_audio => 'Pronúncia e feedback';
-  @override
-  String get settings_section_lookup_clipboard =>
-      'Área de transferência e consulta global';
   @override
   String get settings_section_lookup_content => 'Conteúdo da entrada';
   @override
@@ -96320,30 +95735,10 @@ class _StringsRu extends _StringsEn {
   @override
   String get clear_dictionary_title => 'Очистить историю словаря';
   @override
-  String get clipboard_history_clear => 'Очистить';
+  String get lookup_block_capture => 'Блокировать захват экрана';
   @override
-  String get clipboard_history_empty => 'История копирования пуста';
-  @override
-  String get clipboard_history_title => 'История буфера обмена';
-  @override
-  String get clipboard_panel_block_capture => 'Блокировать захват экрана';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows). Отключите, чтобы разрешить захват всплывающего окна поиска.';
-  @override
-  String get clipboard_panel_opacity => 'Прозрачность панели';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Общая прозрачность панели — видно игру или страницу за ней';
-  @override
-  String get clipboard_panel_window_title => 'Fushi — поиск из буфера обмена';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Фон текстового окна';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Прозрачность фона текстового окна — 0% показывает только текст поверх игры';
-  @override
-  String get clipboard_text_window_title => 'Текст из буфера обмена';
   @override
   String get collapse_dictionaries => 'Свернуть словари';
   @override
@@ -96729,39 +96124,6 @@ class _StringsRu extends _StringsEn {
   String get design_system_hint => 'Управляет визуальным стилем приложения';
   @override
   String get design_system_label => 'Система дизайна';
-  @override
-  String get desktop_clipboard_auto_lookup => 'Автопоиск при копировании';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Если выключено, панель показывает только скопированный текст; нажмите на слово, чтобы найти его.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Главное окно';
-  @override
-  String get desktop_clipboard_destination_panel => 'Плавающая панель';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Прозрачное текстовое окно';
-  @override
-  String get desktop_clipboard_destination_transient =>
-      'Всплывающее окно у курсора';
-  @override
-  String get desktop_clipboard_enabled => 'Поиск из буфера обмена (ПК)';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Следить за буфером обмена + глобальная горячая клавиша для окна поиска (ПК)';
-  @override
-  String get desktop_clipboard_window_mode => 'Закрепление окна';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Всегда';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Определяет, остаётся ли Fushi поверх других окон';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Только при поиске';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Выкл.';
   @override
   String get dialog_add => 'ДОБАВИТЬ';
   @override
@@ -99098,9 +98460,6 @@ class _StringsRu extends _StringsEn {
   String get settings_section_general => 'Общие';
   @override
   String get settings_section_lookup_audio => 'Произношение и обратная связь';
-  @override
-  String get settings_section_lookup_clipboard =>
-      'Буфер обмена и глобальный поиск';
   @override
   String get settings_section_lookup_content => 'Содержимое статьи';
   @override
@@ -105438,30 +104797,10 @@ class _StringsTh extends _StringsEn {
   @override
   String get clear_dictionary_title => 'ล้างประวัติผลพจนานุกรม';
   @override
-  String get clipboard_history_clear => 'ล้าง';
+  String get lookup_block_capture => 'บล็อกการจับภาพหน้าจอ';
   @override
-  String get clipboard_history_empty => 'ยังไม่มีประวัติการคัดลอก';
-  @override
-  String get clipboard_history_title => 'ประวัติคลิปบอร์ด';
-  @override
-  String get clipboard_panel_block_capture => 'บล็อกการจับภาพหน้าจอ';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
-  @override
-  String get clipboard_panel_opacity => 'ความทึบของแผง';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'ความทึบทั้งแผง — มองทะลุไปยังเกมหรือหน้าด้านหลัง';
-  @override
-  String get clipboard_panel_window_title => 'ค้นหาคำจากคลิปบอร์ด Fushi';
-  @override
-  String get clipboard_text_window_bg_opacity => 'พื้นหลังหน้าต่างข้อความ';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'ความทึบพื้นหลังของหน้าต่างข้อความคลิปบอร์ดโปร่งใส — 0% แสดงเฉพาะข้อความเหนือเกมด้านหลัง';
-  @override
-  String get clipboard_text_window_title => 'ข้อความคลิปบอร์ด';
   @override
   String get collapse_dictionaries => 'ยุบพจนานุกรม';
   @override
@@ -105837,38 +105176,6 @@ class _StringsTh extends _StringsEn {
   String get design_system_hint => 'ควบคุมรูปแบบการแสดงผลของแอป';
   @override
   String get design_system_label => 'ระบบการออกแบบ';
-  @override
-  String get desktop_clipboard_auto_lookup => 'ค้นหาอัตโนมัติเมื่อคัดลอก';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'เมื่อปิด แผงจะแสดงเฉพาะข้อความที่คัดลอก; แตะคำเพื่อค้นหา';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'หน้าต่างหลัก';
-  @override
-  String get desktop_clipboard_destination_panel => 'แผงลอย';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'หน้าต่างข้อความโปร่งใส';
-  @override
-  String get desktop_clipboard_destination_transient => 'ป๊อปอัปที่เคอร์เซอร์';
-  @override
-  String get desktop_clipboard_enabled => 'ค้นคำจากคลิปบอร์ดบนเดสก์ท็อป';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'เฝ้าดูคลิปบอร์ด + ฮอตคีย์ทั่วระบบเพื่อเปิดหน้าต่างค้นคำ (เดสก์ท็อป)';
-  @override
-  String get desktop_clipboard_window_mode => 'การปักหน้าต่าง';
-  @override
-  String get desktop_clipboard_window_mode_always => 'เสมอ';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'ควบคุมว่า Fushi จะอยู่เหนือหน้าต่างอื่นหรือไม่';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'เฉพาะตอนค้นคำ';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'ปิด';
   @override
   String get dialog_add => 'เพิ่ม';
   @override
@@ -108159,8 +107466,6 @@ class _StringsTh extends _StringsEn {
   String get settings_section_general => 'ทั่วไป';
   @override
   String get settings_section_lookup_audio => 'การออกเสียงและข้อเสนอแนะ';
-  @override
-  String get settings_section_lookup_clipboard => 'คลิปบอร์ดและค้นหาทั่วไป';
   @override
   String get settings_section_lookup_content => 'เนื้อหารายการ';
   @override
@@ -114392,30 +113697,10 @@ class _StringsTr extends _StringsEn {
   @override
   String get clear_dictionary_title => 'Sözlük sonuç geçmişini temizle';
   @override
-  String get clipboard_history_clear => 'Temizle';
+  String get lookup_block_capture => 'Ekran yakalamayı engelle';
   @override
-  String get clipboard_history_empty => 'Henüz kopyalama geçmişi yok';
-  @override
-  String get clipboard_history_title => 'Pano geçmişi';
-  @override
-  String get clipboard_panel_block_capture => 'Ekran yakalamayı engelle';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
-  @override
-  String get clipboard_panel_opacity => 'Panel şeffaflığı';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Tüm panel şeffaflığı — alttaki oyunu veya sayfayı görün';
-  @override
-  String get clipboard_panel_window_title => 'Fushi pano araması';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Metin penceresi arka planı';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Şeffaf pano metin penceresinin arka plan şeffaflığı — %0 yalnızca alttaki oyunun üzerinde metni gösterir';
-  @override
-  String get clipboard_text_window_title => 'Pano metni';
   @override
   String get collapse_dictionaries => 'Sözlükleri daralt';
   @override
@@ -114797,39 +114082,6 @@ class _StringsTr extends _StringsEn {
   String get design_system_hint => 'Uygulamanın görsel stilini kontrol eder';
   @override
   String get design_system_label => 'Tasarım sistemi';
-  @override
-  String get desktop_clipboard_auto_lookup => 'Kopyalamada otomatik arama';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Kapalıyken panel yalnızca kopyalanan metni gösterir; aramak için bir kelimeye dokunun.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Ana pencere';
-  @override
-  String get desktop_clipboard_destination_panel => 'Kayan panel';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Şeffaf metin penceresi';
-  @override
-  String get desktop_clipboard_destination_transient =>
-      'İmleçte açılır pencere';
-  @override
-  String get desktop_clipboard_enabled => 'Masaüstü pano araması';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Bir arama penceresi açmak için panoyu + genel kısayol tuşunu izle (masaüstü)';
-  @override
-  String get desktop_clipboard_window_mode => 'Pencere sabitleme';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Her zaman';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Fushi\'nin diğer pencerelerin üzerinde kalıp kalmayacağını kontrol eder';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Yalnızca arama sırasında';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Kapalı';
   @override
   String get dialog_add => 'EKLE';
   @override
@@ -117145,8 +116397,6 @@ class _StringsTr extends _StringsEn {
   String get settings_section_general => 'Genel';
   @override
   String get settings_section_lookup_audio => 'Telaffuz ve geri bildirim';
-  @override
-  String get settings_section_lookup_clipboard => 'Pano ve genel arama';
   @override
   String get settings_section_lookup_content => 'Giriş içeriği';
   @override
@@ -123438,30 +122688,10 @@ class _StringsVi extends _StringsEn {
   @override
   String get clear_dictionary_title => 'Xóa lịch sử tra cứu từ điển';
   @override
-  String get clipboard_history_clear => 'Xóa';
+  String get lookup_block_capture => 'Chặn chụp màn hình';
   @override
-  String get clipboard_history_empty => 'Chưa có lịch sử sao chép';
-  @override
-  String get clipboard_history_title => 'Lịch sử bộ nhớ tạm';
-  @override
-  String get clipboard_panel_block_capture => 'Chặn chụp màn hình';
-  @override
-  String get clipboard_panel_block_capture_hint =>
+  String get lookup_block_capture_hint =>
       'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
-  @override
-  String get clipboard_panel_opacity => 'Độ trong suốt bảng';
-  @override
-  String get clipboard_panel_opacity_hint =>
-      'Độ trong suốt toàn bảng — nhìn xuyên qua trò chơi hoặc trang bên dưới';
-  @override
-  String get clipboard_panel_window_title => 'Fushi tra cứu bộ nhớ tạm';
-  @override
-  String get clipboard_text_window_bg_opacity => 'Nền cửa sổ văn bản';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      'Độ trong suốt nền của cửa sổ văn bản trong suốt — 0% chỉ hiển thị văn bản trên trò chơi bên dưới';
-  @override
-  String get clipboard_text_window_title => 'Văn bản bộ nhớ tạm';
   @override
   String get collapse_dictionaries => 'Thu gọn từ điển';
   @override
@@ -123843,38 +123073,6 @@ class _StringsVi extends _StringsEn {
   String get design_system_hint => 'Điều khiển phong cách giao diện ứng dụng';
   @override
   String get design_system_label => 'Hệ thống thiết kế';
-  @override
-  String get desktop_clipboard_auto_lookup => 'Tự động tra cứu khi sao chép';
-  @override
-  String get desktop_clipboard_auto_lookup_hint =>
-      'Khi tắt, bảng chỉ hiển thị văn bản đã sao chép; nhấn vào từ để tra cứu.';
-  @override
-  String get desktop_clipboard_destination => 'Clipboard lookup destination';
-  @override
-  String get desktop_clipboard_destination_main => 'Cửa sổ chính';
-  @override
-  String get desktop_clipboard_destination_panel => 'Bảng nổi';
-  @override
-  String get desktop_clipboard_destination_text_window =>
-      'Cửa sổ văn bản trong suốt';
-  @override
-  String get desktop_clipboard_destination_transient => 'Popup tại con trỏ';
-  @override
-  String get desktop_clipboard_enabled => 'Tra từ qua clipboard máy tính';
-  @override
-  String get desktop_clipboard_enabled_hint =>
-      'Theo dõi clipboard + phím tắt toàn cục để bật cửa sổ tra (máy tính)';
-  @override
-  String get desktop_clipboard_window_mode => 'Ghim cửa sổ';
-  @override
-  String get desktop_clipboard_window_mode_always => 'Luôn luôn';
-  @override
-  String get desktop_clipboard_window_mode_hint =>
-      'Điều khiển Fushi có luôn hiển thị trên các cửa sổ khác không';
-  @override
-  String get desktop_clipboard_window_mode_lookup => 'Chỉ khi tra từ';
-  @override
-  String get desktop_clipboard_window_mode_normal => 'Tắt';
   @override
   String get dialog_add => 'THÊM';
   @override
@@ -126193,9 +125391,6 @@ class _StringsVi extends _StringsEn {
   String get settings_section_general => 'Chung';
   @override
   String get settings_section_lookup_audio => 'Phát âm & phản hồi';
-  @override
-  String get settings_section_lookup_clipboard =>
-      'Clipboard & tra cứu toàn cục';
   @override
   String get settings_section_lookup_content => 'Nội dung mục từ';
   @override
@@ -132397,29 +131592,10 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get clear_dictionary_title => '清除词典搜索历史';
   @override
-  String get clipboard_history_clear => '清空';
+  String get lookup_block_capture => '防截屏 / 防录屏';
   @override
-  String get clipboard_history_empty => '暂无复制记录';
-  @override
-  String get clipboard_history_title => '复制历史';
-  @override
-  String get clipboard_panel_block_capture => '防截屏 / 防录屏';
-  @override
-  String get clipboard_panel_block_capture_hint =>
-      '把查词和剪贴板悬浮窗从截图、录屏、直播串流中排除（Windows）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
-  @override
-  String get clipboard_panel_opacity => '面板不透明度';
-  @override
-  String get clipboard_panel_opacity_hint => '整个面板的不透明度——可透视底下的游戏/网页';
-  @override
-  String get clipboard_panel_window_title => 'Fushi 剪贴板查词';
-  @override
-  String get clipboard_text_window_bg_opacity => '文字窗背景不透明度';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      '透明剪切板文字窗的背景不透明度——0% 时背景全透只露文字，透视底下的游戏';
-  @override
-  String get clipboard_text_window_title => '剪贴板文字';
+  String get lookup_block_capture_hint =>
+      '把查词悬浮窗从截图、录屏、直播串流中排除（Windows）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
   @override
   String get collapse_dictionaries => '折叠词典显示';
   @override
@@ -132783,34 +131959,6 @@ class _StringsZhCn extends _StringsEn {
   String get design_system_hint => '切换应用的视觉风格';
   @override
   String get design_system_label => '设计系统';
-  @override
-  String get desktop_clipboard_auto_lookup => '复制后自动查词';
-  @override
-  String get desktop_clipboard_auto_lookup_hint => '关闭后面板只显示复制到的文字，点词才查词。';
-  @override
-  String get desktop_clipboard_destination => '查词弹窗位置';
-  @override
-  String get desktop_clipboard_destination_main => '主窗口';
-  @override
-  String get desktop_clipboard_destination_panel => '悬浮面板';
-  @override
-  String get desktop_clipboard_destination_text_window => '透明文字窗';
-  @override
-  String get desktop_clipboard_destination_transient => '光标处弹卡';
-  @override
-  String get desktop_clipboard_enabled => '桌面剪贴板查词';
-  @override
-  String get desktop_clipboard_enabled_hint => '监听剪贴板 + 全局快捷键弹出查词窗';
-  @override
-  String get desktop_clipboard_window_mode => '窗口置顶策略';
-  @override
-  String get desktop_clipboard_window_mode_always => '始终置顶';
-  @override
-  String get desktop_clipboard_window_mode_hint => '控制 Fushi 是否保持在其他窗口上方';
-  @override
-  String get desktop_clipboard_window_mode_lookup => '仅查词期间';
-  @override
-  String get desktop_clipboard_window_mode_normal => '不置顶';
   @override
   String get dialog_add => '添加';
   @override
@@ -134965,8 +134113,6 @@ class _StringsZhCn extends _StringsEn {
   String get settings_section_general => '通用';
   @override
   String get settings_section_lookup_audio => '朗读与反馈';
-  @override
-  String get settings_section_lookup_clipboard => '剪贴板与全局查词';
   @override
   String get settings_section_lookup_content => '词条内容';
   @override
@@ -140703,29 +139849,10 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get clear_dictionary_title => '清除辭典搜尋歷史';
   @override
-  String get clipboard_history_clear => '清空';
+  String get lookup_block_capture => '防截屏 / 防錄屏';
   @override
-  String get clipboard_history_empty => '暫無復製記錄';
-  @override
-  String get clipboard_history_title => '復製歷史';
-  @override
-  String get clipboard_panel_block_capture => '防截屏 / 防錄屏';
-  @override
-  String get clipboard_panel_block_capture_hint =>
-      '把查詞和剪貼板懸浮窗從截圖、錄屏、直播串流中排除（Windows）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
-  @override
-  String get clipboard_panel_opacity => '面板不透明度';
-  @override
-  String get clipboard_panel_opacity_hint => '整個面板的不透明度——可透視底下的遊戲/網頁';
-  @override
-  String get clipboard_panel_window_title => 'Fushi 剪貼板查詞';
-  @override
-  String get clipboard_text_window_bg_opacity => '文字窗背景不透明度';
-  @override
-  String get clipboard_text_window_bg_opacity_hint =>
-      '透明剪切板文字窗的背景不透明度——0% 時背景全透只露文字，透視底下的遊戲';
-  @override
-  String get clipboard_text_window_title => '剪貼板文字';
+  String get lookup_block_capture_hint =>
+      '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
   @override
   String get collapse_dictionaries => '折疊辭典顯示';
   @override
@@ -141089,34 +140216,6 @@ class _StringsZhHk extends _StringsEn {
   String get design_system_hint => '切換應用程式的視覺風格';
   @override
   String get design_system_label => '設計系統';
-  @override
-  String get desktop_clipboard_auto_lookup => '復製後自動查詞';
-  @override
-  String get desktop_clipboard_auto_lookup_hint => '關閉後面板只顯示復製到的文字，點詞才查詞。';
-  @override
-  String get desktop_clipboard_destination => '查詞彈窗位置';
-  @override
-  String get desktop_clipboard_destination_main => '主視窗';
-  @override
-  String get desktop_clipboard_destination_panel => '懸浮面板';
-  @override
-  String get desktop_clipboard_destination_text_window => '透明文字窗';
-  @override
-  String get desktop_clipboard_destination_transient => '遊標處彈卡';
-  @override
-  String get desktop_clipboard_enabled => '桌面剪貼簿查詞';
-  @override
-  String get desktop_clipboard_enabled_hint => '監聽剪貼簿＋全域快捷鍵彈出查詞視窗';
-  @override
-  String get desktop_clipboard_window_mode => '視窗置頂策略';
-  @override
-  String get desktop_clipboard_window_mode_always => '永遠置頂';
-  @override
-  String get desktop_clipboard_window_mode_hint => '控製 Fushi 是否保持在其他視窗上方';
-  @override
-  String get desktop_clipboard_window_mode_lookup => '僅查詞期間';
-  @override
-  String get desktop_clipboard_window_mode_normal => '不置頂';
   @override
   String get dialog_add => '添加';
   @override
@@ -143272,8 +142371,6 @@ class _StringsZhHk extends _StringsEn {
   String get settings_section_general => '通用';
   @override
   String get settings_section_lookup_audio => '朗讀與反饋';
-  @override
-  String get settings_section_lookup_clipboard => '剪貼板與全局查詞';
   @override
   String get settings_section_lookup_content => '詞條內容';
   @override
@@ -148957,28 +148054,10 @@ extension on _StringsEn {
         return 'This will clear all dictionary results from history. Are you sure?';
       case 'clear_dictionary_title':
         return 'Clear dictionary result history';
-      case 'clipboard_history_clear':
-        return 'Clear';
-      case 'clipboard_history_empty':
-        return 'No copy history yet';
-      case 'clipboard_history_title':
-        return 'Clipboard history';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Block screen capture';
-      case 'clipboard_panel_block_capture_hint':
-        return 'Excludes the lookup and clipboard popup windows from screenshots, screen recording, and live streaming (Windows). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
-      case 'clipboard_panel_opacity':
-        return 'Panel opacity';
-      case 'clipboard_panel_opacity_hint':
-        return 'Whole-panel opacity — see through to the game or page beneath';
-      case 'clipboard_panel_window_title':
-        return 'Fushi clipboard lookup';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Text window background';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Background opacity of the transparent clipboard text window — 0% shows only the text over the game beneath';
-      case 'clipboard_text_window_title':
-        return 'Clipboard text';
+      case 'lookup_block_capture_hint':
+        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
       case 'collapse_dictionaries':
         return 'Collapse dictionaries';
       case 'collection_bookmark':
@@ -149331,34 +148410,6 @@ extension on _StringsEn {
         return 'Controls the visual style of the app';
       case 'design_system_label':
         return 'Design system';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Auto-look-up on copy';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'When off, the panel shows only the copied text; tap a word to look it up.';
-      case 'desktop_clipboard_destination':
-        return 'Lookup popup position';
-      case 'desktop_clipboard_destination_main':
-        return 'Main window';
-      case 'desktop_clipboard_destination_panel':
-        return 'Floating panel';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Transparent text window';
-      case 'desktop_clipboard_destination_transient':
-        return 'Popup at cursor';
-      case 'desktop_clipboard_enabled':
-        return 'Desktop clipboard lookup';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Watch clipboard + global shortcut to pop a lookup window';
-      case 'desktop_clipboard_window_mode':
-        return 'Window pinning';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Always';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Controls whether Fushi stays above other windows';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Lookup only';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Not on top';
       case 'dialog_add':
         return 'ADD';
       case 'dialog_append':
@@ -151439,8 +150490,6 @@ extension on _StringsEn {
         return 'General';
       case 'settings_section_lookup_audio':
         return 'Pronunciation & feedback';
-      case 'settings_section_lookup_clipboard':
-        return 'Clipboard & global lookup';
       case 'settings_section_lookup_content':
         return 'Entry content';
       case 'settings_section_lookup_integrations':
@@ -156883,28 +155932,10 @@ extension on _StringsAr {
         return 'سيتم مسح جميع نتائج البحث من السجل. هل أنت متأكد؟';
       case 'clear_dictionary_title':
         return 'مسح سجل بحث القاموس';
-      case 'clipboard_history_clear':
-        return 'مسح';
-      case 'clipboard_history_empty':
-        return 'لا يوجد سجل نسخ بعد';
-      case 'clipboard_history_title':
-        return 'سجل الحافظة';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'حظر التقاط الشاشة';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
-      case 'clipboard_panel_opacity':
-        return 'شفافية اللوحة';
-      case 'clipboard_panel_opacity_hint':
-        return 'شفافية اللوحة بالكامل — انظر من خلالها إلى اللعبة أو الصفحة أسفلها';
-      case 'clipboard_panel_window_title':
-        return 'بحث حافظة Fushi';
-      case 'clipboard_text_window_bg_opacity':
-        return 'خلفية نافذة النص';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'شفافية خلفية نافذة نص الحافظة الشفافة — 0% يعرض النص فقط فوق اللعبة أسفلها';
-      case 'clipboard_text_window_title':
-        return 'نص الحافظة';
       case 'collapse_dictionaries':
         return 'طي القواميس';
       case 'collection_bookmark':
@@ -157257,34 +156288,6 @@ extension on _StringsAr {
         return 'يتحكم في النمط المرئي للتطبيق';
       case 'design_system_label':
         return 'نظام التصميم';
-      case 'desktop_clipboard_auto_lookup':
-        return 'بحث تلقائي عند النسخ';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'عند الإيقاف، تعرض اللوحة النص المنسوخ فقط؛ اضغط على كلمة للبحث عنها.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'النافذة الرئيسية';
-      case 'desktop_clipboard_destination_panel':
-        return 'لوحة عائمة';
-      case 'desktop_clipboard_destination_text_window':
-        return 'نافذة نص شفافة';
-      case 'desktop_clipboard_destination_transient':
-        return 'نافذة منبثقة عند المؤشر';
-      case 'desktop_clipboard_enabled':
-        return 'البحث من حافظة سطح المكتب';
-      case 'desktop_clipboard_enabled_hint':
-        return 'مراقبة الحافظة + مفتاح اختصار عام لإظهار نافذة بحث (سطح المكتب)';
-      case 'desktop_clipboard_window_mode':
-        return 'تثبيت النافذة';
-      case 'desktop_clipboard_window_mode_always':
-        return 'دائمًا';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'يتحكم في بقاء Fushi فوق النوافذ الأخرى';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'أثناء البحث فقط';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'إيقاف';
       case 'dialog_add':
         return 'إضافة';
       case 'dialog_append':
@@ -159362,8 +158365,6 @@ extension on _StringsAr {
         return 'عام';
       case 'settings_section_lookup_audio':
         return 'النطق والاستجابة';
-      case 'settings_section_lookup_clipboard':
-        return 'الحافظة والبحث الشامل';
       case 'settings_section_lookup_content':
         return 'محتوى المدخل';
       case 'settings_section_lookup_integrations':
@@ -164809,28 +163810,10 @@ extension on _StringsDe {
         return 'Alle Wörterbuchergebnisse werden aus dem Verlauf gelöscht. Sind Sie sicher?';
       case 'clear_dictionary_title':
         return 'Wörterbuch-Ergebnisverlauf löschen';
-      case 'clipboard_history_clear':
-        return 'Leeren';
-      case 'clipboard_history_empty':
-        return 'Noch kein Kopierverlauf';
-      case 'clipboard_history_title':
-        return 'Zwischenablageverlauf';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Bildschirmaufnahme blockieren';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
-      case 'clipboard_panel_opacity':
-        return 'Panel-Deckkraft';
-      case 'clipboard_panel_opacity_hint':
-        return 'Gesamte Panel-Deckkraft – durch das Spiel oder die Seite darunter hindurchsehen';
-      case 'clipboard_panel_window_title':
-        return 'Fushi Zwischenablage-Nachschlagen';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Textfenster-Hintergrund';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Hintergrund-Deckkraft des transparenten Zwischenablage-Textfensters – 0 % zeigt nur den Text über dem Spiel darunter';
-      case 'clipboard_text_window_title':
-        return 'Zwischenablagetext';
       case 'collapse_dictionaries':
         return 'Wörterbücher einklappen';
       case 'collection_bookmark':
@@ -165184,34 +164167,6 @@ extension on _StringsDe {
         return 'Steuert den visuellen Stil der App';
       case 'design_system_label':
         return 'Designsystem';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Automatisch beim Kopieren nachschlagen';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Wenn deaktiviert, zeigt das Panel nur den kopierten Text; tippe auf ein Wort, um es nachzuschlagen.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Hauptfenster';
-      case 'desktop_clipboard_destination_panel':
-        return 'Schwebendes Panel';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Transparentes Textfenster';
-      case 'desktop_clipboard_destination_transient':
-        return 'Popup am Cursor';
-      case 'desktop_clipboard_enabled':
-        return 'Zwischenablage-Nachschlagen (Desktop)';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Zwischenablage + globales Tastenkürzel überwachen, um ein Nachschlagefenster zu öffnen (Desktop)';
-      case 'desktop_clipboard_window_mode':
-        return 'Fenster anheften';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Immer';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Steuert, ob Fushi über anderen Fenstern bleibt';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Nur beim Nachschlagen';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Aus';
       case 'dialog_add':
         return 'HINZUFÜGEN';
       case 'dialog_append':
@@ -167302,8 +166257,6 @@ extension on _StringsDe {
         return 'Allgemein';
       case 'settings_section_lookup_audio':
         return 'Aussprache & Feedback';
-      case 'settings_section_lookup_clipboard':
-        return 'Zwischenablage & globale Suche';
       case 'settings_section_lookup_content':
         return 'Eintragsinhalt';
       case 'settings_section_lookup_integrations':
@@ -172774,28 +171727,10 @@ extension on _StringsEs {
         return 'Esto eliminará todos los resultados del diccionario del historial. ?Estás seguro?';
       case 'clear_dictionary_title':
         return 'Borrar historial de resultados del diccionario';
-      case 'clipboard_history_clear':
-        return 'Limpiar';
-      case 'clipboard_history_empty':
-        return 'Sin historial de copias aún';
-      case 'clipboard_history_title':
-        return 'Historial del portapapeles';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Bloquear captura de pantalla';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
-      case 'clipboard_panel_opacity':
-        return 'Opacidad del panel';
-      case 'clipboard_panel_opacity_hint':
-        return 'Opacidad del panel completo — vea a través del juego o página debajo';
-      case 'clipboard_panel_window_title':
-        return 'Búsqueda del portapapeles de Fushi';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Fondo de ventana de texto';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Opacidad del fondo de la ventana de texto transparente del portapapeles — 0% muestra solo el texto sobre el juego debajo';
-      case 'clipboard_text_window_title':
-        return 'Texto del portapapeles';
       case 'collapse_dictionaries':
         return 'Contraer diccionarios';
       case 'collection_bookmark':
@@ -173149,34 +172084,6 @@ extension on _StringsEs {
         return 'Controla el estilo visual de la app';
       case 'design_system_label':
         return 'Sistema de diseño';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Buscar automáticamente al copiar';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Cuando está desactivado, el panel solo muestra el texto copiado; toque una palabra para buscarla.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Ventana principal';
-      case 'desktop_clipboard_destination_panel':
-        return 'Panel flotante';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Ventana de texto transparente';
-      case 'desktop_clipboard_destination_transient':
-        return 'Emergente en el cursor';
-      case 'desktop_clipboard_enabled':
-        return 'Consulta desde el portapapeles (escritorio)';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Vigila el portapapeles + atajo global para abrir una ventana de consulta (escritorio)';
-      case 'desktop_clipboard_window_mode':
-        return 'Fijar ventana';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Siempre';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Controla si Fushi se mantiene sobre otras ventanas';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Solo al consultar';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Desactivado';
       case 'dialog_add':
         return 'AÑADIR';
       case 'dialog_append':
@@ -175267,8 +174174,6 @@ extension on _StringsEs {
         return 'General';
       case 'settings_section_lookup_audio':
         return 'Pronunciación y retroalimentación';
-      case 'settings_section_lookup_clipboard':
-        return 'Portapapeles y búsqueda global';
       case 'settings_section_lookup_content':
         return 'Contenido de la entrada';
       case 'settings_section_lookup_integrations':
@@ -180733,28 +179638,10 @@ extension on _StringsFr {
         return 'Cela effacera tous les résultats du dictionnaire de l\'historique. êtes-vous s?r ?';
       case 'clear_dictionary_title':
         return 'Effacer l\'historique des résultats du dictionnaire';
-      case 'clipboard_history_clear':
-        return 'Effacer';
-      case 'clipboard_history_empty':
-        return 'Aucun historique de copie';
-      case 'clipboard_history_title':
-        return 'Historique du presse-papiers';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Bloquer la capture d\'écran';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows). Désactivez pour permettre la capture de la fenêtre de recherche.';
-      case 'clipboard_panel_opacity':
-        return 'Opacité du panneau';
-      case 'clipboard_panel_opacity_hint':
-        return 'Opacité globale du panneau — voir à travers vers le jeu ou la page en dessous';
-      case 'clipboard_panel_window_title':
-        return 'Recherche presse-papiers Fushi';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Arrière-plan de la fenêtre de texte';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Opacité de l\'arrière-plan de la fenêtre de texte transparente du presse-papiers — 0 % n\'affiche que le texte sur le jeu en dessous';
-      case 'clipboard_text_window_title':
-        return 'Texte du presse-papiers';
       case 'collapse_dictionaries':
         return 'Réduire les dictionnaires';
       case 'collection_bookmark':
@@ -181108,34 +179995,6 @@ extension on _StringsFr {
         return 'Contrôle le style visuel de l\'application';
       case 'design_system_label':
         return 'Système de design';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Recherche automatique au copier';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Désactivé, le panneau affiche uniquement le texte copié ; appuyez sur un mot pour le rechercher.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Fenêtre principale';
-      case 'desktop_clipboard_destination_panel':
-        return 'Panneau flottant';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Fenêtre de texte transparente';
-      case 'desktop_clipboard_destination_transient':
-        return 'Pop-up au curseur';
-      case 'desktop_clipboard_enabled':
-        return 'Recherche depuis le presse-papiers (bureau)';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Surveiller le presse-papiers + raccourci global pour ouvrir une fenêtre de recherche (bureau)';
-      case 'desktop_clipboard_window_mode':
-        return 'Épinglage de la fenêtre';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Toujours';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Contrôle si Fushi reste au-dessus des autres fenêtres';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Recherche uniquement';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Désactivé';
       case 'dialog_add':
         return 'AJOUTER';
       case 'dialog_append':
@@ -183229,8 +182088,6 @@ extension on _StringsFr {
         return 'Général';
       case 'settings_section_lookup_audio':
         return 'Prononciation et retour';
-      case 'settings_section_lookup_clipboard':
-        return 'Presse-papiers et recherche globale';
       case 'settings_section_lookup_content':
         return 'Contenu des entrées';
       case 'settings_section_lookup_integrations':
@@ -188695,28 +187552,10 @@ extension on _StringsId {
         return 'Ini akan menghapus semua hasil kamus dari riwayat. Apakah Anda yakin?';
       case 'clear_dictionary_title':
         return 'Hapus Riwayat Hasil Kamus';
-      case 'clipboard_history_clear':
-        return 'Bersihkan';
-      case 'clipboard_history_empty':
-        return 'Belum ada riwayat salin';
-      case 'clipboard_history_title':
-        return 'Riwayat clipboard';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Blokir tangkapan layar';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
-      case 'clipboard_panel_opacity':
-        return 'Opasitas panel';
-      case 'clipboard_panel_opacity_hint':
-        return 'Opasitas seluruh panel — lihat tembus ke game atau halaman di bawahnya';
-      case 'clipboard_panel_window_title':
-        return 'Pencarian clipboard Fushi';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Latar belakang jendela teks';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Opasitas latar belakang jendela teks clipboard transparan — 0% hanya menampilkan teks di atas game di bawahnya';
-      case 'clipboard_text_window_title':
-        return 'Teks clipboard';
       case 'collapse_dictionaries':
         return 'Ciutkan kamus';
       case 'collection_bookmark':
@@ -189070,34 +187909,6 @@ extension on _StringsId {
         return 'Mengontrol gaya visual aplikasi';
       case 'design_system_label':
         return 'Sistem Desain';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Cari otomatis saat menyalin';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Saat mati, panel hanya menampilkan teks yang disalin; ketuk kata untuk mencarinya.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Jendela utama';
-      case 'desktop_clipboard_destination_panel':
-        return 'Panel mengambang';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Jendela teks transparan';
-      case 'desktop_clipboard_destination_transient':
-        return 'Popup di kursor';
-      case 'desktop_clipboard_enabled':
-        return 'Pencarian kata papan klip desktop';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Pantau papan klip + hotkey global untuk memunculkan jendela pencarian (desktop)';
-      case 'desktop_clipboard_window_mode':
-        return 'Penyematan jendela';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Selalu';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Mengatur apakah Fushi tetap di atas jendela lain';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Hanya saat mencari';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Mati';
       case 'dialog_add':
         return 'TAMBAH';
       case 'dialog_append':
@@ -191181,8 +189992,6 @@ extension on _StringsId {
         return 'Umum';
       case 'settings_section_lookup_audio':
         return 'Pengucapan & umpan balik';
-      case 'settings_section_lookup_clipboard':
-        return 'Clipboard & pencarian global';
       case 'settings_section_lookup_content':
         return 'Konten entri';
       case 'settings_section_lookup_integrations':
@@ -196633,28 +195442,10 @@ extension on _StringsIt {
         return 'Verranno cancellati tutti i risultati del dizionario dalla cronologia. Sei sicuro?';
       case 'clear_dictionary_title':
         return 'Cancella cronologia risultati del dizionario';
-      case 'clipboard_history_clear':
-        return 'Cancella';
-      case 'clipboard_history_empty':
-        return 'Nessuna cronologia di copia';
-      case 'clipboard_history_title':
-        return 'Cronologia appunti';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Blocca cattura schermo';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
-      case 'clipboard_panel_opacity':
-        return 'Opacità pannello';
-      case 'clipboard_panel_opacity_hint':
-        return 'Opacità dell\'intero pannello — vedi attraverso il gioco o la pagina sottostante';
-      case 'clipboard_panel_window_title':
-        return 'Ricerca appunti Fushi';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Sfondo finestra testo';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Opacità dello sfondo della finestra testo trasparente degli appunti — 0% mostra solo il testo sopra il gioco sottostante';
-      case 'clipboard_text_window_title':
-        return 'Testo appunti';
       case 'collapse_dictionaries':
         return 'Comprimi dizionari';
       case 'collection_bookmark':
@@ -197008,34 +195799,6 @@ extension on _StringsIt {
         return 'Controlla lo stile visivo dell\'app';
       case 'design_system_label':
         return 'Sistema di design';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Ricerca automatica alla copia';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Se disattivato, il pannello mostra solo il testo copiato; tocca una parola per cercarla.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Finestra principale';
-      case 'desktop_clipboard_destination_panel':
-        return 'Pannello flottante';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Finestra testo trasparente';
-      case 'desktop_clipboard_destination_transient':
-        return 'Popup al cursore';
-      case 'desktop_clipboard_enabled':
-        return 'Ricerca dagli appunti su desktop';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Monitora gli appunti + tasto di scelta rapida globale per aprire una finestra di ricerca (desktop)';
-      case 'desktop_clipboard_window_mode':
-        return 'Fissaggio finestra';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Sempre';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Controlla se Fushi rimane sopra le altre finestre';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Solo durante la ricerca';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Disattivato';
       case 'dialog_add':
         return 'AGGIUNGI';
       case 'dialog_append':
@@ -199124,8 +197887,6 @@ extension on _StringsIt {
         return 'Generali';
       case 'settings_section_lookup_audio':
         return 'Pronuncia e feedback';
-      case 'settings_section_lookup_clipboard':
-        return 'Appunti e ricerca globale';
       case 'settings_section_lookup_content':
         return 'Contenuto voci';
       case 'settings_section_lookup_integrations':
@@ -204580,28 +203341,10 @@ extension on _StringsJa {
         return '履歴内のすべての辞書検索結果が消去されます。よろしいですか？';
       case 'clear_dictionary_title':
         return '辞書の検索履歴を消去';
-      case 'clipboard_history_clear':
-        return 'クリア';
-      case 'clipboard_history_empty':
-        return 'コピー履歴はまだありません';
-      case 'clipboard_history_title':
-        return 'クリップボード履歴';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return '画面キャプチャをブロック';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
-      case 'clipboard_panel_opacity':
-        return 'パネル透明度';
-      case 'clipboard_panel_opacity_hint':
-        return 'パネル全体の透明度 — ゲームやページが透けて見えます';
-      case 'clipboard_panel_window_title':
-        return 'Fushi クリップボード検索';
-      case 'clipboard_text_window_bg_opacity':
-        return 'テキストウィンドウ背景';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return '透明クリップボードテキストウィンドウの背景透明度 — 0% にするとゲームの上にテキストのみが表示されます';
-      case 'clipboard_text_window_title':
-        return 'クリップボードテキスト';
       case 'collapse_dictionaries':
         return '辞書を折りたたむ';
       case 'collection_bookmark':
@@ -204954,34 +203697,6 @@ extension on _StringsJa {
         return 'アプリの外観スタイルを切り替えます';
       case 'design_system_label':
         return 'デザインシステム';
-      case 'desktop_clipboard_auto_lookup':
-        return 'コピー時に自動検索';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'オフにすると、パネルにはコピーしたテキストのみが表示されます。単語をタップして検索できます。';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'メインウィンドウ';
-      case 'desktop_clipboard_destination_panel':
-        return 'フローティングパネル';
-      case 'desktop_clipboard_destination_text_window':
-        return '透明テキストウィンドウ';
-      case 'desktop_clipboard_destination_transient':
-        return 'カーソル位置のポップアップ';
-      case 'desktop_clipboard_enabled':
-        return 'デスクトップのクリップボード辞書引き';
-      case 'desktop_clipboard_enabled_hint':
-        return 'クリップボードとグローバルホットキーを監視し、辞書ウィンドウを表示します（デスクトップ）';
-      case 'desktop_clipboard_window_mode':
-        return 'ウィンドウの最前面固定';
-      case 'desktop_clipboard_window_mode_always':
-        return '常に固定';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Fushi が他のウィンドウの上に留まるかどうかを制御します';
-      case 'desktop_clipboard_window_mode_lookup':
-        return '辞書引き中のみ';
-      case 'desktop_clipboard_window_mode_normal':
-        return '固定しない';
       case 'dialog_add':
         return '追加';
       case 'dialog_append':
@@ -207056,8 +205771,6 @@ extension on _StringsJa {
         return '一般';
       case 'settings_section_lookup_audio':
         return '発音とフィードバック';
-      case 'settings_section_lookup_clipboard':
-        return 'クリップボードとグローバル辞書引き';
       case 'settings_section_lookup_content':
         return 'エントリ内容';
       case 'settings_section_lookup_integrations':
@@ -212472,28 +211185,10 @@ extension on _StringsKo {
         return '기록의 모든 사전 검색 결과가 삭제됩니다. 계속하시겠습니까?';
       case 'clear_dictionary_title':
         return '사전 검색 기록 삭제';
-      case 'clipboard_history_clear':
-        return '지우기';
-      case 'clipboard_history_empty':
-        return '복사 기록이 없습니다';
-      case 'clipboard_history_title':
-        return '클립보드 기록';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return '화면 캡처 차단';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
-      case 'clipboard_panel_opacity':
-        return '패널 불투명도';
-      case 'clipboard_panel_opacity_hint':
-        return '패널 전체 불투명도 — 아래의 게임이나 페이지를 투과해서 봅니다';
-      case 'clipboard_panel_window_title':
-        return 'Fushi 클립보드 검색';
-      case 'clipboard_text_window_bg_opacity':
-        return '텍스트 창 배경';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return '투명 클립보드 텍스트 창의 배경 불투명도 — 0%는 아래 게임 위에 텍스트만 표시합니다';
-      case 'clipboard_text_window_title':
-        return '클립보드 텍스트';
       case 'collapse_dictionaries':
         return '사전 접기';
       case 'collection_bookmark':
@@ -212846,34 +211541,6 @@ extension on _StringsKo {
         return '앱의 시각적 스타일을 전환합니다';
       case 'design_system_label':
         return '디자인 시스템';
-      case 'desktop_clipboard_auto_lookup':
-        return '복사 시 자동 검색';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return '끄면 패널에 복사한 텍스트만 표시됩니다; 단어를 탭하여 검색하세요.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return '메인 창';
-      case 'desktop_clipboard_destination_panel':
-        return '플로팅 패널';
-      case 'desktop_clipboard_destination_text_window':
-        return '투명 텍스트 창';
-      case 'desktop_clipboard_destination_transient':
-        return '커서 위치 팝업';
-      case 'desktop_clipboard_enabled':
-        return '데스크톱 클립보드 단어 찾기';
-      case 'desktop_clipboard_enabled_hint':
-        return '클립보드와 전역 단축키를 감시해 단어 찾기 창을 띄웁니다(데스크톱)';
-      case 'desktop_clipboard_window_mode':
-        return '창 고정';
-      case 'desktop_clipboard_window_mode_always':
-        return '항상';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Fushi가 다른 창 위에 유지되는지 여부를 제어합니다';
-      case 'desktop_clipboard_window_mode_lookup':
-        return '단어 찾기 중에만';
-      case 'desktop_clipboard_window_mode_normal':
-        return '끄기';
       case 'dialog_add':
         return '추가';
       case 'dialog_append':
@@ -214948,8 +213615,6 @@ extension on _StringsKo {
         return '일반';
       case 'settings_section_lookup_audio':
         return '발음 및 피드백';
-      case 'settings_section_lookup_clipboard':
-        return '클립보드 및 글로벌 검색';
       case 'settings_section_lookup_content':
         return '항목 내용';
       case 'settings_section_lookup_integrations':
@@ -220374,28 +219039,10 @@ extension on _StringsNl {
         return 'Dit wist alle woordenboekresultaten uit de geschiedenis. Weet je het zeker?';
       case 'clear_dictionary_title':
         return 'Woordenboekresultaten wissen';
-      case 'clipboard_history_clear':
-        return 'Wissen';
-      case 'clipboard_history_empty':
-        return 'Nog geen kopieergeschiedenis';
-      case 'clipboard_history_title':
-        return 'Klembordgeschiedenis';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Schermopname blokkeren';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
-      case 'clipboard_panel_opacity':
-        return 'Paneel-dekking';
-      case 'clipboard_panel_opacity_hint':
-        return 'Gehele paneel-dekking — kijk door het paneel naar het spel of de pagina eronder';
-      case 'clipboard_panel_window_title':
-        return 'Fushi klembordopzoeker';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Tekstvensterachtergrond';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Achtergronddekking van het transparante klembordtekstvenster — 0% toont alleen de tekst over het spel eronder';
-      case 'clipboard_text_window_title':
-        return 'Klembordtekst';
       case 'collapse_dictionaries':
         return 'Woordenboeken inklappen';
       case 'collection_bookmark':
@@ -220750,34 +219397,6 @@ extension on _StringsNl {
         return 'Bepaalt de visuele stijl van de app';
       case 'design_system_label':
         return 'Ontwerpsysteem';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Automatisch opzoeken bij kopiëren';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Als dit uit staat, toont het paneel alleen de gekopieerde tekst; tik op een woord om het op te zoeken.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Hoofdvenster';
-      case 'desktop_clipboard_destination_panel':
-        return 'Zwevend paneel';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Transparant tekstvenster';
-      case 'desktop_clipboard_destination_transient':
-        return 'Popup bij cursor';
-      case 'desktop_clipboard_enabled':
-        return 'Opzoeken via klembord (desktop)';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Bewaak het klembord + een globale sneltoets om een opzoekvenster te openen (desktop)';
-      case 'desktop_clipboard_window_mode':
-        return 'Venster vastzetten';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Altijd';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Bepaalt of Fushi boven andere vensters blijft';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Alleen tijdens opzoeken';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Uit';
       case 'dialog_add':
         return 'TOEVOEGEN';
       case 'dialog_append':
@@ -222865,8 +221484,6 @@ extension on _StringsNl {
         return 'Algemeen';
       case 'settings_section_lookup_audio':
         return 'Uitspraak & feedback';
-      case 'settings_section_lookup_clipboard':
-        return 'Klembord & globaal opzoeken';
       case 'settings_section_lookup_content':
         return 'Lemma-inhoud';
       case 'settings_section_lookup_integrations':
@@ -228327,28 +226944,10 @@ extension on _StringsPtBr {
         return 'Isso limpará todos os resultados de dicionário do histórico. Tem certeza?';
       case 'clear_dictionary_title':
         return 'Limpar Histórico de Resultados do Dicionário';
-      case 'clipboard_history_clear':
-        return 'Limpar';
-      case 'clipboard_history_empty':
-        return 'Nenhum histórico de cópia ainda';
-      case 'clipboard_history_title':
-        return 'Histórico da área de transferência';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Bloquear captura de tela';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows). Desative para permitir que capturas e gravações capturem o popup de consulta.';
-      case 'clipboard_panel_opacity':
-        return 'Opacidade do painel';
-      case 'clipboard_panel_opacity_hint':
-        return 'Opacidade geral do painel — veja através para o jogo ou página abaixo';
-      case 'clipboard_panel_window_title':
-        return 'Consulta de área de transferência do Fushi';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Fundo da janela de texto';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Opacidade do fundo da janela de texto transparente — 0% mostra apenas o texto sobre o jogo';
-      case 'clipboard_text_window_title':
-        return 'Texto da área de transferência';
       case 'collapse_dictionaries':
         return 'Recolher dicionários';
       case 'collection_bookmark':
@@ -228702,34 +227301,6 @@ extension on _StringsPtBr {
         return 'Controla o estilo visual do app';
       case 'design_system_label':
         return 'Sistema de design';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Consulta automática ao copiar';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Quando desligado, o painel mostra apenas o texto copiado; toque em uma palavra para consultá-la.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Janela principal';
-      case 'desktop_clipboard_destination_panel':
-        return 'Painel flutuante';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Janela de texto transparente';
-      case 'desktop_clipboard_destination_transient':
-        return 'Popup no cursor';
-      case 'desktop_clipboard_enabled':
-        return 'Consulta pela área de transferência (desktop)';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Monitora a área de transferência + atalho global para abrir uma janela de consulta (desktop)';
-      case 'desktop_clipboard_window_mode':
-        return 'Fixação da janela';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Sempre';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Controla se o Fushi fica acima de outras janelas';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Apenas durante a consulta';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Desativado';
       case 'dialog_add':
         return 'ADICIONAR';
       case 'dialog_append':
@@ -230817,8 +229388,6 @@ extension on _StringsPtBr {
         return 'Geral';
       case 'settings_section_lookup_audio':
         return 'Pronúncia e feedback';
-      case 'settings_section_lookup_clipboard':
-        return 'Área de transferência e consulta global';
       case 'settings_section_lookup_content':
         return 'Conteúdo da entrada';
       case 'settings_section_lookup_integrations':
@@ -236276,28 +234845,10 @@ extension on _StringsRu {
         return 'Все результаты словарного поиска будут удалены из истории. Вы уверены?';
       case 'clear_dictionary_title':
         return 'Очистить историю словаря';
-      case 'clipboard_history_clear':
-        return 'Очистить';
-      case 'clipboard_history_empty':
-        return 'История копирования пуста';
-      case 'clipboard_history_title':
-        return 'История буфера обмена';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Блокировать захват экрана';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows). Отключите, чтобы разрешить захват всплывающего окна поиска.';
-      case 'clipboard_panel_opacity':
-        return 'Прозрачность панели';
-      case 'clipboard_panel_opacity_hint':
-        return 'Общая прозрачность панели — видно игру или страницу за ней';
-      case 'clipboard_panel_window_title':
-        return 'Fushi — поиск из буфера обмена';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Фон текстового окна';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Прозрачность фона текстового окна — 0% показывает только текст поверх игры';
-      case 'clipboard_text_window_title':
-        return 'Текст из буфера обмена';
       case 'collapse_dictionaries':
         return 'Свернуть словари';
       case 'collection_bookmark':
@@ -236651,34 +235202,6 @@ extension on _StringsRu {
         return 'Управляет визуальным стилем приложения';
       case 'design_system_label':
         return 'Система дизайна';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Автопоиск при копировании';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Если выключено, панель показывает только скопированный текст; нажмите на слово, чтобы найти его.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Главное окно';
-      case 'desktop_clipboard_destination_panel':
-        return 'Плавающая панель';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Прозрачное текстовое окно';
-      case 'desktop_clipboard_destination_transient':
-        return 'Всплывающее окно у курсора';
-      case 'desktop_clipboard_enabled':
-        return 'Поиск из буфера обмена (ПК)';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Следить за буфером обмена + глобальная горячая клавиша для окна поиска (ПК)';
-      case 'desktop_clipboard_window_mode':
-        return 'Закрепление окна';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Всегда';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Определяет, остаётся ли Fushi поверх других окон';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Только при поиске';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Выкл.';
       case 'dialog_add':
         return 'ДОБАВИТЬ';
       case 'dialog_append':
@@ -238768,8 +237291,6 @@ extension on _StringsRu {
         return 'Общие';
       case 'settings_section_lookup_audio':
         return 'Произношение и обратная связь';
-      case 'settings_section_lookup_clipboard':
-        return 'Буфер обмена и глобальный поиск';
       case 'settings_section_lookup_content':
         return 'Содержимое статьи';
       case 'settings_section_lookup_integrations':
@@ -244222,28 +242743,10 @@ extension on _StringsTh {
         return 'จะลบผลลัพธ์พจนานุกรมทั้งหมดออกจากประวัติ คุณแน่ใจหรือไม่?';
       case 'clear_dictionary_title':
         return 'ล้างประวัติผลพจนานุกรม';
-      case 'clipboard_history_clear':
-        return 'ล้าง';
-      case 'clipboard_history_empty':
-        return 'ยังไม่มีประวัติการคัดลอก';
-      case 'clipboard_history_title':
-        return 'ประวัติคลิปบอร์ด';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'บล็อกการจับภาพหน้าจอ';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
-      case 'clipboard_panel_opacity':
-        return 'ความทึบของแผง';
-      case 'clipboard_panel_opacity_hint':
-        return 'ความทึบทั้งแผง — มองทะลุไปยังเกมหรือหน้าด้านหลัง';
-      case 'clipboard_panel_window_title':
-        return 'ค้นหาคำจากคลิปบอร์ด Fushi';
-      case 'clipboard_text_window_bg_opacity':
-        return 'พื้นหลังหน้าต่างข้อความ';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'ความทึบพื้นหลังของหน้าต่างข้อความคลิปบอร์ดโปร่งใส — 0% แสดงเฉพาะข้อความเหนือเกมด้านหลัง';
-      case 'clipboard_text_window_title':
-        return 'ข้อความคลิปบอร์ด';
       case 'collapse_dictionaries':
         return 'ยุบพจนานุกรม';
       case 'collection_bookmark':
@@ -244596,34 +243099,6 @@ extension on _StringsTh {
         return 'ควบคุมรูปแบบการแสดงผลของแอป';
       case 'design_system_label':
         return 'ระบบการออกแบบ';
-      case 'desktop_clipboard_auto_lookup':
-        return 'ค้นหาอัตโนมัติเมื่อคัดลอก';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'เมื่อปิด แผงจะแสดงเฉพาะข้อความที่คัดลอก; แตะคำเพื่อค้นหา';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'หน้าต่างหลัก';
-      case 'desktop_clipboard_destination_panel':
-        return 'แผงลอย';
-      case 'desktop_clipboard_destination_text_window':
-        return 'หน้าต่างข้อความโปร่งใส';
-      case 'desktop_clipboard_destination_transient':
-        return 'ป๊อปอัปที่เคอร์เซอร์';
-      case 'desktop_clipboard_enabled':
-        return 'ค้นคำจากคลิปบอร์ดบนเดสก์ท็อป';
-      case 'desktop_clipboard_enabled_hint':
-        return 'เฝ้าดูคลิปบอร์ด + ฮอตคีย์ทั่วระบบเพื่อเปิดหน้าต่างค้นคำ (เดสก์ท็อป)';
-      case 'desktop_clipboard_window_mode':
-        return 'การปักหน้าต่าง';
-      case 'desktop_clipboard_window_mode_always':
-        return 'เสมอ';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'ควบคุมว่า Fushi จะอยู่เหนือหน้าต่างอื่นหรือไม่';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'เฉพาะตอนค้นคำ';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'ปิด';
       case 'dialog_add':
         return 'เพิ่ม';
       case 'dialog_append':
@@ -246705,8 +245180,6 @@ extension on _StringsTh {
         return 'ทั่วไป';
       case 'settings_section_lookup_audio':
         return 'การออกเสียงและข้อเสนอแนะ';
-      case 'settings_section_lookup_clipboard':
-        return 'คลิปบอร์ดและค้นหาทั่วไป';
       case 'settings_section_lookup_content':
         return 'เนื้อหารายการ';
       case 'settings_section_lookup_integrations':
@@ -252152,28 +250625,10 @@ extension on _StringsTr {
         return 'Geçmişteki tüm sözlük sonuçları temizlenecek. Emin misiniz?';
       case 'clear_dictionary_title':
         return 'Sözlük sonuç geçmişini temizle';
-      case 'clipboard_history_clear':
-        return 'Temizle';
-      case 'clipboard_history_empty':
-        return 'Henüz kopyalama geçmişi yok';
-      case 'clipboard_history_title':
-        return 'Pano geçmişi';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Ekran yakalamayı engelle';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
-      case 'clipboard_panel_opacity':
-        return 'Panel şeffaflığı';
-      case 'clipboard_panel_opacity_hint':
-        return 'Tüm panel şeffaflığı — alttaki oyunu veya sayfayı görün';
-      case 'clipboard_panel_window_title':
-        return 'Fushi pano araması';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Metin penceresi arka planı';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Şeffaf pano metin penceresinin arka plan şeffaflığı — %0 yalnızca alttaki oyunun üzerinde metni gösterir';
-      case 'clipboard_text_window_title':
-        return 'Pano metni';
       case 'collapse_dictionaries':
         return 'Sözlükleri daralt';
       case 'collection_bookmark':
@@ -252526,34 +250981,6 @@ extension on _StringsTr {
         return 'Uygulamanın görsel stilini kontrol eder';
       case 'design_system_label':
         return 'Tasarım sistemi';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Kopyalamada otomatik arama';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Kapalıyken panel yalnızca kopyalanan metni gösterir; aramak için bir kelimeye dokunun.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Ana pencere';
-      case 'desktop_clipboard_destination_panel':
-        return 'Kayan panel';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Şeffaf metin penceresi';
-      case 'desktop_clipboard_destination_transient':
-        return 'İmleçte açılır pencere';
-      case 'desktop_clipboard_enabled':
-        return 'Masaüstü pano araması';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Bir arama penceresi açmak için panoyu + genel kısayol tuşunu izle (masaüstü)';
-      case 'desktop_clipboard_window_mode':
-        return 'Pencere sabitleme';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Her zaman';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Fushi\'nin diğer pencerelerin üzerinde kalıp kalmayacağını kontrol eder';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Yalnızca arama sırasında';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Kapalı';
       case 'dialog_add':
         return 'EKLE';
       case 'dialog_append':
@@ -254636,8 +253063,6 @@ extension on _StringsTr {
         return 'Genel';
       case 'settings_section_lookup_audio':
         return 'Telaffuz ve geri bildirim';
-      case 'settings_section_lookup_clipboard':
-        return 'Pano ve genel arama';
       case 'settings_section_lookup_content':
         return 'Giriş içeriği';
       case 'settings_section_lookup_integrations':
@@ -260091,28 +258516,10 @@ extension on _StringsVi {
         return 'Thao tác này sẽ xóa tất cả kết quả tra cứu trong lịch sử. Bạn có chắc chắn?';
       case 'clear_dictionary_title':
         return 'Xóa lịch sử tra cứu từ điển';
-      case 'clipboard_history_clear':
-        return 'Xóa';
-      case 'clipboard_history_empty':
-        return 'Chưa có lịch sử sao chép';
-      case 'clipboard_history_title':
-        return 'Lịch sử bộ nhớ tạm';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return 'Chặn chụp màn hình';
-      case 'clipboard_panel_block_capture_hint':
+      case 'lookup_block_capture_hint':
         return 'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
-      case 'clipboard_panel_opacity':
-        return 'Độ trong suốt bảng';
-      case 'clipboard_panel_opacity_hint':
-        return 'Độ trong suốt toàn bảng — nhìn xuyên qua trò chơi hoặc trang bên dưới';
-      case 'clipboard_panel_window_title':
-        return 'Fushi tra cứu bộ nhớ tạm';
-      case 'clipboard_text_window_bg_opacity':
-        return 'Nền cửa sổ văn bản';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return 'Độ trong suốt nền của cửa sổ văn bản trong suốt — 0% chỉ hiển thị văn bản trên trò chơi bên dưới';
-      case 'clipboard_text_window_title':
-        return 'Văn bản bộ nhớ tạm';
       case 'collapse_dictionaries':
         return 'Thu gọn từ điển';
       case 'collection_bookmark':
@@ -260466,34 +258873,6 @@ extension on _StringsVi {
         return 'Điều khiển phong cách giao diện ứng dụng';
       case 'design_system_label':
         return 'Hệ thống thiết kế';
-      case 'desktop_clipboard_auto_lookup':
-        return 'Tự động tra cứu khi sao chép';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return 'Khi tắt, bảng chỉ hiển thị văn bản đã sao chép; nhấn vào từ để tra cứu.';
-      case 'desktop_clipboard_destination':
-        return 'Clipboard lookup destination';
-      case 'desktop_clipboard_destination_main':
-        return 'Cửa sổ chính';
-      case 'desktop_clipboard_destination_panel':
-        return 'Bảng nổi';
-      case 'desktop_clipboard_destination_text_window':
-        return 'Cửa sổ văn bản trong suốt';
-      case 'desktop_clipboard_destination_transient':
-        return 'Popup tại con trỏ';
-      case 'desktop_clipboard_enabled':
-        return 'Tra từ qua clipboard máy tính';
-      case 'desktop_clipboard_enabled_hint':
-        return 'Theo dõi clipboard + phím tắt toàn cục để bật cửa sổ tra (máy tính)';
-      case 'desktop_clipboard_window_mode':
-        return 'Ghim cửa sổ';
-      case 'desktop_clipboard_window_mode_always':
-        return 'Luôn luôn';
-      case 'desktop_clipboard_window_mode_hint':
-        return 'Điều khiển Fushi có luôn hiển thị trên các cửa sổ khác không';
-      case 'desktop_clipboard_window_mode_lookup':
-        return 'Chỉ khi tra từ';
-      case 'desktop_clipboard_window_mode_normal':
-        return 'Tắt';
       case 'dialog_add':
         return 'THÊM';
       case 'dialog_append':
@@ -262579,8 +260958,6 @@ extension on _StringsVi {
         return 'Chung';
       case 'settings_section_lookup_audio':
         return 'Phát âm & phản hồi';
-      case 'settings_section_lookup_clipboard':
-        return 'Clipboard & tra cứu toàn cục';
       case 'settings_section_lookup_content':
         return 'Nội dung mục từ';
       case 'settings_section_lookup_integrations':
@@ -268013,28 +266390,10 @@ extension on _StringsZhCn {
         return '此操作将清除所有历史词典搜索结果。确定吗？';
       case 'clear_dictionary_title':
         return '清除词典搜索历史';
-      case 'clipboard_history_clear':
-        return '清空';
-      case 'clipboard_history_empty':
-        return '暂无复制记录';
-      case 'clipboard_history_title':
-        return '复制历史';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return '防截屏 / 防录屏';
-      case 'clipboard_panel_block_capture_hint':
-        return '把查词和剪贴板悬浮窗从截图、录屏、直播串流中排除（Windows）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
-      case 'clipboard_panel_opacity':
-        return '面板不透明度';
-      case 'clipboard_panel_opacity_hint':
-        return '整个面板的不透明度——可透视底下的游戏/网页';
-      case 'clipboard_panel_window_title':
-        return 'Fushi 剪贴板查词';
-      case 'clipboard_text_window_bg_opacity':
-        return '文字窗背景不透明度';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return '透明剪切板文字窗的背景不透明度——0% 时背景全透只露文字，透视底下的游戏';
-      case 'clipboard_text_window_title':
-        return '剪贴板文字';
+      case 'lookup_block_capture_hint':
+        return '把查词悬浮窗从截图、录屏、直播串流中排除（Windows）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
       case 'collapse_dictionaries':
         return '折叠词典显示';
       case 'collection_bookmark':
@@ -268387,34 +266746,6 @@ extension on _StringsZhCn {
         return '切换应用的视觉风格';
       case 'design_system_label':
         return '设计系统';
-      case 'desktop_clipboard_auto_lookup':
-        return '复制后自动查词';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return '关闭后面板只显示复制到的文字，点词才查词。';
-      case 'desktop_clipboard_destination':
-        return '查词弹窗位置';
-      case 'desktop_clipboard_destination_main':
-        return '主窗口';
-      case 'desktop_clipboard_destination_panel':
-        return '悬浮面板';
-      case 'desktop_clipboard_destination_text_window':
-        return '透明文字窗';
-      case 'desktop_clipboard_destination_transient':
-        return '光标处弹卡';
-      case 'desktop_clipboard_enabled':
-        return '桌面剪贴板查词';
-      case 'desktop_clipboard_enabled_hint':
-        return '监听剪贴板 + 全局快捷键弹出查词窗';
-      case 'desktop_clipboard_window_mode':
-        return '窗口置顶策略';
-      case 'desktop_clipboard_window_mode_always':
-        return '始终置顶';
-      case 'desktop_clipboard_window_mode_hint':
-        return '控制 Fushi 是否保持在其他窗口上方';
-      case 'desktop_clipboard_window_mode_lookup':
-        return '仅查词期间';
-      case 'desktop_clipboard_window_mode_normal':
-        return '不置顶';
       case 'dialog_add':
         return '添加';
       case 'dialog_append':
@@ -270487,8 +268818,6 @@ extension on _StringsZhCn {
         return '通用';
       case 'settings_section_lookup_audio':
         return '朗读与反馈';
-      case 'settings_section_lookup_clipboard':
-        return '剪贴板与全局查词';
       case 'settings_section_lookup_content':
         return '词条内容';
       case 'settings_section_lookup_integrations':
@@ -275882,28 +274211,10 @@ extension on _StringsZhHk {
         return '此操作將清除所有歷史辭典搜尋結果。確定嗎？';
       case 'clear_dictionary_title':
         return '清除辭典搜尋歷史';
-      case 'clipboard_history_clear':
-        return '清空';
-      case 'clipboard_history_empty':
-        return '暫無復製記錄';
-      case 'clipboard_history_title':
-        return '復製歷史';
-      case 'clipboard_panel_block_capture':
+      case 'lookup_block_capture':
         return '防截屏 / 防錄屏';
-      case 'clipboard_panel_block_capture_hint':
-        return '把查詞和剪貼板懸浮窗從截圖、錄屏、直播串流中排除（Windows）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
-      case 'clipboard_panel_opacity':
-        return '面板不透明度';
-      case 'clipboard_panel_opacity_hint':
-        return '整個面板的不透明度——可透視底下的遊戲/網頁';
-      case 'clipboard_panel_window_title':
-        return 'Fushi 剪貼板查詞';
-      case 'clipboard_text_window_bg_opacity':
-        return '文字窗背景不透明度';
-      case 'clipboard_text_window_bg_opacity_hint':
-        return '透明剪切板文字窗的背景不透明度——0% 時背景全透只露文字，透視底下的遊戲';
-      case 'clipboard_text_window_title':
-        return '剪貼板文字';
+      case 'lookup_block_capture_hint':
+        return '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
       case 'collapse_dictionaries':
         return '折疊辭典顯示';
       case 'collection_bookmark':
@@ -276256,34 +274567,6 @@ extension on _StringsZhHk {
         return '切換應用程式的視覺風格';
       case 'design_system_label':
         return '設計系統';
-      case 'desktop_clipboard_auto_lookup':
-        return '復製後自動查詞';
-      case 'desktop_clipboard_auto_lookup_hint':
-        return '關閉後面板只顯示復製到的文字，點詞才查詞。';
-      case 'desktop_clipboard_destination':
-        return '查詞彈窗位置';
-      case 'desktop_clipboard_destination_main':
-        return '主視窗';
-      case 'desktop_clipboard_destination_panel':
-        return '懸浮面板';
-      case 'desktop_clipboard_destination_text_window':
-        return '透明文字窗';
-      case 'desktop_clipboard_destination_transient':
-        return '遊標處彈卡';
-      case 'desktop_clipboard_enabled':
-        return '桌面剪貼簿查詞';
-      case 'desktop_clipboard_enabled_hint':
-        return '監聽剪貼簿＋全域快捷鍵彈出查詞視窗';
-      case 'desktop_clipboard_window_mode':
-        return '視窗置頂策略';
-      case 'desktop_clipboard_window_mode_always':
-        return '永遠置頂';
-      case 'desktop_clipboard_window_mode_hint':
-        return '控製 Fushi 是否保持在其他視窗上方';
-      case 'desktop_clipboard_window_mode_lookup':
-        return '僅查詞期間';
-      case 'desktop_clipboard_window_mode_normal':
-        return '不置頂';
       case 'dialog_add':
         return '添加';
       case 'dialog_append':
@@ -278356,8 +276639,6 @@ extension on _StringsZhHk {
         return '通用';
       case 'settings_section_lookup_audio':
         return '朗讀與反饋';
-      case 'settings_section_lookup_clipboard':
-        return '剪貼板與全局查詞';
       case 'settings_section_lookup_content':
         return '詞條內容';
       case 'settings_section_lookup_integrations':
