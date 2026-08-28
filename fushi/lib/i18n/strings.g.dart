@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64821 (3813 per locale)
+/// Strings: 64940 (3820 per locale)
 ///
-/// Built on 2026-08-26 at 01:56 UTC
+/// Built on 2026-08-28 at 04:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5191,6 +5191,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Subtitle file deleted: ${label}';
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  String get manga_interface_hide => 'Hide interface';
+  String get manga_interface_show => 'Show interface';
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -14029,6 +14037,21 @@ class _StringsAr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -23070,6 +23093,21 @@ class _StringsDe extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -32154,6 +32192,21 @@ class _StringsEs extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -41267,6 +41320,21 @@ class _StringsFr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -50214,6 +50282,21 @@ class _StringsId extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -59233,6 +59316,21 @@ class _StringsIt extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -67709,6 +67807,21 @@ class _StringsJa extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -76201,6 +76314,21 @@ class _StringsKo extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -85180,6 +85308,21 @@ class _StringsNl extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -94215,6 +94358,21 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -103223,6 +103381,21 @@ class _StringsRu extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -112054,6 +112227,21 @@ class _StringsTh extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -120987,6 +121175,21 @@ class _StringsTr extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -129902,6 +130105,21 @@ class _StringsVi extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 // Path: <root>
@@ -138100,6 +138318,20 @@ class _StringsZhCn extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       '删除字幕文件失败：${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => '切换漫画界面';
+  @override
+  String get manga_interface_hide => '隐藏界面';
+  @override
+  String get manga_interface_show => '显示界面';
+  @override
+  String get gal_hook_text_vertical_alignment => '垂直对齐';
+  @override
+  String get gal_hook_text_vertical_alignment_center => '居中';
+  @override
+  String get gal_hook_text_vertical_alignment_top => '顶部';
+  @override
+  String get storage_entry_external_audio_hint => '音频引用原文件，不占用应用空间';
 }
 
 // Path: <root>
@@ -146319,6 +146551,21 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_subtitle_delete_failed({required Object label}) =>
       'Failed to delete subtitle file: ${label}';
+  @override
+  String get shortcut_action_manga_toggle_chrome => 'Toggle manga interface';
+  @override
+  String get manga_interface_hide => 'Hide interface';
+  @override
+  String get manga_interface_show => 'Show interface';
+  @override
+  String get gal_hook_text_vertical_alignment => 'Vertical alignment';
+  @override
+  String get gal_hook_text_vertical_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_vertical_alignment_top => 'Top';
+  @override
+  String get storage_entry_external_audio_hint =>
+      'Audio references the original files, using no app storage';
 }
 
 /// Flat map(s) containing all translations.
@@ -154143,6 +154390,20 @@ extension on _StringsEn {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -161964,6 +162225,20 @@ extension on _StringsAr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -169825,6 +170100,20 @@ extension on _StringsDe {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -177678,6 +177967,20 @@ extension on _StringsEs {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -185539,6 +185842,20 @@ extension on _StringsFr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -193374,6 +193691,20 @@ extension on _StringsId {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -201229,6 +201560,20 @@ extension on _StringsIt {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -209020,6 +209365,20 @@ extension on _StringsJa {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -216813,6 +217172,20 @@ extension on _StringsKo {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -224661,6 +225034,20 @@ extension on _StringsNl {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -232505,6 +232892,20 @@ extension on _StringsPtBr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -240356,6 +240757,20 @@ extension on _StringsRu {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -248181,6 +248596,20 @@ extension on _StringsTh {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -256021,6 +256450,20 @@ extension on _StringsTr {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -263855,6 +264298,20 @@ extension on _StringsVi {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
@@ -271624,6 +272081,20 @@ extension on _StringsZhCn {
         return ({required Object label}) => '已删除字幕文件：${label}';
       case 'video_subtitle_delete_failed':
         return ({required Object label}) => '删除字幕文件失败：${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return '切换漫画界面';
+      case 'manga_interface_hide':
+        return '隐藏界面';
+      case 'manga_interface_show':
+        return '显示界面';
+      case 'gal_hook_text_vertical_alignment':
+        return '垂直对齐';
+      case 'gal_hook_text_vertical_alignment_center':
+        return '居中';
+      case 'gal_hook_text_vertical_alignment_top':
+        return '顶部';
+      case 'storage_entry_external_audio_hint':
+        return '音频引用原文件，不占用应用空间';
       default:
         return null;
     }
@@ -279397,6 +279868,20 @@ extension on _StringsZhHk {
       case 'video_subtitle_delete_failed':
         return ({required Object label}) =>
             'Failed to delete subtitle file: ${label}';
+      case 'shortcut_action_manga_toggle_chrome':
+        return 'Toggle manga interface';
+      case 'manga_interface_hide':
+        return 'Hide interface';
+      case 'manga_interface_show':
+        return 'Show interface';
+      case 'gal_hook_text_vertical_alignment':
+        return 'Vertical alignment';
+      case 'gal_hook_text_vertical_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_vertical_alignment_top':
+        return 'Top';
+      case 'storage_entry_external_audio_hint':
+        return 'Audio references the original files, using no app storage';
       default:
         return null;
     }
