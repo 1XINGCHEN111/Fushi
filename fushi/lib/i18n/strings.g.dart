@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 64923 (3819 per locale)
 ///
-/// Built on 2026-08-28 at 05:47 UTC
+/// Built on 2026-08-28 at 06:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -690,7 +690,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Continue · EP ${n}';
   String get collection_empty => 'Collection is empty';
   String get collection_expand => 'Expand';
-  String get collection_export_all_books => 'All books';
   String get collection_export_all_mined => 'All mined sentences';
   String get collection_export_all_words => 'All favorite words';
   String get collection_export_dedupe => 'Deduplicate by sentence';
@@ -699,7 +698,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get collection_export_format => 'Format';
   String get collection_export_mined_title => 'Mined sentences';
   String get collection_export_no_items => 'Nothing to export';
-  String get collection_export_pick_book => 'Choose a book';
   String get collection_export_save => 'Save export';
   String get collection_export_saved => 'Export saved';
   String get collection_export_scope => 'Export scope';
@@ -5200,6 +5198,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
   String get storage_category_cache => 'Caches and temporary files';
   String get storage_category_other => 'Other uncategorised';
+  String get collection_export_pick_source => 'Select a source';
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -6105,8 +6105,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get collection_expand => 'توسيع';
   @override
-  String get collection_export_all_books => 'جميع الكتب';
-  @override
   String get collection_export_all_mined => 'جميع الجمل المستخرجة';
   @override
   String get collection_export_all_words => 'جميع الكلمات المفضلة';
@@ -6122,8 +6120,6 @@ class _StringsAr extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'لا يوجد شيء للتصدير';
-  @override
-  String get collection_export_pick_book => 'اختر كتاباً';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -14053,6 +14049,10 @@ class _StringsAr extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -14976,8 +14976,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get collection_expand => 'Ausklappen';
   @override
-  String get collection_export_all_books => 'Alle Bücher';
-  @override
   String get collection_export_all_mined => 'Alle gesammelten Sätze';
   @override
   String get collection_export_all_words => 'Alle Lieblingswörter';
@@ -14993,8 +14991,6 @@ class _StringsDe extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Nichts zum Exportieren';
-  @override
-  String get collection_export_pick_book => 'Buch auswählen';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -23109,6 +23105,10 @@ class _StringsDe extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -24031,8 +24031,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get collection_expand => 'Expandir';
   @override
-  String get collection_export_all_books => 'Todos los libros';
-  @override
   String get collection_export_all_mined => 'Todas las oraciones creadas';
   @override
   String get collection_export_all_words => 'Todas las palabras favoritas';
@@ -24048,8 +24046,6 @@ class _StringsEs extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Nada que exportar';
-  @override
-  String get collection_export_pick_book => 'Elegir un libro';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -32208,6 +32204,10 @@ class _StringsEs extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -33138,8 +33138,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get collection_expand => 'Développer';
   @override
-  String get collection_export_all_books => 'Tous les livres';
-  @override
   String get collection_export_all_mined => 'Toutes les phrases créées';
   @override
   String get collection_export_all_words => 'Tous les mots favoris';
@@ -33155,8 +33153,6 @@ class _StringsFr extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Rien à exporter';
-  @override
-  String get collection_export_pick_book => 'Choisir un livre';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -41336,6 +41332,10 @@ class _StringsFr extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -42247,8 +42247,6 @@ class _StringsId extends _StringsEn {
   @override
   String get collection_expand => 'Perluas';
   @override
-  String get collection_export_all_books => 'Semua buku';
-  @override
   String get collection_export_all_mined => 'Semua kalimat yang ditambang';
   @override
   String get collection_export_all_words => 'Semua kata favorit';
@@ -42264,8 +42262,6 @@ class _StringsId extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Tidak ada yang diekspor';
-  @override
-  String get collection_export_pick_book => 'Pilih buku';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -50298,6 +50294,10 @@ class _StringsId extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -51217,8 +51217,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get collection_expand => 'Espandi';
   @override
-  String get collection_export_all_books => 'Tutti i libri';
-  @override
   String get collection_export_all_mined => 'Tutte le frasi estratte';
   @override
   String get collection_export_all_words => 'Tutte le parole preferite';
@@ -51234,8 +51232,6 @@ class _StringsIt extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Niente da esportare';
-  @override
-  String get collection_export_pick_book => 'Scegli un libro';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -59332,6 +59328,10 @@ class _StringsIt extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -60200,8 +60200,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get collection_expand => '展開';
   @override
-  String get collection_export_all_books => 'すべての書籍';
-  @override
   String get collection_export_all_mined => 'すべての抽出した文';
   @override
   String get collection_export_all_words => 'すべてのお気に入り単語';
@@ -60217,8 +60215,6 @@ class _StringsJa extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'エクスポートするものがありません';
-  @override
-  String get collection_export_pick_book => '書籍を選択';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -67823,6 +67819,10 @@ class _StringsJa extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -68692,8 +68692,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get collection_expand => '펼치기';
   @override
-  String get collection_export_all_books => '모든 도서';
-  @override
   String get collection_export_all_mined => '채굴한 모든 문장';
   @override
   String get collection_export_all_words => '즐겨찾기 단어 전체';
@@ -68709,8 +68707,6 @@ class _StringsKo extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => '내보낼 항목이 없습니다';
-  @override
-  String get collection_export_pick_book => '도서 선택';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -76330,6 +76326,10 @@ class _StringsKo extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -77249,8 +77249,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get collection_expand => 'Uitklappen';
   @override
-  String get collection_export_all_books => 'Alle boeken';
-  @override
   String get collection_export_all_mined => 'Alle gedolven zinnen';
   @override
   String get collection_export_all_words => 'Alle favoriete woorden';
@@ -77266,8 +77264,6 @@ class _StringsNl extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Niets om te exporteren';
-  @override
-  String get collection_export_pick_book => 'Kies een boek';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -85324,6 +85320,10 @@ class _StringsNl extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -86249,8 +86249,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get collection_expand => 'Expandir';
   @override
-  String get collection_export_all_books => 'Todos os livros';
-  @override
   String get collection_export_all_mined => 'Todas as frases mineradas';
   @override
   String get collection_export_all_words => 'Todas as palavras favoritas';
@@ -86266,8 +86264,6 @@ class _StringsPtBr extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Nada para exportar';
-  @override
-  String get collection_export_pick_book => 'Escolher um livro';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -94374,6 +94370,10 @@ class _StringsPtBr extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -95290,8 +95290,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get collection_expand => 'Развернуть';
   @override
-  String get collection_export_all_books => 'Все книги';
-  @override
   String get collection_export_all_mined => 'Все добытые предложения';
   @override
   String get collection_export_all_words => 'Все избранные слова';
@@ -95307,8 +95305,6 @@ class _StringsRu extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Нечего экспортировать';
-  @override
-  String get collection_export_pick_book => 'Выберите книгу';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -103397,6 +103393,10 @@ class _StringsRu extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -104302,8 +104302,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get collection_expand => 'ขยาย';
   @override
-  String get collection_export_all_books => 'หนังสือทั้งหมด';
-  @override
   String get collection_export_all_mined => 'ประโยคที่สร้างทั้งหมด';
   @override
   String get collection_export_all_words => 'คำโปรดทั้งหมด';
@@ -104319,8 +104317,6 @@ class _StringsTh extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'ไม่มีรายการให้ส่งออก';
-  @override
-  String get collection_export_pick_book => 'เลือกหนังสือ';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -112243,6 +112239,10 @@ class _StringsTh extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -113156,8 +113156,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get collection_expand => 'Genişlet';
   @override
-  String get collection_export_all_books => 'Tüm kitaplar';
-  @override
   String get collection_export_all_mined => 'Tüm çıkarılmış cümleler';
   @override
   String get collection_export_all_words => 'Tüm favori kelimeler';
@@ -113173,8 +113171,6 @@ class _StringsTr extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Dışa aktarılacak bir şey yok';
-  @override
-  String get collection_export_pick_book => 'Bir kitap seçin';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -121191,6 +121187,10 @@ class _StringsTr extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -122102,8 +122102,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get collection_expand => 'Mở rộng';
   @override
-  String get collection_export_all_books => 'Tất cả sách';
-  @override
   String get collection_export_all_mined => 'Tất cả câu đã khai thác';
   @override
   String get collection_export_all_words => 'Tất cả từ yêu thích';
@@ -122119,8 +122117,6 @@ class _StringsVi extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => 'Không có gì để xuất';
-  @override
-  String get collection_export_pick_book => 'Chọn sách';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -130121,6 +130117,10 @@ class _StringsVi extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 // Path: <root>
@@ -130957,8 +130957,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get collection_expand => '展开';
   @override
-  String get collection_export_all_books => '全部书籍';
-  @override
   String get collection_export_all_mined => '全部制卡句';
   @override
   String get collection_export_all_words => '全部收藏词';
@@ -130974,8 +130972,6 @@ class _StringsZhCn extends _StringsEn {
   String get collection_export_mined_title => '制卡语句';
   @override
   String get collection_export_no_items => '没有可导出的内容';
-  @override
-  String get collection_export_pick_book => '选择书籍';
   @override
   String get collection_export_save => '保存导出';
   @override
@@ -138334,6 +138330,10 @@ class _StringsZhCn extends _StringsEn {
   String get storage_category_cache => '缓存与临时文件';
   @override
   String get storage_category_other => '其他未归类';
+  @override
+  String get collection_export_pick_source => '选择来源';
+  @override
+  String get collection_export_all_sources => '全部来源';
 }
 
 // Path: <root>
@@ -139170,8 +139170,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get collection_expand => '展開';
   @override
-  String get collection_export_all_books => '全部書籍';
-  @override
   String get collection_export_all_mined => '全部製卡句';
   @override
   String get collection_export_all_words => '全部收藏詞';
@@ -139187,8 +139185,6 @@ class _StringsZhHk extends _StringsEn {
   String get collection_export_mined_title => 'Mined Sentences';
   @override
   String get collection_export_no_items => '沒有可導出的內容';
-  @override
-  String get collection_export_pick_book => '選擇書籍';
   @override
   String get collection_export_save => 'Save Export';
   @override
@@ -146568,6 +146564,10 @@ class _StringsZhHk extends _StringsEn {
   String get storage_category_cache => 'Caches and temporary files';
   @override
   String get storage_category_other => 'Other uncategorised';
+  @override
+  String get collection_export_pick_source => 'Select a source';
+  @override
+  String get collection_export_all_sources => 'All sources';
 }
 
 /// Flat map(s) containing all translations.
@@ -147344,8 +147344,6 @@ extension on _StringsEn {
         return 'Collection is empty';
       case 'collection_expand':
         return 'Expand';
-      case 'collection_export_all_books':
-        return 'All books';
       case 'collection_export_all_mined':
         return 'All mined sentences';
       case 'collection_export_all_words':
@@ -147362,8 +147360,6 @@ extension on _StringsEn {
         return 'Mined sentences';
       case 'collection_export_no_items':
         return 'Nothing to export';
-      case 'collection_export_pick_book':
-        return 'Choose a book';
       case 'collection_export_save':
         return 'Save export';
       case 'collection_export_saved':
@@ -154404,6 +154400,10 @@ extension on _StringsEn {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -155180,8 +155180,6 @@ extension on _StringsAr {
         return 'المجموعة فارغة';
       case 'collection_expand':
         return 'توسيع';
-      case 'collection_export_all_books':
-        return 'جميع الكتب';
       case 'collection_export_all_mined':
         return 'جميع الجمل المستخرجة';
       case 'collection_export_all_words':
@@ -155198,8 +155196,6 @@ extension on _StringsAr {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'لا يوجد شيء للتصدير';
-      case 'collection_export_pick_book':
-        return 'اختر كتاباً';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -162237,6 +162233,10 @@ extension on _StringsAr {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -163017,8 +163017,6 @@ extension on _StringsDe {
         return 'Sammlung ist leer';
       case 'collection_expand':
         return 'Ausklappen';
-      case 'collection_export_all_books':
-        return 'Alle Bücher';
       case 'collection_export_all_mined':
         return 'Alle gesammelten Sätze';
       case 'collection_export_all_words':
@@ -163035,8 +163033,6 @@ extension on _StringsDe {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Nichts zum Exportieren';
-      case 'collection_export_pick_book':
-        return 'Buch auswählen';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -170110,6 +170106,10 @@ extension on _StringsDe {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -170890,8 +170890,6 @@ extension on _StringsEs {
         return 'La colección está vacía';
       case 'collection_expand':
         return 'Expandir';
-      case 'collection_export_all_books':
-        return 'Todos los libros';
       case 'collection_export_all_mined':
         return 'Todas las oraciones creadas';
       case 'collection_export_all_words':
@@ -170908,8 +170906,6 @@ extension on _StringsEs {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Nada que exportar';
-      case 'collection_export_pick_book':
-        return 'Elegir un libro';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -177975,6 +177971,10 @@ extension on _StringsEs {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -178757,8 +178757,6 @@ extension on _StringsFr {
         return 'La collection est vide';
       case 'collection_expand':
         return 'Développer';
-      case 'collection_export_all_books':
-        return 'Tous les livres';
       case 'collection_export_all_mined':
         return 'Toutes les phrases créées';
       case 'collection_export_all_words':
@@ -178775,8 +178773,6 @@ extension on _StringsFr {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Rien à exporter';
-      case 'collection_export_pick_book':
-        return 'Choisir un livre';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -185848,6 +185844,10 @@ extension on _StringsFr {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -186627,8 +186627,6 @@ extension on _StringsId {
         return 'Koleksi kosong';
       case 'collection_expand':
         return 'Perluas';
-      case 'collection_export_all_books':
-        return 'Semua buku';
       case 'collection_export_all_mined':
         return 'Semua kalimat yang ditambang';
       case 'collection_export_all_words':
@@ -186645,8 +186643,6 @@ extension on _StringsId {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Tidak ada yang diekspor';
-      case 'collection_export_pick_book':
-        return 'Pilih buku';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -193695,6 +193691,10 @@ extension on _StringsId {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -194475,8 +194475,6 @@ extension on _StringsIt {
         return 'La raccolta è vuota';
       case 'collection_expand':
         return 'Espandi';
-      case 'collection_export_all_books':
-        return 'Tutti i libri';
       case 'collection_export_all_mined':
         return 'Tutte le frasi estratte';
       case 'collection_export_all_words':
@@ -194493,8 +194491,6 @@ extension on _StringsIt {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Niente da esportare';
-      case 'collection_export_pick_book':
-        return 'Scegli un libro';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -201562,6 +201558,10 @@ extension on _StringsIt {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -202331,8 +202331,6 @@ extension on _StringsJa {
         return 'コレクションは空です';
       case 'collection_expand':
         return '展開';
-      case 'collection_export_all_books':
-        return 'すべての書籍';
       case 'collection_export_all_mined':
         return 'すべての抽出した文';
       case 'collection_export_all_words':
@@ -202349,8 +202347,6 @@ extension on _StringsJa {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'エクスポートするものがありません';
-      case 'collection_export_pick_book':
-        return '書籍を選択';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -209365,6 +209361,10 @@ extension on _StringsJa {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -210135,8 +210135,6 @@ extension on _StringsKo {
         return '컬렉션이 비어 있습니다';
       case 'collection_expand':
         return '펼치기';
-      case 'collection_export_all_books':
-        return '모든 도서';
       case 'collection_export_all_mined':
         return '채굴한 모든 문장';
       case 'collection_export_all_words':
@@ -210153,8 +210151,6 @@ extension on _StringsKo {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return '내보낼 항목이 없습니다';
-      case 'collection_export_pick_book':
-        return '도서 선택';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -217170,6 +217166,10 @@ extension on _StringsKo {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -217949,8 +217949,6 @@ extension on _StringsNl {
         return 'Collectie is leeg';
       case 'collection_expand':
         return 'Uitklappen';
-      case 'collection_export_all_books':
-        return 'Alle boeken';
       case 'collection_export_all_mined':
         return 'Alle gedolven zinnen';
       case 'collection_export_all_words':
@@ -217967,8 +217965,6 @@ extension on _StringsNl {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Niets om te exporteren';
-      case 'collection_export_pick_book':
-        return 'Kies een boek';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -225030,6 +225026,10 @@ extension on _StringsNl {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -225810,8 +225810,6 @@ extension on _StringsPtBr {
         return 'Coleção vazia';
       case 'collection_expand':
         return 'Expandir';
-      case 'collection_export_all_books':
-        return 'Todos os livros';
       case 'collection_export_all_mined':
         return 'Todas as frases mineradas';
       case 'collection_export_all_words':
@@ -225828,8 +225826,6 @@ extension on _StringsPtBr {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Nada para exportar';
-      case 'collection_export_pick_book':
-        return 'Escolher um livro';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -232886,6 +232882,10 @@ extension on _StringsPtBr {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -233668,8 +233668,6 @@ extension on _StringsRu {
         return 'Коллекция пуста';
       case 'collection_expand':
         return 'Развернуть';
-      case 'collection_export_all_books':
-        return 'Все книги';
       case 'collection_export_all_mined':
         return 'Все добытые предложения';
       case 'collection_export_all_words':
@@ -233686,8 +233684,6 @@ extension on _StringsRu {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Нечего экспортировать';
-      case 'collection_export_pick_book':
-        return 'Выберите книгу';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -240749,6 +240745,10 @@ extension on _StringsRu {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -241524,8 +241524,6 @@ extension on _StringsTh {
         return 'คอลเลกชันว่างเปล่า';
       case 'collection_expand':
         return 'ขยาย';
-      case 'collection_export_all_books':
-        return 'หนังสือทั้งหมด';
       case 'collection_export_all_mined':
         return 'ประโยคที่สร้างทั้งหมด';
       case 'collection_export_all_words':
@@ -241542,8 +241540,6 @@ extension on _StringsTh {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'ไม่มีรายการให้ส่งออก';
-      case 'collection_export_pick_book':
-        return 'เลือกหนังสือ';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -248586,6 +248582,10 @@ extension on _StringsTh {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -249366,8 +249366,6 @@ extension on _StringsTr {
         return 'Koleksiyon boş';
       case 'collection_expand':
         return 'Genişlet';
-      case 'collection_export_all_books':
-        return 'Tüm kitaplar';
       case 'collection_export_all_mined':
         return 'Tüm çıkarılmış cümleler';
       case 'collection_export_all_words':
@@ -249384,8 +249382,6 @@ extension on _StringsTr {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Dışa aktarılacak bir şey yok';
-      case 'collection_export_pick_book':
-        return 'Bir kitap seçin';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -256438,6 +256434,10 @@ extension on _StringsTr {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -257215,8 +257215,6 @@ extension on _StringsVi {
         return 'Bộ sưu tập trống';
       case 'collection_expand':
         return 'Mở rộng';
-      case 'collection_export_all_books':
-        return 'Tất cả sách';
       case 'collection_export_all_mined':
         return 'Tất cả câu đã khai thác';
       case 'collection_export_all_words':
@@ -257233,8 +257231,6 @@ extension on _StringsVi {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return 'Không có gì để xuất';
-      case 'collection_export_pick_book':
-        return 'Chọn sách';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -264284,6 +264280,10 @@ extension on _StringsVi {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
@@ -265048,8 +265048,6 @@ extension on _StringsZhCn {
         return '合集为空';
       case 'collection_expand':
         return '展开';
-      case 'collection_export_all_books':
-        return '全部书籍';
       case 'collection_export_all_mined':
         return '全部制卡句';
       case 'collection_export_all_words':
@@ -265066,8 +265064,6 @@ extension on _StringsZhCn {
         return '制卡语句';
       case 'collection_export_no_items':
         return '没有可导出的内容';
-      case 'collection_export_pick_book':
-        return '选择书籍';
       case 'collection_export_save':
         return '保存导出';
       case 'collection_export_saved':
@@ -272065,6 +272061,10 @@ extension on _StringsZhCn {
         return '缓存与临时文件';
       case 'storage_category_other':
         return '其他未归类';
+      case 'collection_export_pick_source':
+        return '选择来源';
+      case 'collection_export_all_sources':
+        return '全部来源';
       default:
         return null;
     }
@@ -272829,8 +272829,6 @@ extension on _StringsZhHk {
         return '合集為空';
       case 'collection_expand':
         return '展開';
-      case 'collection_export_all_books':
-        return '全部書籍';
       case 'collection_export_all_mined':
         return '全部製卡句';
       case 'collection_export_all_words':
@@ -272847,8 +272845,6 @@ extension on _StringsZhHk {
         return 'Mined Sentences';
       case 'collection_export_no_items':
         return '沒有可導出的內容';
-      case 'collection_export_pick_book':
-        return '選擇書籍';
       case 'collection_export_save':
         return 'Save Export';
       case 'collection_export_saved':
@@ -279850,6 +279846,10 @@ extension on _StringsZhHk {
         return 'Caches and temporary files';
       case 'storage_category_other':
         return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
       default:
         return null;
     }
