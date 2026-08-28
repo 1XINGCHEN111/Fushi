@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65008 (3824 per locale)
+/// Strings: 65110 (3830 per locale)
 ///
-/// Built on 2026-08-28 at 06:21 UTC
+/// Built on 2026-08-28 at 06:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5206,6 +5206,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_subtitle_list_export_favorites => 'Export favorited lines';
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -14070,6 +14079,21 @@ class _StringsAr extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -23137,6 +23161,21 @@ class _StringsDe extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -32247,6 +32286,21 @@ class _StringsEs extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -41386,6 +41440,21 @@ class _StringsFr extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -50359,6 +50428,21 @@ class _StringsId extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -59404,6 +59488,21 @@ class _StringsIt extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -67906,6 +68005,21 @@ class _StringsJa extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -76424,6 +76538,21 @@ class _StringsKo extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -85429,6 +85558,21 @@ class _StringsNl extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -94490,6 +94634,21 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -103524,6 +103683,21 @@ class _StringsRu extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -112381,6 +112555,21 @@ class _StringsTh extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -121340,6 +121529,21 @@ class _StringsTr extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -130281,6 +130485,21 @@ class _StringsVi extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 // Path: <root>
@@ -138504,6 +138723,18 @@ class _StringsZhCn extends _StringsEn {
   String get video_subtitle_list_export_favorites => '导出收藏语句';
   @override
   String get shortcut_action_video_search_subtitle_list => '搜索字幕列表';
+  @override
+  String get game_hook_code_paste_title => '粘贴特殊码';
+  @override
+  String get game_hook_code_paste_hint => '粘贴原始特殊码，例如 /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body => '特殊码会绑定到当前运行游戏的可执行文件，下次自动复用。';
+  @override
+  String get game_hook_code_paste_saved => '特殊码已保存到当前游戏';
+  @override
+  String get game_hook_code_paste_invalid => '这看起来不是一条特殊码';
+  @override
+  String get game_hook_code_label => '备注（可选）';
 }
 
 // Path: <root>
@@ -146749,6 +146980,21 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get shortcut_action_video_search_subtitle_list =>
       'Search subtitle list';
+  @override
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  @override
+  String get game_hook_code_label => 'Label (optional)';
 }
 
 /// Flat map(s) containing all translations.
@@ -154595,6 +154841,18 @@ extension on _StringsEn {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -162438,6 +162696,18 @@ extension on _StringsAr {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -170321,6 +170591,18 @@ extension on _StringsDe {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -178196,6 +178478,18 @@ extension on _StringsEs {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -186079,6 +186373,18 @@ extension on _StringsFr {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -193936,6 +194242,18 @@ extension on _StringsId {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -201813,6 +202131,18 @@ extension on _StringsIt {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -209626,6 +209956,18 @@ extension on _StringsJa {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -217441,6 +217783,18 @@ extension on _StringsKo {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -225311,6 +225665,18 @@ extension on _StringsNl {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -233177,6 +233543,18 @@ extension on _StringsPtBr {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -241050,6 +241428,18 @@ extension on _StringsRu {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -248897,6 +249287,18 @@ extension on _StringsTh {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -256759,6 +257161,18 @@ extension on _StringsTr {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -264615,6 +265029,18 @@ extension on _StringsVi {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
@@ -272406,6 +272832,18 @@ extension on _StringsZhCn {
         return '导出收藏语句';
       case 'shortcut_action_video_search_subtitle_list':
         return '搜索字幕列表';
+      case 'game_hook_code_paste_title':
+        return '粘贴特殊码';
+      case 'game_hook_code_paste_hint':
+        return '粘贴原始特殊码，例如 /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return '特殊码会绑定到当前运行游戏的可执行文件，下次自动复用。';
+      case 'game_hook_code_paste_saved':
+        return '特殊码已保存到当前游戏';
+      case 'game_hook_code_paste_invalid':
+        return '这看起来不是一条特殊码';
+      case 'game_hook_code_label':
+        return '备注（可选）';
       default:
         return null;
     }
@@ -280201,6 +280639,18 @@ extension on _StringsZhHk {
         return 'Export favorited lines';
       case 'shortcut_action_video_search_subtitle_list':
         return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
       default:
         return null;
     }
