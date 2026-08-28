@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65110 (3830 per locale)
+/// Strings: 65569 (3857 per locale)
 ///
-/// Built on 2026-08-28 at 10:02 UTC
+/// Built on 2026-08-28 at 10:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5213,6 +5213,40 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_source_cloudflare_verify_title => 'Site verification';
   String get manga_source_cloudflare_verify_hint =>
       'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+  String get db_cannot_open_title => 'Data location unavailable';
+  String get db_cannot_open_message =>
+      'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+  String get storage_category_cache => 'Caches and temporary files';
+  String get storage_category_other => 'Other uncategorised';
+  String get collection_export_pick_source => 'Select a source';
+  String get collection_export_all_sources => 'All sources';
+  String get video_subtitle_list_search => 'Search subtitles';
+  String get video_subtitle_list_search_hint => 'Type to filter lines';
+  String get video_subtitle_list_search_empty => 'No line matches';
+  String get video_subtitle_list_export_favorites => 'Export favorited lines';
+  String get shortcut_action_video_search_subtitle_list =>
+      'Search subtitle list';
+  String get game_hook_code_paste_title => 'Paste a hook code';
+  String get game_hook_code_paste_hint =>
+      'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+  String get game_hook_code_paste_body =>
+      'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+  String get game_hook_code_paste_saved => 'Hook code saved for this game';
+  String get game_hook_code_paste_invalid =>
+      'That does not look like a hook code';
+  String get game_hook_code_label => 'Label (optional)';
+  String get discovery_game_type_all => 'All';
+  String get discovery_game_type_raw => 'Untranslated';
+  String get discovery_game_type_translated => 'Translated';
+  String get discovery_game_type_mobile => 'Mobile';
+  String get discovery_game_type_unlabelled => 'Unlabelled';
+  String get game_library_downloading => 'Downloading';
+  String get game_library_download_queued => 'Queued';
+  String get game_library_download_retrying => 'Retrying';
 }
 
 // Path: <root>
@@ -14087,6 +14121,66 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'أكمل فحص Cloudflare أدناه. سيستأنف التحميل تلقائيًا بعد اجتيازه.';
+  @override
+  String get db_cannot_open_title => 'موقع البيانات غير متاح';
+  @override
+  String get db_cannot_open_message =>
+      'تعذّر على Fushi فتح أو إنشاء قاعدة بياناته في موقع البيانات المُعدّ. لا يوجد أي تلف — قد يكون المجلد مفقوداً أو للقراءة فقط أو على قرص غير متصل. تحقّق من موقع البيانات في الإعدادات، أو أعد التشغيل لاستخدام الموقع الافتراضي.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'لا يطابق أي من تعيينات الحقول لديك نوع الملاحظة المحدد، لذلك رفض Anki البطاقة. افتح إعدادات Anki لإعادة تعيين الحقول، أو استخدم \'إنشاء مجموعة Lapis\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'الحقل الأول من نوع الملاحظة المحدد فارغ، وAnki يرفض ملاحظة كهذه. عيّن له حقلاً في إعدادات Anki.';
+  @override
+  String get storage_category_cache => 'ذاكرة التخزين المؤقت والملفات المؤقتة';
+  @override
+  String get storage_category_other => 'أخرى غير مصنّفة';
+  @override
+  String get collection_export_pick_source => 'اختر مصدراً';
+  @override
+  String get collection_export_all_sources => 'جميع المصادر';
+  @override
+  String get video_subtitle_list_search => 'البحث في الترجمات';
+  @override
+  String get video_subtitle_list_search_hint => 'اكتب لتصفية السطور';
+  @override
+  String get video_subtitle_list_search_empty => 'لا يوجد سطر مطابق';
+  @override
+  String get video_subtitle_list_export_favorites => 'تصدير السطور المفضلة';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'البحث في قائمة الترجمة';
+  @override
+  String get game_hook_code_paste_title => 'لصق رمز hook';
+  @override
+  String get game_hook_code_paste_hint =>
+      'الصق الرمز الخام، مثل /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'يُربط الرمز بالملف التنفيذي للعبة قيد التشغيل حالياً، ليتمكن Fushi من إعادة استخدامه في المرة القادمة.';
+  @override
+  String get game_hook_code_paste_saved => 'تم حفظ رمز hook لهذه اللعبة';
+  @override
+  String get game_hook_code_paste_invalid => 'هذا لا يبدو رمز hook';
+  @override
+  String get game_hook_code_label => 'تسمية (اختياري)';
+  @override
+  String get discovery_game_type_all => 'الكل';
+  @override
+  String get discovery_game_type_raw => 'غير مترجمة';
+  @override
+  String get discovery_game_type_translated => 'مترجمة';
+  @override
+  String get discovery_game_type_mobile => 'جوّال';
+  @override
+  String get discovery_game_type_unlabelled => 'غير مصنّفة';
+  @override
+  String get game_library_downloading => 'جارٍ التحميل';
+  @override
+  String get game_library_download_queued => 'في قائمة الانتظار';
+  @override
+  String get game_library_download_retrying => 'جارٍ إعادة المحاولة';
 }
 
 // Path: <root>
@@ -23170,6 +23264,69 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Schließe die Cloudflare-Prüfung unten ab. Der Ladevorgang wird nach dem Bestehen automatisch fortgesetzt.';
+  @override
+  String get db_cannot_open_title => 'Datenspeicherort nicht verfügbar';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi konnte seine Datenbank am konfigurierten Datenspeicherort nicht öffnen oder anlegen. Nichts ist beschädigt – der Ordner fehlt möglicherweise, ist schreibgeschützt oder liegt auf einem getrennten Laufwerk. Prüfe den Datenspeicherort unter Einstellungen oder starte neu, um den Standardspeicherort zu verwenden.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Keine deiner Feldzuordnungen passt zum ausgewählten Notiztyp, deshalb hat Anki die Karte abgelehnt. Öffne die Anki-Einstellungen, um die Felder neu zuzuordnen, oder verwende „Lapis-Stapel erstellen“.';
+  @override
+  String get anki_error_first_field_empty =>
+      'Das erste Feld des ausgewählten Notiztyps ist leer, und Anki lehnt eine solche Notiz ab. Ordne ihm in den Anki-Einstellungen ein Feld zu.';
+  @override
+  String get storage_category_cache => 'Zwischenspeicher und temporäre Dateien';
+  @override
+  String get storage_category_other => 'Sonstiges, nicht zugeordnet';
+  @override
+  String get collection_export_pick_source => 'Quelle auswählen';
+  @override
+  String get collection_export_all_sources => 'Alle Quellen';
+  @override
+  String get video_subtitle_list_search => 'Untertitel durchsuchen';
+  @override
+  String get video_subtitle_list_search_hint => 'Tippen, um Zeilen zu filtern';
+  @override
+  String get video_subtitle_list_search_empty => 'Keine passende Zeile';
+  @override
+  String get video_subtitle_list_export_favorites =>
+      'Favorisierte Zeilen exportieren';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Untertitelliste durchsuchen';
+  @override
+  String get game_hook_code_paste_title => 'Hook-Code einfügen';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Füge den rohen Code ein, z. B. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'Der Code wird an die ausführbare Datei des laufenden Spiels gebunden, damit Fushi ihn beim nächsten Mal wiederverwenden kann.';
+  @override
+  String get game_hook_code_paste_saved =>
+      'Hook-Code für dieses Spiel gespeichert';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'Das sieht nicht nach einem Hook-Code aus';
+  @override
+  String get game_hook_code_label => 'Bezeichnung (optional)';
+  @override
+  String get discovery_game_type_all => 'Alle';
+  @override
+  String get discovery_game_type_raw => 'Unübersetzt';
+  @override
+  String get discovery_game_type_translated => 'Übersetzt';
+  @override
+  String get discovery_game_type_mobile => 'Mobil';
+  @override
+  String get discovery_game_type_unlabelled => 'Ohne Kennzeichnung';
+  @override
+  String get game_library_downloading => 'Wird heruntergeladen';
+  @override
+  String get game_library_download_queued => 'In Warteschlange';
+  @override
+  String get game_library_download_retrying => 'Erneuter Versuch';
 }
 
 // Path: <root>
@@ -32297,6 +32454,68 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Completa la verificación de Cloudflare a continuación. La carga se reanudará automáticamente al superarla.';
+  @override
+  String get db_cannot_open_title => 'Ubicación de datos no disponible';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi no pudo abrir ni crear su base de datos en la ubicación de datos configurada. Nada está dañado: puede que la carpeta no exista, sea de solo lectura o esté en una unidad desconectada. Revise la ubicación de datos en Configuración, o reinicie para usar la ubicación predeterminada.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Ninguno de sus mapeos de campos coincide con el tipo de nota seleccionado, por lo que Anki rechazó la tarjeta. Abra Configuración de Anki para volver a mapear los campos, o use \'Crear mazo Lapis\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'El primer campo del tipo de nota seleccionado está vacío y Anki no acepta una nota así. Mapee un campo a él en Configuración de Anki.';
+  @override
+  String get storage_category_cache => 'Cachés y archivos temporales';
+  @override
+  String get storage_category_other => 'Otros sin clasificar';
+  @override
+  String get collection_export_pick_source => 'Seleccionar una fuente';
+  @override
+  String get collection_export_all_sources => 'Todas las fuentes';
+  @override
+  String get video_subtitle_list_search => 'Buscar subtítulos';
+  @override
+  String get video_subtitle_list_search_hint => 'Escriba para filtrar líneas';
+  @override
+  String get video_subtitle_list_search_empty => 'Ninguna línea coincide';
+  @override
+  String get video_subtitle_list_export_favorites =>
+      'Exportar líneas favoritas';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Buscar en la lista de subtítulos';
+  @override
+  String get game_hook_code_paste_title => 'Pegar un código de hook';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Pegue el código sin procesar, p. ej. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'El código queda vinculado al ejecutable del juego en ejecución, para que Fushi pueda reutilizarlo la próxima vez.';
+  @override
+  String get game_hook_code_paste_saved =>
+      'Código de hook guardado para este juego';
+  @override
+  String get game_hook_code_paste_invalid => 'Esto no parece un código de hook';
+  @override
+  String get game_hook_code_label => 'Etiqueta (opcional)';
+  @override
+  String get discovery_game_type_all => 'Todos';
+  @override
+  String get discovery_game_type_raw => 'Sin traducir';
+  @override
+  String get discovery_game_type_translated => 'Traducidos';
+  @override
+  String get discovery_game_type_mobile => 'Móvil';
+  @override
+  String get discovery_game_type_unlabelled => 'Sin etiquetar';
+  @override
+  String get game_library_downloading => 'Descargando';
+  @override
+  String get game_library_download_queued => 'En cola';
+  @override
+  String get game_library_download_retrying => 'Reintentando';
 }
 
 // Path: <root>
@@ -41455,6 +41674,70 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Effectuez la vérification Cloudflare ci-dessous. Le chargement reprend automatiquement une fois validée.';
+  @override
+  String get db_cannot_open_title => 'Emplacement des données indisponible';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi n\'a pas pu ouvrir ni créer sa base de données à l\'emplacement des données configuré. Rien n\'est corrompu : le dossier est peut-être absent, en lecture seule, ou sur un disque déconnecté. Vérifiez l\'emplacement des données dans Paramètres, ou redémarrez pour utiliser l\'emplacement par défaut.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Aucune de vos correspondances des champs ne correspond au type de note sélectionné ; Anki a donc refusé la carte. Ouvrez Paramètres Anki pour remapper les champs, ou utilisez « Créer un paquet Lapis ».';
+  @override
+  String get anki_error_first_field_empty =>
+      'Le premier champ du type de note sélectionné est vide, et Anki refuse une telle note. Associez-lui un champ dans Paramètres Anki.';
+  @override
+  String get storage_category_cache => 'Caches et fichiers temporaires';
+  @override
+  String get storage_category_other => 'Autres non classés';
+  @override
+  String get collection_export_pick_source => 'Choisir une source';
+  @override
+  String get collection_export_all_sources => 'Toutes les sources';
+  @override
+  String get video_subtitle_list_search => 'Rechercher dans les sous-titres';
+  @override
+  String get video_subtitle_list_search_hint =>
+      'Saisissez du texte pour filtrer les lignes';
+  @override
+  String get video_subtitle_list_search_empty => 'Aucune ligne correspondante';
+  @override
+  String get video_subtitle_list_export_favorites =>
+      'Exporter les lignes favorites';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Rechercher dans la liste des sous-titres';
+  @override
+  String get game_hook_code_paste_title => 'Coller un code de hook';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Collez le code brut, p. ex. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'Le code est lié à l\'exécutable du jeu en cours d\'exécution, afin que Fushi puisse le réutiliser la prochaine fois.';
+  @override
+  String get game_hook_code_paste_saved =>
+      'Code de hook enregistré pour ce jeu';
+  @override
+  String get game_hook_code_paste_invalid =>
+      'Cela ne ressemble pas à un code de hook';
+  @override
+  String get game_hook_code_label => 'Libellé (facultatif)';
+  @override
+  String get discovery_game_type_all => 'Tous';
+  @override
+  String get discovery_game_type_raw => 'Non traduits';
+  @override
+  String get discovery_game_type_translated => 'Traduits';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Non étiquetés';
+  @override
+  String get game_library_downloading => 'Téléchargement';
+  @override
+  String get game_library_download_queued => 'En file d\'attente';
+  @override
+  String get game_library_download_retrying => 'Nouvelle tentative';
 }
 
 // Path: <root>
@@ -50442,6 +50725,66 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Selesaikan pemeriksaan Cloudflare di bawah ini. Pemuatan akan dilanjutkan otomatis setelah lolos.';
+  @override
+  String get db_cannot_open_title => 'Lokasi data tidak tersedia';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi tidak dapat membuka atau membuat basis datanya di lokasi data yang dikonfigurasi. Tidak ada yang rusak — folder mungkin hilang, hanya-baca, atau berada di drive yang terputus. Periksa lokasi data di Pengaturan, atau mulai ulang untuk memakai lokasi default.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Tidak ada pemetaan bidang Anda yang cocok dengan tipe catatan yang dipilih, sehingga Anki menolak kartu ini. Buka Pengaturan Anki untuk memetakan ulang bidang, atau gunakan \'Buat dek Lapis\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'Bidang pertama dari tipe catatan yang dipilih kosong, dan Anki menolak catatan seperti itu. Petakan sebuah bidang ke sana di Pengaturan Anki.';
+  @override
+  String get storage_category_cache => 'Cache dan file sementara';
+  @override
+  String get storage_category_other => 'Lainnya tanpa kategori';
+  @override
+  String get collection_export_pick_source => 'Pilih sumber';
+  @override
+  String get collection_export_all_sources => 'Semua sumber';
+  @override
+  String get video_subtitle_list_search => 'Cari subtitle';
+  @override
+  String get video_subtitle_list_search_hint => 'Ketik untuk menyaring baris';
+  @override
+  String get video_subtitle_list_search_empty => 'Tidak ada baris yang cocok';
+  @override
+  String get video_subtitle_list_export_favorites => 'Ekspor baris favorit';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Cari di daftar subtitle';
+  @override
+  String get game_hook_code_paste_title => 'Tempel kode hook';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Tempel kode mentahnya, mis. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'Kode ini terikat pada file eksekusi game yang sedang berjalan, sehingga Fushi dapat memakainya lagi lain kali.';
+  @override
+  String get game_hook_code_paste_saved => 'Kode hook disimpan untuk game ini';
+  @override
+  String get game_hook_code_paste_invalid => 'Ini sepertinya bukan kode hook';
+  @override
+  String get game_hook_code_label => 'Label (opsional)';
+  @override
+  String get discovery_game_type_all => 'Semua';
+  @override
+  String get discovery_game_type_raw => 'Belum diterjemahkan';
+  @override
+  String get discovery_game_type_translated => 'Sudah diterjemahkan';
+  @override
+  String get discovery_game_type_mobile => 'Seluler';
+  @override
+  String get discovery_game_type_unlabelled => 'Tanpa label';
+  @override
+  String get game_library_downloading => 'Mengunduh';
+  @override
+  String get game_library_download_queued => 'Diantrikan';
+  @override
+  String get game_library_download_retrying => 'Mencoba ulang';
 }
 
 // Path: <root>
@@ -59503,6 +59846,67 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Completa il controllo Cloudflare qui sotto. Il caricamento riprenderà automaticamente al superamento.';
+  @override
+  String get db_cannot_open_title => 'Posizione dati non disponibile';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi non è riuscito ad aprire o creare il proprio database nella posizione dati configurata. Nulla è danneggiato: la cartella potrebbe mancare, essere di sola lettura o trovarsi su un\'unità disconnessa. Controlla la posizione dati in Impostazioni, oppure riavvia per usare la posizione predefinita.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Nessuna delle tue mappature dei campi corrisponde al tipo di nota selezionato, perciò Anki ha rifiutato la carta. Apri Impostazioni Anki per rimappare i campi, oppure usa \'Crea mazzo Lapis\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'Il primo campo del tipo di nota selezionato è vuoto e Anki rifiuta una nota di questo tipo. Mappagli un campo in Impostazioni Anki.';
+  @override
+  String get storage_category_cache => 'Cache e file temporanei';
+  @override
+  String get storage_category_other => 'Altro non classificato';
+  @override
+  String get collection_export_pick_source => 'Seleziona una fonte';
+  @override
+  String get collection_export_all_sources => 'Tutte le fonti';
+  @override
+  String get video_subtitle_list_search => 'Cerca nei sottotitoli';
+  @override
+  String get video_subtitle_list_search_hint => 'Digita per filtrare le righe';
+  @override
+  String get video_subtitle_list_search_empty => 'Nessuna riga corrispondente';
+  @override
+  String get video_subtitle_list_export_favorites =>
+      'Esporta le righe preferite';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Cerca nell\'elenco sottotitoli';
+  @override
+  String get game_hook_code_paste_title => 'Incolla un hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Incolla il codice grezzo, ad es. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'Il codice viene associato all\'eseguibile del gioco attualmente in esecuzione, così Fushi potrà riutilizzarlo la prossima volta.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code salvato per questo gioco';
+  @override
+  String get game_hook_code_paste_invalid => 'Non sembra un hook code';
+  @override
+  String get game_hook_code_label => 'Etichetta (facoltativa)';
+  @override
+  String get discovery_game_type_all => 'Tutti';
+  @override
+  String get discovery_game_type_raw => 'Non tradotti';
+  @override
+  String get discovery_game_type_translated => 'Tradotti';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Senza etichetta';
+  @override
+  String get game_library_downloading => 'Download in corso';
+  @override
+  String get game_library_download_queued => 'In coda';
+  @override
+  String get game_library_download_retrying => 'Nuovo tentativo';
 }
 
 // Path: <root>
@@ -68010,6 +68414,65 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       '下の Cloudflare 認証を完了してください。通過すると自動で読み込みを再開します。';
+  @override
+  String get db_cannot_open_title => 'データ保存場所を利用できません';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi は設定されたデータ保存場所でデータベースを開くことも作成することもできませんでした。データが壊れているわけではありません。フォルダーが存在しない、読み取り専用、または切断されたドライブ上にある可能性があります。設定でデータ保存場所を確認するか、再起動してデフォルトの場所を使用してください。';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'フィールドマッピングのいずれも選択中のノートタイプと一致しないため、Anki がカードを拒否しました。Anki 設定でフィールドをマッピングし直すか、「Lapis デッキを作成」をお使いください。';
+  @override
+  String get anki_error_first_field_empty =>
+      '選択中のノートタイプの最初のフィールドが空のため、Anki はこのノートを受け付けません。Anki 設定でフィールドを割り当ててください。';
+  @override
+  String get storage_category_cache => 'キャッシュと一時ファイル';
+  @override
+  String get storage_category_other => 'その他（未分類）';
+  @override
+  String get collection_export_pick_source => 'ソースを選択';
+  @override
+  String get collection_export_all_sources => 'すべてのソース';
+  @override
+  String get video_subtitle_list_search => '字幕を検索';
+  @override
+  String get video_subtitle_list_search_hint => '入力して行を絞り込み';
+  @override
+  String get video_subtitle_list_search_empty => '一致する行がありません';
+  @override
+  String get video_subtitle_list_export_favorites => 'お気に入りの行をエクスポート';
+  @override
+  String get shortcut_action_video_search_subtitle_list => '字幕リストを検索';
+  @override
+  String get game_hook_code_paste_title => 'フックコードを貼り付け';
+  @override
+  String get game_hook_code_paste_hint =>
+      '生のコードを貼り付けてください。例：/HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'コードは現在実行中のゲームの実行ファイルに紐付けられ、次回から自動的に再利用されます。';
+  @override
+  String get game_hook_code_paste_saved => 'このゲームのフックコードを保存しました';
+  @override
+  String get game_hook_code_paste_invalid => 'フックコードではないようです';
+  @override
+  String get game_hook_code_label => 'ラベル（任意）';
+  @override
+  String get discovery_game_type_all => 'すべて';
+  @override
+  String get discovery_game_type_raw => '未翻訳';
+  @override
+  String get discovery_game_type_translated => '翻訳済み';
+  @override
+  String get discovery_game_type_mobile => 'モバイル';
+  @override
+  String get discovery_game_type_unlabelled => '未分類';
+  @override
+  String get game_library_downloading => 'ダウンロード中';
+  @override
+  String get game_library_download_queued => '待機中';
+  @override
+  String get game_library_download_retrying => '再試行中';
 }
 
 // Path: <root>
@@ -76532,6 +76995,65 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       '아래 Cloudflare 확인을 완료하세요. 통과하면 자동으로 불러오기를 계속합니다.';
+  @override
+  String get db_cannot_open_title => '데이터 위치를 사용할 수 없음';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi가 설정된 데이터 위치에서 데이터베이스를 열거나 만들지 못했습니다. 손상된 것은 없습니다 — 폴더가 없거나, 읽기 전용이거나, 연결이 끊긴 드라이브에 있을 수 있습니다. 설정에서 데이터 위치를 확인하거나, 다시 시작해 기본 위치를 사용하세요.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      '필드 매핑 중 어느 것도 선택한 노트 유형과 맞지 않아 Anki가 카드를 거부했습니다. Anki 설정을 열어 필드를 다시 매핑하거나 \'Lapis 덱 만들기\'를 사용하세요.';
+  @override
+  String get anki_error_first_field_empty =>
+      '선택한 노트 유형의 첫 번째 필드가 비어 있어 Anki가 이런 노트를 받지 않습니다. Anki 설정에서 필드를 매핑하세요.';
+  @override
+  String get storage_category_cache => '캐시 및 임시 파일';
+  @override
+  String get storage_category_other => '기타 미분류';
+  @override
+  String get collection_export_pick_source => '소스 선택';
+  @override
+  String get collection_export_all_sources => '모든 소스';
+  @override
+  String get video_subtitle_list_search => '자막 검색';
+  @override
+  String get video_subtitle_list_search_hint => '입력해 자막 필터링';
+  @override
+  String get video_subtitle_list_search_empty => '일치하는 자막 없음';
+  @override
+  String get video_subtitle_list_export_favorites => '즐겨찾기한 자막 내보내기';
+  @override
+  String get shortcut_action_video_search_subtitle_list => '자막 목록 검색';
+  @override
+  String get game_hook_code_paste_title => '후크 코드 붙여넣기';
+  @override
+  String get game_hook_code_paste_hint =>
+      '원본 코드를 붙여넣으세요. 예: /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      '이 코드는 현재 실행 중인 게임의 실행 파일에 연결되어 다음에 자동으로 다시 사용됩니다.';
+  @override
+  String get game_hook_code_paste_saved => '이 게임의 후크 코드를 저장했습니다';
+  @override
+  String get game_hook_code_paste_invalid => '후크 코드로 보이지 않습니다';
+  @override
+  String get game_hook_code_label => '라벨(선택)';
+  @override
+  String get discovery_game_type_all => '전체';
+  @override
+  String get discovery_game_type_raw => '미번역';
+  @override
+  String get discovery_game_type_translated => '번역됨';
+  @override
+  String get discovery_game_type_mobile => '모바일';
+  @override
+  String get discovery_game_type_unlabelled => '미분류';
+  @override
+  String get game_library_downloading => '다운로드 중';
+  @override
+  String get game_library_download_queued => '대기 중';
+  @override
+  String get game_library_download_retrying => '재시도 중';
 }
 
 // Path: <root>
@@ -85551,6 +86073,67 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Voltooi de Cloudflare-controle hieronder. Het laden gaat automatisch verder zodra deze is geslaagd.';
+  @override
+  String get db_cannot_open_title => 'Datalocatie niet beschikbaar';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi kon zijn database niet openen of aanmaken op de ingestelde datalocatie. Er is niets beschadigd — de map ontbreekt mogelijk, is alleen-lezen of staat op een losgekoppelde schijf. Controleer de datalocatie bij Instellingen, of herstart om de standaardlocatie te gebruiken.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Geen van je veldtoewijzingen past bij het geselecteerde notitietype, dus Anki heeft de kaart geweigerd. Open Anki-instellingen om de velden opnieuw toe te wijzen, of gebruik \'Lapis-deck maken\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'Het eerste veld van het geselecteerde notitietype is leeg, en Anki weigert zo\'n notitie. Wijs er een veld aan toe bij Anki-instellingen.';
+  @override
+  String get storage_category_cache => 'Caches en tijdelijke bestanden';
+  @override
+  String get storage_category_other => 'Overig, niet ingedeeld';
+  @override
+  String get collection_export_pick_source => 'Kies een bron';
+  @override
+  String get collection_export_all_sources => 'Alle bronnen';
+  @override
+  String get video_subtitle_list_search => 'Ondertitels doorzoeken';
+  @override
+  String get video_subtitle_list_search_hint => 'Typ om regels te filteren';
+  @override
+  String get video_subtitle_list_search_empty => 'Geen overeenkomende regel';
+  @override
+  String get video_subtitle_list_export_favorites =>
+      'Favoriete regels exporteren';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Ondertitellijst doorzoeken';
+  @override
+  String get game_hook_code_paste_title => 'Hook-code plakken';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Plak de ruwe code, bijv. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'De code wordt gekoppeld aan het uitvoerbare bestand van het draaiende spel, zodat Fushi hem de volgende keer opnieuw kan gebruiken.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook-code opgeslagen voor dit spel';
+  @override
+  String get game_hook_code_paste_invalid => 'Dit lijkt geen hook-code te zijn';
+  @override
+  String get game_hook_code_label => 'Label (optioneel)';
+  @override
+  String get discovery_game_type_all => 'Alle';
+  @override
+  String get discovery_game_type_raw => 'Onvertaald';
+  @override
+  String get discovery_game_type_translated => 'Vertaald';
+  @override
+  String get discovery_game_type_mobile => 'Mobiel';
+  @override
+  String get discovery_game_type_unlabelled => 'Zonder label';
+  @override
+  String get game_library_downloading => 'Downloaden';
+  @override
+  String get game_library_download_queued => 'In wachtrij';
+  @override
+  String get game_library_download_retrying => 'Opnieuw proberen';
 }
 
 // Path: <root>
@@ -94629,6 +95212,67 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Conclua a verificação do Cloudflare abaixo. O carregamento continua automaticamente após a aprovação.';
+  @override
+  String get db_cannot_open_title => 'Local de dados indisponível';
+  @override
+  String get db_cannot_open_message =>
+      'O Fushi não conseguiu abrir nem criar seu banco de dados no local de dados configurado. Nada está corrompido — a pasta pode estar faltando, ser somente leitura ou estar em um drive desconectado. Verifique o local de dados em Configurações, ou reinicie para usar o local padrão.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Nenhum dos seus mapeamentos de campos corresponde ao tipo de nota selecionado, então o Anki recusou o cartão. Abra Configurações do Anki para remapear os campos, ou use \'Criar baralho Lapis\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'O primeiro campo do tipo de nota selecionado está vazio, e o Anki recusa uma nota assim. Mapeie um campo para ele em Configurações do Anki.';
+  @override
+  String get storage_category_cache => 'Caches e arquivos temporários';
+  @override
+  String get storage_category_other => 'Outros não classificados';
+  @override
+  String get collection_export_pick_source => 'Selecionar uma fonte';
+  @override
+  String get collection_export_all_sources => 'Todas as fontes';
+  @override
+  String get video_subtitle_list_search => 'Buscar legendas';
+  @override
+  String get video_subtitle_list_search_hint => 'Digite para filtrar as linhas';
+  @override
+  String get video_subtitle_list_search_empty => 'Nenhuma linha corresponde';
+  @override
+  String get video_subtitle_list_export_favorites =>
+      'Exportar linhas favoritadas';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Buscar na lista de legendas';
+  @override
+  String get game_hook_code_paste_title => 'Colar um hook code';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Cole o código bruto, ex.: /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'O código fica vinculado ao executável do jogo em execução, para que o Fushi possa reutilizá-lo na próxima vez.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook code salvo para este jogo';
+  @override
+  String get game_hook_code_paste_invalid => 'Isso não parece um hook code';
+  @override
+  String get game_hook_code_label => 'Rótulo (opcional)';
+  @override
+  String get discovery_game_type_all => 'Todos';
+  @override
+  String get discovery_game_type_raw => 'Sem tradução';
+  @override
+  String get discovery_game_type_translated => 'Traduzidos';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Sem rótulo';
+  @override
+  String get game_library_downloading => 'Baixando';
+  @override
+  String get game_library_download_queued => 'Na fila';
+  @override
+  String get game_library_download_retrying => 'Tentando novamente';
 }
 
 // Path: <root>
@@ -103679,6 +104323,68 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Пройдите проверку Cloudflare ниже. После её прохождения загрузка продолжится автоматически.';
+  @override
+  String get db_cannot_open_title => 'Расположение данных недоступно';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi не смог открыть или создать базу данных в указанном расположении данных. Ничего не повреждено — папки может не быть, она может быть доступна только для чтения или находиться на отключённом диске. Проверьте расположение данных в Настройках или перезапустите приложение, чтобы использовать расположение по умолчанию.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Ни одно из ваших сопоставлений полей не подходит к выбранному типу заметки, поэтому Anki отклонил карточку. Откройте Настройки Anki и сопоставьте поля заново или воспользуйтесь «Создать колоду Lapis».';
+  @override
+  String get anki_error_first_field_empty =>
+      'Первое поле выбранного типа заметки пусто, а такую заметку Anki не принимает. Сопоставьте ему поле в Настройках Anki.';
+  @override
+  String get storage_category_cache => 'Кэш и временные файлы';
+  @override
+  String get storage_category_other => 'Прочее без категории';
+  @override
+  String get collection_export_pick_source => 'Выберите источник';
+  @override
+  String get collection_export_all_sources => 'Все источники';
+  @override
+  String get video_subtitle_list_search => 'Поиск по субтитрам';
+  @override
+  String get video_subtitle_list_search_hint =>
+      'Введите текст, чтобы отфильтровать строки';
+  @override
+  String get video_subtitle_list_search_empty => 'Нет подходящих строк';
+  @override
+  String get video_subtitle_list_export_favorites =>
+      'Экспортировать избранные строки';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Поиск по списку субтитров';
+  @override
+  String get game_hook_code_paste_title => 'Вставить hook-код';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Вставьте код как есть, например /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'Код привязывается к исполняемому файлу запущенной игры, поэтому Fushi сможет использовать его в следующий раз.';
+  @override
+  String get game_hook_code_paste_saved => 'Hook-код сохранён для этой игры';
+  @override
+  String get game_hook_code_paste_invalid => 'Это не похоже на hook-код';
+  @override
+  String get game_hook_code_label => 'Метка (необязательно)';
+  @override
+  String get discovery_game_type_all => 'Все';
+  @override
+  String get discovery_game_type_raw => 'Без перевода';
+  @override
+  String get discovery_game_type_translated => 'С переводом';
+  @override
+  String get discovery_game_type_mobile => 'Мобильные';
+  @override
+  String get discovery_game_type_unlabelled => 'Без метки';
+  @override
+  String get game_library_downloading => 'Загрузка';
+  @override
+  String get game_library_download_queued => 'В очереди';
+  @override
+  String get game_library_download_retrying => 'Повторная попытка';
 }
 
 // Path: <root>
@@ -112546,6 +113252,66 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'ทำการยืนยัน Cloudflare ด้านล่างให้เสร็จ เมื่อผ่านแล้วระบบจะโหลดต่อโดยอัตโนมัติ';
+  @override
+  String get db_cannot_open_title => 'ตำแหน่งข้อมูลไม่พร้อมใช้งาน';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi ไม่สามารถเปิดหรือสร้างฐานข้อมูลที่ตำแหน่งข้อมูลที่ตั้งค่าไว้ ข้อมูลไม่ได้เสียหาย — โฟลเดอร์อาจหายไป เป็นแบบอ่านอย่างเดียว หรืออยู่ในไดรฟ์ที่ถูกตัดการเชื่อมต่อ โปรดตรวจสอบตำแหน่งข้อมูลใน ตั้งค่า หรือรีสตาร์ทเพื่อใช้ตำแหน่งเริ่มต้น';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'ไม่มีการจับคู่ฟิลด์ใดตรงกับประเภทโน้ตที่เลือก Anki จึงปฏิเสธบัตรนี้ เปิด ตั้งค่า Anki เพื่อจับคู่ฟิลด์ใหม่ หรือใช้ \'สร้างเด็ค Lapis\'';
+  @override
+  String get anki_error_first_field_empty =>
+      'ฟิลด์แรกของประเภทโน้ตที่เลือกว่างอยู่ และ Anki ไม่รับโน้ตแบบนั้น โปรดจับคู่ฟิลด์ให้มันใน ตั้งค่า Anki';
+  @override
+  String get storage_category_cache => 'แคชและไฟล์ชั่วคราว';
+  @override
+  String get storage_category_other => 'อื่น ๆ ที่ไม่ได้จัดหมวด';
+  @override
+  String get collection_export_pick_source => 'เลือกแหล่ง';
+  @override
+  String get collection_export_all_sources => 'แหล่งทั้งหมด';
+  @override
+  String get video_subtitle_list_search => 'ค้นหาคำบรรยาย';
+  @override
+  String get video_subtitle_list_search_hint => 'พิมพ์เพื่อกรองบรรทัด';
+  @override
+  String get video_subtitle_list_search_empty => 'ไม่มีบรรทัดที่ตรงกัน';
+  @override
+  String get video_subtitle_list_export_favorites => 'ส่งออกบรรทัดที่ชื่นชอบ';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'ค้นหาในรายการคำบรรยาย';
+  @override
+  String get game_hook_code_paste_title => 'วางฮุกโค้ด';
+  @override
+  String get game_hook_code_paste_hint =>
+      'วางโค้ดดิบ เช่น /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'โค้ดจะผูกกับไฟล์เรียกใช้งานของเกมที่กำลังเปิดอยู่ Fushi จึงนำกลับมาใช้ได้ในครั้งถัดไป';
+  @override
+  String get game_hook_code_paste_saved => 'บันทึกฮุกโค้ดสำหรับเกมนี้แล้ว';
+  @override
+  String get game_hook_code_paste_invalid => 'ดูเหมือนจะไม่ใช่ฮุกโค้ด';
+  @override
+  String get game_hook_code_label => 'ป้ายกำกับ (ไม่บังคับ)';
+  @override
+  String get discovery_game_type_all => 'ทั้งหมด';
+  @override
+  String get discovery_game_type_raw => 'ยังไม่แปล';
+  @override
+  String get discovery_game_type_translated => 'แปลแล้ว';
+  @override
+  String get discovery_game_type_mobile => 'มือถือ';
+  @override
+  String get discovery_game_type_unlabelled => 'ไม่ได้ระบุ';
+  @override
+  String get game_library_downloading => 'กำลังดาวน์โหลด';
+  @override
+  String get game_library_download_queued => 'อยู่ในคิว';
+  @override
+  String get game_library_download_retrying => 'กำลังลองใหม่';
 }
 
 // Path: <root>
@@ -121517,6 +122283,67 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Aşağıdaki Cloudflare doğrulamasını tamamlayın. Doğrulama geçilince yükleme otomatik olarak sürer.';
+  @override
+  String get db_cannot_open_title => 'Veri konumu kullanılamıyor';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi, yapılandırılmış veri konumunda veritabanını açamadı veya oluşturamadı. Hiçbir şey bozulmadı — klasör eksik, salt okunur ya da bağlantısı kesilmiş bir sürücüde olabilir. Ayarlar bölümünden veri konumunu kontrol edin veya varsayılan konumu kullanmak için yeniden başlatın.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Alan eşlemelerinizin hiçbiri seçili not türüyle uyuşmuyor, bu yüzden Anki kartı reddetti. Alanları yeniden eşlemek için Anki ayarları\'nı açın veya \'Lapis destesi oluştur\' seçeneğini kullanın.';
+  @override
+  String get anki_error_first_field_empty =>
+      'Seçili not türünün ilk alanı boş ve Anki böyle bir notu kabul etmiyor. Anki ayarları\'ndan buna bir alan eşleyin.';
+  @override
+  String get storage_category_cache => 'Önbellekler ve geçici dosyalar';
+  @override
+  String get storage_category_other => 'Diğer, sınıflandırılmamış';
+  @override
+  String get collection_export_pick_source => 'Bir kaynak seçin';
+  @override
+  String get collection_export_all_sources => 'Tüm kaynaklar';
+  @override
+  String get video_subtitle_list_search => 'Altyazılarda ara';
+  @override
+  String get video_subtitle_list_search_hint => 'Satırları süzmek için yazın';
+  @override
+  String get video_subtitle_list_search_empty => 'Eşleşen satır yok';
+  @override
+  String get video_subtitle_list_export_favorites =>
+      'Favori satırları dışa aktar';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Altyazı listesinde ara';
+  @override
+  String get game_hook_code_paste_title => 'Hook kodu yapıştır';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Ham kodu yapıştırın, ör. /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'Kod, çalışmakta olan oyunun yürütülebilir dosyasına bağlanır; böylece Fushi bir dahaki sefere yeniden kullanabilir.';
+  @override
+  String get game_hook_code_paste_saved => 'Bu oyun için hook kodu kaydedildi';
+  @override
+  String get game_hook_code_paste_invalid => 'Bu bir hook koduna benzemiyor';
+  @override
+  String get game_hook_code_label => 'Etiket (isteğe bağlı)';
+  @override
+  String get discovery_game_type_all => 'Tümü';
+  @override
+  String get discovery_game_type_raw => 'Çevrilmemiş';
+  @override
+  String get discovery_game_type_translated => 'Çevrilmiş';
+  @override
+  String get discovery_game_type_mobile => 'Mobil';
+  @override
+  String get discovery_game_type_unlabelled => 'Etiketsiz';
+  @override
+  String get game_library_downloading => 'İndiriliyor';
+  @override
+  String get game_library_download_queued => 'Sırada';
+  @override
+  String get game_library_download_retrying => 'Yeniden deneniyor';
 }
 
 // Path: <root>
@@ -130472,6 +131299,66 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       'Hoàn tất kiểm tra Cloudflare bên dưới. Quá trình tải sẽ tự động tiếp tục sau khi vượt qua.';
+  @override
+  String get db_cannot_open_title => 'Vị trí dữ liệu không khả dụng';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi không thể mở hoặc tạo cơ sở dữ liệu tại vị trí dữ liệu đã cấu hình. Không có gì bị hỏng — thư mục có thể bị thiếu, chỉ đọc, hoặc nằm trên ổ đĩa đã ngắt kết nối. Hãy kiểm tra vị trí dữ liệu trong Cài đặt, hoặc khởi động lại để dùng vị trí mặc định.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'Không có ánh xạ trường nào của bạn khớp với loại ghi chú đã chọn, nên Anki đã từ chối thẻ này. Hãy mở Cài đặt Anki để ánh xạ lại các trường, hoặc dùng \'Tạo bộ thẻ Lapis\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'Trường đầu tiên của loại ghi chú đã chọn đang trống, và Anki không nhận ghi chú như vậy. Hãy ánh xạ một trường vào đó trong Cài đặt Anki.';
+  @override
+  String get storage_category_cache => 'Bộ nhớ đệm và tệp tạm';
+  @override
+  String get storage_category_other => 'Khác, chưa phân loại';
+  @override
+  String get collection_export_pick_source => 'Chọn nguồn';
+  @override
+  String get collection_export_all_sources => 'Tất cả nguồn';
+  @override
+  String get video_subtitle_list_search => 'Tìm trong phụ đề';
+  @override
+  String get video_subtitle_list_search_hint => 'Nhập để lọc các dòng';
+  @override
+  String get video_subtitle_list_search_empty => 'Không có dòng nào khớp';
+  @override
+  String get video_subtitle_list_export_favorites => 'Xuất các dòng yêu thích';
+  @override
+  String get shortcut_action_video_search_subtitle_list =>
+      'Tìm trong danh sách phụ đề';
+  @override
+  String get game_hook_code_paste_title => 'Dán mã hook';
+  @override
+  String get game_hook_code_paste_hint =>
+      'Dán mã gốc, ví dụ /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body =>
+      'Mã được gắn với tệp thực thi của trò chơi đang chạy, nên Fushi có thể dùng lại vào lần sau.';
+  @override
+  String get game_hook_code_paste_saved => 'Đã lưu mã hook cho trò chơi này';
+  @override
+  String get game_hook_code_paste_invalid => 'Đây không giống một mã hook';
+  @override
+  String get game_hook_code_label => 'Nhãn (tùy chọn)';
+  @override
+  String get discovery_game_type_all => 'Tất cả';
+  @override
+  String get discovery_game_type_raw => 'Chưa dịch';
+  @override
+  String get discovery_game_type_translated => 'Đã dịch';
+  @override
+  String get discovery_game_type_mobile => 'Di động';
+  @override
+  String get discovery_game_type_unlabelled => 'Chưa gắn nhãn';
+  @override
+  String get game_library_downloading => 'Đang tải xuống';
+  @override
+  String get game_library_download_queued => 'Đang chờ';
+  @override
+  String get game_library_download_retrying => 'Đang thử lại';
 }
 
 // Path: <root>
@@ -138707,6 +139594,63 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       '在下方完成 Cloudflare 验证，通过后会自动继续加载。';
+  @override
+  String get db_cannot_open_title => '数据位置不可用';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi 无法在配置的数据位置打开或创建数据库。数据没有损坏——该文件夹可能不存在、只读，或位于已断开的磁盘上。请在设置中检查数据位置，或重启以使用默认位置。';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      '当前的字段映射没有一个属于所选的笔记类型，Anki 因此拒收了这张卡。请在 Anki 设置里重新映射字段，或使用「一键创建 Lapis 卡组」。';
+  @override
+  String get anki_error_first_field_empty =>
+      '所选笔记类型的第一个字段为空，Anki 不接受这样的卡片。请在 Anki 设置里给它映射一个字段。';
+  @override
+  String get storage_category_cache => '缓存与临时文件';
+  @override
+  String get storage_category_other => '其他未归类';
+  @override
+  String get collection_export_pick_source => '选择来源';
+  @override
+  String get collection_export_all_sources => '全部来源';
+  @override
+  String get video_subtitle_list_search => '搜索字幕';
+  @override
+  String get video_subtitle_list_search_hint => '输入以筛选台词';
+  @override
+  String get video_subtitle_list_search_empty => '没有匹配的台词';
+  @override
+  String get video_subtitle_list_export_favorites => '导出收藏语句';
+  @override
+  String get shortcut_action_video_search_subtitle_list => '搜索字幕列表';
+  @override
+  String get game_hook_code_paste_title => '粘贴特殊码';
+  @override
+  String get game_hook_code_paste_hint => '粘贴原始特殊码，例如 /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body => '特殊码会绑定到当前运行游戏的可执行文件，下次自动复用。';
+  @override
+  String get game_hook_code_paste_saved => '特殊码已保存到当前游戏';
+  @override
+  String get game_hook_code_paste_invalid => '这看起来不是一条特殊码';
+  @override
+  String get game_hook_code_label => '备注（可选）';
+  @override
+  String get discovery_game_type_all => '全部';
+  @override
+  String get discovery_game_type_raw => '生肉';
+  @override
+  String get discovery_game_type_translated => '熟肉';
+  @override
+  String get discovery_game_type_mobile => '手机';
+  @override
+  String get discovery_game_type_unlabelled => '未标注';
+  @override
+  String get game_library_downloading => '下载中';
+  @override
+  String get game_library_download_queued => '排队中';
+  @override
+  String get game_library_download_retrying => '重试中';
 }
 
 // Path: <root>
@@ -146949,6 +147893,63 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_source_cloudflare_verify_hint =>
       '請在下方完成 Cloudflare 驗證，通過後會自動繼續載入。';
+  @override
+  String get db_cannot_open_title => '數據位置不可用';
+  @override
+  String get db_cannot_open_message =>
+      'Fushi 無法在設定的數據位置開啟或建立資料庫。數據沒有損壞——該資料夾可能不存在、只讀，或位於已斷開的磁碟上。請在「設定」中檢查數據位置，或重新啟動以使用預設位置。';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      '目前的字段映射沒有一個屬於所選的筆記類型，Anki 因此拒收了這張卡。請在「Anki 設定」裡重新映射字段，或使用「建立 Lapis 卡組」。';
+  @override
+  String get anki_error_first_field_empty =>
+      '所選筆記類型的第一個字段為空，Anki 不接受這樣的卡片。請在「Anki 設定」裡給它映射一個字段。';
+  @override
+  String get storage_category_cache => '快取與暫存檔案';
+  @override
+  String get storage_category_other => '其他未分類';
+  @override
+  String get collection_export_pick_source => '選擇來源';
+  @override
+  String get collection_export_all_sources => '全部來源';
+  @override
+  String get video_subtitle_list_search => '搜索字幕';
+  @override
+  String get video_subtitle_list_search_hint => '輸入以篩選台詞';
+  @override
+  String get video_subtitle_list_search_empty => '沒有匹配的台詞';
+  @override
+  String get video_subtitle_list_export_favorites => '導出收藏語句';
+  @override
+  String get shortcut_action_video_search_subtitle_list => '搜索字幕列表';
+  @override
+  String get game_hook_code_paste_title => '貼上特殊碼';
+  @override
+  String get game_hook_code_paste_hint => '貼上原始特殊碼，例如 /HQN4@4CE90:game.exe';
+  @override
+  String get game_hook_code_paste_body => '特殊碼會綁定到目前執行遊戲的可執行檔，下次自動重用。';
+  @override
+  String get game_hook_code_paste_saved => '特殊碼已儲存到目前遊戲';
+  @override
+  String get game_hook_code_paste_invalid => '這看起來不是一條特殊碼';
+  @override
+  String get game_hook_code_label => '備註（可選）';
+  @override
+  String get discovery_game_type_all => '全部';
+  @override
+  String get discovery_game_type_raw => '生肉';
+  @override
+  String get discovery_game_type_translated => '熟肉';
+  @override
+  String get discovery_game_type_mobile => '手機';
+  @override
+  String get discovery_game_type_unlabelled => '未標註';
+  @override
+  String get game_library_downloading => '下載中';
+  @override
+  String get game_library_download_queued => '排隊中';
+  @override
+  String get game_library_download_retrying => '重試中';
 }
 
 /// Flat map(s) containing all translations.
@@ -154807,6 +155808,60 @@ extension on _StringsEn {
         return 'Site verification';
       case 'manga_source_cloudflare_verify_hint':
         return 'Complete the Cloudflare check below. Loading resumes automatically once it passes.';
+      case 'db_cannot_open_title':
+        return 'Data location unavailable';
+      case 'db_cannot_open_message':
+        return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
+      case 'storage_category_cache':
+        return 'Caches and temporary files';
+      case 'storage_category_other':
+        return 'Other uncategorised';
+      case 'collection_export_pick_source':
+        return 'Select a source';
+      case 'collection_export_all_sources':
+        return 'All sources';
+      case 'video_subtitle_list_search':
+        return 'Search subtitles';
+      case 'video_subtitle_list_search_hint':
+        return 'Type to filter lines';
+      case 'video_subtitle_list_search_empty':
+        return 'No line matches';
+      case 'video_subtitle_list_export_favorites':
+        return 'Export favorited lines';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Search subtitle list';
+      case 'game_hook_code_paste_title':
+        return 'Paste a hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Paste the raw code, e.g. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'The code is bound to the currently running game\'s executable, so Fushi can reuse it next time.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code saved for this game';
+      case 'game_hook_code_paste_invalid':
+        return 'That does not look like a hook code';
+      case 'game_hook_code_label':
+        return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
+      case 'game_library_downloading':
+        return 'Downloading';
+      case 'game_library_download_queued':
+        return 'Queued';
+      case 'game_library_download_retrying':
+        return 'Retrying';
       default:
         return null;
     }
@@ -162661,6 +163716,60 @@ extension on _StringsAr {
         return 'التحقق من الموقع';
       case 'manga_source_cloudflare_verify_hint':
         return 'أكمل فحص Cloudflare أدناه. سيستأنف التحميل تلقائيًا بعد اجتيازه.';
+      case 'db_cannot_open_title':
+        return 'موقع البيانات غير متاح';
+      case 'db_cannot_open_message':
+        return 'تعذّر على Fushi فتح أو إنشاء قاعدة بياناته في موقع البيانات المُعدّ. لا يوجد أي تلف — قد يكون المجلد مفقوداً أو للقراءة فقط أو على قرص غير متصل. تحقّق من موقع البيانات في الإعدادات، أو أعد التشغيل لاستخدام الموقع الافتراضي.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'لا يطابق أي من تعيينات الحقول لديك نوع الملاحظة المحدد، لذلك رفض Anki البطاقة. افتح إعدادات Anki لإعادة تعيين الحقول، أو استخدم \'إنشاء مجموعة Lapis\'.';
+      case 'anki_error_first_field_empty':
+        return 'الحقل الأول من نوع الملاحظة المحدد فارغ، وAnki يرفض ملاحظة كهذه. عيّن له حقلاً في إعدادات Anki.';
+      case 'storage_category_cache':
+        return 'ذاكرة التخزين المؤقت والملفات المؤقتة';
+      case 'storage_category_other':
+        return 'أخرى غير مصنّفة';
+      case 'collection_export_pick_source':
+        return 'اختر مصدراً';
+      case 'collection_export_all_sources':
+        return 'جميع المصادر';
+      case 'video_subtitle_list_search':
+        return 'البحث في الترجمات';
+      case 'video_subtitle_list_search_hint':
+        return 'اكتب لتصفية السطور';
+      case 'video_subtitle_list_search_empty':
+        return 'لا يوجد سطر مطابق';
+      case 'video_subtitle_list_export_favorites':
+        return 'تصدير السطور المفضلة';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'البحث في قائمة الترجمة';
+      case 'game_hook_code_paste_title':
+        return 'لصق رمز hook';
+      case 'game_hook_code_paste_hint':
+        return 'الصق الرمز الخام، مثل /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'يُربط الرمز بالملف التنفيذي للعبة قيد التشغيل حالياً، ليتمكن Fushi من إعادة استخدامه في المرة القادمة.';
+      case 'game_hook_code_paste_saved':
+        return 'تم حفظ رمز hook لهذه اللعبة';
+      case 'game_hook_code_paste_invalid':
+        return 'هذا لا يبدو رمز hook';
+      case 'game_hook_code_label':
+        return 'تسمية (اختياري)';
+      case 'discovery_game_type_all':
+        return 'الكل';
+      case 'discovery_game_type_raw':
+        return 'غير مترجمة';
+      case 'discovery_game_type_translated':
+        return 'مترجمة';
+      case 'discovery_game_type_mobile':
+        return 'جوّال';
+      case 'discovery_game_type_unlabelled':
+        return 'غير مصنّفة';
+      case 'game_library_downloading':
+        return 'جارٍ التحميل';
+      case 'game_library_download_queued':
+        return 'في قائمة الانتظار';
+      case 'game_library_download_retrying':
+        return 'جارٍ إعادة المحاولة';
       default:
         return null;
     }
@@ -170558,6 +171667,60 @@ extension on _StringsDe {
         return 'Website-Überprüfung';
       case 'manga_source_cloudflare_verify_hint':
         return 'Schließe die Cloudflare-Prüfung unten ab. Der Ladevorgang wird nach dem Bestehen automatisch fortgesetzt.';
+      case 'db_cannot_open_title':
+        return 'Datenspeicherort nicht verfügbar';
+      case 'db_cannot_open_message':
+        return 'Fushi konnte seine Datenbank am konfigurierten Datenspeicherort nicht öffnen oder anlegen. Nichts ist beschädigt – der Ordner fehlt möglicherweise, ist schreibgeschützt oder liegt auf einem getrennten Laufwerk. Prüfe den Datenspeicherort unter Einstellungen oder starte neu, um den Standardspeicherort zu verwenden.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Keine deiner Feldzuordnungen passt zum ausgewählten Notiztyp, deshalb hat Anki die Karte abgelehnt. Öffne die Anki-Einstellungen, um die Felder neu zuzuordnen, oder verwende „Lapis-Stapel erstellen“.';
+      case 'anki_error_first_field_empty':
+        return 'Das erste Feld des ausgewählten Notiztyps ist leer, und Anki lehnt eine solche Notiz ab. Ordne ihm in den Anki-Einstellungen ein Feld zu.';
+      case 'storage_category_cache':
+        return 'Zwischenspeicher und temporäre Dateien';
+      case 'storage_category_other':
+        return 'Sonstiges, nicht zugeordnet';
+      case 'collection_export_pick_source':
+        return 'Quelle auswählen';
+      case 'collection_export_all_sources':
+        return 'Alle Quellen';
+      case 'video_subtitle_list_search':
+        return 'Untertitel durchsuchen';
+      case 'video_subtitle_list_search_hint':
+        return 'Tippen, um Zeilen zu filtern';
+      case 'video_subtitle_list_search_empty':
+        return 'Keine passende Zeile';
+      case 'video_subtitle_list_export_favorites':
+        return 'Favorisierte Zeilen exportieren';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Untertitelliste durchsuchen';
+      case 'game_hook_code_paste_title':
+        return 'Hook-Code einfügen';
+      case 'game_hook_code_paste_hint':
+        return 'Füge den rohen Code ein, z. B. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'Der Code wird an die ausführbare Datei des laufenden Spiels gebunden, damit Fushi ihn beim nächsten Mal wiederverwenden kann.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook-Code für dieses Spiel gespeichert';
+      case 'game_hook_code_paste_invalid':
+        return 'Das sieht nicht nach einem Hook-Code aus';
+      case 'game_hook_code_label':
+        return 'Bezeichnung (optional)';
+      case 'discovery_game_type_all':
+        return 'Alle';
+      case 'discovery_game_type_raw':
+        return 'Unübersetzt';
+      case 'discovery_game_type_translated':
+        return 'Übersetzt';
+      case 'discovery_game_type_mobile':
+        return 'Mobil';
+      case 'discovery_game_type_unlabelled':
+        return 'Ohne Kennzeichnung';
+      case 'game_library_downloading':
+        return 'Wird heruntergeladen';
+      case 'game_library_download_queued':
+        return 'In Warteschlange';
+      case 'game_library_download_retrying':
+        return 'Erneuter Versuch';
       default:
         return null;
     }
@@ -178447,6 +179610,60 @@ extension on _StringsEs {
         return 'Verificación del sitio';
       case 'manga_source_cloudflare_verify_hint':
         return 'Completa la verificación de Cloudflare a continuación. La carga se reanudará automáticamente al superarla.';
+      case 'db_cannot_open_title':
+        return 'Ubicación de datos no disponible';
+      case 'db_cannot_open_message':
+        return 'Fushi no pudo abrir ni crear su base de datos en la ubicación de datos configurada. Nada está dañado: puede que la carpeta no exista, sea de solo lectura o esté en una unidad desconectada. Revise la ubicación de datos en Configuración, o reinicie para usar la ubicación predeterminada.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Ninguno de sus mapeos de campos coincide con el tipo de nota seleccionado, por lo que Anki rechazó la tarjeta. Abra Configuración de Anki para volver a mapear los campos, o use \'Crear mazo Lapis\'.';
+      case 'anki_error_first_field_empty':
+        return 'El primer campo del tipo de nota seleccionado está vacío y Anki no acepta una nota así. Mapee un campo a él en Configuración de Anki.';
+      case 'storage_category_cache':
+        return 'Cachés y archivos temporales';
+      case 'storage_category_other':
+        return 'Otros sin clasificar';
+      case 'collection_export_pick_source':
+        return 'Seleccionar una fuente';
+      case 'collection_export_all_sources':
+        return 'Todas las fuentes';
+      case 'video_subtitle_list_search':
+        return 'Buscar subtítulos';
+      case 'video_subtitle_list_search_hint':
+        return 'Escriba para filtrar líneas';
+      case 'video_subtitle_list_search_empty':
+        return 'Ninguna línea coincide';
+      case 'video_subtitle_list_export_favorites':
+        return 'Exportar líneas favoritas';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Buscar en la lista de subtítulos';
+      case 'game_hook_code_paste_title':
+        return 'Pegar un código de hook';
+      case 'game_hook_code_paste_hint':
+        return 'Pegue el código sin procesar, p. ej. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'El código queda vinculado al ejecutable del juego en ejecución, para que Fushi pueda reutilizarlo la próxima vez.';
+      case 'game_hook_code_paste_saved':
+        return 'Código de hook guardado para este juego';
+      case 'game_hook_code_paste_invalid':
+        return 'Esto no parece un código de hook';
+      case 'game_hook_code_label':
+        return 'Etiqueta (opcional)';
+      case 'discovery_game_type_all':
+        return 'Todos';
+      case 'discovery_game_type_raw':
+        return 'Sin traducir';
+      case 'discovery_game_type_translated':
+        return 'Traducidos';
+      case 'discovery_game_type_mobile':
+        return 'Móvil';
+      case 'discovery_game_type_unlabelled':
+        return 'Sin etiquetar';
+      case 'game_library_downloading':
+        return 'Descargando';
+      case 'game_library_download_queued':
+        return 'En cola';
+      case 'game_library_download_retrying':
+        return 'Reintentando';
       default:
         return null;
     }
@@ -186344,6 +187561,60 @@ extension on _StringsFr {
         return 'Vérification du site';
       case 'manga_source_cloudflare_verify_hint':
         return 'Effectuez la vérification Cloudflare ci-dessous. Le chargement reprend automatiquement une fois validée.';
+      case 'db_cannot_open_title':
+        return 'Emplacement des données indisponible';
+      case 'db_cannot_open_message':
+        return 'Fushi n\'a pas pu ouvrir ni créer sa base de données à l\'emplacement des données configuré. Rien n\'est corrompu : le dossier est peut-être absent, en lecture seule, ou sur un disque déconnecté. Vérifiez l\'emplacement des données dans Paramètres, ou redémarrez pour utiliser l\'emplacement par défaut.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Aucune de vos correspondances des champs ne correspond au type de note sélectionné ; Anki a donc refusé la carte. Ouvrez Paramètres Anki pour remapper les champs, ou utilisez « Créer un paquet Lapis ».';
+      case 'anki_error_first_field_empty':
+        return 'Le premier champ du type de note sélectionné est vide, et Anki refuse une telle note. Associez-lui un champ dans Paramètres Anki.';
+      case 'storage_category_cache':
+        return 'Caches et fichiers temporaires';
+      case 'storage_category_other':
+        return 'Autres non classés';
+      case 'collection_export_pick_source':
+        return 'Choisir une source';
+      case 'collection_export_all_sources':
+        return 'Toutes les sources';
+      case 'video_subtitle_list_search':
+        return 'Rechercher dans les sous-titres';
+      case 'video_subtitle_list_search_hint':
+        return 'Saisissez du texte pour filtrer les lignes';
+      case 'video_subtitle_list_search_empty':
+        return 'Aucune ligne correspondante';
+      case 'video_subtitle_list_export_favorites':
+        return 'Exporter les lignes favorites';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Rechercher dans la liste des sous-titres';
+      case 'game_hook_code_paste_title':
+        return 'Coller un code de hook';
+      case 'game_hook_code_paste_hint':
+        return 'Collez le code brut, p. ex. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'Le code est lié à l\'exécutable du jeu en cours d\'exécution, afin que Fushi puisse le réutiliser la prochaine fois.';
+      case 'game_hook_code_paste_saved':
+        return 'Code de hook enregistré pour ce jeu';
+      case 'game_hook_code_paste_invalid':
+        return 'Cela ne ressemble pas à un code de hook';
+      case 'game_hook_code_label':
+        return 'Libellé (facultatif)';
+      case 'discovery_game_type_all':
+        return 'Tous';
+      case 'discovery_game_type_raw':
+        return 'Non traduits';
+      case 'discovery_game_type_translated':
+        return 'Traduits';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Non étiquetés';
+      case 'game_library_downloading':
+        return 'Téléchargement';
+      case 'game_library_download_queued':
+        return 'En file d\'attente';
+      case 'game_library_download_retrying':
+        return 'Nouvelle tentative';
       default:
         return null;
     }
@@ -194213,6 +195484,60 @@ extension on _StringsId {
         return 'Verifikasi situs';
       case 'manga_source_cloudflare_verify_hint':
         return 'Selesaikan pemeriksaan Cloudflare di bawah ini. Pemuatan akan dilanjutkan otomatis setelah lolos.';
+      case 'db_cannot_open_title':
+        return 'Lokasi data tidak tersedia';
+      case 'db_cannot_open_message':
+        return 'Fushi tidak dapat membuka atau membuat basis datanya di lokasi data yang dikonfigurasi. Tidak ada yang rusak — folder mungkin hilang, hanya-baca, atau berada di drive yang terputus. Periksa lokasi data di Pengaturan, atau mulai ulang untuk memakai lokasi default.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Tidak ada pemetaan bidang Anda yang cocok dengan tipe catatan yang dipilih, sehingga Anki menolak kartu ini. Buka Pengaturan Anki untuk memetakan ulang bidang, atau gunakan \'Buat dek Lapis\'.';
+      case 'anki_error_first_field_empty':
+        return 'Bidang pertama dari tipe catatan yang dipilih kosong, dan Anki menolak catatan seperti itu. Petakan sebuah bidang ke sana di Pengaturan Anki.';
+      case 'storage_category_cache':
+        return 'Cache dan file sementara';
+      case 'storage_category_other':
+        return 'Lainnya tanpa kategori';
+      case 'collection_export_pick_source':
+        return 'Pilih sumber';
+      case 'collection_export_all_sources':
+        return 'Semua sumber';
+      case 'video_subtitle_list_search':
+        return 'Cari subtitle';
+      case 'video_subtitle_list_search_hint':
+        return 'Ketik untuk menyaring baris';
+      case 'video_subtitle_list_search_empty':
+        return 'Tidak ada baris yang cocok';
+      case 'video_subtitle_list_export_favorites':
+        return 'Ekspor baris favorit';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Cari di daftar subtitle';
+      case 'game_hook_code_paste_title':
+        return 'Tempel kode hook';
+      case 'game_hook_code_paste_hint':
+        return 'Tempel kode mentahnya, mis. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'Kode ini terikat pada file eksekusi game yang sedang berjalan, sehingga Fushi dapat memakainya lagi lain kali.';
+      case 'game_hook_code_paste_saved':
+        return 'Kode hook disimpan untuk game ini';
+      case 'game_hook_code_paste_invalid':
+        return 'Ini sepertinya bukan kode hook';
+      case 'game_hook_code_label':
+        return 'Label (opsional)';
+      case 'discovery_game_type_all':
+        return 'Semua';
+      case 'discovery_game_type_raw':
+        return 'Belum diterjemahkan';
+      case 'discovery_game_type_translated':
+        return 'Sudah diterjemahkan';
+      case 'discovery_game_type_mobile':
+        return 'Seluler';
+      case 'discovery_game_type_unlabelled':
+        return 'Tanpa label';
+      case 'game_library_downloading':
+        return 'Mengunduh';
+      case 'game_library_download_queued':
+        return 'Diantrikan';
+      case 'game_library_download_retrying':
+        return 'Mencoba ulang';
       default:
         return null;
     }
@@ -202103,6 +203428,60 @@ extension on _StringsIt {
         return 'Verifica del sito';
       case 'manga_source_cloudflare_verify_hint':
         return 'Completa il controllo Cloudflare qui sotto. Il caricamento riprenderà automaticamente al superamento.';
+      case 'db_cannot_open_title':
+        return 'Posizione dati non disponibile';
+      case 'db_cannot_open_message':
+        return 'Fushi non è riuscito ad aprire o creare il proprio database nella posizione dati configurata. Nulla è danneggiato: la cartella potrebbe mancare, essere di sola lettura o trovarsi su un\'unità disconnessa. Controlla la posizione dati in Impostazioni, oppure riavvia per usare la posizione predefinita.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Nessuna delle tue mappature dei campi corrisponde al tipo di nota selezionato, perciò Anki ha rifiutato la carta. Apri Impostazioni Anki per rimappare i campi, oppure usa \'Crea mazzo Lapis\'.';
+      case 'anki_error_first_field_empty':
+        return 'Il primo campo del tipo di nota selezionato è vuoto e Anki rifiuta una nota di questo tipo. Mappagli un campo in Impostazioni Anki.';
+      case 'storage_category_cache':
+        return 'Cache e file temporanei';
+      case 'storage_category_other':
+        return 'Altro non classificato';
+      case 'collection_export_pick_source':
+        return 'Seleziona una fonte';
+      case 'collection_export_all_sources':
+        return 'Tutte le fonti';
+      case 'video_subtitle_list_search':
+        return 'Cerca nei sottotitoli';
+      case 'video_subtitle_list_search_hint':
+        return 'Digita per filtrare le righe';
+      case 'video_subtitle_list_search_empty':
+        return 'Nessuna riga corrispondente';
+      case 'video_subtitle_list_export_favorites':
+        return 'Esporta le righe preferite';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Cerca nell\'elenco sottotitoli';
+      case 'game_hook_code_paste_title':
+        return 'Incolla un hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Incolla il codice grezzo, ad es. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'Il codice viene associato all\'eseguibile del gioco attualmente in esecuzione, così Fushi potrà riutilizzarlo la prossima volta.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code salvato per questo gioco';
+      case 'game_hook_code_paste_invalid':
+        return 'Non sembra un hook code';
+      case 'game_hook_code_label':
+        return 'Etichetta (facoltativa)';
+      case 'discovery_game_type_all':
+        return 'Tutti';
+      case 'discovery_game_type_raw':
+        return 'Non tradotti';
+      case 'discovery_game_type_translated':
+        return 'Tradotti';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Senza etichetta';
+      case 'game_library_downloading':
+        return 'Download in corso';
+      case 'game_library_download_queued':
+        return 'In coda';
+      case 'game_library_download_retrying':
+        return 'Nuovo tentativo';
       default:
         return null;
     }
@@ -209926,6 +211305,60 @@ extension on _StringsJa {
         return 'サイト認証';
       case 'manga_source_cloudflare_verify_hint':
         return '下の Cloudflare 認証を完了してください。通過すると自動で読み込みを再開します。';
+      case 'db_cannot_open_title':
+        return 'データ保存場所を利用できません';
+      case 'db_cannot_open_message':
+        return 'Fushi は設定されたデータ保存場所でデータベースを開くことも作成することもできませんでした。データが壊れているわけではありません。フォルダーが存在しない、読み取り専用、または切断されたドライブ上にある可能性があります。設定でデータ保存場所を確認するか、再起動してデフォルトの場所を使用してください。';
+      case 'anki_error_field_mapping_mismatch':
+        return 'フィールドマッピングのいずれも選択中のノートタイプと一致しないため、Anki がカードを拒否しました。Anki 設定でフィールドをマッピングし直すか、「Lapis デッキを作成」をお使いください。';
+      case 'anki_error_first_field_empty':
+        return '選択中のノートタイプの最初のフィールドが空のため、Anki はこのノートを受け付けません。Anki 設定でフィールドを割り当ててください。';
+      case 'storage_category_cache':
+        return 'キャッシュと一時ファイル';
+      case 'storage_category_other':
+        return 'その他（未分類）';
+      case 'collection_export_pick_source':
+        return 'ソースを選択';
+      case 'collection_export_all_sources':
+        return 'すべてのソース';
+      case 'video_subtitle_list_search':
+        return '字幕を検索';
+      case 'video_subtitle_list_search_hint':
+        return '入力して行を絞り込み';
+      case 'video_subtitle_list_search_empty':
+        return '一致する行がありません';
+      case 'video_subtitle_list_export_favorites':
+        return 'お気に入りの行をエクスポート';
+      case 'shortcut_action_video_search_subtitle_list':
+        return '字幕リストを検索';
+      case 'game_hook_code_paste_title':
+        return 'フックコードを貼り付け';
+      case 'game_hook_code_paste_hint':
+        return '生のコードを貼り付けてください。例：/HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'コードは現在実行中のゲームの実行ファイルに紐付けられ、次回から自動的に再利用されます。';
+      case 'game_hook_code_paste_saved':
+        return 'このゲームのフックコードを保存しました';
+      case 'game_hook_code_paste_invalid':
+        return 'フックコードではないようです';
+      case 'game_hook_code_label':
+        return 'ラベル（任意）';
+      case 'discovery_game_type_all':
+        return 'すべて';
+      case 'discovery_game_type_raw':
+        return '未翻訳';
+      case 'discovery_game_type_translated':
+        return '翻訳済み';
+      case 'discovery_game_type_mobile':
+        return 'モバイル';
+      case 'discovery_game_type_unlabelled':
+        return '未分類';
+      case 'game_library_downloading':
+        return 'ダウンロード中';
+      case 'game_library_download_queued':
+        return '待機中';
+      case 'game_library_download_retrying':
+        return '再試行中';
       default:
         return null;
     }
@@ -217751,6 +219184,60 @@ extension on _StringsKo {
         return '사이트 확인';
       case 'manga_source_cloudflare_verify_hint':
         return '아래 Cloudflare 확인을 완료하세요. 통과하면 자동으로 불러오기를 계속합니다.';
+      case 'db_cannot_open_title':
+        return '데이터 위치를 사용할 수 없음';
+      case 'db_cannot_open_message':
+        return 'Fushi가 설정된 데이터 위치에서 데이터베이스를 열거나 만들지 못했습니다. 손상된 것은 없습니다 — 폴더가 없거나, 읽기 전용이거나, 연결이 끊긴 드라이브에 있을 수 있습니다. 설정에서 데이터 위치를 확인하거나, 다시 시작해 기본 위치를 사용하세요.';
+      case 'anki_error_field_mapping_mismatch':
+        return '필드 매핑 중 어느 것도 선택한 노트 유형과 맞지 않아 Anki가 카드를 거부했습니다. Anki 설정을 열어 필드를 다시 매핑하거나 \'Lapis 덱 만들기\'를 사용하세요.';
+      case 'anki_error_first_field_empty':
+        return '선택한 노트 유형의 첫 번째 필드가 비어 있어 Anki가 이런 노트를 받지 않습니다. Anki 설정에서 필드를 매핑하세요.';
+      case 'storage_category_cache':
+        return '캐시 및 임시 파일';
+      case 'storage_category_other':
+        return '기타 미분류';
+      case 'collection_export_pick_source':
+        return '소스 선택';
+      case 'collection_export_all_sources':
+        return '모든 소스';
+      case 'video_subtitle_list_search':
+        return '자막 검색';
+      case 'video_subtitle_list_search_hint':
+        return '입력해 자막 필터링';
+      case 'video_subtitle_list_search_empty':
+        return '일치하는 자막 없음';
+      case 'video_subtitle_list_export_favorites':
+        return '즐겨찾기한 자막 내보내기';
+      case 'shortcut_action_video_search_subtitle_list':
+        return '자막 목록 검색';
+      case 'game_hook_code_paste_title':
+        return '후크 코드 붙여넣기';
+      case 'game_hook_code_paste_hint':
+        return '원본 코드를 붙여넣으세요. 예: /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return '이 코드는 현재 실행 중인 게임의 실행 파일에 연결되어 다음에 자동으로 다시 사용됩니다.';
+      case 'game_hook_code_paste_saved':
+        return '이 게임의 후크 코드를 저장했습니다';
+      case 'game_hook_code_paste_invalid':
+        return '후크 코드로 보이지 않습니다';
+      case 'game_hook_code_label':
+        return '라벨(선택)';
+      case 'discovery_game_type_all':
+        return '전체';
+      case 'discovery_game_type_raw':
+        return '미번역';
+      case 'discovery_game_type_translated':
+        return '번역됨';
+      case 'discovery_game_type_mobile':
+        return '모바일';
+      case 'discovery_game_type_unlabelled':
+        return '미분류';
+      case 'game_library_downloading':
+        return '다운로드 중';
+      case 'game_library_download_queued':
+        return '대기 중';
+      case 'game_library_download_retrying':
+        return '재시도 중';
       default:
         return null;
     }
@@ -225635,6 +227122,60 @@ extension on _StringsNl {
         return 'Siteverificatie';
       case 'manga_source_cloudflare_verify_hint':
         return 'Voltooi de Cloudflare-controle hieronder. Het laden gaat automatisch verder zodra deze is geslaagd.';
+      case 'db_cannot_open_title':
+        return 'Datalocatie niet beschikbaar';
+      case 'db_cannot_open_message':
+        return 'Fushi kon zijn database niet openen of aanmaken op de ingestelde datalocatie. Er is niets beschadigd — de map ontbreekt mogelijk, is alleen-lezen of staat op een losgekoppelde schijf. Controleer de datalocatie bij Instellingen, of herstart om de standaardlocatie te gebruiken.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Geen van je veldtoewijzingen past bij het geselecteerde notitietype, dus Anki heeft de kaart geweigerd. Open Anki-instellingen om de velden opnieuw toe te wijzen, of gebruik \'Lapis-deck maken\'.';
+      case 'anki_error_first_field_empty':
+        return 'Het eerste veld van het geselecteerde notitietype is leeg, en Anki weigert zo\'n notitie. Wijs er een veld aan toe bij Anki-instellingen.';
+      case 'storage_category_cache':
+        return 'Caches en tijdelijke bestanden';
+      case 'storage_category_other':
+        return 'Overig, niet ingedeeld';
+      case 'collection_export_pick_source':
+        return 'Kies een bron';
+      case 'collection_export_all_sources':
+        return 'Alle bronnen';
+      case 'video_subtitle_list_search':
+        return 'Ondertitels doorzoeken';
+      case 'video_subtitle_list_search_hint':
+        return 'Typ om regels te filteren';
+      case 'video_subtitle_list_search_empty':
+        return 'Geen overeenkomende regel';
+      case 'video_subtitle_list_export_favorites':
+        return 'Favoriete regels exporteren';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Ondertitellijst doorzoeken';
+      case 'game_hook_code_paste_title':
+        return 'Hook-code plakken';
+      case 'game_hook_code_paste_hint':
+        return 'Plak de ruwe code, bijv. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'De code wordt gekoppeld aan het uitvoerbare bestand van het draaiende spel, zodat Fushi hem de volgende keer opnieuw kan gebruiken.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook-code opgeslagen voor dit spel';
+      case 'game_hook_code_paste_invalid':
+        return 'Dit lijkt geen hook-code te zijn';
+      case 'game_hook_code_label':
+        return 'Label (optioneel)';
+      case 'discovery_game_type_all':
+        return 'Alle';
+      case 'discovery_game_type_raw':
+        return 'Onvertaald';
+      case 'discovery_game_type_translated':
+        return 'Vertaald';
+      case 'discovery_game_type_mobile':
+        return 'Mobiel';
+      case 'discovery_game_type_unlabelled':
+        return 'Zonder label';
+      case 'game_library_downloading':
+        return 'Downloaden';
+      case 'game_library_download_queued':
+        return 'In wachtrij';
+      case 'game_library_download_retrying':
+        return 'Opnieuw proberen';
       default:
         return null;
     }
@@ -233514,6 +235055,60 @@ extension on _StringsPtBr {
         return 'Verificação do site';
       case 'manga_source_cloudflare_verify_hint':
         return 'Conclua a verificação do Cloudflare abaixo. O carregamento continua automaticamente após a aprovação.';
+      case 'db_cannot_open_title':
+        return 'Local de dados indisponível';
+      case 'db_cannot_open_message':
+        return 'O Fushi não conseguiu abrir nem criar seu banco de dados no local de dados configurado. Nada está corrompido — a pasta pode estar faltando, ser somente leitura ou estar em um drive desconectado. Verifique o local de dados em Configurações, ou reinicie para usar o local padrão.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Nenhum dos seus mapeamentos de campos corresponde ao tipo de nota selecionado, então o Anki recusou o cartão. Abra Configurações do Anki para remapear os campos, ou use \'Criar baralho Lapis\'.';
+      case 'anki_error_first_field_empty':
+        return 'O primeiro campo do tipo de nota selecionado está vazio, e o Anki recusa uma nota assim. Mapeie um campo para ele em Configurações do Anki.';
+      case 'storage_category_cache':
+        return 'Caches e arquivos temporários';
+      case 'storage_category_other':
+        return 'Outros não classificados';
+      case 'collection_export_pick_source':
+        return 'Selecionar uma fonte';
+      case 'collection_export_all_sources':
+        return 'Todas as fontes';
+      case 'video_subtitle_list_search':
+        return 'Buscar legendas';
+      case 'video_subtitle_list_search_hint':
+        return 'Digite para filtrar as linhas';
+      case 'video_subtitle_list_search_empty':
+        return 'Nenhuma linha corresponde';
+      case 'video_subtitle_list_export_favorites':
+        return 'Exportar linhas favoritadas';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Buscar na lista de legendas';
+      case 'game_hook_code_paste_title':
+        return 'Colar um hook code';
+      case 'game_hook_code_paste_hint':
+        return 'Cole o código bruto, ex.: /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'O código fica vinculado ao executável do jogo em execução, para que o Fushi possa reutilizá-lo na próxima vez.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook code salvo para este jogo';
+      case 'game_hook_code_paste_invalid':
+        return 'Isso não parece um hook code';
+      case 'game_hook_code_label':
+        return 'Rótulo (opcional)';
+      case 'discovery_game_type_all':
+        return 'Todos';
+      case 'discovery_game_type_raw':
+        return 'Sem tradução';
+      case 'discovery_game_type_translated':
+        return 'Traduzidos';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Sem rótulo';
+      case 'game_library_downloading':
+        return 'Baixando';
+      case 'game_library_download_queued':
+        return 'Na fila';
+      case 'game_library_download_retrying':
+        return 'Tentando novamente';
       default:
         return null;
     }
@@ -241399,6 +242994,60 @@ extension on _StringsRu {
         return 'Проверка сайта';
       case 'manga_source_cloudflare_verify_hint':
         return 'Пройдите проверку Cloudflare ниже. После её прохождения загрузка продолжится автоматически.';
+      case 'db_cannot_open_title':
+        return 'Расположение данных недоступно';
+      case 'db_cannot_open_message':
+        return 'Fushi не смог открыть или создать базу данных в указанном расположении данных. Ничего не повреждено — папки может не быть, она может быть доступна только для чтения или находиться на отключённом диске. Проверьте расположение данных в Настройках или перезапустите приложение, чтобы использовать расположение по умолчанию.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Ни одно из ваших сопоставлений полей не подходит к выбранному типу заметки, поэтому Anki отклонил карточку. Откройте Настройки Anki и сопоставьте поля заново или воспользуйтесь «Создать колоду Lapis».';
+      case 'anki_error_first_field_empty':
+        return 'Первое поле выбранного типа заметки пусто, а такую заметку Anki не принимает. Сопоставьте ему поле в Настройках Anki.';
+      case 'storage_category_cache':
+        return 'Кэш и временные файлы';
+      case 'storage_category_other':
+        return 'Прочее без категории';
+      case 'collection_export_pick_source':
+        return 'Выберите источник';
+      case 'collection_export_all_sources':
+        return 'Все источники';
+      case 'video_subtitle_list_search':
+        return 'Поиск по субтитрам';
+      case 'video_subtitle_list_search_hint':
+        return 'Введите текст, чтобы отфильтровать строки';
+      case 'video_subtitle_list_search_empty':
+        return 'Нет подходящих строк';
+      case 'video_subtitle_list_export_favorites':
+        return 'Экспортировать избранные строки';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Поиск по списку субтитров';
+      case 'game_hook_code_paste_title':
+        return 'Вставить hook-код';
+      case 'game_hook_code_paste_hint':
+        return 'Вставьте код как есть, например /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'Код привязывается к исполняемому файлу запущенной игры, поэтому Fushi сможет использовать его в следующий раз.';
+      case 'game_hook_code_paste_saved':
+        return 'Hook-код сохранён для этой игры';
+      case 'game_hook_code_paste_invalid':
+        return 'Это не похоже на hook-код';
+      case 'game_hook_code_label':
+        return 'Метка (необязательно)';
+      case 'discovery_game_type_all':
+        return 'Все';
+      case 'discovery_game_type_raw':
+        return 'Без перевода';
+      case 'discovery_game_type_translated':
+        return 'С переводом';
+      case 'discovery_game_type_mobile':
+        return 'Мобильные';
+      case 'discovery_game_type_unlabelled':
+        return 'Без метки';
+      case 'game_library_downloading':
+        return 'Загрузка';
+      case 'game_library_download_queued':
+        return 'В очереди';
+      case 'game_library_download_retrying':
+        return 'Повторная попытка';
       default:
         return null;
     }
@@ -249256,6 +250905,60 @@ extension on _StringsTh {
         return 'การยืนยันเว็บไซต์';
       case 'manga_source_cloudflare_verify_hint':
         return 'ทำการยืนยัน Cloudflare ด้านล่างให้เสร็จ เมื่อผ่านแล้วระบบจะโหลดต่อโดยอัตโนมัติ';
+      case 'db_cannot_open_title':
+        return 'ตำแหน่งข้อมูลไม่พร้อมใช้งาน';
+      case 'db_cannot_open_message':
+        return 'Fushi ไม่สามารถเปิดหรือสร้างฐานข้อมูลที่ตำแหน่งข้อมูลที่ตั้งค่าไว้ ข้อมูลไม่ได้เสียหาย — โฟลเดอร์อาจหายไป เป็นแบบอ่านอย่างเดียว หรืออยู่ในไดรฟ์ที่ถูกตัดการเชื่อมต่อ โปรดตรวจสอบตำแหน่งข้อมูลใน ตั้งค่า หรือรีสตาร์ทเพื่อใช้ตำแหน่งเริ่มต้น';
+      case 'anki_error_field_mapping_mismatch':
+        return 'ไม่มีการจับคู่ฟิลด์ใดตรงกับประเภทโน้ตที่เลือก Anki จึงปฏิเสธบัตรนี้ เปิด ตั้งค่า Anki เพื่อจับคู่ฟิลด์ใหม่ หรือใช้ \'สร้างเด็ค Lapis\'';
+      case 'anki_error_first_field_empty':
+        return 'ฟิลด์แรกของประเภทโน้ตที่เลือกว่างอยู่ และ Anki ไม่รับโน้ตแบบนั้น โปรดจับคู่ฟิลด์ให้มันใน ตั้งค่า Anki';
+      case 'storage_category_cache':
+        return 'แคชและไฟล์ชั่วคราว';
+      case 'storage_category_other':
+        return 'อื่น ๆ ที่ไม่ได้จัดหมวด';
+      case 'collection_export_pick_source':
+        return 'เลือกแหล่ง';
+      case 'collection_export_all_sources':
+        return 'แหล่งทั้งหมด';
+      case 'video_subtitle_list_search':
+        return 'ค้นหาคำบรรยาย';
+      case 'video_subtitle_list_search_hint':
+        return 'พิมพ์เพื่อกรองบรรทัด';
+      case 'video_subtitle_list_search_empty':
+        return 'ไม่มีบรรทัดที่ตรงกัน';
+      case 'video_subtitle_list_export_favorites':
+        return 'ส่งออกบรรทัดที่ชื่นชอบ';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'ค้นหาในรายการคำบรรยาย';
+      case 'game_hook_code_paste_title':
+        return 'วางฮุกโค้ด';
+      case 'game_hook_code_paste_hint':
+        return 'วางโค้ดดิบ เช่น /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'โค้ดจะผูกกับไฟล์เรียกใช้งานของเกมที่กำลังเปิดอยู่ Fushi จึงนำกลับมาใช้ได้ในครั้งถัดไป';
+      case 'game_hook_code_paste_saved':
+        return 'บันทึกฮุกโค้ดสำหรับเกมนี้แล้ว';
+      case 'game_hook_code_paste_invalid':
+        return 'ดูเหมือนจะไม่ใช่ฮุกโค้ด';
+      case 'game_hook_code_label':
+        return 'ป้ายกำกับ (ไม่บังคับ)';
+      case 'discovery_game_type_all':
+        return 'ทั้งหมด';
+      case 'discovery_game_type_raw':
+        return 'ยังไม่แปล';
+      case 'discovery_game_type_translated':
+        return 'แปลแล้ว';
+      case 'discovery_game_type_mobile':
+        return 'มือถือ';
+      case 'discovery_game_type_unlabelled':
+        return 'ไม่ได้ระบุ';
+      case 'game_library_downloading':
+        return 'กำลังดาวน์โหลด';
+      case 'game_library_download_queued':
+        return 'อยู่ในคิว';
+      case 'game_library_download_retrying':
+        return 'กำลังลองใหม่';
       default:
         return null;
     }
@@ -257130,6 +258833,60 @@ extension on _StringsTr {
         return 'Site doğrulaması';
       case 'manga_source_cloudflare_verify_hint':
         return 'Aşağıdaki Cloudflare doğrulamasını tamamlayın. Doğrulama geçilince yükleme otomatik olarak sürer.';
+      case 'db_cannot_open_title':
+        return 'Veri konumu kullanılamıyor';
+      case 'db_cannot_open_message':
+        return 'Fushi, yapılandırılmış veri konumunda veritabanını açamadı veya oluşturamadı. Hiçbir şey bozulmadı — klasör eksik, salt okunur ya da bağlantısı kesilmiş bir sürücüde olabilir. Ayarlar bölümünden veri konumunu kontrol edin veya varsayılan konumu kullanmak için yeniden başlatın.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Alan eşlemelerinizin hiçbiri seçili not türüyle uyuşmuyor, bu yüzden Anki kartı reddetti. Alanları yeniden eşlemek için Anki ayarları\'nı açın veya \'Lapis destesi oluştur\' seçeneğini kullanın.';
+      case 'anki_error_first_field_empty':
+        return 'Seçili not türünün ilk alanı boş ve Anki böyle bir notu kabul etmiyor. Anki ayarları\'ndan buna bir alan eşleyin.';
+      case 'storage_category_cache':
+        return 'Önbellekler ve geçici dosyalar';
+      case 'storage_category_other':
+        return 'Diğer, sınıflandırılmamış';
+      case 'collection_export_pick_source':
+        return 'Bir kaynak seçin';
+      case 'collection_export_all_sources':
+        return 'Tüm kaynaklar';
+      case 'video_subtitle_list_search':
+        return 'Altyazılarda ara';
+      case 'video_subtitle_list_search_hint':
+        return 'Satırları süzmek için yazın';
+      case 'video_subtitle_list_search_empty':
+        return 'Eşleşen satır yok';
+      case 'video_subtitle_list_export_favorites':
+        return 'Favori satırları dışa aktar';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Altyazı listesinde ara';
+      case 'game_hook_code_paste_title':
+        return 'Hook kodu yapıştır';
+      case 'game_hook_code_paste_hint':
+        return 'Ham kodu yapıştırın, ör. /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'Kod, çalışmakta olan oyunun yürütülebilir dosyasına bağlanır; böylece Fushi bir dahaki sefere yeniden kullanabilir.';
+      case 'game_hook_code_paste_saved':
+        return 'Bu oyun için hook kodu kaydedildi';
+      case 'game_hook_code_paste_invalid':
+        return 'Bu bir hook koduna benzemiyor';
+      case 'game_hook_code_label':
+        return 'Etiket (isteğe bağlı)';
+      case 'discovery_game_type_all':
+        return 'Tümü';
+      case 'discovery_game_type_raw':
+        return 'Çevrilmemiş';
+      case 'discovery_game_type_translated':
+        return 'Çevrilmiş';
+      case 'discovery_game_type_mobile':
+        return 'Mobil';
+      case 'discovery_game_type_unlabelled':
+        return 'Etiketsiz';
+      case 'game_library_downloading':
+        return 'İndiriliyor';
+      case 'game_library_download_queued':
+        return 'Sırada';
+      case 'game_library_download_retrying':
+        return 'Yeniden deneniyor';
       default:
         return null;
     }
@@ -264997,6 +266754,60 @@ extension on _StringsVi {
         return 'Xác minh trang web';
       case 'manga_source_cloudflare_verify_hint':
         return 'Hoàn tất kiểm tra Cloudflare bên dưới. Quá trình tải sẽ tự động tiếp tục sau khi vượt qua.';
+      case 'db_cannot_open_title':
+        return 'Vị trí dữ liệu không khả dụng';
+      case 'db_cannot_open_message':
+        return 'Fushi không thể mở hoặc tạo cơ sở dữ liệu tại vị trí dữ liệu đã cấu hình. Không có gì bị hỏng — thư mục có thể bị thiếu, chỉ đọc, hoặc nằm trên ổ đĩa đã ngắt kết nối. Hãy kiểm tra vị trí dữ liệu trong Cài đặt, hoặc khởi động lại để dùng vị trí mặc định.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'Không có ánh xạ trường nào của bạn khớp với loại ghi chú đã chọn, nên Anki đã từ chối thẻ này. Hãy mở Cài đặt Anki để ánh xạ lại các trường, hoặc dùng \'Tạo bộ thẻ Lapis\'.';
+      case 'anki_error_first_field_empty':
+        return 'Trường đầu tiên của loại ghi chú đã chọn đang trống, và Anki không nhận ghi chú như vậy. Hãy ánh xạ một trường vào đó trong Cài đặt Anki.';
+      case 'storage_category_cache':
+        return 'Bộ nhớ đệm và tệp tạm';
+      case 'storage_category_other':
+        return 'Khác, chưa phân loại';
+      case 'collection_export_pick_source':
+        return 'Chọn nguồn';
+      case 'collection_export_all_sources':
+        return 'Tất cả nguồn';
+      case 'video_subtitle_list_search':
+        return 'Tìm trong phụ đề';
+      case 'video_subtitle_list_search_hint':
+        return 'Nhập để lọc các dòng';
+      case 'video_subtitle_list_search_empty':
+        return 'Không có dòng nào khớp';
+      case 'video_subtitle_list_export_favorites':
+        return 'Xuất các dòng yêu thích';
+      case 'shortcut_action_video_search_subtitle_list':
+        return 'Tìm trong danh sách phụ đề';
+      case 'game_hook_code_paste_title':
+        return 'Dán mã hook';
+      case 'game_hook_code_paste_hint':
+        return 'Dán mã gốc, ví dụ /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return 'Mã được gắn với tệp thực thi của trò chơi đang chạy, nên Fushi có thể dùng lại vào lần sau.';
+      case 'game_hook_code_paste_saved':
+        return 'Đã lưu mã hook cho trò chơi này';
+      case 'game_hook_code_paste_invalid':
+        return 'Đây không giống một mã hook';
+      case 'game_hook_code_label':
+        return 'Nhãn (tùy chọn)';
+      case 'discovery_game_type_all':
+        return 'Tất cả';
+      case 'discovery_game_type_raw':
+        return 'Chưa dịch';
+      case 'discovery_game_type_translated':
+        return 'Đã dịch';
+      case 'discovery_game_type_mobile':
+        return 'Di động';
+      case 'discovery_game_type_unlabelled':
+        return 'Chưa gắn nhãn';
+      case 'game_library_downloading':
+        return 'Đang tải xuống';
+      case 'game_library_download_queued':
+        return 'Đang chờ';
+      case 'game_library_download_retrying':
+        return 'Đang thử lại';
       default:
         return null;
     }
@@ -272800,6 +274611,60 @@ extension on _StringsZhCn {
         return '站点验证';
       case 'manga_source_cloudflare_verify_hint':
         return '在下方完成 Cloudflare 验证，通过后会自动继续加载。';
+      case 'db_cannot_open_title':
+        return '数据位置不可用';
+      case 'db_cannot_open_message':
+        return 'Fushi 无法在配置的数据位置打开或创建数据库。数据没有损坏——该文件夹可能不存在、只读，或位于已断开的磁盘上。请在设置中检查数据位置，或重启以使用默认位置。';
+      case 'anki_error_field_mapping_mismatch':
+        return '当前的字段映射没有一个属于所选的笔记类型，Anki 因此拒收了这张卡。请在 Anki 设置里重新映射字段，或使用「一键创建 Lapis 卡组」。';
+      case 'anki_error_first_field_empty':
+        return '所选笔记类型的第一个字段为空，Anki 不接受这样的卡片。请在 Anki 设置里给它映射一个字段。';
+      case 'storage_category_cache':
+        return '缓存与临时文件';
+      case 'storage_category_other':
+        return '其他未归类';
+      case 'collection_export_pick_source':
+        return '选择来源';
+      case 'collection_export_all_sources':
+        return '全部来源';
+      case 'video_subtitle_list_search':
+        return '搜索字幕';
+      case 'video_subtitle_list_search_hint':
+        return '输入以筛选台词';
+      case 'video_subtitle_list_search_empty':
+        return '没有匹配的台词';
+      case 'video_subtitle_list_export_favorites':
+        return '导出收藏语句';
+      case 'shortcut_action_video_search_subtitle_list':
+        return '搜索字幕列表';
+      case 'game_hook_code_paste_title':
+        return '粘贴特殊码';
+      case 'game_hook_code_paste_hint':
+        return '粘贴原始特殊码，例如 /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return '特殊码会绑定到当前运行游戏的可执行文件，下次自动复用。';
+      case 'game_hook_code_paste_saved':
+        return '特殊码已保存到当前游戏';
+      case 'game_hook_code_paste_invalid':
+        return '这看起来不是一条特殊码';
+      case 'game_hook_code_label':
+        return '备注（可选）';
+      case 'discovery_game_type_all':
+        return '全部';
+      case 'discovery_game_type_raw':
+        return '生肉';
+      case 'discovery_game_type_translated':
+        return '熟肉';
+      case 'discovery_game_type_mobile':
+        return '手机';
+      case 'discovery_game_type_unlabelled':
+        return '未标注';
+      case 'game_library_downloading':
+        return '下载中';
+      case 'game_library_download_queued':
+        return '排队中';
+      case 'game_library_download_retrying':
+        return '重试中';
       default:
         return null;
     }
@@ -280604,6 +282469,60 @@ extension on _StringsZhHk {
         return '網站驗證';
       case 'manga_source_cloudflare_verify_hint':
         return '請在下方完成 Cloudflare 驗證，通過後會自動繼續載入。';
+      case 'db_cannot_open_title':
+        return '數據位置不可用';
+      case 'db_cannot_open_message':
+        return 'Fushi 無法在設定的數據位置開啟或建立資料庫。數據沒有損壞——該資料夾可能不存在、只讀，或位於已斷開的磁碟上。請在「設定」中檢查數據位置，或重新啟動以使用預設位置。';
+      case 'anki_error_field_mapping_mismatch':
+        return '目前的字段映射沒有一個屬於所選的筆記類型，Anki 因此拒收了這張卡。請在「Anki 設定」裡重新映射字段，或使用「建立 Lapis 卡組」。';
+      case 'anki_error_first_field_empty':
+        return '所選筆記類型的第一個字段為空，Anki 不接受這樣的卡片。請在「Anki 設定」裡給它映射一個字段。';
+      case 'storage_category_cache':
+        return '快取與暫存檔案';
+      case 'storage_category_other':
+        return '其他未分類';
+      case 'collection_export_pick_source':
+        return '選擇來源';
+      case 'collection_export_all_sources':
+        return '全部來源';
+      case 'video_subtitle_list_search':
+        return '搜索字幕';
+      case 'video_subtitle_list_search_hint':
+        return '輸入以篩選台詞';
+      case 'video_subtitle_list_search_empty':
+        return '沒有匹配的台詞';
+      case 'video_subtitle_list_export_favorites':
+        return '導出收藏語句';
+      case 'shortcut_action_video_search_subtitle_list':
+        return '搜索字幕列表';
+      case 'game_hook_code_paste_title':
+        return '貼上特殊碼';
+      case 'game_hook_code_paste_hint':
+        return '貼上原始特殊碼，例如 /HQN4@4CE90:game.exe';
+      case 'game_hook_code_paste_body':
+        return '特殊碼會綁定到目前執行遊戲的可執行檔，下次自動重用。';
+      case 'game_hook_code_paste_saved':
+        return '特殊碼已儲存到目前遊戲';
+      case 'game_hook_code_paste_invalid':
+        return '這看起來不是一條特殊碼';
+      case 'game_hook_code_label':
+        return '備註（可選）';
+      case 'discovery_game_type_all':
+        return '全部';
+      case 'discovery_game_type_raw':
+        return '生肉';
+      case 'discovery_game_type_translated':
+        return '熟肉';
+      case 'discovery_game_type_mobile':
+        return '手機';
+      case 'discovery_game_type_unlabelled':
+        return '未標註';
+      case 'game_library_downloading':
+        return '下載中';
+      case 'game_library_download_queued':
+        return '排隊中';
+      case 'game_library_download_retrying':
+        return '重試中';
       default:
         return null;
     }
