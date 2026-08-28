@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65110 (3830 per locale)
+/// Strings: 65195 (3835 per locale)
 ///
-/// Built on 2026-08-28 at 06:41 UTC
+/// Built on 2026-08-28 at 06:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5215,6 +5215,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get game_hook_code_paste_invalid =>
       'That does not look like a hook code';
   String get game_hook_code_label => 'Label (optional)';
+  String get discovery_game_type_all => 'All';
+  String get discovery_game_type_raw => 'Untranslated';
+  String get discovery_game_type_translated => 'Translated';
+  String get discovery_game_type_mobile => 'Mobile';
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -14094,6 +14099,16 @@ class _StringsAr extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -23176,6 +23191,16 @@ class _StringsDe extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -32301,6 +32326,16 @@ class _StringsEs extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -41455,6 +41490,16 @@ class _StringsFr extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -50443,6 +50488,16 @@ class _StringsId extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -59503,6 +59558,16 @@ class _StringsIt extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -68020,6 +68085,16 @@ class _StringsJa extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -76553,6 +76628,16 @@ class _StringsKo extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -85573,6 +85658,16 @@ class _StringsNl extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -94649,6 +94744,16 @@ class _StringsPtBr extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -103698,6 +103803,16 @@ class _StringsRu extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -112570,6 +112685,16 @@ class _StringsTh extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -121544,6 +121669,16 @@ class _StringsTr extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -130500,6 +130635,16 @@ class _StringsVi extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 // Path: <root>
@@ -138735,6 +138880,16 @@ class _StringsZhCn extends _StringsEn {
   String get game_hook_code_paste_invalid => '这看起来不是一条特殊码';
   @override
   String get game_hook_code_label => '备注（可选）';
+  @override
+  String get discovery_game_type_all => '全部';
+  @override
+  String get discovery_game_type_raw => '生肉';
+  @override
+  String get discovery_game_type_translated => '熟肉';
+  @override
+  String get discovery_game_type_mobile => '手机';
+  @override
+  String get discovery_game_type_unlabelled => '未标注';
 }
 
 // Path: <root>
@@ -146995,6 +147150,16 @@ class _StringsZhHk extends _StringsEn {
       'That does not look like a hook code';
   @override
   String get game_hook_code_label => 'Label (optional)';
+  @override
+  String get discovery_game_type_all => 'All';
+  @override
+  String get discovery_game_type_raw => 'Untranslated';
+  @override
+  String get discovery_game_type_translated => 'Translated';
+  @override
+  String get discovery_game_type_mobile => 'Mobile';
+  @override
+  String get discovery_game_type_unlabelled => 'Unlabelled';
 }
 
 /// Flat map(s) containing all translations.
@@ -154853,6 +155018,16 @@ extension on _StringsEn {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -162708,6 +162883,16 @@ extension on _StringsAr {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -170603,6 +170788,16 @@ extension on _StringsDe {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -178490,6 +178685,16 @@ extension on _StringsEs {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -186385,6 +186590,16 @@ extension on _StringsFr {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -194254,6 +194469,16 @@ extension on _StringsId {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -202143,6 +202368,16 @@ extension on _StringsIt {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -209968,6 +210203,16 @@ extension on _StringsJa {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -217795,6 +218040,16 @@ extension on _StringsKo {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -225677,6 +225932,16 @@ extension on _StringsNl {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -233555,6 +233820,16 @@ extension on _StringsPtBr {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -241440,6 +241715,16 @@ extension on _StringsRu {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -249299,6 +249584,16 @@ extension on _StringsTh {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -257173,6 +257468,16 @@ extension on _StringsTr {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -265041,6 +265346,16 @@ extension on _StringsVi {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
@@ -272844,6 +273159,16 @@ extension on _StringsZhCn {
         return '这看起来不是一条特殊码';
       case 'game_hook_code_label':
         return '备注（可选）';
+      case 'discovery_game_type_all':
+        return '全部';
+      case 'discovery_game_type_raw':
+        return '生肉';
+      case 'discovery_game_type_translated':
+        return '熟肉';
+      case 'discovery_game_type_mobile':
+        return '手机';
+      case 'discovery_game_type_unlabelled':
+        return '未标注';
       default:
         return null;
     }
@@ -280651,6 +280976,16 @@ extension on _StringsZhHk {
         return 'That does not look like a hook code';
       case 'game_hook_code_label':
         return 'Label (optional)';
+      case 'discovery_game_type_all':
+        return 'All';
+      case 'discovery_game_type_raw':
+        return 'Untranslated';
+      case 'discovery_game_type_translated':
+        return 'Translated';
+      case 'discovery_game_type_mobile':
+        return 'Mobile';
+      case 'discovery_game_type_unlabelled':
+        return 'Unlabelled';
       default:
         return null;
     }
