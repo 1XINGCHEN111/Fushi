@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64855 (3815 per locale)
+/// Strings: 64889 (3817 per locale)
 ///
-/// Built on 2026-08-28 at 04:55 UTC
+/// Built on 2026-08-28 at 05:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5194,6 +5194,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get db_cannot_open_title => 'Data location unavailable';
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -14037,6 +14041,12 @@ class _StringsAr extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -23083,6 +23093,12 @@ class _StringsDe extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -32172,6 +32188,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -41290,6 +41312,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -50242,6 +50270,12 @@ class _StringsId extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -59266,6 +59300,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -67747,6 +67787,12 @@ class _StringsJa extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -76244,6 +76290,12 @@ class _StringsKo extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -85228,6 +85280,12 @@ class _StringsNl extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -94268,6 +94326,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -103281,6 +103345,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -112117,6 +112187,12 @@ class _StringsTh extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -121055,6 +121131,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -129975,6 +130057,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 // Path: <root>
@@ -138178,6 +138266,12 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi 无法在配置的数据位置打开或创建数据库。数据没有损坏——该文件夹可能不存在、只读，或位于已断开的磁盘上。请在设置中检查数据位置，或重启以使用默认位置。';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      '当前的字段映射没有一个属于所选的笔记类型，Anki 因此拒收了这张卡。请在 Anki 设置里重新映射字段，或使用「一键创建 Lapis 卡组」。';
+  @override
+  String get anki_error_first_field_empty =>
+      '所选笔记类型的第一个字段为空，Anki 不接受这样的卡片。请在 Anki 设置里给它映射一个字段。';
 }
 
 // Path: <root>
@@ -146402,6 +146496,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get db_cannot_open_message =>
       'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+  @override
+  String get anki_error_field_mapping_mismatch =>
+      'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+  @override
+  String get anki_error_first_field_empty =>
+      'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
 }
 
 /// Flat map(s) containing all translations.
@@ -154230,6 +154330,10 @@ extension on _StringsEn {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -162055,6 +162159,10 @@ extension on _StringsAr {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -169920,6 +170028,10 @@ extension on _StringsDe {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -177777,6 +177889,10 @@ extension on _StringsEs {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -185642,6 +185758,10 @@ extension on _StringsFr {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -193481,6 +193601,10 @@ extension on _StringsId {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -201340,6 +201464,10 @@ extension on _StringsIt {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -209135,6 +209263,10 @@ extension on _StringsJa {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -216932,6 +217064,10 @@ extension on _StringsKo {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -224784,6 +224920,10 @@ extension on _StringsNl {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -232632,6 +232772,10 @@ extension on _StringsPtBr {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -240487,6 +240631,10 @@ extension on _StringsRu {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -248316,6 +248464,10 @@ extension on _StringsTh {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -256160,6 +256312,10 @@ extension on _StringsTr {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -263998,6 +264154,10 @@ extension on _StringsVi {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
@@ -271771,6 +271931,10 @@ extension on _StringsZhCn {
         return '数据位置不可用';
       case 'db_cannot_open_message':
         return 'Fushi 无法在配置的数据位置打开或创建数据库。数据没有损坏——该文件夹可能不存在、只读，或位于已断开的磁盘上。请在设置中检查数据位置，或重启以使用默认位置。';
+      case 'anki_error_field_mapping_mismatch':
+        return '当前的字段映射没有一个属于所选的笔记类型，Anki 因此拒收了这张卡。请在 Anki 设置里重新映射字段，或使用「一键创建 Lapis 卡组」。';
+      case 'anki_error_first_field_empty':
+        return '所选笔记类型的第一个字段为空，Anki 不接受这样的卡片。请在 Anki 设置里给它映射一个字段。';
       default:
         return null;
     }
@@ -279548,6 +279712,10 @@ extension on _StringsZhHk {
         return 'Data location unavailable';
       case 'db_cannot_open_message':
         return 'Fushi could not open or create its database at the configured data location. Nothing is corrupt - the folder may be missing, read-only, or on a disconnected drive. Check the data location in Settings, or restart to use the default location.';
+      case 'anki_error_field_mapping_mismatch':
+        return 'None of your field mappings match the selected note type, so Anki rejected the card. Open Anki settings to re-map the fields, or use \'Create Lapis deck\'.';
+      case 'anki_error_first_field_empty':
+        return 'The first field of the selected note type is empty, and Anki refuses such a note. Map a field to it in Anki settings.';
       default:
         return null;
     }
