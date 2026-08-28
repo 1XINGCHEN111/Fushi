@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 65671 (3863 per locale)
+/// Strings: 65654 (3862 per locale)
 ///
-/// Built on 2026-08-28 at 10:40 UTC
+/// Built on 2026-08-28 at 10:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -894,7 +894,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get desktop_clipboard_destination_transient => 'Popup at cursor';
   String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
   String get desktop_clipboard_enabled_hint =>
-      'Watch clipboard + global shortcut to pop a lookup window (desktop · experimental)';
+      'Watch clipboard + global shortcut to pop a lookup window';
   String get desktop_clipboard_window_mode => 'Window pinning';
   String get desktop_clipboard_window_mode_always => 'Always';
   String get desktop_clipboard_window_mode_hint =>
@@ -2163,13 +2163,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_destination_profiles => 'Configuration schemes';
   String get settings_destination_reading => 'Reading';
   String get settings_destination_reading_controls => 'Reading controls';
-  String get settings_destination_sync_backup => 'Sync & backup (experimental)';
+  String get settings_destination_sync_backup => 'Sync & backup';
   String get settings_destination_system => 'System';
   String get settings_destination_system_summary =>
       'General, updates & diagnostics';
   String get settings_destination_tracking => 'Media tracking';
   String get settings_destination_video => 'Video';
-  String get settings_experimental_suffix => ' (experimental)';
   String get settings_search_hint => 'Search settings';
   String get settings_search_no_results => 'No matching settings';
   String get settings_secret_hide => 'Hide value';
@@ -8819,8 +8818,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'أدوات التحكم بالقراءة';
   @override
-  String get settings_destination_sync_backup =>
-      'المزامنة والنسخ الاحتياطي (تجريبي)';
+  String get settings_destination_sync_backup => 'المزامنة والنسخ الاحتياطي';
   @override
   String get settings_destination_system => 'النظام';
   @override
@@ -8829,8 +8827,6 @@ class _StringsAr extends _StringsEn {
   String get settings_destination_tracking => 'تتبع الوسائط';
   @override
   String get settings_destination_video => 'فيديو';
-  @override
-  String get settings_experimental_suffix => ' (تجريبي، قد يكون غير مستقر)';
   @override
   String get settings_search_hint => 'البحث في الإعدادات';
   @override
@@ -17849,8 +17845,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Lesesteuerung';
   @override
-  String get settings_destination_sync_backup =>
-      'Sync & Backup (Experimentell)';
+  String get settings_destination_sync_backup => 'Sync & Backup';
   @override
   String get settings_destination_system => 'System';
   @override
@@ -17860,9 +17855,6 @@ class _StringsDe extends _StringsEn {
   String get settings_destination_tracking => 'Medienverfolgung';
   @override
   String get settings_destination_video => 'Video';
-  @override
-  String get settings_experimental_suffix =>
-      ' (experimentell, kann instabil sein)';
   @override
   String get settings_search_hint => 'Einstellungen durchsuchen';
   @override
@@ -27024,7 +27016,7 @@ class _StringsEs extends _StringsEn {
   String get settings_destination_reading_controls => 'Controles de lectura';
   @override
   String get settings_destination_sync_backup =>
-      'Sincronización y copia de seguridad (Experimental)';
+      'Sincronización y copia de seguridad';
   @override
   String get settings_destination_system => 'Sistema';
   @override
@@ -27034,9 +27026,6 @@ class _StringsEs extends _StringsEn {
   String get settings_destination_tracking => 'Seguimiento de medios';
   @override
   String get settings_destination_video => 'Vídeo';
-  @override
-  String get settings_experimental_suffix =>
-      ' (experimental, puede ser inestable)';
   @override
   String get settings_search_hint => 'Buscar ajustes';
   @override
@@ -36240,8 +36229,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Commandes de lecture';
   @override
-  String get settings_destination_sync_backup =>
-      'Sync et sauvegarde (Expérimental)';
+  String get settings_destination_sync_backup => 'Sync et sauvegarde';
   @override
   String get settings_destination_system => 'Système';
   @override
@@ -36251,9 +36239,6 @@ class _StringsFr extends _StringsEn {
   String get settings_destination_tracking => 'Suivi des médias';
   @override
   String get settings_destination_video => 'Vidéo';
-  @override
-  String get settings_experimental_suffix =>
-      ' (expérimental, peut être instable)';
   @override
   String get settings_search_hint => 'Rechercher dans les paramètres';
   @override
@@ -45415,8 +45400,7 @@ class _StringsId extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Kontrol Baca';
   @override
-  String get settings_destination_sync_backup =>
-      'Sinkronisasi & Cadangan (Eksperimental)';
+  String get settings_destination_sync_backup => 'Sinkronisasi & Cadangan';
   @override
   String get settings_destination_system => 'Sistem';
   @override
@@ -45426,9 +45410,6 @@ class _StringsId extends _StringsEn {
   String get settings_destination_tracking => 'Pelacakan media';
   @override
   String get settings_destination_video => 'Video';
-  @override
-  String get settings_experimental_suffix =>
-      ' (eksperimental, mungkin tidak stabil)';
   @override
   String get settings_search_hint => 'Cari pengaturan';
   @override
@@ -54511,8 +54492,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Controlli di lettura';
   @override
-  String get settings_destination_sync_backup =>
-      'Sincronizzazione e backup (Sperimentale)';
+  String get settings_destination_sync_backup => 'Sincronizzazione e backup';
   @override
   String get settings_destination_system => 'Sistema';
   @override
@@ -54522,9 +54502,6 @@ class _StringsIt extends _StringsEn {
   String get settings_destination_tracking => 'Tracciamento media';
   @override
   String get settings_destination_video => 'Video';
-  @override
-  String get settings_experimental_suffix =>
-      ' (sperimentale, potrebbe essere instabile)';
   @override
   String get settings_search_hint => 'Cerca impostazioni';
   @override
@@ -63454,7 +63431,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '読書コントロール';
   @override
-  String get settings_destination_sync_backup => '同期とバックアップ（実験的）';
+  String get settings_destination_sync_backup => '同期とバックアップ';
   @override
   String get settings_destination_system => 'システム';
   @override
@@ -63463,8 +63440,6 @@ class _StringsJa extends _StringsEn {
   String get settings_destination_tracking => 'メディアトラッキング';
   @override
   String get settings_destination_video => '動画';
-  @override
-  String get settings_experimental_suffix => '（実験的機能、不安定な場合があります）';
   @override
   String get settings_search_hint => '設定を検索';
   @override
@@ -72034,7 +72009,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '읽기 컨트롤';
   @override
-  String get settings_destination_sync_backup => '동기화 및 백업 (실험적)';
+  String get settings_destination_sync_backup => '동기화 및 백업';
   @override
   String get settings_destination_system => '시스템';
   @override
@@ -72043,8 +72018,6 @@ class _StringsKo extends _StringsEn {
   String get settings_destination_tracking => '미디어 트래킹';
   @override
   String get settings_destination_video => '비디오';
-  @override
-  String get settings_experimental_suffix => ' (실험적, 불안정할 수 있음)';
   @override
   String get settings_search_hint => '설정 검색';
   @override
@@ -80809,8 +80782,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Leesbesturing';
   @override
-  String get settings_destination_sync_backup =>
-      'Synchronisatie & back-up (Experimenteel)';
+  String get settings_destination_sync_backup => 'Synchronisatie & back-up';
   @override
   String get settings_destination_system => 'Systeem';
   @override
@@ -80820,9 +80792,6 @@ class _StringsNl extends _StringsEn {
   String get settings_destination_tracking => 'Media bijhouden';
   @override
   String get settings_destination_video => 'Video';
-  @override
-  String get settings_experimental_suffix =>
-      ' (experimenteel, mogelijk instabiel)';
   @override
   String get settings_search_hint => 'Instellingen zoeken';
   @override
@@ -89925,8 +89894,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Controles de leitura';
   @override
-  String get settings_destination_sync_backup =>
-      'Sincronização e backup (Experimental)';
+  String get settings_destination_sync_backup => 'Sincronização e backup';
   @override
   String get settings_destination_system => 'Sistema';
   @override
@@ -89936,9 +89904,6 @@ class _StringsPtBr extends _StringsEn {
   String get settings_destination_tracking => 'Rastreamento de mídia';
   @override
   String get settings_destination_video => 'Vídeo';
-  @override
-  String get settings_experimental_suffix =>
-      ' (experimental, pode ser instável)';
   @override
   String get settings_search_hint => 'Buscar configurações';
   @override
@@ -99073,7 +99038,7 @@ class _StringsRu extends _StringsEn {
   String get settings_destination_reading_controls => 'Управление чтением';
   @override
   String get settings_destination_sync_backup =>
-      'Синхронизация и резервное копирование (экспериментально)';
+      'Синхронизация и резервное копирование';
   @override
   String get settings_destination_system => 'Система';
   @override
@@ -99083,9 +99048,6 @@ class _StringsRu extends _StringsEn {
   String get settings_destination_tracking => 'Отслеживание медиа';
   @override
   String get settings_destination_video => 'Видео';
-  @override
-  String get settings_experimental_suffix =>
-      ' (экспериментально, возможна нестабильность)';
   @override
   String get settings_search_hint => 'Поиск настроек';
   @override
@@ -108134,7 +108096,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'ตัวควบคุมการอ่าน';
   @override
-  String get settings_destination_sync_backup => 'ซิงค์และสำรองข้อมูล (ทดลอง)';
+  String get settings_destination_sync_backup => 'ซิงค์และสำรองข้อมูล';
   @override
   String get settings_destination_system => 'ระบบ';
   @override
@@ -108144,8 +108106,6 @@ class _StringsTh extends _StringsEn {
   String get settings_destination_tracking => 'ติดตามสื่อ';
   @override
   String get settings_destination_video => 'วิดีโอ';
-  @override
-  String get settings_experimental_suffix => ' (ทดลอง, อาจไม่เสถียร)';
   @override
   String get settings_search_hint => 'ค้นหาการตั้งค่า';
   @override
@@ -117119,8 +117079,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Okuma Kontrolleri';
   @override
-  String get settings_destination_sync_backup =>
-      'Senkronizasyon ve Yedekleme (Deneysel)';
+  String get settings_destination_sync_backup => 'Senkronizasyon ve Yedekleme';
   @override
   String get settings_destination_system => 'Sistem';
   @override
@@ -117130,8 +117089,6 @@ class _StringsTr extends _StringsEn {
   String get settings_destination_tracking => 'Medya takibi';
   @override
   String get settings_destination_video => 'Video';
-  @override
-  String get settings_experimental_suffix => ' (deneysel, kararsız olabilir)';
   @override
   String get settings_search_hint => 'Ayarlarda ara';
   @override
@@ -126167,8 +126124,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Điều khiển đọc';
   @override
-  String get settings_destination_sync_backup =>
-      'Đồng bộ & Sao lưu (Thử nghiệm)';
+  String get settings_destination_sync_backup => 'Đồng bộ & Sao lưu';
   @override
   String get settings_destination_system => 'Hệ thống';
   @override
@@ -126178,9 +126134,6 @@ class _StringsVi extends _StringsEn {
   String get settings_destination_tracking => 'Theo dõi nội dung';
   @override
   String get settings_destination_video => 'Video';
-  @override
-  String get settings_experimental_suffix =>
-      ' (thử nghiệm, có thể chưa ổn định)';
   @override
   String get settings_search_hint => 'Tìm kiếm cài đặt';
   @override
@@ -132803,7 +132756,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get desktop_clipboard_enabled => '桌面剪贴板查词';
   @override
-  String get desktop_clipboard_enabled_hint => '监听剪贴板 + 全局快捷键弹出查词窗（桌面·实验性）';
+  String get desktop_clipboard_enabled_hint => '监听剪贴板 + 全局快捷键弹出查词窗';
   @override
   String get desktop_clipboard_window_mode => '窗口置顶策略';
   @override
@@ -134941,7 +134894,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '阅读操作';
   @override
-  String get settings_destination_sync_backup => '同步与备份（实验性）';
+  String get settings_destination_sync_backup => '同步与备份';
   @override
   String get settings_destination_system => '系统';
   @override
@@ -134950,8 +134903,6 @@ class _StringsZhCn extends _StringsEn {
   String get settings_destination_tracking => '媒体记录';
   @override
   String get settings_destination_video => '视频';
-  @override
-  String get settings_experimental_suffix => '（实验性）';
   @override
   String get settings_search_hint => '搜索设置';
   @override
@@ -141108,7 +141059,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get desktop_clipboard_enabled => '桌面剪貼簿查詞';
   @override
-  String get desktop_clipboard_enabled_hint => '監聽剪貼簿＋全域快捷鍵彈出查詞視窗（桌面·實驗性）';
+  String get desktop_clipboard_enabled_hint => '監聽剪貼簿＋全域快捷鍵彈出查詞視窗';
   @override
   String get desktop_clipboard_window_mode => '視窗置頂策略';
   @override
@@ -143247,7 +143198,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '閱讀操作';
   @override
-  String get settings_destination_sync_backup => '同步與備份（實驗性）';
+  String get settings_destination_sync_backup => '同步與備份';
   @override
   String get settings_destination_system => '系統';
   @override
@@ -143256,8 +143207,6 @@ class _StringsZhHk extends _StringsEn {
   String get settings_destination_tracking => '媒體記錄';
   @override
   String get settings_destination_video => '影片';
-  @override
-  String get settings_experimental_suffix => '（實驗性）';
   @override
   String get settings_search_hint => '搜索設定';
   @override
@@ -149349,7 +149298,7 @@ extension on _StringsEn {
       case 'desktop_clipboard_enabled':
         return 'Desktop clipboard lookup';
       case 'desktop_clipboard_enabled_hint':
-        return 'Watch clipboard + global shortcut to pop a lookup window (desktop · experimental)';
+        return 'Watch clipboard + global shortcut to pop a lookup window';
       case 'desktop_clipboard_window_mode':
         return 'Window pinning';
       case 'desktop_clipboard_window_mode_always':
@@ -151413,7 +151362,7 @@ extension on _StringsEn {
       case 'settings_destination_reading_controls':
         return 'Reading controls';
       case 'settings_destination_sync_backup':
-        return 'Sync & backup (experimental)';
+        return 'Sync & backup';
       case 'settings_destination_system':
         return 'System';
       case 'settings_destination_system_summary':
@@ -151422,8 +151371,6 @@ extension on _StringsEn {
         return 'Media tracking';
       case 'settings_destination_video':
         return 'Video';
-      case 'settings_experimental_suffix':
-        return ' (experimental)';
       case 'settings_search_hint':
         return 'Search settings';
       case 'settings_search_no_results':
@@ -159335,7 +159282,7 @@ extension on _StringsAr {
       case 'settings_destination_reading_controls':
         return 'أدوات التحكم بالقراءة';
       case 'settings_destination_sync_backup':
-        return 'المزامنة والنسخ الاحتياطي (تجريبي)';
+        return 'المزامنة والنسخ الاحتياطي';
       case 'settings_destination_system':
         return 'النظام';
       case 'settings_destination_system_summary':
@@ -159344,8 +159291,6 @@ extension on _StringsAr {
         return 'تتبع الوسائط';
       case 'settings_destination_video':
         return 'فيديو';
-      case 'settings_experimental_suffix':
-        return ' (تجريبي، قد يكون غير مستقر)';
       case 'settings_search_hint':
         return 'البحث في الإعدادات';
       case 'settings_search_no_results':
@@ -167274,7 +167219,7 @@ extension on _StringsDe {
       case 'settings_destination_reading_controls':
         return 'Lesesteuerung';
       case 'settings_destination_sync_backup':
-        return 'Sync & Backup (Experimentell)';
+        return 'Sync & Backup';
       case 'settings_destination_system':
         return 'System';
       case 'settings_destination_system_summary':
@@ -167283,8 +167228,6 @@ extension on _StringsDe {
         return 'Medienverfolgung';
       case 'settings_destination_video':
         return 'Video';
-      case 'settings_experimental_suffix':
-        return ' (experimentell, kann instabil sein)';
       case 'settings_search_hint':
         return 'Einstellungen durchsuchen';
       case 'settings_search_no_results':
@@ -175238,7 +175181,7 @@ extension on _StringsEs {
       case 'settings_destination_reading_controls':
         return 'Controles de lectura';
       case 'settings_destination_sync_backup':
-        return 'Sincronización y copia de seguridad (Experimental)';
+        return 'Sincronización y copia de seguridad';
       case 'settings_destination_system':
         return 'Sistema';
       case 'settings_destination_system_summary':
@@ -175247,8 +175190,6 @@ extension on _StringsEs {
         return 'Seguimiento de medios';
       case 'settings_destination_video':
         return 'Vídeo';
-      case 'settings_experimental_suffix':
-        return ' (experimental, puede ser inestable)';
       case 'settings_search_hint':
         return 'Buscar ajustes';
       case 'settings_search_no_results':
@@ -183199,7 +183140,7 @@ extension on _StringsFr {
       case 'settings_destination_reading_controls':
         return 'Commandes de lecture';
       case 'settings_destination_sync_backup':
-        return 'Sync et sauvegarde (Expérimental)';
+        return 'Sync et sauvegarde';
       case 'settings_destination_system':
         return 'Système';
       case 'settings_destination_system_summary':
@@ -183208,8 +183149,6 @@ extension on _StringsFr {
         return 'Suivi des médias';
       case 'settings_destination_video':
         return 'Vidéo';
-      case 'settings_experimental_suffix':
-        return ' (expérimental, peut être instable)';
       case 'settings_search_hint':
         return 'Rechercher dans les paramètres';
       case 'settings_search_no_results':
@@ -191150,7 +191089,7 @@ extension on _StringsId {
       case 'settings_destination_reading_controls':
         return 'Kontrol Baca';
       case 'settings_destination_sync_backup':
-        return 'Sinkronisasi & Cadangan (Eksperimental)';
+        return 'Sinkronisasi & Cadangan';
       case 'settings_destination_system':
         return 'Sistem';
       case 'settings_destination_system_summary':
@@ -191159,8 +191098,6 @@ extension on _StringsId {
         return 'Pelacakan media';
       case 'settings_destination_video':
         return 'Video';
-      case 'settings_experimental_suffix':
-        return ' (eksperimental, mungkin tidak stabil)';
       case 'settings_search_hint':
         return 'Cari pengaturan';
       case 'settings_search_no_results':
@@ -199092,7 +199029,7 @@ extension on _StringsIt {
       case 'settings_destination_reading_controls':
         return 'Controlli di lettura';
       case 'settings_destination_sync_backup':
-        return 'Sincronizzazione e backup (Sperimentale)';
+        return 'Sincronizzazione e backup';
       case 'settings_destination_system':
         return 'Sistema';
       case 'settings_destination_system_summary':
@@ -199101,8 +199038,6 @@ extension on _StringsIt {
         return 'Tracciamento media';
       case 'settings_destination_video':
         return 'Video';
-      case 'settings_experimental_suffix':
-        return ' (sperimentale, potrebbe essere instabile)';
       case 'settings_search_hint':
         return 'Cerca impostazioni';
       case 'settings_search_no_results':
@@ -207023,7 +206958,7 @@ extension on _StringsJa {
       case 'settings_destination_reading_controls':
         return '読書コントロール';
       case 'settings_destination_sync_backup':
-        return '同期とバックアップ（実験的）';
+        return '同期とバックアップ';
       case 'settings_destination_system':
         return 'システム';
       case 'settings_destination_system_summary':
@@ -207032,8 +206967,6 @@ extension on _StringsJa {
         return 'メディアトラッキング';
       case 'settings_destination_video':
         return '動画';
-      case 'settings_experimental_suffix':
-        return '（実験的機能、不安定な場合があります）';
       case 'settings_search_hint':
         return '設定を検索';
       case 'settings_search_no_results':
@@ -214914,7 +214847,7 @@ extension on _StringsKo {
       case 'settings_destination_reading_controls':
         return '읽기 컨트롤';
       case 'settings_destination_sync_backup':
-        return '동기화 및 백업 (실험적)';
+        return '동기화 및 백업';
       case 'settings_destination_system':
         return '시스템';
       case 'settings_destination_system_summary':
@@ -214923,8 +214856,6 @@ extension on _StringsKo {
         return '미디어 트래킹';
       case 'settings_destination_video':
         return '비디오';
-      case 'settings_experimental_suffix':
-        return ' (실험적, 불안정할 수 있음)';
       case 'settings_search_hint':
         return '설정 검색';
       case 'settings_search_no_results':
@@ -222830,7 +222761,7 @@ extension on _StringsNl {
       case 'settings_destination_reading_controls':
         return 'Leesbesturing';
       case 'settings_destination_sync_backup':
-        return 'Synchronisatie & back-up (Experimenteel)';
+        return 'Synchronisatie & back-up';
       case 'settings_destination_system':
         return 'Systeem';
       case 'settings_destination_system_summary':
@@ -222839,8 +222770,6 @@ extension on _StringsNl {
         return 'Media bijhouden';
       case 'settings_destination_video':
         return 'Video';
-      case 'settings_experimental_suffix':
-        return ' (experimenteel, mogelijk instabiel)';
       case 'settings_search_hint':
         return 'Instellingen zoeken';
       case 'settings_search_no_results':
@@ -230781,7 +230710,7 @@ extension on _StringsPtBr {
       case 'settings_destination_reading_controls':
         return 'Controles de leitura';
       case 'settings_destination_sync_backup':
-        return 'Sincronização e backup (Experimental)';
+        return 'Sincronização e backup';
       case 'settings_destination_system':
         return 'Sistema';
       case 'settings_destination_system_summary':
@@ -230790,8 +230719,6 @@ extension on _StringsPtBr {
         return 'Rastreamento de mídia';
       case 'settings_destination_video':
         return 'Vídeo';
-      case 'settings_experimental_suffix':
-        return ' (experimental, pode ser instável)';
       case 'settings_search_hint':
         return 'Buscar configurações';
       case 'settings_search_no_results':
@@ -238731,7 +238658,7 @@ extension on _StringsRu {
       case 'settings_destination_reading_controls':
         return 'Управление чтением';
       case 'settings_destination_sync_backup':
-        return 'Синхронизация и резервное копирование (экспериментально)';
+        return 'Синхронизация и резервное копирование';
       case 'settings_destination_system':
         return 'Система';
       case 'settings_destination_system_summary':
@@ -238740,8 +238667,6 @@ extension on _StringsRu {
         return 'Отслеживание медиа';
       case 'settings_destination_video':
         return 'Видео';
-      case 'settings_experimental_suffix':
-        return ' (экспериментально, возможна нестабильность)';
       case 'settings_search_hint':
         return 'Поиск настроек';
       case 'settings_search_no_results':
@@ -246667,7 +246592,7 @@ extension on _StringsTh {
       case 'settings_destination_reading_controls':
         return 'ตัวควบคุมการอ่าน';
       case 'settings_destination_sync_backup':
-        return 'ซิงค์และสำรองข้อมูล (ทดลอง)';
+        return 'ซิงค์และสำรองข้อมูล';
       case 'settings_destination_system':
         return 'ระบบ';
       case 'settings_destination_system_summary':
@@ -246676,8 +246601,6 @@ extension on _StringsTh {
         return 'ติดตามสื่อ';
       case 'settings_destination_video':
         return 'วิดีโอ';
-      case 'settings_experimental_suffix':
-        return ' (ทดลอง, อาจไม่เสถียร)';
       case 'settings_search_hint':
         return 'ค้นหาการตั้งค่า';
       case 'settings_search_no_results':
@@ -254597,7 +254520,7 @@ extension on _StringsTr {
       case 'settings_destination_reading_controls':
         return 'Okuma Kontrolleri';
       case 'settings_destination_sync_backup':
-        return 'Senkronizasyon ve Yedekleme (Deneysel)';
+        return 'Senkronizasyon ve Yedekleme';
       case 'settings_destination_system':
         return 'Sistem';
       case 'settings_destination_system_summary':
@@ -254606,8 +254529,6 @@ extension on _StringsTr {
         return 'Medya takibi';
       case 'settings_destination_video':
         return 'Video';
-      case 'settings_experimental_suffix':
-        return ' (deneysel, kararsız olabilir)';
       case 'settings_search_hint':
         return 'Ayarlarda ara';
       case 'settings_search_no_results':
@@ -262539,7 +262460,7 @@ extension on _StringsVi {
       case 'settings_destination_reading_controls':
         return 'Điều khiển đọc';
       case 'settings_destination_sync_backup':
-        return 'Đồng bộ & Sao lưu (Thử nghiệm)';
+        return 'Đồng bộ & Sao lưu';
       case 'settings_destination_system':
         return 'Hệ thống';
       case 'settings_destination_system_summary':
@@ -262548,8 +262469,6 @@ extension on _StringsVi {
         return 'Theo dõi nội dung';
       case 'settings_destination_video':
         return 'Video';
-      case 'settings_experimental_suffix':
-        return ' (thử nghiệm, có thể chưa ổn định)';
       case 'settings_search_hint':
         return 'Tìm kiếm cài đặt';
       case 'settings_search_no_results':
@@ -268390,7 +268309,7 @@ extension on _StringsZhCn {
       case 'desktop_clipboard_enabled':
         return '桌面剪贴板查词';
       case 'desktop_clipboard_enabled_hint':
-        return '监听剪贴板 + 全局快捷键弹出查词窗（桌面·实验性）';
+        return '监听剪贴板 + 全局快捷键弹出查词窗';
       case 'desktop_clipboard_window_mode':
         return '窗口置顶策略';
       case 'desktop_clipboard_window_mode_always':
@@ -270446,7 +270365,7 @@ extension on _StringsZhCn {
       case 'settings_destination_reading_controls':
         return '阅读操作';
       case 'settings_destination_sync_backup':
-        return '同步与备份（实验性）';
+        return '同步与备份';
       case 'settings_destination_system':
         return '系统';
       case 'settings_destination_system_summary':
@@ -270455,8 +270374,6 @@ extension on _StringsZhCn {
         return '媒体记录';
       case 'settings_destination_video':
         return '视频';
-      case 'settings_experimental_suffix':
-        return '（实验性）';
       case 'settings_search_hint':
         return '搜索设置';
       case 'settings_search_no_results':
@@ -276259,7 +276176,7 @@ extension on _StringsZhHk {
       case 'desktop_clipboard_enabled':
         return '桌面剪貼簿查詞';
       case 'desktop_clipboard_enabled_hint':
-        return '監聽剪貼簿＋全域快捷鍵彈出查詞視窗（桌面·實驗性）';
+        return '監聽剪貼簿＋全域快捷鍵彈出查詞視窗';
       case 'desktop_clipboard_window_mode':
         return '視窗置頂策略';
       case 'desktop_clipboard_window_mode_always':
@@ -278315,7 +278232,7 @@ extension on _StringsZhHk {
       case 'settings_destination_reading_controls':
         return '閱讀操作';
       case 'settings_destination_sync_backup':
-        return '同步與備份（實驗性）';
+        return '同步與備份';
       case 'settings_destination_system':
         return '系統';
       case 'settings_destination_system_summary':
@@ -278324,8 +278241,6 @@ extension on _StringsZhHk {
         return '媒體記錄';
       case 'settings_destination_video':
         return '影片';
-      case 'settings_experimental_suffix':
-        return '（實驗性）';
       case 'settings_search_hint':
         return '搜索設定';
       case 'settings_search_no_results':
