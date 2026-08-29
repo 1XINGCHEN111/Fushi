@@ -52,6 +52,11 @@ import 'package:fushi/src/utils/misc/error_log_service.dart';
 
 enum VideoDownloadSubtitlePolicy { none, bestEffort, required }
 
+/// 资源下载页的整理策略：每个任务落入以所选 Bangumi 名称命名的独立目录，
+/// 不在目录名后追加年份。
+const String kBangumiNamedVideoDownloadOrganizationPolicy =
+    'library-bangumi-folder';
+
 /// 自动选字幕时最多真下几条候选来做时长校验（BUG-1697）。
 ///
 /// 候选可能有几十条（多语言 × 多压制组），全下一遍既慢又是对来源站的滥用。
@@ -2009,6 +2014,9 @@ class VideoDownloadPipelineService {
           ? VideoOrganizationKind.movie
           : VideoOrganizationKind.episodic,
       defaultSeasonNumber: job.season ?? 1,
+      includeYearInFolder:
+          job.organizationPolicy !=
+          kBangumiNamedVideoDownloadOrganizationPolicy,
       sourceRoot: source.rootPath,
       pathMapping: mapping,
     );

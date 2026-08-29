@@ -53,8 +53,100 @@ String _subtitleOnlyExtension(String fileName) {
   return _subtitleOnlyExtensions.contains(extension) ? extension : '.srt';
 }
 
-const String kBangumiNamedVideoDownloadOrganizationPolicy =
-    'library-bangumi-folder';
+String animeDownloadCanonicalTitle(AnimeDownloadPipelineSelection selection) {
+  final String english = selection.media.english?.trim() ?? '';
+  final String native = selection.media.native?.trim() ?? '';
+  final BangumiSubject? bangumi = selection.bangumiSubject;
+  final String bangumiJapanese = bangumi?.name.trim() ?? '';
+  final String bangumiDisplay = bangumi?.displayName.trim() ?? '';
+  return bangumiDisplay.isNotEmpty
+      ? bangumiDisplay
+      : english.isNotEmpty
+      ? english
+      : bangumiJapanese.isNotEmpty
+      ? bangumiJapanese
+      : native.isNotEmpty
+      ? native
+      : selection.media.displayTitle;
+}
+
+String animeDownloadTaskRootPath(AnimeDownloadPipelineSelection selection) =>
+    p.join(
+      selection.source.rootPath,
+      _safeSubtitleOnlySegment(
+        animeDownloadCanonicalTitle(selection),
+        fallback: '动画',
+      ),
+    );
+
+int? animeDownloadSeason(AnimeDownloadPipelineSelection selection) {
+  final bool episodic =
+      selection.torrent.isBatch ||
+      selection.torrent.episode != null ||
+      (selection.media.episodes ?? 0) > 1;
+  if (!episodic) return null;
+  final int season = selection.torrent.season ?? 1;
+  return season > 0 ? season : 1;
+}
+
+typedef JimakuFileBytesDownloader = Future<List<int>> Function(JimakuFile file);
+
+/// 将用户已经配对的 Jimaku 字幕直接写入最终任务目录。下载函数由调用方提供，
+/// 使这里不依赖启动时缓存的 provider runtime，也便于验证命名和覆盖规则。
+Future<List<String>> downloadAnimeSelectionSubtitles({
+  required AnimeDownloadPipelineSelection selection,
+  required JimakuFileBytesDownloader downloader,
+}) async {
+  if (selection.jimakuEntry == null || selection.subtitles.isEmpty) {
+    throw StateError('所选集数没有可下载的 Jimaku 字幕。');
+  }
+  if (selection.source.transport != 'local') {
+    throw UnsupportedError('仅字幕下载目前需要选择本地视频来源。');
+  }
+  final String taskRoot = animeDownloadTaskRootPath(selection);
+  final int? season = animeDownloadSeason(selection);
+  final String directoryPath = season == null
+      ? taskRoot
+      : p.join(taskRoot, 'Season ${season.toString().padLeft(2, '0')}');
+  final Directory directory = Directory(directoryPath);
+  await directory.create(recursive: true);
+  final String safeTitle = p.basename(taskRoot);
+  final List<String> installed = <String>[];
+  for (final (int? selectedEpisode, JimakuFile file) in selection.subtitles) {
+    final int? episode = selectedEpisode ?? file.episode;
+    final String stem = episode == null
+        ? _safeSubtitleOnlySegment(
+            p.basenameWithoutExtension(file.name),
+            fallback: safeTitle,
+          )
+        : '$safeTitle - S${(season ?? 1).toString().padLeft(2, '0')}'
+              'E${episode.toString().padLeft(2, '0')}';
+    final String language = _safeSubtitleOnlySegment(
+      detectJimakuSubtitleLanguage(file.name).toLowerCase(),
+      fallback: 'ja',
+    );
+    final File target = File(
+      p.join(
+        directory.path,
+        '$stem.$language${_subtitleOnlyExtension(file.name)}',
+      ),
+    );
+    if (await target.exists()) {
+      final int length = await target.length();
+      if (length > 0) {
+        installed.add(target.path);
+        continue;
+      }
+    }
+    final List<int> bytes = await downloader(file);
+    if (bytes.isEmpty) {
+      throw StateError('Jimaku 字幕下载结果为空：${file.name}');
+    }
+    await target.writeAsBytes(bytes, flush: true);
+    installed.add(target.path);
+  }
+  return installed;
+}
 
 /// 把逐步选择界面的结果转换成 Fushi 原生持久下载任务。
 ///
@@ -73,20 +165,8 @@ VideoDownloadEnqueueRequest buildAnimeDownloadEnqueueRequest({
   final int? season = episodic
       ? (parsedSeason != null && parsedSeason > 0 ? parsedSeason : 1)
       : null;
-  final String english = selection.media.english?.trim() ?? '';
   final String native = selection.media.native?.trim() ?? '';
-  final BangumiSubject? bangumi = selection.bangumiSubject;
-  final String bangumiJapanese = bangumi?.name.trim() ?? '';
-  final String bangumiDisplay = bangumi?.displayName.trim() ?? '';
-  final String canonicalTitle = bangumiDisplay.isNotEmpty
-      ? bangumiDisplay
-      : english.isNotEmpty
-      ? english
-      : bangumiJapanese.isNotEmpty
-      ? bangumiJapanese
-      : native.isNotEmpty
-      ? native
-      : selection.media.displayTitle;
+  final String canonicalTitle = animeDownloadCanonicalTitle(selection);
   final List<String> aliases = animeTitleOptions(
     selection.media,
   ).where((String title) => title != canonicalTitle).toList(growable: false);
@@ -307,6 +387,11 @@ class _DownloadsPageState extends ConsumerState<DownloadsPage> {
     _DownloadsResourceReady dependencies,
     AnimeDownloadPipelineSelection selection,
   ) async {
+    // 任务提交时就建立最终 Bangumi 根目录；视频下载完成后整理器会把原始
+    // 容器直接移动进同一目录。这样视频-only 任务也不会等到整理阶段才出现目录。
+    await Directory(
+      animeDownloadTaskRootPath(selection),
+    ).create(recursive: true);
     if (selection.contentMode == AnimeDownloadContentMode.subtitle) {
       await _downloadAnimeSubtitlesOnly(selection);
       return;
@@ -335,96 +420,31 @@ class _DownloadsPageState extends ConsumerState<DownloadsPage> {
     AnimeDownloadPipelineSelection selection,
   ) async {
     final AppModel appModel = ref.read(appProvider);
-    final registry = appModel.videoSubtitleRegistry;
-    final JimakuEntry? entry = selection.jimakuEntry;
-    if (registry == null) {
-      throw StateError('Fushi 字幕下载服务尚未就绪。');
-    }
-    if (entry == null || selection.subtitles.isEmpty) {
-      throw StateError('所选集数没有可下载的 Jimaku 字幕。');
-    }
-    if (selection.source.transport != 'local') {
-      throw UnsupportedError('仅字幕下载目前需要选择本地视频来源。');
-    }
-
-    final bool episodic =
-        selection.torrent.isBatch ||
-        selection.torrent.episode != null ||
-        (selection.media.episodes ?? 0) > 1;
-    final int? season = episodic
-        ? ((selection.torrent.season ?? 1) > 0
-              ? selection.torrent.season ?? 1
-              : 1)
-        : null;
-    final String english = selection.media.english?.trim() ?? '';
-    final String native = selection.media.native?.trim() ?? '';
-    final String bangumi = selection.bangumiSubject?.displayName.trim() ?? '';
-    final String title = bangumi.isNotEmpty
-        ? bangumi
-        : english.isNotEmpty
-        ? english
-        : native.isNotEmpty
-        ? native
-        : selection.media.displayTitle;
-    final String safeTitle = _safeSubtitleOnlySegment(title, fallback: '动画');
-    final Directory directory = Directory(
-      p.joinAll(<String>[
-        selection.source.rootPath,
-        safeTitle,
-        if (season != null) 'Season ${season.toString().padLeft(2, '0')}',
-      ]),
+    final String apiKey = appModel.jimakuApiKey.trim();
+    if (apiKey.isEmpty) throw StateError('请先填写 Jimaku API Key。');
+    // 不复用启动时创建的 registry：用户在本页刚保存 API Key 时 runtime 正在异步
+    // 重建，旧 registry 可能还没有 Jimaku provider。这里用当前 Key 和当前代理配置
+    // 建立一次短生命周期客户端，确保点击下载立即可用。
+    final JimakuClient client = JimakuClient(
+      apiKey: apiKey,
+      client: await appModel.createDownloadHttpClient(),
     );
-    await directory.create(recursive: true);
-
-    for (final (int? selectedEpisode, JimakuFile file) in selection.subtitles) {
-      final int? episode = selectedEpisode ?? file.episode;
-      final candidate = videoSubtitleCandidateFromJimakuFile(
-        entry: entry,
-        file: file,
-        season: season,
-      );
-      final String? episodeStem = episode == null
-          ? null
-          : '$safeTitle - S${(season ?? 1).toString().padLeft(2, '0')}'
-                'E${episode.toString().padLeft(2, '0')}';
-      if (episodeStem != null) {
-        final String candidateLanguage = _safeSubtitleOnlySegment(
-          candidate.language.trim().isEmpty
-              ? 'und'
-              : candidate.language.trim().toLowerCase(),
-          fallback: 'und',
-        );
-        final File existingTarget = File(
-          p.join(
-            directory.path,
-            '$episodeStem.$candidateLanguage'
-            '${_subtitleOnlyExtension(candidate.fileName)}',
-          ),
-        );
-        if (await existingTarget.exists()) continue;
-      }
-      final download = await registry.download(candidate);
-      final String extension = _subtitleOnlyExtension(download.fileName);
-      final String downloadedLanguage = download.language.trim();
-      final String language = _safeSubtitleOnlySegment(
-        downloadedLanguage.isNotEmpty
-            ? downloadedLanguage.toLowerCase()
-            : candidate.language.trim().isNotEmpty
-            ? candidate.language.trim().toLowerCase()
-            : 'und',
-        fallback: 'und',
-      );
-      final String stem =
-          episodeStem ??
-          _safeSubtitleOnlySegment(
-            p.basenameWithoutExtension(download.fileName),
-            fallback: safeTitle,
+    try {
+      await downloadAnimeSelectionSubtitles(
+        selection: selection,
+        downloader: (JimakuFile file) async {
+          final List<int>? bytes = await client.downloadFile(
+            file.url,
+            throwOnError: true,
           );
-      final File target = File(
-        p.join(directory.path, '$stem.$language$extension'),
+          if (bytes == null) {
+            throw StateError('Jimaku 字幕下载失败：${file.name}');
+          }
+          return bytes;
+        },
       );
-      if (await target.exists()) continue;
-      await target.writeAsBytes(download.bytes, flush: true);
+    } finally {
+      client.close();
     }
   }
 

@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fushi/src/media/torrent/nyaa_client.dart';
 import 'package:fushi/src/media/tracking/bangumi_api_client.dart';
@@ -9,6 +11,7 @@ import 'package:fushi/src/media/video/metadata/video_metadata_models.dart';
 import 'package:fushi/src/pages/implementations/anime_download_dialog.dart';
 import 'package:fushi/src/pages/implementations/downloads_page.dart';
 import 'package:fushi_core/fushi_core.dart' show MediaSourceRow;
+import 'package:path/path.dart' as p;
 
 const MediaSourceRow _source = MediaSourceRow(
   id: 9,
@@ -219,5 +222,70 @@ void main() {
 
     expect(request.subtitlePolicy, VideoDownloadSubtitlePolicy.none);
     expect(request.subtitleSelections, isEmpty);
+  });
+
+  test('预下载字幕会先创建 Bangumi 独立目录并写入最终文件名', () async {
+    final Directory root = await Directory.systemTemp.createTemp(
+      'fushi-resource-subtitle-',
+    );
+    addTearDown(() async {
+      if (await root.exists()) await root.delete(recursive: true);
+    });
+    final MediaSourceRow source = MediaSourceRow(
+      id: 10,
+      label: 'Anime',
+      mediaKind: 'video',
+      transport: 'local',
+      rootPath: root.path,
+      mediaCount: 0,
+      recursive: true,
+      sortOrder: 0,
+      createdAt: 1,
+    );
+    const AniListMedia media = AniListMedia(
+      id: 42,
+      english: 'Hibike Euphonium',
+      episodes: 13,
+      seasonYear: 2015,
+    );
+    const BangumiSubject bangumi = BangumiSubject(
+      id: 12544,
+      type: 2,
+      name: '響け！ユーフォニアム',
+      nameCn: '吹响！上低音号',
+      platform: 'TV',
+      episodeCount: 13,
+      volumeCount: 0,
+    );
+    const JimakuEntry entry = JimakuEntry(id: 77, name: 'Hibike Euphonium');
+    const JimakuFile file = JimakuFile(
+      name: 'Hibike Euphonium S02E03.ja.ass',
+      url: 'https://jimaku.invalid/file',
+      size: 4,
+    );
+    final AnimeDownloadPipelineSelection selection =
+        AnimeDownloadPipelineSelection(
+          media: media,
+          torrent: _torrent('[Group] Hibike Euphonium S02E03 [1080p]'),
+          source: source,
+          includeSubtitles: true,
+          jimakuEntry: entry,
+          subtitles: const <(int?, JimakuFile)>[(3, file)],
+          preferredSubtitleLanguage: 'ja',
+          bangumiSubject: bangumi,
+        );
+
+    final List<String> installed = await downloadAnimeSelectionSubtitles(
+      selection: selection,
+      downloader: (JimakuFile _) async => <int>[1, 2, 3, 4],
+    );
+
+    expect(animeDownloadTaskRootPath(selection), p.join(root.path, '吹响！上低音号'));
+    expect(installed, hasLength(1));
+    expect(
+      installed.single,
+      p.join(root.path, '吹响！上低音号', 'Season 02', '吹响！上低音号 - S02E03.ja.ass'),
+    );
+    expect(await File(installed.single).readAsBytes(), <int>[1, 2, 3, 4]);
   });
 }

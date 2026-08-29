@@ -17,6 +17,7 @@ class VideoOrganizationRequest {
     required this.pathMapping,
     this.year,
     this.defaultSeasonNumber = 1,
+    this.includeYearInFolder = true,
   });
 
   final String torrentId;
@@ -24,6 +25,7 @@ class VideoOrganizationRequest {
   final int? year;
   final VideoOrganizationKind kind;
   final int defaultSeasonNumber;
+  final bool includeYearInFolder;
   final String sourceRoot;
   final VideoDownloadPathMapping pathMapping;
 }
@@ -85,7 +87,9 @@ class VideoDownloadOrganizer {
     }
     final String title = _safeSegment(request.title);
     final String displayRoot =
-        request.year == null ? title : '$title (${request.year})';
+        request.includeYearInFolder && request.year != null
+            ? '$title (${request.year})'
+            : title;
     final String? remoteRoot =
         request.pathMapping.localToRemote(request.sourceRoot);
     if (remoteRoot == null) {
