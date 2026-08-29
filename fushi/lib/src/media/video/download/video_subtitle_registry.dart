@@ -8,7 +8,7 @@ import 'package:fushi/src/media/video/subtitle/video_subtitle_provider.dart';
 
 class VideoSubtitleRegistry {
   VideoSubtitleRegistry(Iterable<VideoSubtitleProvider> providers)
-      : providers = List<VideoSubtitleProvider>.unmodifiable(providers);
+    : providers = List<VideoSubtitleProvider>.unmodifiable(providers);
 
   final List<VideoSubtitleProvider> providers;
 
@@ -32,22 +32,20 @@ class VideoSubtitleRegistry {
       });
     final List<ProviderBatchResult<VideoSubtitleCandidate>> results =
         await Future.wait(
-      applicable.map(
-        (VideoSubtitleProvider provider) async {
-          try {
-            return await provider.search(request);
-          } on Object catch (error) {
-            return ProviderBatchResult<VideoSubtitleCandidate>.failure(
-              ExternalProviderFailure.fromException(
-                providerId: provider.id,
-                operation: 'search',
-                error: error,
-              ),
-            );
-          }
-        },
-      ),
-    );
+          applicable.map((VideoSubtitleProvider provider) async {
+            try {
+              return await provider.search(request);
+            } on Object catch (error) {
+              return ProviderBatchResult<VideoSubtitleCandidate>.failure(
+                ExternalProviderFailure.fromException(
+                  providerId: provider.id,
+                  operation: 'search',
+                  error: error,
+                ),
+              );
+            }
+          }),
+        );
     final ProviderBatchResult<VideoSubtitleCandidate> merged =
         ProviderBatchResult.merge(results);
     return ProviderBatchResult<VideoSubtitleCandidate>(
@@ -72,9 +70,7 @@ class VideoSubtitleRegistry {
     return false;
   }
 
-  Future<VideoSubtitleDownload> download(
-    VideoSubtitleCandidate candidate,
-  ) {
+  Future<VideoSubtitleDownload> download(VideoSubtitleCandidate candidate) {
     VideoSubtitleProvider? provider;
     for (final VideoSubtitleProvider value in providers) {
       if (value.id == candidate.providerId) {
@@ -91,6 +87,26 @@ class VideoSubtitleRegistry {
       );
     }
     return provider.download(candidate);
+  }
+
+  /// 直接恢复用户此前明确选中的 provider 条目；不支持精确恢复的 provider 返回
+  /// null，由调用方回退到普通搜索。
+  Future<VideoSubtitleCandidate?> resolveRemoteId({
+    required String providerId,
+    required String remoteId,
+    int? season,
+    int? episode,
+  }) async {
+    for (final VideoSubtitleProvider provider in providers) {
+      if (provider.id != providerId) continue;
+      if (provider is! VideoSubtitleRemoteResolver) return null;
+      return (provider as VideoSubtitleRemoteResolver).resolveRemoteId(
+        remoteId,
+        season: season,
+        episode: episode,
+      );
+    }
+    return null;
   }
 
   void close() {

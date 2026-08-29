@@ -26,9 +26,9 @@ class VideoSubtitleSearchRequest {
     this.fingerprint,
     this.page = 1,
     this.anime,
-  })  : alternateTitles = List<String>.unmodifiable(alternateTitles),
-        languages = List<String>.unmodifiable(languages),
-        assert(page > 0);
+  }) : alternateTitles = List<String>.unmodifiable(alternateTitles),
+       languages = List<String>.unmodifiable(languages),
+       assert(page > 0);
 
   final VideoMediaReference? media;
   final String? query;
@@ -138,6 +138,19 @@ abstract interface class VideoSubtitleProvider {
   bool get allowsFreeProbeDownload;
 
   void close();
+}
+
+/// 可按持久化远端身份精确恢复字幕候选的 provider 能力。
+///
+/// 下载任务不能假设稍后用作品标题重新搜索仍能得到同一条字幕：用户可能手动选择了
+/// 未绑定当前外部 ID 的条目。实现此能力的 provider 可以直接用任务保存的稳定身份
+/// 恢复候选，同时仍不持久化有时效的下载 URL。
+abstract interface class VideoSubtitleRemoteResolver {
+  Future<VideoSubtitleCandidate?> resolveRemoteId(
+    String remoteId, {
+    int? season,
+    int? episode,
+  });
 }
 
 List<VideoSubtitleCandidate> deduplicateVideoSubtitles(

@@ -4,13 +4,14 @@ import 'package:fushi/src/media/video/jimaku_client.dart';
 import 'package:fushi/src/media/video/metadata/video_metadata_models.dart';
 import 'package:fushi/src/media/video/subtitle/video_subtitle_provider.dart';
 
-class JimakuVideoSubtitleProvider implements VideoSubtitleProvider {
+class JimakuVideoSubtitleProvider
+    implements VideoSubtitleProvider, VideoSubtitleRemoteResolver {
   JimakuVideoSubtitleProvider({
     required JimakuClient client,
     this.priority = 100,
     bool closesClient = false,
-  })  : _client = client,
-        _closesClient = closesClient;
+  }) : _client = client,
+       _closesClient = closesClient;
 
   final JimakuClient _client;
   final bool _closesClient;
@@ -65,7 +66,7 @@ class JimakuVideoSubtitleProvider implements VideoSubtitleProvider {
         );
         for (final JimakuFile file in files) {
           if (!file.isTextSubtitle) continue;
-          final String language = detectSubtitleLanguage(file.name) ?? '';
+          final String language = detectJimakuSubtitleLanguage(file.name);
           if (request.languages.isNotEmpty &&
               !request.languages.contains(language)) {
             continue;
@@ -88,8 +89,6 @@ class JimakuVideoSubtitleProvider implements VideoSubtitleProvider {
       );
     }
   }
-
-  @override
 
   /// Jimaku 无下载配额概念，允许为语言标签白下一次。
   @override
@@ -132,10 +131,65 @@ class JimakuVideoSubtitleProvider implements VideoSubtitleProvider {
   }
 
   @override
+  Future<VideoSubtitleCandidate?> resolveRemoteId(
+    String remoteId, {
+    int? season,
+    int? episode,
+  }) async {
+    final int separator = remoteId.indexOf(':');
+    if (separator <= 0 || separator == remoteId.length - 1) return null;
+    final int? entryId = int.tryParse(remoteId.substring(0, separator));
+    if (entryId == null) return null;
+    final String fileName = remoteId.substring(separator + 1);
+    try {
+      // 不带 episode 过滤：资源页允许用户手动配对，文件名集号也可能无法解析；
+      // 稳定身份已经精确到 entryId + 完整文件名，无需再猜一次集号。
+      final List<JimakuFile> files = await _client.listFiles(
+        entryId,
+        throwOnError: true,
+      );
+      JimakuFile? selected;
+      for (final JimakuFile file in files) {
+        if (file.name == fileName) {
+          selected = file;
+          break;
+        }
+      }
+      if (selected == null || !selected.isTextSubtitle) return null;
+      return _JimakuSubtitleCandidate(
+        entry: JimakuEntry(id: entryId, name: 'Jimaku $entryId'),
+        file: selected,
+        language: detectJimakuSubtitleLanguage(selected.name),
+        season: season,
+        providerPriority: priority,
+      );
+    } on Object catch (error) {
+      throw _jimakuFailure('resolve', error);
+    }
+  }
+
+  @override
   void close() {
     if (_closesClient) _client.close();
   }
 }
+
+/// 把资源页中用户明确选中的 Jimaku 文件转换为新版字幕候选身份。
+///
+/// 这里只使用稳定的 `entryId:fileName`，不依赖有时效的下载 URL；候选既可由资源
+/// 页立即下载，也可由持久任务稍后重新解析，符合新版任务的断点恢复契约。
+VideoSubtitleCandidate videoSubtitleCandidateFromJimakuFile({
+  required JimakuEntry entry,
+  required JimakuFile file,
+  int? season,
+  int providerPriority = 100,
+}) => _JimakuSubtitleCandidate(
+  entry: entry,
+  file: file,
+  language: detectJimakuSubtitleLanguage(file.name),
+  season: season,
+  providerPriority: providerPriority,
+);
 
 /// 把发现层的分类映射成 Jimaku 的 `anime` 硬过滤（BUG-1694）。
 ///
@@ -145,8 +199,7 @@ JimakuAnimeFilter _animeFilterFor(VideoSubtitleSearchRequest request) {
   return switch (request.media?.discoveryCategory) {
     VideoDiscoveryCategory.anime => JimakuAnimeFilter.anime,
     VideoDiscoveryCategory.movie ||
-    VideoDiscoveryCategory.tv =>
-      JimakuAnimeFilter.liveAction,
+    VideoDiscoveryCategory.tv => JimakuAnimeFilter.liveAction,
     null => JimakuAnimeFilter.either,
   };
 }
@@ -159,19 +212,19 @@ class _JimakuSubtitleCandidate extends VideoSubtitleCandidate {
     required int? season,
     required int providerPriority,
   }) : super(
-          providerId: 'jimaku',
-          remoteId: '${entry.id}:${file.name}',
-          fileName: file.name,
-          language: language,
-          providerPriority: providerPriority,
-          releaseName: entry.name,
-          season: season,
-          episode: file.episode,
-          fileSize: file.size,
-          uploadedAtMs: file.lastModifiedMs,
-          collectionId: '${entry.id}',
-          collectionLabel: entry.name,
-        );
+         providerId: 'jimaku',
+         remoteId: '${entry.id}:${file.name}',
+         fileName: file.name,
+         language: language,
+         providerPriority: providerPriority,
+         releaseName: entry.name,
+         season: season,
+         episode: file.episode,
+         fileSize: file.size,
+         uploadedAtMs: file.lastModifiedMs,
+         collectionId: '${entry.id}',
+         collectionLabel: entry.name,
+       );
 
   final JimakuEntry entry;
   final JimakuFile file;
@@ -193,9 +246,10 @@ ExternalProviderFailure _jimakuFailure(String operation, Object error) {
       401 => ExternalProviderFailureKind.unauthorized,
       403 => ExternalProviderFailureKind.forbidden,
       429 => ExternalProviderFailureKind.rateLimited,
-      _ => status == null
-          ? ExternalProviderFailureKind.invalidResponse
-          : ExternalProviderFailureKind.unavailable,
+      _ =>
+        status == null
+            ? ExternalProviderFailureKind.invalidResponse
+            : ExternalProviderFailureKind.unavailable,
     },
     message: status == null
         ? 'Jimaku returned an invalid response'

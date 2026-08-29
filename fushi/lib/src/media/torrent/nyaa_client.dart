@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:math' as math;
+import 'dart:typed_data';
 
 import 'package:html/dom.dart' as html_dom;
 import 'package:html/parser.dart' as html_parser;
@@ -28,7 +29,7 @@ enum NyaaFeedErrorCode {
 
 class NyaaFeedFormatException extends FormatException {
   NyaaFeedFormatException(this.code, String detail)
-      : super('Nyaa RSS ${code.name}: $detail');
+    : super('Nyaa RSS ${code.name}: $detail');
 
   final NyaaFeedErrorCode code;
 }
@@ -47,6 +48,22 @@ final RegExp _rangeBracketBlock = RegExp(r'\[[^\]]*\]|\([^)]*\)');
 
 /// 集号区间：`01-12` / `01~13` / `01〜13`（两数间以 `-`/`~`/`〜` 连接）。
 final RegExp _episodeRange = RegExp(r'(\d{1,4})\s*[-~〜]\s*(\d{1,4})');
+final RegExp _nyaaSizePattern = RegExp(
+  r'^\s*(\d+(?:\.\d+)?)\s*(B|KiB|MiB|GiB|TiB)\s*$',
+  caseSensitive: false,
+);
+final RegExp _nyaaPubDatePattern = RegExp(
+  r'(\d{1,2})\s+([A-Za-z]{3})\s+(\d{4})\s+(\d{1,2}):(\d{2})(?::(\d{2}))?\s*([+-]\d{4}|[A-Za-z]{1,3})?',
+);
+final RegExp _numericTimeZonePattern = RegExp(r'^[+-]\d{4}$');
+final RegExp _nyaaInfoHashPattern = RegExp(
+  r'^[0-9a-f]{40}$',
+  caseSensitive: false,
+);
+final RegExp _declaredCharsetPattern = RegExp(
+  r'''charset\s*=\s*['"]?([^;'"\s]+)''',
+  caseSensitive: false,
+);
 
 /// Nyaa RSS 搜索结果里的一个种子条目。
 class NyaaTorrent {
@@ -168,10 +185,7 @@ class NyaaTorrent {
 /// 把 nyaa 体积文本（`1.4 GiB` / `700.5 MiB` / `980 KiB` / `123 B`）换算成
 /// 字节数。纯函数，认不出返回 null。
 int? parseNyaaSize(String text) {
-  final RegExpMatch? m = RegExp(
-    r'^\s*(\d+(?:\.\d+)?)\s*(B|KiB|MiB|GiB|TiB)\s*$',
-    caseSensitive: false,
-  ).firstMatch(text);
+  final RegExpMatch? m = _nyaaSizePattern.firstMatch(text);
   if (m == null) return null;
   const Map<String, int> exponents = <String, int>{
     'b': 0,
@@ -203,17 +217,16 @@ const Map<String, int> _rfc822Months = <String, int>{
 /// 解析 RSS `pubDate` 的 RFC822 时间（如 `Fri, 03 Nov 2023 12:30:00 -0000`），
 /// 归一到 UTC。纯函数，解析失败返回 null。
 DateTime? parseNyaaPubDate(String raw) {
-  final RegExpMatch? m = RegExp(
-    r'(\d{1,2})\s+([A-Za-z]{3})\s+(\d{4})\s+(\d{1,2}):(\d{2})(?::(\d{2}))?\s*([+-]\d{4}|[A-Za-z]{1,3})?',
-  ).firstMatch(raw);
+  final RegExpMatch? m = _nyaaPubDatePattern.firstMatch(raw);
   if (m == null) return null;
   final int? month = _rfc822Months[m.group(2)!.toLowerCase()];
   if (month == null) return null;
   int offsetMinutes = 0;
   final String? zone = m.group(7);
-  if (zone != null && RegExp(r'^[+-]\d{4}$').hasMatch(zone)) {
+  if (zone != null && _numericTimeZonePattern.hasMatch(zone)) {
     final int sign = zone.startsWith('-') ? -1 : 1;
-    offsetMinutes = sign *
+    offsetMinutes =
+        sign *
         (int.parse(zone.substring(1, 3)) * 60 + int.parse(zone.substring(3)));
   }
   // 其它字母时区（GMT/UT 等）按 0 偏移处理；nyaa 实际恒发 `-0000`。
@@ -323,7 +336,7 @@ List<NyaaTorrent> _parseNyaaDocumentStrict(XmlDocument doc) {
     final String torrentUrl = requiredRssField('link');
     final String pageUrl = requiredRssField('guid');
     final String infoHash = requiredNyaaField('infoHash');
-    if (!RegExp(r'^[0-9a-fA-F]{40}$').hasMatch(infoHash)) {
+    if (!_nyaaInfoHashPattern.hasMatch(infoHash)) {
       throw NyaaFeedFormatException(
         NyaaFeedErrorCode.invalidField,
         'nyaa:infoHash must be 40 hexadecimal characters',
@@ -407,7 +420,7 @@ String _childText(XmlElement item, String local) {
 /// `1_4` 生肉 Raw）；filter：`0` 无过滤 / `2` 仅 trusted。
 class NyaaClient {
   NyaaClient({this.baseUrl = 'https://nyaa.si', http.Client? client})
-      : _client = client ?? createAppHttpIoClient();
+    : _client = client ?? createAppHttpIoClient();
 
   final String baseUrl;
   final http.Client _client;
@@ -442,10 +455,10 @@ class NyaaClient {
     if (res.statusCode != 200) {
       throw http.ClientException('HTTP ${res.statusCode}', uri);
     }
-    final String? declaredCharset = RegExp(
-      r'''charset\s*=\s*['"]?([^;'"\s]+)''',
-      caseSensitive: false,
-    ).firstMatch(res.headers['content-type'] ?? '')?.group(1)?.toLowerCase();
+    final String? declaredCharset = _declaredCharsetPattern
+        .firstMatch(res.headers['content-type'] ?? '')
+        ?.group(1)
+        ?.toLowerCase();
     if (declaredCharset != null &&
         declaredCharset != 'utf-8' &&
         declaredCharset != 'utf8') {
@@ -495,6 +508,18 @@ class NyaaClient {
     }
   }
 
+  /// Download the selected `.torrent` metadata for pre-submit file inspection.
+  /// The backend still receives the persistent magnet through Fushi's normal
+  /// task pipeline; this request is only used to render the pairing preview.
+  Future<Uint8List> downloadMetainfo(NyaaTorrent torrent) async {
+    final Uri uri = Uri.parse(torrent.torrentUrl);
+    final http.Response response = await _client.get(uri);
+    if (response.statusCode != 200) {
+      throw http.ClientException('HTTP ${response.statusCode}', uri);
+    }
+    return response.bodyBytes;
+  }
+
   void close() => _client.close();
 }
 
@@ -502,7 +527,9 @@ List<NyaaTorrent> _parseNyaaHtmlSearch(String body, Uri requestUri) {
   final html_dom.Document document = html_parser.parse(body);
   final html_dom.Element? table = document.querySelector('table.torrent-list');
   if (table == null) {
-    final bool noResults = document.querySelectorAll('h3').any(
+    final bool noResults = document
+        .querySelectorAll('h3')
+        .any(
           (html_dom.Element heading) =>
               heading.text.trim().toLowerCase() == 'no results found',
         );
@@ -528,13 +555,10 @@ List<NyaaTorrent> _parseNyaaHtmlSearch(String body, Uri requestUri) {
     final html_dom.Element? detailLink = cells[1]
         .querySelectorAll('a[href]')
         .cast<html_dom.Element?>()
-        .firstWhere(
-      (html_dom.Element? link) {
-        final String href = link?.attributes['href'] ?? '';
-        return Uri.tryParse(href)?.path.startsWith('/view/') == true;
-      },
-      orElse: () => null,
-    );
+        .firstWhere((html_dom.Element? link) {
+          final String href = link?.attributes['href'] ?? '';
+          return Uri.tryParse(href)?.path.startsWith('/view/') == true;
+        }, orElse: () => null);
     final html_dom.Element? magnetLink = cells[2]
         .querySelectorAll('a[href]')
         .cast<html_dom.Element?>()
@@ -549,11 +573,11 @@ List<NyaaTorrent> _parseNyaaHtmlSearch(String body, Uri requestUri) {
     final String? exactTopic = Uri.tryParse(magnet)?.queryParameters['xt'];
     final String infoHash =
         exactTopic?.toLowerCase().startsWith('urn:btih:') == true
-            ? exactTopic!.substring('urn:btih:'.length).toLowerCase()
-            : '';
+        ? exactTopic!.substring('urn:btih:'.length).toLowerCase()
+        : '';
     if (title.isEmpty ||
         detailLink == null ||
-        !RegExp(r'^[0-9a-f]{40}$').hasMatch(infoHash)) {
+        !_nyaaInfoHashPattern.hasMatch(infoHash)) {
       throw NyaaFeedFormatException(
         NyaaFeedErrorCode.missingField,
         'HTML torrent row is missing title, detail URL, or info hash',
@@ -570,15 +594,18 @@ List<NyaaTorrent> _parseNyaaHtmlSearch(String body, Uri requestUri) {
     }
     String categoryId = '';
     for (final html_dom.Element link in cells[0].querySelectorAll('a[href]')) {
-      final String? candidate =
-          Uri.tryParse(link.attributes['href'] ?? '')?.queryParameters['c'];
+      final String? candidate = Uri.tryParse(
+        link.attributes['href'] ?? '',
+      )?.queryParameters['c'];
       if (candidate?.isNotEmpty == true) {
         categoryId = candidate!;
         break;
       }
     }
-    final int? timestampSeconds =
-        int.tryParse(cells[4].attributes['data-timestamp'] ?? '');
+    final int? timestampSeconds = int.tryParse(
+      cells[4].attributes['data-timestamp'] ?? '',
+    );
+    final String sizeText = cells[3].text.trim();
     torrents.add(
       NyaaTorrent(
         title: title,
@@ -586,12 +613,14 @@ List<NyaaTorrent> _parseNyaaHtmlSearch(String body, Uri requestUri) {
         pageUrl: requestUri.resolve(detailLink.attributes['href']!).toString(),
         infoHash: infoHash,
         seeders: cells.length > 5 ? int.tryParse(cells[5].text.trim()) ?? 0 : 0,
-        leechers:
-            cells.length > 6 ? int.tryParse(cells[6].text.trim()) ?? 0 : 0,
-        downloads:
-            cells.length > 7 ? int.tryParse(cells[7].text.trim()) ?? 0 : 0,
-        sizeText: cells[3].text.trim(),
-        sizeBytes: parseNyaaSize(cells[3].text.trim()),
+        leechers: cells.length > 6
+            ? int.tryParse(cells[6].text.trim()) ?? 0
+            : 0,
+        downloads: cells.length > 7
+            ? int.tryParse(cells[7].text.trim()) ?? 0
+            : 0,
+        sizeText: sizeText,
+        sizeBytes: parseNyaaSize(sizeText),
         categoryId: categoryId,
         trusted: row.classes.contains('success'),
         remake: row.classes.contains('danger'),

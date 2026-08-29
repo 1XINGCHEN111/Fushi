@@ -1,10 +1,20 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:path/path.dart' as p;
 
 import 'package:fushi/src/media/manga/online/mokuro_moe_tasks_section.dart';
+import 'package:fushi/src/media/torrent/nyaa_resource_provider.dart';
+import 'package:fushi/src/media/video/discovery/video_discovery_provider.dart';
 import 'package:fushi/src/media/video/download/video_download_backend_identity.dart';
 import 'package:fushi/src/media/video/download/video_download_pipeline_service.dart';
 import 'package:fushi/src/media/video/download/video_resource_registry.dart';
+import 'package:fushi/src/media/video/jimaku_client.dart';
+import 'package:fushi/src/media/video/jimaku_subtitle_provider.dart';
+import 'package:fushi/src/media/video/metadata/video_metadata_models.dart';
+import 'package:fushi/src/media/tracking/bangumi_api_client.dart'
+    show BangumiSubject;
 import 'package:fushi/src/models/app_model.dart';
 import 'package:fushi/src/pages/implementations/anime_download_dialog.dart';
 import 'package:fushi/src/pages/implementations/manual_download_task_dialog.dart';
@@ -13,7 +23,6 @@ import 'package:fushi/src/pages/implementations/downloads_resource_gap.dart';
 import 'package:fushi/src/pages/implementations/media_sources_dialog.dart';
 import 'package:fushi/src/pages/implementations/torrent_detail_dialog.dart';
 import 'package:fushi/src/pages/implementations/torrent_settings_section.dart';
-import 'package:fushi/src/pages/implementations/video_discovery_acquisition_dialogs.dart';
 import 'package:fushi/src/pages/implementations/video_download_jobs_panel.dart';
 import 'package:fushi/src/pages/implementations/video_download_subscriptions_panel.dart';
 import 'package:fushi/src/pages/implementations/video_external_provider_settings_section.dart';
@@ -22,6 +31,115 @@ import 'package:fushi/src/settings/settings_schema_services.dart';
 import 'package:fushi/utils.dart';
 import 'package:fushi_core/fushi_core.dart'
     show MediaSourceRow, VideoDownloadJobRow;
+
+String _safeSubtitleOnlySegment(String value, {required String fallback}) {
+  final String cleaned = safeWindowsFileName(
+    value,
+  ).replaceAll(_trailingWindowsPathCharacters, '').trim();
+  return cleaned.isEmpty ? fallback : cleaned;
+}
+
+final RegExp _trailingWindowsPathCharacters = RegExp(r'[. ]+$');
+const Set<String> _subtitleOnlyExtensions = <String>{
+  '.srt',
+  '.ass',
+  '.ssa',
+  '.vtt',
+  '.sub',
+};
+
+String _subtitleOnlyExtension(String fileName) {
+  final String extension = p.extension(fileName).toLowerCase();
+  return _subtitleOnlyExtensions.contains(extension) ? extension : '.srt';
+}
+
+const String kBangumiNamedVideoDownloadOrganizationPolicy =
+    'library-bangumi-folder';
+
+/// 把逐步选择界面的结果转换成 Fushi 原生持久下载任务。
+///
+/// 类型只依据 Nyaa 标题的本地解析和 AniList 集数，不依赖远端条目的类型字段；
+/// 标题优先英文，缺少英文时使用日文原名。
+VideoDownloadEnqueueRequest buildAnimeDownloadEnqueueRequest({
+  required AnimeDownloadPipelineSelection selection,
+  required VideoDownloadBackendTarget backendTarget,
+  bool subtitlesPreinstalled = false,
+}) {
+  final bool episodic =
+      selection.torrent.isBatch ||
+      selection.torrent.episode != null ||
+      (selection.media.episodes ?? 0) > 1;
+  final int? parsedSeason = selection.torrent.season;
+  final int? season = episodic
+      ? (parsedSeason != null && parsedSeason > 0 ? parsedSeason : 1)
+      : null;
+  final String english = selection.media.english?.trim() ?? '';
+  final String native = selection.media.native?.trim() ?? '';
+  final BangumiSubject? bangumi = selection.bangumiSubject;
+  final String bangumiJapanese = bangumi?.name.trim() ?? '';
+  final String bangumiDisplay = bangumi?.displayName.trim() ?? '';
+  final String canonicalTitle = bangumiDisplay.isNotEmpty
+      ? bangumiDisplay
+      : english.isNotEmpty
+      ? english
+      : bangumiJapanese.isNotEmpty
+      ? bangumiJapanese
+      : native.isNotEmpty
+      ? native
+      : selection.media.displayTitle;
+  final List<String> aliases = animeTitleOptions(
+    selection.media,
+  ).where((String title) => title != canonicalTitle).toList(growable: false);
+  final VideoMediaReference media = VideoMediaReference(
+    providerId: 'anilist',
+    mediaId: '${selection.media.id}',
+    mediaKind: episodic
+        ? VideoMetadataMediaKind.tv
+        : VideoMetadataMediaKind.movie,
+    discoveryCategory: VideoDiscoveryCategory.anime,
+    title: canonicalTitle,
+    originalTitle: native.isEmpty ? null : native,
+    aliases: aliases,
+    year: selection.media.seasonYear,
+    season: season,
+    anilistId: selection.media.id,
+  );
+  final List<VideoDownloadSubtitleSelection> subtitles =
+      subtitlesPreinstalled || selection.jimakuEntry == null
+      ? const <VideoDownloadSubtitleSelection>[]
+      : <VideoDownloadSubtitleSelection>[
+          for (final (int? episode, JimakuFile file) in selection.subtitles)
+            VideoDownloadSubtitleSelection(
+              candidate: videoSubtitleCandidateFromJimakuFile(
+                entry: selection.jimakuEntry!,
+                file: file,
+                season: season,
+              ),
+              season: season,
+              episode: episode,
+            ),
+        ];
+  return VideoDownloadEnqueueRequest(
+    media: media,
+    resource: videoResourceCandidateFromNyaaTorrent(selection.torrent),
+    backendTarget: backendTarget,
+    targetSourceId: selection.source.id,
+    subtitlePolicy: selection.includeSubtitles && !subtitlesPreinstalled
+        ? VideoDownloadSubtitlePolicy.bestEffort
+        : VideoDownloadSubtitlePolicy.none,
+    subtitleSelections: subtitles,
+    fileSelections: <VideoDownloadFileSelection>[
+      for (final AnimeDownloadFileSelection file in selection.fileSelections)
+        VideoDownloadFileSelection(
+          relativePath: file.path,
+          sizeBytes: file.sizeBytes,
+          selected: file.selected,
+        ),
+    ],
+    organizationPolicy: kBangumiNamedVideoDownloadOrganizationPolicy,
+    coverUrl: selection.media.coverUrl,
+  );
+}
 
 /// 独立「下载」页（顶层底栏 tab）＝统一下载中心：番剧下载流程 **直接内联**
 /// 铺在页面上（搜番 → 选种 → 配字幕 → 推送 + 下载任务），任务 tab 同时列出
@@ -95,7 +213,6 @@ class _DownloadsPageState extends ConsumerState<DownloadsPage> {
     );
     if (gap == null && registry != null && pipeline != null && target != null) {
       return _DownloadsResourceReady(
-        registry: registry,
         pipeline: pipeline,
         target: target,
         sources: sources,
@@ -103,9 +220,7 @@ class _DownloadsPageState extends ConsumerState<DownloadsPage> {
       );
     }
     // gap == null 时上面三个必然非空，这条只是让类型收敛。
-    return _DownloadsResourceBlocked(
-      gap ?? const DownloadsResourceNoBackend(),
-    );
+    return _DownloadsResourceBlocked(gap ?? const DownloadsResourceNoBackend());
   }
 
   /// 「缺受管视频来源」空态的动作：就地开来源管理对话框加一个本地视频文件夹，
@@ -141,58 +256,176 @@ class _DownloadsPageState extends ConsumerState<DownloadsPage> {
   Widget _buildResourceTab() {
     return FutureBuilder<_DownloadsResourceState>(
       future: _resourceDependencies,
-      builder: (
-        BuildContext context,
-        AsyncSnapshot<_DownloadsResourceState> snapshot,
-      ) {
-        if (snapshot.connectionState != ConnectionState.done) {
-          return const Center(child: CircularProgressIndicator());
-        }
-        final _DownloadsResourceState? state = snapshot.data;
-        if (state is! _DownloadsResourceReady) {
-          final DownloadsResourceGap gap = state is _DownloadsResourceBlocked
-              ? state.gap
-              : const DownloadsResourceNoBackend();
-          return switch (gap) {
-            DownloadsResourceNoManagedSource() => _buildResourceGate(
-                message: t.download_no_managed_video_source,
-                icon: Icons.create_new_folder_outlined,
-                label: t.download_add_video_source,
-                onPressed: _addVideoSource,
-              ),
-            // 空态动作直接开配置引导（同 [_addVideoSource] 的就地补齐姿态）：
-            // 「后端没配」缺的就是那三两个字段，不该把用户支到整页设置里找。
-            DownloadsResourceNoBackend(detail: final String? detail) =>
-              _buildResourceGate(
-                message: detail ?? t.download_backend_not_configured,
-                icon: Icons.download_outlined,
-                label: t.download_backend_setup_start,
-                onPressed: _openBackendSetup,
-              ),
-          };
-        }
-        final _DownloadsResourceReady dependencies = state;
-        return VideoResourceSearchSurface(
-          key: const ValueKey<String>('downloads-resource-search'),
-          registry: dependencies.registry,
-          sources: dependencies.sources,
-          defaultSourceId: dependencies.defaultSourceId,
-          // 页面打开之后后端才变得不可用时，surface 的失败态也要能就地补齐——
-          // 与上面两个空态门同一个出口，不再多一套写法。
-          onConfigureBackend: (BuildContext _) => _openBackendSetup(),
-          onSubmit: (VideoDiscoveryDownloadSelection selection) =>
-              dependencies.pipeline.enqueue(
-            VideoDownloadEnqueueRequest(
-              media: selection.media,
-              resource: selection.resource,
-              backendTarget: dependencies.target,
-              targetSourceId: selection.source.id,
-              subtitlePolicy: selection.subtitlePolicy,
-            ),
+      builder:
+          (
+            BuildContext context,
+            AsyncSnapshot<_DownloadsResourceState> snapshot,
+          ) {
+            if (snapshot.connectionState != ConnectionState.done) {
+              return const Center(child: CircularProgressIndicator());
+            }
+            final _DownloadsResourceState? state = snapshot.data;
+            if (state is! _DownloadsResourceReady) {
+              final DownloadsResourceGap gap =
+                  state is _DownloadsResourceBlocked
+                  ? state.gap
+                  : const DownloadsResourceNoBackend();
+              return switch (gap) {
+                DownloadsResourceNoManagedSource() => _buildResourceGate(
+                  message: t.download_no_managed_video_source,
+                  icon: Icons.create_new_folder_outlined,
+                  label: t.download_add_video_source,
+                  onPressed: _addVideoSource,
+                ),
+                // 空态动作直接开配置引导（同 [_addVideoSource] 的就地补齐姿态）：
+                // 「后端没配」缺的就是那三两个字段，不该把用户支到整页设置里找。
+                DownloadsResourceNoBackend(detail: final String? detail) =>
+                  _buildResourceGate(
+                    message: detail ?? t.download_backend_not_configured,
+                    icon: Icons.download_outlined,
+                    label: t.download_backend_setup_start,
+                    onPressed: _openBackendSetup,
+                  ),
+              };
+            }
+            final _DownloadsResourceReady dependencies = state;
+            return AnimeDownloadDialog(
+              key: const ValueKey<String>('downloads-resource-workflow'),
+              embedded: true,
+              showTasks: false,
+              resourceWorkspace: true,
+              pipelineSources: dependencies.sources,
+              defaultPipelineSourceId: dependencies.defaultSourceId,
+              onPipelineSubmit: (AnimeDownloadPipelineSelection selection) =>
+                  _enqueueAnimeSelection(dependencies, selection),
+            );
+          },
+    );
+  }
+
+  Future<void> _enqueueAnimeSelection(
+    _DownloadsResourceReady dependencies,
+    AnimeDownloadPipelineSelection selection,
+  ) async {
+    if (selection.contentMode == AnimeDownloadContentMode.subtitle) {
+      await _downloadAnimeSubtitlesOnly(selection);
+      return;
+    }
+    final bool subtitlesPreinstalled =
+        selection.contentMode == AnimeDownloadContentMode.both &&
+        selection.includeSubtitles &&
+        selection.jimakuEntry != null &&
+        selection.subtitles.isNotEmpty;
+    // 用户已经在配对页明确选好了字幕：先下载并按最终 Bangumi/季度/集数名称
+    // 落盘，再创建动画任务。视频完成后用同一命名规则进入这个目录；管线不再
+    // 重复下载一次字幕。
+    if (subtitlesPreinstalled) {
+      await _downloadAnimeSubtitlesOnly(selection);
+    }
+    await dependencies.pipeline.enqueue(
+      buildAnimeDownloadEnqueueRequest(
+        selection: selection,
+        backendTarget: dependencies.target,
+        subtitlesPreinstalled: subtitlesPreinstalled,
+      ),
+    );
+  }
+
+  Future<void> _downloadAnimeSubtitlesOnly(
+    AnimeDownloadPipelineSelection selection,
+  ) async {
+    final AppModel appModel = ref.read(appProvider);
+    final registry = appModel.videoSubtitleRegistry;
+    final JimakuEntry? entry = selection.jimakuEntry;
+    if (registry == null) {
+      throw StateError('Fushi 字幕下载服务尚未就绪。');
+    }
+    if (entry == null || selection.subtitles.isEmpty) {
+      throw StateError('所选集数没有可下载的 Jimaku 字幕。');
+    }
+    if (selection.source.transport != 'local') {
+      throw UnsupportedError('仅字幕下载目前需要选择本地视频来源。');
+    }
+
+    final bool episodic =
+        selection.torrent.isBatch ||
+        selection.torrent.episode != null ||
+        (selection.media.episodes ?? 0) > 1;
+    final int? season = episodic
+        ? ((selection.torrent.season ?? 1) > 0
+              ? selection.torrent.season ?? 1
+              : 1)
+        : null;
+    final String english = selection.media.english?.trim() ?? '';
+    final String native = selection.media.native?.trim() ?? '';
+    final String bangumi = selection.bangumiSubject?.displayName.trim() ?? '';
+    final String title = bangumi.isNotEmpty
+        ? bangumi
+        : english.isNotEmpty
+        ? english
+        : native.isNotEmpty
+        ? native
+        : selection.media.displayTitle;
+    final String safeTitle = _safeSubtitleOnlySegment(title, fallback: '动画');
+    final Directory directory = Directory(
+      p.joinAll(<String>[
+        selection.source.rootPath,
+        safeTitle,
+        if (season != null) 'Season ${season.toString().padLeft(2, '0')}',
+      ]),
+    );
+    await directory.create(recursive: true);
+
+    for (final (int? selectedEpisode, JimakuFile file) in selection.subtitles) {
+      final int? episode = selectedEpisode ?? file.episode;
+      final candidate = videoSubtitleCandidateFromJimakuFile(
+        entry: entry,
+        file: file,
+        season: season,
+      );
+      final String? episodeStem = episode == null
+          ? null
+          : '$safeTitle - S${(season ?? 1).toString().padLeft(2, '0')}'
+                'E${episode.toString().padLeft(2, '0')}';
+      if (episodeStem != null) {
+        final String candidateLanguage = _safeSubtitleOnlySegment(
+          candidate.language.trim().isEmpty
+              ? 'und'
+              : candidate.language.trim().toLowerCase(),
+          fallback: 'und',
+        );
+        final File existingTarget = File(
+          p.join(
+            directory.path,
+            '$episodeStem.$candidateLanguage'
+            '${_subtitleOnlyExtension(candidate.fileName)}',
           ),
         );
-      },
-    );
+        if (await existingTarget.exists()) continue;
+      }
+      final download = await registry.download(candidate);
+      final String extension = _subtitleOnlyExtension(download.fileName);
+      final String downloadedLanguage = download.language.trim();
+      final String language = _safeSubtitleOnlySegment(
+        downloadedLanguage.isNotEmpty
+            ? downloadedLanguage.toLowerCase()
+            : candidate.language.trim().isNotEmpty
+            ? candidate.language.trim().toLowerCase()
+            : 'und',
+        fallback: 'und',
+      );
+      final String stem =
+          episodeStem ??
+          _safeSubtitleOnlySegment(
+            p.basenameWithoutExtension(download.fileName),
+            fallback: safeTitle,
+          );
+      final File target = File(
+        p.join(directory.path, '$stem.$language$extension'),
+      );
+      if (await target.exists()) continue;
+      await target.writeAsBytes(download.bytes, flush: true);
+    }
   }
 
   /// 「资源」标签的空态：一句说清缺什么 + 一个直接补上它的按钮。
@@ -284,212 +517,218 @@ class _DownloadsPageState extends ConsumerState<DownloadsPage> {
       _resourceDependencies = _loadResourceDependencies(appModel);
     }
     return DefaultTabController(
-        initialIndex:
-            widget.initialShowSettings ? 3 : widget.initialTabIndex.clamp(0, 2),
-        length: 4,
-        child: Builder(
-          builder: (BuildContext tabContext) => Scaffold(
-            // BUG-1003：内联下载流程把 apikey/搜番等输入框全放在页面上半部，下载任务折叠区
-            // 贴底、中段结果列表是唯一的 Expanded。默认 resizeToAvoidBottomInset:true 时，
-            // 手机软键盘弹出会压掉 body 高度、顶掉贴底任务区，使其爬到顶部输入框边上（看似
-            // 「下载任务被输入框挤上去」）。关掉 inset 让键盘只覆盖下半部结果/任务区（打字时
-            // 本就不看），顶部输入框保持可见、布局不反流。
-            resizeToAvoidBottomInset: false,
-            // 统一门头（2026-08-13）：与书 / 漫画 / 视频 / 游戏库页同一范式——
-            // FushiPageHeader.customTitle（左对齐分段条）+ FushiIconButton 动作，
-            // 替代旧 AppBar + 居中 TabBar 的独有形态（本页此前是全 app 唯一还在
-            // 用 AppBar 门头的顶层 tab）。分段条与 TabBarView 由同一个
-            // TabController 驱动，横滑切页不受影响；旧 TabBar 的「窄屏可滚不裁
-            // 字」（BUG-1184）由 FushiSegmentedStrip 的同一契约承接。作为 home
-            // tab 时外层已有 SafeArea，这里的 SafeArea 兜的是独立 push 进来
-            // （设置/对话框入口）失去 AppBar 后的状态栏避让，双层无副作用。
-            body: SafeArea(
-              bottom: false,
-              child: Column(
-                children: <Widget>[
-                  if (!isCupertinoPlatform(context)) _buildHeader(tabContext),
-                  Expanded(
-                    child: TabBarView(
-                      children: <Widget>[
-                        _buildResourceTab(),
-                        // 任务 tab：漫画目录卷下载队列（有任务才占位）+ torrent 任务，
-                        // 统一下载中心的同屏任务视图。
-                        //
-                        // 「同屏只留一份空态」由**旧计划列表**按需折叠实现（BUG-1512）：
-                        // 新版任务面板常驻并自带空态与实时指标，旧 AnimeDownloadDialog
-                        // 只在真有旧任务时按比例分高度，没有就整块收成 0 高。
-                        LayoutBuilder(
-                          builder: (BuildContext context,
-                              BoxConstraints constraints) {
-                            final double legacyHeight =
-                                (constraints.maxHeight * 0.38).clamp(180, 360);
-                            return Column(
-                              children: <Widget>[
-                                const MokuroMoeTasksSection(),
-                                Expanded(
-                                  child: VideoDownloadJobsPanel.database(
-                                    database: ref.read(appProvider).database,
-                                    metricsLoader: ref
+      initialIndex: widget.initialShowSettings
+          ? 3
+          : widget.initialTabIndex.clamp(0, 2),
+      length: 4,
+      child: Builder(
+        builder: (BuildContext tabContext) => Scaffold(
+          // BUG-1003：内联下载流程把 apikey/搜番等输入框全放在页面上半部，下载任务折叠区
+          // 贴底、中段结果列表是唯一的 Expanded。默认 resizeToAvoidBottomInset:true 时，
+          // 手机软键盘弹出会压掉 body 高度、顶掉贴底任务区，使其爬到顶部输入框边上（看似
+          // 「下载任务被输入框挤上去」）。关掉 inset 让键盘只覆盖下半部结果/任务区（打字时
+          // 本就不看），顶部输入框保持可见、布局不反流。
+          resizeToAvoidBottomInset: false,
+          // 统一门头（2026-08-13）：与书 / 漫画 / 视频 / 游戏库页同一范式——
+          // FushiPageHeader.customTitle（左对齐分段条）+ FushiIconButton 动作，
+          // 替代旧 AppBar + 居中 TabBar 的独有形态（本页此前是全 app 唯一还在
+          // 用 AppBar 门头的顶层 tab）。分段条与 TabBarView 由同一个
+          // TabController 驱动，横滑切页不受影响；旧 TabBar 的「窄屏可滚不裁
+          // 字」（BUG-1184）由 FushiSegmentedStrip 的同一契约承接。作为 home
+          // tab 时外层已有 SafeArea，这里的 SafeArea 兜的是独立 push 进来
+          // （设置/对话框入口）失去 AppBar 后的状态栏避让，双层无副作用。
+          body: SafeArea(
+            bottom: false,
+            child: Column(
+              children: <Widget>[
+                if (!isCupertinoPlatform(context)) _buildHeader(tabContext),
+                Expanded(
+                  child: TabBarView(
+                    children: <Widget>[
+                      _buildResourceTab(),
+                      // 任务 tab：漫画目录卷下载队列（有任务才占位）+ torrent 任务，
+                      // 统一下载中心的同屏任务视图。
+                      //
+                      // 「同屏只留一份空态」由**旧计划列表**按需折叠实现（BUG-1512）：
+                      // 新版任务面板常驻并自带空态与实时指标，旧 AnimeDownloadDialog
+                      // 只在真有旧任务时按比例分高度，没有就整块收成 0 高。
+                      LayoutBuilder(
+                        builder: (BuildContext context, BoxConstraints constraints) {
+                          final double legacyHeight =
+                              (constraints.maxHeight * 0.38).clamp(180, 360);
+                          return Column(
+                            children: <Widget>[
+                              const MokuroMoeTasksSection(),
+                              Expanded(
+                                child: VideoDownloadJobsPanel.database(
+                                  database: ref.read(appProvider).database,
+                                  metricsLoader: ref
+                                      .read(appProvider)
+                                      .videoDownloadPipelineService
+                                      ?.loadTaskSnapshots,
+                                  onRetry: (VideoDownloadJobRow job) async {
+                                    await ref
                                         .read(appProvider)
                                         .videoDownloadPipelineService
-                                        ?.loadTaskSnapshots,
-                                    onRetry: (VideoDownloadJobRow job) async {
-                                      await ref
-                                          .read(appProvider)
-                                          .videoDownloadPipelineService
-                                          ?.retryJob(job.jobId);
-                                    },
-                                    onResume: (VideoDownloadJobRow job) async {
-                                      await ref
-                                          .read(appProvider)
-                                          .videoDownloadPipelineService
-                                          ?.resumeJob(job.jobId);
-                                    },
-                                    onCancel: (VideoDownloadJobRow job) async {
-                                      await ref
-                                          .read(appProvider)
-                                          .videoDownloadPipelineService
-                                          ?.cancelJob(job.jobId);
-                                    },
-                                    onOpenDetails:
-                                        (VideoDownloadJobRow job) async {
-                                      final appModel = ref.read(appProvider);
-                                      final pipeline =
-                                          appModel.videoDownloadPipelineService;
-                                      final details = pipeline != null
-                                          ? await pipeline
-                                              .loadJobDetails(job.jobId)
-                                          : buildPersistedVideoDownloadJobDetails(
-                                              job,
-                                              await appModel.database
-                                                  .getVideoDownloadJobFiles(
-                                                      job.jobId),
-                                            );
-                                      if (!context.mounted) return;
-                                      final String torrentId =
-                                          (job.backendTaskId ??
-                                                  job.torrentHash ??
-                                                  '')
-                                              .trim();
-                                      await showAppDialog<void>(
-                                        context: context,
-                                        builder: (BuildContext dialogContext) =>
-                                            TorrentTaskDetailDialog.task(
-                                          torrentId: torrentId,
-                                          title: job.title,
-                                          torrentTitle: job.resourceTitle
-                                                      ?.trim()
-                                                      .isNotEmpty ==
-                                                  true
-                                              ? job.resourceTitle!.trim()
-                                              : job.title,
-                                          backendOverride: details.backend,
-                                          liveDataAbsence:
-                                              details.liveDataAbsence,
-                                          initialSnapshot: details.snapshot,
-                                          initialFiles: details.files,
-                                        ),
-                                      );
-                                    },
-                                    onSetPriority: (VideoDownloadJobRow job,
-                                        int priority) async {
-                                      final pipeline = ref
-                                          .read(appProvider)
-                                          .videoDownloadPipelineService;
-                                      await pipeline?.setJobPriority(
-                                        job.jobId,
-                                        priority,
-                                      );
-                                    },
-                                    locationLoader:
-                                        (VideoDownloadJobRow job) async {
-                                      final pipeline = ref
-                                          .read(appProvider)
-                                          .videoDownloadPipelineService;
-                                      return pipeline == null
-                                          ? null
-                                          : await pipeline
-                                              .resolveJobLocation(job.jobId);
-                                    },
-                                    onDelete: (job,
-                                        {required bool deleteFiles}) async {
-                                      final appModel = ref.read(appProvider);
-                                      final pipeline =
-                                          appModel.videoDownloadPipelineService;
-                                      if (pipeline != null) {
-                                        await pipeline.deleteJob(
+                                        ?.retryJob(job.jobId);
+                                  },
+                                  onResume: (VideoDownloadJobRow job) async {
+                                    await ref
+                                        .read(appProvider)
+                                        .videoDownloadPipelineService
+                                        ?.resumeJob(job.jobId);
+                                  },
+                                  onCancel: (VideoDownloadJobRow job) async {
+                                    await ref
+                                        .read(appProvider)
+                                        .videoDownloadPipelineService
+                                        ?.cancelJob(job.jobId);
+                                  },
+                                  onOpenDetails: (VideoDownloadJobRow job) async {
+                                    final appModel = ref.read(appProvider);
+                                    final pipeline =
+                                        appModel.videoDownloadPipelineService;
+                                    final details = pipeline != null
+                                        ? await pipeline.loadJobDetails(
+                                            job.jobId,
+                                          )
+                                        : buildPersistedVideoDownloadJobDetails(
+                                            job,
+                                            await appModel.database
+                                                .getVideoDownloadJobFiles(
+                                                  job.jobId,
+                                                ),
+                                          );
+                                    if (!context.mounted) return;
+                                    final String torrentId =
+                                        (job.backendTaskId ??
+                                                job.torrentHash ??
+                                                '')
+                                            .trim();
+                                    await showAppDialog<void>(
+                                      context: context,
+                                      builder: (BuildContext dialogContext) =>
+                                          TorrentTaskDetailDialog.task(
+                                            torrentId: torrentId,
+                                            title: job.title,
+                                            torrentTitle:
+                                                job.resourceTitle
+                                                        ?.trim()
+                                                        .isNotEmpty ==
+                                                    true
+                                                ? job.resourceTitle!.trim()
+                                                : job.title,
+                                            backendOverride: details.backend,
+                                            liveDataAbsence:
+                                                details.liveDataAbsence,
+                                            initialSnapshot: details.snapshot,
+                                            initialFiles: details.files,
+                                          ),
+                                    );
+                                  },
+                                  onSetPriority:
+                                      (
+                                        VideoDownloadJobRow job,
+                                        int priority,
+                                      ) async {
+                                        final pipeline = ref
+                                            .read(appProvider)
+                                            .videoDownloadPipelineService;
+                                        await pipeline?.setJobPriority(
                                           job.jobId,
-                                          deleteFiles: deleteFiles,
+                                          priority,
                                         );
-                                      } else {
-                                        await deletePersistedVideoDownloadJob(
-                                          database: appModel.database,
-                                          job: job,
-                                          deleteFiles: deleteFiles,
-                                        );
-                                      }
-                                    },
-                                  ),
+                                      },
+                                  locationLoader:
+                                      (VideoDownloadJobRow job) async {
+                                        final pipeline = ref
+                                            .read(appProvider)
+                                            .videoDownloadPipelineService;
+                                        return pipeline == null
+                                            ? null
+                                            : await pipeline.resolveJobLocation(
+                                                job.jobId,
+                                              );
+                                      },
+                                  onDelete:
+                                      (job, {required bool deleteFiles}) async {
+                                        final appModel = ref.read(appProvider);
+                                        final pipeline = appModel
+                                            .videoDownloadPipelineService;
+                                        if (pipeline != null) {
+                                          await pipeline.deleteJob(
+                                            job.jobId,
+                                            deleteFiles: deleteFiles,
+                                          );
+                                        } else {
+                                          await deletePersistedVideoDownloadJob(
+                                            database: appModel.database,
+                                            job: job,
+                                            deleteFiles: deleteFiles,
+                                          );
+                                        }
+                                      },
                                 ),
-                                SizedBox(
-                                  height:
-                                      _hasLegacyAnimeTasks ? legacyHeight : 0,
-                                  child: Offstage(
-                                    offstage: !_hasLegacyAnimeTasks,
-                                    child: AnimeDownloadDialog(
-                                      embedded: true,
-                                      tasksOnly: true,
-                                      showTasks: false,
-                                      onTaskPresenceChanged:
-                                          _setLegacyAnimeTaskPresence,
-                                      onOpenSettings: () =>
-                                          DefaultTabController.of(
-                                        tabContext,
-                                      ).animateTo(3),
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            );
-                          },
-                        ),
-                        const VideoDownloadSubscriptionsPanel(),
-                        ListView(
-                          children: <Widget>[
-                            const TorrentSettingsSection(),
-                            // 索引器 / 字幕来源 / 发现来源已迁到设置 → 在线服务
-                            // （第三方凭据一个家）；下载页设置 tab 留一条跳转，
-                            // 番剧下载对话框「去设置」落到这里仍能一步到达。
-                            Builder(
-                              builder: (BuildContext rowContext) =>
-                                  AdaptiveSettingsNavigationRow(
-                                title: t.settings_destination_services,
-                                subtitle: t.settings_services_link_subtitle,
-                                icon: Icons.cloud_outlined,
-                                showIcon: true,
-                                onTap: () => Navigator.of(rowContext).push(
-                                  adaptivePageRoute(
-                                    context: rowContext,
-                                    builder: (_) => SettingsDetailPage(
-                                      destination: buildServicesDestination(),
-                                    ),
+                              ),
+                              SizedBox(
+                                height: _hasLegacyAnimeTasks ? legacyHeight : 0,
+                                child: Offstage(
+                                  offstage: !_hasLegacyAnimeTasks,
+                                  child: AnimeDownloadDialog(
+                                    embedded: true,
+                                    tasksOnly: true,
+                                    showTasks: false,
+                                    onTaskPresenceChanged:
+                                        _setLegacyAnimeTaskPresence,
+                                    onOpenSettings: () =>
+                                        DefaultTabController.of(
+                                          tabContext,
+                                        ).animateTo(3),
                                   ),
                                 ),
                               ),
-                            ),
-                            const VideoExternalProviderSettingsSection(
-                              scope: VideoExternalProviderScope.downloadRouting,
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
+                            ],
+                          );
+                        },
+                      ),
+                      const VideoDownloadSubscriptionsPanel(),
+                      ListView(
+                        children: <Widget>[
+                          const TorrentSettingsSection(),
+                          // 索引器 / 字幕来源 / 发现来源已迁到设置 → 在线服务
+                          // （第三方凭据一个家）；下载页设置 tab 留一条跳转，
+                          // 番剧下载对话框「去设置」落到这里仍能一步到达。
+                          Builder(
+                            builder: (BuildContext rowContext) =>
+                                AdaptiveSettingsNavigationRow(
+                                  title: t.settings_destination_services,
+                                  subtitle: t.settings_services_link_subtitle,
+                                  icon: Icons.cloud_outlined,
+                                  showIcon: true,
+                                  onTap: () => Navigator.of(rowContext).push(
+                                    adaptivePageRoute(
+                                      context: rowContext,
+                                      builder: (_) => SettingsDetailPage(
+                                        destination: buildServicesDestination(),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                          ),
+                          const VideoExternalProviderSettingsSection(
+                            scope: VideoExternalProviderScope.downloadRouting,
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
 
@@ -509,14 +748,12 @@ class _DownloadsResourceBlocked extends _DownloadsResourceState {
 /// 前置条件齐备，可以搜资源并推送下载。
 class _DownloadsResourceReady extends _DownloadsResourceState {
   const _DownloadsResourceReady({
-    required this.registry,
     required this.pipeline,
     required this.target,
     required this.sources,
     required this.defaultSourceId,
   });
 
-  final VideoResourceRegistry registry;
   final VideoDownloadPipelineService pipeline;
   final VideoDownloadBackendTarget target;
   final List<MediaSourceRow> sources;

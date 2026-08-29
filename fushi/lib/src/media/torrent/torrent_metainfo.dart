@@ -18,7 +18,7 @@ enum TorrentMetainfoErrorCode {
 
 class TorrentMetainfoException extends FormatException {
   TorrentMetainfoException(this.code, String detail)
-      : super('torrent metainfo ${code.name}: $detail');
+    : super('torrent metainfo ${code.name}: $detail');
 
   final TorrentMetainfoErrorCode code;
 }
@@ -30,6 +30,7 @@ class InspectedTorrentMetainfo {
     required this.v1InfoHash,
     required this.v2InfoHash,
     this.suggestedName,
+    this.files = const <TorrentMetainfoFile>[],
   }) : bytes = Uint8List.fromList(bytes);
 
   final Uint8List bytes;
@@ -44,6 +45,11 @@ class InspectedTorrentMetainfo {
   /// 手动添加任务用它预填标题。
   final String? suggestedName;
 
+  /// Files declared by the torrent metadata. The resource download workspace
+  /// uses these names for a truthful video/subtitle pairing preview before the
+  /// torrent is submitted to the backend.
+  final List<TorrentMetainfoFile> files;
+
   TorrentMetainfoPayload toPayload({required String fileName}) =>
       TorrentMetainfoPayload(
         bytes: bytes,
@@ -52,6 +58,13 @@ class InspectedTorrentMetainfo {
         v1InfoHash: v1InfoHash,
         v2InfoHash: v2InfoHash,
       );
+}
+
+class TorrentMetainfoFile {
+  const TorrentMetainfoFile({required this.path, required this.length});
+
+  final String path;
+  final int length;
 }
 
 /// Validates bencode and hashes the exact raw `info` dictionary byte range.
@@ -96,10 +109,12 @@ InspectedTorrentMetainfo inspectTorrentMetainfo(
     root.infoStart,
     root.infoEnd,
   );
-  final String? v1InfoHash =
-      hasV1Pieces ? crypto.sha1.convert(rawInfo).toString() : null;
-  final String? v2InfoHash =
-      hasV2 ? crypto.sha256.convert(rawInfo).toString() : null;
+  final String? v1InfoHash = hasV1Pieces
+      ? crypto.sha1.convert(rawInfo).toString()
+      : null;
+  final String? v2InfoHash = hasV2
+      ? crypto.sha256.convert(rawInfo).toString()
+      : null;
   final String torrentId = v1InfoHash ?? v2InfoHash!.substring(0, 40);
 
   final String? expected = _normalizeExpectedHash(expectedInfoHash);
@@ -120,13 +135,51 @@ InspectedTorrentMetainfo inspectTorrentMetainfo(
     if (decoded.isNotEmpty) suggestedName = decoded;
   }
 
+  final List<TorrentMetainfoFile> files = _torrentFiles(info, suggestedName);
+
   return InspectedTorrentMetainfo(
     bytes: bytes,
     torrentId: torrentId,
     v1InfoHash: v1InfoHash,
     v2InfoHash: v2InfoHash,
     suggestedName: suggestedName,
+    files: files,
   );
+}
+
+List<TorrentMetainfoFile> _torrentFiles(
+  Map<String, Object?> info,
+  String? rootName,
+) {
+  String decode(Object? value) {
+    if (value is! Uint8List) return '';
+    return utf8.decode(value, allowMalformed: true).trim();
+  }
+
+  final Object? rawFiles = info['files'];
+  if (rawFiles is List<Object?>) {
+    final List<TorrentMetainfoFile> files = <TorrentMetainfoFile>[];
+    for (final Object? rawFile in rawFiles) {
+      if (rawFile is! Map<String, Object?>) continue;
+      final Object? rawPath = rawFile['path.utf-8'] ?? rawFile['path'];
+      if (rawPath is! List<Object?>) continue;
+      final List<String> segments = rawPath
+          .map(decode)
+          .where((String segment) => segment.isNotEmpty)
+          .toList(growable: false);
+      if (segments.isEmpty) continue;
+      final int length = rawFile['length'] is int
+          ? rawFile['length']! as int
+          : 0;
+      files.add(TorrentMetainfoFile(path: segments.join('/'), length: length));
+    }
+    return List<TorrentMetainfoFile>.unmodifiable(files);
+  }
+
+  final String name = rootName?.trim() ?? '';
+  if (name.isEmpty) return const <TorrentMetainfoFile>[];
+  final int length = info['length'] is int ? info['length']! as int : 0;
+  return <TorrentMetainfoFile>[TorrentMetainfoFile(path: name, length: length)];
 }
 
 String? _normalizeExpectedHash(String? raw) {

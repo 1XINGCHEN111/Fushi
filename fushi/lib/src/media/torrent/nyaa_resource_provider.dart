@@ -1,4 +1,5 @@
 import 'package:fushi/src/media/external_provider.dart';
+import 'package:fushi/src/media/torrent/anime_release_descriptor.dart';
 import 'package:fushi/src/media/torrent/nyaa_client.dart';
 import 'package:fushi/src/media/torrent/torrent_backend.dart';
 import 'package:fushi/src/media/torrent/video_resource_provider.dart';
@@ -14,8 +15,8 @@ class NyaaVideoResourceProvider implements VideoResourceProvider {
     this.filter = '0',
     this.priority = 100,
     bool closesClient = false,
-  })  : _client = client,
-        _closesClient = closesClient;
+  }) : _client = client,
+       _closesClient = closesClient;
 
   final NyaaClient _client;
   final bool _closesClient;
@@ -32,8 +33,8 @@ class NyaaVideoResourceProvider implements VideoResourceProvider {
   /// 返回噪声——所以这不是策略，是这家索引器的内容边界。
   @override
   Set<VideoDiscoveryCategory> get categories => const <VideoDiscoveryCategory>{
-        VideoDiscoveryCategory.anime,
-      };
+    VideoDiscoveryCategory.anime,
+  };
 
   @override
   Future<ProviderBatchResult<VideoResourceCandidate>> search(
@@ -111,6 +112,19 @@ class NyaaVideoResourceProvider implements VideoResourceProvider {
   }
 }
 
+final RegExp _latinTitleMarker = RegExp(r'[A-Za-z]');
+final RegExp _japaneseTitleMarker = RegExp(r'[\u3040-\u30ff]');
+final RegExp _cjkTitleMarker = RegExp(r'[\u3040-\u30ff\u3400-\u9fff]');
+
+/// 把旧版逐项 Nyaa 选择界面产出的 [NyaaTorrent] 接入新版持久下载管线。
+///
+/// 资源页可以保留成熟的分页、合集判断和字幕覆盖预览，同时把最终选择交给
+/// [VideoDownloadPipelineService]；转换结果与本 provider 搜索返回的候选完全同构。
+VideoResourceCandidate videoResourceCandidateFromNyaaTorrent(
+  NyaaTorrent torrent, {
+  int providerPriority = 100,
+}) => _NyaaResourceCandidate(torrent, providerPriority);
+
 /// Nyaa 标题命中以 AniList 罗马字和日文原名最稳定。发现页展示标题
 /// 可能已本地化，因此只把它放在罗马字/日文后作最后兜底。
 List<String> preferredNyaaSearchQueries(VideoResourceSearchRequest request) {
@@ -130,10 +144,9 @@ List<String> preferredNyaaSearchQueries(VideoResourceSearchRequest request) {
     final String value = candidate.trim();
     final String key = value.toLowerCase();
     if (value.isEmpty || !seen.add(key)) continue;
-    if (RegExp(r'[A-Za-z]').hasMatch(value) &&
-        !RegExp(r'[\u3040-\u30ff\u3400-\u9fff]').hasMatch(value)) {
+    if (_latinTitleMarker.hasMatch(value) && !_cjkTitleMarker.hasMatch(value)) {
       romanized.add(value);
-    } else if (RegExp(r'[\u3040-\u30ff]').hasMatch(value) ||
+    } else if (_japaneseTitleMarker.hasMatch(value) ||
         value == media?.originalTitle?.trim()) {
       japanese.add(value);
     } else {
@@ -148,26 +161,34 @@ List<String> preferredNyaaSearchQueries(VideoResourceSearchRequest request) {
 }
 
 class _NyaaResourceCandidate extends VideoResourceCandidate {
-  _NyaaResourceCandidate(this.torrent, int providerPriority)
-      : super(
-          providerId: 'nyaa',
-          providerInstanceId: 'nyaa.si',
-          remoteId: torrent.infoHash.toLowerCase(),
-          title: torrent.title,
-          providerPriority: providerPriority,
-          infoHash: torrent.infoHash.toLowerCase(),
-          sizeBytes: torrent.sizeBytes,
-          seeders: torrent.seeders,
-          leechers: torrent.leechers,
-          completed: torrent.downloads,
-          publishedAt: torrent.pubDate,
-          category: torrent.categoryId,
-          resolution: torrent.resolution,
-          releaseGroup: torrent.releaseGroup,
-          trusted: torrent.trusted,
-          detailsUrl: torrent.pageUrl,
-          magnetUri: torrent.magnet,
-        );
+  factory _NyaaResourceCandidate(NyaaTorrent torrent, int providerPriority) {
+    final AnimeReleaseDescriptor descriptor = torrent.releaseDescriptor;
+    return _NyaaResourceCandidate._(torrent, providerPriority, descriptor);
+  }
+
+  _NyaaResourceCandidate._(
+    this.torrent,
+    int providerPriority,
+    AnimeReleaseDescriptor descriptor,
+  ) : super(
+        providerId: 'nyaa',
+        providerInstanceId: 'nyaa.si',
+        remoteId: torrent.infoHash.toLowerCase(),
+        title: torrent.title,
+        providerPriority: providerPriority,
+        infoHash: torrent.infoHash.toLowerCase(),
+        sizeBytes: torrent.sizeBytes,
+        seeders: torrent.seeders,
+        leechers: torrent.leechers,
+        completed: torrent.downloads,
+        publishedAt: torrent.pubDate,
+        category: torrent.categoryId,
+        resolution: descriptor.resolution,
+        releaseGroup: descriptor.releaseGroup,
+        trusted: torrent.trusted,
+        detailsUrl: torrent.pageUrl,
+        magnetUri: torrent.magnet,
+      );
 
   final NyaaTorrent torrent;
 }

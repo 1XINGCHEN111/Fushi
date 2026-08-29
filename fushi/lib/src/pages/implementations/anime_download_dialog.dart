@@ -3,7 +3,6 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:fushi_core/fushi_core.dart' show VideoBookRow;
 
 import 'package:fushi/src/media/torrent/anime_download_config.dart';
 import 'package:fushi/src/media/torrent/anime_download_matching.dart';
@@ -14,11 +13,15 @@ import 'package:fushi/src/media/torrent/download_network_proxy.dart'
     show kDownloadDiscoveryTimeout;
 import 'package:fushi/src/media/torrent/download_relocate_service.dart';
 import 'package:fushi/src/media/torrent/nyaa_client.dart';
+import 'package:fushi/src/media/torrent/resource_download_presentation.dart';
 import 'package:fushi/src/media/torrent/torrent_backend.dart';
+import 'package:fushi/src/media/torrent/torrent_metainfo.dart';
 import 'package:fushi/src/media/torrent/torrent_task_display.dart';
+import 'package:fushi/src/media/tracking/bangumi_api_client.dart'
+    show BangumiApiClient, BangumiSubject;
 import 'package:fushi/src/media/video/anilist_client.dart';
 import 'package:fushi/src/media/video/jimaku_client.dart';
-import 'package:fushi/src/media/video/video_book_repository.dart';
+import 'package:fushi/src/media/video/video_filename_parser.dart';
 import 'package:fushi/src/models/app_model.dart';
 import 'package:fushi/src/pages/implementations/jimaku_api_key_field.dart';
 import 'package:fushi/src/pages/implementations/jimaku_entry_picker.dart';
@@ -26,11 +29,10 @@ import 'package:fushi/src/pages/implementations/download_actions.dart';
 import 'package:fushi/src/pages/implementations/download_backend_setup_dialog.dart';
 import 'package:fushi/src/pages/implementations/downloads_page.dart';
 import 'package:fushi/src/pages/implementations/torrent_detail_dialog.dart';
-import 'package:fushi/src/pages/implementations/video_download_jobs_panel.dart'
-    show showDownloadTaskDeleteConfirm;
 import 'package:fushi/src/pages/fushi_page_placeholders.dart';
 import 'package:fushi/utils.dart';
 import 'package:fushi/src/media/import/real_path_directory_picker.dart';
+import 'package:fushi_core/fushi_core.dart' show MediaSourceRow;
 
 /// 「番剧下载」选种对话框：搜番（AniList）→ 选种（Nyaa）→ 确认字幕（Jimaku）→
 /// 推送 qBittorrent + 落盘 [AnimeDownloadPlan]（完成后由常驻服务自动入库挂合集）。
@@ -91,6 +93,154 @@ const double kJimakuEpisodeFieldChrome = 24 + 28;
 /// 选种结果排序键（一律降序：多的/大的/新的在前）。
 enum TorrentSortKey { seeders, size, date }
 
+typedef AnimeDownloadPipelineSubmit =
+    Future<void> Function(AnimeDownloadPipelineSelection selection);
+
+enum AnimeDownloadContentMode { both, video, subtitle }
+
+/// 旧版成熟的逐步选择 UI 与新版持久下载任务之间的无副作用提交契约。
+class AnimeDownloadPipelineSelection {
+  const AnimeDownloadPipelineSelection({
+    required this.media,
+    required this.torrent,
+    required this.source,
+    required this.includeSubtitles,
+    required this.jimakuEntry,
+    required this.subtitles,
+    required this.preferredSubtitleLanguage,
+    this.bangumiSubject,
+    this.fileSelections = const <AnimeDownloadFileSelection>[],
+    this.contentMode = AnimeDownloadContentMode.both,
+  });
+
+  final AniListMedia media;
+  final NyaaTorrent torrent;
+  final MediaSourceRow source;
+  final bool includeSubtitles;
+  final JimakuEntry? jimakuEntry;
+  final List<(int?, JimakuFile)> subtitles;
+  final String? preferredSubtitleLanguage;
+  final BangumiSubject? bangumiSubject;
+  final List<AnimeDownloadFileSelection> fileSelections;
+  final AnimeDownloadContentMode contentMode;
+}
+
+class AnimeDownloadFileSelection {
+  const AnimeDownloadFileSelection({
+    required this.path,
+    required this.sizeBytes,
+    required this.selected,
+  });
+
+  final String path;
+  final int sizeBytes;
+  final bool selected;
+}
+
+/// 资源下载工作区只处理可以直接与视频并排落盘的 ASS/SRT 字幕。
+///
+/// Jimaku 的通用客户端还支持 SSA/VTT；这些格式仍可供 Fushi 其他字幕功能使用，
+/// 但不能混进本页的配对、选择和下载清单。
+List<JimakuFile> filterResourceWorkspaceJimakuFiles(
+  Iterable<JimakuFile> files,
+) => files
+    .where(
+      (JimakuFile file) => file.extension == 'ass' || file.extension == 'srt',
+    )
+    .toList(growable: false);
+
+class ResourceWorkspacePair {
+  const ResourceWorkspacePair({this.videoPath, this.subtitle});
+
+  final String? videoPath;
+  final JimakuFile? subtitle;
+
+  bool get isMatched => videoPath != null && subtitle != null;
+}
+
+String _resourceSubtitleIdentity(JimakuFile file) =>
+    '${file.url}\u0000${file.name}';
+
+String _resourcePathLeaf(String path) {
+  final int slash = path.lastIndexOf('/');
+  final int backslash = path.lastIndexOf(r'\');
+  return path.substring((slash > backslash ? slash : backslash) + 1);
+}
+
+final RegExp _resourceResolutionHeightPattern = RegExp(r'(\d{3,4})');
+
+/// 已匹配项排在前面，未匹配动画与未匹配字幕分别保留在末尾。
+List<ResourceWorkspacePair> arrangeResourceWorkspacePairs({
+  required List<String> videoPaths,
+  required List<JimakuFile> subtitleFiles,
+  String? preferredLanguage,
+  JimakuFile? soleFallbackSubtitle,
+}) {
+  final List<ResolvedSubtitleMatch> matches = matchJimakuFilesToVideoNames(
+    videoPaths,
+    subtitleFiles,
+    preferredLanguage: preferredLanguage,
+  );
+  final Map<String, JimakuFile> byVideo = <String, JimakuFile>{
+    for (final ResolvedSubtitleMatch match in matches)
+      match.videoFileName: match.file,
+  };
+  if (videoPaths.length == 1 &&
+      soleFallbackSubtitle != null &&
+      byVideo.isEmpty) {
+    byVideo[_resourcePathLeaf(videoPaths.single)] = soleFallbackSubtitle;
+  }
+
+  final List<ResourceWorkspacePair> matched = <ResourceWorkspacePair>[];
+  final List<ResourceWorkspacePair> unmatchedVideos = <ResourceWorkspacePair>[];
+  final Set<String> usedSubtitles = <String>{};
+  for (final String video in videoPaths) {
+    final String leaf = _resourcePathLeaf(video);
+    final JimakuFile? subtitle = byVideo[leaf] ?? byVideo[video];
+    final ResourceWorkspacePair pair = ResourceWorkspacePair(
+      videoPath: video,
+      subtitle: subtitle,
+    );
+    if (subtitle == null) {
+      unmatchedVideos.add(pair);
+    } else {
+      matched.add(pair);
+      usedSubtitles.add(_resourceSubtitleIdentity(subtitle));
+    }
+  }
+  final List<ResourceWorkspacePair> unmatchedSubtitles =
+      <ResourceWorkspacePair>[
+        for (final JimakuFile subtitle in subtitleFiles)
+          if (!usedSubtitles.contains(_resourceSubtitleIdentity(subtitle)))
+            ResourceWorkspacePair(subtitle: subtitle),
+      ];
+  return <ResourceWorkspacePair>[
+    ...matched,
+    ...unmatchedVideos,
+    ...unmatchedSubtitles,
+  ];
+}
+
+/// 配对拖拽的语义是交换两个槽位，而不是把中间项目整体推移。
+List<T> swapResourceWorkspaceItems<T>(
+  List<T> items, {
+  required int from,
+  required int to,
+}) {
+  final List<T> swapped = List<T>.of(items);
+  if (from == to ||
+      from < 0 ||
+      to < 0 ||
+      from >= swapped.length ||
+      to >= swapped.length) {
+    return swapped;
+  }
+  final T item = swapped[from];
+  swapped[from] = swapped[to];
+  swapped[to] = item;
+  return swapped;
+}
+
 /// 选种结果排序比较器（一律降序；size/date 缺失值沉底）。纯函数，便于单测。
 int compareNyaaTorrents(TorrentSortKey key, NyaaTorrent a, NyaaTorrent b) {
   switch (key) {
@@ -99,11 +249,9 @@ int compareNyaaTorrents(TorrentSortKey key, NyaaTorrent a, NyaaTorrent b) {
     case TorrentSortKey.size:
       return (b.sizeBytes ?? -1).compareTo(a.sizeBytes ?? -1);
     case TorrentSortKey.date:
-      final DateTime aDate =
-          a.pubDate ?? DateTime.fromMillisecondsSinceEpoch(0);
-      final DateTime bDate =
-          b.pubDate ?? DateTime.fromMillisecondsSinceEpoch(0);
-      return bDate.compareTo(aDate);
+      return (b.pubDate?.millisecondsSinceEpoch ?? 0).compareTo(
+        a.pubDate?.millisecondsSinceEpoch ?? 0,
+      );
   }
 }
 
@@ -147,9 +295,13 @@ class AnimeDownloadDialog extends ConsumerStatefulWidget {
     this.initialSearchQuery,
     this.initialMedia,
     this.initialEpisode,
+    this.pipelineSources = const <MediaSourceRow>[],
+    this.defaultPipelineSourceId,
+    this.onPipelineSubmit,
+    this.resourceWorkspace = false,
     @visibleForTesting this.debugInitialMedia,
     @visibleForTesting this.debugInitialTorrent,
-  });
+  }) : assert(onPipelineSubmit == null || pipelineSources.length > 0);
 
   /// 内联模式：直接铺在「下载」页里（无对话框外框、无标题栏、无取消按钮），
   /// 用户要求番剧下载直接摊在页面上而非弹窗按钮。默认 false = 独立对话框。
@@ -182,6 +334,15 @@ class AnimeDownloadDialog extends ConsumerStatefulWidget {
   /// null = 不过滤（整季）。
   final int? initialEpisode;
 
+  /// 非空时不再创建旧 [AnimeDownloadPlan]，而把最终选择交给新版持久任务管线。
+  final List<MediaSourceRow> pipelineSources;
+  final int? defaultPipelineSourceId;
+  final AnimeDownloadPipelineSubmit? onPipelineSubmit;
+
+  /// Renders the complete single-page resource workspace used by
+  /// Downloads → Resources. Other entry points keep the compact step dialog.
+  final bool resourceWorkspace;
+
   /// 仅测试：初始即选中的番（跳过 AniList 网络搜索直达选种/确认阶段）。
   final AniListMedia? debugInitialMedia;
 
@@ -194,8 +355,11 @@ class AnimeDownloadDialog extends ConsumerStatefulWidget {
 }
 
 class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
-    with FushiPagePlaceholders<AnimeDownloadDialog> {
+    with
+        FushiPagePlaceholders<AnimeDownloadDialog>,
+        AutomaticKeepAliveClientMixin<AnimeDownloadDialog> {
   final TextEditingController _animeQueryCtrl = TextEditingController();
+  final TextEditingController _anilistQueryCtrl = TextEditingController();
   final TextEditingController _nyaaQueryCtrl = TextEditingController();
   late final TextEditingController _jimakuKeyCtrl;
 
@@ -206,6 +370,8 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
 
   // ---- 通用下载（粘贴磁力：书/视频/任意）----
   final TextEditingController _magnetCtrl = TextEditingController();
+  final GlobalKey _bangumiChoiceAnchorKey = GlobalKey();
+  final GlobalKey _aniListChoiceAnchorKey = GlobalKey();
   String _genericKind = AnimeDownloadPlan.kindAuto;
   bool _pushingGeneric = false;
 
@@ -227,6 +393,10 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   String? _animeSearchErrorDetail;
   List<AniListMedia> _animeMatches = const <AniListMedia>[];
   AniListMedia? _selectedMedia;
+  bool _bangumiLoading = false;
+  bool _bangumiError = false;
+  List<BangumiSubject> _bangumiMatches = const <BangumiSubject>[];
+  BangumiSubject? _selectedBangumiSubject;
 
   // ---- 阶段 2：选种（Nyaa）+ 字幕索引（Jimaku）----
   bool _loadingTorrents = false;
@@ -245,6 +415,14 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   String _category = '1_0';
   bool _trustedOnly = false;
   TorrentSortKey _torrentSort = TorrentSortKey.seeders;
+  int _nyaaScannedPages = 0;
+  int _nyaaScannedResults = 0;
+  bool _excludeBelow1080 = true;
+  bool _stopAtThirtyCollections = true;
+  int _nyaaCollectionInspectDone = 0;
+  int _nyaaCollectionInspectTotal = 0;
+  final Map<String, InspectedTorrentMetainfo> _workspaceInspectedTorrents =
+      <String, InspectedTorrentMetainfo>{};
   List<JimakuEntry> _jimakuEntries = const <JimakuEntry>[];
   JimakuEntry? _selectedJimakuEntry;
 
@@ -256,6 +434,13 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   /// 才清空：那是另一部番，旧手选没有意义。
   int? _userPickedJimakuEntryId;
   List<JimakuFile> _jimakuFiles = const <JimakuFile>[];
+  List<ResourceJimakuCategory> _workspaceJimakuCategories =
+      const <ResourceJimakuCategory>[];
+  ResourceJimakuCategory? _workspaceJimakuCategory;
+  ResourceJimakuVariant? _workspaceJimakuVariant;
+  String _workspaceAniListQueryLanguage = 'en';
+  String _workspaceJimakuQueryLanguage = 'en';
+  String _workspaceNyaaQueryLanguage = 'en';
   String? _jimakuPreferredLanguage;
   int? _jimakuSearchEpisode;
   JimakuEpisodeIndex _jimakuIndex = JimakuEpisodeIndex.fromFiles(
@@ -274,6 +459,22 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   List<(int?, JimakuFile)> _chosenSubs = const <(int?, JimakuFile)>[];
   bool _includeSubs = true;
   bool _pushing = false;
+  int? _pipelineSourceId;
+  bool _workspaceSubtitlesExpanded = false;
+  bool _workspaceInspectingTorrent = false;
+  String? _workspaceInspectError;
+  List<TorrentMetainfoFile> _workspaceTorrentFiles =
+      const <TorrentMetainfoFile>[];
+  List<ResourceTorrentVideoFolder> _workspaceVideoFolders =
+      const <ResourceTorrentVideoFolder>[];
+  String? _workspaceSelectedFolderKey;
+  Set<String> _workspaceExpandedFolderKeys = <String>{};
+  List<String> _workspaceVideoRows = const <String>[];
+  List<JimakuFile?> _workspaceSubtitleRows = const <JimakuFile?>[];
+  int? _workspaceDragTarget;
+  Set<int> _workspaceSelectedRows = <int>{};
+  String _workspaceDownloadMode = 'both';
+  String? _workspaceSubmitStatus;
 
   // ---- 下载任务折叠区 ----
   List<AnimeDownloadPlan> _plans = const <AnimeDownloadPlan>[];
@@ -282,11 +483,20 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   void initState() {
     super.initState();
     final AppModel appModel = ref.read(appProvider);
+    _pipelineSourceId =
+        widget.pipelineSources.any(
+          (MediaSourceRow source) =>
+              source.id == widget.defaultPipelineSourceId,
+        )
+        ? widget.defaultPipelineSourceId
+        : widget.pipelineSources.firstOrNull?.id;
     _jimakuKeyCtrl = TextEditingController(text: appModel.jimakuApiKey);
     _showJimakuKeyField = appModel.jimakuApiKey.trim().isEmpty;
     // 语言预选沿用设置页的默认字幕语言（此前恒为「全部」，与字幕对话框的语言记忆
     // 各行其是）。用户在本对话框里改选仍只影响本次。
-    _jimakuPreferredLanguage = appModel.jimakuDefaultLanguageOrNull;
+    _jimakuPreferredLanguage = widget.resourceWorkspace
+        ? 'ja'
+        : appModel.jimakuDefaultLanguageOrNull;
     // 仅测试：直达指定阶段（绕开 AniList/Nyaa 网络搜索）。
     final AniListMedia? debugMedia = widget.debugInitialMedia;
     if (debugMedia != null) {
@@ -297,6 +507,7 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
       if (debugTorrent != null) {
         _selectedTorrent = debugTorrent;
         _chosenSubs = _chooseSubsFor(debugTorrent);
+        if (widget.resourceWorkspace) _syncWorkspacePairs();
       }
     }
     // 初始上下文（合集详情页入口，TODO-2485）。二选一：有 initialMedia（合集已
@@ -317,6 +528,7 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         seedQuery != null &&
         seedQuery.isNotEmpty) {
       _animeQueryCtrl.text = seedQuery;
+      _anilistQueryCtrl.text = seedQuery;
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (mounted) unawaited(_searchAnime());
       });
@@ -330,6 +542,7 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     _activeNyaaClient?.close();
     _activeNyaaClient = null;
     _animeQueryCtrl.dispose();
+    _anilistQueryCtrl.dispose();
     _nyaaQueryCtrl.dispose();
     _jimakuKeyCtrl.dispose();
     _jimakuQueryCtrl.dispose();
@@ -340,7 +553,9 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
 
   /// 下载后端是否就绪（推送按钮禁用条件；浏览选种不禁）。默认（auto）在桌面
   /// 走内置引擎、开箱即用；只有显式外接 qb 且没填地址才算未就绪。
-  bool get _backendReady => torrentBackendReady(ref.read(appProvider));
+  bool get _backendReady =>
+      widget.onPipelineSubmit != null ||
+      torrentBackendReady(ref.read(appProvider));
 
   /// 后端未就绪（推送禁用 + 提示横幅）。
   bool get _qbMissing => !_backendReady;
@@ -352,10 +567,159 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     ).showSnackBar(SnackBar(content: Text(message)));
   }
 
+  static const Color _legacyText = Color(0xFF17201E);
+  static const Color _legacyMuted = Color(0xFF5D6966);
+  static const Color _legacyAccent = Color(0xFF1F4959);
+
+  @override
+  bool get wantKeepAlive => widget.resourceWorkspace;
+
+  void _showWorkspacePopupAfterBuild(
+    GlobalKey anchorKey,
+    Future<void> Function(BuildContext context) show,
+  ) {
+    if (!widget.resourceWorkspace) return;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final BuildContext? anchorContext = anchorKey.currentContext;
+      if (anchorContext != null) unawaited(show(anchorContext));
+    });
+  }
+
+  InputDecoration _legacyInputDecoration({
+    String? hintText,
+    String? labelText,
+  }) {
+    final ColorScheme colors = Theme.of(context).colorScheme;
+    return InputDecoration(
+      hintText: hintText,
+      labelText: labelText,
+      filled: true,
+      fillColor: colors.surfaceContainerLow,
+      contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10),
+        borderSide: BorderSide(color: colors.outlineVariant),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10),
+        borderSide: BorderSide(color: colors.primary, width: 2),
+      ),
+      disabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10),
+        borderSide: BorderSide(color: colors.outlineVariant),
+      ),
+    );
+  }
+
+  Future<T?> _showLegacyChoicePopup<T>({
+    required BuildContext anchorContext,
+    required String title,
+    required List<_LegacyChoice<T>> choices,
+    T? selected,
+  }) async {
+    if (choices.isEmpty) return null;
+    final ColorScheme colors = Theme.of(anchorContext).colorScheme;
+    final RenderBox? anchor = anchorContext.findRenderObject() as RenderBox?;
+    final RenderBox? overlay =
+        Navigator.of(anchorContext).overlay?.context.findRenderObject()
+            as RenderBox?;
+    if (anchor == null || overlay == null) return null;
+    final Offset topLeft = anchor.localToGlobal(Offset.zero, ancestor: overlay);
+    final Rect anchorRect = Rect.fromLTWH(
+      topLeft.dx,
+      topLeft.dy + anchor.size.height,
+      anchor.size.width,
+      0,
+    );
+    final Size screen = MediaQuery.sizeOf(anchorContext);
+    final double popupWidth = math.min(
+      math.max(anchor.size.width, 700),
+      screen.width - 48,
+    );
+    return showMenu<T>(
+      context: anchorContext,
+      position: RelativeRect.fromRect(anchorRect, Offset.zero & overlay.size),
+      semanticLabel: title,
+      color: colors.surfaceContainer,
+      surfaceTintColor: Colors.transparent,
+      shadowColor: colors.shadow.withValues(alpha: 0.2),
+      elevation: 7,
+      menuPadding: const EdgeInsets.all(5),
+      constraints: BoxConstraints(
+        minWidth: popupWidth,
+        maxWidth: popupWidth,
+        maxHeight: math.min(720, screen.height - 120),
+      ),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(10),
+        side: BorderSide(color: colors.outlineVariant),
+      ),
+      popUpAnimationStyle: const AnimationStyle(
+        duration: Duration(milliseconds: 150),
+        curve: Curves.easeOutCubic,
+      ),
+      items: <PopupMenuEntry<T>>[
+        for (final _LegacyChoice<T> choice in choices)
+          PopupMenuItem<T>(
+            value: choice.value,
+            height: choice.subtitle.isEmpty ? 46 : 62,
+            padding: EdgeInsets.zero,
+            child: Container(
+              margin: const EdgeInsets.symmetric(horizontal: 1, vertical: 1),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                color: choice.value == selected
+                    ? colors.secondaryContainer
+                    : Colors.transparent,
+                borderRadius: BorderRadius.circular(9),
+              ),
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text(
+                          choice.title,
+                          maxLines: choice.maxTitleLines,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(
+                            color: _legacyText,
+                            fontWeight: FontWeight.w600,
+                            fontSize: 13,
+                          ),
+                        ),
+                        if (choice.subtitle.isNotEmpty) ...<Widget>[
+                          const SizedBox(height: 3),
+                          Text(
+                            choice.subtitle,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(
+                              color: _legacyMuted,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ],
+                      ],
+                    ),
+                  ),
+                  if (choice.value == selected)
+                    const Icon(Icons.check, color: _legacyAccent, size: 19),
+                ],
+              ),
+            ),
+          ),
+      ],
+    );
+  }
+
   // ---------------------------------------------------------------- 阶段 1
 
   Future<void> _searchAnime() async {
-    final String query = _animeQueryCtrl.text.trim();
+    final String query = _anilistQueryCtrl.text.trim();
     if (query.isEmpty || _searchingAnime) return;
     setState(() {
       _searchingAnime = true;
@@ -369,8 +733,9 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
       anilist = AniListClient(
         client: await ref.read(appProvider).createDownloadHttpClient(),
       );
-      final AniListSearchOutcome outcome =
-          await anilist.searchAnime(query).timeout(kDownloadDiscoveryTimeout);
+      final AniListSearchOutcome outcome = await anilist
+          .searchAnime(query)
+          .timeout(kDownloadDiscoveryTimeout);
       if (!mounted) return;
       // BUG-1782：非 200（含 429 限流）此前被 searchAnime 内部吞成空列表，走不到下面的
       // catch，于是限流被显示成「无结果」。现在如实并入既有失败态，用户拿到重试 + 原因。
@@ -385,6 +750,12 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         _animeMatches = outcome.media;
         _searchedAnime = true;
       });
+      if (outcome.media.isNotEmpty) {
+        _showWorkspacePopupAfterBuild(
+          _aniListChoiceAnchorKey,
+          _showWorkspaceAniListPopup,
+        );
+      }
     } catch (error) {
       // 超时/网络错误：标记失败态（区分「无结果」），UI 给重试 + 真实错误串。
       if (mounted) {
@@ -399,17 +770,397 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     }
   }
 
-  /// 选番后的查询词预填：Nyaa 查询词与手动字幕搜索框都预填罗马字（Jimaku
-  /// 条目名多为罗马字，同口径），集号清空；其余标题（日文原名/英文名）在
-  /// 输入框下拉里可选，用户可改词/填集号重搜。
+  Future<void> _searchBangumi(String query) async {
+    setState(() {
+      _bangumiLoading = true;
+      _bangumiError = false;
+      _bangumiMatches = const <BangumiSubject>[];
+    });
+    BangumiApiClient? client;
+    try {
+      client = BangumiApiClient(
+        accessToken: '',
+        userAgent: 'Fushi/resource-download',
+        client: await ref.read(appProvider).createDownloadHttpClient(),
+      );
+      final List<BangumiSubject> subjects = await client
+          .searchSubjects(keyword: query, subjectType: 2)
+          .timeout(kDownloadDiscoveryTimeout);
+      if (!mounted || _animeQueryCtrl.text.trim() != query) return;
+      setState(() => _bangumiMatches = subjects);
+      if (subjects.isNotEmpty) {
+        _showWorkspacePopupAfterBuild(
+          _bangumiChoiceAnchorKey,
+          _showWorkspaceBangumiPopup,
+        );
+      }
+    } on Object {
+      if (mounted && _animeQueryCtrl.text.trim() == query) {
+        setState(() => _bangumiError = true);
+      }
+    } finally {
+      client?.close();
+      if (mounted && _animeQueryCtrl.text.trim() == query) {
+        setState(() => _bangumiLoading = false);
+      }
+    }
+  }
+
+  void _selectBangumiSubject(BangumiSubject subject) {
+    setState(() {
+      _selectedBangumiSubject = subject;
+      _workspaceAniListQueryLanguage = 'en';
+    });
+    final String query = subject.name.trim().isNotEmpty
+        ? subject.name.trim()
+        : subject.displayName;
+    if (_anilistQueryCtrl.text.trim() != query) {
+      _anilistQueryCtrl.text = query;
+      unawaited(_searchAnime());
+    }
+  }
+
+  Future<void> _showWorkspaceBangumiPopup(BuildContext anchorContext) async {
+    if (_bangumiMatches.isEmpty) return;
+    final int? id = await _showLegacyChoicePopup<int>(
+      anchorContext: anchorContext,
+      title: 'Bangumi 动画条目',
+      selected: _selectedBangumiSubject?.id,
+      choices: <_LegacyChoice<int>>[
+        for (final BangumiSubject subject in _bangumiMatches)
+          _LegacyChoice<int>(
+            value: subject.id,
+            title: subject.displayName,
+            subtitle: <String>[
+              if (subject.secondaryName.isNotEmpty) subject.secondaryName,
+              if (subject.platform.isNotEmpty) subject.platform,
+              if (subject.episodeCount > 0) '${subject.episodeCount} 集',
+            ].join(' · '),
+          ),
+      ],
+    );
+    if (!mounted || id == null) return;
+    final BangumiSubject? subject = _bangumiMatches
+        .where((BangumiSubject item) => item.id == id)
+        .firstOrNull;
+    if (subject != null) _selectBangumiSubject(subject);
+  }
+
+  Future<void> _showWorkspaceAniListPopup(BuildContext anchorContext) async {
+    if (_animeMatches.isEmpty) return;
+    final int? id = await _showLegacyChoicePopup<int>(
+      anchorContext: anchorContext,
+      title: 'AniList 动画条目',
+      selected: _selectedMedia?.id,
+      choices: <_LegacyChoice<int>>[
+        for (final AniListMedia media in _animeMatches)
+          _LegacyChoice<int>(
+            value: media.id,
+            title:
+                <String>[
+                  if ((media.english ?? '').trim().isNotEmpty)
+                    media.english!.trim(),
+                  if ((media.native ?? '').trim().isNotEmpty)
+                    media.native!.trim(),
+                ].isEmpty
+                ? media.displayTitle
+                : <String>[
+                    if ((media.english ?? '').trim().isNotEmpty)
+                      media.english!.trim(),
+                    if ((media.native ?? '').trim().isNotEmpty)
+                      media.native!.trim(),
+                  ].join(' · '),
+            subtitle: <String>[
+              if (media.seasonYear != null) '${media.seasonYear}',
+              if (media.format != null) media.format!,
+              if (media.episodes != null) '${media.episodes} 集',
+            ].join(' · '),
+          ),
+      ],
+    );
+    if (!mounted || id == null) return;
+    final AniListMedia? media = _animeMatches
+        .where((AniListMedia item) => item.id == id)
+        .firstOrNull;
+    if (media != null) await _selectMedia(media);
+  }
+
+  Future<void> _showWorkspaceJimakuEntryPopup(
+    BuildContext anchorContext,
+  ) async {
+    if (_jimakuEntries.isEmpty) return;
+    final int? id = await _showLegacyChoicePopup<int>(
+      anchorContext: anchorContext,
+      title: 'Jimaku 字幕条目',
+      selected: _selectedJimakuEntry?.id,
+      choices: <_LegacyChoice<int>>[
+        for (final JimakuEntry entry in _jimakuEntries)
+          _LegacyChoice<int>(
+            value: entry.id,
+            title: <String>[
+              entry.name,
+              if ((entry.japaneseName ?? '').trim().isNotEmpty &&
+                  entry.japaneseName!.trim() != entry.name.trim())
+                entry.japaneseName!.trim(),
+            ].join(' · '),
+            maxTitleLines: 1,
+          ),
+      ],
+    );
+    if (!mounted || id == null) return;
+    final JimakuEntry? entry = _jimakuEntries
+        .where((JimakuEntry item) => item.id == id)
+        .firstOrNull;
+    if (entry != null) await _selectJimakuEntry(entry);
+  }
+
+  Future<void> _showWorkspaceJimakuVersionPopup(
+    BuildContext anchorContext,
+  ) async {
+    final List<_LegacyChoice<String>> choices = <_LegacyChoice<String>>[];
+    for (final ResourceJimakuCategory category in _workspaceJimakuCategories) {
+      for (final ResourceJimakuVariant variant in category.variants) {
+        choices.add(
+          _LegacyChoice<String>(
+            value: '${category.key}\u0000${variant.key}',
+            title: '${category.name}  ›  ${variant.name}',
+            subtitle: '${variant.files.length} 条字幕',
+          ),
+        );
+      }
+    }
+    if (choices.isEmpty) return;
+    final String? selectedKey =
+        _workspaceJimakuCategory == null || _workspaceJimakuVariant == null
+        ? null
+        : '${_workspaceJimakuCategory!.key}\u0000${_workspaceJimakuVariant!.key}';
+    final String? key = await _showLegacyChoicePopup<String>(
+      anchorContext: anchorContext,
+      title: 'Jimaku 字幕版本',
+      selected: selectedKey,
+      choices: choices,
+    );
+    if (!mounted || key == null) return;
+    for (final ResourceJimakuCategory category in _workspaceJimakuCategories) {
+      for (final ResourceJimakuVariant variant in category.variants) {
+        if ('${category.key}\u0000${variant.key}' == key) {
+          _selectWorkspaceJimakuVariant(category, variant);
+          return;
+        }
+      }
+    }
+  }
+
+  Future<void> _showWorkspaceNyaaPopup(BuildContext anchorContext) async {
+    if (_torrents.isEmpty) return;
+    final String? hash = await _showLegacyChoicePopup<String>(
+      anchorContext: anchorContext,
+      title: 'Nyaa 资源版本',
+      selected: _selectedTorrent?.infoHash,
+      choices: <_LegacyChoice<String>>[
+        for (final NyaaTorrent torrent in _torrents)
+          _LegacyChoice<String>(
+            value: torrent.infoHash,
+            title: torrent.title,
+            subtitle: <String>[
+              torrent.sizeText,
+              '做种 ${torrent.seeders}',
+              if ((torrent.resolution ?? '').isNotEmpty) torrent.resolution!,
+            ].join(' · '),
+          ),
+      ],
+    );
+    if (!mounted || hash == null) return;
+    final NyaaTorrent? torrent = _torrents
+        .where((NyaaTorrent item) => item.infoHash == hash)
+        .firstOrNull;
+    if (torrent != null) {
+      _selectTorrent(torrent);
+    }
+  }
+
+  String _workspaceAniListTitleForLanguage(String language) {
+    final AniListMedia? media = _selectedMedia;
+    if (language == 'ja') {
+      final String native = media?.native?.trim() ?? '';
+      if (native.isNotEmpty) return native;
+      final String bangumi = _selectedBangumiSubject?.name.trim() ?? '';
+      if (bangumi.isNotEmpty) return bangumi;
+    } else {
+      final String english = media?.english?.trim() ?? '';
+      if (english.isNotEmpty) return english;
+      final String romaji = media?.romaji?.trim() ?? '';
+      if (romaji.isNotEmpty) return romaji;
+    }
+    return _anilistQueryCtrl.text.trim();
+  }
+
+  Future<void> _showWorkspaceAniListLanguagePopup(
+    BuildContext anchorContext,
+  ) async {
+    final String? language = await _showLegacyChoicePopup<String>(
+      anchorContext: anchorContext,
+      title: 'AniList 名称语言',
+      selected: _workspaceAniListQueryLanguage,
+      choices: const <_LegacyChoice<String>>[
+        _LegacyChoice<String>(value: 'ja', title: '日语'),
+        _LegacyChoice<String>(value: 'en', title: '英语'),
+      ],
+    );
+    if (!mounted || language == null) return;
+    final String query = _workspaceAniListTitleForLanguage(language);
+    setState(() {
+      _workspaceAniListQueryLanguage = language;
+      if (query.isNotEmpty) _anilistQueryCtrl.text = query;
+    });
+  }
+
+  String _workspaceQueryLanguageLabel(String language) => switch (language) {
+    'ja' => '日语',
+    'zh' => '中文',
+    _ => '英语',
+  };
+
+  String _workspaceTitleForLanguage(String language) {
+    final AniListMedia? media = _selectedMedia;
+    if (language == 'zh') {
+      final String bangumi = _selectedBangumiSubject?.displayName.trim() ?? '';
+      if (bangumi.isNotEmpty) return bangumi;
+    }
+    if (language == 'ja') {
+      final String native = media?.native?.trim() ?? '';
+      if (native.isNotEmpty) return native;
+    }
+    final String english = media?.english?.trim() ?? '';
+    if (english.isNotEmpty) return english;
+    final String romaji = media?.romaji?.trim() ?? '';
+    if (romaji.isNotEmpty) return romaji;
+    return media?.displayTitle ?? '';
+  }
+
+  Future<void> _showWorkspaceQueryLanguagePopup({
+    required BuildContext anchorContext,
+    required bool nyaa,
+  }) async {
+    final String current = nyaa
+        ? _workspaceNyaaQueryLanguage
+        : _workspaceJimakuQueryLanguage;
+    final String? language = await _showLegacyChoicePopup<String>(
+      anchorContext: anchorContext,
+      title: '名称语言',
+      selected: current,
+      choices: <_LegacyChoice<String>>[
+        const _LegacyChoice<String>(value: 'en', title: '英语'),
+        const _LegacyChoice<String>(value: 'ja', title: '日语'),
+        if (nyaa) const _LegacyChoice<String>(value: 'zh', title: '中文'),
+      ],
+    );
+    if (!mounted || language == null) return;
+    final String query = _workspaceTitleForLanguage(language);
+    setState(() {
+      if (nyaa) {
+        _workspaceNyaaQueryLanguage = language;
+        _nyaaQueryCtrl.text = query;
+      } else {
+        _workspaceJimakuQueryLanguage = language;
+        _jimakuQueryCtrl.text = query;
+      }
+    });
+  }
+
+  Future<void> _showWorkspaceDownloadModePopup(
+    BuildContext anchorContext,
+  ) async {
+    final String? mode = await _showLegacyChoicePopup<String>(
+      anchorContext: anchorContext,
+      title: '下载内容',
+      selected: _workspaceDownloadMode,
+      choices: const <_LegacyChoice<String>>[
+        _LegacyChoice<String>(value: 'both', title: '字幕和动画'),
+        _LegacyChoice<String>(value: 'video', title: '动画'),
+        _LegacyChoice<String>(value: 'subtitle', title: '字幕'),
+      ],
+    );
+    if (!mounted || mode == null) return;
+    setState(() {
+      _workspaceDownloadMode = mode;
+      _includeSubs = mode != 'video';
+      _workspaceSelectedRows = _workspaceEligibleRows();
+    });
+  }
+
+  AnimeDownloadContentMode get _workspaceContentMode =>
+      switch (_workspaceDownloadMode) {
+        'video' => AnimeDownloadContentMode.video,
+        'subtitle' => AnimeDownloadContentMode.subtitle,
+        _ => AnimeDownloadContentMode.both,
+      };
+
+  String get _workspaceDownloadModeLabel => switch (_workspaceDownloadMode) {
+    'video' => '动画',
+    'subtitle' => '字幕',
+    _ => '字幕和动画',
+  };
+
+  bool _workspaceRowSupportsMode(int index) {
+    if (index < 0 || index >= _workspaceVideoRows.length) return false;
+    final bool hasVideo = _workspaceVideoRows[index].trim().isNotEmpty;
+    final bool hasSubtitle =
+        index < _workspaceSubtitleRows.length &&
+        _workspaceSubtitleRows[index] != null;
+    return switch (_workspaceDownloadMode) {
+      'video' => hasVideo,
+      'subtitle' => hasSubtitle,
+      _ => hasVideo && hasSubtitle,
+    };
+  }
+
+  Set<int> _workspaceEligibleRows() => <int>{
+    for (int index = 0; index < _workspaceVideoRows.length; index++)
+      if (_workspaceRowSupportsMode(index)) index,
+  };
+
+  Future<void> _showWorkspaceSourcePopup(BuildContext anchorContext) async {
+    if (widget.pipelineSources.isEmpty) return;
+    final int? sourceId = await _showLegacyChoicePopup<int>(
+      anchorContext: anchorContext,
+      title: '保存到',
+      selected: _pipelineSourceId,
+      choices: <_LegacyChoice<int>>[
+        for (final MediaSourceRow source in widget.pipelineSources)
+          _LegacyChoice<int>(value: source.id, title: source.label),
+      ],
+    );
+    if (!mounted || sourceId == null) return;
+    setState(() => _pipelineSourceId = sourceId);
+  }
+
+  String get _workspaceSourceLabel =>
+      widget.pipelineSources
+          .where((MediaSourceRow source) => source.id == _pipelineSourceId)
+          .map((MediaSourceRow source) => source.label)
+          .firstOrNull ??
+      '选择保存位置';
+
+  /// 选番后的查询词预填：资源工作区默认使用英文名，缺失时退回罗马字；其余标题
+  /// 仍可通过名称语言按钮切换。普通对话框保持原来的罗马字优先行为。
   void _prefillQueriesFor(AniListMedia media) {
     final String query = (media.romaji?.trim().isNotEmpty ?? false)
         ? media.romaji!.trim()
         : media.displayTitle;
     _nyaaQueryCtrl.text = query;
     final List<String> titleOptions = _titleOptions(media);
-    _jimakuQueryCtrl.text =
-        titleOptions.isNotEmpty ? titleOptions.first : media.displayTitle;
+    _jimakuQueryCtrl.text = titleOptions.isNotEmpty
+        ? titleOptions.first
+        : media.displayTitle;
+    if (widget.resourceWorkspace) {
+      final String english = media.english?.trim() ?? '';
+      final String workspaceQuery = english.isNotEmpty ? english : query;
+      _nyaaQueryCtrl.text = workspaceQuery;
+      _jimakuQueryCtrl.text = workspaceQuery;
+      _workspaceJimakuQueryLanguage = 'en';
+      _workspaceNyaaQueryLanguage = 'en';
+    }
     _jimakuEpisodeCtrl.clear();
     // 预填即将由选番自动搜使用，视作「已应用」，搜索按钮不该一进来就报待生效。
     _appliedJimakuSearch = _currentJimakuSearchInput();
@@ -441,7 +1192,8 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
       // 换番：旧番的手选条目对新番没有意义，清掉。
       _userPickedJimakuEntryId = null;
       _jimakuFiles = const <JimakuFile>[];
-      _jimakuPreferredLanguage = null;
+      _clearWorkspaceJimakuGroups();
+      _jimakuPreferredLanguage = widget.resourceWorkspace ? 'ja' : null;
       _jimakuSearchEpisode = null;
       _jimakuIndex = JimakuEpisodeIndex.fromFiles(const <JimakuFile>[]);
       _jimakuLoaded = false;
@@ -478,6 +1230,10 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
       _torrentsLoaded = false;
       _torrentsError = false;
       _torrentsErrorDetail = null;
+      _nyaaScannedPages = 0;
+      _nyaaScannedResults = 0;
+      _nyaaCollectionInspectDone = 0;
+      _nyaaCollectionInspectTotal = 0;
     });
     NyaaClient? nyaa;
     try {
@@ -488,14 +1244,63 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         return;
       }
       _activeNyaaClient = nyaa;
-      final List<NyaaTorrent> results = await nyaa
-          .search(
-            request.query,
-            category: request.category,
-            filter: request.trustedOnly ? '2' : '0',
-          )
-          .timeout(kDownloadDiscoveryTimeout);
-      final List<NyaaTorrent> sorted = List<NyaaTorrent>.of(results)
+      final List<NyaaTorrent> gathered = <NyaaTorrent>[];
+      final Set<String> seen = <String>{};
+      final int maximumPages = widget.resourceWorkspace ? 100 : 1;
+      for (int page = 1; page <= maximumPages; page++) {
+        final List<NyaaTorrent> pageResults = await nyaa
+            .search(
+              request.query,
+              category: request.category,
+              filter: request.trustedOnly ? '2' : '0',
+              page: page,
+            )
+            .timeout(kDownloadDiscoveryTimeout);
+        if (!mounted || request.generation != _torrentRequestGeneration) return;
+        final List<NyaaTorrent> titleFiltered = widget.resourceWorkspace
+            ? pageResults
+                  .where((NyaaTorrent torrent) => torrent.seeders > 5)
+                  .where(_workspaceNyaaCandidateVisible)
+                  .where(
+                    (NyaaTorrent torrent) => seen.add(
+                      torrent.infoHash.trim().isNotEmpty
+                          ? torrent.infoHash.toLowerCase()
+                          : torrent.magnet,
+                    ),
+                  )
+                  .toList(growable: false)
+            : pageResults;
+        final int? remainingCollections =
+            widget.resourceWorkspace && _stopAtThirtyCollections
+            ? math.max(0, 30 - gathered.length)
+            : null;
+        final List<NyaaTorrent> visible = widget.resourceWorkspace
+            ? await _filterWorkspaceCollections(
+                nyaa,
+                titleFiltered,
+                request,
+                maximumValid: remainingCollections,
+              )
+            : titleFiltered;
+        if (!mounted || request.generation != _torrentRequestGeneration) return;
+        gathered.addAll(visible);
+        setState(() {
+          _nyaaScannedPages = page;
+          _nyaaScannedResults += pageResults.length;
+          _torrents = List<NyaaTorrent>.of(gathered)..sort(_compareTorrents);
+        });
+        final bool weakSeeds = pageResults.any(
+          (NyaaTorrent torrent) => torrent.seeders <= 5,
+        );
+        if (!widget.resourceWorkspace ||
+            pageResults.isEmpty ||
+            weakSeeds ||
+            pageResults.length < 75 ||
+            (_stopAtThirtyCollections && gathered.length >= 30)) {
+          break;
+        }
+      }
+      final List<NyaaTorrent> sorted = List<NyaaTorrent>.of(gathered)
         ..sort(_compareTorrents);
       if (!mounted || request.generation != _torrentRequestGeneration) return;
       setState(() {
@@ -517,6 +1322,82 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         setState(() => _loadingTorrents = false);
       }
     }
+  }
+
+  bool _workspaceNyaaCandidateVisible(NyaaTorrent torrent) {
+    if (!_excludeBelow1080) return true;
+    final String resolution = torrent.resolution ?? '';
+    final int? height = int.tryParse(
+      _resourceResolutionHeightPattern.firstMatch(resolution)?.group(1) ?? '',
+    );
+    return height == null || height >= 1080;
+  }
+
+  Future<List<NyaaTorrent>> _filterWorkspaceCollections(
+    NyaaClient client,
+    List<NyaaTorrent> candidates,
+    _TorrentSearchSnapshot request, {
+    int? maximumValid,
+  }) async {
+    if (candidates.isEmpty || maximumValid == 0) {
+      return const <NyaaTorrent>[];
+    }
+    if (mounted && request.generation == _torrentRequestGeneration) {
+      setState(() {
+        _nyaaCollectionInspectDone = 0;
+        _nyaaCollectionInspectTotal = candidates.length;
+      });
+    }
+    final List<NyaaTorrent> collections = <NyaaTorrent>[];
+    for (int start = 0; start < candidates.length;) {
+      final int remaining = maximumValid == null
+          ? 4
+          : math.min(4, maximumValid - collections.length);
+      if (remaining <= 0) break;
+      final int end = math.min(start + remaining, candidates.length);
+      final List<({NyaaTorrent torrent, InspectedTorrentMetainfo? inspected})>
+      inspectedBatch = await Future.wait(
+        <Future<({NyaaTorrent torrent, InspectedTorrentMetainfo? inspected})>>[
+          for (final NyaaTorrent torrent in candidates.sublist(start, end))
+            () async {
+              try {
+                final InspectedTorrentMetainfo? cached =
+                    _workspaceInspectedTorrents[torrent.infoHash];
+                final InspectedTorrentMetainfo inspected =
+                    cached ??
+                    inspectTorrentMetainfo(
+                      await client
+                          .downloadMetainfo(torrent)
+                          .timeout(kDownloadDiscoveryTimeout),
+                      expectedInfoHash: torrent.infoHash,
+                    );
+                return (torrent: torrent, inspected: inspected);
+              } on Object {
+                return (torrent: torrent, inspected: null);
+              }
+            }(),
+        ],
+      );
+      if (!mounted || request.generation != _torrentRequestGeneration) {
+        return const <NyaaTorrent>[];
+      }
+      for (final item in inspectedBatch) {
+        final InspectedTorrentMetainfo? inspected = item.inspected;
+        if (inspected != null) {
+          _workspaceInspectedTorrents[item.torrent.infoHash] = inspected;
+          if (resourceTorrentMetainfoIsCollection(inspected.files)) {
+            collections.add(item.torrent);
+            if (maximumValid != null && collections.length >= maximumValid) {
+              break;
+            }
+          }
+        }
+      }
+      setState(() => _nyaaCollectionInspectDone = end);
+      if (maximumValid != null && collections.length >= maximumValid) break;
+      start = end;
+    }
+    return collections;
   }
 
   int _compareTorrents(NyaaTorrent a, NyaaTorrent b) =>
@@ -589,6 +1470,7 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
       _jimakuEntries = const <JimakuEntry>[];
       _selectedJimakuEntry = null;
       _jimakuFiles = const <JimakuFile>[];
+      _clearWorkspaceJimakuGroups();
       _jimakuIndex = JimakuEpisodeIndex.fromFiles(const <JimakuFile>[]);
       _chosenSubs = const <(int?, JimakuFile)>[];
     });
@@ -624,18 +1506,21 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
       );
       final List<JimakuFile> files = target == null
           ? const <JimakuFile>[]
-          : await jimaku
-              .listFiles(target.id, episode: episode)
-              .timeout(kDownloadDiscoveryTimeout);
+          : filterResourceWorkspaceJimakuFiles(
+              await jimaku
+                  .listFiles(target.id, episode: episode)
+                  .timeout(kDownloadDiscoveryTimeout),
+            );
       // 用户可能已换番：结果只落到仍选中的那个番上。
       if (!mounted || _selectedMedia?.id != guardId) return;
       setState(() {
         _jimakuEntries = entries;
         _selectedJimakuEntry = target;
         _jimakuFiles = files;
+        _resetWorkspaceJimakuGroups(files);
         _jimakuSearchEpisode = episode;
         _jimakuIndex = JimakuEpisodeIndex.fromFiles(
-          files,
+          _activeWorkspaceJimakuFiles,
           preferredLanguage: _jimakuPreferredLanguage,
         );
         _jimakuLoaded = true;
@@ -643,6 +1528,7 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         final NyaaTorrent? torrent = _selectedTorrent;
         if (torrent != null) {
           _chosenSubs = _chooseSubsFor(torrent);
+          _syncWorkspacePairs();
         }
       });
     } catch (_) {
@@ -715,13 +1601,12 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   JimakuEntry? _resolveJimakuEntryFor(
     List<JimakuEntry> entries, {
     NyaaTorrent? torrent,
-  }) =>
-      resolveJimakuEntry(
-        entries,
-        userPickedEntryId: _userPickedJimakuEntryId,
-        torrentSeason: torrent?.season,
-        anilistId: _selectedMedia?.id,
-      );
+  }) => resolveJimakuEntry(
+    entries,
+    userPickedEntryId: _userPickedJimakuEntryId,
+    torrentSeason: torrent?.season,
+    anilistId: _selectedMedia?.id,
+  );
 
   /// 自动选中被季号校验拦下：没手选过、有候选条目，但没有一条季号对得上 [torrent]。
   /// 纯派生（不另存 state，避免与 [_selectedJimakuEntry] 漂开）。
@@ -750,6 +1635,7 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
       _jimakuLoading = true;
       _jimakuError = false;
       _jimakuFiles = const <JimakuFile>[];
+      _clearWorkspaceJimakuGroups();
       _jimakuIndex = JimakuEpisodeIndex.fromFiles(const <JimakuFile>[]);
       _chosenSubs = const <(int?, JimakuFile)>[];
     });
@@ -759,19 +1645,23 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         apiKey: apiKey,
         client: await ref.read(appProvider).createDownloadHttpClient(),
       );
-      final List<JimakuFile> files = await jimaku
-          .listFiles(entry.id, episode: _jimakuSearchEpisode)
-          .timeout(kDownloadDiscoveryTimeout);
+      final List<JimakuFile> files = filterResourceWorkspaceJimakuFiles(
+        await jimaku
+            .listFiles(entry.id, episode: _jimakuSearchEpisode)
+            .timeout(kDownloadDiscoveryTimeout),
+      );
       if (!mounted || _selectedMedia?.id != media.id) return;
       setState(() {
         _jimakuFiles = files;
+        _resetWorkspaceJimakuGroups(files);
         _jimakuIndex = JimakuEpisodeIndex.fromFiles(
-          files,
+          _activeWorkspaceJimakuFiles,
           preferredLanguage: _jimakuPreferredLanguage,
         );
         final NyaaTorrent? torrent = _selectedTorrent;
         if (torrent != null) {
           _chosenSubs = _chooseSubsFor(torrent);
+          _syncWorkspacePairs();
         }
       });
     } catch (_) {
@@ -790,13 +1680,56 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     setState(() {
       _jimakuPreferredLanguage = language;
       _jimakuIndex = JimakuEpisodeIndex.fromFiles(
-        _jimakuFiles,
+        _activeWorkspaceJimakuFiles,
         preferredLanguage: language,
       );
       final NyaaTorrent? torrent = _selectedTorrent;
       if (torrent != null) {
         _chosenSubs = _chooseSubsFor(torrent);
+        _syncWorkspacePairs();
       }
+    });
+  }
+
+  List<JimakuFile> get _activeWorkspaceJimakuFiles => widget.resourceWorkspace
+      ? (_workspaceJimakuVariant?.files ?? const <JimakuFile>[])
+      : _jimakuFiles;
+
+  void _clearWorkspaceJimakuGroups() {
+    _workspaceJimakuCategories = const <ResourceJimakuCategory>[];
+    _workspaceJimakuCategory = null;
+    _workspaceJimakuVariant = null;
+  }
+
+  void _resetWorkspaceJimakuGroups(List<JimakuFile> files) {
+    if (!widget.resourceWorkspace) return;
+    final List<ResourceJimakuCategory> categories = classifyResourceJimakuFiles(
+      files,
+    );
+    _workspaceJimakuCategories = categories;
+    _workspaceJimakuCategory = categories.isEmpty ? null : categories.first;
+    final List<ResourceJimakuVariant> variants =
+        _workspaceJimakuCategory?.variants ?? const <ResourceJimakuVariant>[];
+    _workspaceJimakuVariant = variants.isEmpty ? null : variants.first;
+  }
+
+  void _selectWorkspaceJimakuVariant(
+    ResourceJimakuCategory category,
+    ResourceJimakuVariant variant,
+  ) {
+    setState(() {
+      _workspaceJimakuCategory = category;
+      _workspaceJimakuVariant = variant;
+      _jimakuIndex = JimakuEpisodeIndex.fromFiles(
+        variant.files,
+        preferredLanguage: _jimakuPreferredLanguage,
+      );
+      final NyaaTorrent? torrent = _selectedTorrent;
+      if (torrent != null) {
+        _chosenSubs = _chooseSubsFor(torrent);
+        _syncWorkspacePairs();
+      }
+      _workspaceSubtitlesExpanded = false;
     });
   }
 
@@ -861,14 +1794,202 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         // 旧条目的文件/索引属于错季条目，先清干净再按新目标重建。
         _selectedJimakuEntry = target;
         _jimakuFiles = const <JimakuFile>[];
+        _clearWorkspaceJimakuGroups();
         _jimakuIndex = JimakuEpisodeIndex.fromFiles(const <JimakuFile>[]);
       }
       _chosenSubs = _chooseSubsFor(torrent);
       _includeSubs = true;
+      _workspaceTorrentFiles = const <TorrentMetainfoFile>[];
+      _workspaceVideoFolders = const <ResourceTorrentVideoFolder>[];
+      _workspaceSelectedFolderKey = null;
+      _workspaceExpandedFolderKeys = <String>{};
+      _workspaceInspectError = null;
+      _workspaceSubmitStatus = null;
+      _syncWorkspacePairs();
     });
     if (switched && target != null && !_jimakuLoading) {
       unawaited(_loadJimakuFilesFor(target));
     }
+    if (widget.resourceWorkspace) unawaited(_inspectWorkspaceTorrent(torrent));
+  }
+
+  Future<void> _inspectWorkspaceTorrent(NyaaTorrent torrent) async {
+    final InspectedTorrentMetainfo? cached =
+        _workspaceInspectedTorrents[torrent.infoHash];
+    if (cached != null) {
+      if (!mounted || _selectedTorrent?.infoHash != torrent.infoHash) return;
+      setState(() {
+        _applyWorkspaceTorrentFiles(cached.files);
+      });
+      return;
+    }
+    setState(() {
+      _workspaceInspectingTorrent = true;
+      _workspaceInspectError = null;
+    });
+    NyaaClient? client;
+    try {
+      client = NyaaClient(
+        client: await ref.read(appProvider).createDownloadHttpClient(),
+      );
+      final bytes = await client
+          .downloadMetainfo(torrent)
+          .timeout(kDownloadDiscoveryTimeout);
+      final InspectedTorrentMetainfo inspected = inspectTorrentMetainfo(
+        bytes,
+        expectedInfoHash: torrent.infoHash,
+      );
+      if (!mounted || _selectedTorrent?.infoHash != torrent.infoHash) return;
+      setState(() {
+        _workspaceInspectedTorrents[torrent.infoHash] = inspected;
+        _applyWorkspaceTorrentFiles(inspected.files);
+      });
+    } on Object catch (error) {
+      if (mounted && _selectedTorrent?.infoHash == torrent.infoHash) {
+        setState(() {
+          _workspaceInspectError = error.toString();
+          _syncWorkspacePairs();
+        });
+      }
+    } finally {
+      client?.close();
+      if (mounted && _selectedTorrent?.infoHash == torrent.infoHash) {
+        setState(() => _workspaceInspectingTorrent = false);
+      }
+    }
+  }
+
+  void _applyWorkspaceTorrentFiles(List<TorrentMetainfoFile> files) {
+    _workspaceTorrentFiles = files;
+    _workspaceVideoFolders = classifyResourceTorrentVideoFolders(files);
+    if (_workspaceVideoFolders.length == 1) {
+      _workspaceSelectedFolderKey = _workspaceVideoFolders.single.key;
+    } else if (!_workspaceVideoFolders.any(
+      (ResourceTorrentVideoFolder folder) =>
+          folder.key == _workspaceSelectedFolderKey,
+    )) {
+      _workspaceSelectedFolderKey = null;
+    }
+    _syncWorkspacePairs();
+  }
+
+  void _selectWorkspaceVideoFolder(ResourceTorrentVideoFolder folder) {
+    setState(() {
+      _workspaceSelectedFolderKey = folder.key;
+      _workspaceSubmitStatus = null;
+      _syncWorkspacePairs();
+    });
+  }
+
+  void _toggleWorkspaceVideoFolder(ResourceTorrentVideoFolder folder) {
+    setState(() {
+      if (!_workspaceExpandedFolderKeys.add(folder.key)) {
+        _workspaceExpandedFolderKeys.remove(folder.key);
+      }
+    });
+  }
+
+  void _syncWorkspacePairs() {
+    final NyaaTorrent? torrent = _selectedTorrent;
+    if (torrent == null) {
+      _workspaceVideoRows = const <String>[];
+      _workspaceSubtitleRows = const <JimakuFile?>[];
+      return;
+    }
+    final ResourceTorrentVideoFolder? selectedFolder = _workspaceVideoFolders
+        .where(
+          (ResourceTorrentVideoFolder folder) =>
+              folder.key == _workspaceSelectedFolderKey,
+        )
+        .firstOrNull;
+    final List<TorrentMetainfoFile> candidateFiles =
+        selectedFolder?.files ?? const <TorrentMetainfoFile>[];
+    final List<String> videos = candidateFiles
+        .map((TorrentMetainfoFile file) => file.path)
+        .toList(growable: false);
+    final List<String> previewVideos =
+        videos.isEmpty && _workspaceTorrentFiles.isEmpty
+        ? <String>[torrent.title]
+        : videos;
+    final List<ResourceWorkspacePair> pairs = arrangeResourceWorkspacePairs(
+      videoPaths: previewVideos,
+      subtitleFiles: _activeWorkspaceJimakuFiles,
+      preferredLanguage: _jimakuPreferredLanguage,
+      soleFallbackSubtitle: _chosenSubs.length == 1
+          ? _chosenSubs.first.$2
+          : null,
+    );
+    _workspaceVideoRows = <String>[
+      for (final ResourceWorkspacePair pair in pairs) pair.videoPath ?? '',
+    ];
+    _workspaceSubtitleRows = <JimakuFile?>[
+      for (final ResourceWorkspacePair pair in pairs) pair.subtitle,
+    ];
+    _workspaceSelectedRows = _workspaceEligibleRows();
+  }
+
+  List<(int?, JimakuFile)> _workspaceSubmissionSubtitles() {
+    final List<(int?, JimakuFile)> selected = <(int?, JimakuFile)>[];
+    for (int index = 0; index < _workspaceSubtitleRows.length; index++) {
+      if (!_workspaceSelectedRows.contains(index)) continue;
+      final JimakuFile? file = _workspaceSubtitleRows[index];
+      if (file != null) {
+        final String video = index < _workspaceVideoRows.length
+            ? _workspaceVideoRows[index]
+            : '';
+        final int? targetEpisode = video.trim().isNotEmpty
+            ? parseVideoFilename(video).episode
+            : file.episode;
+        selected.add((targetEpisode ?? file.episode, file));
+      }
+    }
+    return selected;
+  }
+
+  List<AnimeDownloadFileSelection> _workspaceFileSelections() {
+    if (_workspaceTorrentFiles.isEmpty) {
+      return const <AnimeDownloadFileSelection>[];
+    }
+    final Set<String> selectedPaths = <String>{
+      for (final int index in _workspaceSelectedRows)
+        if (index >= 0 &&
+            index < _workspaceVideoRows.length &&
+            _workspaceVideoRows[index].trim().isNotEmpty)
+          _workspaceVideoRows[index],
+    };
+    return <AnimeDownloadFileSelection>[
+      for (final TorrentMetainfoFile file in _workspaceTorrentFiles)
+        AnimeDownloadFileSelection(
+          path: file.path,
+          sizeBytes: file.length,
+          selected: selectedPaths.contains(file.path),
+        ),
+    ];
+  }
+
+  void _moveWorkspaceSide({
+    required bool subtitle,
+    required int from,
+    required int to,
+  }) {
+    if (from == to || from < 0 || to < 0) return;
+    setState(() {
+      if (subtitle) {
+        _workspaceSubtitleRows = swapResourceWorkspaceItems<JimakuFile?>(
+          _workspaceSubtitleRows,
+          from: from,
+          to: to,
+        );
+      } else {
+        _workspaceVideoRows = swapResourceWorkspaceItems<String>(
+          _workspaceVideoRows,
+          from: from,
+          to: to,
+        );
+      }
+      _workspaceSelectedRows = _workspaceEligibleRows();
+      _workspaceDragTarget = null;
+    });
   }
 
   void _clearSelectedTorrent() {
@@ -889,6 +2010,83 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     final AniListMedia? media = _selectedMedia;
     if (!_backendReady) return;
     if (torrent == null || media == null || _pushing) return;
+    final AnimeDownloadPipelineSubmit? pipelineSubmit = widget.onPipelineSubmit;
+    if (pipelineSubmit != null) {
+      final MediaSourceRow? source = widget.pipelineSources
+          .where((MediaSourceRow value) => value.id == _pipelineSourceId)
+          .firstOrNull;
+      if (source == null) return;
+      setState(() {
+        _pushing = true;
+        if (widget.resourceWorkspace) {
+          _workspaceSubmitStatus = switch (_workspaceContentMode) {
+            AnimeDownloadContentMode.both => '正在预先下载并命名字幕…',
+            AnimeDownloadContentMode.subtitle => '正在下载并命名字幕…',
+            AnimeDownloadContentMode.video => '正在发送动画下载任务…',
+          };
+        }
+      });
+      try {
+        await pipelineSubmit(
+          AnimeDownloadPipelineSelection(
+            media: media,
+            torrent: torrent,
+            source: source,
+            includeSubtitles: _includeSubs,
+            jimakuEntry: _includeSubs ? _selectedJimakuEntry : null,
+            subtitles: _includeSubs
+                ? List<(int?, JimakuFile)>.unmodifiable(
+                    widget.resourceWorkspace
+                        ? _workspaceSubmissionSubtitles()
+                        : _chosenSubs,
+                  )
+                : const <(int?, JimakuFile)>[],
+            preferredSubtitleLanguage: _includeSubs
+                ? _jimakuPreferredLanguage
+                : null,
+            bangumiSubject: _selectedBangumiSubject,
+            contentMode: widget.resourceWorkspace
+                ? _workspaceContentMode
+                : (_includeSubs
+                      ? AnimeDownloadContentMode.both
+                      : AnimeDownloadContentMode.video),
+            fileSelections: widget.resourceWorkspace
+                ? _workspaceFileSelections()
+                : const <AnimeDownloadFileSelection>[],
+          ),
+        );
+        if (!mounted) return;
+        if (widget.resourceWorkspace) {
+          setState(() {
+            _workspaceSubmitStatus = switch (_workspaceContentMode) {
+              AnimeDownloadContentMode.subtitle => '所选字幕已下载到保存位置。',
+              AnimeDownloadContentMode.both => '下载任务已发送（动画和字幕），可在“任务”页面查看进度。',
+              AnimeDownloadContentMode.video => '下载任务已发送（仅动画），可在“任务”页面查看进度。',
+            };
+          });
+          return;
+        }
+        _snack(t.anime_download_pushed);
+        setState(() {
+          _selectedTorrent = null;
+          _chosenSubs = const <(int?, JimakuFile)>[];
+          _selectedMedia = null;
+          _torrents = const <NyaaTorrent>[];
+          _torrentsLoaded = false;
+        });
+      } on Object catch (error) {
+        if (mounted) {
+          if (widget.resourceWorkspace) {
+            setState(() => _workspaceSubmitStatus = '发送下载任务失败：$error');
+          } else {
+            _snack(error.toString());
+          }
+        }
+      } finally {
+        if (mounted) setState(() => _pushing = false);
+      }
+      return;
+    }
     final AnimeDownloadPlanStore? store = appModel.animeDownloadPlanStore;
     if (store == null) {
       _snack(t.anime_download_store_unavailable);
@@ -990,8 +2188,9 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     unawaited(appModel.animeDownloadService?.tick());
     if (!mounted) return;
     // 说清字幕的时序：选了条目就必然还没下，别让用户以为「推送时字幕已经拿好」。
-    final String pushedMessage =
-        subscribed ? t.download_subscription_created : t.anime_download_pushed;
+    final String pushedMessage = subscribed
+        ? t.download_subscription_created
+        : t.anime_download_pushed;
     _snack(
       subsEntry == null
           ? pushedMessage
@@ -1018,8 +2217,9 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   // ------------------------------------------------------------ 下载任务区
 
   Future<void> _reloadPlans() async {
-    final AnimeDownloadPlanStore? store =
-        ref.read(appProvider).animeDownloadPlanStore;
+    final AnimeDownloadPlanStore? store = ref
+        .read(appProvider)
+        .animeDownloadPlanStore;
     if (store == null) {
       widget.onTaskPresenceChanged?.call(false);
       return;
@@ -1036,59 +2236,15 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     unawaited(ref.read(appProvider).animeDownloadService?.tick());
   }
 
-  /// 删除旧番剧计划：与 v78 任务面板同一确认框（正文 + 「同时删除已下载文件」）。
-  /// 以前这里没有确认框、也从不删文件；勾选后经后端 `removeTorrent(deleteFiles)` 删
-  /// 数据，并把已入库、指向这些文件的视频行一并清掉（否则库里留下一排打不开的壳）。
   Future<void> _deletePlan(AnimeDownloadPlan plan) async {
     final AppModel appModel = ref.read(appProvider);
     final AnimeDownloadPlanStore? store = appModel.animeDownloadPlanStore;
     if (store == null) return;
     final AnimeDownloadService? service = appModel.animeDownloadService;
-    // 「同时删除已下载文件」只在真兑现得了时才摆出来：删数据只能由下载后端执行，
-    // 没有 service 或后端没配好时勾了也只会静默丢弃（与两个删除确认框里
-    // 「兑现不了就不显示」同一纪律）。
-    final bool canDeleteFiles = service != null &&
-        effectiveTorrentConfig(appModel.qbConnectionConfig).isConfigured;
-    final bool? deleteFiles = await showDownloadTaskDeleteConfirm(
-      context,
-      title: plan.seriesTitle.isNotEmpty ? plan.seriesTitle : plan.torrentTitle,
-      keySuffix: plan.id,
-      offerDeleteFiles: canDeleteFiles,
-    );
-    if (deleteFiles == null || !mounted) return;
     if (service == null) {
       await store.delete(plan.id);
     } else {
-      final AnimeDownloadPlanDeleteResult result = await service.deletePlan(
-        plan.id,
-        deleteFiles: deleteFiles,
-        onFilesDeleted: (List<String> videoAbsolutePaths) async {
-          final VideoBookRepository repo =
-              VideoBookRepository(appModel.database);
-          bool any = false;
-          for (final String path in videoAbsolutePaths) {
-            final VideoBookRow? row = await repo.findByVideoPath(path);
-            if (row == null) continue;
-            await repo.deleteVideoBookAndReclaimAssets(
-              row.bookUid,
-              compactDatabase: false,
-            );
-            any = true;
-          }
-          if (any) {
-            await repo.compactAfterVideoDeleteBestEffort();
-            appModel.database.notifyVideoLibraryChanged();
-          }
-        },
-      );
-      // 勾了删文件却没删成（后端离线 / 摘种子失败）必须说出来：计划行已经消失，
-      // 用户不会再有第二次机会发现盘上的数据还在。
-      if (deleteFiles && !result.filesDeleted && mounted) {
-        FushiToast.show(
-          msg: t.download_task_delete_files_failed,
-          severity: ToastSeverity.warning,
-        );
-      }
+      await service.deletePlan(plan.id);
     }
     await _reloadPlans();
   }
@@ -1172,7 +2328,7 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   Future<void> _playNow(AnimeDownloadPlan plan) async {
     final bool ok =
         await ref.read(appProvider).animeDownloadService?.importNow(plan.id) ??
-            false;
+        false;
     if (!mounted) return;
     _snack(ok ? t.anime_download_play_now_ok : t.anime_download_play_now_fail);
     if (ok) await _reloadPlans();
@@ -1311,8 +2467,10 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        _buildGenericMagnetSection(theme),
-        const SizedBox(height: 8),
+        if (widget.onPipelineSubmit == null) ...<Widget>[
+          _buildGenericMagnetSection(theme),
+          const SizedBox(height: 8),
+        ],
         Row(
           children: <Widget>[
             Expanded(
@@ -1427,9 +2585,11 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         );
         // 下载按钮：图标 18 + 图标/文字间距与左右内边距合计约 46，再加标签字形宽
         // （与 estimateSegmentedStripWidth 同一套保守的 CJK 倾向估算）。
-        final double buttonWidth = 46 +
+        final double buttonWidth =
+            46 +
             t.anime_download_generic_download.length * fontSize * textScale;
-        final bool fitsOneRow = constraints.maxWidth.isFinite &&
+        final bool fitsOneRow =
+            constraints.maxWidth.isFinite &&
             stripWidth + 8 + buttonWidth <= constraints.maxWidth;
         if (fitsOneRow) {
           return Row(
@@ -1718,12 +2878,12 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
               onSelected: _selectTorrentSort,
               itemBuilder: (BuildContext context) =>
                   <PopupMenuEntry<TorrentSortKey>>[
-                for (final TorrentSortKey key in TorrentSortKey.values)
-                  PopupMenuItem<TorrentSortKey>(
-                    value: key,
-                    child: Text(_torrentSortLabel(key)),
-                  ),
-              ],
+                    for (final TorrentSortKey key in TorrentSortKey.values)
+                      PopupMenuItem<TorrentSortKey>(
+                        value: key,
+                        child: Text(_torrentSortLabel(key)),
+                      ),
+                  ],
               child: Chip(
                 avatar: const Icon(Icons.sort, size: 18),
                 label: Text('${t.sort_by}: ${_torrentSortLabel(_torrentSort)}'),
@@ -1827,7 +2987,7 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
       final String label = range == null
           ? t.anime_download_batch
           : '${range.$1.toString().padLeft(2, '0')}'
-              '-${range.$2.toString().padLeft(2, '0')}';
+                '-${range.$2.toString().padLeft(2, '0')}';
       chips.add(_miniChip(theme, label, icon: Icons.stacked_bar_chart));
     }
     if (_jimakuLoaded) {
@@ -1937,6 +3097,34 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
                         : (bool value) => setState(() => _includeSubs = value),
                   ),
                 _buildChosenSubsList(theme),
+                if (widget.onPipelineSubmit != null) ...<Widget>[
+                  const SizedBox(height: 8),
+                  DropdownButtonFormField<int>(
+                    key: const ValueKey<String>('anime-pipeline-source'),
+                    initialValue: _pipelineSourceId,
+                    isExpanded: true,
+                    decoration: InputDecoration(
+                      labelText: t.video_download_target_source_title,
+                      helperText: t.video_download_target_source_hint,
+                    ),
+                    items: widget.pipelineSources
+                        .map(
+                          (MediaSourceRow source) => DropdownMenuItem<int>(
+                            value: source.id,
+                            child: Text(
+                              source.label,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        )
+                        .toList(growable: false),
+                    onChanged: _pushing
+                        ? null
+                        : (int? value) =>
+                              setState(() => _pipelineSourceId = value),
+                  ),
+                ],
               ],
             ),
           ),
@@ -1946,7 +3134,8 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
           builder: (BuildContext context) {
             final NyaaTorrent torrent = _selectedTorrent!;
             final String? group = torrent.releaseGroup?.trim();
-            final bool canSubscribe = !torrent.isBatch &&
+            final bool canSubscribe =
+                !torrent.isBatch &&
                 torrent.episode != null &&
                 group != null &&
                 group.isNotEmpty &&
@@ -1966,38 +3155,47 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
                   spacing: 8,
                   runSpacing: 8,
                   children: <Widget>[
-                    OutlinedButton.icon(
-                      onPressed: (_qbMissing || _pushing || !canSubscribe)
-                          ? null
-                          : () => _push(subscribe: true),
-                      icon: const Icon(Icons.subscriptions_outlined),
-                      label: Text(t.download_subscription_download_and_create),
-                    ),
+                    if (widget.onPipelineSubmit == null)
+                      OutlinedButton.icon(
+                        onPressed: (_qbMissing || _pushing || !canSubscribe)
+                            ? null
+                            : () => _push(subscribe: true),
+                        icon: const Icon(Icons.subscriptions_outlined),
+                        label: Text(
+                          t.download_subscription_download_and_create,
+                        ),
+                      ),
                     FilledButton.icon(
                       onPressed:
-                          (_qbMissing || _pushing) ? null : () => _push(),
+                          (_qbMissing ||
+                              _pushing ||
+                              (widget.onPipelineSubmit != null &&
+                                  _pipelineSourceId == null))
+                          ? null
+                          : () => _push(),
                       icon: progressIcon,
                       label: Text(t.anime_download_push),
                     ),
                   ],
                 ),
                 const SizedBox(height: 6),
-                Text(
-                  canSubscribe
-                      ? t.download_subscription_choice_hint(
-                          group: group,
-                          resolution: torrent.resolution ?? '-',
-                        )
-                      : t.download_subscription_unavailable_hint,
-                  textAlign: TextAlign.end,
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-                if (canSubscribe && _selectedJimakuEntry != null)
+                if (widget.onPipelineSubmit == null)
+                  Text(
+                    canSubscribe
+                        ? t.download_subscription_choice_hint(
+                            group: group,
+                            resolution: torrent.resolution ?? '-',
+                          )
+                        : t.download_subscription_unavailable_hint,
+                    textAlign: TextAlign.end,
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                if (_selectedJimakuEntry != null)
                   Text(
                     '${t.video_jimaku_source}: '
                     '${_selectedJimakuEntry!.name}'
                     '${_jimakuPreferredLanguage == null ? '' : ' · '
-                        '${jimakuLanguageLabel(_jimakuPreferredLanguage!)}'}',
+                              '${jimakuLanguageLabel(_jimakuPreferredLanguage!)}'}',
                     textAlign: TextAlign.end,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
@@ -2025,8 +3223,9 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
 
   Widget _buildJimakuManualSearchRow(ThemeData theme, double rowWidth) {
     final AniListMedia? media = _selectedMedia;
-    final List<String> titleOptions =
-        media == null ? const <String>[] : _titleOptions(media);
+    final List<String> titleOptions = media == null
+        ? const <String>[]
+        : _titleOptions(media);
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
@@ -2050,16 +3249,16 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
                       },
                       itemBuilder: (BuildContext context) =>
                           <PopupMenuEntry<String>>[
-                        for (final String title in titleOptions)
-                          PopupMenuItem<String>(
-                            value: title,
-                            child: Text(
-                              title,
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
-                      ],
+                            for (final String title in titleOptions)
+                              PopupMenuItem<String>(
+                                value: title,
+                                child: Text(
+                                  title,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                              ),
+                          ],
                     ),
             ),
             textInputAction: TextInputAction.search,
@@ -2091,7 +3290,8 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
             _jimakuEpisodeCtrl,
           ]),
           builder: (BuildContext context, Widget? child) {
-            final bool dirty = _jimakuQueryCtrl.text.trim().isNotEmpty &&
+            final bool dirty =
+                _jimakuQueryCtrl.text.trim().isNotEmpty &&
                 _currentJimakuSearchInput() != _appliedJimakuSearch;
             return IconButton(
               tooltip: t.anime_download_search,
@@ -2432,8 +3632,9 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   ///   可读，不再只藏 hover Tooltip）+ trailing 重试按钮。
   Widget _buildPlanRow(ThemeData theme, AnimeDownloadPlan plan) {
     if (plan.status == AnimeDownloadPlan.statusDownloading) {
-      final AnimeDownloadService? service =
-          ref.read(appProvider).animeDownloadService;
+      final AnimeDownloadService? service = ref
+          .read(appProvider)
+          .animeDownloadService;
       if (service != null) {
         // BUG-1296：百分比与确定进度环只认 [AnimeDownloadService.downloadProgress]
         // ——它是恒发布的规范通道。BUG-1294 的速度/流量走 downloadStats，只是**增强
@@ -2443,58 +3644,72 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
           valueListenable: service.downloadProgress,
           builder: (BuildContext context, Map<String, double> progress, _) =>
               ValueListenableBuilder<Map<String, DownloadTaskStats>>(
-            valueListenable: service.downloadStats,
-            builder: (BuildContext context,
-                    Map<String, DownloadTaskStats> stats, _) =>
-                _buildPlanRowInner(
-                    theme, plan, progress[plan.id], stats[plan.id]),
-          ),
+                valueListenable: service.downloadStats,
+                builder:
+                    (
+                      BuildContext context,
+                      Map<String, DownloadTaskStats> stats,
+                      _,
+                    ) => _buildPlanRowInner(
+                      theme,
+                      plan,
+                      progress[plan.id],
+                      stats[plan.id],
+                    ),
+              ),
         );
       }
     }
     return _buildPlanRowInner(theme, plan, null, null);
   }
 
-  Widget _buildPlanRowInner(ThemeData theme, AnimeDownloadPlan plan,
-      double? progress, DownloadTaskStats? stats) {
+  Widget _buildPlanRowInner(
+    ThemeData theme,
+    AnimeDownloadPlan plan,
+    double? progress,
+    DownloadTaskStats? stats,
+  ) {
     final ColorScheme scheme = theme.colorScheme;
     final bool eink = isEinkTheme(context);
     final bool downloading = plan.status == AnimeDownloadPlan.statusDownloading;
     final bool failed = plan.status == AnimeDownloadPlan.statusFailed;
     final Widget statusIcon = switch (plan.status) {
       AnimeDownloadPlan.statusImported => Icon(
-          Icons.check_circle_outline,
-          size: 20,
-          color: scheme.primary,
-        ),
+        Icons.check_circle_outline,
+        size: 20,
+        color: scheme.primary,
+      ),
       AnimeDownloadPlan.statusFailed => Icon(
-          Icons.error_outline,
-          size: 20,
-          color: scheme.error,
-        ),
-      _ => eink
-          ? const Icon(Icons.downloading_outlined, size: 20)
-          : SizedBox(
-              width: 20,
-              height: 20,
-              child: Padding(
-                padding: const EdgeInsets.all(2),
-                child: CircularProgressIndicator(
-                  strokeWidth: 2,
-                  value: progress,
+        Icons.error_outline,
+        size: 20,
+        color: scheme.error,
+      ),
+      _ =>
+        eink
+            ? const Icon(Icons.downloading_outlined, size: 20)
+            : SizedBox(
+                width: 20,
+                height: 20,
+                child: Padding(
+                  padding: const EdgeInsets.all(2),
+                  child: CircularProgressIndicator(
+                    strokeWidth: 2,
+                    value: progress,
+                  ),
                 ),
               ),
-            ),
     };
     // BUG-1294：进度百分比之外补速度与累计流量（单位串是纯数字/符号，无需
     // i18n key）。速率为 0 时仍显示（「0 B/s 卡住了」本身就是有效信息）。
     // BUG-1296：百分比只依赖 progress；观测值缺席就只渲染百分比，不整条消失。
     // TODO-2481：再补状态文本 / ETA / 分享率 —— 三者都是增强位，算不出
     // （未知词 / 零速度 / 零分母）就整段不渲染，绝不把百分比一起吞掉。
-    final TorrentDisplayStatus? displayStatus =
-        stats == null ? null : torrentDisplayStatusFor(stats.state);
-    final String? statusLabel =
-        displayStatus == null ? null : _torrentStatusLabel(displayStatus);
+    final TorrentDisplayStatus? displayStatus = stats == null
+        ? null
+        : torrentDisplayStatusFor(stats.state);
+    final String? statusLabel = displayStatus == null
+        ? null
+        : _torrentStatusLabel(displayStatus);
     final String? etaText = stats == null
         ? null
         : formatTorrentEta(
@@ -2522,25 +3737,25 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
         : null;
     final String? failReason =
         (failed && (plan.failReason?.isNotEmpty ?? false))
-            ? plan.failReason
-            : null;
+        ? plan.failReason
+        : null;
     // 字幕的时序对用户是可见的（BUG-1206）：推送时不再预下字幕，所以必须在这里
     // 说清「还没配」「没配上」，否则用户会以为字幕功能没了。
     // resolved / none 不占行——前者字幕已经贴成 sidecar，后者用户压根没要字幕。
     final (String, Color)? subtitleNote = switch (plan.subtitleStatus) {
       AnimeDownloadPlan.subtitlePending => (
-          t.anime_download_subs_pending,
-          scheme.onSurfaceVariant,
-        ),
+        t.anime_download_subs_pending,
+        scheme.onSurfaceVariant,
+      ),
       // BUG-1696 起 unavailable 不再是终态：还排得上 backoff 重试的说「稍后自动
       // 重试」，重试次数用完了才说「未匹配到（可手动补）」。两种对用户是完全不同
       // 的处境——前者什么都不用做，后者要么手动补要么改条目。
       AnimeDownloadPlan.subtitleUnavailable => (
-          plan.subtitleRetryPossible
-              ? t.anime_download_subs_retrying
-              : t.anime_download_subs_unmatched,
-          scheme.tertiary,
-        ),
+        plan.subtitleRetryPossible
+            ? t.anime_download_subs_retrying
+            : t.anime_download_subs_unmatched,
+        scheme.tertiary,
+      ),
       _ => null,
     };
     return FushiListItem(
@@ -2684,9 +3899,1170 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     );
   }
 
+  Widget _buildResourceWorkspace(ThemeData theme) {
+    return ColoredBox(
+      color: theme.colorScheme.surface,
+      child: ListView(
+        key: const ValueKey<String>('anime-resource-workspace'),
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 28),
+        children: <Widget>[
+          _workspaceSection(
+            theme,
+            number: '01',
+            title: '选择 Bangumi 动画',
+            child: _buildWorkspaceMediaSection(theme),
+          ),
+          _workspaceSection(
+            theme,
+            number: '02',
+            title: 'AniList 动画搜索',
+            child: _buildWorkspaceAniListSection(theme),
+          ),
+          _workspaceSection(
+            theme,
+            number: '03',
+            title: '匹配 Jimaku 字幕',
+            enabled: _selectedMedia != null,
+            child: _buildWorkspaceJimakuSection(theme),
+          ),
+          _workspaceSection(
+            theme,
+            number: '04',
+            title: '选择 Nyaa 动画资源',
+            enabled: _selectedMedia != null,
+            child: _buildWorkspaceNyaaSection(theme),
+          ),
+          _workspaceSection(
+            theme,
+            number: '05',
+            title: '选择集数并下载',
+            enabled: _selectedTorrent != null,
+            child: _buildWorkspacePairingSection(theme),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _workspaceSection(
+    ThemeData theme, {
+    required String number,
+    required String title,
+    required Widget child,
+    bool enabled = true,
+  }) {
+    final ColorScheme colors = theme.colorScheme;
+    return TweenAnimationBuilder<double>(
+      tween: Tween<double>(begin: 0, end: 1),
+      duration: const Duration(milliseconds: 260),
+      curve: Curves.easeOutCubic,
+      builder: (BuildContext context, double value, Widget? animatedChild) =>
+          Transform.translate(
+            offset: Offset(0, 8 * (1 - value)),
+            child: Opacity(opacity: value, child: animatedChild),
+          ),
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 10),
+        child: AnimatedOpacity(
+          duration: const Duration(milliseconds: 160),
+          opacity: enabled ? 1 : 0.45,
+          child: Container(
+            padding: const EdgeInsets.fromLTRB(20, 18, 20, 18),
+            decoration: BoxDecoration(
+              color: colors.surfaceContainerLow,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: colors.outlineVariant),
+              boxShadow: <BoxShadow>[
+                BoxShadow(
+                  color: colors.shadow.withValues(alpha: 0.08),
+                  blurRadius: 14,
+                  offset: const Offset(0, 2),
+                ),
+              ],
+            ),
+            child: IgnorePointer(
+              ignoring: !enabled,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
+                  Text(
+                    number.isEmpty ? title : '$number  $title',
+                    style: TextStyle(
+                      color: colors.primary,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  child,
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildWorkspaceMediaSection(ThemeData theme) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+        Row(
+          children: <Widget>[
+            Expanded(
+              child: TextField(
+                controller: _animeQueryCtrl,
+                textInputAction: TextInputAction.search,
+                style: const TextStyle(color: _legacyText, fontSize: 13.5),
+                decoration: _legacyInputDecoration(hintText: '输入中文、日文或英文动画名'),
+                onChanged: (_) => setState(() {}),
+                onSubmitted: (String value) {
+                  final String query = value.trim();
+                  if (query.isNotEmpty && !_bangumiLoading) {
+                    unawaited(_searchBangumi(query));
+                  }
+                },
+              ),
+            ),
+            const SizedBox(width: 10),
+            _LegacyButton(
+              onPressed: _bangumiLoading || _animeQueryCtrl.text.trim().isEmpty
+                  ? null
+                  : () =>
+                        unawaited(_searchBangumi(_animeQueryCtrl.text.trim())),
+              child: const Text('搜索'),
+            ),
+          ],
+        ),
+        if (_bangumiLoading) ...<Widget>[
+          const SizedBox(height: 10),
+          LinearProgressIndicator(
+            minHeight: 6,
+            color: theme.colorScheme.primary,
+            backgroundColor: theme.colorScheme.surfaceContainerHighest,
+          ),
+          const SizedBox(height: 6),
+          const Text(
+            '正在查询 Bangumi…',
+            style: TextStyle(color: _legacyMuted, fontSize: 12),
+          ),
+        ],
+        if (_selectedBangumiSubject
+            case final BangumiSubject subject) ...<Widget>[
+          const SizedBox(height: 8),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 4),
+            child: Text(
+              '已选择：${subject.displayName} · ${subject.platform}'
+              '${subject.episodeCount > 0 ? ' · ${subject.episodeCount} 集' : ''}',
+              style: const TextStyle(color: _legacyMuted, fontSize: 12),
+            ),
+          ),
+        ],
+        if (_bangumiMatches.isNotEmpty) ...<Widget>[
+          const SizedBox(height: 8),
+          _LegacyButton(
+            key: _bangumiChoiceAnchorKey,
+            expanded: true,
+            onPressedWithContext: _showWorkspaceBangumiPopup,
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: Text(
+                    _selectedBangumiSubject?.displayName ??
+                        '选择 Bangumi 动画条目（${_bangumiMatches.length}）',
+                  ),
+                ),
+                const Icon(Icons.keyboard_arrow_down, size: 18),
+              ],
+            ),
+          ),
+        ],
+        if (_bangumiError) ...<Widget>[
+          const SizedBox(height: 8),
+          const Text(
+            'Bangumi 查询失败，可以重试或修改关键词。',
+            style: TextStyle(color: Color(0xFFC42B1C), fontSize: 12),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _buildWorkspaceAniListSection(ThemeData theme) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+        Row(
+          children: <Widget>[
+            SizedBox(
+              width: 108,
+              child: _LegacyButton(
+                expanded: true,
+                onPressedWithContext: _searchingAnime
+                    ? null
+                    : (BuildContext anchorContext) => unawaited(
+                        _showWorkspaceAniListLanguagePopup(anchorContext),
+                      ),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Text(
+                        _workspaceAniListQueryLanguage == 'ja' ? '日语' : '英语',
+                      ),
+                    ),
+                    const Icon(Icons.keyboard_arrow_down, size: 18),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: TextField(
+                controller: _anilistQueryCtrl,
+                textInputAction: TextInputAction.search,
+                style: const TextStyle(color: _legacyText, fontSize: 13.5),
+                decoration: _legacyInputDecoration(hintText: '输入英语或罗马字动画名'),
+                onSubmitted: (_) => _searchAnime(),
+              ),
+            ),
+            const SizedBox(width: 8),
+            _LegacyButton(
+              onPressed: _searchingAnime ? null : _searchAnime,
+              child: const Text('搜索'),
+            ),
+          ],
+        ),
+        const SizedBox(height: 7),
+        Text(
+          _searchingAnime
+              ? '正在读取 AniList 全部动画…'
+              : _selectedMedia == null
+              ? '输入英语动画名后查询全部 AniList 动画。'
+              : '已选择：${_selectedMedia!.displayTitle}',
+          style: const TextStyle(color: _legacyMuted, fontSize: 12),
+        ),
+        if (_searchingAnime) ...<Widget>[
+          const SizedBox(height: 7),
+          LinearProgressIndicator(
+            minHeight: 6,
+            color: theme.colorScheme.primary,
+            backgroundColor: theme.colorScheme.surfaceContainerHighest,
+          ),
+        ],
+        if (_animeMatches.isNotEmpty) ...<Widget>[
+          const SizedBox(height: 8),
+          _LegacyButton(
+            key: _aniListChoiceAnchorKey,
+            expanded: true,
+            onPressedWithContext: _showWorkspaceAniListPopup,
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: Text(
+                    _selectedMedia?.displayTitle ??
+                        '选择 AniList 动画条目（${_animeMatches.length}）',
+                  ),
+                ),
+                const Icon(Icons.keyboard_arrow_down, size: 18),
+              ],
+            ),
+          ),
+        ],
+        if (_animeSearchError) ...<Widget>[
+          const SizedBox(height: 8),
+          Text(
+            'AniList 查询失败：${_animeSearchErrorDetail ?? ''}',
+            style: const TextStyle(color: Color(0xFFC42B1C), fontSize: 12),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _buildWorkspaceJimakuSection(ThemeData theme) {
+    if (_selectedMedia == null) return const SizedBox.shrink();
+    final ResourceJimakuCategory? category = _workspaceJimakuCategory;
+    final ResourceJimakuVariant? variant = _workspaceJimakuVariant;
+    final List<JimakuFile> visibleFiles = _activeWorkspaceJimakuFiles;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            SizedBox(
+              width: 108,
+              child: _LegacyButton(
+                expanded: true,
+                onPressedWithContext: _jimakuLoading
+                    ? null
+                    : (BuildContext anchorContext) => unawaited(
+                        _showWorkspaceQueryLanguagePopup(
+                          anchorContext: anchorContext,
+                          nyaa: false,
+                        ),
+                      ),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Text(
+                        _workspaceQueryLanguageLabel(
+                          _workspaceJimakuQueryLanguage,
+                        ),
+                      ),
+                    ),
+                    const Icon(Icons.keyboard_arrow_down, size: 18),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: TextField(
+                controller: _jimakuQueryCtrl,
+                textInputAction: TextInputAction.search,
+                style: const TextStyle(color: _legacyText, fontSize: 13.5),
+                decoration: _legacyInputDecoration(hintText: '番剧名'),
+                onSubmitted: (_) => _searchJimakuManual(),
+              ),
+            ),
+            const SizedBox(width: 8),
+            _LegacyButton(
+              onPressed: _jimakuLoading ? null : _searchJimakuManual,
+              padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 9),
+              child: const Icon(Icons.search, size: 18),
+            ),
+          ],
+        ),
+        if (_jimakuLoading) ...<Widget>[
+          const SizedBox(height: 8),
+          LinearProgressIndicator(
+            minHeight: 6,
+            color: theme.colorScheme.primary,
+            backgroundColor: theme.colorScheme.surfaceContainerHighest,
+          ),
+          const SizedBox(height: 6),
+          const Text(
+            '正在查询 Jimaku 动画与字幕…',
+            style: TextStyle(color: _legacyMuted, fontSize: 12),
+          ),
+        ],
+        if (_jimakuNoKey) ...<Widget>[
+          const SizedBox(height: 8),
+          const Text(
+            '未配置 Jimaku API Key，仍可继续下载动画。',
+            style: TextStyle(color: _legacyMuted, fontSize: 12),
+          ),
+        ],
+        if (_jimakuEntries.isNotEmpty) ...<Widget>[
+          const SizedBox(height: 8),
+          _LegacyButton(
+            expanded: true,
+            onPressedWithContext: _showWorkspaceJimakuEntryPopup,
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: Text(
+                    _selectedJimakuEntry == null
+                        ? '请选择对应的 Jimaku 动画'
+                        : _selectedJimakuEntry!.name,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                const Icon(Icons.keyboard_arrow_down, size: 18),
+              ],
+            ),
+          ),
+        ],
+        if (_jimakuError) ...<Widget>[
+          const SizedBox(height: 8),
+          const Text(
+            'Jimaku 查询失败，可以修改关键词后重试。',
+            style: TextStyle(color: Color(0xFFC42B1C), fontSize: 12),
+          ),
+        ],
+        const SizedBox(height: 12),
+        const Text(
+          'Jimaku 字幕版本',
+          style: TextStyle(
+            color: _legacyText,
+            fontWeight: FontWeight.w600,
+            fontSize: 13,
+          ),
+        ),
+        const SizedBox(height: 5),
+        const Text(
+          'CC：标注声音信息和说话人　SDH：面向聋人及听障人士的字幕',
+          style: TextStyle(color: _legacyMuted, fontSize: 12),
+        ),
+        const SizedBox(height: 7),
+        _LegacyButton(
+          expanded: true,
+          onPressedWithContext: _workspaceJimakuCategories.isEmpty
+              ? null
+              : _showWorkspaceJimakuVersionPopup,
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                child: Text(
+                  category == null || variant == null
+                      ? '请选择 Jimaku 字幕版本'
+                      : '${category.name}  ›  ${variant.name}  ·  ${variant.files.length} 条字幕',
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+              const Icon(Icons.keyboard_arrow_down, size: 18),
+            ],
+          ),
+        ),
+        const SizedBox(height: 8),
+        _LegacyButton(
+          expanded: true,
+          onPressed: visibleFiles.isEmpty
+              ? null
+              : () => setState(
+                  () => _workspaceSubtitlesExpanded =
+                      !_workspaceSubtitlesExpanded,
+                ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              AnimatedRotation(
+                turns: _workspaceSubtitlesExpanded ? 0.5 : 0,
+                duration: const Duration(milliseconds: 180),
+                child: const Icon(Icons.keyboard_arrow_down, size: 18),
+              ),
+              const SizedBox(width: 5),
+              Text(
+                _workspaceSubtitlesExpanded
+                    ? '收起字幕（${visibleFiles.length}）'
+                    : '展开字幕（${visibleFiles.length}）',
+              ),
+            ],
+          ),
+        ),
+        AnimatedCrossFade(
+          duration: const Duration(milliseconds: 180),
+          crossFadeState: _workspaceSubtitlesExpanded
+              ? CrossFadeState.showSecond
+              : CrossFadeState.showFirst,
+          firstChild: const SizedBox.shrink(),
+          secondChild: Padding(
+            padding: const EdgeInsets.only(top: 8),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                for (final JimakuFile file in visibleFiles)
+                  _workspaceFileCard(theme, title: file.name, size: file.size),
+              ],
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildWorkspaceNyaaSection(ThemeData theme) {
+    if (_selectedMedia == null) return const SizedBox.shrink();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+        Row(
+          children: <Widget>[
+            SizedBox(
+              width: 108,
+              child: _LegacyButton(
+                expanded: true,
+                onPressedWithContext: _loadingTorrents
+                    ? null
+                    : (BuildContext anchorContext) => unawaited(
+                        _showWorkspaceQueryLanguagePopup(
+                          anchorContext: anchorContext,
+                          nyaa: true,
+                        ),
+                      ),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Text(
+                        _workspaceQueryLanguageLabel(
+                          _workspaceNyaaQueryLanguage,
+                        ),
+                      ),
+                    ),
+                    const Icon(Icons.keyboard_arrow_down, size: 18),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: TextField(
+                controller: _nyaaQueryCtrl,
+                textInputAction: TextInputAction.search,
+                style: const TextStyle(color: _legacyText, fontSize: 13.5),
+                decoration: _legacyInputDecoration(hintText: 'Nyaa 搜索关键词'),
+                onSubmitted: (_) => _fetchTorrents(),
+              ),
+            ),
+            const SizedBox(width: 8),
+            _LegacyButton(
+              onPressed: _loadingTorrents ? null : _fetchTorrents,
+              padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 9),
+              child: const Icon(Icons.search, size: 18),
+            ),
+          ],
+        ),
+        const SizedBox(height: 3),
+        _LegacyCheckbox(
+          value: _excludeBelow1080,
+          onChanged: _loadingTorrents
+              ? null
+              : (bool value) {
+                  setState(() => _excludeBelow1080 = value);
+                  unawaited(_fetchTorrents());
+                },
+          label: '排除低于 1080p 的 Nyaa 资源',
+        ),
+        _LegacyCheckbox(
+          value: _stopAtThirtyCollections,
+          onChanged: _loadingTorrents
+              ? null
+              : (bool value) =>
+                    setState(() => _stopAtThirtyCollections = value),
+          label: '检测到 30 个有效合集后停止 Nyaa 查询',
+        ),
+        if (_loadingTorrents) ...<Widget>[
+          LinearProgressIndicator(
+            minHeight: 6,
+            color: theme.colorScheme.primary,
+            backgroundColor: theme.colorScheme.surfaceContainerHighest,
+          ),
+          const SizedBox(height: 6),
+          Text(
+            _nyaaCollectionInspectTotal > 0
+                ? '正在删除非合集资源：已检查 $_nyaaCollectionInspectDone / $_nyaaCollectionInspectTotal'
+                : '正在逐页读取 Nyaa：第 $_nyaaScannedPages 页 · 已读取 $_nyaaScannedResults 条',
+            style: const TextStyle(color: _legacyMuted, fontSize: 12),
+          ),
+        ] else if (_torrentsLoaded) ...<Widget>[
+          Text(
+            _torrents.isEmpty
+                ? '没有找到合集资源。'
+                : '已删除非合集资源，共找到 ${_torrents.length} 个有效合集。',
+            style: const TextStyle(color: _legacyMuted, fontSize: 12),
+          ),
+        ],
+        if (_torrentsError) ...<Widget>[
+          Text(
+            'Nyaa 查询失败：${_torrentsErrorDetail ?? ''}',
+            style: const TextStyle(color: Color(0xFFC42B1C), fontSize: 12),
+          ),
+        ],
+        const SizedBox(height: 10),
+        const Text(
+          'Nyaa 资源版本',
+          style: TextStyle(
+            color: _legacyText,
+            fontWeight: FontWeight.w600,
+            fontSize: 13,
+          ),
+        ),
+        const SizedBox(height: 7),
+        _LegacyButton(
+          expanded: true,
+          onPressedWithContext: _torrents.isEmpty
+              ? null
+              : _showWorkspaceNyaaPopup,
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                child: Text(
+                  _selectedTorrent?.title ?? '请选择 Nyaa 资源版本',
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+              const Icon(Icons.keyboard_arrow_down, size: 18),
+            ],
+          ),
+        ),
+        if (_selectedTorrent != null &&
+            _workspaceInspectingTorrent) ...<Widget>[
+          const SizedBox(height: 9),
+          const Text(
+            '正在读取有效文件夹…',
+            style: TextStyle(color: _legacyMuted, fontSize: 12),
+          ),
+        ],
+        if (_workspaceVideoFolders.isNotEmpty) ...<Widget>[
+          const SizedBox(height: 11),
+          const Text(
+            '有效文件夹',
+            style: TextStyle(
+              color: _legacyText,
+              fontWeight: FontWeight.w600,
+              fontSize: 13,
+            ),
+          ),
+          const SizedBox(height: 6),
+          for (final ResourceTorrentVideoFolder folder
+              in _workspaceVideoFolders)
+            _buildWorkspaceFolderCard(theme, folder),
+          if (_workspaceVideoFolders.length > 1 &&
+              _workspaceSelectedFolderKey == null)
+            const Padding(
+              padding: EdgeInsets.only(top: 2),
+              child: Text(
+                '识别到多个含视频的文件夹，请先选择一个文件夹进行匹配。',
+                style: TextStyle(color: _legacyMuted, fontSize: 12),
+              ),
+            ),
+        ],
+      ],
+    );
+  }
+
+  Widget _buildWorkspaceFolderCard(
+    ThemeData theme,
+    ResourceTorrentVideoFolder folder,
+  ) {
+    final bool selected = folder.key == _workspaceSelectedFolderKey;
+    final bool expanded = _workspaceExpandedFolderKeys.contains(folder.key);
+    final ColorScheme colors = theme.colorScheme;
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 160),
+      margin: const EdgeInsets.only(bottom: 6),
+      padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 9),
+      decoration: BoxDecoration(
+        color: selected
+            ? colors.secondaryContainer
+            : colors.surfaceContainerLow,
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(
+          color: selected ? colors.secondary : colors.outlineVariant,
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      '${folder.annotatedName}  ·  ${folder.files.length} 个视频',
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(
+                        color: colors.onSurface,
+                        fontSize: 12.5,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    const SizedBox(height: 3),
+                    Text(
+                      folder.typeSeasonLabel,
+                      style: TextStyle(
+                        color: colors.onSurfaceVariant,
+                        fontSize: 11.5,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 10),
+              _LegacyButton(
+                onPressed: () => _toggleWorkspaceVideoFolder(folder),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 11,
+                  vertical: 6,
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(
+                      expanded
+                          ? Icons.keyboard_arrow_up
+                          : Icons.keyboard_arrow_down,
+                      size: 17,
+                    ),
+                    const SizedBox(width: 3),
+                    Text(expanded ? '收回视频' : '展开视频'),
+                  ],
+                ),
+              ),
+              if (_workspaceVideoFolders.length > 1) ...<Widget>[
+                const SizedBox(width: 8),
+                _LegacyButton(
+                  onPressed: selected
+                      ? null
+                      : () => _selectWorkspaceVideoFolder(folder),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 6,
+                  ),
+                  child: Text(selected ? '已选择' : '选择此文件夹'),
+                ),
+              ],
+            ],
+          ),
+          AnimatedSize(
+            duration: const Duration(milliseconds: 160),
+            curve: Curves.easeOutCubic,
+            child: expanded
+                ? Padding(
+                    padding: const EdgeInsets.only(top: 9),
+                    child: Column(
+                      children: <Widget>[
+                        for (final TorrentMetainfoFile file in folder.files)
+                          Container(
+                            width: double.infinity,
+                            margin: const EdgeInsets.only(bottom: 5),
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 10,
+                              vertical: 7,
+                            ),
+                            decoration: BoxDecoration(
+                              color: colors.surfaceContainer,
+                              borderRadius: BorderRadius.circular(8),
+                              border: Border.all(color: colors.outlineVariant),
+                            ),
+                            child: Row(
+                              children: <Widget>[
+                                Icon(
+                                  Icons.movie_outlined,
+                                  size: 16,
+                                  color: colors.onSurfaceVariant,
+                                ),
+                                const SizedBox(width: 7),
+                                Expanded(
+                                  child: Text(
+                                    file.path.replaceAll('\\', '/'),
+                                    maxLines: 2,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: TextStyle(
+                                      color: colors.onSurface,
+                                      fontSize: 11.5,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                Text(
+                                  _workspaceBytes(file.length),
+                                  style: TextStyle(
+                                    color: colors.onSurfaceVariant,
+                                    fontSize: 11,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                      ],
+                    ),
+                  )
+                : const SizedBox.shrink(),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildWorkspacePairingSection(ThemeData theme) {
+    final NyaaTorrent? torrent = _selectedTorrent;
+    if (torrent == null) return const SizedBox.shrink();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+        Wrap(
+          spacing: 8,
+          runSpacing: 8,
+          crossAxisAlignment: WrapCrossAlignment.center,
+          children: <Widget>[
+            SizedBox(
+              width: 150,
+              child: _LegacyButton(
+                expanded: true,
+                onPressedWithContext: _pushing
+                    ? null
+                    : _showWorkspaceDownloadModePopup,
+                child: Row(
+                  children: <Widget>[
+                    Expanded(child: Text(_workspaceDownloadModeLabel)),
+                    const Icon(Icons.keyboard_arrow_down, size: 18),
+                  ],
+                ),
+              ),
+            ),
+            _LegacyButton(
+              onPressed: () => setState(
+                () => _workspaceSelectedRows = _workspaceEligibleRows(),
+              ),
+              child: const Text('全选'),
+            ),
+            _LegacyButton(
+              onPressed: () => setState(() => _workspaceSelectedRows = <int>{}),
+              child: const Text('清除选择'),
+            ),
+            if (widget.onPipelineSubmit != null)
+              SizedBox(
+                width: 210,
+                child: _LegacyButton(
+                  expanded: true,
+                  onPressedWithContext: _pushing
+                      ? null
+                      : _showWorkspaceSourcePopup,
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Text(
+                          _workspaceSourceLabel,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      const Icon(Icons.keyboard_arrow_down, size: 18),
+                    ],
+                  ),
+                ),
+              ),
+            _LegacyButton(
+              accent: true,
+              onPressed:
+                  _pushing ||
+                      _workspaceSelectedRows.isEmpty ||
+                      _pipelineSourceId == null
+                  ? null
+                  : _push,
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  if (_pushing)
+                    const SizedBox.square(
+                      dimension: 15,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: Colors.white,
+                      ),
+                    )
+                  else
+                    const Icon(Icons.download, size: 17),
+                  const SizedBox(width: 6),
+                  Text('下载所选集数（${_workspaceSelectedRows.length}）'),
+                ],
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 10),
+        AnimatedContainer(
+          duration: const Duration(milliseconds: 180),
+          padding: const EdgeInsets.all(10),
+          decoration: BoxDecoration(
+            color: theme.colorScheme.surfaceContainer,
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: theme.colorScheme.outlineVariant),
+          ),
+          child: Row(
+            children: <Widget>[
+              if (_workspaceInspectingTorrent || _pushing)
+                const SizedBox.square(
+                  dimension: 18,
+                  child: CircularProgressIndicator(strokeWidth: 2),
+                )
+              else
+                Icon(
+                  _workspaceInspectError == null
+                      ? Icons.task_alt
+                      : Icons.warning_amber_rounded,
+                  size: 18,
+                  color: _workspaceInspectError == null
+                      ? theme.colorScheme.primary
+                      : theme.colorScheme.error,
+                ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  _pushing
+                      ? (_workspaceSubmitStatus ?? '正在发送下载任务…')
+                      : _workspaceSubmitStatus != null
+                      ? _workspaceSubmitStatus!
+                      : _workspaceInspectingTorrent
+                      ? '正在读取种子文件并生成配对预览…'
+                      : _workspaceInspectError != null
+                      ? '无法读取种子文件，当前仅显示标题级预览。'
+                      : '已按真实 MKV 文件生成配对预览。',
+                  style: TextStyle(
+                    color: theme.colorScheme.onSurfaceVariant,
+                    fontSize: 12,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 12),
+        Row(
+          children: <Widget>[
+            Text(
+              '配对（${_workspaceVideoRows.length}）',
+              style: const TextStyle(
+                color: _legacyText,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+            const Spacer(),
+            const Text(
+              '拖动任一侧交换配对位置',
+              style: TextStyle(color: _legacyMuted, fontSize: 12),
+            ),
+          ],
+        ),
+        const SizedBox(height: 6),
+        for (int i = 0; i < _workspaceVideoRows.length; i++)
+          _buildWorkspacePairRow(theme, i),
+      ],
+    );
+  }
+
+  Widget _buildWorkspacePairRow(ThemeData theme, int index) {
+    final String video = _workspaceVideoRows[index];
+    final bool hasVideo = video.trim().isNotEmpty;
+    final JimakuFile? subtitle = index < _workspaceSubtitleRows.length
+        ? _workspaceSubtitleRows[index]
+        : null;
+    final bool hasSubtitle = subtitle != null;
+    final bool supported = _workspaceRowSupportsMode(index);
+    final bool videoDimmed = _workspaceDownloadMode == 'subtitle';
+    final bool subtitleDimmed = _workspaceDownloadMode == 'video';
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 7),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          SizedBox(
+            width: 44,
+            child: _LegacyCheckbox(
+              value: _workspaceSelectedRows.contains(index),
+              onChanged: supported
+                  ? (bool value) => setState(() {
+                      if (value) {
+                        _workspaceSelectedRows.add(index);
+                      } else {
+                        _workspaceSelectedRows.remove(index);
+                      }
+                    })
+                  : null,
+            ),
+          ),
+          SizedBox(width: 28, child: Center(child: Text('${index + 1}'))),
+          const SizedBox(width: 6),
+          Expanded(
+            child: _workspaceDraggableSide(
+              theme,
+              index: index,
+              subtitle: false,
+              title: hasVideo ? video : '—',
+              hasContent: hasVideo,
+              dimmed: videoDimmed,
+              muted: !hasVideo,
+            ),
+          ),
+          const SizedBox(width: 8),
+          Expanded(
+            child: _workspaceDraggableSide(
+              theme,
+              index: index,
+              subtitle: true,
+              title: subtitle?.name ?? '—',
+              hasContent: hasSubtitle,
+              dimmed: subtitleDimmed,
+              muted: !hasSubtitle,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _workspaceDraggableSide(
+    ThemeData theme, {
+    required int index,
+    required bool subtitle,
+    required String title,
+    required bool hasContent,
+    required bool dimmed,
+    bool muted = false,
+  }) {
+    final _WorkspaceDragData data = _WorkspaceDragData(
+      index: index,
+      subtitle: subtitle,
+    );
+    final ColorScheme colors = theme.colorScheme;
+    Widget card({bool preview = false}) => AnimatedOpacity(
+      key: ValueKey<String>(
+        'workspace-pair-$index-${subtitle ? 'subtitle' : 'video'}',
+      ),
+      duration: const Duration(milliseconds: 140),
+      opacity: dimmed ? 0.38 : 1,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 120),
+        height: 64,
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+        decoration: BoxDecoration(
+          color: preview
+              ? colors.secondaryContainer
+              : colors.surfaceContainerLow,
+          borderRadius: BorderRadius.circular(11),
+          border: Border.all(
+            color: preview ? colors.secondary : colors.outlineVariant,
+            width: preview ? 2 : 1,
+          ),
+        ),
+        child: Row(
+          children: <Widget>[
+            Icon(
+              Icons.drag_indicator,
+              size: 18,
+              color: colors.onSurfaceVariant,
+            ),
+            const SizedBox(width: 5),
+            Expanded(
+              child: Text(
+                title,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: muted ? colors.onSurfaceVariant : colors.onSurface,
+                  fontWeight: muted ? null : FontWeight.w600,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+    return LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints constraints) {
+        return DragTarget<_WorkspaceDragData>(
+          onWillAcceptWithDetails:
+              (DragTargetDetails<_WorkspaceDragData> details) {
+                if (details.data.subtitle != subtitle) return false;
+                setState(() => _workspaceDragTarget = index);
+                return true;
+              },
+          onLeave: (_) => setState(() => _workspaceDragTarget = null),
+          onAcceptWithDetails: (DragTargetDetails<_WorkspaceDragData> details) {
+            _moveWorkspaceSide(
+              subtitle: subtitle,
+              from: details.data.index,
+              to: index,
+            );
+          },
+          builder:
+              (
+                BuildContext context,
+                List<_WorkspaceDragData?> candidateData,
+                List<Object?> rejectedData,
+              ) {
+                final bool preview =
+                    _workspaceDragTarget == index &&
+                    candidateData.any(
+                      (_WorkspaceDragData? value) =>
+                          value?.subtitle == subtitle,
+                    );
+                final Widget child = card(preview: preview);
+                if (!hasContent) return child;
+                return MouseRegion(
+                  cursor: SystemMouseCursors.grab,
+                  child: Draggable<_WorkspaceDragData>(
+                    data: data,
+                    rootOverlay: true,
+                    feedback: Material(
+                      color: Colors.transparent,
+                      child: SizedBox(
+                        width: constraints.maxWidth,
+                        height: 64,
+                        child: card(preview: true),
+                      ),
+                    ),
+                    childWhenDragging: Opacity(opacity: 0.35, child: card()),
+                    child: child,
+                  ),
+                );
+              },
+        );
+      },
+    );
+  }
+
+  Widget _workspaceFileCard(
+    ThemeData theme, {
+    required String title,
+    required int? size,
+  }) {
+    final ColorScheme colors = theme.colorScheme;
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 6),
+      child: Container(
+        width: double.infinity,
+        height: 64,
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+        decoration: BoxDecoration(
+          color: colors.surfaceContainerLow,
+          borderRadius: BorderRadius.circular(10),
+          border: Border.all(color: colors.outlineVariant),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Expanded(
+              child: Text(
+                title,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: colors.onSurface,
+                ),
+              ),
+            ),
+            if (size != null)
+              Text(
+                _workspaceBytes(size),
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: colors.onSurfaceVariant,
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  String _workspaceBytes(int value) {
+    if (value < 1024) return '$value B';
+    if (value < 1024 * 1024) return '${(value / 1024).toStringAsFixed(1)} KiB';
+    if (value < 1024 * 1024 * 1024) {
+      return '${(value / (1024 * 1024)).toStringAsFixed(1)} MiB';
+    }
+    return '${(value / (1024 * 1024 * 1024)).toStringAsFixed(1)} GiB';
+  }
+
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     final ThemeData theme = Theme.of(context);
+    if (widget.resourceWorkspace) {
+      return _buildResourceWorkspace(theme);
+    }
     final Widget stage;
     if (_selectedMedia == null) {
       stage = _buildAnimeSearchStage(theme);
@@ -2752,12 +5128,182 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
   }
 }
 
+class _WorkspaceDragData {
+  const _WorkspaceDragData({required this.index, required this.subtitle});
+
+  final int index;
+  final bool subtitle;
+}
+
+class _LegacyChoice<T> {
+  const _LegacyChoice({
+    required this.value,
+    required this.title,
+    this.subtitle = '',
+    this.maxTitleLines = 2,
+  });
+
+  final T value;
+  final String title;
+  final String subtitle;
+  final int maxTitleLines;
+}
+
+class _LegacyButton extends StatefulWidget {
+  const _LegacyButton({
+    super.key,
+    required this.child,
+    this.onPressed,
+    this.onPressedWithContext,
+    this.accent = false,
+    this.expanded = false,
+    this.padding = const EdgeInsets.symmetric(horizontal: 16, vertical: 9),
+  }) : assert(onPressed == null || onPressedWithContext == null);
+
+  final Widget child;
+  final VoidCallback? onPressed;
+  final ValueChanged<BuildContext>? onPressedWithContext;
+  final bool accent;
+  final bool expanded;
+  final EdgeInsetsGeometry padding;
+
+  @override
+  State<_LegacyButton> createState() => _LegacyButtonState();
+}
+
+class _LegacyButtonState extends State<_LegacyButton> {
+  bool _hovered = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final ColorScheme colors = Theme.of(context).colorScheme;
+    final bool enabled =
+        widget.onPressed != null || widget.onPressedWithContext != null;
+    final Color background = widget.accent
+        ? (_hovered
+              ? Color.lerp(colors.primary, colors.onPrimary, 0.08)!
+              : colors.primary)
+        : (_hovered
+              ? colors.surfaceContainerHighest
+              : colors.surfaceContainerLow);
+    final Widget button = MouseRegion(
+      onEnter: enabled ? (_) => setState(() => _hovered = true) : null,
+      onExit: enabled ? (_) => setState(() => _hovered = false) : null,
+      cursor: enabled ? SystemMouseCursors.click : SystemMouseCursors.basic,
+      child: AnimatedScale(
+        scale: _hovered ? 1.018 : 1,
+        duration: const Duration(milliseconds: 120),
+        child: AnimatedOpacity(
+          opacity: enabled ? 1 : 0.42,
+          duration: const Duration(milliseconds: 120),
+          child: Material(
+            color: Colors.transparent,
+            child: InkWell(
+              borderRadius: BorderRadius.circular(20),
+              onTap: enabled
+                  ? () {
+                      widget.onPressed?.call();
+                      widget.onPressedWithContext?.call(context);
+                    }
+                  : null,
+              child: Container(
+                constraints: const BoxConstraints(minHeight: 38),
+                width: widget.expanded ? double.infinity : null,
+                padding: widget.padding,
+                decoration: BoxDecoration(
+                  color: background,
+                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(
+                    color: widget.accent
+                        ? colors.primary
+                        : colors.outlineVariant,
+                  ),
+                ),
+                child: DefaultTextStyle.merge(
+                  style: TextStyle(
+                    color: widget.accent ? colors.onPrimary : colors.onSurface,
+                    fontSize: 13,
+                    fontWeight: FontWeight.w600,
+                  ),
+                  textAlign: widget.expanded
+                      ? TextAlign.left
+                      : TextAlign.center,
+                  child: widget.child,
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+    return widget.expanded
+        ? SizedBox(width: double.infinity, child: button)
+        : button;
+  }
+}
+
+class _LegacyCheckbox extends StatelessWidget {
+  const _LegacyCheckbox({
+    required this.value,
+    required this.onChanged,
+    this.label,
+  });
+
+  final bool value;
+  final ValueChanged<bool>? onChanged;
+  final String? label;
+
+  @override
+  Widget build(BuildContext context) {
+    final ColorScheme colors = Theme.of(context).colorScheme;
+    final bool enabled = onChanged != null;
+    return Opacity(
+      opacity: enabled ? 1 : 0.42,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(7),
+        onTap: enabled ? () => onChanged!(!value) : null,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 7, horizontal: 2),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              AnimatedContainer(
+                duration: const Duration(milliseconds: 120),
+                width: 20,
+                height: 20,
+                decoration: BoxDecoration(
+                  color: value ? colors.primary : colors.surfaceContainerLow,
+                  borderRadius: BorderRadius.circular(5),
+                  border: Border.all(
+                    color: value ? colors.primary : colors.outline,
+                    width: 1.5,
+                  ),
+                ),
+                child: value
+                    ? Icon(Icons.check, size: 15, color: colors.onPrimary)
+                    : null,
+              ),
+              if (label != null) ...<Widget>[
+                const SizedBox(width: 10),
+                Text(
+                  label!,
+                  style: TextStyle(color: colors.onSurface, fontSize: 13),
+                ),
+              ],
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 /// TODO-1961-e：用户在改名/移动对话框里做出的选择。
 class _RelocateChoice {
   const _RelocateChoice.move(this.value)
-      : isMove = true,
-        fileIndex = null,
-        currentRelativePath = null;
+    : isMove = true,
+      fileIndex = null,
+      currentRelativePath = null;
 
   const _RelocateChoice.rename({
     required this.value,
@@ -2796,9 +5342,9 @@ class _RelocateDialogState extends State<_RelocateDialog> {
   /// 逐文件的改名输入框（key = 文件下标），初值 = 当前种子内相对路径。
   late final Map<int, TextEditingController> _controllers =
       <int, TextEditingController>{
-    for (final TorrentFileEntry f in widget.files)
-      f.index: TextEditingController(text: f.name),
-  };
+        for (final TorrentFileEntry f in widget.files)
+          f.index: TextEditingController(text: f.name),
+      };
 
   @override
   void dispose() {

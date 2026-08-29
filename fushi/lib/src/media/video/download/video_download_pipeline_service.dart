@@ -82,6 +82,9 @@ class VideoDownloadEnqueueRequest {
     this.priority = 0,
     this.maxAttempts = 6,
     this.coverUrl,
+    this.subtitleSelections = const <VideoDownloadSubtitleSelection>[],
+    this.fileSelections = const <VideoDownloadFileSelection>[],
+    this.organizationPolicy = 'library',
   });
 
   final VideoMediaReference media;
@@ -94,6 +97,33 @@ class VideoDownloadEnqueueRequest {
   final int priority;
   final int maxAttempts;
   final String? coverUrl;
+  final List<VideoDownloadSubtitleSelection> subtitleSelections;
+  final List<VideoDownloadFileSelection> fileSelections;
+  final String organizationPolicy;
+}
+
+class VideoDownloadFileSelection {
+  const VideoDownloadFileSelection({
+    required this.relativePath,
+    required this.sizeBytes,
+    required this.selected,
+  });
+
+  final String relativePath;
+  final int sizeBytes;
+  final bool selected;
+}
+
+class VideoDownloadSubtitleSelection {
+  const VideoDownloadSubtitleSelection({
+    required this.candidate,
+    this.season,
+    this.episode,
+  });
+
+  final VideoSubtitleCandidate candidate;
+  final int? season;
+  final int? episode;
 }
 
 /// 手动添加任务的 `resourceProvider` 值：这类任务没有发现身份，payload 来自
@@ -159,11 +189,11 @@ class VideoDownloadBackendBinding {
     Iterable<VideoDownloadPathMapping> pathMappings =
         const <VideoDownloadPathMapping>[],
   }) : pathMappings = List<VideoDownloadPathMapping>.unmodifiable(
-          <VideoDownloadPathMapping>[
-            if (pathMapping != null) pathMapping,
-            ...pathMappings,
-          ],
-        );
+         <VideoDownloadPathMapping>[
+           if (pathMapping != null) pathMapping,
+           ...pathMappings,
+         ],
+       );
 
   final TorrentBackend backend;
   final VideoDownloadBackendIdentity identity;
@@ -249,11 +279,12 @@ VideoDownloadJobDetails buildPersistedVideoDownloadJobDetails(
   List<VideoDownloadJobFileRow> rows,
 ) {
   final String torrentId = (job.backendTaskId ?? job.torrentHash ?? '').trim();
-  final double progress = (job.lifecycle == VideoDownloadJobLifecycle.completed
-          ? 1.0
-          : job.stageProgress)
-      .clamp(0.0, 1.0)
-      .toDouble();
+  final double progress =
+      (job.lifecycle == VideoDownloadJobLifecycle.completed
+              ? 1.0
+              : job.stageProgress)
+          .clamp(0.0, 1.0)
+          .toDouble();
   final List<TorrentFileEntry> files = <TorrentFileEntry>[
     for (int index = 0; index < rows.length; index++)
       TorrentFileEntry(
@@ -364,7 +395,8 @@ class VideoDownloadJobFilesNotDeleted implements Exception {
   final List<String> paths;
 
   @override
-  String toString() => '${paths.length} downloaded file(s) could not be '
+  String toString() =>
+      '${paths.length} downloaded file(s) could not be '
       'deleted: ${paths.map(p.basename).join(', ')}';
 }
 
@@ -386,10 +418,10 @@ Future<void> deletePersistedVideoDownloadJob({
 }) async {
   final List<String> undeleted = <String>[];
   if (deleteFiles) {
-    final List<VideoDownloadJobFileRow> files =
-        await database.getVideoDownloadJobFiles(job.jobId);
-    final List<VideoDownloadJobSubtitleRow> subtitles =
-        await database.getVideoDownloadJobSubtitles(job.jobId);
+    final List<VideoDownloadJobFileRow> files = await database
+        .getVideoDownloadJobFiles(job.jobId);
+    final List<VideoDownloadJobSubtitleRow> subtitles = await database
+        .getVideoDownloadJobSubtitles(job.jobId);
     final Set<String> managedPaths = <String>{
       for (final VideoDownloadJobFileRow file in files)
         if (file.finalAbsolutePath?.trim().isNotEmpty == true)
@@ -443,8 +475,9 @@ Future<void> deletePersistedVideoDownloadJob({
         );
       }
     }
-    final Set<String> removedNormalized =
-        removedPaths.map(normalizeVideoPath).toSet();
+    final Set<String> removedNormalized = removedPaths
+        .map(normalizeVideoPath)
+        .toSet();
     final VideoBookRepository repository = VideoBookRepository(database);
     bool deletedVideoBook = false;
     for (final VideoBookRow book in await repository.listAll()) {
@@ -474,13 +507,12 @@ Future<void> deletePersistedVideoDownloadJob({
 List<VideoDownloadJobFileRow> _jobFilesMatching(
   List<VideoDownloadJobFileRow> files,
   Set<String> pathKeys,
-) =>
-    <VideoDownloadJobFileRow>[
-      for (final VideoDownloadJobFileRow file in files)
-        if ((file.finalAbsolutePath?.trim().isNotEmpty ?? false) &&
-            pathKeys.contains(platformPathKey(file.finalAbsolutePath!.trim())))
-          file,
-    ];
+) => <VideoDownloadJobFileRow>[
+  for (final VideoDownloadJobFileRow file in files)
+    if ((file.finalAbsolutePath?.trim().isNotEmpty ?? false) &&
+        pathKeys.contains(platformPathKey(file.finalAbsolutePath!.trim())))
+      file,
+];
 
 /// 库侧「同时删除本地文件」**删磁盘之前**必须先跑这一步：把即将消失的
 /// [candidatePaths] 在下载后端标成不下载（[TorrentFilePriority.skip]）。
@@ -542,8 +574,8 @@ Future<void> reconcileVideoDownloadJobsAfterLocalDelete({
     for (final String path in deletedPaths) platformPathKey(path),
   };
   for (final VideoDownloadJobRow job in await database.getVideoDownloadJobs()) {
-    final List<VideoDownloadJobFileRow> files =
-        await database.getVideoDownloadJobFiles(job.jobId);
+    final List<VideoDownloadJobFileRow> files = await database
+        .getVideoDownloadJobFiles(job.jobId);
     final List<VideoDownloadJobFileRow> hit = _jobFilesMatching(
       files,
       deletedKeys,
@@ -551,8 +583,8 @@ Future<void> reconcileVideoDownloadJobsAfterLocalDelete({
     if (hit.isEmpty) continue;
     final bool terminal =
         job.lifecycle == VideoDownloadJobLifecycle.completed ||
-            job.lifecycle == VideoDownloadJobLifecycle.cancelled ||
-            job.lifecycle == VideoDownloadJobLifecycle.failed;
+        job.lifecycle == VideoDownloadJobLifecycle.cancelled ||
+        job.lifecycle == VideoDownloadJobLifecycle.failed;
     final Set<int> hitIds = <int>{for (final f in hit) f.id};
     final List<VideoDownloadJobFileRow> videoRows = <VideoDownloadJobFileRow>[
       for (final VideoDownloadJobFileRow file in files)
@@ -560,7 +592,8 @@ Future<void> reconcileVideoDownloadJobsAfterLocalDelete({
     ];
     // 「这个任务的视频产物全没了」= 它记过的每一条 video 行都在本次删除里。没记
     // 路径的 video 行不算被覆盖——判不出它指向哪，就不能拿它当整删的依据。
-    final bool allVideoRowsDeleted = videoRows.isNotEmpty &&
+    final bool allVideoRowsDeleted =
+        videoRows.isNotEmpty &&
         videoRows.every((VideoDownloadJobFileRow f) => hitIds.contains(f.id));
     try {
       if (terminal && allVideoRowsDeleted) {
@@ -599,16 +632,16 @@ Future<void> reconcileVideoDownloadJobsAfterLocalDelete({
   }
 }
 
-typedef VideoDownloadBackendResolver = Future<VideoDownloadBackendBinding?>
-    Function(VideoDownloadJobRow job);
+typedef VideoDownloadBackendResolver =
+    Future<VideoDownloadBackendBinding?> Function(VideoDownloadJobRow job);
 
 /// 手动「按域入库」任务完成下载后的整包导入端口（AppModel 接线
 /// `DiscoveryImportExecutor.importPaths`；null = 本设备不支持该类任务）。
-typedef VideoDownloadDiscoveryImporter = Future<DiscoveryImportOutcome>
-    Function(
-  DiscoveryMediaKind kind,
-  List<String> absolutePaths,
-);
+typedef VideoDownloadDiscoveryImporter =
+    Future<DiscoveryImportOutcome> Function(
+      DiscoveryMediaKind kind,
+      List<String> absolutePaths,
+    );
 
 /// Resume ids that remain owned by the v78 pipeline after legacy JSON files
 /// have been archived. New library jobs keep completed torrents alive so upload
@@ -662,12 +695,12 @@ class VideoDownloadLeaseGuard {
   VideoDownloadLeaseGuard({
     required Duration leaseDuration,
     required VideoDownloadLeaseRenew renew,
-  })  : _renew = renew,
-        _heartbeatInterval = Duration(
-          microseconds: leaseDuration.inMicroseconds ~/ 3 > 0
-              ? leaseDuration.inMicroseconds ~/ 3
-              : 1,
-        );
+  }) : _renew = renew,
+       _heartbeatInterval = Duration(
+         microseconds: leaseDuration.inMicroseconds ~/ 3 > 0
+             ? leaseDuration.inMicroseconds ~/ 3
+             : 1,
+       );
 
   final VideoDownloadLeaseRenew _renew;
   final Duration _heartbeatInterval;
@@ -746,11 +779,11 @@ class VideoDownloadPipelineService {
     String? workerId,
     this.pollInterval = const Duration(seconds: 5),
     this.leaseDuration = const Duration(minutes: 2),
-  })  : preferredSubtitleLanguages = List<String>.unmodifiable(
-          preferredSubtitleLanguages,
-        ),
-        workerId = workerId ?? 'video-${generateVideoDownloadInstallationId()}',
-        _videoRepository = VideoBookRepository(database);
+  }) : preferredSubtitleLanguages = List<String>.unmodifiable(
+         preferredSubtitleLanguages,
+       ),
+       workerId = workerId ?? 'video-${generateVideoDownloadInstallationId()}',
+       _videoRepository = VideoBookRepository(database);
 
   final FushiDatabase database;
   final VideoResourceRegistry resourceRegistry;
@@ -821,7 +854,7 @@ class VideoDownloadPipelineService {
         fingerprint: Value<String>(request.backendTarget.fingerprint),
         category: Value<String?>(request.backendTarget.category),
         targetSourceId: Value<int?>(request.targetSourceId),
-        organizationPolicy: const Value<String>('library'),
+        organizationPolicy: Value<String>(request.organizationPolicy),
         subtitlePolicy: Value<String>(request.subtitlePolicy.name),
         lifecycle: const Value<String>(VideoDownloadJobLifecycle.active),
         stage: const Value<String>(VideoDownloadJobStage.enqueue),
@@ -831,6 +864,36 @@ class VideoDownloadPipelineService {
         updatedAt: Value<int>(now),
       ),
     );
+    for (final VideoDownloadFileSelection selection in request.fileSelections) {
+      final String path = selection.relativePath.replaceAll('\\', '/').trim();
+      if (path.isEmpty) continue;
+      await database.upsertVideoDownloadJobFile(
+        VideoDownloadJobFilesCompanion(
+          jobId: Value<String>(jobId),
+          originalRelativePath: Value<String>(path),
+          currentRelativePath: Value<String>(path),
+          kind: Value<String>(_isVideoFile(path) ? 'video' : 'other'),
+          sizeBytes: Value<int?>(selection.sizeBytes),
+          selected: Value<bool>(selection.selected),
+          status: Value<String>(
+            selection.selected
+                ? VideoDownloadJobFileStatus.pending
+                : VideoDownloadJobFileStatus.skipped,
+          ),
+          createdAt: Value<int>(now),
+          updatedAt: Value<int>(now),
+        ),
+      );
+    }
+    for (final VideoDownloadSubtitleSelection selection
+        in request.subtitleSelections) {
+      await attachSubtitleSelection(
+        jobId: jobId,
+        candidate: selection.candidate,
+        season: selection.season,
+        episode: selection.episode,
+      );
+    }
     wake();
     return jobId;
   }
@@ -1027,8 +1090,8 @@ class VideoDownloadPipelineService {
         'The selected download job no longer exists',
       );
     }
-    final bool rewindToEnqueue = job.backendKind ==
-            QbConnectionConfig.backendEmbedded &&
+    final bool rewindToEnqueue =
+        job.backendKind == QbConnectionConfig.backendEmbedded &&
         job.stage == VideoDownloadJobStage.download &&
         (job.lastError ?? '').contains(videoDownloadMissingBackendTaskError);
     final bool changed = await database.retryVideoDownloadJobByUser(
@@ -1064,8 +1127,8 @@ class VideoDownloadPipelineService {
     }
 
     bool rewindToEnqueue = false;
-    final String torrentId =
-        (job.backendTaskId ?? job.torrentHash ?? '').trim();
+    final String torrentId = (job.backendTaskId ?? job.torrentHash ?? '')
+        .trim();
     if (torrentId.isNotEmpty) {
       final VideoDownloadBackendBinding? binding = await backendResolver(job);
       _validateBackendBinding(job, binding);
@@ -1218,12 +1281,12 @@ class VideoDownloadPipelineService {
         'The selected download job no longer exists',
       );
     }
-    final List<VideoDownloadJobFileRow> rows =
-        await database.getVideoDownloadJobFiles(jobId);
+    final List<VideoDownloadJobFileRow> rows = await database
+        .getVideoDownloadJobFiles(jobId);
     final VideoDownloadJobDetails persistedDetails =
         buildPersistedVideoDownloadJobDetails(job, rows);
-    final String torrentId =
-        (job.backendTaskId ?? job.torrentHash ?? '').trim();
+    final String torrentId = (job.backendTaskId ?? job.torrentHash ?? '')
+        .trim();
 
     TorrentBackend? backend;
     bool backendOnline = false;
@@ -1280,8 +1343,8 @@ class VideoDownloadPipelineService {
   /// 会记 ErrorLog**——静默返回 false 意味着「skip 没设上、一会儿种子要停」这件事
   /// 在日志里也查不到。
   Future<bool> skipBackendFile(VideoDownloadJobRow job, int fileIndex) async {
-    final String torrentId =
-        (job.backendTaskId ?? job.torrentHash ?? '').trim();
+    final String torrentId = (job.backendTaskId ?? job.torrentHash ?? '')
+        .trim();
     if (torrentId.isEmpty) return false;
     try {
       final VideoDownloadBackendBinding? binding = await backendResolver(job);
@@ -1348,8 +1411,8 @@ class VideoDownloadPipelineService {
       await Future<void>.delayed(const Duration(milliseconds: 20));
     }
 
-    final String torrentId =
-        (job.backendTaskId ?? job.torrentHash ?? '').trim();
+    final String torrentId = (job.backendTaskId ?? job.torrentHash ?? '')
+        .trim();
     if (torrentId.isNotEmpty) {
       try {
         final VideoDownloadBackendBinding? binding = await backendResolver(job);
@@ -1406,8 +1469,9 @@ class VideoDownloadPipelineService {
     final Map<String, List<VideoDownloadJobRow>> groups =
         <String, List<VideoDownloadJobRow>>{};
     for (final VideoDownloadJobRow job in jobs) {
-      final String torrentId =
-          (job.backendTaskId ?? job.torrentHash ?? '').trim().toLowerCase();
+      final String torrentId = (job.backendTaskId ?? job.torrentHash ?? '')
+          .trim()
+          .toLowerCase();
       if (torrentId.isEmpty) continue;
       final String key = <String?>[
         job.backendKind,
@@ -1426,15 +1490,16 @@ class VideoDownloadPipelineService {
           first,
         );
         _validateBackendBinding(first, binding);
-        final List<TorrentSnapshot> snapshots =
-            await binding!.backend.listTorrents(category: first.category);
+        final List<TorrentSnapshot> snapshots = await binding!.backend
+            .listTorrents(category: first.category);
         final Map<String, TorrentSnapshot> byHash = <String, TorrentSnapshot>{
           for (final TorrentSnapshot snapshot in snapshots)
             snapshot.hash.toLowerCase(): snapshot,
         };
         for (final VideoDownloadJobRow job in group) {
-          final String torrentId =
-              (job.backendTaskId ?? job.torrentHash ?? '').trim().toLowerCase();
+          final String torrentId = (job.backendTaskId ?? job.torrentHash ?? '')
+              .trim()
+              .toLowerCase();
           final TorrentSnapshot? snapshot = byHash[torrentId];
           if (snapshot != null) result[job.jobId] = snapshot;
         }
@@ -1716,12 +1781,12 @@ class VideoDownloadPipelineService {
     final List<String>? trackers = isProvider('nyaa')
         ? kNyaaTrackers
         : isProvider(kApibayResourceProviderId) ||
-                isProvider(kKnabenResourceProviderId)
-            ? kPublicVideoIndexTrackers
-            : null;
+              isProvider(kKnabenResourceProviderId)
+        ? kPublicVideoIndexTrackers
+        : null;
     if (trackers == null) return null;
-    final String hash =
-        (job.torrentHash ?? job.selectedResourceId).toLowerCase();
+    final String hash = (job.torrentHash ?? job.selectedResourceId)
+        .toLowerCase();
     if (!RegExp(r'^[0-9a-f]{40}$').hasMatch(hash)) return null;
     final StringBuffer magnet = StringBuffer('magnet:?xt=urn:btih:$hash');
     final String name = (job.resourceTitle ?? job.title).trim();
@@ -1863,13 +1928,13 @@ class VideoDownloadPipelineService {
     List<TorrentFileEntry> files,
   ) async {
     _ensureLeaseHeld();
-    final List<VideoDownloadJobFileRow> existing =
-        await database.getVideoDownloadJobFiles(job.jobId);
+    final List<VideoDownloadJobFileRow> existing = await database
+        .getVideoDownloadJobFiles(job.jobId);
     final Map<int, VideoDownloadJobFileRow> byIndex =
         <int, VideoDownloadJobFileRow>{
-      for (final VideoDownloadJobFileRow row in existing)
-        if (row.backendFileIndex != null) row.backendFileIndex!: row,
-    };
+          for (final VideoDownloadJobFileRow row in existing)
+            if (row.backendFileIndex != null) row.backendFileIndex!: row,
+        };
     final int now = DateTime.now().millisecondsSinceEpoch;
     for (final TorrentFileEntry file in files) {
       _ensureLeaseHeld();
@@ -1918,8 +1983,8 @@ class VideoDownloadPipelineService {
     if (hash.isEmpty) {
       throw const VideoDownloadPipelineActionRequired('Torrent id is missing');
     }
-    List<VideoDownloadJobFileRow> rows =
-        await database.getVideoDownloadJobFiles(job.jobId);
+    List<VideoDownloadJobFileRow> rows = await database
+        .getVideoDownloadJobFiles(job.jobId);
     if (await _organizedFilesExist(rows)) {
       await _markFilesOrganized(rows);
       await _advanceToSubtitle(job, rows);
@@ -1933,9 +1998,9 @@ class VideoDownloadPipelineService {
     await _validateObservedSavePath(job, mappings);
     final VideoDownloadPathMapping mapping =
         _mappingForLocalPath(mappings, source.rootPath) ??
-            (throw const VideoDownloadPipelineActionRequired(
-              'The managed video source is outside every backend path mapping',
-            ));
+        (throw const VideoDownloadPipelineActionRequired(
+          'The managed video source is outside every backend path mapping',
+        ));
     final VideoOrganizationRequest request = VideoOrganizationRequest(
       torrentId: hash,
       title: job.title,
@@ -2025,8 +2090,9 @@ class VideoDownloadPipelineService {
     for (final VideoDownloadJobFileRow row
         in await database.getVideoDownloadJobFiles(job.jobId)) {
       _ensureLeaseHeld();
-      final TorrentFileEntry? backendFile =
-          row.backendFileIndex == null ? null : byIndex[row.backendFileIndex!];
+      final TorrentFileEntry? backendFile = row.backendFileIndex == null
+          ? null
+          : byIndex[row.backendFileIndex!];
       if (backendFile == null) continue;
       final String? absolutePath = _resolveBackendFileLocalPath(
         remoteSavePath: job.observedSavePath!,
@@ -2097,14 +2163,15 @@ class VideoDownloadPipelineService {
     final Map<int, TorrentFileEntry> byIndex = <int, TorrentFileEntry>{
       for (final TorrentFileEntry file in backendFiles) file.index: file,
     };
-    final List<VideoDownloadJobFileRow> rows =
-        await database.getVideoDownloadJobFiles(job.jobId);
+    final List<VideoDownloadJobFileRow> rows = await database
+        .getVideoDownloadJobFiles(job.jobId);
     int videoCount = 0;
     final int now = DateTime.now().millisecondsSinceEpoch;
     for (final VideoDownloadJobFileRow row in rows) {
       _ensureLeaseHeld();
-      final TorrentFileEntry? backendFile =
-          row.backendFileIndex == null ? null : byIndex[row.backendFileIndex!];
+      final TorrentFileEntry? backendFile = row.backendFileIndex == null
+          ? null
+          : byIndex[row.backendFileIndex!];
       if (backendFile == null) continue;
       final String? absolutePath = _resolveBackendFileLocalPath(
         remoteSavePath: job.observedSavePath!,
@@ -2257,7 +2324,7 @@ class VideoDownloadPipelineService {
     }
     final VideoDownloadSubtitlePolicy policy =
         VideoDownloadSubtitlePolicy.values.asNameMap()[job.subtitlePolicy] ??
-            VideoDownloadSubtitlePolicy.bestEffort;
+        VideoDownloadSubtitlePolicy.bestEffort;
     if (policy == VideoDownloadSubtitlePolicy.none) {
       await _advance(job, VideoDownloadJobStage.import);
       return;
@@ -2280,8 +2347,8 @@ class VideoDownloadPipelineService {
             .toList();
     bool anyInstalled = false;
     for (final VideoDownloadJobFileRow file in files) {
-      final List<VideoDownloadJobSubtitleRow> existing =
-          await database.getVideoDownloadJobSubtitles(job.jobId);
+      final List<VideoDownloadJobSubtitleRow> existing = await database
+          .getVideoDownloadJobSubtitles(job.jobId);
       final VideoDownloadJobSubtitleRow? prior = existing
           .where(
             (VideoDownloadJobSubtitleRow row) =>
@@ -2324,22 +2391,22 @@ class VideoDownloadPipelineService {
         final File video = File(file.finalAbsolutePath!);
         final ProviderBatchResult<VideoSubtitleCandidate> result =
             await subtitleRegistry!.search(
-          VideoSubtitleSearchRequest(
-            media: _mediaReference(
-              job,
-            ).copyWithEpisode(season: file.season, episode: file.episode),
-            season: file.season,
-            episode: file.episode,
-            languages: preferredSubtitleLanguages,
-            fingerprint: LocalVideoFingerprint(
-              fileSize: await video.length(),
-              fileName: p.basename(video.path),
-              openSubtitlesMovieHash: await computeOpenSubtitlesMovieHash(
-                video.path,
+              VideoSubtitleSearchRequest(
+                media: _mediaReference(
+                  job,
+                ).copyWithEpisode(season: file.season, episode: file.episode),
+                season: file.season,
+                episode: file.episode,
+                languages: preferredSubtitleLanguages,
+                fingerprint: LocalVideoFingerprint(
+                  fileSize: await video.length(),
+                  fileName: p.basename(video.path),
+                  openSubtitlesMovieHash: await computeOpenSubtitlesMovieHash(
+                    video.path,
+                  ),
+                ),
               ),
-            ),
-          ),
-        );
+            );
         _ensureLeaseHeld();
         if (result.items.isEmpty) {
           final String message = result.failures.isEmpty
@@ -2383,14 +2450,15 @@ class VideoDownloadPipelineService {
         if (candidate == null) {
           final ({_VerifiedSubtitleBytes? picked, String? reason}) selection =
               await _selectVerifiedSubtitle(
-            candidates: result.items,
-            videoPath: video.path,
-          );
+                candidates: result.items,
+                videoPath: video.path,
+              );
           verified = selection.picked;
           if (verified == null) {
             // 原因要说清是「都没通过校验」还是「一条都没下下来」——两者对用户是
             // 不同的动作（改条目 vs 查网络）。
-            final String message = selection.reason ??
+            final String message =
+                selection.reason ??
                 'No subtitle candidate could be verified against this video';
             await _recordUnavailableSubtitle(job, file, subtitleId, message);
             if (policy == VideoDownloadSubtitlePolicy.required) {
@@ -2506,7 +2574,7 @@ class VideoDownloadPipelineService {
   /// 探不到视频时长（缺 ffprobe / 超时）时判据退化成只做内容自检，**绝不因为
   /// 探测失败就拒收**。
   Future<({_VerifiedSubtitleBytes? picked, String? reason})>
-      _selectVerifiedSubtitle({
+  _selectVerifiedSubtitle({
     required List<VideoSubtitleCandidate> candidates,
     required String videoPath,
   }) async {
@@ -2594,7 +2662,7 @@ class VideoDownloadPipelineService {
   Future<void> _installLegacyStagedSubtitles(VideoDownloadJobRow job) async {
     final VideoDownloadSubtitlePolicy policy =
         VideoDownloadSubtitlePolicy.values.asNameMap()[job.subtitlePolicy] ??
-            VideoDownloadSubtitlePolicy.bestEffort;
+        VideoDownloadSubtitlePolicy.bestEffort;
     if (policy == VideoDownloadSubtitlePolicy.none) {
       await _advance(job, VideoDownloadJobStage.import);
       return;
@@ -2607,8 +2675,8 @@ class VideoDownloadPipelineService {
             )
             .toList()
           ..sort(_compareJobFiles);
-    final List<VideoDownloadJobSubtitleRow> subtitles =
-        await database.getVideoDownloadJobSubtitles(job.jobId);
+    final List<VideoDownloadJobSubtitleRow> subtitles = await database
+        .getVideoDownloadJobSubtitles(job.jobId);
     bool installed = false;
     for (final VideoDownloadJobSubtitleRow subtitle in subtitles) {
       _ensureLeaseHeld();
@@ -2749,17 +2817,15 @@ class VideoDownloadPipelineService {
     VideoDownloadJobSubtitleRow subtitle,
     VideoDownloadJobFileRow? video,
     String error,
-  ) =>
-      database.updateVideoDownloadJobSubtitle(
-        subtitle.subtitleId,
-        VideoDownloadJobSubtitlesCompanion(
-          jobFileId: Value<int?>(video?.id),
-          status:
-              const Value<String>(VideoDownloadJobSubtitleStatus.unavailable),
-          error: Value<String?>(error),
-          updatedAt: Value<int>(DateTime.now().millisecondsSinceEpoch),
-        ),
-      );
+  ) => database.updateVideoDownloadJobSubtitle(
+    subtitle.subtitleId,
+    VideoDownloadJobSubtitlesCompanion(
+      jobFileId: Value<int?>(video?.id),
+      status: const Value<String>(VideoDownloadJobSubtitleStatus.unavailable),
+      error: Value<String?>(error),
+      updatedAt: Value<int>(DateTime.now().millisecondsSinceEpoch),
+    ),
+  );
 
   static VideoDownloadJobFileRow? _matchLegacySubtitleVideo(
     VideoDownloadJobSubtitleRow subtitle,
@@ -2934,15 +3000,15 @@ class VideoDownloadPipelineService {
             ),
           )
           .toList();
-      final SplitPlaylistImportResult result =
-          await _videoRepository.importSplitPlaylist(
-        collectionName: legacy || job.year == null
-            ? job.title
-            : '${job.title} (${job.year})',
-        entries: entries,
-        sourceId: source?.id,
-        reuseExistingPaths: true,
-      );
+      final SplitPlaylistImportResult result = await _videoRepository
+          .importSplitPlaylist(
+            collectionName: legacy || job.year == null
+                ? job.title
+                : '${job.title} (${job.year})',
+            entries: entries,
+            sourceId: source?.id,
+            reuseExistingPaths: true,
+          );
       _ensureLeaseHeld();
       collectionId = result.collectionId;
       await _videoRepository.reorderDownloadedCollectionEpisodes(collectionId);
@@ -2969,8 +3035,9 @@ class VideoDownloadPipelineService {
       }
       bool created = false;
       if (book == null) {
-        final Set<String> taken =
-            existing.map((VideoBookRow row) => row.bookUid).toSet();
+        final Set<String> taken = existing
+            .map((VideoBookRow row) => row.bookUid)
+            .toSet();
         final String uid = coreUniqueVideoBookUid(
           coreSingleVideoBookUid(file.finalAbsolutePath!),
           taken,
@@ -3000,8 +3067,8 @@ class VideoDownloadPipelineService {
         );
       }
     }
-    final List<VideoDownloadJobSubtitleRow> subtitles =
-        await database.getVideoDownloadJobSubtitles(job.jobId);
+    final List<VideoDownloadJobSubtitleRow> subtitles = await database
+        .getVideoDownloadJobSubtitles(job.jobId);
     for (final VideoDownloadJobSubtitleRow subtitle in subtitles) {
       final String? uid = subtitle.jobFileId == null
           ? null
@@ -3060,8 +3127,8 @@ class VideoDownloadPipelineService {
         'Importing this content kind is not supported on this device',
       );
     }
-    final List<VideoDownloadJobFileRow> rows =
-        await database.getVideoDownloadJobFiles(job.jobId);
+    final List<VideoDownloadJobFileRow> rows = await database
+        .getVideoDownloadJobFiles(job.jobId);
     final List<String> paths = <String>[
       for (final VideoDownloadJobFileRow row in rows)
         if (row.finalAbsolutePath?.trim().isNotEmpty ?? false)
@@ -3110,10 +3177,10 @@ class VideoDownloadPipelineService {
   Future<void> _scrapeMedia(VideoDownloadJobRow job) async {
     _ensureLeaseHeld();
     final MediaSourceRow source = await _managedSource(job);
-    final VideoMetadataProviderKind? provider =
-        VideoMetadataProviderKind.values.asNameMap()[job.metadataProvider];
-    final VideoMetadataMediaKind? mediaKind =
-        VideoMetadataMediaKind.values.asNameMap()[job.mediaKind];
+    final VideoMetadataProviderKind? provider = VideoMetadataProviderKind.values
+        .asNameMap()[job.metadataProvider];
+    final VideoMetadataMediaKind? mediaKind = VideoMetadataMediaKind.values
+        .asNameMap()[job.mediaKind];
     if (provider == null || mediaKind == null || job.externalId == null) {
       throw const VideoDownloadPipelineActionRequired(
         'Confirmed discovery identity is missing; automatic fuzzy matching was not run',
@@ -3176,8 +3243,8 @@ class VideoDownloadPipelineService {
       final String message = report.errors.isNotEmpty
           ? report.errors.first.message
           : report.warnings.isNotEmpty
-              ? report.warnings.first.message
-              : 'Exact metadata scrape did not complete';
+          ? report.warnings.first.message
+          : 'Exact metadata scrape did not complete';
       throw VideoDownloadPipelineActionRequired(message);
     }
     await _releaseLeaseWith(
@@ -3198,35 +3265,33 @@ class VideoDownloadPipelineService {
     String? observedSavePath,
     String? targetRelativeRoot,
     bool resetAttempts = true,
-  }) =>
-      _releaseLeaseWith(
-        () => database.advanceVideoDownloadJobStage(
-          jobId: job.jobId,
-          workerId: workerId,
-          stage: stage,
-          nowAt: nowAt ?? DateTime.now().millisecondsSinceEpoch,
-          progress: 0,
-          backendTaskId: backendTaskId,
-          torrentHash: torrentHash,
-          observedSavePath: observedSavePath,
-          targetRelativeRoot: targetRelativeRoot,
-          resetAttempts: resetAttempts,
-        ),
-      );
+  }) => _releaseLeaseWith(
+    () => database.advanceVideoDownloadJobStage(
+      jobId: job.jobId,
+      workerId: workerId,
+      stage: stage,
+      nowAt: nowAt ?? DateTime.now().millisecondsSinceEpoch,
+      progress: 0,
+      backendTaskId: backendTaskId,
+      torrentHash: torrentHash,
+      observedSavePath: observedSavePath,
+      targetRelativeRoot: targetRelativeRoot,
+      resetAttempts: resetAttempts,
+    ),
+  );
 
   Future<void> _markNeedsAttention(
     VideoDownloadJobRow job,
     String error, {
     int? nowAt,
-  }) =>
-      _releaseLeaseWith(
-        () => database.markVideoDownloadJobNeedsAttention(
-          jobId: job.jobId,
-          workerId: workerId,
-          error: error,
-          nowAt: nowAt ?? DateTime.now().millisecondsSinceEpoch,
-        ),
-      );
+  }) => _releaseLeaseWith(
+    () => database.markVideoDownloadJobNeedsAttention(
+      jobId: job.jobId,
+      workerId: workerId,
+      error: error,
+      nowAt: nowAt ?? DateTime.now().millisecondsSinceEpoch,
+    ),
+  );
 
   Future<void> _releaseLeaseWith(Future<bool> Function() transition) async {
     final VideoDownloadLeaseGuard? lease = _activeLease;
@@ -3290,7 +3355,7 @@ class VideoDownloadPipelineService {
   }
 
   Future<({VideoDownloadPathMapping mapping, String localPath})>
-      _validateObservedSavePath(
+  _validateObservedSavePath(
     VideoDownloadJobRow job,
     List<VideoDownloadPathMapping> mappings,
   ) async {
@@ -3393,12 +3458,12 @@ class VideoDownloadPipelineService {
   VideoMediaReference _mediaReference(VideoDownloadJobRow job) {
     final VideoMetadataMediaKind mediaKind =
         VideoMetadataMediaKind.values.asNameMap()[job.mediaKind] ??
-            VideoMetadataMediaKind.tv;
+        VideoMetadataMediaKind.tv;
     final VideoDiscoveryCategory category =
         VideoDiscoveryCategory.values.asNameMap()[job.discoveryCategory] ??
-            (mediaKind == VideoMetadataMediaKind.movie
-                ? VideoDiscoveryCategory.movie
-                : VideoDiscoveryCategory.tv);
+        (mediaKind == VideoMetadataMediaKind.movie
+            ? VideoDiscoveryCategory.movie
+            : VideoDiscoveryCategory.tv);
     final String provider = job.metadataProvider ?? 'unknown';
     final String id = job.externalId ?? job.title;
     return VideoMediaReference(
@@ -3447,12 +3512,12 @@ class VideoDownloadPipelineService {
   static String _safeSubtitleExtension(String fileName) {
     final String extension = p.extension(fileName).toLowerCase();
     return const <String>{
-      '.srt',
-      '.ass',
-      '.ssa',
-      '.vtt',
-      '.sub',
-    }.contains(extension)
+          '.srt',
+          '.ass',
+          '.ssa',
+          '.vtt',
+          '.sub',
+        }.contains(extension)
         ? extension
         : '.srt';
   }
