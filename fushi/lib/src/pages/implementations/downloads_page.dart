@@ -89,6 +89,16 @@ int? animeDownloadSeason(AnimeDownloadPipelineSelection selection) {
   return season > 0 ? season : 1;
 }
 
+bool animeDownloadPreservesOriginalNames(
+  AnimeDownloadPipelineSelection selection,
+) {
+  final BangumiSubject? subject = selection.bangumiSubject;
+  return subject != null && subject.platform.trim().toUpperCase() != 'TV';
+}
+
+String _portableFileName(String path) =>
+    path.replaceAll('\\', '/').split('/').last;
+
 typedef JimakuFileBytesDownloader = Future<List<int>> Function(JimakuFile file);
 
 /// 将用户已经配对的 Jimaku 字幕直接写入最终任务目录。下载函数由调用方提供，
@@ -108,10 +118,29 @@ Future<List<String>> downloadAnimeSelectionSubtitles({
   final Directory directory = Directory(taskRoot);
   await directory.create(recursive: true);
   final String safeTitle = p.basename(taskRoot);
+  final bool preserveOriginalNames = animeDownloadPreservesOriginalNames(
+    selection,
+  );
   final List<String> installed = <String>[];
-  for (final (int? selectedEpisode, JimakuFile file) in selection.subtitles) {
+  for (int index = 0; index < selection.subtitles.length; index++) {
+    final (int? selectedEpisode, JimakuFile file) = selection.subtitles[index];
     final int? episode = selectedEpisode ?? file.episode;
-    final String stem = episode == null
+    final String? pairedVideoPath = index < selection.subtitleVideoPaths.length
+        ? selection.subtitleVideoPaths[index]
+        : null;
+    final String? pairedVideoName = pairedVideoPath == null
+        ? null
+        : _portableFileName(pairedVideoPath.trim());
+    final bool usePairedVideoName =
+        preserveOriginalNames &&
+        pairedVideoName != null &&
+        pairedVideoName.isNotEmpty;
+    final String stem = usePairedVideoName
+        ? _safeSubtitleOnlySegment(
+            p.basenameWithoutExtension(pairedVideoName),
+            fallback: safeTitle,
+          )
+        : episode == null
         ? _safeSubtitleOnlySegment(
             p.basenameWithoutExtension(file.name),
             fallback: safeTitle,
@@ -122,12 +151,10 @@ Future<List<String>> downloadAnimeSelectionSubtitles({
       detectJimakuSubtitleLanguage(file.name).toLowerCase(),
       fallback: 'ja',
     );
-    final File target = File(
-      p.join(
-        directory.path,
-        '$stem.$language${_subtitleOnlyExtension(file.name)}',
-      ),
-    );
+    final String targetName = usePairedVideoName
+        ? '$stem${_subtitleOnlyExtension(file.name)}'
+        : '$stem.$language${_subtitleOnlyExtension(file.name)}';
+    final File target = File(p.join(directory.path, targetName));
     if (await target.exists()) {
       final int length = await target.length();
       if (length > 0) {
@@ -147,7 +174,7 @@ Future<List<String>> downloadAnimeSelectionSubtitles({
 
 /// 把逐步选择界面的结果转换成 Fushi 原生持久下载任务。
 ///
-/// 类型只依据 Nyaa 标题的本地解析和 AniList 集数，不依赖远端条目的类型字段；
+/// TV 继续按季/集整理；已选择的 Bangumi 非 TV 条目保留种子视频文件名。
 /// 标题优先英文，缺少英文时使用日文原名。
 VideoDownloadEnqueueRequest buildAnimeDownloadEnqueueRequest({
   required AnimeDownloadPipelineSelection selection,
@@ -164,6 +191,9 @@ VideoDownloadEnqueueRequest buildAnimeDownloadEnqueueRequest({
       : null;
   final String native = selection.media.native?.trim() ?? '';
   final String canonicalTitle = animeDownloadCanonicalTitle(selection);
+  final bool preserveOriginalNames = animeDownloadPreservesOriginalNames(
+    selection,
+  );
   final List<String> aliases = animeTitleOptions(
     selection.media,
   ).where((String title) => title != canonicalTitle).toList(growable: false);
@@ -213,7 +243,9 @@ VideoDownloadEnqueueRequest buildAnimeDownloadEnqueueRequest({
           selected: file.selected,
         ),
     ],
-    organizationPolicy: kBangumiNamedVideoDownloadOrganizationPolicy,
+    organizationPolicy: preserveOriginalNames
+        ? kBangumiOriginalNamesVideoDownloadOrganizationPolicy
+        : kBangumiNamedVideoDownloadOrganizationPolicy,
     coverUrl: selection.media.coverUrl,
   );
 }

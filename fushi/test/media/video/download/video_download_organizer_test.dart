@@ -140,6 +140,61 @@ void main() {
     ]);
   });
 
+  test(
+    'non-TV resource task preserves every original video file name',
+    () async {
+      final Directory root = await Directory.systemTemp.createTemp(
+        'fushi-resource-original-names-',
+      );
+      addTearDown(() async {
+        if (await root.exists()) await root.delete(recursive: true);
+      });
+      final _FakeBackend backend = _FakeBackend(<TorrentFileEntry>[
+        const TorrentFileEntry(
+          name: '[Group] OVA Collection - 01 [1080p].mkv',
+          size: 100,
+          progress: 1,
+          index: 0,
+        ),
+        const TorrentFileEntry(
+          name: '[Group] OVA Collection - 02 [1080p].mp4',
+          size: 90,
+          progress: 1,
+          index: 1,
+        ),
+      ]);
+
+      final VideoOrganizationResult result =
+          await const VideoDownloadOrganizer().organize(
+        backend: backend,
+        request: VideoOrganizationRequest(
+          torrentId: 'hash',
+          title: 'Bangumi OVA 名称',
+          kind: VideoOrganizationKind.episodic,
+          includeYearInFolder: false,
+          useSeasonFolders: false,
+          preserveOriginalFileNames: true,
+          sourceRoot: root.path,
+          pathMapping: VideoDownloadPathMapping(
+            remoteRoot: '/library',
+            localRoot: root.path,
+          ),
+        ),
+      );
+
+      expect(result.ok, isTrue, reason: result.error);
+      expect(
+        result.files.map(
+          (VideoOrganizationFilePlan file) => file.targetRelativePath,
+        ),
+        <String>[
+          'Bangumi OVA 名称/[Group] OVA Collection - 01 [1080p].mkv',
+          'Bangumi OVA 名称/[Group] OVA Collection - 02 [1080p].mp4',
+        ],
+      );
+    },
+  );
+
   test('movie organizer chooses the largest video and keeps extras distinct',
       () async {
     final Directory root = await Directory.systemTemp.createTemp(

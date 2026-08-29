@@ -19,6 +19,7 @@ class VideoOrganizationRequest {
     this.defaultSeasonNumber = 1,
     this.includeYearInFolder = true,
     this.useSeasonFolders = true,
+    this.preserveOriginalFileNames = false,
   });
 
   final String torrentId;
@@ -28,6 +29,7 @@ class VideoOrganizationRequest {
   final int defaultSeasonNumber;
   final bool includeYearInFolder;
   final bool useSeasonFolders;
+  final bool preserveOriginalFileNames;
   final String sourceRoot;
   final VideoDownloadPathMapping pathMapping;
 }
@@ -126,7 +128,8 @@ class VideoDownloadOrganizer {
       mainMovie: mainMovie,
       classifyExtraDirectories: true,
     );
-    if (request.kind == VideoOrganizationKind.episodic &&
+    if (!request.preserveOriginalFileNames &&
+        request.kind == VideoOrganizationKind.episodic &&
         pass.recognizedEpisodes == 0) {
       pass = _planFiles(
         request,
@@ -139,7 +142,8 @@ class VideoDownloadOrganizer {
     }
     // 两种口径都一集认不出，才是真的与「剧集」判定不符（比如误标 kind）：全
     // Extras 的静默入库只会把问题藏起来，仍然显式失败。
-    if (request.kind == VideoOrganizationKind.episodic &&
+    if (!request.preserveOriginalFileNames &&
+        request.kind == VideoOrganizationKind.episodic &&
         pass.recognizedEpisodes == 0) {
       throw FormatException(
         'unable to determine episode number: ${videoFiles.first.name}',
@@ -181,7 +185,16 @@ class VideoDownloadOrganizer {
       // 「Making Video Collection - 05」和真正的第 5 集抢同一个目标名。所以
       // 先按目录判正片/特典、再解析集号；顺序反过来就只能靠撞号事后发现，
       // 而**没撞上的那些会被静默改名成正片**——后者才是更贵的一半。
-      if (request.kind == VideoOrganizationKind.episodic &&
+      if (request.preserveOriginalFileNames) {
+        final String originalLeaf = _segments(file.name).last;
+        final VideoNameInfo parsed = parseVideoFilename(originalLeaf);
+        episodeNumber = parsed.episode;
+        if (episodeNumber != null) {
+          seasonNumber = parsed.season ?? request.defaultSeasonNumber;
+          recognizedEpisodes += 1;
+        }
+        relative = _portableJoin(<String>[displayRoot, originalLeaf]);
+      } else if (request.kind == VideoOrganizationKind.episodic &&
           !(classifyExtraDirectories &&
               _isInExtraDirectory(file.name, sharedRoot: sharedRoot))) {
         final VideoNameInfo parsed =
@@ -191,7 +204,9 @@ class VideoDownloadOrganizer {
           seasonNumber = parsed.season ?? request.defaultSeasonNumber;
         }
       }
-      if (episodeNumber != null) {
+      if (request.preserveOriginalFileNames) {
+        // 已在上面按原文件名生成目标；这里只保留解析出的季/集元数据。
+      } else if (episodeNumber != null) {
         recognizedEpisodes += 1;
         final String season = seasonNumber.toString().padLeft(2, '0');
         final String episode = episodeNumber.toString().padLeft(2, '0');

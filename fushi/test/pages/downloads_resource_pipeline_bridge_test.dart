@@ -158,6 +158,78 @@ void main() {
     expect(request.subtitleSelections, isEmpty);
   });
 
+  test('非 TV 多集保留动画文件名并让字幕使用相同主文件名', () async {
+    final Directory root = await Directory.systemTemp.createTemp(
+      'fushi-resource-ova-',
+    );
+    addTearDown(() async {
+      if (await root.exists()) await root.delete(recursive: true);
+    });
+    final MediaSourceRow source = MediaSourceRow(
+      id: 11,
+      label: 'Anime',
+      mediaKind: 'video',
+      transport: 'local',
+      rootPath: root.path,
+      mediaCount: 0,
+      recursive: true,
+      sortOrder: 0,
+      createdAt: 1,
+    );
+    const AniListMedia media = AniListMedia(
+      id: 100,
+      english: 'Example OVA',
+      episodes: 2,
+    );
+    const BangumiSubject bangumi = BangumiSubject(
+      id: 200,
+      type: 2,
+      name: 'Example OVA',
+      nameCn: '示例 OVA',
+      platform: 'OVA',
+      episodeCount: 2,
+      volumeCount: 0,
+    );
+    const JimakuEntry entry = JimakuEntry(id: 300, name: 'Example OVA');
+    const JimakuFile subtitle = JimakuFile(
+      name: 'Example OVA 01.ja.ass',
+      url: 'https://jimaku.invalid/ova-file',
+    );
+    const String videoName = '[Group] Example OVA - 01 [1080p].mkv';
+    final AnimeDownloadPipelineSelection selection =
+        AnimeDownloadPipelineSelection(
+          media: media,
+          torrent: _torrent('[Group] Example OVA Batch [1080p]'),
+          source: source,
+          includeSubtitles: true,
+          jimakuEntry: entry,
+          subtitles: const <(int?, JimakuFile)>[(1, subtitle)],
+          subtitleVideoPaths: const <String?>[videoName],
+          preferredSubtitleLanguage: 'ja',
+          bangumiSubject: bangumi,
+        );
+
+    final VideoDownloadEnqueueRequest request =
+        buildAnimeDownloadEnqueueRequest(
+          selection: selection,
+          backendTarget: _backendTarget,
+          subtitlesPreinstalled: true,
+        );
+    expect(
+      request.organizationPolicy,
+      kBangumiOriginalNamesVideoDownloadOrganizationPolicy,
+    );
+
+    final List<String> installed = await downloadAnimeSelectionSubtitles(
+      selection: selection,
+      downloader: (JimakuFile _) async => <int>[1, 2, 3],
+    );
+    expect(
+      installed.single,
+      p.join(root.path, '示例 OVA', '[Group] Example OVA - 01 [1080p].ass'),
+    );
+  });
+
   test('Jimaku 文件没有明显语言标记时按日语提交并下载', () {
     const AniListMedia media = AniListMedia(
       id: 42,

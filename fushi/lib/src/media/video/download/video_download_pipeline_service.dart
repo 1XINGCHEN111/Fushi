@@ -57,6 +57,11 @@ enum VideoDownloadSubtitlePolicy { none, bestEffort, required }
 const String kBangumiNamedVideoDownloadOrganizationPolicy =
     'library-bangumi-folder';
 
+/// 资源下载页的非 TV 整理策略：仍使用 Bangumi 任务根目录，但保留种子里的
+/// 视频文件名；配对字幕由提交页使用相同主文件名预先落盘。
+const String kBangumiOriginalNamesVideoDownloadOrganizationPolicy =
+    'library-bangumi-original-names';
+
 /// 自动选字幕时最多真下几条候选来做时长校验（BUG-1697）。
 ///
 /// 候选可能有几十条（多语言 × 多压制组），全下一遍既慢又是对来源站的滥用。
@@ -2006,6 +2011,11 @@ class VideoDownloadPipelineService {
         (throw const VideoDownloadPipelineActionRequired(
           'The managed video source is outside every backend path mapping',
         ));
+    final bool bangumiResourceTask =
+        job.organizationPolicy ==
+            kBangumiNamedVideoDownloadOrganizationPolicy ||
+        job.organizationPolicy ==
+            kBangumiOriginalNamesVideoDownloadOrganizationPolicy;
     final VideoOrganizationRequest request = VideoOrganizationRequest(
       torrentId: hash,
       title: job.title,
@@ -2014,12 +2024,11 @@ class VideoDownloadPipelineService {
           ? VideoOrganizationKind.movie
           : VideoOrganizationKind.episodic,
       defaultSeasonNumber: job.season ?? 1,
-      includeYearInFolder:
-          job.organizationPolicy !=
-          kBangumiNamedVideoDownloadOrganizationPolicy,
-      useSeasonFolders:
-          job.organizationPolicy !=
-          kBangumiNamedVideoDownloadOrganizationPolicy,
+      includeYearInFolder: !bangumiResourceTask,
+      useSeasonFolders: !bangumiResourceTask,
+      preserveOriginalFileNames:
+          job.organizationPolicy ==
+          kBangumiOriginalNamesVideoDownloadOrganizationPolicy,
       sourceRoot: source.rootPath,
       pathMapping: mapping,
     );

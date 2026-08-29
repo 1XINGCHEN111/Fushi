@@ -110,6 +110,7 @@ class AnimeDownloadPipelineSelection {
     required this.preferredSubtitleLanguage,
     this.bangumiSubject,
     this.fileSelections = const <AnimeDownloadFileSelection>[],
+    this.subtitleVideoPaths = const <String?>[],
     this.contentMode = AnimeDownloadContentMode.both,
   });
 
@@ -122,6 +123,7 @@ class AnimeDownloadPipelineSelection {
   final String? preferredSubtitleLanguage;
   final BangumiSubject? bangumiSubject;
   final List<AnimeDownloadFileSelection> fileSelections;
+  final List<String?> subtitleVideoPaths;
   final AnimeDownloadContentMode contentMode;
 }
 
@@ -1946,6 +1948,23 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
     return selected;
   }
 
+  /// 与 [_workspaceSubmissionSubtitles] 同序记录每条字幕当前配对的视频。
+  /// 非 TV 任务不能靠集号重建文件名，因此必须把用户拖拽后的实际配对带到提交层。
+  List<String?> _workspaceSubmissionSubtitleVideoPaths() {
+    final List<String?> selected = <String?>[];
+    for (int index = 0; index < _workspaceSubtitleRows.length; index++) {
+      if (!_workspaceSelectedRows.contains(index) ||
+          _workspaceSubtitleRows[index] == null) {
+        continue;
+      }
+      final String video = index < _workspaceVideoRows.length
+          ? _workspaceVideoRows[index].trim()
+          : '';
+      selected.add(video.isEmpty ? null : video);
+    }
+    return selected;
+  }
+
   List<AnimeDownloadFileSelection> _workspaceFileSelections() {
     if (_workspaceTorrentFiles.isEmpty) {
       return const <AnimeDownloadFileSelection>[];
@@ -2053,6 +2072,9 @@ class _AnimeDownloadDialogState extends ConsumerState<AnimeDownloadDialog>
             fileSelections: widget.resourceWorkspace
                 ? _workspaceFileSelections()
                 : const <AnimeDownloadFileSelection>[],
+            subtitleVideoPaths: widget.resourceWorkspace && _includeSubs
+                ? _workspaceSubmissionSubtitleVideoPaths()
+                : const <String?>[],
           ),
         );
         if (!mounted) return;
