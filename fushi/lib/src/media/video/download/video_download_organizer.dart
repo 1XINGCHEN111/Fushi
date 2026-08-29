@@ -18,6 +18,7 @@ class VideoOrganizationRequest {
     this.year,
     this.defaultSeasonNumber = 1,
     this.includeYearInFolder = true,
+    this.useSeasonFolders = true,
   });
 
   final String torrentId;
@@ -26,6 +27,7 @@ class VideoOrganizationRequest {
   final VideoOrganizationKind kind;
   final int defaultSeasonNumber;
   final bool includeYearInFolder;
+  final bool useSeasonFolders;
   final String sourceRoot;
   final VideoDownloadPathMapping pathMapping;
 }
@@ -195,7 +197,7 @@ class VideoDownloadOrganizer {
         final String episode = episodeNumber.toString().padLeft(2, '0');
         relative = _portableJoin(<String>[
           displayRoot,
-          'Season $season',
+          if (request.useSeasonFolders) 'Season $season',
           '$displayRoot - S${season}E$episode$extension',
         ]);
       } else if (identical(file, mainMovie)) {

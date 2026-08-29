@@ -117,6 +117,7 @@ void main() {
         title: 'Bangumi 名称',
         year: 2026,
         includeYearInFolder: false,
+        useSeasonFolders: false,
         kind: VideoOrganizationKind.episodic,
         sourceRoot: root.path,
         pathMapping: VideoDownloadPathMapping(
@@ -129,12 +130,12 @@ void main() {
     expect(result.ok, isTrue, reason: result.error);
     expect(
       result.files.single.targetRelativePath,
-      'Bangumi 名称/Season 01/Bangumi 名称 - S01E01.mkv',
+      'Bangumi 名称/Bangumi 名称 - S01E01.mkv',
     );
     // 整理阶段只让下载后端改路径并移动存储，不调用转码/重封装，因此 MKV 内
     // 原有字幕轨和所有音频轨保持不变。
     expect(backend.operations, <String>[
-      'rename:0:Bangumi 名称/Season 01/Bangumi 名称 - S01E01.mkv',
+      'rename:0:Bangumi 名称/Bangumi 名称 - S01E01.mkv',
       'move:/library',
     ]);
   });

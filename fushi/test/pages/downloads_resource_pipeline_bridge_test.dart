@@ -284,7 +284,7 @@ void main() {
     expect(installed, hasLength(1));
     expect(
       installed.single,
-      p.join(root.path, '吹响！上低音号', 'Season 02', '吹响！上低音号 - S02E03.ja.ass'),
+      p.join(root.path, '吹响！上低音号', '吹响！上低音号 - S02E03.ja.ass'),
     );
     expect(await File(installed.single).readAsBytes(), <int>[1, 2, 3, 4]);
   });

@@ -105,10 +105,7 @@ Future<List<String>> downloadAnimeSelectionSubtitles({
   }
   final String taskRoot = animeDownloadTaskRootPath(selection);
   final int? season = animeDownloadSeason(selection);
-  final String directoryPath = season == null
-      ? taskRoot
-      : p.join(taskRoot, 'Season ${season.toString().padLeft(2, '0')}');
-  final Directory directory = Directory(directoryPath);
+  final Directory directory = Directory(taskRoot);
   await directory.create(recursive: true);
   final String safeTitle = p.basename(taskRoot);
   final List<String> installed = <String>[];

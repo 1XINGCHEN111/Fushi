@@ -2017,6 +2017,9 @@ class VideoDownloadPipelineService {
       includeYearInFolder:
           job.organizationPolicy !=
           kBangumiNamedVideoDownloadOrganizationPolicy,
+      useSeasonFolders:
+          job.organizationPolicy !=
+          kBangumiNamedVideoDownloadOrganizationPolicy,
       sourceRoot: source.rootPath,
       pathMapping: mapping,
     );
